@@ -1,0 +1,40 @@
+[project]
+name = "speechalerts"
+version = "0.1.0"
+description = "Real-time detector for company, ticker and industry mentions in live political speeches"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "anthropic>=1.5.0",
+    "deepgram-sdk>=7.8.1",
+    "fastapi>=0.141.1",
+    "firebase-admin>=6.5",
+    "httpx>=0.28.1",
+    "pyahocorasick>=2.3.1",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "sse-starlette>=3.4.11",
+    "uvicorn[standard]>=0.52.4",
+    "yt-dlp>=2026.8.19",
+]
+
+[project.scripts]
+speechalerts = "speechalerts.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.10.12,<0.11.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]

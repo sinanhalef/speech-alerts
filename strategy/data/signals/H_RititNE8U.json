@@ -1,0 +1,1082 @@
+{
+ "video": {
+  "id": "H_RititNE8U",
+  "url": "https://www.youtube.com/watch?v=H_RititNE8U",
+  "title": "The President Signs an Executive Order, Aug. 10, 2026",
+  "channel": "The White House",
+  "duration": 2484.0,
+  "was_live": true,
+  "release_timestamp": 1786387461.0,
+  "upload_timestamp": 1786390736.0,
+  "upload_date": "20260810",
+  "label": "Signs an executive order, Aug 10 2026",
+  "group": "recent",
+  "notes": "",
+  "t0": 1786387461.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 20,
+  "confirmed": 12,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 26
+ },
+ "signals": [
+  {
+   "signal_id": "H_RititNE8U:00022:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccine",
+   "text_span": "vaccine",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 22.5549989,
+   "t_wall": 1786387483.5549989,
+   "t_wall_et": "2026-08-10T14:44:43.554999-04:00",
+   "segment_text": "And as a vaccine EO,",
+   "context": "Hi. Well, thank you very much. And this is, something very important for all of us. And as a vaccine EO, I'm delighted to be here in the Oval Office as our administration takes another historic step in our mission to make America healthy again.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:00097:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccines",
+   "text_span": "vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 97.99075235849057,
+   "t_wall": 1786387558.9907525,
+   "t_wall_et": "2026-08-10T14:45:58.990752-04:00",
+   "segment_text": "For long and far too long long period of time, America's recommended more childhood vaccines than any peer nation and even twice as many doses as some European",
+   "context": "deputy assistant to the president of domestic policy, doctor Heidi Overton, our MAHA moms, and including Jamie Franklin, who's with us today, a very special person, and also the medical experts and professionals who've worked very hard on getting this to happen this day to come. For long and far too long long period of time, America's recommended more childhood vaccines than any peer nation and even twice as many doses as some European",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Vaccine makers",
+    "tickers": [
+     "PFE",
+     "MRNA",
+     "NVAX"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "America's recommended more childhood vaccines than any peer nation",
+    "summary": "The President criticizes US childhood vaccine recommendations as excessive vs peers."
+   },
+   "llm_attempts": 1,
+   "count": 16,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Reduced core vaccine schedule and hepatitis B/MMR changes threaten Pfizer's pediatric vaccine sales volume.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRNA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Narrower official vaccine recommendations and skepticism toward combo vaccines add regulatory/reputational headwinds for Moderna's pipeline.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVAX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Broad anti-vaccine policy shift creates negative sentiment overhang for smaller vaccine maker Novavax.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of a reduced 'gold standard' childhood vaccine schedule and criticism of current vaccination practices is a new, negative development for vaccine manufacturers, implying lower future volumes and heightened regulatory scrutiny.",
+    "raw": "{\"tickers\":[{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Reduced core vaccine schedule and hepatitis B/MMR changes threaten Pfizer's pediatric vaccine sales volume.\",\"added\":false},{\"ticker\":\"MRNA\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Narrower official vaccine recommendations and skepticism toward combo vaccines add regulatory/reputational headwinds for Moderna's pipeline.\",\"added\":false},{\"ticker\":\"NVAX\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Broad anti-vaccine policy shift creates negative sentiment overhang for smaller vaccine maker Novavax.\",\"added\":false}],\"summary\":\"The President's announcement of a reduced 'gold standard' childhood vaccine schedule and criticism of current vaccination practices is a new, negative development for vaccine manufacturers, implying lower future volumes and heightened regulatory scrutiny.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:00397:defense_word",
+   "video_id": "H_RititNE8U",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "breaking up"
+   ],
+   "t_audio": 397.79036482758625,
+   "t_wall": 1786387858.7903647,
+   "t_wall_et": "2026-08-10T14:50:58.790365-04:00",
+   "segment_text": "the vaccines and we're breaking them up in 2 time periods.",
+   "context": "So now I'd like to have, Bobby say a few words followed by Jay, Heidi, and Jamie, and then I'll sign the executive order, which I'm very excited about. Because I came in and I said, wanna find what's going on with autism. It's many, many times what it used to be years ago, and it gets progressively worse. And we had progressively more and more vaccines. So in a nutshell, and you can see it through this, we're breaking up the vaccines and we're breaking them up in 2 time periods. Okay? Not so complicated.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:00707:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccines",
+   "text_span": "vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 707.2575903614458,
+   "t_wall": 1786388168.2575903,
+   "t_wall_et": "2026-08-10T14:56:08.257590-04:00",
+   "segment_text": "We will preserve access to vaccines, strengthen safety monitoring, expand research,",
+   "context": "As in the President, and it mentions a number that 72 jabs before 18, but it actually could be up to 94 jabs, and nobody else has anything like that. And then many other countries or most other countries achieve high vaccination rates through education, informed consent, and public trust rather than mandates. Today, this executive order, you are building on that work and acting on that evidence. We will preserve access to vaccines, strengthen safety monitoring, expand research, give doctors and parents better information,",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:00766:aluminum",
+   "video_id": "H_RititNE8U",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 766.0745205479452,
+   "t_wall": 1786388227.0745206,
+   "t_wall_et": "2026-08-10T14:57:07.074521-04:00",
+   "segment_text": "We're examining aluminum adjuvants, the timing of the hepatitis b vaccine",
+   "context": "and long term health outcomes in American children. We are putting some of the largest health datasets in the country to work, including the CDC's vaccine safety data link, FDA's best systems, and other major federal and private health data sources. We're pursuing dozens of studies and analyses. We are comparing health outcomes in vaccinated versus unvaccinated children. We're examining aluminum adjuvants, the timing of the hepatitis b vaccine administered during vaccines administered during pregnancy and outcomes ranging from allergies",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:00769:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccine",
+   "text_span": "vaccine",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 769.307397260274,
+   "t_wall": 1786388230.3073974,
+   "t_wall_et": "2026-08-10T14:57:10.307397-04:00",
+   "segment_text": "We're examining aluminum adjuvants, the timing of the hepatitis b vaccine",
+   "context": "and long term health outcomes in American children. We are putting some of the largest health datasets in the country to work, including the CDC's vaccine safety data link, FDA's best systems, and other major federal and private health data sources. We're pursuing dozens of studies and analyses. We are comparing health outcomes in vaccinated versus unvaccinated children. We're examining aluminum adjuvants, the timing of the hepatitis b vaccine administered during vaccines administered during pregnancy and outcomes ranging from allergies",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:00889:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccines",
+   "text_span": "vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 889.3772956962025,
+   "t_wall": 1786388350.3772957,
+   "t_wall_et": "2026-08-10T14:59:10.377296-04:00",
+   "segment_text": "Our task force on safer childhood vaccines was established by congress in 1986,",
+   "context": "We have just over 2 years to finish the work, and I know you're impatient. And we are moving with urgency urgency as that that deadline demands. We will bring you actions and findings as soon as they are ready. We will not wait for the 90 day period. And within 90 days, as you have directed, we will deliver the full response required by this executive order. Our task force on safer childhood vaccines was established by congress in 1986, but went dormant in 1998.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:01119:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccines",
+   "text_span": "vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1119.8291052631578,
+   "t_wall": 1786388580.8291054,
+   "t_wall_et": "2026-08-10T15:03:00.829105-04:00",
+   "segment_text": "politically correct things and you and you all of a sudden have this link, your sign as as a scientist, you you fear that your career is gonna be over. What we've done in this administration administration is is we've we've given permission to scientists to honestly answer this question, to find the link for the 1st time. And with this the change in the vaccines recommendations",
+   "context": "You've you've given them permission to ask the question that would otherwise have been difficult to answer other where it where, you know, it's it's if you come to an answer that links autism to some other politically correct things and you and you all of a sudden have this link, your sign as as a scientist, you you fear that your career is gonna be over. What we've done in this administration administration is is we've we've given permission to scientists to honestly answer this question, to find the link for the 1st time. And with this the change in the vaccines recommendations that the president has signed, what you have given is parents a choice, autonomy, a decision making over how they want the vaccines",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Vaccine makers",
+    "tickers": [
+     "PFE",
+     "MRNA",
+     "NVAX"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "change in the vaccines recommendations that the president has signed, parents a choice",
+    "summary": "the administration changed vaccine recommendations, emphasizing parental choice and autonomy over vaccines."
+   },
+   "llm_attempts": 2,
+   "count": 17,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Weakened vaccine recommendations and parental opt-out policy could reduce vaccine uptake and demand for Pfizer's vaccine products.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRNA",
+      "direction": "down",
+      "confidence": 0.62,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Moderna is heavily reliant on vaccine sales, so reduced mandates and eroded public trust in vaccines threaten its core revenue.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVAX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "As a vaccine-focused company, Novavax faces similar demand headwinds from loosened vaccine mandates and skepticism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reinforcing changed vaccine recommendations and parental autonomy over vaccination signal a policy shift that undermines vaccine mandates/uptake, a modest negative for vaccine makers PFE, MRNA, and NVAX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Weakened vaccine recommendations and parental opt-out policy could reduce vaccine uptake and demand for Pfizer's vaccine products.\", \"added\": false}, {\"ticker\": \"MRNA\", \"direction\": \"down\", \"confidence\": 0.62, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Moderna is heavily reliant on vaccine sales, so reduced mandates and eroded public trust in vaccines threaten its core revenue.\", \"added\": false}, {\"ticker\": \"NVAX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"As a vaccine-focused company, Novavax faces similar demand headwinds from loosened vaccine mandates and skepticism.\", \"added\": false}], \"summary\": \"The President's remarks reinforcing changed vaccine recommendations and parental autonomy over vaccination signal a policy shift that undermines vaccine mandates/uptake, a modest negative for vaccine makers PFE, MRNA, and NVAX.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:01246:pharma",
+   "video_id": "H_RititNE8U",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1246.2955285714286,
+   "t_wall": 1786388707.2955287,
+   "t_wall_et": "2026-08-10T15:05:07.295529-04:00",
+   "segment_text": "from the pharmaceutical industry and from aspects of the medical industry to pump your kids full of shots",
+   "context": "Millions and millions of parents feel they've been pressured when their children are just weeks out out of of the the hospital to take 5 shots, 6 shots, 7 shots all at once. They're told it'll be normal. Your kid will have a fever of a 103 for 3 or 4 days. Your kid will stop eating for a week. Your kid's gonna change all their sleep. Don't worry. It's totally fine. It's totally normal. Nobody has studied it. Nobody's looked at it. Nobody's thought about it. The pressure from the pharmaceutical industry and from aspects of the medical industry to pump your kids full of shots",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "pressure from the pharmaceutical industry to pump your kids full of shots",
+    "summary": "The President criticizes pharmaceutical industry for pressuring parents to give children multiple vaccines simultaneously."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Executive order and rhetoric targeting vaccine schedules signals regulatory risk for healthcare sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF exposed to criticism of vaccine industry practices and potential policy changes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pfizer is a major vaccine maker directly implicated by criticism of childhood vaccine schedules and an executive order targeting the practice.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Lilly has minimal vaccine exposure so this remark is largely irrelevant to it.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Merck is a leading pediatric vaccine manufacturer directly targeted by the criticism and new executive order.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks and accompanying executive order criticize the pharmaceutical industry over pediatric vaccine schedules, creating negative regulatory sentiment for vaccine-heavy pharma names (PFE, MRK) and broader pharma/healthcare ETFs (XLV, XPH), while having little direct impact on non-vaccine-focused LLY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Executive order and rhetoric targeting vaccine schedules signals regulatory risk for healthcare sector broadly.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Pharma-specific ETF exposed to criticism of vaccine industry practices and potential policy changes.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Pfizer is a major vaccine maker directly implicated by criticism of childhood vaccine schedules and an executive order targeting the practice.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Lilly has minimal vaccine exposure so this remark is largely irrelevant to it.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Merck is a leading pediatric vaccine manufacturer directly targeted by the criticism and new executive order.\", \"added\": false}], \"summary\": \"The President's remarks and accompanying executive order criticize the pharmaceutical industry over pediatric vaccine schedules, creating negative regulatory sentiment for vaccine-heavy pharma names (PFE, MRK) and broader pharma/healthcare ETFs (XLV, XPH), while having little direct impact on non-vaccine-focused LLY.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:01901:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccines",
+   "text_span": "vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1901.5806444444445,
+   "t_wall": 1786389362.5806444,
+   "t_wall_et": "2026-08-10T15:16:02.580644-04:00",
+   "segment_text": "and who will be, I think, a great attorney general. Yeah, please. Thank you, mister president. Why does the establishment media so often seem to be against even asking questions about vaccines? It's amazing.",
+   "context": "something that I think will have an a huge impact on autism. Yeah. Mister president Mister president president ma'am. Go. The anti weaponization plan, do you think it's still alive at this point, and are there any options that you're looking at to Well, that'll be up to Todd Blanche. He was our new and who will be, I think, a great attorney general. Yeah, please. Thank you, mister president. Why does the establishment media so often seem to be against even asking questions about vaccines? It's amazing. When you come up with a recommendation for a vaccine,",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:01908:pharma",
+   "video_id": "H_RititNE8U",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1908.109542857143,
+   "t_wall": 1786389369.1095428,
+   "t_wall_et": "2026-08-10T15:16:09.109543-04:00",
+   "segment_text": "groups, the pharmaceutical groups. I don't know. You know? But,",
+   "context": "something that I think will have an a huge impact on autism. Yeah. Mister president Mister president president ma'am. Go. The anti weaponization plan, do you think it's still alive at this point, and are there any options that you're looking at to Well, that'll be up to Todd Blanche. He was our new and who will be, I think, a great attorney general. Yeah, please. Thank you, mister president. Why does the establishment media so often seem to be against even asking questions about vaccines? It's amazing. When you come up with a recommendation for a vaccine, it could be the medical groups, the pharmaceutical groups. I don't know. You know? But,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "pharmaceutical groups, I don't know",
+    "summary": "The President expresses skepticism about pharmaceutical industry influence on vaccine recommendations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector-wide vague criticism, no policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General distrust of pharma influence on vaccine policy is mildly negative for pharma sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vaccine maker implicated in skepticism about pharma-driven vaccine recommendations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not a major vaccine player, limited direct relevance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Major vaccine manufacturer exposed to renewed vaccine-safety rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's vague skepticism toward pharmaceutical influence on vaccine policy is mildly negative for vaccine-heavy pharma names and the pharma sector, but non-specific and mostly repeat rhetoric, limiting magnitude and confidence.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Sector-wide vague criticism, no policy specifics.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General distrust of pharma influence on vaccine policy is mildly negative for pharma sector ETF.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Vaccine maker implicated in skepticism about pharma-driven vaccine recommendations.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not a major vaccine player, limited direct relevance.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Major vaccine manufacturer exposed to renewed vaccine-safety rhetoric.\",\"added\":false}],\"summary\":\"The President's vague skepticism toward pharmaceutical influence on vaccine policy is mildly negative for vaccine-heavy pharma names and the pharma sector, but non-specific and mostly repeat rhetoric, limiting magnitude and confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:01999:tm",
+   "video_id": "H_RititNE8U",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants",
+    "tariff"
+   ],
+   "t_audio": 1999.35,
+   "t_wall": 1786389460.35,
+   "t_wall_et": "2026-08-10T15:17:40.350000-04:00",
+   "segment_text": "Toyota",
+   "context": "investment that have come in, can you feel vindicated at this point? So we're doing record increases in The United States in manufacturing. A lot of that has to do with the tariffs because companies are coming in. They're not able to sell their product unless because they have no tariff if they build their product, whether it's a car or something else. If they make it in The United States, there is no tariff. So they're coming in. We have a record number of factories under construction, factories, plants, things as such. Toyota just announced that they're building the largest the largest car,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.72,
+    "quote": "Toyota just announced that they're building the largest the largest car",
+    "summary": "Toyota announced construction of largest car factory in US due to tariff policy."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President highlights Toyota's plan to build its largest car plant in the US, avoiding tariffs, which is a positive investment signal though details are vague and possibly already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark frames Toyota's US plant investment positively as a tariff-driven manufacturing win, a mild long-term positive for TM but limited near-term tradable news value.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President highlights Toyota's plan to build its largest car plant in the US, avoiding tariffs, which is a positive investment signal though details are vague and possibly already known.\", \"added\": false}], \"summary\": \"The President's remark frames Toyota's US plant investment positively as a tariff-driven manufacturing win, a mild long-term positive for TM but limited near-term tradable news value.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02011:mexico",
+   "video_id": "H_RititNE8U",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 2011.3224257425743,
+   "t_wall": 1786389472.3224258,
+   "t_wall_et": "2026-08-10T15:17:52.322426-04:00",
+   "segment_text": "in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States.",
+   "context": "companies are coming in. They're not able to sell their product unless because they have no tariff if they build their product, whether it's a car or something else. If they make it in The United States, there is no tariff. So they're coming in. We have a record number of factories under construction, factories, plants, things as such. Toyota just announced that they're building the largest the largest car, plant. They make cars, plant, in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "They are leaving Mexico and they're coming to The United States.",
+    "summary": "Toyota relocating largest car plant from Mexico to United States."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that manufacturers including Toyota are leaving Mexico for the US due to tariffs, a negative signal for Mexican industrial investment though largely already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's tariff rhetoric emphasizes manufacturers relocating from Mexico to the US, a mild negative for Mexico-exposed assets like EWW, though the claim is largely a repeat of prior statements.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that manufacturers including Toyota are leaving Mexico for the US due to tariffs, a negative signal for Mexican industrial investment though largely already known.\", \"added\": false}], \"summary\": \"The President's tariff rhetoric emphasizes manufacturers relocating from Mexico to the US, a mild negative for Mexico-exposed assets like EWW, though the claim is largely a repeat of prior statements.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02016:ai_word",
+   "video_id": "H_RititNE8U",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants"
+   ],
+   "t_audio": 2016.1480769230768,
+   "t_wall": 1786389477.148077,
+   "t_wall_et": "2026-08-10T15:17:57.148077-04:00",
+   "segment_text": "Many, many car plants, AI,",
+   "context": "because they have no tariff if they build their product, whether it's a car or something else. If they make it in The United States, there is no tariff. So they're coming in. We have a record number of factories under construction, factories, plants, things as such. Toyota just announced that they're building the largest the largest car, plant. They make cars, plant, in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States. Many, many car plants, AI, other you know, they're they're opening. I will say that,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "AI, other you know, they're they're opening.",
+    "summary": "The President notes AI sector companies are opening plants in the US due to tariff incentives."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague mention of AI plant openings is not specific new information for NVDA.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General tariff/manufacturing rhetoric without new semiconductor-specific policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar tariff-driven reshoring rhetoric with only a passing, vague reference to AI plants opening; no new, ticker-specific catalyst for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague mention of AI plant openings is not specific new information for NVDA.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General tariff/manufacturing rhetoric without new semiconductor-specific policy detail.\", \"added\": false}], \"summary\": \"The President's remarks reiterate familiar tariff-driven reshoring rhetoric with only a passing, vague reference to AI plants opening; no new, ticker-specific catalyst for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02020:canada",
+   "video_id": "H_RititNE8U",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2020.8666588235294,
+   "t_wall": 1786389481.866659,
+   "t_wall_et": "2026-08-10T15:18:01.866659-04:00",
+   "segment_text": "they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "context": "Toyota just announced that they're building the largest the largest car, plant. They make cars, plant, in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States. Many, many car plants, AI, other you know, they're they're opening. I will say that, they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They're leaving Canada.",
+    "summary": "The President states Toyota is leaving Canada due to 25% tariff threat."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that manufacturers are leaving Canada due to tariffs, a negative signal for Canadian industrial base though largely repeat rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reinforce existing tariff policy driving manufacturing relocation from Canada to the US, a mild negative for Canada-exposed equities (EWC) but mostly repeated rhetoric with limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that manufacturers are leaving Canada due to tariffs, a negative signal for Canadian industrial base though largely repeat rhetoric.\", \"added\": false}], \"summary\": \"The President's remarks reinforce existing tariff policy driving manufacturing relocation from Canada to the US, a mild negative for Canada-exposed equities (EWC) but mostly repeated rhetoric with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02023:germany",
+   "video_id": "H_RititNE8U",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tariff"
+   ],
+   "t_audio": 2023.1066352941175,
+   "t_wall": 1786389484.1066353,
+   "t_wall_et": "2026-08-10T15:18:04.106635-04:00",
+   "segment_text": "they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "context": "Toyota just announced that they're building the largest the largest car, plant. They make cars, plant, in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States. Many, many car plants, AI, other you know, they're they're opening. I will say that, they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They're leaving Germany.",
+    "summary": "The President states Toyota is leaving Germany due to 25% tariff threat."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that manufacturers are leaving Germany for the US due to tariffs, a mild negative for German industrial base sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated tariff rhetoric claims automakers are relocating from Germany to the US, a mildly negative signal for German equities (EWG) though largely already-known policy.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWG\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President reiterates that manufacturers are leaving Germany for the US due to tariffs, a mild negative for German industrial base sentiment.\",\"added\":false}],\"summary\":\"The President's repeated tariff rhetoric claims automakers are relocating from Germany to the US, a mildly negative signal for German equities (EWG) though largely already-known policy.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02024:japan",
+   "video_id": "H_RititNE8U",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 2024.2732897058822,
+   "t_wall": 1786389485.2732897,
+   "t_wall_et": "2026-08-10T15:18:05.273290-04:00",
+   "segment_text": "they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "context": "Toyota just announced that they're building the largest the largest car, plant. They make cars, plant, in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States. Many, many car plants, AI, other you know, they're they're opening. I will say that, they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They're leaving Japan.",
+    "summary": "The President states Toyota is leaving Japan due to 25% tariff threat."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that manufacturers like Toyota are leaving Japan for the US to avoid tariffs, a mild negative for Japanese industrial base sentiment though largely already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's tariff rhetoric highlights manufacturers relocating from Japan to the US, a modest negative for Japan-exposed equities via EWJ, though this restates known tariff policy rather than new news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that manufacturers like Toyota are leaving Japan for the US to avoid tariffs, a mild negative for Japanese industrial base sentiment though largely already known.\", \"added\": false}], \"summary\": \"The President's tariff rhetoric highlights manufacturers relocating from Japan to the US, a modest negative for Japan-exposed equities via EWJ, though this restates known tariff policy rather than new news.\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02025:korea",
+   "video_id": "H_RititNE8U",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 2025.3466117647058,
+   "t_wall": 1786389486.3466117,
+   "t_wall_et": "2026-08-10T15:18:06.346612-04:00",
+   "segment_text": "they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "context": "Toyota just announced that they're building the largest the largest car, plant. They make cars, plant, in the world, anywhere in the world. They are leaving Mexico and they're coming to The United States. Many, many car plants, AI, other you know, they're they're opening. I will say that, they're leaving Canada. They're leaving Mexico. They're leaving Germany. They're leaving Japan. They're leaving South Korea. They're coming into The United States because they don't wanna pay a 25% tariff",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They're leaving South Korea.",
+    "summary": "The President states Toyota is leaving South Korea due to 25% tariff threat."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's claim that manufacturers are leaving South Korea due to tariffs is a mild negative signal for Korean industrial competitiveness, though largely reiterating known tariff policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates that companies are relocating manufacturing to the US to avoid a 25% auto tariff, naming South Korea among countries losing plants; this is a mild, largely repeat negative for South Korea exposure (EWY).",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's claim that manufacturers are leaving South Korea due to tariffs is a mild negative signal for Korean industrial competitiveness, though largely reiterating known tariff policy.\", \"added\": false}], \"summary\": \"The President reiterates that companies are relocating manufacturing to the US to avoid a 25% auto tariff, naming South Korea among countries losing plants; this is a mild, largely repeat negative for South Korea exposure (EWY).\"}"
+   }
+  },
+  {
+   "signal_id": "H_RititNE8U:02059:vaccines",
+   "video_id": "H_RititNE8U",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccine",
+   "text_span": "vaccine",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2059.69776373057,
+   "t_wall": 1786389520.6977637,
+   "t_wall_et": "2026-08-10T15:18:40.697764-04:00",
+   "segment_text": "will get a lot of credit for what I've done. It's please remember it was me, not them. Mister president, I think I heard you say that the MMR vaccine for this mumps and rubella is quite lethal.",
+   "context": "and they don't have to pay a tariff if they make it here. So we have the largest number of plants ever being built in The United States right now. Hard to believe. Right? Because if you listen to some of our past projects, we'd never be a manufacturing country again. And these plants are gonna be start opening up in about 6 months. And I can only say that the the next president will get a lot of credit for what I've done. It's please remember it was me, not them. Mister president, I think I heard you say that the MMR vaccine for this mumps and rubella is quite lethal. Is there any evidence of of that?",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "H_RititNE8U:02319:steel",
+   "video_id": "H_RititNE8U",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2319.343888888889,
+   "t_wall": 1786389780.343889,
+   "t_wall_et": "2026-08-10T15:23:00.343889-04:00",
+   "segment_text": "It's a steel wall,",
+   "context": "involved in running our country, and that's what we have. We have people that are saying things that are so great. Now they're denying it, or they say, well, I've changed my mind. They wanted to fund our police. They wanna terminate our military. No military. We don't want any military in our country. We don't want our police to be paid anymore. They want our police down to, like, almost nothing. It's like doesn't make sense. Right? But you gonna have to go back to the subject of Iran, sir. Can you give us any estimate of what you think the Strait Of Bourbon is going to be Well, it's open now. We're taking a lot of shit. It's open now. Look. The only 1 that has control of the Strait Of Hormuz right now is the United States Navy. We have a blockade that's been infallible. It's a steel wall,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "It's a steel wall, infallible blockade.",
+    "summary": "The President describes US Navy blockade as steel wall, metaphorically praising durability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Metaphorical use of 'steel wall' about naval blockade has no bearing on steel demand or policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No actual steel industry policy or tariff content in this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Reference to steel is purely figurative, unrelated to Cleveland-Cliffs' business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No new steel policy or demand signal in this geopolitical commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected by a metaphorical 'steel wall' reference in Iran commentary.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is geopolitical rhetoric about Iran and the Strait of Hormuz with a metaphorical steel reference; it contains no material new information for steel-sector equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Metaphorical use of 'steel wall' about naval blockade has no bearing on steel demand or policy.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No actual steel industry policy or tariff content in this remark.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Reference to steel is purely figurative, unrelated to Cleveland-Cliffs' business.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No new steel policy or demand signal in this geopolitical commentary.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected by a metaphorical 'steel wall' reference in Iran commentary.\", \"added\": false}], \"summary\": \"The remark is geopolitical rhetoric about Iran and the Strait of Hormuz with a metaphorical steel reference; it contains no material new information for steel-sector equities.\"}"
+   }
+  }
+ ]
+}

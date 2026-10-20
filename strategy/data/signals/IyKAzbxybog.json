@@ -1,0 +1,949 @@
+{
+ "video": {
+  "id": "IyKAzbxybog",
+  "url": "https://www.youtube.com/watch?v=IyKAzbxybog",
+  "title": "The President Delivers Remarks to Farmers",
+  "channel": "The White House",
+  "duration": 2257.0,
+  "was_live": true,
+  "release_timestamp": 1774629161.0,
+  "upload_timestamp": 1774632178.0,
+  "upload_date": "20260327",
+  "label": "Delivers Remarks to Farmers",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1774629161.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 12,
+  "confirmed": 10,
+  "retracted": 2,
+  "unconfirmed": 0,
+  "llm_calls": 12
+ },
+ "signals": [
+  {
+   "signal_id": "IyKAzbxybog:00082:farmers",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 82.54261467889908,
+   "t_wall": 1774629243.5426147,
+   "t_wall_et": "2026-03-27T12:34:03.542615-04:00",
+   "segment_text": "But I'm thrilled to welcome all of you to the South Lawn for the single largest gathering of American farmers",
+   "context": "Well, thank you very much everybody. It's a great honor to have you at this this beautiful house. It's a beautiful house. There's no other house like it. I've seen them all, believe me, and this 1 is tops. But I'm thrilled to welcome all of you to the South Lawn for the single largest gathering of American farmers",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "single largest gathering of American farmers",
+    "summary": "The President welcomes farmers to South Lawn event, signaling agricultural sector engagement."
+   },
+   "llm_attempts": 1,
+   "count": 19,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Announced $12B in farmer aid signals government support for agriculture broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Farmer subsidies could modestly support fertilizer demand and farm input spending.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Extra farmer cash could marginally boost equipment purchasing power.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Farmer aid package is a mild positive signal for ag commodity sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Similar mild positive sentiment for soybean-linked ETF from farmer support news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Support for farm sector could modestly benefit agribusiness processors like ADM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts a $12B farmer aid package and hosts a large pro-farmer event, a mildly positive but largely already-known signal for agriculture-linked equities and commodity ETFs, with no new specific policy details to drive large moves.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Announced $12B in farmer aid signals government support for agriculture broadly.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Farmer subsidies could modestly support fertilizer demand and farm input spending.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Extra farmer cash could marginally boost equipment purchasing power.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Farmer aid package is a mild positive signal for ag commodity sentiment.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Similar mild positive sentiment for soybean-linked ETF from farmer support news.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Support for farm sector could modestly benefit agribusiness processors like ADM.\", \"added\": false}], \"summary\": \"The President touts a $12B farmer aid package and hosts a large pro-farmer event, a mildly positive but largely already-known signal for agriculture-linked equities and commodity ETFs, with no new specific policy details to drive large moves.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:00623:china",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 623.1031818181817,
+   "t_wall": 1774629784.1031818,
+   "t_wall_et": "2026-03-27T12:43:04.103182-04:00",
+   "segment_text": "in American soybeans to China. I wanna thank President Xi of China",
+   "context": "have stood strong and fought hard and gotten it. But the Democrats voted against every single provision that I just mentioned including the tax reductions and including frankly the estate tax. But we delivered. The Republicans delivered for the farmers and it was not easy because the opposition to farmers by Democrats is very strong. Thanks to our trade deals, you're now sending over $40,000,000,000 in American soybeans to China. I wanna thank President Xi of China",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "sending over $40,000,000,000 in American soybeans to China",
+    "summary": "The President credits trade deals for $40 billion in US soybean exports to China."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Soybean deal is US agriculture-positive but not directly relevant to broad Chinese large-cap index composition.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Improved trade tone is mildly supportive for China sentiment but this is a reiteration of already-known soybean deal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Internet sector unrelated to agricultural trade remark, effect ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates the already-known $40B soybean deal with China, a positive but stale trade narrative that has limited direct pricing impact on broad China equity ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Soybean deal is US agriculture-positive but not directly relevant to broad Chinese large-cap index composition.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Improved trade tone is mildly supportive for China sentiment but this is a reiteration of already-known soybean deal.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Internet sector unrelated to agricultural trade remark, effect ambiguous.\",\"added\":false}],\"summary\":\"The President reiterates the already-known $40B soybean deal with China, a positive but stale trade narrative that has limited direct pricing impact on broad China equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:00667:eu",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 667.467365,
+   "t_wall": 1774629828.467365,
+   "t_wall_et": "2026-03-27T12:43:48.467365-04:00",
+   "segment_text": "dairy products, biofuels across Asia, Europe, South America,",
+   "context": "And he said, what are you talking about? I said, could you make it 40 instead of 20? And he overrode all of his people. He said, alright. I'll do it. And he got 40 instead of 20. So now you go out and buy bigger tractors. What can I tell you? Remember when that was announced? Everybody was surprised. Everybody thought it was gonna be 20. He was very good. But the American soybeans are now being shipped to China in record amounts and we expanded markets for American beef, dairy products, biofuels across Asia, Europe, South America,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "expanded markets for American beef, dairy products, biofuels across Asia, Europe",
+    "summary": "The President claims expanded market access for US agricultural products in Europe."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General claim of expanded ag exports to Europe is not specific or new enough to move broad European equity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague reference to Europe as an export market has negligible impact on eurozone equity index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about farm exports to Europe carries no material implication for large-cap eurozone stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely celebratory rhetoric about soybean and ag trade deals with China and broad claims of expanded exports to Europe, offering no new, actionable information for European equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General claim of expanded ag exports to Europe is not specific or new enough to move broad European equity ETF.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague reference to Europe as an export market has negligible impact on eurozone equity index.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about farm exports to Europe carries no material implication for large-cap eurozone stocks.\", \"added\": false}], \"summary\": \"The remark is largely celebratory rhetoric about soybean and ag trade deals with China and broad claims of expanded exports to Europe, offering no new, actionable information for European equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:00686:farmers",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 686.0783771636363,
+   "t_wall": 1774629847.0783772,
+   "t_wall_et": "2026-03-27T12:44:07.078377-04:00",
+   "segment_text": "come to my office a lot and they never... They just... Sir, please just give us a level playing field. Others want more than that. They want everything. The farmers want a level playing field and it's... I talk about it all the time. That's all they want because you were you",
+   "context": "But the American soybeans are now being shipped to China in record amounts and we expanded markets for American beef, dairy products, biofuels across Asia, Europe, South America, like we've never had before. Our farmers and agricultural producers do not want handouts. They really don't. The farmers come to my office a lot and they never... They just... Sir, please just give us a level playing field. Others want more than that. They want everything. The farmers want a level playing field and it's... I talk about it all the time. That's all they want because you were you",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "farmers want a level playing field",
+    "summary": "The President praises farmers, expands agricultural exports to Asia, Europe, South America."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions record soybean shipments to China, supportive for soybean prices though largely already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific corn-related news beyond general farm support rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad agricultural commodity index could get mild lift from expanded export talk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fertilizer maker not directly addressed by these remarks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Bigger tractor purchases and farm relief funds could modestly boost equipment demand sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Expanded ag exports and record soybean shipments benefit large grain processors like ADM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's farmer remarks reiterate known trade wins and $12B relief, mildly positive for agriculture-linked equities and commodities but mostly repeat rhetoric with limited new tradable information.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SOYB\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mentions record soybean shipments to China, supportive for soybean prices though largely already known.\",\"added\":false},{\"ticker\":\"CORN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific corn-related news beyond general farm support rhetoric.\",\"added\":false},{\"ticker\":\"DBA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad agricultural commodity index could get mild lift from expanded export talk.\",\"added\":false},{\"ticker\":\"MOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Fertilizer maker not directly addressed by these remarks.\",\"added\":false},{\"ticker\":\"DE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Bigger tractor purchases and farm relief funds could modestly boost equipment demand sentiment.\",\"added\":false},{\"ticker\":\"ADM\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Expanded ag exports and record soybean shipments benefit large grain processors like ADM.\",\"added\":false}],\"summary\":\"The President's farmer remarks reiterate known trade wins and $12B relief, mildly positive for agriculture-linked equities and commodities but mostly repeat rhetoric with limited new tradable information.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:00865:de",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "de",
+   "entity": "John Deere",
+   "kind": "company",
+   "alias": "john deere",
+   "text_span": "John Deere",
+   "dict_tickers": [
+    "DE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 865.6141367741935,
+   "t_wall": 1774630026.6141367,
+   "t_wall_et": "2026-03-27T12:47:06.614137-04:00",
+   "segment_text": "know, while I'm up here, I'm looking around at... I love construction. You see all those nice Caterpillars and John Deere's? We have a lot of John Deere's. That's a big that's a big dig.",
+   "context": "to crop insurance, and it's vital to the USDA and the farm credit system. Also, just we appreciate the rich payments, your policy on trade, everything. It's it's going to help strengthen what we do. So I just wanna thank you again for just everything you're doing to make America great again. You know, while I'm up here, I'm looking around at... I love construction. You see all those nice Caterpillars and John Deere's? We have a lot of John Deere's. That's a big that's a big dig.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "John Deere",
+    "tickers": [
+     "DE"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have a lot of John Deere's. That's a big dig.",
+    "summary": "The President praised John Deere equipment prevalence at the event."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Casual, non-substantive praise of John Deere equipment noticed on site, not a policy or business decision.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's offhand comment about seeing John Deere equipment is incidental color, not a policy or commercial signal, so minimal price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Casual, non-substantive praise of John Deere equipment noticed on site, not a policy or business decision.\", \"added\": false}], \"summary\": \"The President's offhand comment about seeing John Deere equipment is incidental color, not a policy or commercial signal, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:01208:cat",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "cat",
+   "entity": "Caterpillar",
+   "kind": "company",
+   "alias": "caterpillar",
+   "text_span": "Caterpillar",
+   "dict_tickers": [
+    "CAT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1208.4642857142858,
+   "t_wall": 1774630369.4642856,
+   "t_wall_et": "2026-03-27T12:52:49.464286-04:00",
+   "segment_text": "that you don't need. You're gonna have a better tractor for less money, but I want John Deere and Case and all of... They're great companies. Caterpillar,",
+   "context": "And I I know that they're gonna do this and I asked him, you gotta promise me 1 thing, You're not gonna take it in profits. You're gonna lower the cost of a tractor. I want you to lower the cost. And if they don't lower the cost, you'll let me know and I'll have to do a big number in those companies. Okay? Because they're gonna be able to very shortly produce a bigger, better tractor at substantially less money. It's gonna be better. It's gonna be a better tractor at substantially less money. It's gonna be more reliable. It's not gonna be turning off every 15 seconds because the computer went haywire that you don't need. You're gonna have a better tractor for less money, but I want John Deere and Case and all of... They're great companies. Caterpillar,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Caterpillar",
+    "tickers": [
+     "CAT"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "John Deere and Case and all of... They're great companies. Caterpillar",
+    "summary": "The President groups Caterpillar with tractor makers, expects cost reduction or faces tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CAT",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President pressures equipment makers including Caterpillar to cut prices/margins or face regulatory action, a mild negative for profitability.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President singles out Caterpillar among equipment makers he wants to cut costs/margins under threat of intervention, a modest negative for CAT margins.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CAT\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President pressures equipment makers including Caterpillar to cut prices/margins or face regulatory action, a mild negative for profitability.\", \"added\": false}], \"summary\": \"The President singles out Caterpillar among equipment makers he wants to cut costs/margins under threat of intervention, a modest negative for CAT margins.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:01297:farmers",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1297.6882845637585,
+   "t_wall": 1774630458.6882846,
+   "t_wall_et": "2026-03-27T12:54:18.688285-04:00",
+   "segment_text": "Just like we have the greatest military. We have the greatest, most powerful military in the world by far. We have the greatest farmers also. Thanks.",
+   "context": "We have another 1 called Made in The USA. That's better for a car. I like you guys' product for The USA. I hadn't heard that, but it's good. They want The USA product. When Americans see those words in grocery stores, they'll know that it was raised, harvested, and processed by the greatest farmers and ranchers anywhere on the face of the earth. You are the greatest. Nobody even close. Just like we have the greatest military. We have the greatest, most powerful military in the world by far. We have the greatest farmers also. Thanks.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have the greatest farmers also.",
+    "summary": "The President praises US farmers as the greatest in the world."
+   },
+   "llm_attempts": 1,
+   "count": 14,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General farmer praise and food price commentary is not a specific tradable catalyst for the agriculture commodity basket.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention of fertilizer, tariffs, or inputs affecting Mosaic specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of equipment cost spread ($6-7k/machine) is vague and not clearly positive or negative for Deere.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about farmers being great does not translate to a specific catalyst for ADM's processing business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or supply/demand information specific to corn.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or trade information specific to soybeans mentioned.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general praise for farmers and food price commentary with no new, specific policy, tariff, subsidy, or deal details, so no meaningful directional trade is implied for these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General farmer praise and food price commentary is not a specific tradable catalyst for the agriculture commodity basket.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No mention of fertilizer, tariffs, or inputs affecting Mosaic specifically.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention of equipment cost spread ($6-7k/machine) is vague and not clearly positive or negative for Deere.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about farmers being great does not translate to a specific catalyst for ADM's processing business.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or supply/demand information specific to corn.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or trade information specific to soybeans mentioned.\", \"added\": false}], \"summary\": \"The President's remarks are general praise for farmers and food price commentary with no new, specific policy, tariff, subsidy, or deal details, so no meaningful directional trade is implied for these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:01444:oil",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1444.5997368421051,
+   "t_wall": 1774630605.599737,
+   "t_wall_et": "2026-03-27T12:56:45.599737-04:00",
+   "segment_text": "To help lower gasoline prices for farmers and consumers, this week, I issued",
+   "context": "look what happened at the Olympics. The Olympic Committee, the heads of the Olympics just announced there will be no men playing in women's sports. Who else could have done that? Do you think do you think that was easy? That wasn't easy. That was not easy. It's probably... You know, they say it's an 80 20. No. I think it's a 99 1 issue, and nobody can find the 1. To help lower gasoline prices for farmers and consumers, this week, I issued",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "To help lower gasoline prices for farmers and consumers, this week, I issued",
+    "summary": "The President issued action to lower gasoline prices for farmers and consumers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "E15 expansion and RFS changes are mixed for broad energy sector with no clear net price effect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Policy targets gasoline blending economics, not crude oil supply/demand fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "E15 year-round push and RFS updates have ambiguous net effect on a major integrated refiner/producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same ambiguous mix of ethanol mandate expansion and refiner relief promises, no clear directional edge.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts E15 expansion and a coming RFS overhaul aimed at helping farmers, refiners and consumers with lower gasoline prices, but the remarks are largely repeat rhetoric without new specifics that would clearly move oil majors or energy ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"E15 expansion and RFS changes are mixed for broad energy sector with no clear net price effect.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Policy targets gasoline blending economics, not crude oil supply/demand fundamentals.\",\"added\":false},{\"ticker\":\"XOM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"E15 year-round push and RFS updates have ambiguous net effect on a major integrated refiner/producer.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Same ambiguous mix of ethanol mandate expansion and refiner relief promises, no clear directional edge.\",\"added\":false}],\"summary\":\"The President touts E15 expansion and a coming RFS overhaul aimed at helping farmers, refiners and consumers with lower gasoline prices, but the remarks are largely repeat rhetoric without new specifics that would clearly move oil majors or energy ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:01476:defense_word",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1476.2296571428571,
+   "t_wall": 1774630637.2296572,
+   "t_wall_et": "2026-03-27T12:57:17.229657-04:00",
+   "segment_text": "I'm trusting Speaker Johnson and Leader Thew. They're 2 good men. I'm trusting them to find a deal that works for farmers, consumers, and refiners,",
+   "context": "an emergency order to allow immediate sales of e 15. And just as I promised in the campaign, I'm seeking congressional action to allow e 15 all year round. Okay? And I'm trusting Speaker Johnson and Leader Thew. They're 2 good men. I'm trusting them to find a deal that works for farmers, consumers, and refiners,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "IyKAzbxybog:01481:refiners",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refiners",
+   "text_span": "refiners",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1481.4324571428572,
+   "t_wall": 1774630642.4324572,
+   "t_wall_et": "2026-03-27T12:57:22.432457-04:00",
+   "segment_text": "I'm trusting Speaker Johnson and Leader Thew. They're 2 good men. I'm trusting them to find a deal that works for farmers, consumers, and refiners,",
+   "context": "an emergency order to allow immediate sales of e 15. And just as I promised in the campaign, I'm seeking congressional action to allow e 15 all year round. Okay? And I'm trusting Speaker Johnson and Leader Thew. They're 2 good men. I'm trusting them to find a deal that works for farmers, consumers, and refiners,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Refiners",
+    "tickers": [
+     "VLO",
+     "MPC",
+     "PSX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "find a deal that works for farmers, consumers, and refiners",
+    "summary": "The President seeks congressional deal on E15 fuel blending for refiners, farmers, and consumers."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VLO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Higher renewable fuel standard mandates raise RIN compliance costs for refiners like Valero even as E15 deal talk is framed positively.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MPC",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Record renewable fuel volume mandates increase blending obligations and RIN costs for Marathon Petroleum.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PSX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Expanded RFS requirements pressure refiner margins despite conciliatory E15 deal language.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced a dramatic increase in renewable fuel standards for 2026-2027 alongside E15 expansion talk, which likely raises compliance costs for merchant refiners, offsetting the positive framing of a farmer-refiner deal.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VLO\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Higher renewable fuel standard mandates raise RIN compliance costs for refiners like Valero even as E15 deal talk is framed positively.\",\"added\":false},{\"ticker\":\"MPC\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Record renewable fuel volume mandates increase blending obligations and RIN costs for Marathon Petroleum.\",\"added\":false},{\"ticker\":\"PSX\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Expanded RFS requirements pressure refiner margins despite conciliatory E15 deal language.\",\"added\":false}],\"summary\":\"The President announced a dramatic increase in renewable fuel standards for 2026-2027 alongside E15 expansion talk, which likely raises compliance costs for merchant refiners, offsetting the positive framing of a farmer-refiner deal.\"}"
+   }
+  },
+  {
+   "signal_id": "IyKAzbxybog:01917:farmers",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1917.7717187878789,
+   "t_wall": 1774631078.7717187,
+   "t_wall_et": "2026-03-27T13:04:38.771719-04:00",
+   "segment_text": "then you all, our farmers and ranchers. I want everyone to get to their feet and just thank him for what he has done for our community, for our farmers and ranchers.",
+   "context": "we are your people, sir. From the moment he came down the golden escalator to today, no 1 has stood more proudly, more strongly, more courageously for this man, this transformational president at this moment in our country's history, then you all, our farmers and ranchers. I want everyone to get to their feet and just thank him for what he has done for our community, for our farmers and ranchers.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "IyKAzbxybog:02003:farmers",
+   "video_id": "IyKAzbxybog",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 2003.5276488,
+   "t_wall": 1774631164.5276487,
+   "t_wall_et": "2026-03-27T13:06:04.527649-04:00",
+   "segment_text": "bill. You all deserve so much credit. It was the largest investment in rural America for our farmers and ranchers in American",
+   "context": "I was told that even a new dress was made for this event, and I know this is out of the box a little bit for you and your amazing community. But I know on behalf of our Pennsylvanians and others, we're so grateful for you and and your leadership. I also wanna do a big shout out to senator Hogan, senator Ernst, our congressman, senator Ricketts, who fought so hard to get rural America in the 1 big beautiful bill. You all deserve so much credit. It was the largest investment in rural America for our farmers and ranchers in American history. This man drove it, but you guys executed and we're so grateful to you. So thank you. Thank you.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.85,
+    "quote": "largest investment in rural America for our farmers and ranchers in American history",
+    "summary": "The President praised the largest rural agriculture investment in US history."
+   },
+   "llm_attempts": 2,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for prior farm bill investment, not new commodity-specific news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetorical support for farmers does not change fertilizer demand fundamentals materially.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated rural investment support could modestly boost sentiment for farm equipment demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new corn-specific policy or subsidy detail beyond restating prior bill.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new soybean-specific policy revealed in the remarks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General farmer praise has limited direct impact on ADM's processing business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks were largely ceremonial praise for farmers and prior rural investment legislation, not new policy or subsidy news, so market impact across ag tickers is expected to be minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise for prior farm bill investment, not new commodity-specific news.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetorical support for farmers does not change fertilizer demand fundamentals materially.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated rural investment support could modestly boost sentiment for farm equipment demand.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new corn-specific policy or subsidy detail beyond restating prior bill.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new soybean-specific policy revealed in the remarks.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General farmer praise has limited direct impact on ADM's processing business.\", \"added\": false}], \"summary\": \"The President's remarks were largely ceremonial praise for farmers and prior rural investment legislation, not new policy or subsidy news, so market impact across ag tickers is expected to be minimal.\"}"
+   }
+  }
+ ]
+}

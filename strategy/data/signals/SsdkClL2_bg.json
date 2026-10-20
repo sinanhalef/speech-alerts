@@ -1,0 +1,423 @@
+{
+ "video": {
+  "id": "SsdkClL2_bg",
+  "url": "https://www.youtube.com/watch?v=SsdkClL2_bg",
+  "title": "The President Holds a Press Conference, Jan. 3, 2026",
+  "channel": "The White House",
+  "duration": 6390.0,
+  "was_live": true,
+  "release_timestamp": 1767455482.0,
+  "upload_timestamp": 1767462146.0,
+  "upload_date": "20260103",
+  "label": "Holds a Press Conference, Jan. 3, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1767455482.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 8,
+  "confirmed": 4,
+  "retracted": 4,
+  "unconfirmed": 0,
+  "llm_calls": 11
+ },
+ "signals": [
+  {
+   "signal_id": "SsdkClL2_bg:03141:venezuela",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 3141.2393103448276,
+   "t_wall": 1767458623.2393103,
+   "t_wall_et": "2026-01-03T11:43:43.239310-05:00",
+   "segment_text": "and those drugs mostly come from a place called Venezuela.",
+   "context": "and most fearsome military on the planet by far with capabilities and skills our enemies can scarcely begin to imagine. We have the best equipment anywhere in the world. There's no equipment like what we have, and you see that even if you just look at the boats, you know, we've knocked out 97 percent of the drugs coming in by sea. 90 percent. Each boat kills 25 on average, 25000 people. We knocked out 97 percent, and those drugs mostly come from a place called Venezuela.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "drugs mostly come from a place called Venezuela",
+    "summary": "The President attributes drug trafficking to Venezuela, citing 97% interdiction rate."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "US military control of Venezuela raises long-term oil supply speculation but no concrete policy or sanctions change mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Chevron has Venezuela exposure but remark is about military/drug control, not oil licensing or sanctions specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on military dominance and asserting US control over Venezuela pending transition, with no direct new policy on oil sanctions or licenses, making the impact on energy names ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"US military control of Venezuela raises long-term oil supply speculation but no concrete policy or sanctions change mentioned.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Chevron has Venezuela exposure but remark is about military/drug control, not oil licensing or sanctions specifics.\", \"added\": false}], \"summary\": \"The President's remarks focus on military dominance and asserting US control over Venezuela pending transition, with no direct new policy on oil sanctions or licenses, making the impact on energy names ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "SsdkClL2_bg:04716:tgt",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "tgt",
+   "entity": "Target",
+   "kind": "company",
+   "alias": "target",
+   "text_span": "target",
+   "dict_tickers": [
+    "TGT"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 4716.122307692308,
+   "t_wall": 1767460198.1223078,
+   "t_wall_et": "2026-01-03T12:09:58.122308-05:00",
+   "segment_text": "On arrival into the target area, the helicopters came under fire,",
+   "context": "we arrived at Maduro's compound at 01:01AM Eastern Standard Time or 02:01AM Caracas local time. And the apprehension force descended into Maduro's compound and moved with speed, precision, and discipline towards their objective and isolated the area to ensure the safety and security of the ground force while apprehending the indicted persons. On arrival into the target area, the helicopters came under fire, and they replied with that fire with overwhelming force in self defense.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SsdkClL2_bg:04790:venezuela",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 4790.90135,
+   "t_wall": 1767460272.90135,
+   "t_wall_et": "2026-01-03T12:11:12.901350-05:00",
+   "segment_text": "as the force began to withdraw out of Venezuela.",
+   "context": "and precision with with no loss of US life. After securing the indicted persons, the force began to prep for departure. Helicopters were called in to exfiltrate the extraction force while fighter aircraft and remotely piloted aircraft provided overhead coverage and suppressive fire. There were multiple self defense engagements as the force began to withdraw out of Venezuela. The force successfully exfiltrated",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SsdkClL2_bg:05413:steel",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 5413.846142857143,
+   "t_wall": 1767460895.8461428,
+   "t_wall_et": "2026-01-03T12:21:35.846143-05:00",
+   "segment_text": "It could have happened. He was trying to get into a safe place. You know what a safe place is? All steel.",
+   "context": "But I I have to say they knew we were coming at some point, you know. A lot of ships out there, they sort of knew we were coming. We want to. But but congress congress will leak, and we don't want leakers. You were 1 of the only people to watch this all play out live. What was Maduro doing, when The US forces entered what I assume would be his home? And, also, was there any point where The US was considering if Maduro pushed back or resisted killing Maduro? It could have happened. It could have happened. He was trying to get into a safe place. You know what a safe place is? All steel. And he wasn't able to make it to the door because our guys were so fast. They went through the opposition so fast, and there was a lot of opposition. You know, people were wondering, we get them by surprise? Sort of surprised, but they were waiting for something. It was a lot of opposition.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "SsdkClL2_bg:05575:oil",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "sell",
+    "selling"
+   ],
+   "t_audio": 5575.418636363636,
+   "t_wall": 1767461057.4186363,
+   "t_wall_et": "2026-01-03T12:24:17.418636-05:00",
+   "segment_text": "we're in the oil business. We're gonna sell it to them. We're not gonna say we're not gonna get anything. In other words, we'll be selling oil,",
+   "context": "and we're gonna re be replacing it. And we're going to take a lot of money out so that we can take care of the country young. Mister president, China, Russia, and Iran have interests in Venezuela. How does this operation affect your relationships with them when it comes to oil gas? And Russia. Well, Russia, when we get things straightened out. But in terms of other countries that want oil, we're in the oil business. We're gonna sell it to them. We're not gonna say we're not gonna get anything. In other words, we'll be selling oil,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "We're in the oil business. We're gonna sell it to them.",
+    "summary": "The President states US will engage in oil business and sales internationally."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Plans to ramp up Venezuelan oil exports suggest added global supply, pressuring oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mixed effect: more supply pressures prices but US firms may gain new Venezuela business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "US oil majors could win infrastructure rebuilding and production contracts in Venezuela.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Chevron already has Venezuela ties and could benefit from expanded US-backed oil operations there.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President signals US will control and expand Venezuelan oil production/exports, likely modestly bearish for oil prices (USO) due to added supply, while potentially positive for US majors like XOM and CVX that could gain access or contracts; XLE effect is mixed/neutral.",
+    "raw": "{\"tickers\": [{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Plans to ramp up Venezuelan oil exports suggest added global supply, pressuring oil prices.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mixed effect: more supply pressures prices but US firms may gain new Venezuela business.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"US oil majors could win infrastructure rebuilding and production contracts in Venezuela.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"Chevron already has Venezuela ties and could benefit from expanded US-backed oil operations there.\", \"added\": false}], \"summary\": \"The President signals US will control and expand Venezuelan oil production/exports, likely modestly bearish for oil prices (USO) due to added supply, while potentially positive for US majors like XOM and CVX that could gain access or contracts; XLE effect is mixed/neutral.\"}"
+   }
+  },
+  {
+   "signal_id": "SsdkClL2_bg:05708:mrna",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "mrna",
+   "entity": "Moderna",
+   "kind": "company",
+   "alias": "moderna",
+   "text_span": "Moderna",
+   "dict_tickers": [
+    "MRNA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 5708.554898019802,
+   "t_wall": 1767461190.554898,
+   "t_wall_et": "2026-01-03T12:26:30.554898-05:00",
+   "segment_text": "she really doesn't have a choice. We're gonna have this done right. We're not gonna just do this with Moderna then leave like everybody else. Leave and say, you know, let it go to hell. If we just left,",
+   "context": "Right? Because for us to just leave, who's gonna take over? I mean, there is nobody to take over. You have a vice president who's been appointed by Maduro. And right now, she's the vice president, and she's, I guess, the president. She was sworn as president just a little while ago. She had a long conversation with Marco, and she said, we'll do whatever you need. She I think she was quite gracious, but she really doesn't have a choice. We're gonna have this done right. We're not gonna just do this with Moderna then leave like everybody else. Leave and say, you know, let it go to hell. If we just left,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SsdkClL2_bg:05726:venezuela",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 5726.664411764706,
+   "t_wall": 1767461208.6644118,
+   "t_wall_et": "2026-01-03T12:26:48.664412-05:00",
+   "segment_text": "it has 0 chance of ever coming back. We'll run it properly. We'll run it professionally. We'll have the greatest oil companies in the world going and invest billions and billions of dollars and take out money, use that money in Venezuela.",
+   "context": "we'll do whatever you need. She I think she was quite gracious, but she really doesn't have a choice. We're gonna have this done right. We're not gonna just do this with Moderna then leave like everybody else. Leave and say, you know, let it go to hell. If we just left, it has 0 chance of ever coming back. We'll run it properly. We'll run it professionally. We'll have the greatest oil companies in the world going and invest billions and billions of dollars and take out money, use that money in Venezuela.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "greatest oil companies invest billions and billions, take out money, use that money in Venezuela",
+    "summary": "The President proposes major oil company investments in Venezuela with capital extraction."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Comments suggest US oil majors could gain access to invest in Venezuelan energy resources, a modest sector positive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Chevron has existing Venezuela operations and would be a prime beneficiary of any US-backed investment push into Venezuelan oil.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"Comments suggest US oil majors could gain access to invest in Venezuelan energy resources, a modest sector positive.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"Chevron has existing Venezuela operations and would be a prime beneficiary of any US-backed investment push into Venezuelan oil.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "SsdkClL2_bg:06256:ukraine",
+   "video_id": "SsdkClL2_bg",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "kiev",
+   "text_span": "Kiev",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 6256.9397592000005,
+   "t_wall": 1767461738.9397593,
+   "t_wall_et": "2026-01-03T12:35:38.939759-05:00",
+   "segment_text": "But if I can stop that war and stop 30,000 young people, in addition to the fact that people are being killed in Kiev, people are being killed in other cities throughout, you know, a much smaller number, but it they're being killed, viciously killed.",
+   "context": "And we send them a lot of munitions. We send them a lot of things, missiles and various other things, a lot. And they pay. The United States is not losing money. We're probably making money on that. It's the last thing I care about. I just wanna stop all those people. We're losing 25, 30,000 human beings. They come from 2 places that are very far away. But if I can stop because it's something I've been pretty good at doing, deals, I guess. It's all a deal. Life is a big deal. But if I can stop that war and stop 30,000 young people, in addition to the fact that people are being killed in Kiev, people are being killed in other cities throughout, you know, a much smaller number, but it they're being killed, viciously killed.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "people are being killed in Kiev, people are being killed in other cities",
+    "summary": "The President references deaths in Kiev and Ukrainian cities; frames stopping the war as a priority."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about wanting to end the war and NATO defense spending is already known and doesn't clearly change defense demand outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy on energy markets or sanctions mentioned that would move energy stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical about ending the Ukraine war and NATO burden-sharing already known to markets, with no new concrete policy, deal, or numeric commitment affecting defense or energy sectors.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about wanting to end the war and NATO defense spending is already known and doesn't clearly change defense demand outlook.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy on energy markets or sanctions mentioned that would move energy stocks.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical about ending the Ukraine war and NATO burden-sharing already known to markets, with no new concrete policy, deal, or numeric commitment affecting defense or energy sectors.\"}"
+   }
+  }
+ ]
+}

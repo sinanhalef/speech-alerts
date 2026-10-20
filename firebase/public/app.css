@@ -1,0 +1,191 @@
+/* One Dark terminal palette: colour carries alert state, nothing else. */
+:root {
+  --bg: #1b1e24;
+  --bg-bar: #2c313a;
+  --fg: #abb2bf;
+  --fg-bright: #dcdfe4;
+  --dim: #5c6370;
+  --yellow: #e5c07b;
+  --green: #98c379;
+  --red: #e06c75;
+  --cyan: #56b6c2;
+  --blue: #61afef;
+  --magenta: #c678dd;
+  --font: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font: 400 13px/1.55 var(--font);
+  -webkit-font-smoothing: antialiased;
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+@media (min-width: 700px) {
+  body { font-size: 14px; }
+}
+
+/* Two panes: scrollback on the left, live transcript on the right. Below 1000px they stack. */
+.panes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  padding-bottom: calc(36px + env(safe-area-inset-bottom, 0px));
+}
+.pane {
+  min-width: 0;
+  padding: 12px 16px 16px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.term { max-width: 104ch; }
+
+.transcript { border-top: 1px solid var(--bg-bar); }
+.transcript .tscroll { margin-top: 2px; }
+.transcript .seg { display: grid; grid-template-columns: 9ch 1.5ch 1fr; column-gap: 0.5ch; }
+.transcript .seg + .seg { margin-top: 1px; }
+.transcript .seg .t { color: var(--dim); }
+.transcript .seg .who { color: var(--dim); }
+.transcript .seg.q .who { color: var(--cyan); }
+.transcript .seg.q .txt { color: var(--dim); }
+.transcript .seg .txt { min-width: 0; }
+.transcript .seg.last .txt { color: var(--fg-bright); }
+.tfoot { margin: 6px 0 0; min-height: 1.5em; }
+
+@media (min-width: 1000px) {
+  .panes {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    height: calc(100vh - 36px - env(safe-area-inset-bottom, 0px));
+    padding-bottom: 0;
+  }
+  .pane { overflow-y: auto; height: 100%; }
+  .transcript {
+    border-top: 0;
+    border-left: 1px solid var(--bg-bar);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .transcript .tscroll { flex: 1 1 auto; overflow-y: auto; min-height: 0; }
+}
+
+.cmd { margin: 0 0 18px; }
+
+.prompt {
+  margin: 0;
+  color: var(--fg-bright);
+  white-space: pre-wrap;
+}
+.prompt::before { content: "% "; color: var(--blue); }
+.ps1 { color: var(--fg-bright); }
+.flag { color: var(--magenta); }
+
+.out {
+  margin: 2px 0 0;
+  font: inherit;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  tab-size: 4;
+}
+
+/* One alert = a two-line record: when/state/entity, then outcome. Grid in ch units keeps
+   columns aligned like fixed-width output; on narrow screens the lines simply wrap. */
+.row { display: grid; grid-template-columns: 9ch 1fr; column-gap: 1ch; }
+.row + .row { margin-top: 2px; }
+.row.sub { color: var(--dim); }
+.row.sub .t { visibility: hidden; }
+.row.sub .body { padding-left: 10ch; }
+.t { color: var(--dim); white-space: nowrap; }
+.body { min-width: 0; }
+
+.tag { font-weight: 700; }
+.tag.headsup   { color: var(--yellow); }
+.tag.confirmed { color: var(--green); }
+.tag.retracted { color: var(--red); }
+.tag.live      { color: var(--cyan); }
+.tag.past      { color: var(--dim); }
+.tag.soon      { color: var(--yellow); }
+.tag.next      { color: var(--green); }
+.tag.state     { color: var(--cyan); }
+
+.ent { color: var(--fg-bright); font-weight: 700; }
+.tick { color: var(--cyan); }
+.quote { color: var(--fg); }
+.quote::before, .quote::after { content: '"'; color: var(--dim); }
+.pos { color: var(--green); }
+.neg { color: var(--red); }
+.neu { color: var(--fg); }
+.dim { color: var(--dim); }
+.hl  { color: var(--fg-bright); }
+.err { color: var(--red); }
+
+a, .link {
+  color: var(--blue);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+a:hover, .link:hover { text-decoration: underline; }
+a:focus-visible, .link:focus-visible, button:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+.more, .note, .streams { margin: 4px 0 0; }
+.note { color: var(--dim); }
+.streams { white-space: pre-wrap; }
+.streams .link.on { color: var(--fg-bright); }
+.streams .link.on::before { content: "* "; color: var(--green); }
+.streams .link:not(.on)::before { content: "  "; }
+
+.event { display: grid; grid-template-columns: 19ch 1fr; column-gap: 1ch; }
+.event + .event { margin-top: 10px; }
+.event .when { white-space: pre-wrap; }
+.event .when .d { color: var(--fg-bright); }
+.event .what .title { color: var(--fg-bright); }
+@media (max-width: 480px) {
+  .event { grid-template-columns: 1fr; }
+  .event + .event { margin-top: 12px; }
+}
+
+.tail { margin-top: 6px; }
+.cursor {
+  display: inline-block;
+  width: 1ch; height: 1.15em;
+  vertical-align: text-bottom;
+  background: var(--fg-bright);
+  animation: blink 1.1s steps(1) infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+
+/* tmux-style status line pinned to the bottom. */
+.statusbar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  display: flex;
+  gap: 2ch;
+  align-items: baseline;
+  padding: 4px 16px calc(4px + env(safe-area-inset-bottom, 0px));
+  background: var(--bg-bar);
+  color: var(--fg);
+  font-size: 0.93em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sb-left { color: var(--green); flex: 0 0 auto; }
+.sb-left.live { color: var(--cyan); }
+.sb-left.off { color: var(--red); }
+.sb-mid { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; color: var(--yellow); }
+.sb-right { flex: 0 0 auto; color: var(--dim); }
+@media (max-width: 480px) {
+  .sb-mid { display: none; }
+}

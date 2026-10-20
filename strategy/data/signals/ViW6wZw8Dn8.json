@@ -1,0 +1,1021 @@
+{
+ "video": {
+  "id": "ViW6wZw8Dn8",
+  "url": "https://www.youtube.com/watch?v=ViW6wZw8Dn8",
+  "title": "The President Holds a Press Conference, Mar. 9, 2026",
+  "channel": "The White House",
+  "duration": 2054.0,
+  "was_live": true,
+  "release_timestamp": 1773092631.0,
+  "upload_timestamp": 1773095368.0,
+  "upload_date": "20260309",
+  "label": "Holds a Press Conference, Mar. 9, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1773092631.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 15,
+  "confirmed": 14,
+  "retracted": 1,
+  "unconfirmed": 0,
+  "llm_calls": 16
+ },
+ "signals": [
+  {
+   "signal_id": "ViW6wZw8Dn8:00054:venezuela",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 54.55855371900826,
+   "t_wall": 1773092685.5585537,
+   "t_wall_et": "2026-03-09T17:44:45.558554-04:00",
+   "segment_text": "and, the great success we've had in Venezuela and all other places. Every place we've gone, we've had tremendous success.",
+   "context": "Epic Fury very successfully. Over the past 9 days, we've carried out some of the most powerful and complex military strikes and maneuvers the world has ever seen. Now, you add that up to all of the other things, Midnight Hammer, getting rid of the nuclear threat from Iran, which is a big moment in history, in my opinion, and, the great success we've had in Venezuela and all other places. Every place we've gone, we've had tremendous success.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "great success we've had in Venezuela and all other places",
+    "summary": "The President claims success in Venezuela policy, relevant to oil sector."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Geopolitical rhetoric about military success in Venezuela and Iran has ambiguous net effect on energy sector without specific oil policy details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No specific mention of Chevron operations or Venezuela oil concessions that would clearly move this stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on military successes in Iran and Venezuela without specific new policy details on oil production, sanctions relief, or company-specific actions, making the price impact on energy tickers ambiguous and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Geopolitical rhetoric about military success in Venezuela and Iran has ambiguous net effect on energy sector without specific oil policy details.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No specific mention of Chevron operations or Venezuela oil concessions that would clearly move this stock.\", \"added\": false}], \"summary\": \"The President's remarks focus on military successes in Iran and Venezuela without specific new policy details on oil production, sanctions relief, or company-specific actions, making the price impact on energy tickers ambiguous and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00214:noc",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 214.02086344827586,
+   "t_wall": 1773092845.0208635,
+   "t_wall_et": "2026-03-09T17:47:25.020864-04:00",
+   "segment_text": "And our b 2 bombers recently dropped dozens of 2,000 pound",
+   "context": "very hard to reproduce and very hard to get. And, usually, what we were able to do through great, equipment, a lot of smart people, as soon as they sent a missile up from a launcher, we were able to knock out that launcher within a period of 5 minutes or less, accurately right on the noggin. So now we have low cost interceptors effectively combating Iranian drones, And our b 2 bombers recently dropped dozens of 2,000 pound",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "our b 2 bombers recently dropped dozens of 2,000 pound",
+    "summary": "The President references B-2 bombers in operational context dropping munitions."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive mention of B-2 bombers in active military operations highlights demand for Northrop's platforms though this is largely already known context.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of B-2 bomber operations is mildly positive for Northrop Grumman as a reminder of defense demand, but it restates known military activity rather than new procurement or contract news, so the price impact should be modest.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive mention of B-2 bombers in active military operations highlights demand for Northrop's platforms though this is largely already known context.\", \"added\": false}], \"summary\": \"The President's praise of B-2 bomber operations is mildly positive for Northrop Grumman as a reminder of defense demand, but it restates known military activity rather than new procurement or contract news, so the price impact should be modest.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00638:defense",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "navy ships",
+   "text_span": "navy ships",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 638.5912733944955,
+   "t_wall": 1773093269.5912733,
+   "t_wall_et": "2026-03-09T17:54:29.591273-04:00",
+   "segment_text": "remain safe. We have a lot of navy ships there. We have the best equipment in the world inspecting for mines.",
+   "context": "they'll get hit at a much, much harder level. I will take out those targets that were easy and that I mentioned just before. We'll take them out so quickly, they'll never be able to recover ever. If they wanna play that game, they better not play that game. In the long run, oil supplies will be dramatically more secure without the threat of Iranian ships, drones, missiles, nuclear menace, or anything. So the Strait Of Hormuz is going to remain safe. We have a lot of navy ships there. We have the best equipment in the world inspecting for mines.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector (navy ships)",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "LMT",
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.75,
+    "quote": "We have a lot of navy ships there. We have the best equipment in the world.",
+    "summary": "The President affirms U.S. naval presence and equipment capability in Strait of Hormuz."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Escalating Iran conflict rhetoric supports defense sector sentiment broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same defense-sector tailwind from military posture rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Heightened military engagement narrative modestly supports major defense primes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Naval/military operations rhetoric benefits missile and defense systems makers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General defense demand narrative from ongoing conflict rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Naval focus (ships, equipment) slightly favors shipbuilders like GD.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's reiteration of military readiness and threats against Iran in the Strait of Hormuz is mildly bullish for defense contractors and ETFs, though largely reiterates known geopolitical stance rather than new policy.",
+    "raw": "{\"tickers\": [\n{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Escalating Iran conflict rhetoric supports defense sector sentiment broadly.\",\"added\":false},\n{\"ticker\":\"XAR\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same defense-sector tailwind from military posture rhetoric.\",\"added\":false},\n{\"ticker\":\"LMT\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Heightened military engagement narrative modestly supports major defense primes.\",\"added\":false},\n{\"ticker\":\"RTX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Naval/military operations rhetoric benefits missile and defense systems makers.\",\"added\":false},\n{\"ticker\":\"NOC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General defense demand narrative from ongoing conflict rhetoric.\",\"added\":false},\n{\"ticker\":\"GD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Naval focus (ships, equipment) slightly favors shipbuilders like GD.\",\"added\":false}\n],\n\"summary\":\"The President's reiteration of military readiness and threats against Iran in the Strait of Hormuz is mildly bullish for defense contractors and ETFs, though largely reiterates known geopolitical stance rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00672:oil",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil prices",
+   "text_span": "oil prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 672.4912625000001,
+   "t_wall": 1773093303.4912624,
+   "t_wall_et": "2026-03-09T17:55:03.491262-04:00",
+   "segment_text": "We're putting an end to all of this threat once and for all, and the result will be lower oil prices, oil and gas prices",
+   "context": "Again, most of their ships are down at the bottom of the sea. But we will, we will hit them so hard that it will not be possible for them or anybody else helping them to ever recover that section of the world if they do anything. In recent years, the regime and its terror proxies have launched attacks on hundreds of commercial vessels. We're putting an end to all of this threat once and for all, and the result will be lower oil prices, oil and gas prices",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "result will be lower oil prices, oil and gas prices",
+    "summary": "The President predicts military action will reduce oil and gas prices."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President explicitly frames the geopolitical action as leading to lower oil and gas prices, which pressures energy equity margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "A stated goal of lower oil prices directly weighs on crude oil price trackers like USO.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower oil price rhetoric is a mild negative for integrated producers though offset by US supply security narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar exposure to lower oil price expectations as other major US producers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments emphasize securing the Strait of Hormuz militarily and predicting lower oil and gas prices for Americans, a mild negative for oil-linked equities and crude trackers, though largely rhetorical and low-novelty.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President explicitly frames the geopolitical action as leading to lower oil and gas prices, which pressures energy equity margins.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"A stated goal of lower oil prices directly weighs on crude oil price trackers like USO.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower oil price rhetoric is a mild negative for integrated producers though offset by US supply security narrative.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar exposure to lower oil price expectations as other major US producers.\", \"added\": false}], \"summary\": \"The President's comments emphasize securing the Strait of Hormuz militarily and predicting lower oil and gas prices for Americans, a mild negative for oil-linked equities and crude trackers, though largely rhetorical and low-novelty.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00729:venezuela",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "partner",
+    "tremendous"
+   ],
+   "t_audio": 729.175,
+   "t_wall": 1773093360.175,
+   "t_wall_et": "2026-03-09T17:56:00.175000-04:00",
+   "segment_text": "We have Venezuela now as our new partner, great partner. They've worked out so wonderful. We're working with the administration,",
+   "context": "And if they do anything, the price will be incalculable. It will be so great that they will have wished they never did it because you have to keep the straits flowing. With all of that, it affects other countries much more than it does The United States. It doesn't really affect us. We have so much oil. We have tremendous oil and gas, much more than we need. We have Venezuela now as our new partner, great partner. They've worked out so wonderful. We're working with the administration,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "Venezuela now as our new partner, great partner.",
+    "summary": "The President describes Venezuela as new partner with successful collaboration on oil/gas."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President emphasizes efforts to lower oil and gas prices, waiving sanctions and adding supply from Venezuela, which is bearish for oil price-linked energy stocks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Lower oil price policy stance modestly pressures major oil producers like Chevron despite geopolitical risk premium offsetting some downside.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President emphasizes efforts to lower oil and gas prices, waiving sanctions and adding supply from Venezuela, which is bearish for oil price-linked energy stocks.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Lower oil price policy stance modestly pressures major oil producers like Chevron despite geopolitical risk premium offsetting some downside.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00885:iran",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 885.5096428571429,
+   "t_wall": 1773093516.5096428,
+   "t_wall_et": "2026-03-09T17:58:36.509643-04:00",
+   "segment_text": "Thank you so much. Go ahead. Do you approve of Iran's new supreme leader? And secondly, can you tell us more about your call with Russian president Vladimir Putin today? What did you discuss? Yes. I had a very good call with",
+   "context": "and we're very proud to be involved in this, and it's gonna be ended soon. And if it starts up again, they'll be they'll be hit even harder. Thank you very much for being here. Go ahead. Any questions? Thank you. Thank you so much. Go ahead. Do you approve of Iran's new supreme leader? And secondly, can you tell us more about your call with Russian president Vladimir Putin today? What did you discuss? Yes. I had a very good call with",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00890:russia",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 890.4007142857143,
+   "t_wall": 1773093521.4007144,
+   "t_wall_et": "2026-03-09T17:58:41.400714-04:00",
+   "segment_text": "Thank you so much. Go ahead. Do you approve of Iran's new supreme leader? And secondly, can you tell us more about your call with Russian president Vladimir Putin today? What did you discuss? Yes. I had a very good call with",
+   "context": "and we're very proud to be involved in this, and it's gonna be ended soon. And if it starts up again, they'll be they'll be hit even harder. Thank you very much for being here. Go ahead. Any questions? Thank you. Thank you so much. Go ahead. Do you approve of Iran's new supreme leader? And secondly, can you tell us more about your call with Russian president Vladimir Putin today? What did you discuss? Yes. I had a very good call with",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "I had a very good call with Russian president Vladimir Putin today",
+    "summary": "The President confirms positive call with Putin; details cut off mid-sentence."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive tone on call with Putin and hope for Ukraine-Russia resolution could ease sanctions outlook for Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Middle East and Iran conflict commentary is mostly rhetoric already known, limited new info to move energy sector materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on Iran are largely repeat rhetoric with limited new market-moving content; the positive framing of his call with Putin on Ukraine is mildly bullish for Russia-linked assets like RSX, while XLE impact is ambiguous given no new escalation details.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive tone on call with Putin and hope for Ukraine-Russia resolution could ease sanctions outlook for Russia-exposed assets.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Middle East and Iran conflict commentary is mostly rhetoric already known, limited new info to move energy sector materially.\", \"added\": false}], \"summary\": \"The President's remarks on Iran are largely repeat rhetoric with limited new market-moving content; the positive framing of his call with Putin on Ukraine is mildly bullish for Russia-linked assets like RSX, while XLE impact is ambiguous given no new escalation details.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:00912:ukraine",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "zelensky",
+   "text_span": "Zelensky",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 912.1476086956523,
+   "t_wall": 1773093543.1476088,
+   "t_wall_et": "2026-03-09T17:59:03.147609-04:00",
+   "segment_text": "look. There's tremendous hatred between president Putin and president Zelensky. They can't seem to get it together,",
+   "context": "Thank you so much. Go ahead. Do you approve of Iran's new supreme leader? And secondly, can you tell us more about your call with Russian president Vladimir Putin today? What did you discuss? Yes. I had a very good call with president Putin. We had a lot of people on the line from our side, from his side. We were talking about Ukraine, which is just a never ending fight. And when look. There's tremendous hatred between president Putin and president Zelensky. They can't seem to get it together,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Zelensky",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "tremendous hatred between president Putin and president Zelensky",
+    "summary": "The President notes deep animosity between Putin and Zelensky over Ukraine conflict."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical rhetoric on Iran/Ukraine/Russia is general and does not signal new defense spending or contracts.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new specifics on sanctions, supply disruption, or oil policy that would move energy stocks beyond existing Middle East tension.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely rhetorical commentary on Iran, Russia-Ukraine talks, and Cuba diplomacy without new concrete policy, contracts, or sanctions details, so no clear directional trade for ITA or XLE.",
+    "raw": "{\"tickers\":[{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Geopolitical rhetoric on Iran/Ukraine/Russia is general and does not signal new defense spending or contracts.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new specifics on sanctions, supply disruption, or oil policy that would move energy stocks beyond existing Middle East tension.\",\"added\":false}],\"summary\":\"The excerpt is largely rhetorical commentary on Iran, Russia-Ukraine talks, and Cuba diplomacy without new concrete policy, contracts, or sanctions details, so no clear directional trade for ITA or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01089:rtx",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawk",
+   "text_span": "Tomahawk",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1089.3374862068965,
+   "t_wall": 1773093720.3374863,
+   "t_wall_et": "2026-03-09T18:02:00.337486-04:00",
+   "segment_text": "missile strike and a Tomahawk",
+   "context": "but they lived off Venezuela. Now they don't live off Venezuela. It sends them no energy, no fuel, no oil, no money, no nothing. They lived without Venezuela. They couldn't have made it, and we cut them off from everything else. So, yeah. We're they're gonna make either a deal or we'll do it just as easy anyway. Yeah. Please. Go ahead. Footage that shows an American missile strike and a Tomahawk missile likely destroyed that Iranian girls school. So will the Americans will The US accept any responsibility Well, I haven't seen it, and I will say that the Tomahawk, which is 1 of the most powerful weapons around, is used by you know, is sold and used by",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon (Tomahawk missile)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Tomahawk, which is 1 of the most powerful weapons around, is used by you know, is sold and used by",
+    "summary": "The President acknowledges Tomahawk missile capabilities and its widespread sale and use."
+   },
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment merely acknowledges Tomahawk's widespread use, no new order or policy affecting Raytheon revenue.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark about Tomahawk missiles is descriptive and not a new policy, contract, or criticism that would move RTX shares.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment merely acknowledges Tomahawk's widespread use, no new order or policy affecting Raytheon revenue.\", \"added\": false}], \"summary\": \"The remark about Tomahawk missiles is descriptive and not a new policy, contract, or criticism that would move RTX shares.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01294:noc",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1294.9394354651163,
+   "t_wall": 1773093925.9394355,
+   "t_wall_et": "2026-03-09T18:05:25.939435-04:00",
+   "segment_text": "and that knocked them for a loop. Then you had the b 2 bombers, which took out their nuclear capability, and they would have had a nuclear weapon within 2 weeks to 4 weeks.",
+   "context": "and this went very quickly. We talked about that with President Putin. He was very impressed with what he saw because nobody's ever seen anything quite like it. You know, Iran was a very powerful military country, a man with all of the missiles. Now, you had the double attack. You had the original attack with us and Israel, and that knocked them for a loop. Then you had the b 2 bombers, which took out their nuclear capability, and they would have had a nuclear weapon within 2 weeks to 4 weeks.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "B 2 bombers took out their nuclear capability",
+    "summary": "The President credits B-2 bombers with destroying Iranian nuclear capability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for B-2 bombers' past success is old news and reflects military performance already known, unlikely to move new contract expectations.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount already-known B-2 strike success and oil/waiver policy without new contract or funding news for Northrop Grumman, so limited fresh price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for B-2 bombers' past success is old news and reflects military performance already known, unlikely to move new contract expectations.\", \"added\": false}], \"summary\": \"The President's remarks recount already-known B-2 strike success and oil/waiver policy without new contract or funding news for Northrop Grumman, so limited fresh price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01641:oil_strong",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1641.975,
+   "t_wall": 1773094272.975,
+   "t_wall_et": "2026-03-09T18:11:12.975000-04:00",
+   "segment_text": "barrels of oil. It's right now",
+   "context": "I would like to see people that are inside go now. They talk about the son of the Shah. They talk about other people, but, know, hasn't been there in many, many years. We have a formula that's been very good so far, and I think it'll continue to be good. The relationship is extraordinary with Venezuela, smart country. We've taken out a 100,000,000 barrels of oil. It's right now in Houston being",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We've taken out a 100,000,000 barrels of oil.",
+    "summary": "The President reports extraction of 100 million barrels of oil from Venezuela, currently in Houston."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply refined in Houston is more relevant to specific refiners than the broad energy sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Additional 100 million barrels of Venezuelan crude entering US refining capacity is a modest incremental supply increase, mildly bearish for oil prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan oil supply refined in Houston is more relevant to specific refiners than the broad energy sector ETF.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Additional 100 million barrels of Venezuelan crude entering US refining capacity is a modest incremental supply increase, mildly bearish for oil prices.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01654:refiners",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refineries",
+   "text_span": "refineries",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [
+    "refineries"
+   ],
+   "t_audio": 1654.8161637931034,
+   "t_wall": 1773094285.8161638,
+   "t_wall_et": "2026-03-09T18:11:25.816164-04:00",
+   "segment_text": "it's it's brought to the refineries. It's being refined in",
+   "context": "They talk about other people, but, know, hasn't been there in many, many years. We have a formula that's been very good so far, and I think it'll continue to be good. The relationship is extraordinary with Venezuela, smart country. We've taken out a 100,000,000 barrels of oil. It's right now in Houston being being taken care of and made so beautiful. And you have to see this at work. They have it's it's brought to the refineries. It's being refined in",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Refiners",
+    "tickers": [
+     "VLO",
+     "MPC",
+     "PSX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "It's brought to the refineries. It's being refined in",
+    "summary": "Venezuelan oil is being refined at US refineries, particularly in Houston."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VLO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan crude flowing to Gulf Coast refineries could boost throughput and margins for refiners with Houston-area assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MPC",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Additional heavy crude supply from Venezuela benefits Gulf Coast refiners generally, though MPC's specific exposure is unclear.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PSX",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "PSX operates Gulf Coast refining capacity that could benefit from increased Venezuelan crude supply mentioned as being refined in Houston.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments about Venezuelan oil being refined at Houston facilities are mildly positive for Gulf Coast refiners (VLO, MPC, PSX) due to potential increased crude supply, though the remark is more about geopolitical relations than a specific new deal, limiting confidence and magnitude.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VLO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan crude flowing to Gulf Coast refineries could boost throughput and margins for refiners with Houston-area assets.\", \"added\": false}, {\"ticker\": \"MPC\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Additional heavy crude supply from Venezuela benefits Gulf Coast refiners generally, though MPC's specific exposure is unclear.\", \"added\": false}, {\"ticker\": \"PSX\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"PSX operates Gulf Coast refining capacity that could benefit from increased Venezuelan crude supply mentioned as being refined in Houston.\", \"added\": false}], \"summary\": \"The President's comments about Venezuelan oil being refined at Houston facilities are mildly positive for Gulf Coast refiners (VLO, MPC, PSX) due to potential increased crude supply, though the remark is more about geopolitical relations than a specific new deal, limiting confidence and magnitude.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01664:oil",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels",
+    "refineries"
+   ],
+   "t_audio": 1664.525,
+   "t_wall": 1773094295.525,
+   "t_wall_et": "2026-03-09T18:11:35.525000-04:00",
+   "segment_text": "of oil, and now they have another 100,000,000",
+   "context": "We have a formula that's been very good so far, and I think it'll continue to be good. The relationship is extraordinary with Venezuela, smart country. We've taken out a 100,000,000 barrels of oil. It's right now in Houston being being taken care of and made so beautiful. And you have to see this at work. They have it's it's brought to the refineries. It's being refined in Houston, which is made exactly for that product. And so far but it's a 100,000,000 barrels of oil, and now they have another 100,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We've taken out 100,000,000 barrels of oil. It's being refined in Houston.",
+    "summary": "The President reports 100 million barrels of Venezuelan oil refined in Houston, with another 100 million available."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad energy sector unlikely to move much on this specific Venezuela oil comment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Additional Venezuelan crude supply reaching US refiners could modestly pressure oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No specific mention of Exxon benefiting from this Venezuela-Houston refining arrangement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has historical Venezuela refining ties and could benefit from expanded Houston-bound Venezuelan crude flows.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Broad energy sector unlikely to move much on this specific Venezuela oil comment.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Additional Venezuelan crude supply reaching US refiners could modestly pressure oil prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No specific mention of Exxon benefiting from this Venezuela-Houston refining arrangement.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has historical Venezuela refining ties and could benefit from expanded Houston-bound Venezuelan crude flows.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01673:venezuela",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels",
+    "partnership"
+   ],
+   "t_audio": 1673.309761904762,
+   "t_wall": 1773094304.309762,
+   "t_wall_et": "2026-03-09T18:11:44.309762-04:00",
+   "segment_text": "It's great for Venezuela, and it's great for The United States.",
+   "context": "in Houston being being taken care of and made so beautiful. And you have to see this at work. They have it's it's brought to the refineries. It's being refined in Houston, which is made exactly for that product. And so far but it's a 100,000,000 barrels of oil, and now they have another 100,000,000 barrels coming. And it's like a partnership. We're getting along so well with them. It's great for Venezuela, and it's great for The United States.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "100,000,000 barrels of oil, partnership, great for Venezuela, great for United States",
+    "summary": "The President describes oil deal with Venezuela: 200 million barrels total, refined in Houston, mutually beneficial partnership."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has historical Venezuela operations and would likely benefit from expanded oil partnership and refining volumes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan crude flowing to US refiners is a mild positive for the energy sector broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touted an expanding oil partnership with Venezuela (200 million barrels being refined in Houston), a mildly positive, new detail for US energy/refining names like CVX and the XLE sector ETF.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has historical Venezuela operations and would likely benefit from expanded oil partnership and refining volumes.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan crude flowing to US refiners is a mild positive for the energy sector broadly.\", \"added\": false}], \"summary\": \"The President touted an expanding oil partnership with Venezuela (200 million barrels being refined in Houston), a mildly positive, new detail for US energy/refining names like CVX and the XLE sector ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "ViW6wZw8Dn8:01702:rtx",
+   "video_id": "ViW6wZw8Dn8",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawks",
+   "text_span": "Tomahawks",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1702.9437,
+   "t_wall": 1773094333.9437,
+   "t_wall_et": "2026-03-09T18:12:13.943700-04:00",
+   "segment_text": "but Tomahawks are are used by others, as you know.",
+   "context": "Yeah. Please go ahead. Hi, mister president. You just suggested that Iran somehow got its hands on a tomahawk and bombed its own elementary school on the 1st day of the war, but you're the only person in your government saying this. Even your defense secretary wouldn't say that when he was asked standing over your shoulder on your plane on Saturday. Why are you the only person saying this? Because I just don't know enough about it. I think it's something that I was told is under investigation, but Tomahawks are are used by others, as you know.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (Tomahawks)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Tomahawks are used by others, as you know.",
+    "summary": "The President acknowledges Tomahawk missiles are used by multiple parties in conflict."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President merely notes Tomahawks are used by multiple nations without any new policy, order, or contract implication for Raytheon.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a factual aside about Tomahawk missile usage amid an unrelated political controversy, offering no new demand, order, or restriction affecting RTX, so no material price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President merely notes Tomahawks are used by multiple nations without any new policy, order, or contract implication for Raytheon.\", \"added\": false}], \"summary\": \"The remark is a factual aside about Tomahawk missile usage amid an unrelated political controversy, offering no new demand, order, or restriction affecting RTX, so no material price impact is expected.\"}"
+   }
+  }
+ ]
+}

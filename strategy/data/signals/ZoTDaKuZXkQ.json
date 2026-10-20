@@ -1,0 +1,334 @@
+{
+ "video": {
+  "id": "ZoTDaKuZXkQ",
+  "url": "https://www.youtube.com/watch?v=ZoTDaKuZXkQ",
+  "title": "The President Delivers Remarks, Sep. 10, 2026",
+  "channel": "The White House",
+  "duration": 2016.0,
+  "was_live": true,
+  "release_timestamp": 1789064021.0,
+  "upload_timestamp": 1789066996.0,
+  "upload_date": "20260910",
+  "label": "Remarks, Sep 10 2026",
+  "group": "recent",
+  "notes": "",
+  "t0": 1789064021.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 7,
+  "confirmed": 4,
+  "retracted": 3,
+  "unconfirmed": 0,
+  "llm_calls": 8
+ },
+ "signals": [
+  {
+   "signal_id": "ZoTDaKuZXkQ:00654:defense_word",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 654.2054105660377,
+   "t_wall": 1789064675.2054105,
+   "t_wall_et": "2026-09-10T14:24:35.205410-04:00",
+   "segment_text": "He gets more approved with a majority of 2 than any man, and it's really a majority of 1 because 1 always votes. There's something wrong with him. He's cuckoo.",
+   "context": "And I wanna thank Jean. She's a phenomenal woman, respected all over the the planet, frankly. Thank you very much, Jean. It's a great honor to be with you and your family and the board of directors. Thank you. And thanks as well to speaker Mike Johnson. Is he around here someplace? Where is ours? Oh, I love my speaker. He gets more approved with a majority of 2 than any man, and it's really a majority of 1 because 1 always votes. There's something wrong with him. He's cuckoo.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ZoTDaKuZXkQ:01078:tm",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants"
+   ],
+   "t_audio": 1078.5083962264152,
+   "t_wall": 1789065099.5083961,
+   "t_wall_et": "2026-09-10T14:31:39.508396-04:00",
+   "segment_text": "But and that's what's happening is, you know, we went years without building a car plant in The United States. Now we're building many, many car plants. Toyota",
+   "context": "close to $21,000,000,000,000, actually. And, it's coming in at levels that nobody's ever seen before. That number will be changing next month, and we could even hit $2,425,000,000,000,000 dollars. That's even a lot of money for Jerry. Right, Jerry? That's a lot of money. That's a lot of football players. But and that's what's happening is, you know, we went years without building a car plant in The United States. Now we're building many, many car plants. Toyota",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "we're building many, many car plants",
+    "summary": "The President highlights new car plant construction in US, citing Toyota context."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President claims Toyota is leaving Mexico and building US plants to avoid tariffs, a mildly positive signal for Toyota's US market position though details are unverified.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks tout Toyota's shift to US manufacturing amid tariff policy, a mildly positive but vague signal for TM with no new concrete details.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President claims Toyota is leaving Mexico and building US plants to avoid tariffs, a mildly positive signal for Toyota's US market position though details are unverified.\", \"added\": false}], \"summary\": \"The President's remarks tout Toyota's shift to US manufacturing amid tariff policy, a mildly positive but vague signal for TM with no new concrete details.\"}"
+   }
+  },
+  {
+   "signal_id": "ZoTDaKuZXkQ:01080:mexico",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants"
+   ],
+   "t_audio": 1080.8351,
+   "t_wall": 1789065101.8351,
+   "t_wall_et": "2026-09-10T14:31:41.835100-04:00",
+   "segment_text": "Mexico.",
+   "context": "it's coming in at levels that nobody's ever seen before. That number will be changing next month, and we could even hit $2,425,000,000,000,000 dollars. That's even a lot of money for Jerry. Right, Jerry? That's a lot of money. That's a lot of football players. But and that's what's happening is, you know, we went years without building a car plant in The United States. Now we're building many, many car plants. Toyota just announced they're leaving Mexico.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Toyota just announced they're leaving Mexico.",
+    "summary": "The President reports Toyota announced departure from Mexico for US car plant investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlights auto manufacturers leaving Mexico for US plants, a mild negative signal for Mexican industrial investment reflected in the country ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks tout US manufacturing gains at Mexico's expense (Toyota leaving Mexico), a modestly negative signal for Mexico-exposed EWW, though this restates known reshoring/tariff rhetoric rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President highlights auto manufacturers leaving Mexico for US plants, a mild negative signal for Mexican industrial investment reflected in the country ETF.\", \"added\": false}], \"summary\": \"The President's remarks tout US manufacturing gains at Mexico's expense (Toyota leaving Mexico), a modestly negative signal for Mexico-exposed EWW, though this restates known reshoring/tariff rhetoric rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "ZoTDaKuZXkQ:01086:gm",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants"
+   ],
+   "t_audio": 1086.4618333333333,
+   "t_wall": 1789065107.4618332,
+   "t_wall_et": "2026-09-10T14:31:47.461833-04:00",
+   "segment_text": "of the others. General Motors just announced a massive plant. For the same thing.",
+   "context": "and we could even hit $2,425,000,000,000,000 dollars. That's even a lot of money for Jerry. Right, Jerry? That's a lot of money. That's a lot of football players. But and that's what's happening is, you know, we went years without building a car plant in The United States. Now we're building many, many car plants. Toyota just announced they're leaving Mexico. We have many of the others. General Motors just announced a massive plant. For the same thing.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "General Motors just announced a massive plant.",
+    "summary": "GM announced major plant investment in United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises GM's US plant investment, mildly positive but likely already known/announced news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of GM's massive US plant investment is a mild positive for GM, though it appears to reference previously announced plans rather than new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises GM's US plant investment, mildly positive but likely already known/announced news.\", \"added\": false}], \"summary\": \"The President's mention of GM's massive US plant investment is a mild positive for GM, though it appears to reference previously announced plans rather than new information.\"}"
+   }
+  },
+  {
+   "signal_id": "ZoTDaKuZXkQ:01094:hmc",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "hmc",
+   "entity": "Honda",
+   "kind": "company",
+   "alias": "honda",
+   "text_span": "Honda",
+   "dict_tickers": [
+    "HMC"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 1094.4428571428573,
+   "t_wall": 1789065115.442857,
+   "t_wall_et": "2026-09-10T14:31:55.442857-04:00",
+   "segment_text": "what's happening. Honda's coming in. They're all coming in, and",
+   "context": "That's a lot of football players. But and that's what's happening is, you know, we went years without building a car plant in The United States. Now we're building many, many car plants. Toyota just announced they're leaving Mexico. We have many of the others. General Motors just announced a massive plant. For the same thing. It's actually amazing what's what's happening. Honda's coming in. They're all coming in, and",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Honda",
+    "tickers": [
+     "HMC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Honda's coming in. They're all coming in.",
+    "summary": "Honda announced plant investment in United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HMC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President touts Honda building US plants to avoid tariffs, a mild positive signal though details/timing are vague.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks frame Honda's US investment positively as tariff-avoidance driven manufacturing shift, a mild bullish but low-specificity signal for HMC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HMC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President touts Honda building US plants to avoid tariffs, a mild positive signal though details/timing are vague.\", \"added\": false}], \"summary\": \"The President's remarks frame Honda's US investment positively as tariff-avoidance driven manufacturing shift, a mild bullish but low-specificity signal for HMC.\"}"
+   }
+  },
+  {
+   "signal_id": "ZoTDaKuZXkQ:01142:defense_word",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 1142.3859302325582,
+   "t_wall": 1789065163.3859303,
+   "t_wall_et": "2026-09-10T14:32:43.385930-04:00",
+   "segment_text": "100, sometimes they go crazy, you go $2.50.",
+   "context": "He's a terrible human being when tariff is his favorite. So I made it my 5th favorite word, and now I'm okay. But the numbers that we're taking in are incredible because when you come in and you build your plant in The United States, including in Arlington and Texas and anywhere you want in The United States, there is no tariff. So rather than paying $25.50, 100, sometimes they go crazy, you go $2.50. Rather than doing that or rather than saying we don't wanna trade with you because your country's",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ZoTDaKuZXkQ:01461:defense_word",
+   "video_id": "ZoTDaKuZXkQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 1461.811118881119,
+   "t_wall": 1789065482.8111188,
+   "t_wall_et": "2026-09-10T14:38:02.811119-04:00",
+   "segment_text": "When he died, Woody was the last surviving recipient from World War 2. 1 of the most dangerous jobs of war and that's operating a flamethrower.",
+   "context": "But, we're gonna find you an even better location. I think I have an idea that you like even better. I got very familiar with the land. I like real estate. I got very familiar with DC land. But the bill created this beautiful new monument is named for 1 of the most beloved Medal of Honor recipients, the late, great Woody Williams. When he died, Woody was the last surviving recipient from World War 2. 1 of the most dangerous jobs of war and that's operating a flamethrower.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

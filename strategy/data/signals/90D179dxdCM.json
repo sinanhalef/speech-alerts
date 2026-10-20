@@ -1,0 +1,2607 @@
+{
+ "video": {
+  "id": "90D179dxdCM",
+  "url": "https://www.youtube.com/watch?v=90D179dxdCM",
+  "title": "The President Holds a Press Conference, Jun. 17, 2026",
+  "channel": "The White House",
+  "duration": 4127.0,
+  "was_live": true,
+  "release_timestamp": 1781711356.0,
+  "upload_timestamp": 1781716405.0,
+  "upload_date": "20260617",
+  "label": "Holds a Press Conference, Jun. 17, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1781711356.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 45,
+  "confirmed": 30,
+  "retracted": 15,
+  "unconfirmed": 0,
+  "llm_calls": 54
+ },
+ "signals": [
+  {
+   "signal_id": "90D179dxdCM:00077:stock_market",
+   "video_id": "90D179dxdCM",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 77.27409581818182,
+   "t_wall": 1781711433.2740958,
+   "t_wall_et": "2026-06-17T11:50:33.274096-04:00",
+   "segment_text": "The stock market has surged to record highs,",
+   "context": "and preventing Iran from ever obtaining a nuclear weapon. That's what it was all about. That was about 99%. Iran cannot have a nuclear weapon. They can't develop it, buy it. They can never have a nuclear weapon. At the same time, with this announcement or close to it, as people started to think it was going to happen when Iran was making some very positive statements. The stock market has surged to record highs,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market has surged to record highs",
+    "summary": "The President credits Iran nuclear policy announcement with stock market surge to record highs."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President touts Iran deal and Strait of Hormuz reopening as reducing geopolitical risk, supportive of broad market sentiment though already reflected in recent surge.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "General risk-on sentiment from de-escalation news lifts tech-heavy index similarly to broader market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Broad market optimism from easing Middle East tensions and falling oil prices benefits industrial-heavy Dow index.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate an already-known Iran deal and its positive market impact, reinforcing bullish sentiment across major indices but offering no new information likely to move prices significantly beyond current levels.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President touts Iran deal and Strait of Hormuz reopening as reducing geopolitical risk, supportive of broad market sentiment though already reflected in recent surge.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"General risk-on sentiment from de-escalation news lifts tech-heavy index similarly to broader market.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Broad market optimism from easing Middle East tensions and falling oil prices benefits industrial-heavy Dow index.\", \"added\": false}], \"summary\": \"The President's remarks reiterate an already-known Iran deal and its positive market impact, reinforcing bullish sentiment across major indices but offering no new information likely to move prices significantly beyond current levels.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00086:oil",
+   "video_id": "90D179dxdCM",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 86.75684210526316,
+   "t_wall": 1781711442.7568421,
+   "t_wall_et": "2026-06-17T11:50:42.756842-04:00",
+   "segment_text": "And oil is dropping",
+   "context": "Iran cannot have a nuclear weapon. They can't develop it, buy it. They can never have a nuclear weapon. At the same time, with this announcement or close to it, as people started to think it was going to happen when Iran was making some very positive statements. The stock market has surged to record highs, picking up thousands of points over the last short period of time, thousands of points. And oil is dropping",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "oil is dropping",
+    "summary": "Oil prices falling amid Iran nuclear policy announcement and market surge."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Iran deal reduces geopolitical risk premium, pushing oil and energy sector lower.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President explicitly states oil is dropping sharply due to resolution of Iran conflict and reopened Strait of Hormuz.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Lower oil prices from de-escalation reduce upstream profit expectations for major producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Falling crude prices from easing Middle East tensions weigh modestly on integrated oil majors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Iran deal reduces geopolitical risk premium, pushing oil and energy sector lower.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President explicitly states oil is dropping sharply due to resolution of Iran conflict and reopened Strait of Hormuz.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Lower oil prices from de-escalation reduce upstream profit expectations for major producers.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Falling crude prices from easing Middle East tensions weigh modestly on integrated oil majors.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00108:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 108.40928571428572,
+   "t_wall": 1781711464.4092858,
+   "t_wall_et": "2026-06-17T11:51:04.409286-04:00",
+   "segment_text": "if we didn't do this deal, we could have dropped more bombs for another 3 weeks, 2 weeks, 4 weeks,",
+   "context": "picking up thousands of points over the last short period of time, thousands of points. And oil is dropping like it has never dropped before at levels that went in in numbers down $7, down $8. They've never seen anything like that. But if we didn't do this deal, we could have dropped more bombs for another 3 weeks, 2 weeks, 4 weeks, 2 years. You would never have the Harmo straight open.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:00279:spacers",
+   "video_id": "90D179dxdCM",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "rocket",
+   "text_span": "rocket",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 279.90501,
+   "t_wall": 1781711635.90501,
+   "t_wall_et": "2026-06-17T11:53:55.905010-04:00",
+   "segment_text": "the stock market shot up like a rocket ship. It never went down.",
+   "context": "Their 3rd set of leaders, a little bit gone. But for the most part and frankly, I think it's regime change. I think they're gonna behave much differently. I think they see a different way of life that they were never exposed to. So the 1 thing I didn't wanna see is I didn't wanna see economic catastrophe. If you kept this going, that could have happened. But all I know is every time we talked about the possibility of peace, the stock market shot up like a rocket ship. It never went down. They didn't like it. The people you know, the stock market is more brilliant",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:00349:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 349.1376843902439,
+   "t_wall": 1781711705.1376843,
+   "t_wall_et": "2026-06-17T11:55:05.137684-04:00",
+   "segment_text": "the past 2 days have provided a chance to discuss the details of the deal with the closest friends and allies, the heads of",
+   "context": "And, you know, I've studied presidents, some good, some bad, some great. Not too many are great and some really bad. We had born just recently. And the 1 president I did not wanna be was the late, great Herbert Hoover. I didn't want that. And who knows what would have happened? But bad things happen. So the past 2 days have provided a chance to discuss the details of the deal with the closest friends and allies, the heads of",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:00587:banks",
+   "video_id": "90D179dxdCM",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "banks",
+   "text_span": "banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 587.9547946666667,
+   "t_wall": 1781711943.9547946,
+   "t_wall_et": "2026-06-17T11:59:03.954795-04:00",
+   "segment_text": "in green cash from banks all over Washington,",
+   "context": "The Middle East, maybe ever, but they say 50 years, they say 100 years. I was with the prime minister of Pakistan. He said it's maybe the biggest event that has ever taken place. Nobody could believe it. So that's when it started. It didn't start, like, 3 or 4 or 5 weeks ago, and Obama wouldn't do it. What Obama did was he did the JCPOA. He loaded up a plane with $1,700,000,000 in green cash from banks all over Washington,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Banks",
+    "tickers": [
+     "XLF",
+     "KRE",
+     "JPM",
+     "BAC"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "loaded up a plane with $1,700,000,000 in green cash from banks all over Washington",
+    "summary": "The President criticizes banks for involvement in Obama's JCPOA cash transfer."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Historical anecdote about banks in JCPOA cash transfer, not a current policy action affecting financials.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new regulatory or business impact on regional banks from this historical remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JPM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of banks is incidental to a historical narrative, not a specific criticism of JPM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BAC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No actionable policy or business implication for BAC from this anecdote.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark recounts a historical Obama-era cash transfer via banks tied to the Iran deal; it is rhetorical and backward-looking with no new policy action, so it carries little tradeable impact for financial sector tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Historical anecdote about banks in JCPOA cash transfer, not a current policy action affecting financials.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new regulatory or business impact on regional banks from this historical remark.\", \"added\": false}, {\"ticker\": \"JPM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of banks is incidental to a historical narrative, not a specific criticism of JPM.\", \"added\": false}, {\"ticker\": \"BAC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No actionable policy or business implication for BAC from this anecdote.\", \"added\": false}], \"summary\": \"The President's remark recounts a historical Obama-era cash transfer via banks tied to the Iran deal; it is rhetorical and backward-looking with no new policy action, so it carries little tradeable impact for financial sector tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00598:ba",
+   "video_id": "90D179dxdCM",
+   "entity_id": "ba",
+   "entity": "Boeing",
+   "kind": "company",
+   "alias": "boeing",
+   "text_span": "Boeing",
+   "dict_tickers": [
+    "BA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 598.2999775,
+   "t_wall": 1781711954.2999775,
+   "t_wall_et": "2026-06-17T11:59:14.299978-04:00",
+   "segment_text": "It all went into a Boeing 7 57, a wonderful plane, and they flew it to Iran.",
+   "context": "has ever taken place. Nobody could believe it. So that's when it started. It didn't start, like, 3 or 4 or 5 weeks ago, and Obama wouldn't do it. What Obama did was he did the JCPOA. He loaded up a plane with $1,700,000,000 in green cash from banks all over Washington, Maryland, Virginia. They were stripped of all their cash. They had no cash to do payrolls. It all went into a Boeing 7 57, a wonderful plane, and they flew it to Iran.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Boeing",
+    "tickers": [
+     "BA"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "loaded up a plane with $1.7 billion in green cash into a Boeing 757",
+    "summary": "The President mentions Boeing 757 aircraft used to transport cash to Iran under Obama administration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Boeing 757 mentioned only as an incidental historical anecdote about Iran cash transfer, not price-relevant news for Boeing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark about a Boeing 757 is purely incidental to a historical anecdote about the JCPOA cash payment, with no policy, contract, or business implication for Boeing.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Boeing 757 mentioned only as an incidental historical anecdote about Iran cash transfer, not price-relevant news for Boeing.\", \"added\": false}], \"summary\": \"The President's remark about a Boeing 757 is purely incidental to a historical anecdote about the JCPOA cash payment, with no policy, contract, or business implication for Boeing.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00628:israel",
+   "video_id": "90D179dxdCM",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 628.7662376237623,
+   "t_wall": 1781711984.7662377,
+   "t_wall_et": "2026-06-17T11:59:44.766238-04:00",
+   "segment_text": "a nuclear weapon. And if that happened, Israel would have been blown away. And in all fairness to who",
+   "context": "It all went into a Boeing 7 57, a wonderful plane, and they flew it to Iran. And they gave it out to people. They bribed people. They thought they were gonna get it done. Then they gave billions and billions of dollars after that, and they got a deal that was a road to a nuclear weapon. I I get so angry, I guess. I'm allowed to get angry when I watch these the Democrats. They talk about it all the time. We had this deal done. You had a deal that was gonna give them legally a nuclear weapon. And if that happened, Israel would have been blown away. And in all fairness to who",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Israel",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Israel would have been blown away.",
+    "summary": "The President criticized the Iran nuclear deal for threatening Israel's security."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about past Iran deal and Israel support is not new market-moving information for Israeli equities ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rehashing Iran deal history and Middle East tensions is rhetoric, not a new defense spending or conflict escalation signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are historical criticism of the Obama-era Iran deal and reaffirmation of US-Israel alliance, containing no new policy, deal, or conflict escalation details, so minimal tradable impact on EIS or ITA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EIS\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about past Iran deal and Israel support is not new market-moving information for Israeli equities ETF.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rehashing Iran deal history and Middle East tensions is rhetoric, not a new defense spending or conflict escalation signal.\", \"added\": false}], \"summary\": \"The President's remarks are historical criticism of the Obama-era Iran deal and reaffirmation of US-Israel alliance, containing no new policy, deal, or conflict escalation details, so minimal tradable impact on EIS or ITA.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00924:steel",
+   "video_id": "90D179dxdCM",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 924.0002173913043,
+   "t_wall": 1781712280.0002174,
+   "t_wall_et": "2026-06-17T12:04:40.000217-04:00",
+   "segment_text": "will go down to the annals of history as being unbelievable. Nobody's ever seen a blockade like that. They're just it's like a steel wall.",
+   "context": "Space Force cameras on every single door, every well, there are no doors. They've been pretty well shattered. But every area of that if somebody walks in and he's got a badge with his name on it, like Mohammed something, which is about a 50 50 guess. Mohammed something. They can tell the name. They can give you a serial number. They we can see things. You wouldn't believe the quality of the stuff that we have. That's why we've been so successful. That's why our blockade will go down to the annals of history as being unbelievable. Nobody's ever seen a blockade like that. They're just it's like a steel wall.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "it's like a steel wall",
+    "summary": "The President uses steel as metaphor for strength of blockade."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel mentioned only as a metaphor for a military blockade, not policy relevant to steel producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No substantive steel policy or tariff content, just a figure of speech.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention is rhetorical, not a market-moving policy statement on steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No new tariff, subsidy, or demand signal for steelmakers in this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected as the steel reference is purely metaphorical.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's use of steel as a metaphor for a military blockade carries no actionable policy or demand implications for steel companies, so no price-relevant signal exists for X, NUE, CLF, STLD, or SLX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Steel mentioned only as a metaphor for a military blockade, not policy relevant to steel producers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No substantive steel policy or tariff content, just a figure of speech.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention is rhetorical, not a market-moving policy statement on steel.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No new tariff, subsidy, or demand signal for steelmakers in this remark.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected as the steel reference is purely metaphorical.\", \"added\": false}], \"summary\": \"The President's use of steel as a metaphor for a military blockade carries no actionable policy or demand implications for steel companies, so no price-relevant signal exists for X, NUE, CLF, STLD, or SLX.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00934:noc",
+   "video_id": "90D179dxdCM",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 934.4131207326008,
+   "t_wall": 1781712290.4131207,
+   "t_wall_et": "2026-06-17T12:04:50.413121-04:00",
+   "segment_text": "what happened is we then terminated that, and I call it the nuclear dust, and that was the end of that. But if we didn't hit that with the b 2 bombers or if it wasn't successful, they would have had a nuclear weapon, a nuclear bomb at at a very high level, not the highest,",
+   "context": "They can give you a serial number. They we can see things. You wouldn't believe the quality of the stuff that we have. That's why we've been so successful. That's why our blockade will go down to the annals of history as being unbelievable. Nobody's ever seen a blockade like that. They're just it's like a steel wall. So what happened is we then terminated that, and I call it the nuclear dust, and that was the end of that. But if we didn't hit that with the b 2 bombers or if it wasn't successful, they would have had a nuclear weapon, a nuclear bomb at at a very high level, not the highest,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "if we didn't hit that with the b 2 bombers or if it wasn't successful",
+    "summary": "The President references B-2 bombers in context of successful military operation."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to B-2 bombers' past mission success is a factual anecdote, not a new contract or policy signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount a prior successful B-2 strike but contain no new procurement, budget, or policy news for Northrop Grumman, so limited stock-specific impact expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NOC\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reference to B-2 bombers' past mission success is a factual anecdote, not a new contract or policy signal.\",\"added\":false}],\"summary\":\"The President's remarks recount a prior successful B-2 strike but contain no new procurement, budget, or policy news for Northrop Grumman, so limited stock-specific impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:00988:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "terrible"
+   ],
+   "t_audio": 988.1433576470588,
+   "t_wall": 1781712344.1433578,
+   "t_wall_et": "2026-06-17T12:05:44.143358-04:00",
+   "segment_text": "1 of those 2 is very willing to do it, I will tell you. The other 1 is less willing to do it, and you need all of them.",
+   "context": "And then you have China in 3rd place, but they'll within 5 years, they'll be probably even. And we ought to make a denuclearization deal. It'd be so great. We don't need all of that. We don't need to be able to blow up the whole world 300 times over. It's terrible. Really, if we could do a denuke deal, I'd I'd love it. And 1 of those 2 is very willing to do it, I will tell you. The other 1 is less willing to do it, and you need all of them.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:00997:iran",
+   "video_id": "90D179dxdCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 997.23208,
+   "t_wall": 1781712353.23208,
+   "t_wall_et": "2026-06-17T12:05:53.232080-04:00",
+   "segment_text": "So the deal we reached, with Iran on Sunday",
+   "context": "And then you have China in 3rd place, but they'll within 5 years, they'll be probably even. And we ought to make a denuclearization deal. It'd be so great. We don't need all of that. We don't need to be able to blow up the whole world 300 times over. It's terrible. Really, if we could do a denuke deal, I'd I'd love it. And 1 of those 2 is very willing to do it, I will tell you. The other 1 is less willing to do it, and you need all of them. So the deal we reached, with Iran on Sunday",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "the deal we reached, with Iran on Sunday",
+    "summary": "The President references a deal reached with Iran on Sunday."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "A confirmed Iran deal reduces geopolitical risk premium in oil prices, pressuring energy equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "De-escalation with Iran and denuclearization talk lowers Middle East conflict risk, easing oil price upside.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Talk of denuclearization and reduced conflict risk is mildly negative for defense demand narrative but largely offset by ongoing military posture, net ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's confirmation of an Iran deal and denuclearization rhetoric reduces geopolitical risk premium, likely weighing modestly on oil-linked names while defense sentiment is mixed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"A confirmed Iran deal reduces geopolitical risk premium in oil prices, pressuring energy equities.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"De-escalation with Iran and denuclearization talk lowers Middle East conflict risk, easing oil price upside.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Talk of denuclearization and reduced conflict risk is mildly negative for defense demand narrative but largely offset by ongoing military posture, net ambiguous.\", \"added\": false}], \"summary\": \"The President's confirmation of an Iran deal and denuclearization rhetoric reduces geopolitical risk premium, likely weighing modestly on oil-linked names while defense sentiment is mixed.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:01103:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "partner"
+   ],
+   "t_audio": 1103.8742857142856,
+   "t_wall": 1781712459.8742857,
+   "t_wall_et": "2026-06-17T12:07:39.874286-04:00",
+   "segment_text": "when 2 drones are shot into the desert and drop harmlessly, you don't have to knock down buildings",
+   "context": "So it's a very dangerous thing for somebody to do. But I wanted it in there. So it's develop, procure, buy anything. And you'll see that when you see the agreement, but it's appropriate that we release the agreement. And we did send a copy to Israel, by the way. They've been a good partner. Again, I think they could do better with respect to Hezbollah. I'm not saying they shouldn't protect themselves. I'm saying when 2 drones are shot into the desert and drop harmlessly, you don't have to knock down buildings",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:01216:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "invest",
+    "investment"
+   ],
+   "t_audio": 1216.8366666666666,
+   "t_wall": 1781712572.8366666,
+   "t_wall_et": "2026-06-17T12:09:32.836667-04:00",
+   "segment_text": "maybe $2,000,000,000,000",
+   "context": "Iran pallets of cash and any relief they receive under this deal, they'll have to get based on merit, and it won't be from us. We don't have to give them anything. But some people may want to invest. Like, what are you gonna do? Say you can never ever invest in a country? I mean, it's pretty tough. I don't mind being tough, but it's pretty crazy. You can invest in a country. Can invest in any country you want, but you can't invest there. Well, they need investment because we did 1,000,000,000,000.5, maybe $2,000,000,000,000 worth of damage. So somebody's gonna have to help them out.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:01326:stock_market",
+   "video_id": "90D179dxdCM",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1326.913283870968,
+   "t_wall": 1781712682.9132838,
+   "t_wall_et": "2026-06-17T12:11:22.913284-04:00",
+   "segment_text": "of dollars will be made by the world, and the stock market will, I believe, continue to rise.",
+   "context": "And they were all gone. They were all gone. And then the 3rd group, we've been dealing with them. Couple couple left this planet, but we've been dealing with them. And, again, they've been fine. I mean, I've had a lot easier. I've had some easier ones. They're tough this morning. Maritime traffic through the Strait Of Hormuz has already increased very substantially, and a normal flow of energy will resume in the coming days, and and trillions of dollars will be made by the world, and the stock market will, I believe, continue to rise.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "the stock market will, I believe, continue to rise",
+    "summary": "The President predicts the stock market will continue rising."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President expresses confidence that markets will continue rising amid easing Strait of Hormuz tensions, a mildly positive but generic sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bullish market rhetoric and resumption of energy flows reduce macro risk, mildly supportive of broad equities including tech.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad positive market sentiment applies to industrial-heavy Dow index.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's optimistic remarks about resumed maritime/energy flows and a rising stock market are mildly positive but largely repeat prior rhetoric, offering only a small, low-confidence boost to broad market ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President expresses confidence that markets will continue rising amid easing Strait of Hormuz tensions, a mildly positive but generic sentiment.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General bullish market rhetoric and resumption of energy flows reduce macro risk, mildly supportive of broad equities including tech.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same broad positive market sentiment applies to industrial-heavy Dow index.\", \"added\": false}], \"summary\": \"The President's optimistic remarks about resumed maritime/energy flows and a rising stock market are mildly positive but largely repeat prior rhetoric, offering only a small, low-confidence boost to broad market ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:01373:fed",
+   "video_id": "90D179dxdCM",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1373.8618913043479,
+   "t_wall": 1781712729.8618913,
+   "t_wall_et": "2026-06-17T12:12:09.861891-04:00",
+   "segment_text": "too fast, and he raised interest rates too fast all at the same time.",
+   "context": "but so are we. So rather than possibly going into a depression, rather than having your favorite president be Herbert Hoover, I was always the 1 I didn't wanna be. I wouldn't have preferred Nixon. I wouldn't have preferred there are plenty I wouldn't prefer, but the 1 I always thought of, Herbert Hoover, and he caused it. He raised taxes too fast, and he raised interest rates too fast all at the same time.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "he raised interest rates too fast all at the same time",
+    "summary": "The President criticizes rapid interest rate increases, comparing them to Hoover's policy errors."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about avoiding Hoover-era rate hikes is not a new policy signal for Treasuries.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on Strait of Hormuz easing and market optimism are mildly supportive but not specific to financials.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or rate-path information specific to regional banks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remarks are largely rhetorical, restating known views on tax cuts, rate hikes, and geopolitical de-escalation without new actionable policy for TLT, XLF, or KRE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about avoiding Hoover-era rate hikes is not a new policy signal for Treasuries.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments on Strait of Hormuz easing and market optimism are mildly supportive but not specific to financials.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or rate-path information specific to regional banks.\", \"added\": false}], \"summary\": \"The remarks are largely rhetorical, restating known views on tax cuts, rate hikes, and geopolitical de-escalation without new actionable policy for TLT, XLF, or KRE.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:01676:noc",
+   "video_id": "90D179dxdCM",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1676.9711403508772,
+   "t_wall": 1781713032.9711404,
+   "t_wall_et": "2026-06-17T12:17:12.971140-04:00",
+   "segment_text": "incredible. It's incredible. Look. We have the greatest military in the world. Those b 2 bombers are unbelievable.",
+   "context": "people. People want me to bomb the bridges. Why don't I bomb? I already did because, you know, they went back on 1 of their promises, and I bombed their biggest bridge, the equivalent of the George that was the George Washington Bridge Of Iran. We bombed that bridge. You saw that. 1 quick strike by an f 22, the most beautiful fighter jet ever made, by the way. In fact, we're ordering some more of them. We're bringing it out because it's so effective. It's incredible. It's incredible. Look. We have the greatest military in the world. Those b 2 bombers are unbelievable.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "Those b 2 bombers are unbelievable.",
+    "summary": "The President praised B-2 bombers as unbelievable, noting military superiority."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Praise for B-2 bombers and mention of ordering more F-22s signals continued defense demand, mildly bullish for Northrop as B-2 maker.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of B-2 bombers and new fighter jet orders is mildly positive for defense contractor Northrop Grumman, though no new concrete contract was disclosed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Praise for B-2 bombers and mention of ordering more F-22s signals continued defense demand, mildly bullish for Northrop as B-2 maker.\", \"added\": false}], \"summary\": \"The President's praise of B-2 bombers and new fighter jet orders is mildly positive for defense contractor Northrop Grumman, though no new concrete contract was disclosed.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:01774:iran",
+   "video_id": "90D179dxdCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1774.9350538461538,
+   "t_wall": 1781713130.9350538,
+   "t_wall_et": "2026-06-17T12:18:50.935054-04:00",
+   "segment_text": "The big deal is the Iran deal. That's where the money is, where the power was.",
+   "context": "they came out with a machine gun in their hand, so it's not the easiest thing. But they've they've actually, you know, behaved pretty well, considering this was not the lifestyle that they were taught to have. But including an end to all Iranian aggression, And they're not gonna be Iranian aggression and an end to war and terror in Lebanon. So the Lebanon piece is something we'll have to work on a little bit. It's a very small piece of the puzzle, actually, but it still makes a lot of noise. The big deal is the Iran deal. That's where the money is, where the power was.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.95,
+    "quote": "The big deal is the Iran deal. That's where the money is, where the power was.",
+    "summary": "The President discusses ending Iranian aggression and references the Iran nuclear deal as central to negotiations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Middle East diplomacy commentary without new oil-supply-relevant news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Talk of de-escalation and progress toward peace is mildly bearish for oil risk premium but no new concrete development.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Discussion of regional stability and disarmament is not a new driver for defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks are general diplomatic commentary on Middle East peace progress with no new concrete policy, contract, or sanction announcement, so limited direct market impact on energy or defense tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General Middle East diplomacy commentary without new oil-supply-relevant news.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Talk of de-escalation and progress toward peace is mildly bearish for oil risk premium but no new concrete development.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Discussion of regional stability and disarmament is not a new driver for defense contractors.\",\"added\":false}],\"summary\":\"Remarks are general diplomatic commentary on Middle East peace progress with no new concrete policy, contract, or sanction announcement, so limited direct market impact on energy or defense tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02044:ai",
+   "video_id": "90D179dxdCM",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2044.855,
+   "t_wall": 1781713400.855,
+   "t_wall_et": "2026-06-17T12:23:20.855000-04:00",
+   "segment_text": "artificial intelligence,",
+   "context": "And they were all saying, thank you so much. And I think they've done a good job. It's a it's a terrible thing. Ebola's a a terrible thing. That's an unbelievable 1. Fortunately, it's not like COVID where it's that easy to spread around, but it's rough. And we've done a good job. We've moved people to certain quarantine, certain locations. But today, we also had excellent meetings on the economy and artificial intelligence, which is, amazing what's going on with that. It's gonna be the biggest thing ever. We have to be very careful with it. It's both great",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "It's gonna be the biggest thing ever. We have to be very careful with it.",
+    "summary": "The President sees AI as transformative but requiring careful management."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI, pro-US-leadership rhetoric is mildly supportive but not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor sector benefits modestly from positive AI sentiment and talk of US leading China.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General AI optimism is mildly positive but non-specific to Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Comments on data centers building their own power plants to bypass grid constraints directly support data-center infrastructure and power equipment demand relevant to Vertiv.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broadly pro-AI and highlight a new policy allowing data centers to build their own power plants, which is modestly positive for AI/semiconductor and data-center infrastructure names, with the strongest and most novel benefit accruing to power-infrastructure providers like Vertiv.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-AI, pro-US-leadership rhetoric is mildly supportive but not new policy.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad semiconductor sector benefits modestly from positive AI sentiment and talk of US leading China.\",\"added\":false},{\"ticker\":\"MSFT\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General AI optimism is mildly positive but non-specific to Microsoft.\",\"added\":false},{\"ticker\":\"VRT\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Comments on data centers building their own power plants to bypass grid constraints directly support data-center infrastructure and power equipment demand relevant to Vertiv.\",\"added\":false}],\"summary\":\"The President's remarks are broadly pro-AI and highlight a new policy allowing data centers to build their own power plants, which is modestly positive for AI/semiconductor and data-center infrastructure names, with the strongest and most novel benefit accruing to power-infrastructure providers like Vertiv.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02057:china",
+   "video_id": "90D179dxdCM",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2057.856026392962,
+   "t_wall": 1781713413.8560264,
+   "t_wall_et": "2026-06-17T12:23:33.856026-04:00",
+   "segment_text": "and could be bad. We have to be careful with it, but we're leading China. We're leading the world on that. We're allowing them to to do their own electric plants because they need as an example, those buildings are so big, and they're not taking the community's electricity. I gave them the right it's my idea. I gave them the right to build",
+   "context": "But today, we also had excellent meetings on the economy and artificial intelligence, which is, amazing what's going on with that. It's gonna be the biggest thing ever. We have to be very careful with it. It's both great and could be bad. We have to be careful with it, but we're leading China. We're leading the world on that. We're allowing them to to do their own electric plants because they need as an example, those buildings are so big, and they're not taking the community's electricity. I gave them the right it's my idea. I gave them the right to build",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "We're leading China. We're leading the world on that.",
+    "summary": "The President claims US leadership over China in AI; permits electric plants for large buildings."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about US leading China in AI is not a specific China policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete tariff, sanction, or trade measure announced against China here.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is boastful rhetoric on AI competitiveness, not a new China tech policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely general rhetoric on Ebola aid, AI competitiveness, and domestic electricity policy with no specific new China-related trade or regulatory action, so China-exposed ETFs should see little differentiated price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about US leading China in AI is not a specific China policy action.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete tariff, sanction, or trade measure announced against China here.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is boastful rhetoric on AI competitiveness, not a new China tech policy.\", \"added\": false}], \"summary\": \"The President's remarks are largely general rhetoric on Ebola aid, AI competitiveness, and domestic electricity policy with no specific new China-related trade or regulatory action, so China-exposed ETFs should see little differentiated price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02227:rare_earth",
+   "video_id": "90D179dxdCM",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "critical minerals",
+   "text_span": "critical minerals",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2227.0354054054055,
+   "t_wall": 1781713583.0354054,
+   "t_wall_et": "2026-06-17T12:26:23.035405-04:00",
+   "segment_text": "We agreed to accelerate our efforts to secure our critical minerals and rare earth supply chains where we have great companies really going to town.",
+   "context": "and over 60%, they're down. And now we're gonna go and focus on the land. Come through Mexico. Mexico has lost control of their country. The cartels run Mexico, and it's sad. And the president's a very good woman, but she's a very scared woman. The drug cartels are totally running Mexico. It's not even close. We agreed to accelerate our efforts to secure our critical minerals and rare earth supply chains where we have great companies really going to town.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "accelerate our efforts to secure our critical minerals and rare earth supply chains",
+    "summary": "The President commits to accelerating US critical minerals and rare earth supply chain security."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"MP\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated government push to secure domestic rare earth supply chains benefits leading US rare earth producer MP Materials.\", \"added\": false}, {\"ticker\": \"REMX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad rare earth ETF benefits modestly from continued government emphasis on securing critical mineral supply chains.\", \"added\": false}], \"summary\": \"The President's reaffirmation of efforts to accelerate US critical minerals and rare earth supply chains is mildly positive for rare earth-related equities like MP and REMX, though it largely restates known policy.\""
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02390:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 2390.726666666667,
+   "t_wall": 1781713746.7266667,
+   "t_wall_et": "2026-06-17T12:29:06.726667-04:00",
+   "segment_text": "back. It's bigger and better and stronger. We're more respected as a country right now, I think, than we ever have been, and we were a laughing stock 2 years ago.",
+   "context": "some that I thought were friends of mine, but I don't want them as friends anymore because they're either stupid or they're bad people. But we stopped nuclear holocaust, and it stopped too. I mean, there's not gonna be any of that. So from the beginning to the end, it was clear that this week, America's back. It's bigger and better and stronger. We're more respected as a country right now, I think, than we ever have been, and we were a laughing stock 2 years ago. They would laugh at us. We had a man that should have never been there. You know that.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:02428:oil",
+   "video_id": "90D179dxdCM",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2428.9113414634144,
+   "t_wall": 1781713784.9113414,
+   "t_wall_et": "2026-06-17T12:29:44.911341-04:00",
+   "segment_text": "It's all coming down now because the oil is bringing it down. You're gonna see numbers that are gonna be amazing. But this evening, I look forward to a very special",
+   "context": "Then he'd try and find the stairs, which he couldn't find most of the time, and he'd leave. This is very unfair reporting. And then you said you didn't know about that. You didn't know there was something wrong. We can never let that happen to our country again. To me, the worst we had the worst inflation ever. We had the worst in prices and the costs. It's all coming down now because the oil is bringing it down. You're gonna see numbers that are gonna be amazing. But this evening, I look forward to a very special",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "the worst inflation ever...because the oil is bringing it down",
+    "summary": "The President credits falling oil prices for reducing inflation and promises strong economic numbers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touting falling oil prices as helping inflation implies lower crude prices, which is negative for energy sector revenues.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Direct reference to oil prices falling suggests continued downward pressure on crude, negative for an oil price-tracking ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower oil prices reduce upstream profitability for major producers like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same logic as XOM, falling oil prices are a mild negative for Chevron's earnings outlook.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark framing falling oil prices as a positive for inflation implies continued price softness, which is mildly negative for energy-related equities and oil-tracking instruments, though this is largely repeat rhetoric with limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touting falling oil prices as helping inflation implies lower crude prices, which is negative for energy sector revenues.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Direct reference to oil prices falling suggests continued downward pressure on crude, negative for an oil price-tracking ETF.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower oil prices reduce upstream profitability for major producers like Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same logic as XOM, falling oil prices are a mild negative for Chevron's earnings outlook.\", \"added\": false}], \"summary\": \"The President's remark framing falling oil prices as a positive for inflation implies continued price softness, which is mildly negative for energy-related equities and oil-tracking instruments, though this is largely repeat rhetoric with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02610:iran",
+   "video_id": "90D179dxdCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "selling"
+   ],
+   "t_audio": 2610.0732804347826,
+   "t_wall": 1781713966.0732803,
+   "t_wall_et": "2026-06-17T12:32:46.073280-04:00",
+   "segment_text": "to Iran. And you know what? For the most part,",
+   "context": "He was very neutral. They could have made it much more difficult for us. And I wanna say it. You know, somebody would say, oh, that's terrible. He's thinking he's thinking president Xi of China. Well, let me tell you. I had a long talk with him. You know, they have, shoulder weapons to knock down airplanes that it's not like the real deal, but they're accurate. They're fairly accurate. I said, I would really appreciate you're not giving or selling any of that stuff to Iran. And you know what? For the most part,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "I would really appreciate you're not giving or selling any of that stuff to Iran",
+    "summary": "The President requested China not sell weapons to Iran."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Middle East geopolitical commentary without new oil supply disruption details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new escalation or supply threat beyond prior rhetoric, so limited oil price impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Discussion of rebuilding air defenses and weapons diplomacy is not a new US defense contract signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remarks are mostly geopolitical commentary on Iran, China, and Russia with no new sanctions, deals, or contracts that would materially move energy or defense equities.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General Middle East geopolitical commentary without new oil supply disruption details.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new escalation or supply threat beyond prior rhetoric, so limited oil price impact.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Discussion of rebuilding air defenses and weapons diplomacy is not a new US defense contract signal.\",\"added\":false}],\"summary\":\"The remarks are mostly geopolitical commentary on Iran, China, and Russia with no new sanctions, deals, or contracts that would materially move energy or defense equities.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02790:cmcsa_outlet",
+   "video_id": "90D179dxdCM",
+   "entity_id": "cmcsa_outlet",
+   "entity": "Comcast (NBC, MSNBC)",
+   "kind": "company",
+   "alias": "nbc",
+   "text_span": "NBC",
+   "dict_tickers": [
+    "CMCSA"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2790.13,
+   "t_wall": 1781714146.13,
+   "t_wall_et": "2026-06-17T12:35:46.130000-04:00",
+   "segment_text": "NBC is terrible,",
+   "context": "We need a fair press. It's and that's why they're all doing so badly because they lost credibility. When I went in a landslide and I had 93% bad press, they take good stories about me and make them bad. But the only reason that happened is because they have so little the media has so little credibility that the people voted for me. 93% of the stories on network ABC is horrible. I think ABC is the worst. NBC is terrible,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Comcast (NBC, MSNBC)",
+    "tickers": [
+     "CMCSA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "NBC is terrible.",
+    "summary": "The President criticized NBC as terrible, linking it to media credibility loss."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CMCSA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic media criticism of NBC is repeated rhetoric unlikely to move Comcast shares materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's criticism of NBC as part of broader media-bias rhetoric is a repeat talking point with no new policy or business implication for Comcast.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CMCSA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic media criticism of NBC is repeated rhetoric unlikely to move Comcast shares materially.\", \"added\": false}], \"summary\": \"The President's criticism of NBC as part of broader media-bias rhetoric is a repeat talking point with no new policy or business implication for Comcast.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02792:para_outlet",
+   "video_id": "90D179dxdCM",
+   "entity_id": "para_outlet",
+   "entity": "Paramount (CBS)",
+   "kind": "company",
+   "alias": "cbs",
+   "text_span": "CBS",
+   "dict_tickers": [
+    "PSKY"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2792.103311111111,
+   "t_wall": 1781714148.103311,
+   "t_wall_et": "2026-06-17T12:35:48.103311-04:00",
+   "segment_text": "and CBS is terrible. CNN, obviously.",
+   "context": "We need a fair press. It's and that's why they're all doing so badly because they lost credibility. When I went in a landslide and I had 93% bad press, they take good stories about me and make them bad. But the only reason that happened is because they have so little the media has so little credibility that the people voted for me. 93% of the stories on network ABC is horrible. I think ABC is the worst. NBC is terrible, and CBS is terrible. CNN, obviously.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "CBS (Paramount)",
+    "tickers": [
+     "PSKY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "NBC is terrible, and CBS is terrible.",
+    "summary": "The President criticized CBS as terrible alongside NBC."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PSKY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic media criticism of CBS/NBC is repeat rhetoric with no new policy or business impact on Paramount Skydance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general anti-media rhetoric repeating past criticism, with no new material information affecting Paramount's business fundamentals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PSKY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic media criticism of CBS/NBC is repeat rhetoric with no new policy or business impact on Paramount Skydance.\", \"added\": false}], \"summary\": \"The President's remarks are general anti-media rhetoric repeating past criticism, with no new material information affecting Paramount's business fundamentals.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02793:wbd_outlet",
+   "video_id": "90D179dxdCM",
+   "entity_id": "wbd_outlet",
+   "entity": "Warner Bros. Discovery (CNN)",
+   "kind": "company",
+   "alias": "cnn",
+   "text_span": "CNN",
+   "dict_tickers": [
+    "WBD"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2793.6898833333335,
+   "t_wall": 1781714149.6898832,
+   "t_wall_et": "2026-06-17T12:35:49.689883-04:00",
+   "segment_text": "and CBS is terrible. CNN, obviously.",
+   "context": "We need a fair press. It's and that's why they're all doing so badly because they lost credibility. When I went in a landslide and I had 93% bad press, they take good stories about me and make them bad. But the only reason that happened is because they have so little the media has so little credibility that the people voted for me. 93% of the stories on network ABC is horrible. I think ABC is the worst. NBC is terrible, and CBS is terrible. CNN, obviously.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "CNN (Warner Bros. Discovery)",
+    "tickers": [
+     "WBD"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.96,
+    "quote": "CNN, obviously.",
+    "summary": "The President implicitly criticized CNN as terrible media outlet."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WBD",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Routine media criticism of CNN by the President is not new information and rarely moves WBD shares.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated criticism of CNN/media is rhetoric already familiar to markets and unlikely to materially move WBD stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"WBD\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Routine media criticism of CNN by the President is not new information and rarely moves WBD shares.\", \"added\": false}], \"summary\": \"The President's repeated criticism of CNN/media is rhetoric already familiar to markets and unlikely to materially move WBD stock.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:02885:oklo",
+   "video_id": "90D179dxdCM",
+   "entity_id": "oklo",
+   "entity": "Oklo",
+   "kind": "company",
+   "alias": "oklo",
+   "text_span": "Oklo",
+   "dict_tickers": [
+    "OKLO"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2885.7870750988145,
+   "t_wall": 1781714241.787075,
+   "t_wall_et": "2026-06-17T12:37:21.787075-04:00",
+   "segment_text": "he just answered more questions in 1 meeting than Joe Biden did in 4 years. Okay? You know, I'm not gonna get you in trouble, but that's what you said. Go ahead. Oklo, mister president. In the art of the deal, you write about the importance of leverage.",
+   "context": "couple of other people that I like very much, but, boy, are they wrong. Go ahead. How about you? Thank you, Peter. I'd give you more, Peter, but people will say I like you too much. Thank you, mister president. Bonsai, mister You know, he told me that 1st day in office, he asked me, like, 7 questions. I answered all of them. Is this true? He said, he just answered more questions in 1 meeting than Joe Biden did in 4 years. Okay? You know, I'm not gonna get you in trouble, but that's what you said. Go ahead. Oklo, mister president. In the art of the deal, you write about the importance of leverage.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:02962:israel",
+   "video_id": "90D179dxdCM",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2962.291885106383,
+   "t_wall": 1781714318.2918851,
+   "t_wall_et": "2026-06-17T12:38:38.291885-04:00",
+   "segment_text": "We'll get that done. That's that's a small 1, and we'll work with Israel and get it done. But,",
+   "context": "than all of the bombing raids where we dropped 1000000000 dollars worth of bombs on Iran. The blockade was so incredible. The naval blockade, the admirals, the whole thing, Not 1 ship got through. That meant no money got through. They were done. They had no money. They have inflation that's 250 or 300%. They have no money. We have tremendous leverage. We have the leverage of the economy as an example. We'll get that done. That's that's a small 1, and we'll work with Israel and get it done. But,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Israel",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "we'll work with Israel and get it done",
+    "summary": "The President commits to working with Israel on unspecified objective."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General geopolitical commentary on Israel/Lebanon conflict with no new economic or market-moving detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of past military strikes and leverage rhetoric, not a new defense spending or contract announcement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remarks are largely rhetorical, recapping the Iran blockade and ballistic missile strikes and expressing intent to work with Israel on the Lebanon ceasefire, without new concrete policy, contract, or economic details that would clearly move EIS or ITA relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EIS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General geopolitical commentary on Israel/Lebanon conflict with no new economic or market-moving detail.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of past military strikes and leverage rhetoric, not a new defense spending or contract announcement.\", \"added\": false}], \"summary\": \"The remarks are largely rhetorical, recapping the Iran blockade and ballistic missile strikes and expressing intent to work with Israel on the Lebanon ceasefire, without new concrete policy, contract, or economic details that would clearly move EIS or ITA relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03061:oil",
+   "video_id": "90D179dxdCM",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 3061.0697963855423,
+   "t_wall": 1781714417.0697963,
+   "t_wall_et": "2026-06-17T12:40:17.069796-04:00",
+   "segment_text": "And the people from The Middle East you know, if people want to invest, and, again, they don't have to invest at all. But if they do want to invest, it does have oil.",
+   "context": "The rest of them are underground. They can't even get them out. You know, the other night's raid, I think it was on the 1st night, we knocked out hundreds of their missiles. Actually, mistake, we were hitting an area, and it you know, you can sort of see when the bombs are going off, and then you see 1 that looks like, wow. What happened? A lot of missiles knocked out. No. But what are you gonna do? Let's let's spend another 2 weeks and give them the they don't wanna be firing missiles right now. They're gonna have a hard time rebuilding. They're gonna have a hard time rebuilding. And the people from The Middle East you know, if people want to invest, and, again, they don't have to invest at all. But if they do want to invest, it does have oil.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "if people want to invest, it does have oil",
+    "summary": "The President notes Middle East region has oil and mentions potential investment."
+   },
+   "llm_attempts": 1,
+   "count": 10,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General geopolitical commentary on Iran and Middle East oil without new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information on oil supply disruption or sanctions to move crude prices decisively.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks are about Iran conflict and desalination, not a direct catalyst for major US oil majors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rationale as XOM; no specific new business or policy impact mentioned.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly rhetoric about Iran's missile capability and nuclear ambitions with a passing, non-specific mention of Middle East oil and investment potential; no actionable new information for energy tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General geopolitical commentary on Iran and Middle East oil without new policy specifics.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new information on oil supply disruption or sanctions to move crude prices decisively.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks are about Iran conflict and desalination, not a direct catalyst for major US oil majors.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rationale as XOM; no specific new business or policy impact mentioned.\", \"added\": false}], \"summary\": \"The excerpt is mostly rhetoric about Iran's missile capability and nuclear ambitions with a passing, non-specific mention of Middle East oil and investment potential; no actionable new information for energy tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03124:oil_strong",
+   "video_id": "90D179dxdCM",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil reserves",
+   "text_span": "oil reserves",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3124.0326832402234,
+   "t_wall": 1781714480.0326831,
+   "t_wall_et": "2026-06-17T12:41:20.032683-04:00",
+   "segment_text": "position has always been that their nuclear program was for civilian purposes. If they come back after the signing of this and say they wanna continue to have a civilian nuclear program, is that acceptable to you? Well, I've said to them always, I say, look. You have probably the 3rd largest oil reserves in the world. What the hell do you need nuclear for?",
+   "context": "It would have been so easy. It would have been easier, and I would have satisfied a group of 10% of the people, but it would have been the wrong thing to do. And it could have caused an it could have caused an international depression. Iran's position Iran's position has always been that their nuclear program was for civilian purposes. If they come back after the signing of this and say they wanna continue to have a civilian nuclear program, is that acceptable to you? Well, I've said to them always, I say, look. You have probably the 3rd largest oil reserves in the world. What the hell do you need nuclear for? You need nuclear for some electricity? So so I've always felt that way. So we've we've been pretty tough on that. You know, it's also it is a little hard, though, when you say that somebody wants it, other people have it, other",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "You have probably the 3rd largest oil reserves in the world.",
+    "summary": "The President notes Iran's large oil reserves in context of nuclear program discussion."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical rhetoric about Iran oil reserves is not a new supply/demand signal for the energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about Iran's oil reserves is context, not a new policy affecting oil supply or prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about Iran's oil reserves and nuclear ambitions are rhetorical and reiterate known geopolitical stances, with no new actionable information for oil-related tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Geopolitical rhetoric about Iran oil reserves is not a new supply/demand signal for the energy sector.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment about Iran's oil reserves is context, not a new policy affecting oil supply or prices.\",\"added\":false}],\"summary\":\"The President's remarks about Iran's oil reserves and nuclear ambitions are rhetorical and reiterate known geopolitical stances, with no new actionable information for oil-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03212:iran",
+   "video_id": "90D179dxdCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3212.469867213115,
+   "t_wall": 1781714568.4698672,
+   "t_wall_et": "2026-06-17T12:42:48.469867-04:00",
+   "segment_text": "prevents Iran from getting a nuclear weapon, but the drafts the drafts of the deal that have been floating around barely mention Iran's nuclear program. So can you explain how exactly",
+   "context": "No. Mistakes are made. The war is nasty. But, I know it's under investigation, and I could have a report for you tomorrow. Or they'd I'd ask I would ask Pete I would ask Pete Heck's that that question because they have it under investigation. Please. Mister president, you've been saying all week that this deal permanently prevents Iran from getting a nuclear weapon, but the drafts the drafts of the deal that have been floating around barely mention Iran's nuclear program. So can you explain how exactly",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:03420:iran",
+   "video_id": "90D179dxdCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 3420.4494065934064,
+   "t_wall": 1781714776.4494066,
+   "t_wall_et": "2026-06-17T12:46:16.449407-04:00",
+   "segment_text": "So I was in Iowa just before this started. I was saying to myself, I can't believe we're doing so well, but I have to go, and we have to put out this fire in Iran because I don't want them using a nuclear weapon. They would have used a nuclear weapon. A 100% they would have used it. The only question is, was it gonna be that day or that week? They would have used a nuclear weapon. They were on the way, and I said, we're gonna have to put out the fire.",
+   "context": "You need the gas or the electricity or whatever you're using. And when oil prices come down oil is the biggest thing. Oil is you get oil prices coming down, and they're gonna come down. And we're hitting into threes now for gasoline, and that'll come down a lot lower. So I was in Iowa just before this started. I was saying to myself, I can't believe we're doing so well, but I have to go, and we have to put out this fire in Iran because I don't want them using a nuclear weapon. They would have used a nuclear weapon. A 100% they would have used it. The only question is, was it gonna be that day or that week? They would have used a nuclear weapon. They were on the way, and I said, we're gonna have to put out the fire.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.95,
+    "quote": "we're gonna have to put out the fire in Iran",
+    "summary": "The President states military action needed against Iran nuclear threat."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President emphasizes falling oil prices, which pressures energy sector revenues.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Explicit statement that oil prices are plummeting and will fall further directly hits crude oil ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Continued military tension with Iran and talk of putting out the fire could support defense sector demand expectations.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on falling oil prices due to Iran de-escalation, pressuring oil-linked equities while modestly supporting defense stocks amid ongoing military rhetoric.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President emphasizes falling oil prices, which pressures energy sector revenues.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Explicit statement that oil prices are plummeting and will fall further directly hits crude oil ETF.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Continued military tension with Iran and talk of putting out the fire could support defense sector demand expectations.\", \"added\": false}], \"summary\": \"The President's remarks focus on falling oil prices due to Iran de-escalation, pressuring oil-linked equities while modestly supporting defense stocks amid ongoing military rhetoric.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03440:defense_word",
+   "video_id": "90D179dxdCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fire",
+    "prices"
+   ],
+   "t_audio": 3440.0910891089106,
+   "t_wall": 1781714796.091089,
+   "t_wall_et": "2026-06-17T12:46:36.091089-04:00",
+   "segment_text": "we passed 2 gas stations in Iowa, made a speech up there. The people are great. I want it by so much.",
+   "context": "So I was in Iowa just before this started. I was saying to myself, I can't believe we're doing so well, but I have to go, and we have to put out this fire in Iran because I don't want them using a nuclear weapon. They would have used a nuclear weapon. A 100% they would have used it. The only question is, was it gonna be that day or that week? They would have used a nuclear weapon. They were on the way, and I said, we're gonna have to put out the fire. And I said, you know, oil prices gasoline we passed 2 gas stations in Iowa, made a speech up there. The people are great. I want it by so much.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:03448:farmers",
+   "video_id": "90D179dxdCM",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3448.0462903225807,
+   "t_wall": 1781714804.0462904,
+   "t_wall_et": "2026-06-17T12:46:44.046290-04:00",
+   "segment_text": "And I love the people, farmers.",
+   "context": "So I was in Iowa just before this started. I was saying to myself, I can't believe we're doing so well, but I have to go, and we have to put out this fire in Iran because I don't want them using a nuclear weapon. They would have used a nuclear weapon. A 100% they would have used it. The only question is, was it gonna be that day or that week? They would have used a nuclear weapon. They were on the way, and I said, we're gonna have to put out the fire. And I said, you know, oil prices gasoline we passed 2 gas stations in Iowa, made a speech up there. The people are great. I want it by so much. And I love the people, farmers.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "The people are great. I want it by so much. And I love the people, farmers.",
+    "summary": "The President expressed strong affection and support for farmers in Iowa."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for farmers is rhetorical with no new policy affecting agriculture commodities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new fertilizer or agriculture policy mentioned, just general goodwill toward farmers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No equipment or trade policy specifics for Deere, just general farmer praise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new corn-specific policy or trade deal announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new soybean-specific trade or subsidy news in this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new agribusiness policy or contract mentioned, just general sentiment toward farmers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is primarily about oil prices falling and Iran conflict outcomes; the brief farmer praise is generic rhetoric with no new policy, so agriculture-related tickers should see negligible market-moving impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"DBA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise for farmers is rhetorical with no new policy affecting agriculture commodities.\",\"added\":false},{\"ticker\":\"MOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new fertilizer or agriculture policy mentioned, just general goodwill toward farmers.\",\"added\":false},{\"ticker\":\"DE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No equipment or trade policy specifics for Deere, just general farmer praise.\",\"added\":false},{\"ticker\":\"CORN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new corn-specific policy or trade deal announced.\",\"added\":false},{\"ticker\":\"SOYB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new soybean-specific trade or subsidy news in this remark.\",\"added\":false},{\"ticker\":\"ADM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new agribusiness policy or contract mentioned, just general sentiment toward farmers.\",\"added\":false}],\"summary\":\"The remark is primarily about oil prices falling and Iran conflict outcomes; the brief farmer praise is generic rhetoric with no new policy, so agriculture-related tickers should see negligible market-moving impact.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03501:stock_market",
+   "video_id": "90D179dxdCM",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 3501.2217333333333,
+   "t_wall": 1781714857.2217333,
+   "t_wall_et": "2026-06-17T12:47:37.221733-04:00",
+   "segment_text": "You all never went anywhere near that. And the other thing, I thought the stock market would go down 25 or 30%.",
+   "context": "and we were gonna have a great run. We took a little journey down to a place called the Islamic Republic Of Iran, and we bombed the hell out of them. And now they can never have a nuclear weapon. Now we had a disturbance, but I must say it was much less than anybody thought. They all never went to $350 a barrel. It went to $1,151.20. You all never went anywhere near that. And the other thing, I thought the stock market would go down 25 or 30%.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "I thought the stock market would go down 25 or 30%.",
+    "summary": "The President states stock market did not decline as much as he expected after Iran strike."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric touting market resilience post-Iran strikes with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or new information beyond general market commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad market rhetoric with no new industrial-specific policy or data.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are retrospective, self-congratulatory commentary on market resilience and inflation, containing no new tradable information for broad index ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric touting market resilience post-Iran strikes with no new policy content.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or new information beyond general market commentary.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad market rhetoric with no new industrial-specific policy or data.\", \"added\": false}], \"summary\": \"The President's remarks are retrospective, self-congratulatory commentary on market resilience and inflation, containing no new tradable information for broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03586:dis_abc",
+   "video_id": "90D179dxdCM",
+   "entity_id": "dis_abc",
+   "entity": "Disney (ABC)",
+   "kind": "company",
+   "alias": "abc",
+   "text_span": "ABC",
+   "dict_tickers": [
+    "DIS"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 3586.088877142857,
+   "t_wall": 1781714942.0888772,
+   "t_wall_et": "2026-06-17T12:49:02.088877-04:00",
+   "segment_text": "Please. Thank you. You're you're from ABC. You're fake news. Go ahead.",
+   "context": "highest rates for everything. Eggs. Remember eggs? They were 4 times more expensive than they were in my administration. And I got it down, Peter, very quickly. Our secretary did a good job of agriculture. Brooke, she did a great job with eggs and everything else. And now that the oil is coming down, you're gonna see everything follow. Everything follows the cost of energy, and we're gonna end up having the lowest energy anywhere in the world. Please. Yeah. No? Please. Thank you. You're you're from ABC. You're fake news. Go ahead.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Disney (ABC)",
+    "tickers": [
+     "DIS"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "You're from ABC. You're fake news.",
+    "summary": "The President criticizes ABC as fake news."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DIS",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated 'fake news' rhetoric against ABC is generic criticism unlikely to materially move Disney shares.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's dismissal of an ABC reporter as 'fake news' is routine rhetorical criticism with no new policy, contract, or regulatory implication for Disney, so minimal expected price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DIS\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated 'fake news' rhetoric against ABC is generic criticism unlikely to materially move Disney shares.\", \"added\": false}], \"summary\": \"The President's dismissal of an ABC reporter as 'fake news' is routine rhetorical criticism with no new policy, contract, or regulatory implication for Disney, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03644:japan",
+   "video_id": "90D179dxdCM",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japanese",
+   "text_span": "Japanese",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 3644.1796707692306,
+   "t_wall": 1781715000.1796708,
+   "t_wall_et": "2026-06-17T12:50:00.179671-04:00",
+   "segment_text": "Thank you, mister president. My name is. I'm a Japanese newspaper",
+   "context": "is common sense. They don't wanna get bombed. They don't wanna get hit. As far as sanctions are concerned, at some point, you know, we have sanctions which will never let them rebuild. They they would have no money. They would be in poverty. The 91,000,000 people would starve. So something will happen as soon as they behave. When they behave, we're gonna let that go. We're gonna have to. I put sanctions on a lot of people, and then I let them go. A lot of countries yeah, please. Thank you, mister president. My name is. I'm a Japanese newspaper company from the Washington correspondent. My question is about the threat of homes.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:03720:uk",
+   "video_id": "90D179dxdCM",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "uk",
+   "text_span": "UK",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 3720.0,
+   "t_wall": 1781715076.0,
+   "t_wall_et": "2026-06-17T12:51:16-04:00",
+   "segment_text": "UK, I said, yeah. It'll be nice if you send ship. I didn't put a hard sell on, but I said, it'd be nice if you send some ships. And",
+   "context": "To send the air force? For what? So nobody asked any country to send military force. Other countries, not just Japan. No. No. I don't need we don't need it. Oh, by the way, they all wanna do it. They all wanna do it. Every single 1 of them, they wanna go be a part of it now. Not while the war was going on. I was a little disappointed. The UK, I said, yeah. It'll be nice if you send ship. I didn't put a hard sell on, but I said, it'd be nice if you send some ships. And",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "neutral",
+    "action": "military",
+    "confidence": 0.75,
+    "quote": "I said, it'd be nice if you send some ships.",
+    "summary": "The President requested UK consider sending naval vessels; soft request without hard pressure."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Casual mention of UK possibly sending ships post-war has no material economic implication for the broad UK equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a general geopolitical anecdote about allied military support requests with no direct economic or corporate impact on UK markets.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWU\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Casual mention of UK possibly sending ships post-war has no material economic implication for the broad UK equity ETF.\", \"added\": false}], \"summary\": \"The remark is a general geopolitical anecdote about allied military support requests with no direct economic or corporate impact on UK markets.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03755:israel",
+   "video_id": "90D179dxdCM",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 3755.026166981132,
+   "t_wall": 1781715111.026167,
+   "t_wall_et": "2026-06-17T12:51:51.026167-04:00",
+   "segment_text": "Nobody did. We did it ourselves with Israel and with the Arab states that got hit, surprisingly hit. Yeah.",
+   "context": "they'll be there, sir, as soon as the war is over. I said, did he just say that? I couldn't believe it, actually. Japan has offered to get involved. But, I mean, I'll be honest, Japan was not willing to get involved during the war. I asked her. I said, do you wanna get involved a little bit? I did put the heavy sell on, but they said, no. We don't wanna get involved. Nobody did. We did it ourselves with Israel and with the Arab states that got hit, surprisingly hit. Yeah.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Israel",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "neutral",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "We did it ourselves with Israel and with the Arab states",
+    "summary": "The President states US coordinated military action with Israel and Arab states."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restating of US-Israel military coordination, not new market-moving information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new defense spending or contract details revealed, just rhetoric on allied involvement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical about allied reluctance and past military coordination with Israel, offering no new tariff, contract, or policy specifics that would move EIS or ITA materially.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EIS\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General restating of US-Israel military coordination, not new market-moving information.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new defense spending or contract details revealed, just rhetoric on allied involvement.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical about allied reluctance and past military coordination with Israel, offering no new tariff, contract, or policy specifics that would move EIS or ITA materially.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03780:brazil",
+   "video_id": "90D179dxdCM",
+   "entity_id": "brazil",
+   "entity": "Brazil",
+   "kind": "country",
+   "alias": "brazil",
+   "text_span": "Brazil",
+   "dict_tickers": [
+    "EWZ"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3780.8187209302323,
+   "t_wall": 1781715136.8187208,
+   "t_wall_et": "2026-06-17T12:52:16.818721-04:00",
+   "segment_text": "Did you talk about the new US tariffs on Brazil? Did you talk about The US designation",
+   "context": "Nobody did. We did it ourselves with Israel and with the Arab states that got hit, surprisingly hit. Yeah. Mister president, can you please go ahead? Yes. Please. Go ahead. Thanks a lot, mister president. Question on Brazil. I would like to know how was your interaction here in Evian during the g 7 with the Brazilian president, Lula? Did you talk about the new US tariffs on Brazil? Did you talk about The US designation of criminal gangs? Yeah. No. We did. We did. How was it? I spent a lot of time with them,",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:03908:china",
+   "video_id": "90D179dxdCM",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3908.0468292397663,
+   "t_wall": 1781715264.0468292,
+   "t_wall_et": "2026-06-17T12:54:24.046829-04:00",
+   "segment_text": "thanks both the Chinese government to help make a peace talk between Iran and The United States. So what do you think about the China's work to get The United States and Iran sitting down to talk and make the deal? And the 2nd question is Okay. Okay. Let me answer the question. Okay. So I think China's been terrific. I told you that before.",
+   "context": "Okay. Mister president Yes. Yesterday, Pakistan thanks both the Chinese government to help make a peace talk between Iran and The United States. So what do you think about the China's work to get The United States and Iran sitting down to talk and make the deal? And the 2nd question is Okay. Okay. Let me answer the question. Okay. So I think China's been terrific. I told you that before.",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "China's been terrific. I told you that before.",
+    "summary": "The President praises China's role in facilitating Iran-US peace talks."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President's praise of China's constructive role reduces geopolitical/trade tension perception, mildly supportive for China equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on US-China cooperation is a mild sentiment tailwind for broad China ETFs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark concerns geopolitics and oil, not internet/tech sector specifically, so limited direct relevance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of China for helping de-escalate the Iran conflict is a mild positive sentiment driver for China-related equity ETFs, though not a substantive new policy announcement.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President's praise of China's constructive role reduces geopolitical/trade tension perception, mildly supportive for China equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive rhetoric on US-China cooperation is a mild sentiment tailwind for broad China ETFs.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remark concerns geopolitics and oil, not internet/tech sector specifically, so limited direct relevance.\", \"added\": false}], \"summary\": \"The President's praise of China for helping de-escalate the Iran conflict is a mild positive sentiment driver for China-related equity ETFs, though not a substantive new policy announcement.\"}"
+   }
+  },
+  {
+   "signal_id": "90D179dxdCM:03929:oil",
+   "video_id": "90D179dxdCM",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "block"
+   ],
+   "t_audio": 3929.889285714286,
+   "t_wall": 1781715285.8892858,
+   "t_wall_et": "2026-06-17T12:54:45.889286-04:00",
+   "segment_text": "They could have sent in an oil ship with 6",
+   "context": "thanks both the Chinese government to help make a peace talk between Iran and The United States. So what do you think about the China's work to get The United States and Iran sitting down to talk and make the deal? And the 2nd question is Okay. Okay. Let me answer the question. Okay. So I think China's been terrific. I told you that before. They could have been bad. They could have sent in to try and block or break the blockade. They could have sent in an oil ship with 6 destroyers alongside of it on each side. They didn't do that.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:03931:navy",
+   "video_id": "90D179dxdCM",
+   "entity_id": "navy",
+   "entity": "Shipbuilders (Navy)",
+   "kind": "sector",
+   "alias": "destroyers",
+   "text_span": "destroyers",
+   "dict_tickers": [
+    "HII",
+    "GD",
+    "BWXT"
+   ],
+   "triggers_nearby": [
+    "block"
+   ],
+   "t_audio": 3931.655,
+   "t_wall": 1781715287.655,
+   "t_wall_et": "2026-06-17T12:54:47.655000-04:00",
+   "segment_text": "destroyers alongside of it on each side. They didn't do that.",
+   "context": "thanks both the Chinese government to help make a peace talk between Iran and The United States. So what do you think about the China's work to get The United States and Iran sitting down to talk and make the deal? And the 2nd question is Okay. Okay. Let me answer the question. Okay. So I think China's been terrific. I told you that before. They could have been bad. They could have sent in to try and block or break the blockade. They could have sent in an oil ship with 6 destroyers alongside of it on each side. They didn't do that. President Xi helped me. He tried to help, and I think he probably helped get it solved. You know, they get 50% of their oil from that location.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "90D179dxdCM:04057:iran",
+   "video_id": "90D179dxdCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4057.448695652174,
+   "t_wall": 1781715413.4486957,
+   "t_wall_et": "2026-06-17T12:56:53.448696-04:00",
+   "segment_text": "Why not stick around for the signing ceremony with this Iran peace deal? I might. You might. Yeah. I might. But I'd rather this is a memorandum of understanding.",
+   "context": "and now they have a Nazi running. He's got a tattoo on them. I've been denying it for 10 years. They know it's not so, but they've been going I don't think they could call it to me anymore. You know? 1 1 more? 1 more? Go ahead, Peter. Let me finish with Peter because he's been better to me than he's been to Biden. I thank you, the President. I have a question about this weekend. Why not stick around for the signing ceremony with this Iran peace deal? I might. You might. Yeah. I might. But I'd rather this is a memorandum of understanding.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

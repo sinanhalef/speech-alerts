@@ -1,0 +1,1703 @@
+{
+ "video": {
+  "id": "HNipoXNANAs",
+  "url": "https://www.youtube.com/watch?v=HNipoXNANAs",
+  "title": "The President Signs Executive Orders, Jun. 22, 2026",
+  "channel": "The White House",
+  "duration": 2353.0,
+  "was_live": true,
+  "release_timestamp": 1782157486.0,
+  "upload_timestamp": 1782160308.0,
+  "upload_date": "20260622",
+  "label": "Signs Executive Orders, Jun. 22, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1782157486.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 28,
+  "confirmed": 20,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 29
+ },
+ "signals": [
+  {
+   "signal_id": "HNipoXNANAs:00040:kraken",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 40.59533333333333,
+   "t_wall": 1782157526.5953333,
+   "t_wall_et": "2026-06-22T15:45:26.595333-04:00",
+   "segment_text": "Michael Kraken.",
+   "context": "everybody. Thank you very much. And today, I'm signing 2 very important executive orders on quantum technologies that will strengthen America's place as the world leader in this very important emerging field. I wanna thank Secretary of Pete Hankseth, who's with us. Secretary of Commerce, Howard Lutnick. Secretary of Energy, Chris Wright. Director of the Office of Science and Technology Policy, Michael Kraken. Thank you, Michael. Director of OMB, Russ Voatte, who's cutting the budget by probably 40 to 50% this year. We're gonna end up with a balanced budget.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:00082:googl",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 82.341,
+   "t_wall": 1782157568.341,
+   "t_wall_et": "2026-06-22T15:46:08.341000-04:00",
+   "segment_text": "honored to be joined by Google president",
+   "context": "carrying across. And I appreciate all of you being here. Thanks as well to Chief Technology Officer of The United States, doctor Ethan Klein. Ethan, thank you very much. Director of the National Quantum Coordination Office, doctor Brad Blakestadt, and chief information officer of the federal government, Greg Barbascia, for joining us today. Thank you very much, fellas. It's great. We're also honored to be joined by Google president Ruth Porat. That's a big position. Okay. Google.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "We're honored to be joined by Google president Ruth Porat.",
+    "summary": "The President acknowledges Google president Ruth Porat's presence at the event."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Mere acknowledgment of Google's president attending a quantum event carries no material policy or business implication.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a ceremonial mention of Google's presence at a White House tech event with no new policy, funding, or business signal, so it is unlikely to move GOOGL relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Mere acknowledgment of Google's president attending a quantum event carries no material policy or business implication.\", \"added\": false}], \"summary\": \"The remark is a ceremonial mention of Google's presence at a White House tech event with no new policy, funding, or business signal, so it is unlikely to move GOOGL relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00317:oil",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 317.34992593406594,
+   "t_wall": 1782157803.349926,
+   "t_wall_et": "2026-06-22T15:50:03.349926-04:00",
+   "segment_text": "really having a great relationship with that country, taking out tremendous amounts of oil,",
+   "context": "we have 2 things. We have an open strait, and we have a country that will never have a nuclear weapon. Will never ever have a nuclear weapon. So now I'd like to invite Michael Kracios, director of the Office of Science and Technology Policy, to say a few words, followed by national cyber cyber director Sean Karen Cross and secretary Wright, who's doing a fantastic job over in Venezuela and every place else he touches. Venezuela, by the way, has been amazing. We are really having a great relationship with that country, taking out tremendous amounts of oil,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "taking out tremendous amounts of oil",
+    "summary": "The President reports strong oil extraction activity from Venezuela."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President touts record oil flow through Hormuz and rising Venezuela output, implying greater global supply which pressures crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mixed effect: higher supply pressures prices but sector benefits from geopolitical stability and open shipping lanes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct mention of Exxon; broader oil supply comments have only indirect, ambiguous impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Chevron has historical Venezuela operations and could benefit from improved US-Venezuela oil relations mentioned by the President.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlights surging oil flows from Hormuz and Venezuela, a mild negative for crude prices (USO) but potentially positive for firms like Chevron with Venezuela exposure, with limited direct read-through for XOM or broad XLE.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President touts record oil flow through Hormuz and rising Venezuela output, implying greater global supply which pressures crude prices.\", \"added\": false},\n{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mixed effect: higher supply pressures prices but sector benefits from geopolitical stability and open shipping lanes.\", \"added\": false},\n{\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No direct mention of Exxon; broader oil supply comments have only indirect, ambiguous impact.\", \"added\": false},\n{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Chevron has historical Venezuela operations and could benefit from improved US-Venezuela oil relations mentioned by the President.\", \"added\": false}\n],\n\"summary\": \"The President highlights surging oil flows from Hormuz and Venezuela, a mild negative for crude prices (USO) but potentially positive for firms like Chevron with Venezuela exposure, with limited direct read-through for XOM or broad XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00374:farmers",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "bought",
+    "buy"
+   ],
+   "t_audio": 374.86292139534885,
+   "t_wall": 1782157860.8629215,
+   "t_wall_et": "2026-06-22T15:51:00.862921-04:00",
+   "segment_text": "through The United States from our farmers.",
+   "context": "nobody does that. And I think Iran, I could say, on a sort of a different scale is, in its own way, working out very well. Maybe it's hard to say just as well, but maybe almost just as well. And, we're doing very well in terms of, negotiating a fair and reasonable deal. 1 of the things that we are doing also, and it came up last night, is, money that's being unfrozen is gonna be used to buy food, and the food's gonna be bought exclusively through The United States from our farmers.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "US Agriculture Sector",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "money that's being unfrozen is gonna be used to buy food exclusively through The United States from our farmers",
+    "summary": "The President states unfrozen Iran funds will purchase US agricultural products exclusively from American farmers."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Unfrozen Iran funds earmarked exclusively for US corn purchases boosts demand outlook for corn.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Exclusive US soybean purchases from unfrozen funds is a modest positive demand catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "As a major US grain trader/exporter, ADM benefits from new guaranteed export demand for corn and soybeans.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad agricultural commodity ETF gets mild lift from new US farm purchase commitment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Higher farmer income could modestly support equipment demand but effect is indirect and small.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Fertilizer demand tied to planting decisions, not directly affected by this purchase commitment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced that unfrozen Iran-related funds will be used exclusively to buy US corn, soybeans and other farm goods, a modest positive for US agricultural exporters and commodity-linked ETFs like ADM, CORN, SOYB and DBA, with little direct impact on equipment (DE) or fertilizer (MOS) names.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Unfrozen Iran funds earmarked exclusively for US corn purchases boosts demand outlook for corn.\", \"added\": false},\n{\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Exclusive US soybean purchases from unfrozen funds is a modest positive demand catalyst.\", \"added\": false},\n{\"ticker\": \"ADM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"As a major US grain trader/exporter, ADM benefits from new guaranteed export demand for corn and soybeans.\", \"added\": false},\n{\"ticker\": \"DBA\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Broad agricultural commodity ETF gets mild lift from new US farm purchase commitment.\", \"added\": false},\n{\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Higher farmer income could modestly support equipment demand but effect is indirect and small.\", \"added\": false},\n{\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Fertilizer demand tied to planting decisions, not directly affected by this purchase commitment.\", \"added\": false}\n],\n\"summary\": \"The President announced that unfrozen Iran-related funds will be used exclusively to buy US corn, soybeans and other farm goods, a modest positive for US agricultural exporters and commodity-linked ETFs like ADM, CORN, SOYB and DBA, with little direct impact on equipment (DE) or fertilizer (MOS) names.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00619:kraken",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 619.0830882352942,
+   "t_wall": 1782158105.0830882,
+   "t_wall_et": "2026-06-22T15:55:05.083088-04:00",
+   "segment_text": "But 40 years, quantum phenomena are tough to harvest and tough to work with. But here we are, thanks to the President's leadership in the 1st term with with director Kraken, to launch a major national effort on quantum. This is taking it to the next level. The future of",
+   "context": "John Martinez, down there, pioneered taking quantum effects and building them into a device to capture that behavior. It was awarded the Nobel Prize in Physics just last year for that discovery, that breakthrough. But 40 years, quantum phenomena are tough to harvest and tough to work with. But here we are, thanks to the President's leadership in the 1st term with with director Kraken, to launch a major national effort on quantum. This is taking it to the next level. The future of",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:00631:chips",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductor",
+   "text_span": "semiconductor",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 631.1052631578947,
+   "t_wall": 1782158117.1052632,
+   "t_wall_et": "2026-06-22T15:55:17.105263-04:00",
+   "segment_text": "performance computing, basically Moore's law in semiconductor manufacturing.",
+   "context": "down there, pioneered taking quantum effects and building them into a device to capture that behavior. It was awarded the Nobel Prize in Physics just last year for that discovery, that breakthrough. But 40 years, quantum phenomena are tough to harvest and tough to work with. But here we are, thanks to the President's leadership in the 1st term with with director Kraken, to launch a major national effort on quantum. This is taking it to the next level. The future of performance computing, basically Moore's law in semiconductor manufacturing.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Moore's law in semiconductor manufacturing",
+    "summary": "Speaker credits the administration quantum computing initiative advancing semiconductor performance."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General quantum computing rhetoric with no new semiconductor policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Moore's law is illustrative, not a new semiconductor-specific policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Quantum computing push could be a long-term tailwind but no concrete near-term catalyst for NVDA.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No specific mention of Intel or direct funding/contract benefit.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely ceremonial rhetoric about quantum computing and historical narrative, with no new concrete policy, funding, or company-specific action that would move semiconductor stocks relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General quantum computing rhetoric with no new semiconductor policy specifics.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Moore's law is illustrative, not a new semiconductor-specific policy.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Quantum computing push could be a long-term tailwind but no concrete near-term catalyst for NVDA.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No specific mention of Intel or direct funding/contract benefit.\", \"added\": false}], \"summary\": \"The remark is largely ceremonial rhetoric about quantum computing and historical narrative, with no new concrete policy, funding, or company-specific action that would move semiconductor stocks relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00632:ai",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 632.9701351351351,
+   "t_wall": 1782158118.9701352,
+   "t_wall_et": "2026-06-22T15:55:18.970135-04:00",
+   "segment_text": "It's artificial intelligence that everyone's seeing and hearing about that's supercharging it. The 3rd leg of that computing stool is gonna be scientifically relevant quantum computing.",
+   "context": "But 40 years, quantum phenomena are tough to harvest and tough to work with. But here we are, thanks to the President's leadership in the 1st term with with director Kraken, to launch a major national effort on quantum. This is taking it to the next level. The future of performance computing, basically Moore's law in semiconductor manufacturing. It's artificial intelligence that everyone's seeing and hearing about that's supercharging it. The 3rd leg of that computing stool is gonna be scientifically relevant quantum computing.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:00675:natgas",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 675.413893715847,
+   "t_wall": 1782158161.4138937,
+   "t_wall_et": "2026-06-22T15:56:01.413894-04:00",
+   "segment_text": "a lot of oil pouring out. Right? A lot of oil pouring out. Despite Iran's efforts or or pushback, we are flowing, oil through the Strait Of Hormuz and natural gas at precrisis levels.",
+   "context": "This is tricky. We're not there yet. We're close. But with this executive order order and this coordinated effort, we will have scientifically relevant, meaning error corrected quantum computing during this administration. The impacts of it will be tremendous. Just if I might. So with respect to the Strait Hormuz Strait, a lot of oil pouring out. Right? A lot of oil pouring out. Despite Iran's efforts or or pushback, we are flowing, oil through the Strait Of Hormuz and natural gas at precrisis levels.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "natural gas at precrisis levels",
+    "summary": "Natural gas flowing through Strait of Hormuz at precrisis levels."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Restored flow through Hormuz suggests easing supply fears, which is mildly bearish for natural gas prices, offsetting any bullish read.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments about Hormuz flows are about global gas supply generally, not specific to Cheniere's export business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct implication for US domestic gas producer EQT from Hormuz flow comments.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on quantum computing progress and reassurance that oil/gas flows through the Strait of Hormuz are near pre-crisis levels; the latter is more about de-escalating supply risk than a specific catalyst for gas equities, so no clear directional trade for UNG, LNG, or EQT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Restored flow through Hormuz suggests easing supply fears, which is mildly bearish for natural gas prices, offsetting any bullish read.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments about Hormuz flows are about global gas supply generally, not specific to Cheniere's export business.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No direct implication for US domestic gas producer EQT from Hormuz flow comments.\", \"added\": false}], \"summary\": \"The President's remarks focus on quantum computing progress and reassurance that oil/gas flows through the Strait of Hormuz are near pre-crisis levels; the latter is more about de-escalating supply risk than a specific catalyst for gas equities, so no clear directional trade for UNG, LNG, or EQT.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00757:googl",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "alphabet",
+   "text_span": "Alphabet",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 757.56494,
+   "t_wall": 1782158243.56494,
+   "t_wall_et": "2026-06-22T15:57:23.564940-04:00",
+   "segment_text": "Alphabet. They are doing amazing",
+   "context": "and he's a Nobel Prize winning alum, which is if if you don't think the people in the Commerce Department and then NIST are the best I mean, here's an example. Nobel Prize winner was part of our team. You all know that the government invested $2,000,000,000 just a couple of weeks ago in quantum to drive it forward. And besides investing in the companies, we've also invested in fabs to build quantum for others so we can manufacture these quantum in America. They have Ruth from Alphabet. They are doing amazing",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Alphabet",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "They have Ruth from Alphabet. They are doing amazing",
+    "summary": "The President praises Alphabet's involvement in quantum computing initiatives."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President praises Google's quantum investments and government backing of quantum fabs, a mild positive for sentiment though not a new financial commitment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Alphabet's quantum work and the administration's $2B quantum investment is a modest positive for GOOGL sentiment, though largely reiterates known government initiatives with no new specific commitment to Google.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President praises Google's quantum investments and government backing of quantum fabs, a mild positive for sentiment though not a new financial commitment.\", \"added\": false}], \"summary\": \"The President's praise of Alphabet's quantum work and the administration's $2B quantum investment is a modest positive for GOOGL sentiment, though largely reiterates known government initiatives with no new specific commitment to Google.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00763:ibm",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "ibm",
+   "entity": "IBM",
+   "kind": "company",
+   "alias": "ibm",
+   "text_span": "IBM",
+   "dict_tickers": [
+    "IBM"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 763.7734848484848,
+   "t_wall": 1782158249.773485,
+   "t_wall_et": "2026-06-22T15:57:29.773485-04:00",
+   "segment_text": "and you have right next from IBM.",
+   "context": "You all know that the government invested $2,000,000,000 just a couple of weeks ago in quantum to drive it forward. And besides investing in the companies, we've also invested in fabs to build quantum for others so we can manufacture these quantum in America. They have Ruth from Alphabet. They are doing amazing investing in building quantum, and you have right next from IBM. We invested in his fab. He's got a leading fab. So he's gonna be building those chips.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "IBM",
+    "tickers": [
+     "IBM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "We invested in his fab. He's got a leading fab.",
+    "summary": "Government invested in IBM's semiconductor fabrication facility for quantum chip manufacturing in America."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBM",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Government investment in IBM's quantum chip fab is a positive federal endorsement and funding signal for its quantum business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlights government investment in IBM's quantum fab as part of a broader $2B quantum initiative, a modestly positive signal for IBM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBM\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Government investment in IBM's quantum chip fab is a positive federal endorsement and funding signal for its quantum business.\", \"added\": false}], \"summary\": \"The President highlights government investment in IBM's quantum fab as part of a broader $2B quantum initiative, a modestly positive signal for IBM.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00988:iran",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iranian",
+   "text_span": "Iranian",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 988.6939222222222,
+   "t_wall": 1782158474.6939223,
+   "t_wall_et": "2026-06-22T16:01:14.693922-04:00",
+   "segment_text": "president president, the president lifted sanctions on Iranian oil today, sir. The president lifted",
+   "context": "a story that's largely been unwritten. But today, this is They don't wanna write it. They don't write it. It's true. Go ahead. More savings You might as well say it because they will. More savings than than ever before in history. Today is about the investments that we're gonna prioritize. So we'll save in places, but we're gonna do what's necessary to invest in the future industries of the future. That's what today is about. Quantum is 1 of those areas in the 1st term and now in the 2nd term. K. Thank you. Thank you, everybody. Any questions, mister Warren? President, president president, the president lifted sanctions on Iranian oil today, sir. The president lifted",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "neutral",
+    "action": "sanction",
+    "confidence": 0.75,
+    "quote": "president lifted sanctions on Iranian oil today",
+    "summary": "Questioner reports sanctions on Iranian oil were lifted."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Lifting Iranian oil sanctions could add supply and pressure crude prices, hurting energy producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "More Iranian oil entering the market would weigh directly on crude oil prices tracked by USO.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Easing sanctions signals de-escalation with Iran, slightly reducing geopolitical risk premium supporting defense stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's confirmation of lifted Iranian oil sanctions suggests increased oil supply, pressuring energy and oil-tracking equities while modestly reducing geopolitical risk that had supported defense stocks.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Lifting Iranian oil sanctions could add supply and pressure crude prices, hurting energy producers.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.62,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"More Iranian oil entering the market would weigh directly on crude oil prices tracked by USO.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Easing sanctions signals de-escalation with Iran, slightly reducing geopolitical risk premium supporting defense stocks.\",\"added\":false}],\"summary\":\"The President's confirmation of lifted Iranian oil sanctions suggests increased oil supply, pressuring energy and oil-tracking equities while modestly reducing geopolitical risk that had supported defense stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:00989:oil",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 989.0559472727273,
+   "t_wall": 1782158475.0559473,
+   "t_wall_et": "2026-06-22T16:01:15.055947-04:00",
+   "segment_text": "president president, the president lifted sanctions on Iranian oil today, sir. The president lifted",
+   "context": "a story that's largely been unwritten. But today, this is They don't wanna write it. They don't write it. It's true. Go ahead. More savings You might as well say it because they will. More savings than than ever before in history. Today is about the investments that we're gonna prioritize. So we'll save in places, but we're gonna do what's necessary to invest in the future industries of the future. That's what today is about. Quantum is 1 of those areas in the 1st term and now in the 2nd term. K. Thank you. Thank you, everybody. Any questions, mister Warren? President, president president, the president lifted sanctions on Iranian oil today, sir. The president lifted",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "sanction",
+    "confidence": 0.75,
+    "quote": "president lifted sanctions on Iranian oil today",
+    "summary": "Questioner reports sanctions on Iranian oil were lifted."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Lifting Iranian oil sanctions implies more global supply, pressuring crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Lower oil price expectations from increased Iranian supply weigh on energy sector equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potential added crude supply from Iran could modestly pressure oil majors' margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Similar exposure to lower crude prices as other integrated oil majors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's confirmation that Iranian oil sanctions were lifted suggests increased global oil supply, which should be modestly bearish for oil prices and energy-linked equities/ETFs.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Lifting Iranian oil sanctions implies more global supply, pressuring crude prices.\", \"added\": false},\n{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Lower oil price expectations from increased Iranian supply weigh on energy sector equities.\", \"added\": false},\n{\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Potential added crude supply from Iran could modestly pressure oil majors' margins.\", \"added\": false},\n{\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Similar exposure to lower crude prices as other integrated oil majors.\", \"added\": false}\n],\n\"summary\": \"The President's confirmation that Iranian oil sanctions were lifted suggests increased global oil supply, which should be modestly bearish for oil prices and energy-linked equities/ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01011:farmers",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1011.8224770642203,
+   "t_wall": 1782158497.822477,
+   "t_wall_et": "2026-06-22T16:01:37.822477-04:00",
+   "segment_text": "that we lift is gonna go to our farmers, largely to our farmers. Can you ensure that the Iranians won't use profits from oil sales to rebuild their military just Well, they're supposed be doing that, sir. We'll see. But they're supposed to use money to buy food for their people because right now, their people are very hungry,",
+   "context": "the sanctions go out, money gonna be put into this country. All that money's coming back, in the form of purchases of food, which they desperately need. They have 91,000,000 people. They can't feed them. So, the money that, that we lift is gonna go to our farmers, largely to our farmers. Can you ensure that the Iranians won't use profits from oil sales to rebuild their military just Well, they're supposed be doing that, sir. We'll see. But they're supposed to use money to buy food for their people because right now, their people are very hungry,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "US Farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "money gonna be put into this country...purchases of food...our farmers",
+    "summary": "The President states Iran sanctions relief funds will return as food purchases from US farmers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President suggests Iran will use oil revenue to buy US corn/soybeans, a modest tailwind for grain traders like ADM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased Iranian corn purchases would support corn futures/ETF prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased Iranian soybean purchases would support soybean futures/ETF prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Broad agricultural commodity ETF could see mild upside from new Iran demand, though effect is diffuse.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potash/fertilizer demand could rise modestly if farm output expands but link to Iran remark is indirect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "weeks",
+      "rationale": "Equipment maker could benefit long-term from stronger farm incomes but the immediate link is weak.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President implies Iran sanctions relief will translate into Iranian purchases of US corn and soybeans, a modest positive for grain-related tickers (ADM, CORN, SOYB, DBA), with weaker, less direct implications for fertilizer/equipment names (MOS, DE).",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"ADM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President suggests Iran will use oil revenue to buy US corn/soybeans, a modest tailwind for grain traders like ADM.\", \"added\": false},\n{\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Increased Iranian corn purchases would support corn futures/ETF prices.\", \"added\": false},\n{\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Increased Iranian soybean purchases would support soybean futures/ETF prices.\", \"added\": false},\n{\"ticker\": \"DBA\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Broad agricultural commodity ETF could see mild upside from new Iran demand, though effect is diffuse.\", \"added\": false},\n{\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Potash/fertilizer demand could rise modestly if farm output expands but link to Iran remark is indirect.\", \"added\": false},\n{\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"weeks\", \"rationale\": \"Equipment maker could benefit long-term from stronger farm incomes but the immediate link is weak.\", \"added\": false}\n],\n\"summary\": \"The President implies Iran sanctions relief will translate into Iranian purchases of US corn and soybeans, a modest positive for grain-related tickers (ADM, CORN, SOYB, DBA), with weaker, less direct implications for fertilizer/equipment names (MOS, DE).\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01138:nyt_outlet",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "nyt_outlet",
+   "entity": "New York Times",
+   "kind": "company",
+   "alias": "the times",
+   "text_span": "The Times",
+   "dict_tickers": [
+    "NYT"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 1138.4808479166668,
+   "t_wall": 1782158624.4808478,
+   "t_wall_et": "2026-06-22T16:03:44.480848-04:00",
+   "segment_text": "The, you know, The Times, the fake New York Times said, oh, it's about the same as it was 4 months ago. No. 4 months ago, they had a navy, a 159",
+   "context": "I will I will do what I have to do. Will does that give them leverage over you, mister president? Say it. Does that give them leverage, the Iranians leverage over you? Oh, I guess so. Leverage. You know? Their navy is gone. Their air force is gone. Their leaders are all dead. Their whole country is a mess. Their economy is shot. The, you know, The Times, the fake New York Times said, oh, it's about the same as it was 4 months ago. No. 4 months ago, they had a navy, a 159",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "New York Times",
+    "tickers": [
+     "NYT"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "The fake New York Times said, oh, it's about the same as it was 4 months ago.",
+    "summary": "The President criticized New York Times reporting on Iran's economic condition."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NYT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's repeated media criticism rarely moves NYT stock materially as it is standard rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a rhetorical attack on New York Times credibility regarding Iran coverage, not a policy or business action, so minimal expected price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NYT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's repeated media criticism rarely moves NYT stock materially as it is standard rhetoric.\", \"added\": false}], \"summary\": \"The remark is a rhetorical attack on New York Times credibility regarding Iran coverage, not a policy or business action, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01272:israel",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1272.8487686244205,
+   "t_wall": 1782158758.8487687,
+   "t_wall_et": "2026-06-22T16:05:58.848769-04:00",
+   "segment_text": "He's he's said it publicly in Israel. Well, we're gonna take a look at it. Well, what would you do to make sure that he doesn't sabotage the deal? What I'm gonna do, but it gets solved. I'm a problem solver. I get problem solved real fast, including with BP, go ahead. Sir, mister president, thank you. What's the latest you've heard from the vice president? Are you happy with his negotiations? Negotiations? Yeah. Yeah. And can you share a little bit about what secretary Rivian will be doing in The Middle East this week? I think that they're doing a fantastic job. Our secretary is fantastic. I think he's maybe gonna go down as the best ever.",
+   "context": "That is a sticking point in this conversation. He's he's said it publicly in Israel. Well, we're gonna take a look at it. Well, what would you do to make sure that he doesn't sabotage the deal? What I'm gonna do, but it gets solved. I'm a problem solver. I get problem solved real fast, including with BP, go ahead. Sir, mister president, thank you. What's the latest you've heard from the vice president? Are you happy with his negotiations? Negotiations? Yeah. Yeah. And can you share a little bit about what secretary Rivian will be doing in The Middle East this week? I think that they're doing a fantastic job. Our secretary is fantastic. I think he's maybe gonna go down as the best ever.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Israel",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "We're gonna take a look at it. I'm a problem solver.",
+    "summary": "The President addresses a deal-related sticking point with Israel involving negotiations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General remarks on Israel/Lebanon negotiations offer no new concrete policy or economic impact for Israeli equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new defense spending or contract news; geopolitical rhetoric alone is unlikely to move aerospace/defense stocks meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt contains no new, market-moving policy or deal specifics for Israel or defense sectors—just general commentary on ongoing negotiations—so no clear directional price impact is expected for EIS or ITA.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EIS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General remarks on Israel/Lebanon negotiations offer no new concrete policy or economic impact for Israeli equities.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new defense spending or contract news; geopolitical rhetoric alone is unlikely to move aerospace/defense stocks meaningfully.\",\"added\":false}],\"summary\":\"The excerpt contains no new, market-moving policy or deal specifics for Israel or defense sectors—just general commentary on ongoing negotiations—so no clear directional price impact is expected for EIS or ITA.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01292:rivn",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "rivn",
+   "entity": "Rivian",
+   "kind": "company",
+   "alias": "rivian",
+   "text_span": "Rivian",
+   "dict_tickers": [
+    "RIVN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1292.1460242658422,
+   "t_wall": 1782158778.1460242,
+   "t_wall_et": "2026-06-22T16:06:18.146024-04:00",
+   "segment_text": "He's he's said it publicly in Israel. Well, we're gonna take a look at it. Well, what would you do to make sure that he doesn't sabotage the deal? What I'm gonna do, but it gets solved. I'm a problem solver. I get problem solved real fast, including with BP, go ahead. Sir, mister president, thank you. What's the latest you've heard from the vice president? Are you happy with his negotiations? Negotiations? Yeah. Yeah. And can you share a little bit about what secretary Rivian will be doing in The Middle East this week? I think that they're doing a fantastic job. Our secretary is fantastic. I think he's maybe gonna go down as the best ever.",
+   "context": "That is a sticking point in this conversation. He's he's said it publicly in Israel. Well, we're gonna take a look at it. Well, what would you do to make sure that he doesn't sabotage the deal? What I'm gonna do, but it gets solved. I'm a problem solver. I get problem solved real fast, including with BP, go ahead. Sir, mister president, thank you. What's the latest you've heard from the vice president? Are you happy with his negotiations? Negotiations? Yeah. Yeah. And can you share a little bit about what secretary Rivian will be doing in The Middle East this week? I think that they're doing a fantastic job. Our secretary is fantastic. I think he's maybe gonna go down as the best ever.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:01355:stargate",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "stargate",
+   "entity": "Stargate AI project",
+   "kind": "company",
+   "alias": "stargate",
+   "text_span": "Stargate",
+   "dict_tickers": [
+    "ORCL",
+    "SFTBY",
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1355.699695887446,
+   "t_wall": 1782158841.6996958,
+   "t_wall_et": "2026-06-22T16:07:21.699696-04:00",
+   "segment_text": "What a difference. What a difference a brain makes. Mister president, the candidate endorsed the ruling. Sir, you've been quite critical of prime minister Stargate, and he's now resigned. Your thoughts? And who would you like to see as the next prime minister of The UK? Critical only from this because I think he's a lovely man, but I I said you do you're really messing up energy. You have windmills all over the place. In the meantime, have the North Sea oil,",
+   "context": "happened when she was over in Switzerland, which she probably never went there before, but she was and then I watched somebody like JD or Marco. What a I said, what a difference. What a difference. What a difference a brain makes. Mister president, the candidate endorsed the ruling. Sir, you've been quite critical of prime minister Stargate, and he's now resigned. Your thoughts? And who would you like to see as the next prime minister of The UK? Critical only from this because I think he's a lovely man, but I I said you do you're really messing up energy. You have windmills all over the place. In the meantime, have the North Sea oil,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:01365:solar",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1365.9055212121214,
+   "t_wall": 1782158851.9055212,
+   "t_wall_et": "2026-06-22T16:07:31.905521-04:00",
+   "segment_text": "What a difference. What a difference a brain makes. Mister president, the candidate endorsed the ruling. Sir, you've been quite critical of prime minister Stargate, and he's now resigned. Your thoughts? And who would you like to see as the next prime minister of The UK? Critical only from this because I think he's a lovely man, but I I said you do you're really messing up energy. You have windmills all over the place. In the meantime, have the North Sea oil,",
+   "context": "happened when she was over in Switzerland, which she probably never went there before, but she was and then I watched somebody like JD or Marco. What a I said, what a difference. What a difference. What a difference a brain makes. Mister president, the candidate endorsed the ruling. Sir, you've been quite critical of prime minister Stargate, and he's now resigned. Your thoughts? And who would you like to see as the next prime minister of The UK? Critical only from this because I think he's a lovely man, but I I said you do you're really messing up energy. You have windmills all over the place. In the meantime, have the North Sea oil,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind energy sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "you have windmills all over the place",
+    "summary": "The President criticizes UK wind energy policy; advocates for North Sea oil."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment targets UK wind policy, not US solar sector directly, so limited relevance to TAN holdings.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General anti-wind/renewables rhetoric is mildly negative sentiment for clean energy ETF exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about UK wind and oil, not US solar manufacturing policy, so minimal direct impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention of US residential solar policy or tariffs affecting Enphase specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's criticism of UK wind energy and praise for North Sea oil is repeat rhetoric with only mild negative sentiment spillover to global clean-energy ETFs like ICLN, with little direct effect on US solar names FSLR, ENPH, or TAN.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TAN\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment targets UK wind policy, not US solar sector directly, so limited relevance to TAN holdings.\",\"added\":false},{\"ticker\":\"ICLN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General anti-wind/renewables rhetoric is mildly negative sentiment for clean energy ETF exposure.\",\"added\":false},{\"ticker\":\"FSLR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark is about UK wind and oil, not US solar manufacturing policy, so minimal direct impact.\",\"added\":false},{\"ticker\":\"ENPH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No mention of US residential solar policy or tariffs affecting Enphase specifically.\",\"added\":false}],\"summary\":\"The President's criticism of UK wind energy and praise for North Sea oil is repeat rhetoric with only mild negative sentiment spillover to global clean-energy ETFs like ICLN, with little direct effect on US solar names FSLR, ENPH, or TAN.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01378:uk",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "uk",
+   "text_span": "UK",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 1378.5120642857144,
+   "t_wall": 1782158864.5120642,
+   "t_wall_et": "2026-06-22T16:07:44.512064-04:00",
+   "segment_text": "It's 1 of the great fields in the world, and they they haven't even found those. You know that The UK buys much of its energy.",
+   "context": "What a difference. What a difference a brain makes. Mister president, the candidate endorsed the ruling. Sir, you've been quite critical of prime minister Stargate, and he's now resigned. Your thoughts? And who would you like to see as the next prime minister of The UK? Critical only from this because I think he's a lovely man, but I I said you do you're really messing up energy. You have windmills all over the place. In the meantime, have the North Sea oil, and they won't let anybody drill. It's 1 of the great fields in the world, and they they haven't even found those. You know that The UK buys much of its energy.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "You're really messing up energy. Windmills all over the place. Won't let anybody drill North Sea oil.",
+    "summary": "The President criticizes UK energy policy, windmills, and refusal to drill North Sea oil."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's repeated criticism of UK energy policy and PM is rhetoric without new policy action, minimal expected impact on broad UK equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are political commentary on UK leadership and energy policy, not a new US policy action, so limited direct market impact on EWU.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's repeated criticism of UK energy policy and PM is rhetoric without new policy action, minimal expected impact on broad UK equity ETF.\", \"added\": false}], \"summary\": \"The President's remarks are political commentary on UK leadership and energy policy, not a new US policy action, so limited direct market impact on EWU.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01423:defense",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "defense contractors",
+   "text_span": "defense contractors",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1423.8713407821228,
+   "t_wall": 1782158909.8713408,
+   "t_wall_et": "2026-06-22T16:08:29.871341-04:00",
+   "segment_text": "But energy and immigration. I mean, I mean, you have a corporate follow-up. Do want me to say that? He's, you know, he's really hurt himself very, very badly. Please go. Mister president, can you tell us about your meeting with the defense contractors on Wednesday and what you plan to tell them? The the meeting coming up, because I've met with them before.",
+   "context": "And I told him, he's a very nice man. I mean, sort of a friend of mine. I mean, he was not good to us with NATO, Pete. Right? He said we can't use the island to land. That was the 1st. For a couple of weeks, he said, well, but ultimately, I gave it to you now. That was a bad move that hurt him badly. But but, I mean, I wish him well, but he's got 2 problems, energy and immigration and crime. But energy and immigration. I mean, I mean, you have a corporate follow-up. Do want me to say that? He's, you know, he's really hurt himself very, very badly. Please go. Mister president, can you tell us about your meeting with the defense contractors on Wednesday and what you plan to tell them? The the meeting coming up, because I've met with them before.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:01462:gm",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1462.7082666666665,
+   "t_wall": 1782158948.7082667,
+   "t_wall_et": "2026-06-22T16:09:08.708267-04:00",
+   "segment_text": "They're dealing with General Motors. They're dealing with Ford.",
+   "context": "They are not allowed to take any more stock buybacks. Do you do stock buybacks by any chance? Not too much. Don't know. Because you want to invest in it's just an artificial way of raising a price if you're running a bad company. So they spent $51,000,000,000 in start you know, on on stock buybacks instead of spending them in plants. Now they're spending they can't do that anymore. Now they are spending a lot of money. We're building many plants throughout the country. They're dealing with General Motors. They're dealing with Ford.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "They're dealing with General Motors. Now they're spending a lot of money. We're building many plants throughout the country.",
+    "summary": "The President notes GM subject to stock buyback ban; company now investing in plant construction."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President suggests GM is shifting capacity toward defense manufacturing (weapons, Patriot missiles) and increased plant investment, a potential new revenue stream.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted GM's pivot from stock buybacks to plant investment and potential defense manufacturing deals (missiles, Patriot), a mildly positive signal for GM's diversification and government contract exposure.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President suggests GM is shifting capacity toward defense manufacturing (weapons, Patriot missiles) and increased plant investment, a potential new revenue stream.\", \"added\": false}], \"summary\": \"The President highlighted GM's pivot from stock buybacks to plant investment and potential defense manufacturing deals (missiles, Patriot), a mildly positive signal for GM's diversification and government contract exposure.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01464:f",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1464.35276984127,
+   "t_wall": 1782158950.3527699,
+   "t_wall_et": "2026-06-22T16:09:10.352770-04:00",
+   "segment_text": "They're dealing with General Motors. They're dealing with Ford.",
+   "context": "They are not allowed to take any more stock buybacks. Do you do stock buybacks by any chance? Not too much. Don't know. Because you want to invest in it's just an artificial way of raising a price if you're running a bad company. So they spent $51,000,000,000 in start you know, on on stock buybacks instead of spending them in plants. Now they're spending they can't do that anymore. Now they are spending a lot of money. We're building many plants throughout the country. They're dealing with General Motors. They're dealing with Ford.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "They're dealing with Ford. Now they're spending a lot of money. We're building many plants throughout the country.",
+    "summary": "The President notes Ford subject to stock buyback ban; company now investing in plant construction."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of defense-related capacity and buyback restrictions is ambiguous for Ford, with no clear new financial impact disclosed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about defense contractors, buyback bans, and potential weapons manufacturing partnerships mention Ford only in passing without concrete new deal terms, so the price effect is ambiguous.",
+    "raw": "{\"tickers\":[{\"ticker\":\"F\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Mention of defense-related capacity and buyback restrictions is ambiguous for Ford, with no clear new financial impact disclosed.\",\"added\":false}],\"summary\":\"The President's remarks about defense contractors, buyback bans, and potential weapons manufacturing partnerships mention Ford only in passing without concrete new deal terms, so the price effect is ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01475:rtx",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawk",
+   "text_span": "Tomahawk",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1475.3621739130435,
+   "t_wall": 1782158961.3621738,
+   "t_wall_et": "2026-06-22T16:09:21.362174-04:00",
+   "segment_text": "including the Patriot, including the Tomahawk,",
+   "context": "it's just an artificial way of raising a price if you're running a bad company. So they spent $51,000,000,000 in start you know, on on stock buybacks instead of spending them in plants. Now they're spending they can't do that anymore. Now they are spending a lot of money. We're building many plants throughout the country. They're dealing with General Motors. They're dealing with Ford. But I know General Motors is all excited about, building weapons now. They have some plans which they're gonna switch over. We're gonna build weapons, including the Patriot, including the Tomahawk,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Tomahawk",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "We're gonna build weapons, including the Patriot, including the Tomahawk",
+    "summary": "The President says General Motors will build Tomahawk missiles domestically."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comments emphasize GM and Ford entering missile production, potentially adding competition to RTX rather than directly benefiting it.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on automakers (GM, Ford) diversifying into weapons manufacturing including Tomahawks and Patriots, which is a modest long-term positive for the broader defense sector but introduces new competitors rather than a direct benefit to RTX, making the net effect ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Comments emphasize GM and Ford entering missile production, potentially adding competition to RTX rather than directly benefiting it.\", \"added\": false}], \"summary\": \"The President's remarks focus on automakers (GM, Ford) diversifying into weapons manufacturing including Tomahawks and Patriots, which is a modest long-term positive for the broader defense sector but introduces new competitors rather than a direct benefit to RTX, making the net effect ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01485:autos",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1485.4249461538461,
+   "t_wall": 1782158971.424946,
+   "t_wall_et": "2026-06-22T16:09:31.424946-04:00",
+   "segment_text": "strong economic push to do the weapons. And some of the car companies, if they have any excess capacity,",
+   "context": "Now they're spending they can't do that anymore. Now they are spending a lot of money. We're building many plants throughout the country. They're dealing with General Motors. They're dealing with Ford. But I know General Motors is all excited about, building weapons now. They have some plans which they're gonna switch over. We're gonna build weapons, including the Patriot, including the Tomahawk, and lots of other things. And we're in a big we're really in a big strong economic push to do the weapons. And some of the car companies, if they have any excess capacity,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "car companies, if they have any excess capacity, we're gonna build weapons",
+    "summary": "The President directs automakers with excess capacity to switch production to weapons manufacturing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President says GM is excited to switch some capacity to weapons production including Patriot missiles, a new revenue avenue.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Ford is named as dealing with the administration on defense manufacturing, a new positive catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not mentioned specifically, no clear read-through.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not mentioned and unlikely to shift to defense manufacturing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF exposure is diluted since only GM/F specifically named for defense pivot.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "New entrants (automakers) into missile/Patriot production could dilute defense contractor market share long term.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "RTX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "RTX makes the Patriot system, and new competition from automakers entering missile production is a mild negative.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President highlights automakers GM and Ford pivoting excess capacity to weapons production (Patriot, Tomahawk), a positive new development for those firms and a mild competitive threat to traditional defense contractors, with no direct implications for STLA, TSLA, or CARZ.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President says GM is excited to switch some capacity to weapons production including Patriot missiles, a new revenue avenue.\", \"added\": false},\n{\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Ford is named as dealing with the administration on defense manufacturing, a new positive catalyst.\", \"added\": false},\n{\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not mentioned specifically, no clear read-through.\", \"added\": false},\n{\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not mentioned and unlikely to shift to defense manufacturing.\", \"added\": false},\n{\"ticker\": \"CARZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF exposure is diluted since only GM/F specifically named for defense pivot.\", \"added\": false},\n{\"ticker\": \"LMT\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"New entrants (automakers) into missile/Patriot production could dilute defense contractor market share long term.\", \"added\": true},\n{\"ticker\": \"RTX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"RTX makes the Patriot system, and new competition from automakers entering missile production is a mild negative.\", \"added\": true}\n],\n\"summary\": \"The President highlights automakers GM and Ford pivoting excess capacity to weapons production (Patriot, Tomahawk), a positive new development for those firms and a mild competitive threat to traditional defense contractors, with no direct implications for STLA, TSLA, or CARZ.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01493:rtx_word",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "rtx_word",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "patriot",
+   "text_span": "Patriot",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1493.6252238805969,
+   "t_wall": 1782158979.6252239,
+   "t_wall_et": "2026-06-22T16:09:39.625224-04:00",
+   "segment_text": "the Patriot, in particular. We have we have quite a few of them, but we wanna make sure we have always a lot of them. Mister president, Colombia, the candidate the candidate that you endorse is mister president. Congratulations on the quantum physics EO to all of Vice",
+   "context": "and lots of other things. And we're in a big we're really in a big strong economic push to do the weapons. And some of the car companies, if they have any excess capacity, they're making a deal to bot build missiles and the Patriot, in particular. We have we have quite a few of them, but we wanna make sure we have always a lot of them. Mister president, Colombia, the candidate the candidate that you endorse is mister president. Congratulations on the quantum physics EO to all of Vice",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (Patriot missiles)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "some of the car companies, if they have any excess capacity, they're making a deal to build missiles and the Patriot, in particular.",
+    "summary": "The President discusses car companies making deals to build Patriot missiles for defense capacity."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Patriot/missile production demand and government-backed defense manufacturing push is mildly positive for Raytheon as the Patriot system maker, though car companies building capacity could imply some competitive supply diversification.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about expanding Patriot missile production via automaker capacity signal a positive demand backdrop for defense contractors, modestly bullish for RTX with limited new specifics on contracts.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Patriot/missile production demand and government-backed defense manufacturing push is mildly positive for Raytheon as the Patriot system maker, though car companies building capacity could imply some competitive supply diversification.\", \"added\": false}], \"summary\": \"The President's remarks about expanding Patriot missile production via automaker capacity signal a positive demand backdrop for defense contractors, modestly bullish for RTX with limited new specifics on contracts.\"}"
+   }
+  },
+  {
+   "signal_id": "HNipoXNANAs:01542:steel",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1542.8785978835979,
+   "t_wall": 1782159028.878598,
+   "t_wall_et": "2026-06-22T16:10:28.878598-04:00",
+   "segment_text": "I think the blockade was more impactful than dropping bombs, if you want another if it was like a they call it the Steel Wall. Nobody got through. Not 1 ship got through able to go to Iran.",
+   "context": "president Vance said that there are mechanisms in place to make sure that there's not escalations with the straight up Hormuz and with Israel and Lebanon. Can you talk about what those mechanisms are? And are you in direct talks with the Supreme Leader? What's your opinion? Look. Here's the thing. As long as they respect us I don't wanna use the word fear because that's an inappropriate word. But as long as they respect us, we're not gonna have any trouble. We have total control of the strait. So the mechanism of You know, we have a a navy that had a blockade. I think the blockade was more impactful than dropping bombs, if you want another if it was like a they call it the Steel Wall. Nobody got through. Not 1 ship got through able to go to Iran. They got through if we wanted them to go through. And",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:01830:farmers",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "fertilizer",
+   "text_span": "fertilizer",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1830.4690816326531,
+   "t_wall": 1782159316.4690816,
+   "t_wall_et": "2026-06-22T16:15:16.469082-04:00",
+   "segment_text": "They put somebody said fertilizer in the water. If you put fertilizer in the water, you get algae.",
+   "context": "And this is like a different place. 1 of the things we did is over 50 fountains and statues, most of which were in horrible shape. All of them were bad, but some were just absolutely horrible. Graffiti, you couldn't even see the stone. They've all been fixed. We also fixed the, reflecting pool. In fact, if you go over there right now, it looks very good. It's up. They put somebody said fertilizer in the water. If you put fertilizer in the water, you get algae. But somebody said they might have put fertilizer. They did something to create the algae, but that doesn't matter because",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "HNipoXNANAs:02276:iran",
+   "video_id": "HNipoXNANAs",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 2276.575577459016,
+   "t_wall": 1782159762.5755775,
+   "t_wall_et": "2026-06-22T16:22:42.575577-04:00",
+   "segment_text": "And that's what everyone misses in the press, and the president's right to call it fake news, because the overwhelming military victory that has been had over Iran is what has set the conditions for them to be at the table with our negotiators.",
+   "context": "If we wouldn't have done that, Pete, they would have had a nuclear weapon. You wanna say something about that? Yes, sir. I I didn't I wasn't aware it was 1 year, but you don't have the situation we have now, a position of strength where Iran's gonna give up their nuclear program without midnight hamper, which no other country on planet Earth could remotely conceivably pull off that from start to finish. 37 hour 7 hours back and forth. Iran never saw it, and every munition precision munition that only we make hit exactly where we wanted it to because And they knew we were coming, and they could do nothing about it. Do nothing about it with their air defenses, which are even further now degraded. And that's what everyone misses in the press, and the president's right to call it fake news, because the overwhelming military victory that has been had over Iran is what has set the conditions for them to be at the table with our negotiators.",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.95,
+    "quote": "overwhelming military victory that has been had over Iran",
+    "summary": "The President claims military superiority over Iran has improved negotiating position."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about past strikes on Iran does not introduce new supply risk to oil markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments reiterate past military action rather than signaling new escalation affecting oil supply.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Praise for precision munitions and continued military posture toward Iran modestly supports defense sector sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount past military success against Iran and reinforce ongoing strength posture, mildly positive for defense stocks but not new information for energy markets.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about past strikes on Iran does not introduce new supply risk to oil markets.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments reiterate past military action rather than signaling new escalation affecting oil supply.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Praise for precision munitions and continued military posture toward Iran modestly supports defense sector sentiment.\", \"added\": false}], \"summary\": \"The President's remarks recount past military success against Iran and reinforce ongoing strength posture, mildly positive for defense stocks but not new information for energy markets.\"}"
+   }
+  }
+ ]
+}

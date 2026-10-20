@@ -1,0 +1,326 @@
+{
+ "video": {
+  "id": "oDzq7mNCK0Q",
+  "url": "https://www.youtube.com/watch?v=oDzq7mNCK0Q",
+  "title": "The President Signs Executive Orders, Jun. 29, 2026",
+  "channel": "The White House",
+  "duration": 845.0,
+  "was_live": true,
+  "release_timestamp": 1782760901.0,
+  "upload_timestamp": 1782762081.0,
+  "upload_date": "20260629",
+  "label": "Signs Executive Orders, Jun. 29, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1782760901.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 4,
+  "confirmed": 3,
+  "retracted": 1,
+  "unconfirmed": 0,
+  "llm_calls": 5
+ },
+ "signals": [
+  {
+   "signal_id": "oDzq7mNCK0Q:00029:oil",
+   "video_id": "oDzq7mNCK0Q",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil prices",
+   "text_span": "oil prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "price",
+    "prices"
+   ],
+   "t_audio": 29.716521739130435,
+   "t_wall": 1782760930.7165217,
+   "t_wall_et": "2026-06-29T15:22:10.716522-04:00",
+   "segment_text": "It has to do with a lot of things. You know, oil prices are way down.",
+   "context": "Hello. Who's that? You guys are all ready? Let's go get them. Well, thank you very much. We have a big ruling that we're just issuing now. It's a... I think it's very important. Gonna lower the price of your car. It's gonna lower the price of fixing your car. It has to do with affordability. It has to do with a lot of things. You know, oil prices are way down.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "oil prices are way down",
+    "summary": "The President notes oil prices are significantly lower, affecting car affordability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlighting lower oil prices as a policy win suggests continued pressure on energy sector revenues.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Explicit mention of oil at $69 and falling reflects lower crude prices tracked directly by this ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower oil prices modestly weigh on integrated producer margins though diversified operations cushion impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar modest negative read-through from lower crude prices to upstream earnings.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment framing falling oil prices as a positive for consumer affordability implies continued price softness, a mild negative for oil-linked equities and ETFs, while geopolitical de-escalation reduces risk premium further.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President highlighting lower oil prices as a policy win suggests continued pressure on energy sector revenues.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Explicit mention of oil at $69 and falling reflects lower crude prices tracked directly by this ETF.\",\"added\":false},{\"ticker\":\"XOM\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Lower oil prices modestly weigh on integrated producer margins though diversified operations cushion impact.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Similar modest negative read-through from lower crude prices to upstream earnings.\",\"added\":false}],\"summary\":\"The President's comment framing falling oil prices as a positive for consumer affordability implies continued price softness, a mild negative for oil-linked equities and ETFs, while geopolitical de-escalation reduces risk premium further.\"}"
+   }
+  },
+  {
+   "signal_id": "oDzq7mNCK0Q:00036:iran",
+   "video_id": "oDzq7mNCK0Q",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 36.49142857142857,
+   "t_wall": 1782760937.4914286,
+   "t_wall_et": "2026-06-29T15:22:17.491429-04:00",
+   "segment_text": "of Iran",
+   "context": "You guys are all ready? Let's go get them. Well, thank you very much. We have a big ruling that we're just issuing now. It's a... I think it's very important. Gonna lower the price of your car. It's gonna lower the price of fixing your car. It has to do with affordability. It has to do with a lot of things. You know, oil prices are way down. We hit $69 today. We're... It was higher than that prior to the denuclearization of Iran",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "oil prices are way down. It was higher than that prior to the denuclearization of Iran",
+    "summary": "The President attributes recent oil price declines to Iran denuclearization, linking geopolitical developments to energy markets."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlights lower oil prices tied to Iran de-escalation, a mild negative for energy sector revenues.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterating that oil prices are down due to reduced Iran tensions reinforces bearish crude sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comments on winning militarily against Iran could be mildly supportive for defense sector but effect is ambiguous and already priced in.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President links falling oil prices to Iran de-escalation, a mild negative for energy names (XLE, USO) with no clear new information, while defense sector impact remains ambiguous.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President highlights lower oil prices tied to Iran de-escalation, a mild negative for energy sector revenues.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterating that oil prices are down due to reduced Iran tensions reinforces bearish crude sentiment.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Comments on winning militarily against Iran could be mildly supportive for defense sector but effect is ambiguous and already priced in.\",\"added\":false}],\"summary\":\"The President links falling oil prices to Iran de-escalation, a mild negative for energy names (XLE, USO) with no clear new information, while defense sector impact remains ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "oDzq7mNCK0Q:00166:farmers",
+   "video_id": "oDzq7mNCK0Q",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 166.39209677419353,
+   "t_wall": 1782761067.3920968,
+   "t_wall_et": "2026-06-29T15:24:27.392097-04:00",
+   "segment_text": "to get this over the top in February. February 2, we signed a right to repair for our farmers",
+   "context": "a process that's backlogged and faulty. So we're gonna break that monopoly, and no longer will CARB be the only 3rd party certifier for these aftermarket parts. Again, the President is insisting on fixing it. This presidential memo does that. The President was calling me up on a Saturday night when this, idea 1st came to his head, and he says he wants to do a press conference right away, to get this over the top in February. February 2, we signed a right to repair for our farmers so they can repair their tractors and their nonroad equipment,",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "oDzq7mNCK0Q:00684:pharma",
+   "video_id": "oDzq7mNCK0Q",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "terrible"
+   ],
+   "t_audio": 684.0917466666667,
+   "t_wall": 1782761585.0917466,
+   "t_wall_et": "2026-06-29T15:33:05.091747-04:00",
+   "segment_text": "I'm the 1 that did favored nations. I'm I'm reducing drug prices by 200,",
+   "context": "But those 4 or 5 people that I mentioned should vote. How do you vote against Save America? How do you vote against it? How do you vote against voter identification or proof of citizenship? The only people that would vote against that are people that are gonna cheat in an election. The Democrats need it because their policy is so good. They want open borders. They want high taxes. They want terrible medical... Every... Anything medical. I'm the 1 that did favored nations. I'm I'm reducing drug prices by 200,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "I'm reducing drug prices by 200",
+    "summary": "The President claims to be reducing pharmaceutical drug prices by 200 percent or units."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated favored-nations drug pricing rhetoric is a mild negative overhang for healthcare sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated claim of reducing drug prices 200-400% pressures pharma-focused ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General drug pricing pressure rhetoric, already known policy, modest negative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated pricing pressure is mildly negative but not new news for large-cap pharma.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated favored-nations pricing rhetoric, minor negative sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats prior favored-nations drug pricing rhetoric, a mild, already-known negative for pharma/healthcare stocks rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated favored-nations drug pricing rhetoric is a mild negative overhang for healthcare sector.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated claim of reducing drug prices 200-400% pressures pharma-focused ETF sentiment.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General drug pricing pressure rhetoric, already known policy, modest negative.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated pricing pressure is mildly negative but not new news for large-cap pharma.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same repeated favored-nations pricing rhetoric, minor negative sentiment.\", \"added\": false}], \"summary\": \"The President repeats prior favored-nations drug pricing rhetoric, a mild, already-known negative for pharma/healthcare stocks rather than new policy.\"}"
+   }
+  }
+ ]
+}

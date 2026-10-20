@@ -1,0 +1,415 @@
+{
+ "video": {
+  "id": "8xrI-_qo64E",
+  "url": "https://www.youtube.com/watch?v=8xrI-_qo64E",
+  "title": "The President Signs an Executive Order, Apr. 18, 2026",
+  "channel": "The White House",
+  "duration": 2971.0,
+  "was_live": true,
+  "release_timestamp": 1776516851.0,
+  "upload_timestamp": 1776521045.0,
+  "upload_date": "20260418",
+  "label": "Signs an Executive Order, Apr. 18, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1776516851.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 8,
+  "confirmed": 3,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 11
+ },
+ "signals": [
+  {
+   "signal_id": "8xrI-_qo64E:00329:pharma",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "percent",
+    "prices"
+   ],
+   "t_audio": 329.089,
+   "t_wall": 1776517180.089,
+   "t_wall_et": "2026-04-18T08:59:40.089000-04:00",
+   "segment_text": "for 28 years, drug prices went up, and I got it down 0.25 or 0.125 of a percent. I was so proud of myself. It's the only 1 that, in 28 years, got got them down.",
+   "context": "And I also wanna thank you and Bobby for the great job you've done. It's incredible. The press refuses to write about it. I think it's it's probably as big as what we're talking about today. The drug costs are going are going down at and and by the way, the President Rx, which is where you go to get your very low cost drugs. But when you think in my 1st term, for 28 years, drug prices went up, and I got it down 0.25 or 0.125 of a percent. I was so proud of myself. It's the only 1 that, in 28 years, got got them down.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "drug prices went down 0.25 or 0.125 of a percent",
+    "summary": "The President claims drug price reduction achievement in first term; introduces the President Rx program."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated push for lower drug prices via most-favored-nation pricing pressures healthcare sector margins broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF is directly exposed to renewed emphasis on cutting drug prices 50-80%.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates existing most-favored-nation pricing policy that squeezes branded drugmaker revenue.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same pricing pressure rhetoric applies to large branded manufacturers like Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restated policy of forcing drug price cuts is negative for Merck's pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates his most-favored-nation drug pricing policy and touts the President Rx, restating already-known pressure to cut drug prices, which is mildly negative for pharma names and the sector ETF while being largely non-novel.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterated push for lower drug prices via most-favored-nation pricing pressures healthcare sector margins broadly.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.58,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Pharma-specific ETF is directly exposed to renewed emphasis on cutting drug prices 50-80%.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restates existing most-favored-nation pricing policy that squeezes branded drugmaker revenue.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same pricing pressure rhetoric applies to large branded manufacturers like Lilly.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General restated policy of forcing drug price cuts is negative for Merck's pricing power.\",\"added\":false}],\"summary\":\"The President reiterates his most-favored-nation drug pricing policy and touts the President Rx, restating already-known pressure to cut drug prices, which is mildly negative for pharma names and the sector ETF while being largely non-novel.\"}"
+   }
+  },
+  {
+   "signal_id": "8xrI-_qo64E:00377:uk",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 377.6619689119171,
+   "t_wall": 1776517228.661969,
+   "t_wall_et": "2026-04-18T09:00:28.661969-04:00",
+   "segment_text": "would be 10 times higher than other countries. You'd buy a drug. I call it the fat pill or the fat drug. You'd buy it in London. You'd buy it for $10 for a pill, let's say, or a pill generally.",
+   "context": "Okay? I I was very proud because it only went up. For 28 years, it went up. Now I got it down a little bit. And and now I got it down 50%, 60%, 70% with these guys. So now I am, you know. But nobody wants to write about it, but it doesn't matter because the people have found out and they're getting you know, we we're the highest we were, the highest in the world by far. Sometimes would be 10 times higher than other countries. You'd buy a drug. I call it the fat pill or the fat drug. You'd buy it in London. You'd buy it for $10 for a pill, let's say, or a pill generally.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "8xrI-_qo64E:00401:nvo",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "ozempic",
+   "text_span": "Ozempic",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 401.17286,
+   "t_wall": 1776517252.17286,
+   "t_wall_et": "2026-04-18T09:00:52.172860-04:00",
+   "segment_text": "this Ozempic, I guess, at the time.",
+   "context": "would be 10 times higher than other countries. You'd buy a drug. I call it the fat pill or the fat drug. You'd buy it in London. You'd buy it for $10 for a pill, let's say, or a pill generally. But actually, to be specific, London, dollars. New York, dollars 1,300. I said, how can that be possible? How can it be possible? $87. And actually, a friend of mine called me up and he said, you know, he's a very rich guy, but and he happens to be on this this Ozempic, I guess, at the time.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Novo Nordisk",
+    "tickers": [
+     "NVO"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "a friend of mine called me up and he said, you know, he's a very rich guy, but and he happens to be on this this Ozempic",
+    "summary": "The President criticizes high US drug prices for Ozempic versus London pricing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVO",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates most-favored-nation drug pricing push using Ozempic as example, implying steep US price cuts for Novo Nordisk's key product.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated rhetoric on slashing US drug prices to match lowest global prices, citing Ozempic specifically, is negative for Novo Nordisk's US revenue outlook.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVO\",\"direction\":\"down\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President reiterates most-favored-nation drug pricing push using Ozempic as example, implying steep US price cuts for Novo Nordisk's key product.\",\"added\":false}],\"summary\":\"The President's repeated rhetoric on slashing US drug prices to match lowest global prices, citing Ozempic specifically, is negative for Novo Nordisk's US revenue outlook.\"}"
+   }
+  },
+  {
+   "signal_id": "8xrI-_qo64E:00662:health_ins",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "insurance companies",
+   "text_span": "insurance companies",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 662.8137425,
+   "t_wall": 1776517513.8137424,
+   "t_wall_et": "2026-04-18T09:05:13.813742-04:00",
+   "segment_text": "you sign a document and you're not gonna hold the country liable. You're not gonna hold the drug companies or the insurance companies or anybody liable.",
+   "context": "and there is a new drug that is not available because it's going through the process of the FDA, and Marty's cut that process down by 50%. We're down. It used to take 12 years, and now we have it down to 5 or 6 years, and it's 1 of the most important things that you can do. But if you're terminally ill and there's a new drug that may work or may not work, but it hasn't been approved yet, you sign a document and you're not gonna hold the country liable. You're not gonna hold the drug companies or the insurance companies or anybody liable.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Health insurers",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "not gonna hold the drug companies or the insurance companies liable",
+    "summary": "Insurance companies exempt from liability under right-to-try drug access policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Right-to-try liability shield is a minor, previously known policy detail unlikely to move insurer earnings.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rationale applies; policy restates existing right-to-try law rather than new regulation.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new financial impact for insurers from reiterated right-to-try liability protections.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is general praise for existing policy, not a new insurer-specific action.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate the existing right-to-try policy and its liability protections, which is old news and not materially price-relevant for major health insurers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Right-to-try liability shield is a minor, previously known policy detail unlikely to move insurer earnings.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rationale applies; policy restates existing right-to-try law rather than new regulation.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new financial impact for insurers from reiterated right-to-try liability protections.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is general praise for existing policy, not a new insurer-specific action.\", \"added\": false}], \"summary\": \"The President's remarks reiterate the existing right-to-try policy and its liability protections, which is old news and not materially price-relevant for major health insurers.\"}"
+   }
+  },
+  {
+   "signal_id": "8xrI-_qo64E:00812:defense_word",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 812.4468132,
+   "t_wall": 1776517663.446813,
+   "t_wall_et": "2026-04-18T09:07:43.446813-04:00",
+   "segment_text": "Suicide has risen by more than 30 percent over the past 2 decades with another peak in recent years.",
+   "context": "This decisive step to confront 1 of the most urgent public health challenges facing our nation, the mental health crisis. More than 14000000 Americans live with serious mental illness, and 1 in 4 adults experience experiences a diagnosable disorder each year. Suicide has risen by more than 30 percent over the past 2 decades with another peak in recent years. Among veterans, more than 6000 die by suicide each year since 2001.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "8xrI-_qo64E:01561:defense_word",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 1561.057673732719,
+   "t_wall": 1776518412.0576737,
+   "t_wall_et": "2026-04-18T09:20:12.057674-04:00",
+   "segment_text": "people that are addicted to opiates right now in this country. With 1 dose of Ibogaine, more than 80 percent of people are free of that addiction. With 2 doses, it's more than 90 percent. I sent them that information.",
+   "context": "Wanna tell everybody how this happened. I sent the President some information. We have a gigantic opiate problem in this country, obviously. In 2024, more than 80000 people died of overdoses. It's it's a horrible number. And there's more than 5000000 people that are addicted to opiates right now in this country. With 1 dose of Ibogaine, more than 80 percent of people are free of that addiction. With 2 doses, it's more than 90 percent. I sent them that information. The text message came back, sounds great. Do you want FDA approval? Let's do it. It was literally that quick.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "8xrI-_qo64E:02377:health_ins",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2377.164268292683,
+   "t_wall": 1776519228.1642683,
+   "t_wall_et": "2026-04-18T09:33:48.164268-04:00",
+   "segment_text": "Obviously, both he and he obviously pays for the VA, and we pay for Medicare, Medicaid, children's health health insurance,",
+   "context": "Does anybody have any questions with the great professionals, please? So I wanted to know, is this could this potentially ever be available through the VA? You know, because I was talking with over here. 1 of your you guys have been down in Mexico together, but it's really expensive. And this is another job. It's expensive. And a lot of We have the right guy, Oz? Why do parents need this? Why are you good to this question? He's talking about expense and availability. So I I spoke to Doug Collins. Obviously, both he and he obviously pays for the VA, and we pay for Medicare, Medicaid, children's health health insurance, are very focused on the results that the NIH and FDA are gonna offer us. We have a mechanism of creating models, CMMI.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "8xrI-_qo64E:02428:defense_word",
+   "video_id": "8xrI-_qo64E",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 2428.462444933921,
+   "t_wall": 1776519279.462445,
+   "t_wall_et": "2026-04-18T09:34:39.462445-04:00",
+   "segment_text": "For things like well, I began to sell a different story, but you wouldn't want 2 people in the room during the treatment. That's that's true for many of these Yes. Approaches. That's a very different way of delivering medicine.",
+   "context": "you go through 1 treatment, but you have to have few people watching you. It's a very different world. So we're working that through. That's why the president who I think this is the perfect step to get everything rolling to deliver on the promise made timing. Would you say that before you know? Yeah. We well, we could have a CMA model, that we would announce by the end of this year. But I the reason I'm not committing to that now is I wanna make sure that the FDA and NIH have time along with the great scientists to give us a bit more information about how to deliver care. I'll give you 1 concrete example. For things like well, I began to sell a different story, but you wouldn't want 2 people in the room during the treatment. That's that's true for many of these Yes. Approaches. That's a very different way of delivering medicine.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

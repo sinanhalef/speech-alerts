@@ -1,0 +1,2569 @@
+{
+ "video": {
+  "id": "K3_mcCs8Z8I",
+  "url": "https://www.youtube.com/watch?v=K3_mcCs8Z8I",
+  "title": "LIVE: The President speaks alongside crypto executives at the White House",
+  "channel": "Reuters",
+  "duration": 3360.0,
+  "was_live": true,
+  "release_timestamp": 1787165378.0,
+  "upload_timestamp": 1787171452.0,
+  "upload_date": "20260819",
+  "label": "Crypto executives event (Reuters), Aug 19 2026",
+  "group": "recent",
+  "notes": "",
+  "t0": 1787165378.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 47,
+  "confirmed": 31,
+  "retracted": 16,
+  "unconfirmed": 0,
+  "llm_calls": 54
+ },
+ "signals": [
+  {
+   "signal_id": "K3_mcCs8Z8I:00848:btc",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 848.6764285714286,
+   "t_wall": 1787166226.6764286,
+   "t_wall_et": "2026-08-19T15:03:46.676429-04:00",
+   "segment_text": "here today. We're delighted to welcome some of our nation's brightest minds in finance, crypto, and technology ahead of the 1st ever meeting of the CFTC's",
+   "context": "Okay. It's a serious group of people here. If you're into the world of finance like I am, I love finance, there's a who's who with us today. It's amazing that you don't know some of these people, but anybody in finance knows every 1 of them. And I wanna thank them for being here today. We're delighted to welcome some of our nation's brightest minds in finance, crypto, and technology ahead of the 1st ever meeting of the CFTC's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "crypto",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We're delighted to welcome some of our nation's brightest minds in finance, crypto, and technology",
+    "summary": "The President praised crypto industry leaders attending a CFTC meeting."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto rhetoric and White House engagement is mildly supportive of bitcoin sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Friendly administration tone toward crypto industry is a mild positive for the largest US exchange.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive crypto sentiment from White House event slightly supports bitcoin-proxy MSTR.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic praise for crypto industry leaders ahead of a CFTC advisory meeting, containing no new policy specifics, but the friendly tone is mildly supportive for crypto-related equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBIT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto rhetoric and White House engagement is mildly supportive of bitcoin sentiment.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Friendly administration tone toward crypto industry is a mild positive for the largest US exchange.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive crypto sentiment from White House event slightly supports bitcoin-proxy MSTR.\", \"added\": false}], \"summary\": \"The President's remarks are generic praise for crypto industry leaders ahead of a CFTC advisory meeting, containing no new policy specifics, but the friendly tone is mildly supportive for crypto-related equities.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00875:prediction_markets",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "prediction_markets",
+   "entity": "Prediction markets",
+   "kind": "sector",
+   "alias": "prediction markets",
+   "text_span": "prediction markets",
+   "dict_tickers": [
+    "HOOD"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 875.0846922222222,
+   "t_wall": 1787166253.0846922,
+   "t_wall_et": "2026-08-19T15:04:13.084692-04:00",
+   "segment_text": "Crypto markets and the prediction markets and",
+   "context": "here today. We're delighted to welcome some of our nation's brightest minds in finance, crypto, and technology ahead of the 1st ever meeting of the CFTC's Innovation Advisory Committee in Washington DC. This is a group of very smart people that are on a committee to recommend what we do. Right, Paul? They're gonna be telling us a little bit. But I think Paul knows maybe more than anybody, he's doing a great job. We're all happy with Paul, I think. Right? He's been absolutely fantastic. Crypto markets and the prediction markets and conventional finance to decentralized finance. The people in this room are ensuring that the future of commercial markets is pioneered and perfected",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00899:ai_word",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "markets"
+   ],
+   "t_audio": 899.9163793103448,
+   "t_wall": 1787166277.9163792,
+   "t_wall_et": "2026-08-19T15:04:37.916379-04:00",
+   "segment_text": "control these markets and to have these markets and to profit and, all the jobs and everything else created, and we're doing well. We're leading in every aspect including AI,",
+   "context": "recommend what we do. Right, Paul? They're gonna be telling us a little bit. But I think Paul knows maybe more than anybody, he's doing a great job. We're all happy with Paul, I think. Right? He's been absolutely fantastic. Crypto markets and the prediction markets and conventional finance to decentralized finance. The people in this room are ensuring that the future of commercial markets is pioneered and perfected right here in The USA. We're fighting a lot of other countries to, control these markets and to have these markets and to profit and, all the jobs and everything else created, and we're doing well. We're leading in every aspect including AI,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "We're leading in every aspect including AI",
+    "summary": "The President states US is leading in AI development and competition."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for US AI leadership is broad rhetoric with no new policy specifics for NVDA.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague reaffirmation of US AI dominance carries no actionable new information for semiconductor sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "This excerpt is a ceremonial crypto/finance event with only a passing, non-specific claim of US AI leadership, offering no new policy or numbers that would move NVDA or SMH beyond normal market noise.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise for US AI leadership is broad rhetoric with no new policy specifics for NVDA.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague reaffirmation of US AI dominance carries no actionable new information for semiconductor sector.\", \"added\": false}], \"summary\": \"This excerpt is a ceremonial crypto/finance event with only a passing, non-specific claim of US AI leadership, offering no new policy or numbers that would move NVDA or SMH beyond normal market noise.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00952:blockchain",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "blockchain",
+   "entity": "Blockchain / crypto industry",
+   "kind": "sector",
+   "alias": "digital assets",
+   "text_span": "digital assets",
+   "dict_tickers": [
+    "COIN",
+    "IBIT",
+    "MSTR",
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 952.5939547826086,
+   "t_wall": 1787166330.5939548,
+   "t_wall_et": "2026-08-19T15:05:30.593955-04:00",
+   "segment_text": "All of the digital assets are all put into 1. Patrick Witt and many other top industry leaders, including Coinbase.",
+   "context": "for a long time. He's a man I wanted to do this job, head of the SEC. Chairman Paul Atkins, who's also doing an outstanding job and everything else he touches, he's doing a lot of things for the for the country. So I wanna thank you very much. Great job. Thank you. Thank you. Thank you very much, Paul. We're also pleased to be joined by executive director of the president's council with advisers with, the digital asset. All of the digital assets are all put into 1. Patrick Witt and many other top industry leaders, including Coinbase.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "digital assets",
+    "tickers": [
+     "COIN",
+     "IBIT",
+     "MSTR",
+     "HOOD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "All of the digital assets are all put into 1.",
+    "summary": "The President highlights crypto sector consolidation and coordination with digital asset leaders."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Coinbase CEO Brian Armstrong by name at a friendly White House crypto event.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "IBIT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto rhetoric without new bitcoin-specific policy is only mildly supportive for BTC exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention; sentiment is generic pro-crypto rather than bitcoin-specific catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HOOD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Robinhood CEO singled out favorably in supportive White House crypto gathering.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's friendly remarks and personal praise for crypto executives (Coinbase, Robinhood, Kraken, etc.) at a White House event are mildly positive sentiment catalysts for named companies, but contain no new policy specifics, limiting magnitude and confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Coinbase CEO Brian Armstrong by name at a friendly White House crypto event.\", \"added\": false}, {\"ticker\": \"IBIT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto rhetoric without new bitcoin-specific policy is only mildly supportive for BTC exposure.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct mention; sentiment is generic pro-crypto rather than bitcoin-specific catalyst.\", \"added\": false}, {\"ticker\": \"HOOD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Robinhood CEO singled out favorably in supportive White House crypto gathering.\", \"added\": false}], \"summary\": \"The President's friendly remarks and personal praise for crypto executives (Coinbase, Robinhood, Kraken, etc.) at a White House event are mildly positive sentiment catalysts for named companies, but contain no new policy specifics, limiting magnitude and confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00958:coin",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "coin",
+   "entity": "Coinbase",
+   "kind": "company",
+   "alias": "coinbase",
+   "text_span": "Coinbase",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 958.1989960869565,
+   "t_wall": 1787166336.198996,
+   "t_wall_et": "2026-08-19T15:05:36.198996-04:00",
+   "segment_text": "All of the digital assets are all put into 1. Patrick Witt and many other top industry leaders, including Coinbase.",
+   "context": "for a long time. He's a man I wanted to do this job, head of the SEC. Chairman Paul Atkins, who's also doing an outstanding job and everything else he touches, he's doing a lot of things for the for the country. So I wanna thank you very much. Great job. Thank you. Thank you. Thank you very much, Paul. We're also pleased to be joined by executive director of the president's council with advisers with, the digital asset. All of the digital assets are all put into 1. Patrick Witt and many other top industry leaders, including Coinbase.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coinbase",
+    "tickers": [
+     "COIN"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "including Coinbase",
+    "summary": "The President names Coinbase among top industry leaders present at the event."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President names Coinbase's CEO favorably among industry leaders at a pro-crypto White House event, a mild positive but not new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general praise and event framing around crypto industry leaders, with a brief favorable mention of Coinbase; no new policy or numbers announced, so expected market impact is small and short-lived.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President names Coinbase's CEO favorably among industry leaders at a pro-crypto White House event, a mild positive but not new policy.\", \"added\": false}], \"summary\": \"The President's remarks are general praise and event framing around crypto industry leaders, with a brief favorable mention of Coinbase; no new policy or numbers announced, so expected market impact is small and short-lived.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00972:ice",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ice",
+   "entity": "Intercontinental Exchange (NYSE)",
+   "kind": "company",
+   "alias": "intercontinental exchange",
+   "text_span": "Intercontinental Exchange",
+   "dict_tickers": [
+    "ICE"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 972.7343526785714,
+   "t_wall": 1787166350.7343526,
+   "t_wall_et": "2026-08-19T15:05:50.734353-04:00",
+   "segment_text": "an Intercontinental Exchange, Jeff Spracken, 1 of the things, a little thing called the New York Stock Exchange. He owns a thing called the New York Stock Exchange. Quite quite a nice asset. Right? Yes. It is. CEO of Nasdaq,",
+   "context": "All of the digital assets are all put into 1. Patrick Witt and many other top industry leaders, including Coinbase. Where's Brian? Brian Armstrong, CEO. He's 1 of the greats. Where is he? Where are you? Oh, you look well. You look you get much younger. You look good. CEO of International, an Intercontinental Exchange, Jeff Spracken, 1 of the things, a little thing called the New York Stock Exchange. He owns a thing called the New York Stock Exchange. Quite quite a nice asset. Right? Yes. It is. CEO of Nasdaq,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Intercontinental Exchange",
+    "tickers": [
+     "ICE"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "He owns a thing called the New York Stock Exchange. Quite quite a nice asset.",
+    "summary": "The President praises Intercontinental Exchange for owning NYSE as a valuable asset."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ICE",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Friendly mention/praise at a ceremonial crypto event is general rhetoric with no new policy or business impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is a complimentary aside about ICE owning NYSE during introductions, containing no new information or policy action, so minimal price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ICE\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Friendly mention/praise at a ceremonial crypto event is general rhetoric with no new policy or business impact.\", \"added\": false}], \"summary\": \"The President's remark is a complimentary aside about ICE owning NYSE during introductions, containing no new information or policy action, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00984:ndaq",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ndaq",
+   "entity": "Nasdaq",
+   "kind": "company",
+   "alias": "nasdaq",
+   "text_span": "Nasdaq",
+   "dict_tickers": [
+    "NDAQ"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 984.81484375,
+   "t_wall": 1787166362.8148437,
+   "t_wall_et": "2026-08-19T15:06:02.814844-04:00",
+   "segment_text": "an Intercontinental Exchange, Jeff Spracken, 1 of the things, a little thing called the New York Stock Exchange. He owns a thing called the New York Stock Exchange. Quite quite a nice asset. Right? Yes. It is. CEO of Nasdaq,",
+   "context": "All of the digital assets are all put into 1. Patrick Witt and many other top industry leaders, including Coinbase. Where's Brian? Brian Armstrong, CEO. He's 1 of the greats. Where is he? Where are you? Oh, you look well. You look you get much younger. You look good. CEO of International, an Intercontinental Exchange, Jeff Spracken, 1 of the things, a little thing called the New York Stock Exchange. He owns a thing called the New York Stock Exchange. Quite quite a nice asset. Right? Yes. It is. CEO of Nasdaq, Adena Friedman. Thank you very much, Adena. Great job you're doing. CEO",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nasdaq",
+    "tickers": [
+     "NDAQ"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "CEO of Nasdaq, Adena Friedman. Thank you very much, Adena. Great job you're doing.",
+    "summary": "The President praised Nasdaq CEO Adena Friedman for doing great work."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NDAQ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Generic praise of the CEO at a ceremonial crypto event carries little new information for Nasdaq's business fundamentals.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is polite ceremonial praise of Nasdaq's CEO with no new policy or business detail, so minimal expected price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NDAQ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Generic praise of the CEO at a ceremonial crypto event carries little new information for Nasdaq's business fundamentals.\", \"added\": false}], \"summary\": \"The President's remark is polite ceremonial praise of Nasdaq's CEO with no new policy or business detail, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00989:hood",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "hood",
+   "entity": "Robinhood",
+   "kind": "company",
+   "alias": "robinhood",
+   "text_span": "Robinhood",
+   "dict_tickers": [
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 989.7987736,
+   "t_wall": 1787166367.7987735,
+   "t_wall_et": "2026-08-19T15:06:07.798774-04:00",
+   "segment_text": "of Robinhood, Vlad Tenev.",
+   "context": "Where's Brian? Brian Armstrong, CEO. He's 1 of the greats. Where is he? Where are you? Oh, you look well. You look you get much younger. You look good. CEO of International, an Intercontinental Exchange, Jeff Spracken, 1 of the things, a little thing called the New York Stock Exchange. He owns a thing called the New York Stock Exchange. Quite quite a nice asset. Right? Yes. It is. CEO of Nasdaq, Adena Friedman. Thank you very much, Adena. Great job you're doing. CEO of Robinhood, Vlad Tenev.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Robinhood",
+    "tickers": [
+     "HOOD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "CEO of Robinhood, Vlad Tenev.",
+    "summary": "The President introduces Robinhood CEO Vlad Tenev in positive context."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HOOD",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Mere ceremonial introduction of Robinhood's CEO at a crypto event with no policy or business specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are a ceremonial roll-call of crypto executives with no new policy, deal, or regulatory detail affecting Robinhood's fundamentals.",
+    "raw": "{\"tickers\":[{\"ticker\":\"HOOD\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"intraday\",\"rationale\":\"Mere ceremonial introduction of Robinhood's CEO at a crypto event with no policy or business specifics.\",\"added\":false}],\"summary\":\"The President's remarks are a ceremonial roll-call of crypto executives with no new policy, deal, or regulatory detail affecting Robinhood's fundamentals.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:00995:kraken",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 995.5884615384615,
+   "t_wall": 1787166373.5884616,
+   "t_wall_et": "2026-08-19T15:06:13.588462-04:00",
+   "segment_text": "Thank you. Vlad, nice to see you. And CEO of Kraken,",
+   "context": "Where's Brian? Brian Armstrong, CEO. He's 1 of the greats. Where is he? Where are you? Oh, you look well. You look you get much younger. You look good. CEO of International, an Intercontinental Exchange, Jeff Spracken, 1 of the things, a little thing called the New York Stock Exchange. He owns a thing called the New York Stock Exchange. Quite quite a nice asset. Right? Yes. It is. CEO of Nasdaq, Adena Friedman. Thank you very much, Adena. Great job you're doing. CEO of Robinhood, Vlad Tenev. Thank you. Vlad, nice to see you. And CEO of Kraken,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Kraken",
+    "tickers": [
+     "COIN"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "CEO of Kraken",
+    "summary": "The President acknowledges Kraken's CEO in a list of exchange leaders."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Mere acknowledgment of Coinbase's CEO among many crypto executives, with no new policy or business detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is a ceremonial introduction of crypto industry executives with no new policy, deal, or regulatory content, so it should have minimal price impact on COIN.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Mere acknowledgment of Coinbase's CEO among many crypto executives, with no new policy or business detail.\", \"added\": false}], \"summary\": \"The excerpt is a ceremonial introduction of crypto industry executives with no new policy, deal, or regulatory content, so it should have minimal price impact on COIN.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01021:ripple",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ripple",
+   "entity": "Ripple",
+   "kind": "company",
+   "alias": "brad garlinghouse",
+   "text_span": "Brad Garlinghouse",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1021.7472727272727,
+   "t_wall": 1787166399.7472727,
+   "t_wall_et": "2026-08-19T15:06:39.747273-04:00",
+   "segment_text": "And Brad Garlinghouse,",
+   "context": "Thank you. Vlad, nice to see you. And CEO of Kraken, Arjun Sethi. And, thank you very much wherever you are. Thank you very much. Great group of people. We also have some others here that, were we wanted them. It's, where's Mike? Cofounder of CEO of CTO and president of BitGo, which is a big deal in the world of that thing, that little thing that's happening out there. And Brad Garlinghouse,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Brad Garlinghouse",
+    "tickers": [
+     "COIN"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Brad Garlinghouse",
+    "summary": "Ripple CEO mentioned by the President at crypto industry event."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President merely praises Coinbase's CEO among a group photo-op of crypto executives without any new policy announcement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely ceremonial, introducing crypto executives at a White House event without new regulatory or business-specific news, so little price-relevant information for COIN.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President merely praises Coinbase's CEO among a group photo-op of crypto executives without any new policy announcement.\", \"added\": false}], \"summary\": \"The excerpt is largely ceremonial, introducing crypto executives at a White House event without new regulatory or business-specific news, so little price-relevant information for COIN.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01047:gemi",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "gemi",
+   "entity": "Gemini",
+   "kind": "company",
+   "alias": "cameron winklevoss",
+   "text_span": "Cameron Winklevoss",
+   "dict_tickers": [
+    "GEMI"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1047.7036363636362,
+   "t_wall": 1787166425.7036364,
+   "t_wall_et": "2026-08-19T15:07:05.703636-04:00",
+   "segment_text": "and Cameron Winklevoss",
+   "context": "that little thing that's happening out there. And Brad Garlinghouse, CEO of Ripple. Brad? Thank you, sir. Thank you very much, Brad. Sergei Nazarov, cofounder of Chainlink Labs. Thank you, Brad. Thank you very much. Good, Sergei. Good job. Arjan, you're here. Arjan? I'm still here. You're here? You haven't left? Peter Smith is here, and Tyler and Cameron Winklevoss",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Cameron Winklevoss",
+    "tickers": [
+     "GEMI"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Peter Smith is here, and Tyler and Cameron Winklevoss",
+    "summary": "The President acknowledged Winklevoss's presence at the event."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GEMI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Mere acknowledgment of the Winklevoss twins' presence, no policy or company-specific news for Gemini.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a ceremonial roll call of crypto executives with no new policy or business details affecting Gemini, so no directional price impact is expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GEMI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"intraday\",\"rationale\":\"Mere acknowledgment of the Winklevoss twins' presence, no policy or company-specific news for Gemini.\",\"added\":false}],\"summary\":\"The remark is a ceremonial roll call of crypto executives with no new policy or business details affecting Gemini, so no directional price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01201:stablecoins",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "stablecoins",
+   "entity": "Stablecoins",
+   "kind": "sector",
+   "alias": "genius act",
+   "text_span": "Genius Act",
+   "dict_tickers": [
+    "CRCL",
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1201.3583333333333,
+   "t_wall": 1787166579.3583333,
+   "t_wall_et": "2026-08-19T15:09:39.358333-04:00",
+   "segment_text": "known as the Genius Act.",
+   "context": "We launched project crypto to modernize rules so that our financial markets can move into blockchain technology. I established United States Strategic Bitcoin Reserve, making Bitcoin a permanent asset of the United States Treasury, which has turned out incredibly well. I also created the United States digital asset stockpile to hold custody of all other digital assets, and that's exactly what it's done. It's been amazing. 1 year ago, this summer, I signed landmark legislation known as the Genius Act.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Genius Act",
+    "tickers": [
+     "CRCL",
+     "COIN"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "I signed landmark legislation known as the Genius Act.",
+    "summary": "The President signed landmark stablecoin legislation establishing regulatory framework."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CRCL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated pro-stablecoin/crypto regulatory stance is favorable for Circle as a stablecoin issuer but is not new news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto rhetoric and reaffirmation of favorable regulatory environment is mildly positive for Coinbase but restates known policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm existing pro-crypto policies (Genius Act, Bitcoin reserve, end of 'war on crypto') with no new specifics, mildly bullish but low-confidence for crypto-linked equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CRCL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated pro-stablecoin/crypto regulatory stance is favorable for Circle as a stablecoin issuer but is not new news.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto rhetoric and reaffirmation of favorable regulatory environment is mildly positive for Coinbase but restates known policy.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm existing pro-crypto policies (Genius Act, Bitcoin reserve, end of 'war on crypto') with no new specifics, mildly bullish but low-confidence for crypto-linked equities.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01289:prediction_markets",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "prediction_markets",
+   "entity": "Prediction markets",
+   "kind": "sector",
+   "alias": "prediction markets",
+   "text_span": "prediction markets",
+   "dict_tickers": [
+    "HOOD"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 1289.2992734693878,
+   "t_wall": 1787166667.2992735,
+   "t_wall_et": "2026-08-19T15:11:07.299273-04:00",
+   "segment_text": "like prediction markets, artificial intelligence,",
+   "context": "New financial technologies are extending this American dominance into the 21st century, and that's why we're focused on creating a clear regulatory framework for pioneers and builders like the people that are with me here so that they can do business with confidence on American soil. They don't have to go to other countries to do their business. We're ensuring that America remains the undisputed leader not only in Bitcoin and crypto, but also technologies like prediction markets, artificial intelligence,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Prediction markets",
+    "tickers": [
+     "HOOD"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "creating a clear regulatory framework for pioneers and builders",
+    "summary": "The President supports regulatory clarity for prediction markets sector."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HOOD",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto/prediction-market regulatory clarity rhetoric is mildly supportive for Robinhood's crypto and prediction market businesses.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's broad pro-crypto, pro-innovation remarks and regulatory clarity push are mildly positive for Robinhood given its crypto and prediction markets exposure, though this is largely repeat rhetoric with no new specific policy for HOOD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HOOD\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto/prediction-market regulatory clarity rhetoric is mildly supportive for Robinhood's crypto and prediction market businesses.\", \"added\": false}], \"summary\": \"The President's broad pro-crypto, pro-innovation remarks and regulatory clarity push are mildly positive for Robinhood given its crypto and prediction markets exposure, though this is largely repeat rhetoric with no new specific policy for HOOD.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01290:ai",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 1290.7359673469389,
+   "t_wall": 1787166668.7359674,
+   "t_wall_et": "2026-08-19T15:11:08.735967-04:00",
+   "segment_text": "like prediction markets, artificial intelligence,",
+   "context": "New financial technologies are extending this American dominance into the 21st century, and that's why we're focused on creating a clear regulatory framework for pioneers and builders like the people that are with me here so that they can do business with confidence on American soil. They don't have to go to other countries to do their business. We're ensuring that America remains the undisputed leader not only in Bitcoin and crypto, but also technologies like prediction markets, artificial intelligence,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "MSFT",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.88,
+    "quote": "ensuring America remains undisputed leader in artificial intelligence",
+    "summary": "The President commits to AI leadership through supportive regulatory framework."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI leadership rhetoric is mildly supportive but reiterates known policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI dominance framing is mildly positive for major AI infrastructure players like MSFT.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector-level AI leadership rhetoric offers mild tailwind to semiconductor ETF without new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "AI buildout support is generically positive for data-center infrastructure names but no specific policy news given.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general pro-AI and crypto leadership rhetoric with no new specific policy or numbers, offering mild, low-confidence tailwinds to AI-related equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI leadership rhetoric is mildly supportive but reiterates known policy stance.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI dominance framing is mildly positive for major AI infrastructure players like MSFT.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector-level AI leadership rhetoric offers mild tailwind to semiconductor ETF without new specifics.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"AI buildout support is generically positive for data-center infrastructure names but no specific policy news given.\", \"added\": false}], \"summary\": \"The President's remarks reiterate general pro-AI and crypto leadership rhetoric with no new specific policy or numbers, offering mild, low-confidence tailwinds to AI-related equities.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01346:fed",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1346.506772,
+   "t_wall": 1787166724.506772,
+   "t_wall_et": "2026-08-19T15:12:04.506772-04:00",
+   "segment_text": "We would really like to see interest rates come down. You know, in the old days with interest rates,",
+   "context": "and, they'll be here in 2 weeks, I understand. In May, chairman, Selig authorized the 1st ever true Bitcoin perpetual futures contract on a CFTC registered exchange 1st time. I understand that Mike is also working to bring hyper liquid into The United States in a fully compliant and legal fashion. He's working very hard on that. We would really like to see interest rates come down. You know, in the old days with interest rates,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "We would really like to see interest rates come down.",
+    "summary": "The President advocates for lower interest rates set by Federal Reserve."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's repeated push for lower rates is bullish for bonds if it raises expectations of Fed easing, though it's rhetoric he's said before.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower rate expectations are mixed for financials (helps loan demand, hurts net interest margin), so effect is ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks face similar offsetting effects from rate-cut rhetoric, making direction unclear.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates his familiar call for the Fed to cut interest rates, a repeat of prior rhetoric that is mildly bond-bullish but has ambiguous, non-novel implications for bank stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's repeated push for lower rates is bullish for bonds if it raises expectations of Fed easing, though it's rhetoric he's said before.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower rate expectations are mixed for financials (helps loan demand, hurts net interest margin), so effect is ambiguous.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks face similar offsetting effects from rate-cut rhetoric, making direction unclear.\", \"added\": false}], \"summary\": \"The President reiterates his familiar call for the Fed to cut interest rates, a repeat of prior rhetoric that is mildly bond-bullish but has ambiguous, non-novel implications for bank stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01423:stock_market",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "market",
+    "stock"
+   ],
+   "t_audio": 1423.1453461538463,
+   "t_wall": 1787166801.1453462,
+   "t_wall_et": "2026-08-19T15:13:21.145346-04:00",
+   "segment_text": "And I think that can't be better seen by the stock market. So we've had 80 in a short period of time, a year and 0.5,",
+   "context": "But interest rates should be allowed to fall with the success of our country, not rise because of the success. But we're also on the very beginning of a revolution and fictional and financial. You you take a look at some of the things that are being done on a financial basis and the financial technology that's the potential to create more jobs, opportunity, and wealth for all Americans, and that's what it's doing. It's creating jobs and great wealth. And I think that can't be better seen by the stock market. So we've had 80 in a short period of time, a year and 0.5,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market...creating jobs and great wealth",
+    "summary": "The President credits stock market gains with creating jobs and wealth for Americans."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric praising market highs and calling for Fed rate cuts is not new information for the broad market itself.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions of fintech revolution and crypto clarity legislation are repeat rhetoric without new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff, regulatory, or company-specific news affecting industrial/blue-chip index constituents.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic self-congratulatory rhetoric about market highs, 401(k) records, and calls for lower rates plus a push for crypto legislation (Clarity Act), none of which constitute new tradable information for SPY, QQQ, or DIA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric praising market highs and calling for Fed rate cuts is not new information for the broad market itself.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentions of fintech revolution and crypto clarity legislation are repeat rhetoric without new policy specifics.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff, regulatory, or company-specific news affecting industrial/blue-chip index constituents.\", \"added\": false}], \"summary\": \"The President's remarks are generic self-congratulatory rhetoric about market highs, 401(k) records, and calls for lower rates plus a push for crypto legislation (Clarity Act), none of which constitute new tradable information for SPY, QQQ, or DIA.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01536:banks",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "debanking",
+   "text_span": "debanking",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1536.8579850746269,
+   "t_wall": 1787166914.857985,
+   "t_wall_et": "2026-08-19T15:15:14.857985-04:00",
+   "segment_text": "Thanks to your leadership, the era of political lawfare, debanking,",
+   "context": "Jeff Sprecher, Robinhood CEO, Vlad Tenev, and Kraken CEO, Arjan. So we have that all set, and let's get going. And you know what? If you wanna speak for a very short period of time, that's okay too. Thank you. Okay. Thank you, mister president. It's an honor to be here with you in this exceptional group of business leaders. Thanks to your leadership, the era of political lawfare, debanking, and regulation by enforcement is over. Innovators like the people in this room are welcome to the White House, not railroaded to the Big House. And the new frontier of finance is being built right here in The United States Of America.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01572:btc",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "strategic bitcoin reserve",
+   "text_span": "strategic Bitcoin reserve",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1572.2108345794393,
+   "t_wall": 1787166950.2108345,
+   "t_wall_et": "2026-08-19T15:15:50.210835-04:00",
+   "segment_text": "Under the President's leadership, we've codified the Genius Act, established a strategic Bitcoin reserve,",
+   "context": "Innovators like the people in this room are welcome to the White House, not railroaded to the Big House. And the new frontier of finance is being built right here in The United States Of America. From day 1, this president has been clear. America will not fall behind and allow other countries to take its place as the greatest country on earth to build a new technology, operate a business, and invest for the future. The world will run on the backbone of American technology. Under the President's leadership, we've codified the Genius Act, established a strategic Bitcoin reserve,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "strategic Bitcoin reserve",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "established a strategic Bitcoin reserve",
+    "summary": "the administration has established a strategic Bitcoin reserve policy."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirming pro-crypto policy and strategic Bitcoin reserve is mildly bullish for Bitcoin exposure but already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto regulatory tone and praise for industry favors exchanges like Coinbase, though largely reiterates known policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive crypto policy rhetoric supports Bitcoin-linked equities like MicroStrategy modestly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm existing pro-crypto policy stance (strategic Bitcoin reserve, favorable regulation) without new specifics, giving mild positive sentiment support to crypto-related equities but limited new tradeable information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBIT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirming pro-crypto policy and strategic Bitcoin reserve is mildly bullish for Bitcoin exposure but already known.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto regulatory tone and praise for industry favors exchanges like Coinbase, though largely reiterates known policy.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive crypto policy rhetoric supports Bitcoin-linked equities like MicroStrategy modestly.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm existing pro-crypto policy stance (strategic Bitcoin reserve, favorable regulation) without new specifics, giving mild positive sentiment support to crypto-related equities but limited new tradeable information.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01589:blockchain",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "blockchain",
+   "entity": "Blockchain / crypto industry",
+   "kind": "sector",
+   "alias": "crypto capital of the world",
+   "text_span": "crypto capital of the world",
+   "dict_tickers": [
+    "COIN",
+    "IBIT",
+    "MSTR",
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1589.8163559322034,
+   "t_wall": 1787166967.816356,
+   "t_wall_et": "2026-08-19T15:16:07.816356-04:00",
+   "segment_text": "and made The United States the crypto capital of the world.",
+   "context": "operate a business, and invest for the future. The world will run on the backbone of American technology. Under the President's leadership, we've codified the Genius Act, established a strategic Bitcoin reserve, drawn a clear line in the sand between crypto securities and commodities, launched the 1st U. S. Crypto perpetual and protected the rights of software developers. We've exiled Gary Gensler, defeated the anti crypto army, and made The United States the crypto capital of the world. I'm proud to be working with Secretary Lutnick and the Department of Commerce as well to make America the compute capital of the world. This may be the most important commodity of our day. Some call it digital oil,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01778:blockchain",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "blockchain",
+   "entity": "Blockchain / crypto industry",
+   "kind": "sector",
+   "alias": "crypto capital of the world",
+   "text_span": "crypto capital of the world",
+   "dict_tickers": [
+    "COIN",
+    "IBIT",
+    "MSTR",
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1778.9274434782608,
+   "t_wall": 1787167156.9274435,
+   "t_wall_et": "2026-08-19T15:19:16.927444-04:00",
+   "segment_text": "You've committed to making The United States the crypto capital of the world. And yesterday, the SEC, I'm proud to say, took another significant step to deliver on that. Our proposal, the crypto assets rule,",
+   "context": "compared to the final year and 0.5 of the Biden administration. And those companies have raised an impressive $208,000,000,000, and that's nearly 4 times the amount raised during the final year and 0.5 of the previous administration. So that's just not incremental progress. That is a turnaround. You've committed to making The United States the crypto capital of the world. And yesterday, the SEC, I'm proud to say, took another significant step to deliver on that. Our proposal, the crypto assets rule,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01860:blockchain",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "blockchain",
+   "entity": "Blockchain / crypto industry",
+   "kind": "sector",
+   "alias": "crypto capital of the world",
+   "text_span": "crypto capital of the world",
+   "dict_tickers": [
+    "COIN",
+    "IBIT",
+    "MSTR",
+    "HOOD"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 1860.2173867595818,
+   "t_wall": 1787167238.2173867,
+   "t_wall_et": "2026-08-19T15:20:38.217387-04:00",
+   "segment_text": "And he made a commitment at that time to make America the crypto capital of the world, and within weeks of taking office, delivered on that promise. And it started 1st with this executive order, which came out ordering the agencies and his administration to take steps in this direction.",
+   "context": "this morning, was thinking back to the 2024 campaign where the president, I think, very astutely recognized there was millions of voters in The United States who felt disenfranchised by the prior administration. And he made a commitment at that time to make America the crypto capital of the world, and within weeks of taking office, delivered on that promise. And it started 1st with this executive order, which came out ordering the agencies and his administration to take steps in this direction.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Blockchain / crypto industry",
+    "tickers": [
+     "COIN",
+     "IBIT",
+     "MSTR",
+     "HOOD"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "make America the crypto capital of the world",
+    "summary": "The President committed to and delivered executive order positioning US as crypto capital."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmation of pro-crypto regulatory progress and upcoming Clarity Act vote is broadly supportive of crypto exchanges.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "IBIT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on crypto-friendly policy supports bitcoin sentiment and ETF flows.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a bitcoin proxy, benefits from bullish regulatory tone though content is largely repeat rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HOOD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Crypto trading volumes could rise on positive regulatory sentiment, benefiting retail brokerage platforms.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm his administration's pro-crypto stance and highlight upcoming Clarity Act progress, a mildly positive but mostly repeat signal for crypto-linked equities like COIN, IBIT, MSTR, and HOOD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmation of pro-crypto regulatory progress and upcoming Clarity Act vote is broadly supportive of crypto exchanges.\", \"added\": false}, {\"ticker\": \"IBIT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive rhetoric on crypto-friendly policy supports bitcoin sentiment and ETF flows.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a bitcoin proxy, benefits from bullish regulatory tone though content is largely repeat rhetoric.\", \"added\": false}, {\"ticker\": \"HOOD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Crypto trading volumes could rise on positive regulatory sentiment, benefiting retail brokerage platforms.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm his administration's pro-crypto stance and highlight upcoming Clarity Act progress, a mildly positive but mostly repeat signal for crypto-linked equities like COIN, IBIT, MSTR, and HOOD.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01875:defense_word",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fired"
+   ],
+   "t_audio": 1875.015,
+   "t_wall": 1787167253.015,
+   "t_wall_et": "2026-08-19T15:20:53.015000-04:00",
+   "segment_text": "2 of the most, competent and pro innovation regulators anywhere in the world, chair Selig and chair Atkins, and, of course, fired Gary Gensler. There was that big applause line at the Bitcoin conference, which was was powerful.",
+   "context": "this morning, was thinking back to the 2024 campaign where the president, I think, very astutely recognized there was millions of voters in The United States who felt disenfranchised by the prior administration. And he made a commitment at that time to make America the crypto capital of the world, and within weeks of taking office, delivered on that promise. And it started 1st with this executive order, which came out ordering the agencies and his administration to take steps in this direction. He there, shortly thereafter, appointed 2 of the most, competent and pro innovation regulators anywhere in the world, chair Selig and chair Atkins, and, of course, fired Gary Gensler. There was that big applause line at the Bitcoin conference, which was was powerful.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01888:stablecoins",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "stablecoins",
+   "entity": "Stablecoins",
+   "kind": "sector",
+   "alias": "genius act",
+   "text_span": "Genius Act",
+   "dict_tickers": [
+    "CRCL",
+    "COIN"
+   ],
+   "triggers_nearby": [
+    "fired"
+   ],
+   "t_audio": 1888.7058823529412,
+   "t_wall": 1787167266.7058823,
+   "t_wall_et": "2026-08-19T15:21:06.705882-04:00",
+   "segment_text": "of course, the Genius Act was another milestone just in the past year along with the strategic Bitcoin reserve, etcetera. And just this week, I have to commend chair Atkins for publishing",
+   "context": "And he made a commitment at that time to make America the crypto capital of the world, and within weeks of taking office, delivered on that promise. And it started 1st with this executive order, which came out ordering the agencies and his administration to take steps in this direction. He there, shortly thereafter, appointed 2 of the most, competent and pro innovation regulators anywhere in the world, chair Selig and chair Atkins, and, of course, fired Gary Gensler. There was that big applause line at the Bitcoin conference, which was was powerful. And, of course, the Genius Act was another milestone just in the past year along with the strategic Bitcoin reserve, etcetera. And just this week, I have to commend chair Atkins for publishing",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stablecoins (Genius Act)",
+    "tickers": [
+     "CRCL",
+     "COIN"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "Genius Act was another milestone just in the past year",
+    "summary": "Speaker commends stablecoin regulation milestone; the administration pro-crypto policy."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CRCL",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmation of pro-stablecoin regulatory momentum (Genius Act) benefits Circle's core stablecoin business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto regulatory tailwind and upcoming Clarity Act vote support crypto exchange sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President event highlights administration's continued pro-crypto regulatory push (Genius Act, Clarity Act vote), a mildly positive but largely already-known catalyst for crypto-linked equities like CRCL and COIN.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CRCL\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmation of pro-stablecoin regulatory momentum (Genius Act) benefits Circle's core stablecoin business.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto regulatory tailwind and upcoming Clarity Act vote support crypto exchange sentiment.\", \"added\": false}], \"summary\": \"The President event highlights administration's continued pro-crypto regulatory push (Genius Act, Clarity Act vote), a mildly positive but largely already-known catalyst for crypto-linked equities like CRCL and COIN.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:01934:banks",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "big banks",
+   "text_span": "big banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1934.597213220339,
+   "t_wall": 1787167312.5972133,
+   "t_wall_et": "2026-08-19T15:21:52.597213-04:00",
+   "segment_text": "some of the big banks don't want the competition from crypto companies. Other banks are leaning in and have endorsed it, which I think is is really powerful. So And if we all come together, I think we can get this bill over the finish line and hopefully get more than 60 votes come September 15.",
+   "context": "So an incredible amount of progress has been made and I think what's most important next of course is this September 15 vote that we have with the Clarity Act. This would make all of the progress that this administration has made durable into the future so it could survive for decades and decades to come. And, you know, make no mistake, there are folks out there who would they wanna see this legislation not happen. Right? Maybe some of the big banks don't want the competition from crypto companies. Other banks are leaning in and have endorsed it, which I think is is really powerful. So And if we all come together, I think we can get this bill over the finish line and hopefully get more than 60 votes come September 15.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Big Banks",
+    "tickers": [
+     "XLF",
+     "KRE",
+     "JPM",
+     "BAC"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Maybe some of the big banks don't want the competition from crypto companies.",
+    "summary": "The President suggests some large banks oppose crypto competition legislation."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about bank opposition to crypto legislation, not a new policy action against financials.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks unlikely to be materially affected by this rhetorical jab at 'big banks'.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JPM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Named indirectly as a 'big bank' resisting crypto competition, mild negative sentiment but no concrete policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BAC",
+      "direction": "down",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Similarly implicated as a large bank opposing crypto-friendly legislation, slight negative optics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is mostly celebratory about crypto regulatory progress; the criticism of 'big banks' opposing competition is mild rhetoric with limited direct price impact on financial tickers.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about bank opposition to crypto legislation, not a new policy action against financials.\", \"added\": false},\n{\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks unlikely to be materially affected by this rhetorical jab at 'big banks'.\", \"added\": false},\n{\"ticker\": \"JPM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Named indirectly as a 'big bank' resisting crypto competition, mild negative sentiment but no concrete policy action.\", \"added\": false},\n{\"ticker\": \"BAC\", \"direction\": \"down\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Similarly implicated as a large bank opposing crypto-friendly legislation, slight negative optics.\", \"added\": false}\n],\n\"summary\": \"The President's remark is mostly celebratory about crypto regulatory progress; the criticism of 'big banks' opposing competition is mild rhetoric with limited direct price impact on financial tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02020:ice",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ice",
+   "entity": "Intercontinental Exchange (NYSE)",
+   "kind": "company",
+   "alias": "new york stock exchange",
+   "text_span": "New York Stock Exchange",
+   "dict_tickers": [
+    "ICE"
+   ],
+   "triggers_nearby": [
+    "regulation",
+    "stock"
+   ],
+   "t_audio": 2020.1538559322034,
+   "t_wall": 1787167398.153856,
+   "t_wall_et": "2026-08-19T15:23:18.153856-04:00",
+   "segment_text": "But 1 of the things I can tell you about the New York Stock Exchange is that it was formed at the time of our country.",
+   "context": "led to the records that you're hearing about in our stock markets, the record number of IPOs. And as you know from from working with my wife who works on private businesses, there's a record number of business formations in this country right now. So we're here to talk about how to evolve regulation so that we don't impede that progress. But 1 of the things I can tell you about the New York Stock Exchange is that it was formed at the time of our country. And so, it, for 250",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "New York Stock Exchange",
+    "tickers": [
+     "ICE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "New York Stock Exchange was formed at the time of our country",
+    "summary": "Historical reference to NYSE founding; context unclear due to transcript cut-off."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ICE",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for NYSE and deregulation push is mildly positive rhetoric but contains no new policy or numbers affecting ICE.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general praise of NYSE/regulatory reform with no concrete new policy, so limited price impact expected for ICE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ICE\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for NYSE and deregulation push is mildly positive rhetoric but contains no new policy or numbers affecting ICE.\", \"added\": false}], \"summary\": \"The excerpt is general praise of NYSE/regulatory reform with no concrete new policy, so limited price impact expected for ICE.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02039:defense_word",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "regulation"
+   ],
+   "t_audio": 2039.455990140845,
+   "t_wall": 1787167417.45599,
+   "t_wall_et": "2026-08-19T15:23:37.455990-04:00",
+   "segment_text": "years, has been subject to every single financial services regulation that has ever passed in The United States, bar none. And so 1 of the things that I'm so thankful that you've done is put 2 really strong chairs",
+   "context": "businesses, there's a record number of business formations in this country right now. So we're here to talk about how to evolve regulation so that we don't impede that progress. But 1 of the things I can tell you about the New York Stock Exchange is that it was formed at the time of our country. And so, it, for 250 years, has been subject to every single financial services regulation that has ever passed in The United States, bar none. And so 1 of the things that I'm so thankful that you've done is put 2 really strong chairs in these seats and ask them to go through past legislation,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02091:hood",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "hood",
+   "entity": "Robinhood",
+   "kind": "company",
+   "alias": "robinhood",
+   "text_span": "Robinhood",
+   "dict_tickers": [
+    "HOOD"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 2091.2060743589745,
+   "t_wall": 1787167469.2060745,
+   "t_wall_et": "2026-08-19T15:24:29.206074-04:00",
+   "segment_text": "If I had to sum up Robinhood in 1 word,",
+   "context": "thank you for bringing us together and for your work to ensure the next generation of Americans has a stake in the country's economic success through the the new savings accounts and many other things. Thank you also to chair Selig, chair Atkins, your administration for the work underway to strengthen American capital markets and expand opportunity for all Americans. If I had to sum up Robinhood in 1 word, it would be ownership. Broad ownership",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02214:kraken",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2214.5132978723404,
+   "t_wall": 1787167592.5132978,
+   "t_wall_et": "2026-08-19T15:26:32.513298-04:00",
+   "segment_text": "Look, our mission at Kraken isn't about Kraken.",
+   "context": "Hello, everyone. I was thinking about what I was gonna say today. Most of the time, I don't speak too much, but the 1st time I met the president, he said, what does your company do? And I said, we we're a startup. We move at warp speed. And the 1st thing he said is, why not at the President speed? So we started acting that way. Look, our mission at Kraken isn't about Kraken. Brian created arms Brian created Coinbase.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02219:coin",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "coin",
+   "entity": "Coinbase",
+   "kind": "company",
+   "alias": "coinbase",
+   "text_span": "Coinbase",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2219.4485714285715,
+   "t_wall": 1787167597.4485714,
+   "t_wall_et": "2026-08-19T15:26:37.448571-04:00",
+   "segment_text": "Brian created arms Brian created Coinbase.",
+   "context": "everyone. I was thinking about what I was gonna say today. Most of the time, I don't speak too much, but the 1st time I met the president, he said, what does your company do? And I said, we we're a startup. We move at warp speed. And the 1st thing he said is, why not at the President speed? So we started acting that way. Look, our mission at Kraken isn't about Kraken. Brian created arms Brian created Coinbase. Vlad here, you you have Ice, Nasdaq.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02222:ndaq",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ndaq",
+   "entity": "Nasdaq",
+   "kind": "company",
+   "alias": "nasdaq",
+   "text_span": "Nasdaq",
+   "dict_tickers": [
+    "NDAQ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2222.4645638888887,
+   "t_wall": 1787167600.4645638,
+   "t_wall_et": "2026-08-19T15:26:40.464564-04:00",
+   "segment_text": "Vlad here, you you have Ice, Nasdaq.",
+   "context": "was thinking about what I was gonna say today. Most of the time, I don't speak too much, but the 1st time I met the president, he said, what does your company do? And I said, we we're a startup. We move at warp speed. And the 1st thing he said is, why not at the President speed? So we started acting that way. Look, our mission at Kraken isn't about Kraken. Brian created arms Brian created Coinbase. Vlad here, you you have Ice, Nasdaq. They created the world markets, and all we're trying to do is make sure that everyone in America has the ability to be able to succeed in the same way that we did.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02266:btc",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2266.7346551724136,
+   "t_wall": 1787167644.7346551,
+   "t_wall_et": "2026-08-19T15:27:24.734655-04:00",
+   "segment_text": "America should lead in crypto",
+   "context": "And that's essentially how we think about it. So our motto at Kraken has been fix money, we fix the world. Thank you, mister president. Thank you very much, Greg. And if you have any questions or if anybody else, of this very distinguished, would somebody like to say something? My male models who happen to be genius. They're brilliant and they look good. Right? But, anybody, would you like to say something? Go ahead, please. Just wanna thank you, mister president, for all of your leadership. America should lead in crypto and win in markets like prediction markets.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02268:prediction_markets",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "prediction_markets",
+   "entity": "Prediction markets",
+   "kind": "sector",
+   "alias": "prediction markets",
+   "text_span": "prediction markets",
+   "dict_tickers": [
+    "HOOD"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 2268.798488372093,
+   "t_wall": 1787167646.7984884,
+   "t_wall_et": "2026-08-19T15:27:26.798488-04:00",
+   "segment_text": "and win in markets like prediction markets.",
+   "context": "And if you have any questions or if anybody else, of this very distinguished, would somebody like to say something? My male models who happen to be genius. They're brilliant and they look good. Right? But, anybody, would you like to say something? Go ahead, please. Just wanna thank you, mister president, for all of your leadership. America should lead in crypto and win in markets like prediction markets. And with your leadership and your administration,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02383:ai_word",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "regulation"
+   ],
+   "t_audio": 2383.671169811321,
+   "t_wall": 1787167761.6711698,
+   "t_wall_et": "2026-08-19T15:29:21.671170-04:00",
+   "segment_text": "so if you have any questions, we have a meeting next week with the AI people. The top people are coming in, so we can talk about that. But we're leading by a lot with AI. We wanna keep it that way. We wanna regulate, but we want to have it regulation where they can",
+   "context": "outcome that's really now benefiting The US and adoption adoption of US issued assets and the US dollar. So I just wanna mention that it really is working and hitting all time highs. So thank you very much. Thank you. So so if you have any questions, we have a meeting next week with the AI people. The top people are coming in, so we can talk about that. But we're leading by a lot with AI. We wanna keep it that way. We wanna regulate, but we want to have it regulation where they can",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "We're leading by a lot with AI. We wanna keep it that way. We wanna regulate.",
+    "summary": "The President says US leads in AI and plans regulation to maintain advantage."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI rhetoric and light-touch regulation stance is mildly supportive of AI leader sentiment but adds no new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad supportive AI/electricity-infrastructure commentary is mildly positive for semiconductor sector sentiment without new concrete policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate a pro-AI, light-touch regulatory stance and highlight data-center power initiatives, which is mildly positive but largely repeat rhetoric with limited new tradable information for NVDA/SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI rhetoric and light-touch regulation stance is mildly supportive of AI leader sentiment but adds no new policy specifics.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad supportive AI/electricity-infrastructure commentary is mildly positive for semiconductor sector sentiment without new concrete policy.\", \"added\": false}], \"summary\": \"The President's remarks reiterate a pro-AI, light-touch regulatory stance and highlight data-center power initiatives, which is mildly positive but largely repeat rhetoric with limited new tradable information for NVDA/SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02407:defense_word",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 2407.1510975609754,
+   "t_wall": 1787167785.1510975,
+   "t_wall_et": "2026-08-19T15:29:45.151098-04:00",
+   "segment_text": "crazy that it would never be approved. We're getting them fast 2 3 week approvals.",
+   "context": "so if you have any questions, we have a meeting next week with the AI people. The top people are coming in, so we can talk about that. But we're leading by a lot with AI. We wanna keep it that way. We wanna regulate, but we want to have it regulation where they can continue to lead, not regulation that's going to stifle a very important industry. I think maybe bigger than the Internet, bigger than anything anyone seen, and we're helping in that regard, with regard to allowing them to produce their own electricity, which everyone thought was crazy that it would never be approved. We're getting them fast 2 3 week approvals. They're building some of the greatest electric plants anywhere in the world because our our grid is old and tired and weak and they're actually giving the excess electricity into the grid, but they're building power plants that nobody's ever seen anything like it. We're not using the the power from the grid. We're using a brand new power. So it's a great thing because that misconception",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02469:btc",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "bitcoin",
+   "text_span": "Bitcoin",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2469.3447081510935,
+   "t_wall": 1787167847.3447082,
+   "t_wall_et": "2026-08-19T15:30:47.344708-04:00",
+   "segment_text": "The people that are in the power business, and we're seeing things that we've never seen before because a very high level of intelligence is doing it. So it's been great. Okay. Any questions? Mister president. Yeah. Please. Mister president. Mister president, does the administration have any plans to accumulate sizable amounts of Bitcoin or other crypto Well, it's been talked about. I think I'd probably rely on Paul and the whole group for that. He'll make a decision. You guys will make a decision,",
+   "context": "the likes of which all different fueled all different ways, but the likes of which we've never seen. The people that are in the power business, and we're seeing things that we've never seen before because a very high level of intelligence is doing it. So it's been great. Okay. Any questions? Mister president. Yeah. Please. Mister president. Mister president, does the administration have any plans to accumulate sizable amounts of Bitcoin or other crypto Well, it's been talked about. I think I'd probably rely on Paul and the whole group for that. He'll make a decision. You guys will make a decision,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02556:hmc",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "hmc",
+   "entity": "Honda",
+   "kind": "company",
+   "alias": "honda",
+   "text_span": "Honda",
+   "dict_tickers": [
+    "HMC"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 2556.46,
+   "t_wall": 1787167934.46,
+   "t_wall_et": "2026-08-19T15:32:14.460000-04:00",
+   "segment_text": "Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "context": "They came out with something today that I looked at it having to do I won't go into the details, but having to do it with a pretty unstoppable disease. And all of a sudden, they're coming up with answers that they never thought were possible and things that they never even would have thought about. So I think it's really creating jobs. And I can tell you 1 thing, if you look at our construction jobs right now, because we're building more plants, factories, things that really have something to do with the AI, but also car factories, car plants. They're moving into our country. Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Honda",
+    "tickers": [
+     "HMC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Honda just announced they're moving their operations",
+    "summary": "Honda announced moving operations into the US from Mexico and Canada."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HMC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President highlighted Honda shifting production to the US, a mildly positive signal though largely rhetorical and previously reported.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on Honda relocating operations to the US are mildly positive for HMC but reflect general rhetoric rather than new binding commitments.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HMC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President highlighted Honda shifting production to the US, a mildly positive signal though largely rhetorical and previously reported.\", \"added\": false}], \"summary\": \"The President's remarks on Honda relocating operations to the US are mildly positive for HMC but reflect general rhetoric rather than new binding commitments.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02557:tm",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "factories",
+    "plants"
+   ],
+   "t_audio": 2557.582448979592,
+   "t_wall": 1787167935.582449,
+   "t_wall_et": "2026-08-19T15:32:15.582449-04:00",
+   "segment_text": "Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "context": "They came out with something today that I looked at it having to do I won't go into the details, but having to do it with a pretty unstoppable disease. And all of a sudden, they're coming up with answers that they never thought were possible and things that they never even would have thought about. So I think it's really creating jobs. And I can tell you 1 thing, if you look at our construction jobs right now, because we're building more plants, factories, things that really have something to do with the AI, but also car factories, car plants. They're moving into our country. Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Toyota just announced they're moving their operations",
+    "summary": "Toyota announced moving operations into the US from Mexico and Canada."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President claims Toyota is moving operations to the US, framed positively though details/confirmation are vague.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's positive but vague claim about Toyota relocating operations to the US is mildly favorable but lacks concrete new detail, limiting confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President claims Toyota is moving operations to the US, framed positively though details/confirmation are vague.\", \"added\": false}], \"summary\": \"The President's positive but vague claim about Toyota relocating operations to the US is mildly favorable but lacks concrete new detail, limiting confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02560:mexico",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "factories",
+    "plants"
+   ],
+   "t_audio": 2560.5926530612246,
+   "t_wall": 1787167938.592653,
+   "t_wall_et": "2026-08-19T15:32:18.592653-04:00",
+   "segment_text": "Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "context": "They came out with something today that I looked at it having to do I won't go into the details, but having to do it with a pretty unstoppable disease. And all of a sudden, they're coming up with answers that they never thought were possible and things that they never even would have thought about. So I think it's really creating jobs. And I can tell you 1 thing, if you look at our construction jobs right now, because we're building more plants, factories, things that really have something to do with the AI, but also car factories, car plants. They're moving into our country. Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "moving their operations from Mexico, from Canada",
+    "summary": "Car manufacturers relocating operations away from Mexico to the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlights auto manufacturers moving operations from Mexico to the US, a negative signal for Mexican industrial investment and the EWW ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about Honda/Toyota shifting production away from Mexico to the US are mildly negative for Mexico-focused equities (EWW), though this restates known tariff/onshoring rhetoric rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President highlights auto manufacturers moving operations from Mexico to the US, a negative signal for Mexican industrial investment and the EWW ETF.\", \"added\": false}], \"summary\": \"The President's remarks about Honda/Toyota shifting production away from Mexico to the US are mildly negative for Mexico-focused equities (EWW), though this restates known tariff/onshoring rhetoric rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02561:canada",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "plants"
+   ],
+   "t_audio": 2561.255918367347,
+   "t_wall": 1787167939.2559183,
+   "t_wall_et": "2026-08-19T15:32:19.255918-04:00",
+   "segment_text": "Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "context": "They came out with something today that I looked at it having to do I won't go into the details, but having to do it with a pretty unstoppable disease. And all of a sudden, they're coming up with answers that they never thought were possible and things that they never even would have thought about. So I think it's really creating jobs. And I can tell you 1 thing, if you look at our construction jobs right now, because we're building more plants, factories, things that really have something to do with the AI, but also car factories, car plants. They're moving into our country. Honda just announced, Toyota just announced they're moving their operations from Mexico, from Canada, from other places. We, by the way, probably have a deal with Canada. You probably saw that. We",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.88,
+    "quote": "probably have a deal with Canada",
+    "summary": "The President indicates a deal likely reached with Canada on operations."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Suggestion of a tariff deal with Canada and delayed tariffs is mildly positive for Canadian equities exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President hints at a likely tariff deal with Canada and a delay in tariffs, a mildly positive signal for Canada-exposed assets like EWC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Suggestion of a tariff deal with Canada and delayed tariffs is mildly positive for Canadian equities exposure.\", \"added\": false}], \"summary\": \"The President hints at a likely tariff deal with Canada and a delay in tariffs, a mildly positive signal for Canada-exposed assets like EWC.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02699:iran",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 2699.905714285714,
+   "t_wall": 1787168077.9057143,
+   "t_wall_et": "2026-08-19T15:34:37.905714-04:00",
+   "segment_text": "I wanna ask you about Canada, but 1st, the treasury secretary says that we could see the most impactful sanctions on Iran this week. When will they come, and what else could be sanctioned on Iran? Well, we have",
+   "context": "I like to say that term limits should be elections, but I'm okay with term limits. Remember, the people that have to term limits are the people that are gonna be voting on them to get out of office. So it's a little bit tough. That's not the easiest vote to get, is it? But I'm okay with it 1 way or the other. I do think elections really turn people out. Mister president I wanna ask you about Canada, but 1st, the treasury secretary says that we could see the most impactful sanctions on Iran this week. When will they come, and what else could be sanctioned on Iran? Well, we have",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02753:oil",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil prices",
+   "text_span": "oil prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2753.207298507463,
+   "t_wall": 1787168131.2072985,
+   "t_wall_et": "2026-08-19T15:35:31.207299-04:00",
+   "segment_text": "be extremely good and oil prices are gonna drop like a rock or will",
+   "context": "0 I mean, literally, while it's up, and it's been for quite a while, you know, except for a couple of little pauses where we opened it purposely at, with a deal, but the deal didn't terminate you know, the deal didn't turn out to be what they said, you know, when they tell us 1 thing and they do another. But the blockade has been 100% successful. No boats have gotten into Iran, but they are getting in for other places. But we'll see. We're gonna see what happens. It'll either be extremely good and oil prices are gonna drop like a rock or will",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "oil prices are gonna drop like a rock or",
+    "summary": "The President predicts oil prices may drop sharply depending on blockade outcome."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's comments on oil prices are conditional and speculative, offering no new tradable information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Statement is a hedge ('either... or') about future oil prices, not a concrete policy change.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new sanctions or supply actions announced that would move major oil producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks reiterate existing blockade status and uncertain sanction timing, not price-moving for CVX specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about Iran sanctions and potential oil price swings are speculative and non-committal, providing no clear new catalyst for energy equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's comments on oil prices are conditional and speculative, offering no new tradable information.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Statement is a hedge ('either... or') about future oil prices, not a concrete policy change.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific new sanctions or supply actions announced that would move major oil producers.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks reiterate existing blockade status and uncertain sanction timing, not price-moving for CVX specifically.\", \"added\": false}], \"summary\": \"The President's remarks about Iran sanctions and potential oil price swings are speculative and non-committal, providing no clear new catalyst for energy equities.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02790:steel",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "tariffs"
+   ],
+   "t_audio": 2790.5655238267145,
+   "t_wall": 1787168168.5655239,
+   "t_wall_et": "2026-08-19T15:36:08.565524-04:00",
+   "segment_text": "So, I think the Hormoz Strait's not gonna be quite as important as it was in the past. Yeah. On Canada, I guess you you said that there's a deal, an agreement in place. Are you willing to lower tariffs on steel and aluminum? Well, we're looking at that. In order to get farmers",
+   "context": "and it's today $84.85. And, we are getting a lot of oil out. But the other thing that's happened is people have found other alternatives, which they never thought about. Texas, Alaska, Louisiana, and other places. In addition, a lot of pipelines, record numbers of pipelines are being built. So, I think the Hormoz Strait's not gonna be quite as important as it was in the past. Yeah. On Canada, I guess you you said that there's a deal, an agreement in place. Are you willing to lower tariffs on steel and aluminum? Well, we're looking at that. In order to get farmers",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "we're looking at that. In order to get",
+    "summary": "The President considering lowering tariffs on steel in Canada deal negotiations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Potential lowering of steel tariffs on Canada would reduce protection for US steelmakers like US Steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Talk of easing steel tariffs threatens domestic pricing power for Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Lower tariffs on Canadian steel would increase import competition hurting Cleveland-Cliffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Reduced tariff protection could pressure Steel Dynamics' domestic pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steel sector ETF likely to move down with reduced tariff protection for US steelmakers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about considering lowering steel/aluminum tariffs on Canada suggest reduced protection for domestic steel producers, a mild negative for US steel equities.",
+    "raw": "{\"tickers\": [\n  {\"ticker\": \"X\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Potential lowering of steel tariffs on Canada would reduce protection for US steelmakers like US Steel.\", \"added\": false},\n  {\"ticker\": \"NUE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Talk of easing steel tariffs threatens domestic pricing power for Nucor.\", \"added\": false},\n  {\"ticker\": \"CLF\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Lower tariffs on Canadian steel would increase import competition hurting Cleveland-Cliffs.\", \"added\": false},\n  {\"ticker\": \"STLD\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Reduced tariff protection could pressure Steel Dynamics' domestic pricing.\", \"added\": false},\n  {\"ticker\": \"SLX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF likely to move down with reduced tariff protection for US steelmakers.\", \"added\": false}\n],\n\"summary\": \"The President's remarks about considering lowering steel/aluminum tariffs on Canada suggest reduced protection for domestic steel producers, a mild negative for US steel equities.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02791:aluminum",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "tariffs"
+   ],
+   "t_audio": 2791.0404371841155,
+   "t_wall": 1787168169.0404372,
+   "t_wall_et": "2026-08-19T15:36:09.040437-04:00",
+   "segment_text": "So, I think the Hormoz Strait's not gonna be quite as important as it was in the past. Yeah. On Canada, I guess you you said that there's a deal, an agreement in place. Are you willing to lower tariffs on steel and aluminum? Well, we're looking at that. In order to get farmers",
+   "context": "and it's today $84.85. And, we are getting a lot of oil out. But the other thing that's happened is people have found other alternatives, which they never thought about. Texas, Alaska, Louisiana, and other places. In addition, a lot of pipelines, record numbers of pipelines are being built. So, I think the Hormoz Strait's not gonna be quite as important as it was in the past. Yeah. On Canada, I guess you you said that there's a deal, an agreement in place. Are you willing to lower tariffs on steel and aluminum? Well, we're looking at that. In order to get farmers",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "we're looking at that. In order to get",
+    "summary": "The President considering lowering tariffs on aluminum in Canada deal negotiations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Possible reduction in aluminum tariffs on Canada would reduce protection for domestic aluminum producers like Alcoa.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CENX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Century Aluminum benefits from tariff protection, so a tariff rollback for Canada is a mild negative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President signaled openness to lowering steel/aluminum tariffs on Canada to help farmers, a mild negative for protected US aluminum producers like AA and CENX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AA\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Possible reduction in aluminum tariffs on Canada would reduce protection for domestic aluminum producers like Alcoa.\", \"added\": false}, {\"ticker\": \"CENX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Century Aluminum benefits from tariff protection, so a tariff rollback for Canada is a mild negative.\", \"added\": false}], \"summary\": \"The President signaled openness to lowering steel/aluminum tariffs on Canada to help farmers, a mild negative for protected US aluminum producers like AA and CENX.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02793:farmers",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "tariffs"
+   ],
+   "t_audio": 2793.652460649819,
+   "t_wall": 1787168171.6524606,
+   "t_wall_et": "2026-08-19T15:36:11.652461-04:00",
+   "segment_text": "So, I think the Hormoz Strait's not gonna be quite as important as it was in the past. Yeah. On Canada, I guess you you said that there's a deal, an agreement in place. Are you willing to lower tariffs on steel and aluminum? Well, we're looking at that. In order to get farmers",
+   "context": "And, we are getting a lot of oil out. But the other thing that's happened is people have found other alternatives, which they never thought about. Texas, Alaska, Louisiana, and other places. In addition, a lot of pipelines, record numbers of pipelines are being built. So, I think the Hormoz Strait's not gonna be quite as important as it was in the past. Yeah. On Canada, I guess you you said that there's a deal, an agreement in place. Are you willing to lower tariffs on steel and aluminum? Well, we're looking at that. In order to get farmers Yeah. The tariffs lower Well, we're getting 0 for our farmers. You know, farmers have been hurt very badly by Canada,",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "farmers have been hurt very badly by Canada",
+    "summary": "The President says farmers hurt by Canada; tariff negotiations underway for relief."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potential tariff relief and Canada deal could ease costs for US farmers, mildly boosting agri-commodity sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Fertilizer maker not directly tied to Canada farmer tariff relief mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Improved farmer economics from tariff relief could support equipment demand sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Farmer relief and improved Canada trade relations seen as modestly supportive for grain markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Similar tariff relief narrative supports soybean sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Ag processor benefits from improved farmer trade conditions and reduced tariff friction with Canada.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on Canada tariff negotiations and farmer relief are mildly positive for agriculture-linked tickers, while lacking new specifics beyond the already-known 3-day pause, so effects are modest and speculative.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Potential tariff relief and Canada deal could ease costs for US farmers, mildly boosting agri-commodity sentiment.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Fertilizer maker not directly tied to Canada farmer tariff relief mentioned.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Improved farmer economics from tariff relief could support equipment demand sentiment.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Farmer relief and improved Canada trade relations seen as modestly supportive for grain markets.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Similar tariff relief narrative supports soybean sentiment.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Ag processor benefits from improved farmer trade conditions and reduced tariff friction with Canada.\", \"added\": false}], \"summary\": \"The President's remarks on Canada tariff negotiations and farmer relief are mildly positive for agriculture-linked tickers, while lacking new specifics beyond the already-known 3-day pause, so effects are modest and speculative.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02836:korea",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "korea",
+   "text_span": "Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2836.560809090909,
+   "t_wall": 1787168214.5608091,
+   "t_wall_et": "2026-08-19T15:36:54.560809-04:00",
+   "segment_text": "But it it's gonna be a a wonderful deal. Hopefully, a wonderful deal for everybody. Yeah. Mister president, earlier today, you said North Korea has something like 57",
+   "context": "And, we may bring some of the tariffs down to a level where other countries are because Canada was paying a higher tariff. Canada was paying us a higher tariff. So we are look, we have a a very nice relationship with leadership right now, and we'll see. But we did a 3 day pause. It was supposed to be a 50% straight across the board tariff that was going into effect at 07:00 this morning, and I delayed it at the request of Canada for 3 days so we can iron out the details. But it it's gonna be a a wonderful deal. Hopefully, a wonderful deal for everybody. Yeah. Mister president, earlier today, you said North Korea has something like 57 nuclear weapons and expanding their nuclear program. Is your goal in re trying to reengage with Chairman Kim's still denuclearization?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02936:fed",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 2936.9447238095236,
+   "t_wall": 1787168314.9447238,
+   "t_wall_et": "2026-08-19T15:38:34.944724-04:00",
+   "segment_text": "Every time we do great, we announce great numbers, the interest rates go up. And they go up because they wanna stop inflation.",
+   "context": "of the royal from the Hormuz Strait. I said, would you like to help us? He said, no. Thank you. I said, that's nice. Please. Thank you. He made us a lot of money. I didn't like that. So, I I felt that to do a massive we were doing a massive war exercise. I thought that was very insulting to somebody that frankly has been, during my term at least, very well behaved. Market, is the administration done enough to stabilize the bond market after yesterday? Well, think it is, but I mean, they they it's it's very sad. Every time we do great, we announce great numbers, the interest rates go up. And they go up because they wanna stop inflation.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "interest rates go up because they wanna stop inflation",
+    "summary": "The President criticizes Fed for raising rates despite strong economic announcements."
+   },
+   "llm_attempts": 1,
+   "count": 16,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's rate criticism is repeat rhetoric with no new policy action affecting bond yields directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Fed criticism is already priced in and doesn't change near-term financial sector outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information on rates or regional bank policy to move this ticker.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar criticism of the Fed and interest rates without new policy specifics, so market-moving impact on rate-sensitive tickers is minimal.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TLT\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President's rate criticism is repeat rhetoric with no new policy action affecting bond yields directly.\",\"added\":false},{\"ticker\":\"XLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General Fed criticism is already priced in and doesn't change near-term financial sector outlook.\",\"added\":false},{\"ticker\":\"KRE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new information on rates or regional bank policy to move this ticker.\",\"added\":false}],\"summary\":\"The President repeats familiar criticism of the Fed and interest rates without new policy specifics, so market-moving impact on rate-sensitive tickers is minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "K3_mcCs8Z8I:02944:switzerland",
+   "video_id": "K3_mcCs8Z8I",
+   "entity_id": "switzerland",
+   "entity": "Switzerland",
+   "kind": "country",
+   "alias": "switzerland",
+   "text_span": "Switzerland",
+   "dict_tickers": [
+    "EWL"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 2944.6803184713376,
+   "t_wall": 1787168322.6803184,
+   "t_wall_et": "2026-08-19T15:38:42.680318-04:00",
+   "segment_text": "They should go down because the country's strong. You know, I see countries like Switzerland where they're the number 1 lowest interest rates, 0.5 a percent,",
+   "context": "I thought that was very insulting to somebody that frankly has been, during my term at least, very well behaved. Market, is the administration done enough to stabilize the bond market after yesterday? Well, think it is, but I mean, they they it's it's very sad. Every time we do great, we announce great numbers, the interest rates go up. And they go up because they wanna stop inflation. They should go down because the country's strong. You know, I see countries like Switzerland where they're the number 1 lowest interest rates, 0.5 a percent,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Switzerland",
+    "tickers": [
+     "EWL"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "I see countries like Switzerland where they're the number 1 lowest interest rates",
+    "summary": "The President cites Switzerland's low interest rates as a positive example for monetary policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President mentions Switzerland's low rates as a rhetorical comparison, not a policy action against Switzerland.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark is general rhetoric about interest rate disparities using Switzerland as an example, with no new policy action affecting Swiss equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President mentions Switzerland's low rates as a rhetorical comparison, not a policy action against Switzerland.\", \"added\": false}], \"summary\": \"Remark is general rhetoric about interest rate disparities using Switzerland as an example, with no new policy action affecting Swiss equities.\"}"
+   }
+  }
+ ]
+}

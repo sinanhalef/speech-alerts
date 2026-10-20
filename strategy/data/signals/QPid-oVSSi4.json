@@ -1,0 +1,1344 @@
+{
+ "video": {
+  "id": "QPid-oVSSi4",
+  "url": "https://www.youtube.com/watch?v=QPid-oVSSi4",
+  "title": "The President Delivers Remarks at McDonald's Impact Summit",
+  "channel": "The White House",
+  "duration": 2959.0,
+  "was_live": true,
+  "release_timestamp": 1763421021.0,
+  "upload_timestamp": 1763424522.0,
+  "upload_date": "20251118",
+  "label": "Delivers Remarks at McDonald's Impact Summit",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1763421021.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 20,
+  "confirmed": 18,
+  "retracted": 2,
+  "unconfirmed": 0,
+  "llm_calls": 23
+ },
+ "signals": [
+  {
+   "signal_id": "QPid-oVSSi4:00066:mcd",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 66.29,
+   "t_wall": 1763421087.29,
+   "t_wall_et": "2025-11-17T18:11:27.290000-05:00",
+   "segment_text": "McDonald's. They've gone there a couple of times. And",
+   "context": "I actually hate to turn that phone that that beautiful song off, but let's get to business. Right? And I wanna congratulate you that you are with a an incredible company, and I'm thrilled to be here with the men and the women who are really the heart and soul of 1 of the greatest, most admired, and most successful companies in the history of the world, frankly. The 1 and only McDonald's. They've gone there a couple of times. And",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "McDonald's",
+    "tickers": [
+     "MCD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "incredible company, heart and soul of greatest companies in history",
+    "summary": "The President praises McDonald's as one of history's greatest, most successful companies."
+   },
+   "llm_attempts": 1,
+   "count": 15,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MCD",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise at a promotional event is positive in tone but contains no new policy or business information likely to move the stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are complimentary rhetoric about McDonald's with no new material announcement, so limited expected price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MCD\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise at a promotional event is positive in tone but contains no new policy or business information likely to move the stock.\", \"added\": false}], \"summary\": \"The President's remarks are complimentary rhetoric about McDonald's with no new material announcement, so limited expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:00113:googl",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 113.5214705882353,
+   "t_wall": 1763421134.5214705,
+   "t_wall_et": "2025-11-17T18:12:14.521471-05:00",
+   "segment_text": "a place called Google. They called me the following",
+   "context": "I actually was there for about 30 minutes, and that was 30 minutes longer than Kamala was there. Right? Despite her job at McDonald's, that didn't work out too well. And the person at McDonald's had informed us off the record that she never worked there. I whoever you are, we appreciate that. That was very nice. But I wanna thank, as you know, the famous Sundar and Sergei, Sergei Brin. These are 2 guys that own and run a place called Google. They called me the following",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "the famous Sundar and Sergei, Sergei Brin. These are 2 guys that own and run a place called Google. They called me",
+    "summary": "The President mentions Google founders called him; context incomplete mid-sentence."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Anecdote about Google founders praising a viral video is flattering but not price-relevant news for the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are a nostalgic, complimentary anecdote about McDonald's and Google founders with no new policy, deal, or business impact disclosed, so no material price effect expected for GOOGL.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Anecdote about Google founders praising a viral video is flattering but not price-relevant news for the company.\", \"added\": false}], \"summary\": \"The President's remarks are a nostalgic, complimentary anecdote about McDonald's and Google founders with no new policy, deal, or business impact disclosed, so no material price effect expected for GOOGL.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:00442:wmt",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "wmt",
+   "entity": "Walmart",
+   "kind": "company",
+   "alias": "walmart",
+   "text_span": "Walmart",
+   "dict_tickers": [
+    "WMT"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 442.1410237168142,
+   "t_wall": 1763421463.1410236,
+   "t_wall_et": "2025-11-17T18:17:43.141024-05:00",
+   "segment_text": "groups that you admire, I admire, Walmart came up last week and they announced that Thanksgiving this year is 25%",
+   "context": "years, it was the history of our country. And now we have normal inflation. We're gonna get it a little bit lower, frankly. But we have normal. We've normalized it. We have it down to a low level, but we're gonna get it a little bit lower. We want perfection. You know, you always want 1%. I don't know if anybody knows. You don't want 0. 0 can be bad. Then you start going the other route. That's no good either. Then you say, what's worse? Deflation or inflation? But we have it almost at the sweet spot, and prices are coming down on different things. 1 of your groups that you admire, I admire, Walmart came up last week and they announced that Thanksgiving this year is 25%",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Walmart",
+    "tickers": [
+     "WMT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "one of your groups that you admire, I admire, Walmart came up last week",
+    "summary": "The President praised Walmart and noted their Thanksgiving pricing announcement showing 25% savings."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WMT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised Walmart's price cuts on Thanksgiving items, mild positive PR but already public news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is favorable rhetoric about Walmart's pricing, likely a small positive sentiment boost but low incremental information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"WMT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised Walmart's price cuts on Thanksgiving items, mild positive PR but already public news.\", \"added\": false}], \"summary\": \"The President's remark is favorable rhetoric about Walmart's pricing, likely a small positive sentiment boost but low incremental information.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:00521:ai_word",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "tariffs"
+   ],
+   "t_audio": 521.7825,
+   "t_wall": 1763421542.7825,
+   "t_wall_et": "2025-11-17T18:19:02.782500-05:00",
+   "segment_text": "think of what that is. That's car factories. That's AI. It's everything. They're all coming back because of the tariffs. They're all coming back because they don't wanna pay 15, 20, 30, a 100% tariff.",
+   "context": "That's more by 10 times the highest amount ever invested in any country ever before, and it's largely because of tariffs and, I think, November 5 election. But it's the largest amount as an example. So if we have 20 or 21 in 1 year, 21,000,000,000,000, think of what that is. That's car factories. That's AI. It's everything. They're all coming back because of the tariffs. They're all coming back because they don't wanna pay 15, 20, 30, a 100% tariff.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "That's car factories. That's AI. It's everything.",
+    "summary": "The President credits tariffs for attracting AI sector investment back to the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about investment and AI without any specific new policy affecting Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad claims about investment inflows are not new, specific, or actionable for semiconductor stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad, repeated rhetoric about tariffs driving investment and job growth, with only a vague, non-specific mention of AI; no new, ticker-specific catalyst for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about investment and AI without any specific new policy affecting Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad claims about investment inflows are not new, specific, or actionable for semiconductor stocks.\", \"added\": false}], \"summary\": \"The President's remarks are broad, repeated rhetoric about tariffs driving investment and job growth, with only a vague, non-specific mention of AI; no new, ticker-specific catalyst for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:00640:ko",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "ko",
+   "entity": "Coca-Cola",
+   "kind": "company",
+   "alias": "coca cola",
+   "text_span": "Coca Cola",
+   "dict_tickers": [
+    "KO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 640.4404676923077,
+   "t_wall": 1763421661.4404676,
+   "t_wall_et": "2025-11-17T18:21:01.440468-05:00",
+   "segment_text": "and a best Coca Cola in America. Best Coca Cola. And",
+   "context": "you're observing hot coffee to construction workers, nurses, and police officers on the way to the job. In the evening, you stand ready with the fast dinner and a smile for busy moms and their children as they race from school to soccer practice. Really is it's Americana. And late at night, your lights are off and the only 1 still glowing when the long haul trucker pulls up for a good meal and a best Coca Cola in America. Best Coca Cola. And",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coca-Cola",
+    "tickers": [
+     "KO"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "best Coca Cola in America. Best Coca Cola.",
+    "summary": "The President praises Coca-Cola as the best in America during remarks about American workers."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "KO",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President repeats praise and prior sugar-switch remarks about Coca-Cola without new policy or business impact, so likely negligible market effect.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely repeated rhetoric praising Coca-Cola with no new decision or economic impact, so expected price effect on KO is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"KO\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President repeats praise and prior sugar-switch remarks about Coca-Cola without new policy or business impact, so likely negligible market effect.\", \"added\": false}], \"summary\": \"The remark is largely repeated rhetoric praising Coca-Cola with no new decision or economic impact, so expected price effect on KO is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:00671:mcd",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 671.5559793814433,
+   "t_wall": 1763421692.5559795,
+   "t_wall_et": "2025-11-17T18:21:32.555979-05:00",
+   "segment_text": "And now it's the Gulf Of America. It has nothing to do with McDonald's, but maybe it does because",
+   "context": "I'll bet they use real sugar in your Coca Cola. You know, they didn't in The United States. I said to the head of Coca Cola, you gotta go to sugar. They do in other countries. And you know what? They want the sugar. Ain't that nice? I said, you gotta go to sugar. Just like I said, why is the Gulf Of Mexico called the Gulf Of Mexico? I said, we're changing the name. And now it's the Gulf Of America. It has nothing to do with McDonald's, but maybe it does because it's very nice cycle. We have 92%",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "McDonald's",
+    "tickers": [
+     "MCD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "It has nothing to do with McDonald's, but maybe it does because it's very nice cycle.",
+    "summary": "The President makes oblique positive reference to McDonald's in context of renaming Gulf of Mexico."
+   },
+   "llm_attempts": 2,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MCD",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise and anecdote at a McDonald's event with no new policy or business news for the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely anecdotal rhetoric about Coca-Cola sugar content and the Gulf of America renaming, with only incidental, non-substantive mention of McDonald's, so no material price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MCD\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise and anecdote at a McDonald's event with no new policy or business news for the company.\", \"added\": false}], \"summary\": \"The excerpt is largely anecdotal rhetoric about Coca-Cola sugar content and the Gulf of America renaming, with only incidental, non-substantive mention of McDonald's, so no material price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:00995:autos",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "auto industry",
+   "text_span": "auto industry",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 995.3671510588235,
+   "t_wall": 1763422016.367151,
+   "t_wall_et": "2025-11-17T18:26:56.367151-05:00",
+   "segment_text": "like we've I think like we've never seen before. You know, we lost our auto industry.",
+   "context": "the minimum wage. And you people probably know, because that's a very complex subject. And you people probably know better than anybody the impact 1 way or the other, good or bad. And you're gonna let your local congressmen, your senators know about it. But in 9 months, we've lifted over 600,000 Americans off of food stamp, and that's a record. And in stock because we really have a strong economy. I mean, we're building thousands and thousands of factories all over this country. Wait till they open up. You're not you're gonna see something like we've I think like we've never seen before. You know, we lost our auto industry.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "auto industry",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "We lost our auto industry.",
+    "summary": "The President criticizes loss of auto industry, implies recovery underway."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "The President touts reshoring of auto manufacturing to the US as a positive for domestic automakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Rhetoric about rebuilding US auto industry is mildly favorable for domestic producer Ford.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Foreign-headquartered automaker benefits less directly from reshoring rhetoric and may face competitive pressure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Not specifically addressed; general auto commentary has limited direct impact on Tesla.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Broad auto sector ETF may see mild lift from rhetoric about auto industry resurgence in the US.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar themes of trade deals and reshoring auto manufacturing, offering mild, non-specific tailwinds for domestic automakers (GM, F, CARZ) with no material new policy for STLA or TSLA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"The President touts reshoring of auto manufacturing to the US as a positive for domestic automakers.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Rhetoric about rebuilding US auto industry is mildly favorable for domestic producer Ford.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Foreign-headquartered automaker benefits less directly from reshoring rhetoric and may face competitive pressure.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Not specifically addressed; general auto commentary has limited direct impact on Tesla.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Broad auto sector ETF may see mild lift from rhetoric about auto industry resurgence in the US.\", \"added\": true}], \"summary\": \"The President's remarks reiterate familiar themes of trade deals and reshoring auto manufacturing, offering mild, non-specific tailwinds for domestic automakers (GM, F, CARZ) with no material new policy for STLA or TSLA.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01012:japan",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1012.3308927272727,
+   "t_wall": 1763422033.3308928,
+   "t_wall_et": "2025-11-17T18:27:13.330893-05:00",
+   "segment_text": "We made a deal with Japan, $650,000,000,000.",
+   "context": "Americans off of food stamp, and that's a record. And in stock because we really have a strong economy. I mean, we're building thousands and thousands of factories all over this country. Wait till they open up. You're not you're gonna see something like we've I think like we've never seen before. You know, we lost our auto industry. 54% of our auto industry left for other places over the years. And I think we're gonna get it more than all back. They're coming in from Mexico, from Canada, from Germany. They're coming in from Japan. We made a deal with Japan, $650,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We made a deal with Japan, $650,000,000,000.",
+    "summary": "The President claims a $650 billion deal with Japan on automotive manufacturing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates already-known US-Japan trade deal figures with no new terms affecting Japanese equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates previously announced trade deals (Japan, EU, China) as general rhetoric about US economic strength; no new tradable details for EWJ specifically.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates already-known US-Japan trade deal figures with no new terms affecting Japanese equities broadly.\", \"added\": false}], \"summary\": \"The President reiterates previously announced trade deals (Japan, EU, China) as general rhetoric about US economic strength; no new tradable details for EWJ specifically.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01017:eu",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1017.2981747368422,
+   "t_wall": 1763422038.2981746,
+   "t_wall_et": "2025-11-17T18:27:18.298175-05:00",
+   "segment_text": "We made a deal with the European Union, $950,000,000,000,",
+   "context": "Americans off of food stamp, and that's a record. And in stock because we really have a strong economy. I mean, we're building thousands and thousands of factories all over this country. Wait till they open up. You're not you're gonna see something like we've I think like we've never seen before. You know, we lost our auto industry. 54% of our auto industry left for other places over the years. And I think we're gonna get it more than all back. They're coming in from Mexico, from Canada, from Germany. They're coming in from Japan. We made a deal with Japan, $650,000,000,000. We never got anything. We made a deal with the European Union, $950,000,000,000,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We made a deal with the European Union, $950,000,000,000.",
+    "summary": "The President claims a prior EU deal worth $950B yielded nothing for the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates already-known EU trade deal figures with no new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about a previously announced EU deal, not new market-moving information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated EU deal talking point, unlikely to move Eurozone equities materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates familiar trade deal figures (Japan, EU, China) as evidence of US economic strength; no new policy or numbers for EU-related ETFs, so minimal expected price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates already-known EU trade deal figures with no new policy detail.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about a previously announced EU deal, not new market-moving information.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same repeated EU deal talking point, unlikely to move Eurozone equities materially.\", \"added\": false}], \"summary\": \"The President reiterates familiar trade deal figures (Japan, EU, China) as evidence of US economic strength; no new policy or numbers for EU-related ETFs, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01020:oil",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "deal"
+   ],
+   "t_audio": 1020.6275654237288,
+   "t_wall": 1763422041.6275654,
+   "t_wall_et": "2025-11-17T18:27:21.627565-05:00",
+   "segment_text": "and they have to buy our oil and gas and many other things.",
+   "context": "like we've I think like we've never seen before. You know, we lost our auto industry. 54% of our auto industry left for other places over the years. And I think we're gonna get it more than all back. They're coming in from Mexico, from Canada, from Germany. They're coming in from Japan. We made a deal with Japan, $650,000,000,000. We never got anything. We made a deal with the European Union, $950,000,000,000, and they have to buy our oil and gas and many other things.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "European Union deal, they have to buy our oil and gas",
+    "summary": "The President claims EU trade deal includes mandate for US oil and gas purchases."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated EU deal requiring purchases of US oil and gas is modestly positive for the US energy sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Demand commitment from EU is a minor positive for oil demand but too small and already known to move crude prices meaningfully.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major US oil and gas exporter, Exxon benefits modestly from restated EU purchase commitments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Chevron similarly benefits from reiterated EU energy purchase pledge, though not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated previously announced trade deals (EU buying US oil/gas, Japan, China soybeans) with no new figures for energy, offering mild repeat-driven support for US energy producers and the sector ETF, but limited fresh catalyst for oil prices themselves.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated EU deal requiring purchases of US oil and gas is modestly positive for the US energy sector ETF.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Demand commitment from EU is a minor positive for oil demand but too small and already known to move crude prices meaningfully.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major US oil and gas exporter, Exxon benefits modestly from restated EU purchase commitments.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Chevron similarly benefits from reiterated EU energy purchase pledge, though not new information.\", \"added\": false}], \"summary\": \"The President repeated previously announced trade deals (EU buying US oil/gas, Japan, China soybeans) with no new figures for energy, offering mild repeat-driven support for US energy producers and the sector ETF, but limited fresh catalyst for oil prices themselves.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01026:china",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "deal"
+   ],
+   "t_audio": 1026.9124193548387,
+   "t_wall": 1763422047.9124193,
+   "t_wall_et": "2025-11-17T18:27:27.912419-05:00",
+   "segment_text": "And I wanna say it's good for everybody. All that we made a deal recently with China where they buy our soybeans, but it's hundreds of billions of dollars.",
+   "context": "left for other places over the years. And I think we're gonna get it more than all back. They're coming in from Mexico, from Canada, from Germany. They're coming in from Japan. We made a deal with Japan, $650,000,000,000. We never got anything. We made a deal with the European Union, $950,000,000,000, and they have to buy our oil and gas and many other things. And I wanna say it's good for everybody. All that we made a deal recently with China where they buy our soybeans, but it's hundreds of billions of dollars.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We made a deal recently with China where they buy our soybeans",
+    "summary": "The President announced a recent trade deal with China for soybean purchases worth hundreds of billions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated soybean trade deal with China signals easing trade tensions, mildly positive for Chinese equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General trade thaw rhetoric toward China is a mild positive for broad China equity exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Soybean deal is agriculture-related and has little direct bearing on Chinese internet/tech names.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated mention of the soybean deal with China is mildly positive sentiment for Chinese equities generally (FXI, MCHI) but largely irrelevant to internet-focused KWEB.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated soybean trade deal with China signals easing trade tensions, mildly positive for Chinese equities broadly.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General trade thaw rhetoric toward China is a mild positive for broad China equity exposure.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Soybean deal is agriculture-related and has little direct bearing on Chinese internet/tech names.\", \"added\": false}], \"summary\": \"The President's repeated mention of the soybean deal with China is mildly positive sentiment for Chinese equities generally (FXI, MCHI) but largely irrelevant to internet-focused KWEB.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01028:farmers",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "soybeans",
+   "text_span": "soybeans",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "deal"
+   ],
+   "t_audio": 1028.2027419354838,
+   "t_wall": 1763422049.2027419,
+   "t_wall_et": "2025-11-17T18:27:29.202742-05:00",
+   "segment_text": "And I wanna say it's good for everybody. All that we made a deal recently with China where they buy our soybeans, but it's hundreds of billions of dollars.",
+   "context": "left for other places over the years. And I think we're gonna get it more than all back. They're coming in from Mexico, from Canada, from Germany. They're coming in from Japan. We made a deal with Japan, $650,000,000,000. We never got anything. We made a deal with the European Union, $950,000,000,000, and they have to buy our oil and gas and many other things. And I wanna say it's good for everybody. All that we made a deal recently with China where they buy our soybeans, but it's hundreds of billions of dollars.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.93,
+    "quote": "They buy our soybeans, but it's hundreds of billions of dollars",
+    "summary": "The President highlighted a major soybean export deal with China worth hundreds of billions of dollars."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated China soybean purchase deal directly boosts soybean futures ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Corn not specifically mentioned, indirect spillover from ag trade optimism is weak.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major grain processor/exporter, higher soybean trade volumes with China modestly benefit ADM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mosaic is a fertilizer producer, only tangentially linked to soybean export volumes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Stronger farm income from soybean exports could support equipment demand for Deere.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad agriculture commodity ETF benefits modestly from renewed China soybean demand narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated a large China soybean purchase deal, a positive but already-known catalyst for agriculture-linked tickers, with modest, low-conviction upside for soybean/ag exposed names and little effect on unrelated peers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated China soybean purchase deal directly boosts soybean futures ETF sentiment.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Corn not specifically mentioned, indirect spillover from ag trade optimism is weak.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major grain processor/exporter, higher soybean trade volumes with China modestly benefit ADM.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mosaic is a fertilizer producer, only tangentially linked to soybean export volumes.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Stronger farm income from soybean exports could support equipment demand for Deere.\", \"added\": false}, {\"ticker\": \"DBA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad agriculture commodity ETF benefits modestly from renewed China soybean demand narrative.\", \"added\": false}], \"summary\": \"The President reiterated a large China soybean purchase deal, a positive but already-known catalyst for agriculture-linked tickers, with modest, low-conviction upside for soybean/ag exposed names and little effect on unrelated peers.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01279:noc",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1279.4625953020134,
+   "t_wall": 1763422300.4625952,
+   "t_wall_et": "2025-11-17T18:31:40.462595-05:00",
+   "segment_text": "And everybody knows it. And you saw that with the way we took out the nuclear capability of Iran with those gorgeous b 2 bombers. They flew in there,",
+   "context": "I said, I'm not ordering plastic eggs. We're gonna have eggs down by that time. And by the time we got to Easter, the price of eggs had fallen precipitously. We had all the eggs in this country you want. And we we know what we're doing. I mean, we know what we're doing. We rebuilt our military. We have the greatest military anywhere in the world. We make the greatest military equipment anywhere in the world. And everybody knows it. And everybody knows it. And you saw that with the way we took out the nuclear capability of Iran with those gorgeous b 2 bombers. They flew in there,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "greatest military equipment anywhere in the world",
+    "summary": "The President praised U.S. military equipment capability, citing B-2 bombers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised B-2 bomber performance and US military equipment, a mild positive for Northrop Grumman but largely reiterates known events.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of the B-2 bomber's performance in the Iran strike is mildly positive for Northrop Grumman but reflects already publicized events, limiting price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised B-2 bomber performance and US military equipment, a mild positive for Northrop Grumman but largely reiterates known events.\", \"added\": false}], \"summary\": \"The President's praise of the B-2 bomber's performance in the Iran strike is mildly positive for Northrop Grumman but reflects already publicized events, limiting price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01401:mcd",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1401.2598287671233,
+   "t_wall": 1763422422.2598288,
+   "t_wall_et": "2025-11-17T18:33:42.259829-05:00",
+   "segment_text": "activity going on at the McDonald's next to the base where they take off.",
+   "context": "And I said to him, so what's the story with that red? Did you expect? Because you remember I pulled it back? Because I saw reporting that we're gonna be leaving at a certain time. And I said to the general, is that not good that they think that? And they sort of got it right. They saw a lot of activity. Actually, you know why? They saw 1 of the things. They saw a lot of unbelievable activity going on at the McDonald's next to the base where they take off. The McDonald's was doing 5, right, 5 times they were going crazy.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01622:mcd",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1622.9510623376623,
+   "t_wall": 1763422643.9510624,
+   "t_wall_et": "2025-11-17T18:37:23.951062-05:00",
+   "segment_text": "no other other than perhaps the McDonald's board. You have a very good board.",
+   "context": "And that thing just turned in its side. And it I mean, it's just so unbelievable. And that knocked out Iran nuclear capability, and all of the Middle East became a different place. And now we have peace in the Middle East. And at the United Nations today, they approved the Board of Peace, which is I'm gonna chair, and we're picking the leaders or the heads of the most important nations in the world. I think it'll be a board like no other other than perhaps the McDonald's board. You have a very good board.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "McDonald's",
+    "tickers": [
+     "MCD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "board like no other other than perhaps the McDonald's board. You have a very good board.",
+    "summary": "The President praises McDonald's board as exceptionally good in comparison."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MCD",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President's praise of McDonald's board is complimentary but generic rhetoric with no new policy, deal, or business impact disclosed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a casual compliment about McDonald's board with no material new information affecting the company's fundamentals, so minimal price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MCD\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President's praise of McDonald's board is complimentary but generic rhetoric with no new policy, deal, or business impact disclosed.\", \"added\": false}], \"summary\": \"The remark is a casual compliment about McDonald's board with no material new information affecting the company's fundamentals, so minimal price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:01698:oil",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "price",
+    "selling"
+   ],
+   "t_audio": 1698.6284239130434,
+   "t_wall": 1763422719.628424,
+   "t_wall_et": "2025-11-17T18:38:39.628424-05:00",
+   "segment_text": "And they were selling, you know, they were having gasoline at $4.75 a gallon and $45,353.75.",
+   "context": "and my administration is ending it. I'm ending it. Prices are way down. If you just look so we don't have, as I said, the inflation, but our energy prices are way down. And, you know, despite hamburgers being a big business, energy is 1 business that's bigger. When you get energy down, everything else is affected. If you start bringing the price of gas, that's like a massive tax cut. And they were selling, you know, they were having gasoline at $4.75 a gallon and $45,353.75.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "energy prices are way down. If you start bringing the price of gas, that's like a massive tax cut.",
+    "summary": "The President credits his administration with lowering energy and gas prices significantly."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about falling energy prices and record production is mixed for producers' margins vs volumes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates goal of pushing gasoline toward $2/gallon, implying continued oil price suppression.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for record US oil/gas output is offset by rhetoric pushing prices lower, netting little stock-specific impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar mixed effect from record production claims versus price-cutting rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar rhetoric about falling energy prices and record US oil/gas production, a mix of bullish volume and bearish price signals with no new policy specifics, so market impact on energy tickers is likely muted.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about falling energy prices and record production is mixed for producers' margins vs volumes.\", \"added\": false},\n{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates goal of pushing gasoline toward $2/gallon, implying continued oil price suppression.\", \"added\": false},\n{\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for record US oil/gas output is offset by rhetoric pushing prices lower, netting little stock-specific impact.\", \"added\": false},\n{\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar mixed effect from record production claims versus price-cutting rhetoric.\", \"added\": false}\n],\n\"summary\": \"The President repeats familiar rhetoric about falling energy prices and record US oil/gas production, a mix of bullish volume and bearish price signals with no new policy specifics, so market impact on energy tickers is likely muted.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:02053:farmers",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2053.995,
+   "t_wall": 1763423074.995,
+   "t_wall_et": "2025-11-17T18:44:34.995000-05:00",
+   "segment_text": "But think of it, you know, farmers especially, where they'd have a farm,",
+   "context": "I've only had 2 or 3 people over the years that say, I take a vote. Does anybody in this room dislike their children when you're not leaving it to your children? And, you know, it's always blank blank blank. Then all of a sudden, 1 guy about 6 rows back. Okay. And I thought he was kidding. I said, oh, that's so funny. I'm not kidding. My kid is no good. I'm not shit. And I said, this is amazing. So he's not so happy with this, but it's alright. But think of it, you know, farmers especially, where they'd have a farm, and you know the expression, the land rich, cash poor a little bit, but they have a great wonderful thing and a way a way of life that they wouldn't change with anybody, not even a franchisee.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "farmers especially, have a great wonderful thing and a way of life",
+    "summary": "The President praised farmers' way of life and land ownership, contrasting wealth and lifestyle."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General estate tax and farmer rhetoric already known policy, not new agricultural commodity news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy affecting fertilizer demand or prices was announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Estate tax repeal is old news, not a fresh catalyst for farm equipment demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about estate tax and farmer sentiment, not corn supply or trade policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new soybean-specific trade or subsidy announcement made.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farmer-focused rhetoric on estate tax does not directly move agribusiness processor economics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks were general praise for farmers and a repeat of already-known estate tax repeal policy, offering no new price-relevant information for agricultural equities or commodity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General estate tax and farmer rhetoric already known policy, not new agricultural commodity news.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy affecting fertilizer demand or prices was announced.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Estate tax repeal is old news, not a fresh catalyst for farm equipment demand.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is about estate tax and farmer sentiment, not corn supply or trade policy.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new soybean-specific trade or subsidy announcement made.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farmer-focused rhetoric on estate tax does not directly move agribusiness processor economics.\", \"added\": false}], \"summary\": \"The President's remarks were general praise for farmers and a repeat of already-known estate tax repeal policy, offering no new price-relevant information for agricultural equities or commodity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:02507:mcd",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2507.192065317919,
+   "t_wall": 1763423528.1920652,
+   "t_wall_et": "2025-11-17T18:52:08.192065-05:00",
+   "segment_text": "Carlos switched careers and moved to Virginia where he took over his 1st McDonald's. Where's Carlos? Is he around here? Let me come on. Stand up. Stand up. Is your son good?",
+   "context": "We mentioned all these different items, but that's the biggest by far for you. As long as I'm president, I'll always defend your right to run your own small business and do it well. And some of your small businesses have become very large business. 1 of the franchise owners here today is Carlos Mateos senior who escaped communist Cuba when he was just 6 years old. In America, Carlos took jobs as newspaper delivery boy, a factory worker, and eventually became a New Jersey police officer. Then, in 1998, Carlos switched careers and moved to Virginia where he took over his 1st McDonald's. Where's Carlos? Is he around here? Let me come on. Stand up. Stand up. Is your son good?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "McDonald's",
+    "tickers": [
+     "MCD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "Carlos took over his 1st McDonald's. Where's Carlos?",
+    "summary": "The President praised franchise owner who built McDonald's business after immigrating from Cuba."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MCD",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of a franchisee's personal success story is positive in tone but carries no new policy or business information for MCD shares.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's anecdote about a successful McDonald's franchisee is flattering but not materially informative for the stock; no new policy, deal, or financial detail is disclosed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MCD\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of a franchisee's personal success story is positive in tone but carries no new policy or business information for MCD shares.\", \"added\": false}], \"summary\": \"The President's anecdote about a successful McDonald's franchisee is flattering but not materially informative for the stock; no new policy, deal, or financial detail is disclosed.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:02780:stock_market",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 2780.2636872340427,
+   "t_wall": 1763423801.2636871,
+   "t_wall_et": "2025-11-17T18:56:41.263687-05:00",
+   "segment_text": "and people are seeing it. The Wall Street guys know it. The stock market hit its all time high",
+   "context": "I like the fish. I like it. You could do a little bit more tartar sauce, though, please. Seriously. I hate when I say, do you have any tartar sauce? Do you understand that? Yes. Yeah. He understands that. Together with hardworking Americans like you, we're going to pioneer new heights, new prosperity. We are doing better as a country right now, and people are seeing it. The Wall Street guys know it. The stock market hit its all time high",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "The stock market hit its all time high",
+    "summary": "The President states the stock market reached an all-time high."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of stock market highs is already known information with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic market commentary, not tech-specific or new.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Speech about McDonald's and general market highs, no new material information for the Dow.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely self-congratulatory rhetoric about existing stock market highs and praise for McDonald's, containing no new tradable information for broad market ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of stock market highs is already known information with no new policy content.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic market commentary, not tech-specific or new.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Speech about McDonald's and general market highs, no new material information for the Dow.\", \"added\": false}], \"summary\": \"The President's remarks are largely self-congratulatory rhetoric about existing stock market highs and praise for McDonald's, containing no new tradable information for broad market ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "QPid-oVSSi4:02846:defense_word",
+   "video_id": "QPid-oVSSi4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 2846.331740350877,
+   "t_wall": 1763423867.3317404,
+   "t_wall_et": "2025-11-17T18:57:47.331740-05:00",
+   "segment_text": "hit the highest number that they've ever been 2 days ago,",
+   "context": "But the stock market has hit an all time high 48 times during the last 9 months. So we're going to pioneer new heights even from that. These new heights of prosperity are going to be incredible. We're looking at affordability. We're gonna bring it down for everybody because not everybody understands the fact that a great stock market is great for everybody, including 4 0 1 k's. You know, the 4 0 1 k's hit the highest number that they've ever been 2 days ago, and that's a lot of people. So they understand what's going on. We're gonna make",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

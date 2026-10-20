@@ -1,0 +1,863 @@
+{
+ "video": {
+  "id": "BRGrk3Bw_P0",
+  "url": "https://www.youtube.com/watch?v=BRGrk3Bw_P0",
+  "title": "The President Delivers Remarks, Aug. 14, 2026",
+  "channel": "The White House",
+  "duration": 4191.0,
+  "was_live": true,
+  "release_timestamp": 1786733141.0,
+  "upload_timestamp": 1786739796.0,
+  "upload_date": "20260814",
+  "label": "Remarks, Aug 14 2026",
+  "group": "recent",
+  "notes": "",
+  "t0": 1786733141.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 13,
+  "confirmed": 10,
+  "retracted": 3,
+  "unconfirmed": 0,
+  "llm_calls": 15
+ },
+ "signals": [
+  {
+   "signal_id": "BRGrk3Bw_P0:01474:oklo",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "oklo",
+   "entity": "Oklo",
+   "kind": "company",
+   "alias": "oklo",
+   "text_span": "Oklo",
+   "dict_tickers": [
+    "OKLO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1474.8915789473683,
+   "t_wall": 1786734615.891579,
+   "t_wall_et": "2026-08-14T15:10:15.891579-04:00",
+   "segment_text": "Kathy Oklo signed a deadly and seditious new law making New York a so called",
+   "context": "She signed a law weakening the parole enforcement for convicted felons. Really weakening it. She spent millions and millions of dollars providing tax payer funded lawyers to illegal aliens. If you didn't if you weren't an illegal alien, you didn't get a lawyer. But if you were an illegal alien, you got lawyers and they were very good. They were radical left lunatics, but they were very good, very effective. She's in favor of the sanctuary city. She thinks the sanctuary cities are wonderful, which are killing our country. And less than 3 months ago, Kathy Oklo signed a deadly and seditious new law making New York a so called",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:01666:defense_word",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 1666.432619047619,
+   "t_wall": 1786734807.432619,
+   "t_wall_et": "2026-08-14T15:13:27.432619-04:00",
+   "segment_text": "You know, in a couple of years, 2.5 years,",
+   "context": "They're all going away. Gonna be in the President tax. Yeah. That'll be next. Yeah. That could happen, actually. If we keep making money like we're making, we're the hottest nation anywhere in the world right now. Hottest. We're building more plants and factories than any country anywhere in the world in history. Think of it. We're building and the jobs are gonna be fantastic. You know, in a couple of years, 2.5 years, somebody's gonna be elected. And will you please will you please remember 1 thing? The President is the 1 that did it. These factories are all gonna be opening up.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:01882:iran",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1882.275,
+   "t_wall": 1786735023.275,
+   "t_wall_et": "2026-08-14T15:17:03.275000-04:00",
+   "segment_text": "Iran,",
+   "context": "They're up 5 times higher than they were just a year ago. I said, I've just been here 1 day. And then they started screaming affordability. And, you know, I made the statement, but they always misread it and everything else because but I said, the Democrats saying that is a hoax because they're the ones that cause the affordability. We're bringing the prices way down. Look at what's happening. Coming way down. And after we finish defeating Iran,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "After we finish defeating Iran",
+    "summary": "The President references defeating Iran as a future military objective."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Threats of Hormuz Strait blockade and continued Iran conflict raise geopolitical oil supply risk premium, benefiting energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Talk of blockading the Strait of Hormuz and ongoing Iran military action raises oil supply disruption risk, pushing crude prices higher.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Continued military engagement with Iran and references to using the military support sustained defense sector demand.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about defeating Iran, potentially seizing the Strait of Hormuz, and ongoing military action suggest elevated geopolitical risk that modestly benefits energy and defense-related equities.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Threats of Hormuz Strait blockade and continued Iran conflict raise geopolitical oil supply risk premium, benefiting energy sector.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Talk of blockading the Strait of Hormuz and ongoing Iran military action raises oil supply disruption risk, pushing crude prices higher.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Continued military engagement with Iran and references to using the military support sustained defense sector demand.\",\"added\":false}],\"summary\":\"The President's remarks about defeating Iran, potentially seizing the Strait of Hormuz, and ongoing military action suggest elevated geopolitical risk that modestly benefits energy and defense-related equities.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:01919:oil_strong",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1919.2691857142859,
+   "t_wall": 1786735060.2691858,
+   "t_wall_et": "2026-08-14T15:17:40.269186-04:00",
+   "segment_text": "now we work great with them. We've taken in millions and millions of barrels of oil.",
+   "context": "pretty soon I'll be declaring the Hormoz Strait a territory of The United States. Essentially, that's right. We have the blockade. No ships get through unless we want them to. But and how about Venezuela? Venezuela was a 1 day war. And now we work great with them. We've taken in millions and millions of barrels of oil.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "We've taken in millions and millions of barrels of oil.",
+    "summary": "The President claims US has imported large quantities of Venezuelan oil."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Rhetoric about falling gas prices and Venezuelan oil inflows suggests lower prices, which is mixed-to-negative for energy producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Claims of surging oil supply from Venezuela and falling gas prices imply downward pressure on crude prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize falling energy prices and increased Venezuelan oil imports, a mild negative for crude price proxies like USO and neutral-to-negative for energy equities XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about falling gas prices and Venezuelan oil inflows suggests lower prices, which is mixed-to-negative for energy producers.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Claims of surging oil supply from Venezuela and falling gas prices imply downward pressure on crude prices.\", \"added\": false}], \"summary\": \"The President's remarks emphasize falling energy prices and increased Venezuelan oil imports, a mild negative for crude price proxies like USO and neutral-to-negative for energy equities XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:01999:noc",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 1999.923,
+   "t_wall": 1786735140.923,
+   "t_wall_et": "2026-08-14T15:19:00.923000-04:00",
+   "segment_text": "keep going. They would have had a nuclear if we didn't hit the b 2 bombers, if we didn't hit them, you would have had a nuclear weapon,",
+   "context": "and we're looking at the pump, and it's $1.95 a gallon. And another 1 was $1.85. I said $1.85 a gallon, and I meet them the following day. I said, have bad news for you guys. We have to make a little journey to The Middle East because we have to put out a potential disaster, a potential very big fire, a fire like you've never seen. We can't let Iran keep going. They would have had a nuclear if we didn't hit the b 2 bombers, if we didn't hit them, you would have had a nuclear weapon,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "we didn't hit them with b 2 bombers, you would have had a nuclear weapon",
+    "summary": "The President credits B-2 bombers with preventing Iranian nuclear weapon development."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for B-2 bombers references a past, already-known military action rather than new orders or contracts for Northrop.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount the past Iran strike and gasoline prices; the B-2 mention is retrospective praise, not new contract news, so minimal price impact expected for NOC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for B-2 bombers references a past, already-known military action rather than new orders or contracts for Northrop.\", \"added\": false}], \"summary\": \"The President's remarks recount the past Iran strike and gasoline prices; the B-2 mention is retrospective praise, not new contract news, so minimal price impact expected for NOC.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:02077:steel",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2077.183571428571,
+   "t_wall": 1786735218.1835713,
+   "t_wall_et": "2026-08-14T15:20:18.183571-04:00",
+   "segment_text": "It's a wall of steel.",
+   "context": "It's okay. I mean, it's I'm not I'm not I'll never apologize. I did the right thing. But you could you know, if you didn't have, you'd be at I mean, I had it down to below $2 in many states. But and California, can't include because they keep taxing, taxing, taxing. You lower the oil price and they end up taxing you more than what you lower it. But, you just have to remember that what we're doing is a great service for the world, not only for ourselves, for the world. And we're really doing a great job. Our military is unbelievable. The blockade is unstoppable. It's a wall of steel.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "The blockade is unstoppable. It's a wall of steel.",
+    "summary": "The President uses steel metaphorically to praise military blockade strength and effectiveness."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel referenced only as a metaphor for a military blockade, not policy affecting steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No substantive steel-sector policy or tariff news mentioned, just rhetorical use of 'steel'.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of steel is figurative, unrelated to actual steel industry fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No new tariff, subsidy, or demand signal for steel producers in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected since 'steel' usage is purely rhetorical, not policy-related.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt uses 'steel' only as a metaphor for military strength (blockade) and contains no actionable policy for steelmakers; focuses instead on gasoline prices, Iran sanctions, and political attacks, so no price-relevant signal for steel tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Steel referenced only as a metaphor for a military blockade, not policy affecting steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No substantive steel-sector policy or tariff news mentioned, just rhetorical use of 'steel'.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention of steel is figurative, unrelated to actual steel industry fundamentals.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No new tariff, subsidy, or demand signal for steel producers in this excerpt.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected since 'steel' usage is purely rhetorical, not policy-related.\", \"added\": false}], \"summary\": \"The excerpt uses 'steel' only as a metaphor for military strength (blockade) and contains no actionable policy for steelmakers; focuses instead on gasoline prices, Iran sanctions, and political attacks, so no price-relevant signal for steel tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:02220:ice",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "ice",
+   "entity": "Intercontinental Exchange (NYSE)",
+   "kind": "company",
+   "alias": "new york stock exchange",
+   "text_span": "New York Stock Exchange",
+   "dict_tickers": [
+    "ICE"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 2220.057671641791,
+   "t_wall": 1786735361.0576715,
+   "t_wall_et": "2026-08-14T15:22:41.057672-04:00",
+   "segment_text": "and they said, sir, we're not gonna make it. We're not gonna make it. I'll I go into the store. This is before I left. I go into the it's a drugstore. Good well known. Big brand. Good store. Beautiful store. Right across from the New York Stock Exchange at a building.",
+   "context": "But the reason that all of the products in New York pharmacies and convenience stores are all locked behind glass how do you do that? You know, I used to go you go into a drugstore, you go into a store, you buy something, you buy a toothbrush. You buy some toothpaste. Now you have to open up glass. They it's no way to run a business. I don't know how the hell they can make money. They can charge you a lot. I don't care how much they charge. They can't be making any money. Actually, I have a store on Wall Street, and they said, sir, we're not gonna make it. We're not gonna make it. I'll I go into the store. This is before I left. I go into the it's a drugstore. Good well known. Big brand. Good store. Beautiful store. Right across from the New York Stock Exchange at a building.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "New York Stock Exchange",
+    "tickers": [
+     "ICE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Right across from the New York Stock Exchange at a building.",
+    "summary": "The President mentions a drugstore location near NYSE on Wall Street."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ICE",
+      "direction": "none",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention is a geographic reference to NYSE's location, not substantive commentary on Intercontinental Exchange the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark about crime and locked-up products in a Wall Street drugstore mentions the NYSE only as a landmark, with no policy or business implications for ICE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ICE\", \"direction\": \"none\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention is a geographic reference to NYSE's location, not substantive commentary on Intercontinental Exchange the company.\", \"added\": false}], \"summary\": \"The President's remark about crime and locked-up products in a Wall Street drugstore mentions the NYSE only as a landmark, with no policy or business implications for ICE.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:02756:oklo",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "oklo",
+   "entity": "Oklo",
+   "kind": "company",
+   "alias": "oklo",
+   "text_span": "Oklo",
+   "dict_tickers": [
+    "OKLO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2756.992647058824,
+   "t_wall": 1786735897.9926472,
+   "t_wall_et": "2026-08-14T15:31:37.992647-04:00",
+   "segment_text": "Kathy Oklo, who's done such a poor job in New York.",
+   "context": "full stop. That was her that's her campaign. That's what she speak says end policing, full stop. The radical extremist has not been disavowed by Chuck Schumer, who's a Palestinian. He's a full fledged Palestinian. In fact, I'm looking for Palestinian garb. I'm gonna send it to him for his birthday. I know him very well. Or crazy Nancy Pelosi. She's totally crazy. You got to know her, you'd say she's crazy. Or Kathy Oklo, who's done such a poor job in New York. In fact, she has the congressional",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:03499:stock_market",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 3499.8662222222224,
+   "t_wall": 1786736640.8662221,
+   "t_wall_et": "2026-08-14T15:44:00.866222-04:00",
+   "segment_text": "Under our leadership, the stock market has set almost 80 all time high since the election.",
+   "context": "We're gonna do things that is shocking. That's why people are leaving New York because of those policies. It's the dumbest thing I've ever seen. It can't work. It just can't work. And we have to be careful because as a federal government, we don't wanna throw good money after bad. They're they're destroying the city. They're destroying the state. We wanna be there for the state, but we don't like what's happening is a guaranteed failure. It's a guaranteed failure. It's not like, oh, maybe it'll work. It's a guaranteed failure. We have to be very careful. Under our leadership, the stock market has set almost 80 all time high since the election.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market has set almost 80 all time high since the election",
+    "summary": "The President claims stock market reached nearly 80 all-time highs since his election."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General self-congratulatory rhetoric about market highs, no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or policy-relevant content beyond generic market praise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic market boasting with no new information affecting broad indices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark is repeated rhetorical praise of stock market performance with no new policy or firm-specific news, unlikely to move indices meaningfully.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General self-congratulatory rhetoric about market highs, no new policy content.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or policy-relevant content beyond generic market praise.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic market boasting with no new information affecting broad indices.\", \"added\": false}], \"summary\": \"Remark is repeated rhetorical praise of stock market performance with no new policy or firm-specific news, unlikely to move indices meaningfully.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:03568:pharma",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "most favored nation",
+    "price",
+    "prices"
+   ],
+   "t_audio": 3568.3340165898617,
+   "t_wall": 1786736709.3340166,
+   "t_wall_et": "2026-08-14T15:45:09.334017-04:00",
+   "segment_text": "Under my which keeps me extremely honest, I must be honest with you. Under my most favored nation policy on drug prices, we are delivering the largest prescription drug price cuts in the history of our country by far.",
+   "context": "if I'm wrong by I have to be very careful. Because if I'm wrong by 0.5 a point, it's headlines all over the place. When other presidents or Democrats make mistakes, that's okay. But if I misstate something, slightly, just a little bit, like 0.75 of a point, it's headlines all over the world. Under my which keeps me extremely honest, I must be honest with you. Under my most favored nation policy on drug prices, we are delivering the largest prescription drug price cuts in the history of our country by far.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "Under my most favored nation policy on drug prices, we are delivering the largest prescription drug price cuts in the history of our country by far.",
+    "summary": "The President claims largest prescription drug price cuts in U.S. history via most favored nation policy."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of drug price cut policy is mildly negative for healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF is directly exposed to most-favored-nation drug pricing pressure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated MFN drug pricing policy threatens pharma margins, though already largely known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad drug price cut claims are negative for branded drugmakers like Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same MFN pricing pressure applies to Merck's branded drug portfolio.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated his most-favored-nation drug pricing policy claiming historic price cuts, a repeat of known policy that is mildly negative for pharma/healthcare stocks and largely neutral-to-negative for the sector ETF.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of drug price cut policy is mildly negative for healthcare sector sentiment.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-focused ETF is directly exposed to most-favored-nation drug pricing pressure.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated MFN drug pricing policy threatens pharma margins, though already largely known.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad drug price cut claims are negative for branded drugmakers like Lilly.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same MFN pricing pressure applies to Merck's branded drug portfolio.\", \"added\": false}], \"summary\": \"The President reiterated his most-favored-nation drug pricing policy claiming historic price cuts, a repeat of known policy that is mildly negative for pharma/healthcare stocks and largely neutral-to-negative for the sector ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:03676:oil_strong",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 3676.683941129032,
+   "t_wall": 1786736817.6839411,
+   "t_wall_et": "2026-08-14T15:46:57.683941-04:00",
+   "segment_text": "which is now working with nobody's ever seen it. We're taking millions and millions of barrels of oil out every single week,",
+   "context": "We should win the midterms on that alone. We're making the largest ever investment in the United States Armed Forces. Our Armed Forces are the best in the world. I built it during my I built it. I built it during my 1st term, including Space Force, which has turned out to be very important. And now we're using it. We won in Venezuela, which is now working with nobody's ever seen it. We're taking millions and millions of barrels of oil out every single week,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "taking millions and millions of barrels of oil out every single week",
+    "summary": "The President claims large-scale oil extraction from Venezuela under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about Venezuelan oil extraction doesn't clearly change US energy sector fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Claims of large new oil supply coming online from Venezuela could be seen as modestly bearish for oil prices via increased global supply.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's boast about extracting large volumes of Venezuelan oil is rhetorical and largely already known, implying at most a mild supply-side negative for oil prices (USO) with little clear effect on the broader energy sector (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about Venezuelan oil extraction doesn't clearly change US energy sector fundamentals.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Claims of large new oil supply coming online from Venezuela could be seen as modestly bearish for oil prices via increased global supply.\", \"added\": false}], \"summary\": \"The President's boast about extracting large volumes of Venezuelan oil is rhetorical and largely already known, implying at most a mild supply-side negative for oil prices (USO) with little clear effect on the broader energy sector (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:03683:iran",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 3683.1353703703708,
+   "t_wall": 1786736824.1353703,
+   "t_wall_et": "2026-08-14T15:47:04.135370-04:00",
+   "segment_text": "Of Iran. Nobody has any idea how successful we are. They don't wanna ride it, but",
+   "context": "I built it during my I built it. I built it during my 1st term, including Space Force, which has turned out to be very important. And now we're using it. We won in Venezuela, which is now working with nobody's ever seen it. We're taking millions and millions of barrels of oil out every single week, and we're likewise winning big with the Islamic Republic Of Iran. Nobody has any idea how successful we are. They don't wanna ride it, but",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "winning big with the Islamic Republic Of Iran",
+    "summary": "The President claims major success with Iran, linked to oil production gains."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Vague claims about Venezuela oil output and Iran conflict outcomes don't provide new tradeable info on US energy sector fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Rhetoric about Venezuelan oil extraction and Iran's military collapse is not a clear new supply/demand catalyst for crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Boasting about largest-ever defense investment and military dominance over Iran reinforces expectations of continued high defense spending benefiting aerospace/defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical claims about tariffs, military success, and Iran's weakened state without new specific policy numbers; defense sector sentiment is mildly reinforced while energy tickers see no clear new catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Vague claims about Venezuela oil output and Iran conflict outcomes don't provide new tradeable info on US energy sector fundamentals.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about Venezuelan oil extraction and Iran's military collapse is not a clear new supply/demand catalyst for crude prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Boasting about largest-ever defense investment and military dominance over Iran reinforces expectations of continued high defense spending benefiting aerospace/defense contractors.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical claims about tariffs, military success, and Iran's weakened state without new specific policy numbers; defense sector sentiment is mildly reinforced while energy tickers see no clear new catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "BRGrk3Bw_P0:03907:health_ins",
+   "video_id": "BRGrk3Bw_P0",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "insurance companies",
+   "text_span": "insurance companies",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3907.6895847328246,
+   "t_wall": 1786737048.6895847,
+   "t_wall_et": "2026-08-14T15:50:48.689585-04:00",
+   "segment_text": "to stop all payments to big insurance companies. We'll give you have to understand, the insurance companies are totally controlled,",
+   "context": "We will never abolish the police instead. We will abolish the sanctuary cities. We will abolish them. We will destroy them. We will take them out. We're gonna take them out of service, and we will immediately end no cash bail. We will pass the great health care plan to stop all payments to big insurance companies. We'll give you have to understand, the insurance companies are totally controlled,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Health insurers",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "We will pass the great health care plan to stop all payments to big insurance companies.",
+    "summary": "The President proposes healthcare plan to restrict payments to major health insurers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric against insurers redirecting subsidies away from companies is negative but lacks specific new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same sector-wide threat to reduce payments to insurers applies broadly to Cigna.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Elevance faces similar exposure to reduced government/insurer payment flows if plan advances.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Humana, heavily reliant on government-linked insurance payments, is similarly threatened by rhetoric to cut insurer funding.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated rhetoric about redirecting insurance company payments to individuals is mildly negative for major health insurers, though it restates known policy themes without new specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric against insurers redirecting subsidies away from companies is negative but lacks specific new policy detail.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same sector-wide threat to reduce payments to insurers applies broadly to Cigna.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Elevance faces similar exposure to reduced government/insurer payment flows if plan advances.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Humana, heavily reliant on government-linked insurance payments, is similarly threatened by rhetoric to cut insurer funding.\", \"added\": false}], \"summary\": \"The President's repeated rhetoric about redirecting insurance company payments to individuals is mildly negative for major health insurers, though it restates known policy themes without new specifics.\"}"
+   }
+  }
+ ]
+}

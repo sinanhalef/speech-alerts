@@ -1,0 +1,3072 @@
+{
+ "video": {
+  "id": "eDOKTKbcJC4",
+  "url": "https://www.youtube.com/watch?v=eDOKTKbcJC4",
+  "title": "The President Delivers Keynote Remarks at APEC CEOs Luncheon",
+  "channel": "The White House",
+  "duration": 2661.0,
+  "was_live": true,
+  "release_timestamp": 1761710112.0,
+  "upload_timestamp": 1761713715.0,
+  "upload_date": "20251029",
+  "label": "Delivers Keynote Remarks at APEC CEOs Luncheon",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1761710112.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 49,
+  "confirmed": 42,
+  "retracted": 7,
+  "unconfirmed": 0,
+  "llm_calls": 54
+ },
+ "signals": [
+  {
+   "signal_id": "eDOKTKbcJC4:00384:stock_market",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 384.2,
+   "t_wall": 1761710496.2,
+   "t_wall_et": "2025-10-29T00:01:36.200000-04:00",
+   "segment_text": "policy. We have some very good things happening. The stock market, as you know, has set,",
+   "context": "we're gonna be 18, so I figured that we'll probably be at 20 or 21, maybe even $22,000,000,000,000 of investments coming into our country by the end of the 1st year of my my 2nd term. And, you know, we had a tremendously successful 1st term. We had the strongest economy in history for our country, strongest we ever had. But this is, I think, blowing it away. We have great policy. We have some very good things happening. The stock market, as you know, has set,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "The stock market, as you know, has set",
+    "summary": "The President states the stock market has set records, implying strong performance."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about record highs and economic strength is already known and not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad market praise applies to tech-heavy index, no new tariff or sector-specific news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic bullish rhetoric on economy and stocks, nothing new for industrial-heavy index.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are self-congratulatory rhetoric about record markets and GDP growth, restating known facts with no new policy or company-specific catalysts, so broad index ETFs should see negligible abnormal reaction.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about record highs and economic strength is already known and not new information.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same broad market praise applies to tech-heavy index, no new tariff or sector-specific news.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic bullish rhetoric on economy and stocks, nothing new for industrial-heavy index.\", \"added\": false}], \"summary\": \"The President's comments are self-congratulatory rhetoric about record markets and GDP growth, restating known facts with no new policy or company-specific catalysts, so broad index ETFs should see negligible abnormal reaction.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00455:tm",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 455.5846385542169,
+   "t_wall": 1761710567.5846386,
+   "t_wall_et": "2025-10-29T00:02:47.584639-04:00",
+   "segment_text": "And after that, I mean, I can't even predict because when all of these factories that are moving in, the car plants are moving in. Yesterday, I was with mister Toyota",
+   "context": "We're up 3.8% GDP triple and even quadruple the rate that a lot of people thought we'd be. They thought that during this period that we'd be at a much lower rate. Some people predicted 1, 1.5, and we're gonna be very close to 4. The next 0.25, we're expected to be at about 4% growth. And after that, I mean, I can't even predict because when all of these factories that are moving in, the car plants are moving in. Yesterday, I was with mister Toyota",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Yesterday, I was with mister Toyota",
+    "summary": "The President met with Toyota representative; car plants moving into US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President highlighted Toyota's newly announced $10B US plant investment across several states, a positive domestic expansion signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts Toyota's $10B US manufacturing investment as evidence of reshoring, a mildly positive catalyst for Toyota shares though largely rhetorical/macro in nature.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President highlighted Toyota's newly announced $10B US plant investment across several states, a positive domestic expansion signal.\", \"added\": false}], \"summary\": \"The President touts Toyota's $10B US manufacturing investment as evidence of reshoring, a mildly positive catalyst for Toyota shares though largely rhetorical/macro in nature.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00456:japan",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 456.3883333333333,
+   "t_wall": 1761710568.3883333,
+   "t_wall_et": "2025-10-29T00:02:48.388333-04:00",
+   "segment_text": "in Japan, and he's",
+   "context": "GDP triple and even quadruple the rate that a lot of people thought we'd be. They thought that during this period that we'd be at a much lower rate. Some people predicted 1, 1.5, and we're gonna be very close to 4. The next 0.25, we're expected to be at about 4% growth. And after that, I mean, I can't even predict because when all of these factories that are moving in, the car plants are moving in. Yesterday, I was with mister Toyota in Japan, and he's",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Yesterday, I was with mister Toyota in Japan",
+    "summary": "The President met with Toyota executive in Japan; discusses factory investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General praise of Toyota investment in US plants is not a clear driver for a broad Japan equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark centers on Toyota's US factory investment and broad US economic boasting, with no material new policy news specifically affecting Japan-wide equities (EWJ).",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General praise of Toyota investment in US plants is not a clear driver for a broad Japan equity ETF.\", \"added\": false}], \"summary\": \"Remark centers on Toyota's US factory investment and broad US economic boasting, with no material new policy news specifically affecting Japan-wide equities (EWJ).\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00491:oil",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "Gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 491.47998,
+   "t_wall": 1761710603.47998,
+   "t_wall_et": "2025-10-29T00:03:23.479980-04:00",
+   "segment_text": "Gasoline prices are down. Grocery prices are down.",
+   "context": "and they're gonna build new car plants, and they're gonna build them in numerous states, about 6 or 7 different states. And we're bringing our car industry back. We're bringing AI. We're leading everybody in AI. We're leading every nation in AI by, actually, by a lot. In 9 months, we've lifted over 600,000 Americans off food stamps. Wages for workers are rising at the fastest pace in more than 60 years. And meanwhile, energy prices are down. Gasoline prices are down. Grocery prices are down.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "Gasoline prices are down.",
+    "summary": "The President claims gasoline prices have declined under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touting falling gasoline prices implies lower oil price/margin backdrop, mildly negative for energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Falling gasoline/energy prices rhetoric implies soft crude prices, mildly negative for oil price ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on low energy prices is not a specific policy action affecting Exxon directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or company-specific news for Chevron, just repeated macro rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated familiar talking points about falling gasoline and energy prices as evidence of economic success, which is mildly negative for energy-price-linked assets (XLE, USO) but not a new or material catalyst for individual majors like XOM or CVX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touting falling gasoline prices implies lower oil price/margin backdrop, mildly negative for energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Falling gasoline/energy prices rhetoric implies soft crude prices, mildly negative for oil price ETF.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General commentary on low energy prices is not a specific policy action affecting Exxon directly.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or company-specific news for Chevron, just repeated macro rhetoric.\", \"added\": false}], \"summary\": \"The President repeated familiar talking points about falling gasoline and energy prices as evidence of economic success, which is mildly negative for energy-price-linked assets (XLE, USO) but not a new or material catalyst for individual majors like XOM or CVX.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00495:housing",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "housing",
+   "entity": "Homebuilders",
+   "kind": "sector",
+   "alias": "mortgage rates",
+   "text_span": "Mortgage rates",
+   "dict_tickers": [
+    "XHB",
+    "ITB",
+    "LEN",
+    "DHI"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 495.0,
+   "t_wall": 1761710607.0,
+   "t_wall_et": "2025-10-29T00:03:27-04:00",
+   "segment_text": "Mortgage rates are down despite the fact that we have an incompetent head of the Fed. He's incompetent.",
+   "context": "and they're gonna build new car plants, and they're gonna build them in numerous states, about 6 or 7 different states. And we're bringing our car industry back. We're bringing AI. We're leading everybody in AI. We're leading every nation in AI by, actually, by a lot. In 9 months, we've lifted over 600,000 Americans off food stamps. Wages for workers are rising at the fastest pace in more than 60 years. And meanwhile, energy prices are down. Gasoline prices are down. Grocery prices are down. Mortgage rates are down despite the fact that we have an incompetent head of the Fed. He's incompetent.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mortgage rates",
+    "tickers": [
+     "XHB",
+     "ITB",
+     "LEN",
+     "DHI"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Mortgage rates are down",
+    "summary": "The President claims mortgage rates have declined despite Fed incompetence."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XHB",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Claim of falling mortgage rates is mildly supportive of homebuilder sentiment but restates known trend.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITB",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower mortgage rates narrative supports homebuilder demand outlook but is not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LEN",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Falling mortgage rates could modestly boost homebuyer affordability sentiment for large builders.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DHI",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar mild tailwind from mortgage rate commentary, already well known trend.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark on falling mortgage rates is a mild, repeat-nature positive for homebuilders, with no new policy or numeric disclosure moving the market meaningfully.",
+    "raw": "```json\n{\"tickers\": [{\"ticker\": \"XHB\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Claim of falling mortgage rates is mildly supportive of homebuilder sentiment but restates known trend.\", \"added\": false}, {\"ticker\": \"ITB\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower mortgage rates narrative supports homebuilder demand outlook but is not new information.\", \"added\": false}, {\"ticker\": \"LEN\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Falling mortgage rates could modestly boost homebuyer affordability sentiment for large builders.\", \"added\": false}, {\"ticker\": \"DHI\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar mild tailwind from mortgage rate commentary, already well known trend.\", \"added\": false}], \"summary\": \"The President's remark on falling mortgage rates is a mild, repeat-nature positive for homebuilders, with no new policy or numeric disclosure moving the market meaningfully.\"}\n```"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00498:fed",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "the fed",
+   "text_span": "the Fed",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 498.5883495145631,
+   "t_wall": 1761710610.5883496,
+   "t_wall_et": "2025-10-29T00:03:30.588350-04:00",
+   "segment_text": "Mortgage rates are down despite the fact that we have an incompetent head of the Fed. He's incompetent.",
+   "context": "and they're gonna build new car plants, and they're gonna build them in numerous states, about 6 or 7 different states. And we're bringing our car industry back. We're bringing AI. We're leading everybody in AI. We're leading every nation in AI by, actually, by a lot. In 9 months, we've lifted over 600,000 Americans off food stamps. Wages for workers are rising at the fastest pace in more than 60 years. And meanwhile, energy prices are down. Gasoline prices are down. Grocery prices are down. Mortgage rates are down despite the fact that we have an incompetent head of the Fed. He's incompetent.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "incompetent head of the Fed. He's incompetent.",
+    "summary": "The President criticizes Federal Reserve leadership as incompetent."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's push for lower rates and criticism of Powell signals pressure toward rate cuts, mildly bullish for bonds.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fed criticism is repeated rhetoric with unclear net effect on bank earnings from lower rates vs. margin compression.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks similarly face mixed effects from potential rate cuts, no new policy information given.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated familiar criticism of Fed Chair Powell and calls for lower rates, a repeat rhetorical point with limited new information; mildly supportive for long-duration bonds (TLT) but ambiguous for bank sector ETFs (XLF, KRE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's push for lower rates and criticism of Powell signals pressure toward rate cuts, mildly bullish for bonds.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fed criticism is repeated rhetoric with unclear net effect on bank earnings from lower rates vs. margin compression.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks similarly face mixed effects from potential rate cuts, no new policy information given.\", \"added\": false}], \"summary\": \"The President reiterated familiar criticism of Fed Chair Powell and calls for lower rates, a repeat rhetorical point with limited new information; mildly supportive for long-duration bonds (TLT) but ambiguous for bank sector ETFs (XLF, KRE).\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00633:steel",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 633.1199724369748,
+   "t_wall": 1761710745.1199725,
+   "t_wall_et": "2025-10-29T00:05:45.119972-04:00",
+   "segment_text": "productivity is rising 5 times faster than it was just 1 year ago. Think of that. Steel production is way up by 155,000",
+   "context": "and now we're down to a very low rate of inflation, 2.7%, and it's gonna be a little bit lower than that. It's almost a perfect number. Believe it or not, you don't wanna have 0. You wanna have, like, 1% to 2%, and we're very close to that number. But we had inflation, the worst in the history of our country. But factories are booming in The USA, and manufacturing productivity is rising 5 times faster than it was just 1 year ago. Think of that. Steel production is way up by 155,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "Steel production is way up by 155,000",
+    "summary": "The President states U.S. steel production has increased significantly by 155,000 units."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of rising US steel production is mildly supportive of domestic steel producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on US steel output modestly supports domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Boosting domestic steel narrative is mildly positive for Cleveland-Cliffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bullish comments on US steel production support Steel Dynamics sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF for steel benefits from positive rhetoric on US steel output.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts rising US steel production as part of broader manufacturing boom rhetoric; this is repeat/no-new-info but mildly positive sentiment for domestic steel producers and the steel sector ETF, with low-to-moderate confidence given lack of new policy specifics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise of rising US steel production is mildly supportive of domestic steel producers.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Positive rhetoric on US steel output modestly supports domestic steelmakers.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Boosting domestic steel narrative is mildly positive for Cleveland-Cliffs.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General bullish comments on US steel production support Steel Dynamics sentiment.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Sector ETF for steel benefits from positive rhetoric on US steel output.\",\"added\":false}],\"summary\":\"The President touts rising US steel production as part of broader manufacturing boom rhetoric; this is repeat/no-new-info but mildly positive sentiment for domestic steel producers and the steel sector ETF, with low-to-moderate confidence given lack of new policy specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00636:oil_strong",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil production",
+   "text_span": "Oil production",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 636.8879533333334,
+   "t_wall": 1761710748.8879533,
+   "t_wall_et": "2025-10-29T00:05:48.887953-04:00",
+   "segment_text": "tons a week. Oil production is through the roof by 500000 barrels a day,",
+   "context": "and it's gonna be a little bit lower than that. It's almost a perfect number. Believe it or not, you don't wanna have 0. You wanna have, like, 1% to 2%, and we're very close to that number. But we had inflation, the worst in the history of our country. But factories are booming in The USA, and manufacturing productivity is rising 5 times faster than it was just 1 year ago. Think of that. Steel production is way up by 155,000 tons a week. Oil production is through the roof by 500000 barrels a day,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil production",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "Oil production is through the roof by 500000 barrels a day",
+    "summary": "The President claims US oil production has increased by 500,000 barrels daily."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of rising US oil production is old news and reflects supply growth, which is not clearly bullish for energy equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Touting higher US oil output implies more supply, which if anything is mildly bearish for oil prices, offsetting any sentiment boost.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are largely repeat rhetoric on economic strength and oil/coal production growth; the oil production claim restates known trends and has ambiguous, non-actionable impact on energy tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise of rising US oil production is old news and reflects supply growth, which is not clearly bullish for energy equities.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Touting higher US oil output implies more supply, which if anything is mildly bearish for oil prices, offsetting any sentiment boost.\",\"added\":false}],\"summary\":\"The President's comments are largely repeat rhetoric on economic strength and oil/coal production growth; the oil production claim restates known trends and has ambiguous, non-actionable impact on energy tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00642:coal_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 642.8138058823529,
+   "t_wall": 1761710754.8138058,
+   "t_wall_et": "2025-10-29T00:05:54.813806-04:00",
+   "segment_text": "and mining of clean beautiful coal. I call it clean beautiful coal is up by 2,600,000",
+   "context": "Believe it or not, you don't wanna have 0. You wanna have, like, 1% to 2%, and we're very close to that number. But we had inflation, the worst in the history of our country. But factories are booming in The USA, and manufacturing productivity is rising 5 times faster than it was just 1 year ago. Think of that. Steel production is way up by 155,000 tons a week. Oil production is through the roof by 500000 barrels a day, and mining of clean beautiful coal. I call it clean beautiful coal is up by 2,600,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "mining of clean beautiful coal is up by 2,600,000",
+    "summary": "Coal mining output increased 2.6 million tons; The President praised sector."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President touted rising coal production, mildly positive for coal miners like Peabody.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General praise for coal sector growth supports metallurgical/thermal coal producer Arch Resources.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Alpha Metallurgical benefits modestly from positive coal sector rhetoric and production stats.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted rising US coal output as part of his economic boasting, which is mildly positive sentiment for domestic coal producers, though the figures are not new policy and effect is likely small and short-lived.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President touted rising coal production, mildly positive for coal miners like Peabody.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General praise for coal sector growth supports metallurgical/thermal coal producer Arch Resources.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Alpha Metallurgical benefits modestly from positive coal sector rhetoric and production stats.\", \"added\": false}], \"summary\": \"The President highlighted rising US coal output as part of his economic boasting, which is mildly positive sentiment for domestic coal producers, though the figures are not new policy and effect is likely small and short-lived.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00645:defense_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 645.5413082352941,
+   "t_wall": 1761710757.5413082,
+   "t_wall_et": "2025-10-29T00:05:57.541308-04:00",
+   "segment_text": "and mining of clean beautiful coal. I call it clean beautiful coal is up by 2,600,000",
+   "context": "inflation, the worst in the history of our country. But factories are booming in The USA, and manufacturing productivity is rising 5 times faster than it was just 1 year ago. Think of that. Steel production is way up by 155,000 tons a week. Oil production is through the roof by 500000 barrels a day, and mining of clean beautiful coal. I call it clean beautiful coal is up by 2,600,000 tons every single month, and we brought coal back into the picture. What you can do with coal today is incredible. So I call it clean beautiful I don't use the word coal. I'd say because it's got a little bit of a problem public relations wise, the word.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00672:chips",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductor",
+   "text_span": "semiconductor",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 672.1139027777779,
+   "t_wall": 1761710784.1139028,
+   "t_wall_et": "2025-10-29T00:06:24.113903-04:00",
+   "segment_text": "Even semiconductor",
+   "context": "and mining of clean beautiful coal. I call it clean beautiful coal is up by 2,600,000 tons every single month, and we brought coal back into the picture. What you can do with coal today is incredible. So I call it clean beautiful I don't use the word coal. I'd say because it's got a little bit of a problem public relations wise, the word. So we call it clean beautiful. My administration's not allowed to use the word coal. They have to say clean beautiful coal. We've given it a new name. It's a 3 name. It's a 3 name deal. Even semiconductor manufacturing is rapidly returning to The United States.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "semiconductor manufacturing is rapidly returning to The United States",
+    "summary": "The President claims semiconductor manufacturing is rapidly returning to the US."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General positive rhetoric on US semiconductor reshoring supports sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same sector tailwind as SMH from reshoring narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Direct praise and claim of first US-made Blackwell chip is a positive, though largely already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not specifically mentioned; benefits only indirectly from general reshoring rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on US semiconductor reshoring and praise for Nvidia/TSMC's US-made Blackwell chip are mildly positive for chip stocks, especially NVDA, with broader sector ETFs benefiting modestly; mostly reiterates known trends rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General positive rhetoric on US semiconductor reshoring supports sector sentiment.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same sector tailwind as SMH from reshoring narrative.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Direct praise and claim of first US-made Blackwell chip is a positive, though largely already known.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not specifically mentioned; benefits only indirectly from general reshoring rhetoric.\", \"added\": false}], \"summary\": \"The President's remarks on US semiconductor reshoring and praise for Nvidia/TSMC's US-made Blackwell chip are mildly positive for chip stocks, especially NVDA, with broader sector ETFs benefiting modestly; mostly reiterates known trends rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00676:nvda",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 676.66,
+   "t_wall": 1761710788.66,
+   "t_wall_et": "2025-10-29T00:06:28.660000-04:00",
+   "segment_text": "Nvidia and TSMC",
+   "context": "and we brought coal back into the picture. What you can do with coal today is incredible. So I call it clean beautiful I don't use the word coal. I'd say because it's got a little bit of a problem public relations wise, the word. So we call it clean beautiful. My administration's not allowed to use the word coal. They have to say clean beautiful coal. We've given it a new name. It's a 3 name. It's a 3 name deal. Even semiconductor manufacturing is rapidly returning to The United States. Nvidia and TSMC",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "semiconductor manufacturing is rapidly returning to The United States. Nvidia",
+    "summary": "The President credits Nvidia with semiconductor manufacturing returning to US."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive mention of Nvidia's US-made Blackwell chip reinforces existing bullish narrative but adds little new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised Nvidia and TSMC for producing a US-made Blackwell chip, a mildly positive but largely already-known development for NVDA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive mention of Nvidia's US-made Blackwell chip reinforces existing bullish narrative but adds little new information.\", \"added\": false}], \"summary\": \"The President praised Nvidia and TSMC for producing a US-made Blackwell chip, a mildly positive but largely already-known development for NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00678:tsm",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "tsm",
+   "entity": "TSMC",
+   "kind": "company",
+   "alias": "tsmc",
+   "text_span": "TSMC",
+   "dict_tickers": [
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 678.0093333333333,
+   "t_wall": 1761710790.0093334,
+   "t_wall_et": "2025-10-29T00:06:30.009333-04:00",
+   "segment_text": "Nvidia and TSMC",
+   "context": "and we brought coal back into the picture. What you can do with coal today is incredible. So I call it clean beautiful I don't use the word coal. I'd say because it's got a little bit of a problem public relations wise, the word. So we call it clean beautiful. My administration's not allowed to use the word coal. They have to say clean beautiful coal. We've given it a new name. It's a 3 name. It's a 3 name deal. Even semiconductor manufacturing is rapidly returning to The United States. Nvidia and TSMC",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TSMC",
+    "tickers": [
+     "TSM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "semiconductor manufacturing is rapidly returning to The United States. TSMC",
+    "summary": "The President cites TSMC as part of semiconductor manufacturing shift to US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive mention of TSMC's US chip production milestone reinforces its US expansion narrative but is not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised TSMC's first US-made Blackwell chip as evidence of reshoring, a mildly positive but largely already-known narrative for TSM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive mention of TSMC's US chip production milestone reinforces its US expansion narrative but is not new information.\", \"added\": false}], \"summary\": \"The President praised TSMC's first US-made Blackwell chip as evidence of reshoring, a mildly positive but largely already-known narrative for TSM.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00712:chips_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "chips_word",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chip",
+   "text_span": "chip",
+   "dict_tickers": [
+    "SMH",
+    "SOXX"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "market",
+    "plants",
+    "tremendous"
+   ],
+   "t_audio": 712.9533914285714,
+   "t_wall": 1761710824.9533913,
+   "t_wall_et": "2025-10-29T00:07:04.953391-04:00",
+   "segment_text": "Texas, all over. We're gonna have a big portion of the chip market just in a very short period of time, but these tremendous strides are also creating great jobs for our citizens. 1,900,000",
+   "context": "might be here. I don't even know. Is Jensen here? I think he's around. Somebody said he's here. He's how how is he? Pretty good. Right? Got a chip got a chip that's, like, 10 years advanced, but he's great. And they're all, you know, building now. They're building tremendous plants in The United States, Arizona, Texas, all over. We're gonna have a big portion of the chip market just in a very short period of time, but these tremendous strides are also creating great jobs for our citizens. 1,900,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "building tremendous plants in United States, Arizona, Texas",
+    "summary": "The President praises semiconductor manufacturing expansion in US with major job creation."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises US semiconductor manufacturing expansion including NVDA/TSMC, generally positive but restates known trend.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same sector-wide positive sentiment on US chip plant buildout, largely already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's upbeat remarks on US semiconductor manufacturing (Nvidia/TSMC Blackwell chip, new fabs in Arizona/Texas) are mildly positive for chip-sector ETFs but largely reiterate previously known developments, so market impact should be modest.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises US semiconductor manufacturing expansion including NVDA/TSMC, generally positive but restates known trend.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same sector-wide positive sentiment on US chip plant buildout, largely already known.\", \"added\": false}], \"summary\": \"The President's upbeat remarks on US semiconductor manufacturing (Nvidia/TSMC Blackwell chip, new fabs in Arizona/Texas) are mildly positive for chip-sector ETFs but largely reiterate previously known developments, so market impact should be modest.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00727:defense_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 727.1649881818182,
+   "t_wall": 1761710839.1649883,
+   "t_wall_et": "2025-10-29T00:07:19.164988-04:00",
+   "segment_text": "than when I took office 9 months ago. Think of that. Almost 2,000,000 people more American workers.",
+   "context": "they're all, you know, building now. They're building tremendous plants in The United States, Arizona, Texas, all over. We're gonna have a big portion of the chip market just in a very short period of time, but these tremendous strides are also creating great jobs for our citizens. 1,900,000 more American born workers are employed today than when I took office 9 months ago. Think of that. Almost 2,000,000 people more American workers. Nobody's ever had numbers like that, and those numbers are gonna get",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00741:ai_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 741.8233707865168,
+   "t_wall": 1761710853.8233707,
+   "t_wall_et": "2025-10-29T00:07:33.823371-04:00",
+   "segment_text": "open these plants that are being built all over the AI plants. I've never seen plants this big. You know? I built shopping centers. I built a lot of things. But if you spend 250,",
+   "context": "Texas, all over. We're gonna have a big portion of the chip market just in a very short period of time, but these tremendous strides are also creating great jobs for our citizens. 1,900,000 more American born workers are employed today than when I took office 9 months ago. Think of that. Almost 2,000,000 people more American workers. Nobody's ever had numbers like that, and those numbers are gonna get much bigger, much better than that when we when we open these plants that are being built all over the AI plants. I've never seen plants this big. You know? I built shopping centers. I built a lot of things. But if you spend 250,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "AI plants being built all over, tremendous strides creating great jobs",
+    "summary": "The President highlights large AI manufacturing plants under construction across US, creating American jobs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Nvidia's Blackwell chip made in USA and its expanding US plants, a mild positive but largely known narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General positive rhetoric on US chip manufacturing and AI buildout supports semiconductor sector sentiment broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Nvidia's US-made chip and broader AI plant construction is mildly positive but reiterates known trends, warranting modest, low-confidence upside for NVDA and SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Nvidia's Blackwell chip made in USA and its expanding US plants, a mild positive but largely known narrative.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General positive rhetoric on US chip manufacturing and AI buildout supports semiconductor sector sentiment broadly.\", \"added\": false}], \"summary\": \"The President's praise of Nvidia's US-made chip and broader AI plant construction is mildly positive but reiterates known trends, warranting modest, low-confidence upside for NVDA and SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:00917:defense",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "shipbuilding",
+   "text_span": "shipbuilding",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 917.9390384615384,
+   "t_wall": 1761711029.9390385,
+   "t_wall_et": "2025-10-29T00:10:29.939039-04:00",
+   "segment_text": "and we have a very special relationship, a special bond. In fact, we're working with you on shipbuilding",
+   "context": "I mean, it's really been amazing, and it allows people to start building immediately, and they can't blame government. They won't blame me because I didn't produce enough out of the grid that's 200 years old. So we have more people now working than at any time in the history of our country, and we've sort of just begun. It's hard to believe, actually, if you knew where we were 2 years ago. All of this is incredible news for Americans and for nations around the globe, and it it is for South Korea because we're partners. We're serious partners. We're really we're wedded, and we have a very special relationship, a special bond. In fact, we're working with you on shipbuilding",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "shipbuilding",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "LMT",
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "we're working with you on shipbuilding",
+    "summary": "U.S. and South Korea partnering on shipbuilding collaboration."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "GD owns NASSCO shipyard and could benefit from a US shipbuilding revival push.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lockheed has minimal shipbuilding exposure, so remark is largely irrelevant.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "RTX has no meaningful shipbuilding business, so limited direct impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Northrop has some naval/shipbuilding-adjacent programs that could benefit modestly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad defense ETF gets slight lift from renewed shipbuilding/defense industrial policy rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Aerospace/defense ETF benefits marginally from positive US industrial policy tone.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm US-South Korea shipbuilding cooperation and a broader push to revive US shipbuilding, mildly positive for defense-industrial names with shipyard exposure like GD and defense ETFs, but largely repeat rhetoric with limited new tradeable information for pure aerospace/defense primes like LMT and RTX.",
+    "raw": "{\"tickers\":[\n{\"ticker\":\"GD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"GD owns NASSCO shipyard and could benefit from a US shipbuilding revival push.\",\"added\":false},\n{\"ticker\":\"LMT\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Lockheed has minimal shipbuilding exposure, so remark is largely irrelevant.\",\"added\":false},\n{\"ticker\":\"RTX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"RTX has no meaningful shipbuilding business, so limited direct impact.\",\"added\":false},\n{\"ticker\":\"NOC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Northrop has some naval/shipbuilding-adjacent programs that could benefit modestly.\",\"added\":false},\n{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad defense ETF gets slight lift from renewed shipbuilding/defense industrial policy rhetoric.\",\"added\":false},\n{\"ticker\":\"XAR\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Aerospace/defense ETF benefits marginally from positive US industrial policy tone.\",\"added\":false}\n],\n\"summary\":\"The President's remarks reaffirm US-South Korea shipbuilding cooperation and a broader push to revive US shipbuilding, mildly positive for defense-industrial names with shipyard exposure like GD and defense ETFs, but largely repeat rhetoric with limited new tradeable information for pure aerospace/defense primes like LMT and RTX.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01045:defense_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1045.84,
+   "t_wall": 1761711157.84,
+   "t_wall_et": "2025-10-29T00:12:37.840000-04:00",
+   "segment_text": "2,700",
+   "context": "a whole thing too big, you have to say, too big to rig. We didn't want any rigging. We had these great polls going in. I said, don't believe the polls. Pretend we're 1 point down. Always assume we're 1 point down and everybody voted we won in a landslide. We won all 7 swing states. You have to win the swing states, and we won all 7, which is something that rarely happens. But to win the popular vote by millions, we won we won everything you can win, the electoral college by tremendous amount. We won in counties. They have counties, of counties, and we were 2,700 compared to 500, 525",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01122:oil",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1122.698039037433,
+   "t_wall": 1761711234.698039,
+   "t_wall_et": "2025-10-29T00:13:54.698039-04:00",
+   "segment_text": "But we will have the best tax rates, the lowest energy costs. We have the lowest energy. We have tremendous amounts of energy more than anybody else. We have the most oil and gas and coal",
+   "context": "We want everything good, but it's gonna go quickly. We're rewarding those who build and create and hire and invest in The USA, and we're making America the best place on earth to do business, and that's what it's become very quickly. We have some wonderful people. Lee Zeldin at Environmental. He's incredible. He gets the he gets the right result quickly, and he makes sure that people do the right thing. But we will have the best tax rates, the lowest energy costs. We have the lowest energy. We have tremendous amounts of energy more than anybody else. We have the most oil and gas and coal",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have the most oil and gas and coal",
+    "summary": "The President praised US oil, gas, and coal reserves as abundant energy advantages."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise of US energy abundance restates known policy stance without new action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "No new supply, demand, or price information affecting oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.51,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for domestic oil/gas is mildly favorable but not new or specific enough to move shares.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.51,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic pro-energy rhetoric, no policy specifics benefiting Chevron directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on US energy dominance are broad, repeated rhetoric with no new policy or numbers, so minimal expected price impact on energy tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical praise of US energy abundance restates known policy stance without new action.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"No new supply, demand, or price information affecting oil prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.51, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for domestic oil/gas is mildly favorable but not new or specific enough to move shares.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.51, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic pro-energy rhetoric, no policy specifics benefiting Chevron directly.\", \"added\": false}], \"summary\": \"The President's comments on US energy dominance are broad, repeated rhetoric with no new policy or numbers, so minimal expected price impact on energy tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01193:korea",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 1193.010652173913,
+   "t_wall": 1761711305.010652,
+   "t_wall_et": "2025-10-29T00:15:05.010652-04:00",
+   "segment_text": "and South Korea is buying a lot of our weapons. We make the best. We have the planes and the ever just about everything other than ships, so we'll be there very shortly with ships too.",
+   "context": "We don't stand for excuses and says yes to big ideas and bold initiatives and grand ambitions so that America can have great industries, great dreams, and to be the greatest nation on earth, which is where we are now, actually, in a very short period of time. We're rebuilding things that are incredible. We have the strongest military in the world. We have the best equipment. We have the best manufacturers of equipment, and South Korea is buying a lot of our weapons. We make the best. We have the planes and the ever just about everything other than ships, so we'll be there very shortly with ships too.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "South Korea is buying a lot of our weapons.",
+    "summary": "South Korea purchasing U.S. military equipment and weapons."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about South Korea buying US weapons is favorable for US defense exporters but not particularly bearish or bullish for the broad Korean equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark praises South Korea's arms purchases from the US, which is positive for US defense manufacturers (e.g., Lockheed, RTX) but has no clear directional implication for the broad South Korea equity ETF EWY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about South Korea buying US weapons is favorable for US defense exporters but not particularly bearish or bullish for the broad Korean equity ETF.\", \"added\": false}], \"summary\": \"The remark praises South Korea's arms purchases from the US, which is positive for US defense manufacturers (e.g., Lockheed, RTX) but has no clear directional implication for the broad South Korea equity ETF EWY.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01216:aluminum",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1216.6848607407408,
+   "t_wall": 1761711328.6848607,
+   "t_wall_et": "2025-10-29T00:15:28.684861-04:00",
+   "segment_text": "I always say you need steel. You need aluminum. You need this there's certain there are things you don't need. A lot of things that are",
+   "context": "rebuilding things that are incredible. We have the strongest military in the world. We have the best equipment. We have the best manufacturers of equipment, and South Korea is buying a lot of our weapons. We make the best. We have the planes and the ever just about everything other than ships, so we'll be there very shortly with ships too. But the only reason it's not ships because, I don't know, for some reason they stopped doing that. I guess they went on to other businesses, but there's some basics in life and 1 of the things you need is ships. I always say you need steel. You need aluminum. You need this there's certain there are things you don't need. A lot of things that are",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "you need steel. You need aluminum.",
+    "summary": "The President identifies aluminum as a fundamental material necessity for national strength."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated emphasis on aluminum as strategic necessity supports domestic producers via tariff protection narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CENX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a pure-play domestic aluminum producer, CENX benefits from reiterated tariff/national security rhetoric on aluminum.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's general rhetoric reaffirming steel and aluminum as strategic necessities and tariff-protected industries is mildly positive for domestic aluminum producers AA and CENX, though it is repeat rhetoric rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated emphasis on aluminum as strategic necessity supports domestic producers via tariff protection narrative.\", \"added\": false}, {\"ticker\": \"CENX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a pure-play domestic aluminum producer, CENX benefits from reiterated tariff/national security rhetoric on aluminum.\", \"added\": false}], \"summary\": \"The President's general rhetoric reaffirming steel and aluminum as strategic necessities and tariff-protected industries is mildly positive for domestic aluminum producers AA and CENX, though it is repeat rhetoric rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01403:defense_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approved",
+    "plant",
+    "plants",
+    "tremendous"
+   ],
+   "t_audio": 1403.1576451327433,
+   "t_wall": 1761711515.1576452,
+   "t_wall_et": "2025-10-29T00:18:35.157645-04:00",
+   "segment_text": "there were 2 plants, and 1 was financed by a tremendous group of Japanese investors and was about $16,000,000,000",
+   "context": "an administration to get something approved, and now it's a process that will take, generally speaking, less than 28 days. In addition, across government, we're guaranteeing a rapid and expedited regulatory review for all new projects in The United States, and that's worth billions and billions of dollars to industry. You spent more money on trying to get something approved than you do in building the plant itself. You know, in Louisiana, my 1st term, there were 2 plants, and 1 was financed by a tremendous group of Japanese investors and was about $16,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01407:japan",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japanese",
+   "text_span": "Japanese",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants",
+    "tremendous"
+   ],
+   "t_audio": 1407.269721238938,
+   "t_wall": 1761711519.2697213,
+   "t_wall_et": "2025-10-29T00:18:39.269721-04:00",
+   "segment_text": "there were 2 plants, and 1 was financed by a tremendous group of Japanese investors and was about $16,000,000,000",
+   "context": "an administration to get something approved, and now it's a process that will take, generally speaking, less than 28 days. In addition, across government, we're guaranteeing a rapid and expedited regulatory review for all new projects in The United States, and that's worth billions and billions of dollars to industry. You spent more money on trying to get something approved than you do in building the plant itself. You know, in Louisiana, my 1st term, there were 2 plants, and 1 was financed by a tremendous group of Japanese investors and was about $16,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Japanese investors financed $16,000,000,000 plant in Louisiana",
+    "summary": "Japanese investors financed a $16 billion plant in Louisiana during first term."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anecdote about past Japanese LNG investment in Louisiana is historical color, not a new policy affecting Japan equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a repeat of a historical anecdote about past LNG plant approvals and Japanese/Korean investment, not a new policy signal, so no material price effect expected on EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Anecdote about past Japanese LNG investment in Louisiana is historical color, not a new policy affecting Japan equities broadly.\", \"added\": false}], \"summary\": \"The remark is a repeat of a historical anecdote about past LNG plant approvals and Japanese/Korean investment, not a new policy signal, so no material price effect expected on EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01410:natgas",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "lng",
+   "text_span": "LNG",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tremendous"
+   ],
+   "t_audio": 1410.9249,
+   "t_wall": 1761711522.9249,
+   "t_wall_et": "2025-10-29T00:18:42.924900-04:00",
+   "segment_text": "LNG plants. Another 1 was financed by people from South Korea and others.",
+   "context": "we're guaranteeing a rapid and expedited regulatory review for all new projects in The United States, and that's worth billions and billions of dollars to industry. You spent more money on trying to get something approved than you do in building the plant itself. You know, in Louisiana, my 1st term, there were 2 plants, and 1 was financed by a tremendous group of Japanese investors and was about $16,000,000,000 LNG plants. Another 1 was financed by people from South Korea and others.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "LNG (Liquefied Natural Gas)",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "guaranteeing a rapid and expedited regulatory review for all new projects",
+    "summary": "The President promises expedited regulatory review for LNG projects, citing billions in industry value."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Cheniere and similar LNG developers benefit from faster permitting rhetoric, though this restates known deregulatory policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Faster LNG project approvals support upstream gas demand for producers like EQT, a modest positive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "UNG tracks near-term natural gas futures, which are only indirectly and marginally affected by long-term permitting policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates expedited permitting for LNG/energy projects, a mild positive for LNG developers and gas producers but not new news and largely irrelevant to short-term gas price ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Cheniere and similar LNG developers benefit from faster permitting rhetoric, though this restates known deregulatory policy.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Faster LNG project approvals support upstream gas demand for producers like EQT, a modest positive.\", \"added\": false}, {\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"UNG tracks near-term natural gas futures, which are only indirectly and marginally affected by long-term permitting policy.\", \"added\": false}], \"summary\": \"The President reiterates expedited permitting for LNG/energy projects, a mild positive for LNG developers and gas producers but not new news and largely irrelevant to short-term gas price ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01508:defense_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 1508.3021363636362,
+   "t_wall": 1761711620.3021364,
+   "t_wall_et": "2025-10-29T00:20:20.302136-04:00",
+   "segment_text": "creating real jobs. We're getting rid of wasteful jobs. Government spending is down 2.5%",
+   "context": "they've been very, very successful. But think of it, 14 and 15 years, and I got 1 approved in 1 day and 1 approved in 1 week, and they've been doing great, and they've been good for the environment. I've shrunk the size of government for the 1st time in many years since January. 100,000 bureaucrats have left the federal payroll. You've probably seen that. So, we're creating real jobs. We're getting rid of wasteful jobs. Government spending is down 2.5% this 0.25 compared to 1 year ago. It was going through the roof in the previous administration,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01578:tsm",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "tsm",
+   "entity": "TSMC",
+   "kind": "company",
+   "alias": "tsmc",
+   "text_span": "TSMC",
+   "dict_tickers": [
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 1578.8454347826087,
+   "t_wall": 1761711690.8454347,
+   "t_wall_et": "2025-10-29T00:21:30.845435-04:00",
+   "segment_text": "speak for themselves. Since the election, TSMC",
+   "context": "a great country. You don't do that here, and that's not the way. But it's a good way to show good numbers, I'll tell you. You just tell everybody, hire a lot of people. That's what they used to do under the Biden administration, under, Barack Hussein Obama. You had, they'd say, hire hire a lot of people so we can make our numbers look good. I do the opposite. And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TSMC",
+    "tickers": [
+     "TSM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "TSMC has pledged to invest $100,000,000,000 in The United States.",
+    "summary": "TSMC pledged $100 billion investment in the United States since election."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterated TSMC's previously announced $100B US investment pledge, a positive but already-known data point.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark restates TSMC's known $100B US investment commitment as part of broader praise for reshoring investment; positive but not new news, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterated TSMC's previously announced $100B US investment pledge, a positive but already-known data point.\", \"added\": false}], \"summary\": \"The remark restates TSMC's known $100B US investment commitment as part of broader praise for reshoring investment; positive but not new news, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01585:taiwan",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "taiwan",
+   "entity": "Taiwan",
+   "kind": "country",
+   "alias": "taiwan",
+   "text_span": "Taiwan",
+   "dict_tickers": [
+    "EWT",
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "invest",
+    "tremendous"
+   ],
+   "t_audio": 1585.0541780821916,
+   "t_wall": 1761711697.054178,
+   "t_wall_et": "2025-10-29T00:21:37.054178-04:00",
+   "segment_text": "So they're coming in from Taiwan. We have tremendous numbers of companies",
+   "context": "under, Barack Hussein Obama. You had, they'd say, hire hire a lot of people so we can make our numbers look good. I do the opposite. And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Taiwan",
+    "tickers": [
+     "EWT",
+     "TSM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan.",
+    "summary": "TSMC, a Taiwan-based chipmaker, pledged $100 billion investment in the US."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts TSMC's already-announced $100B US investment pledge, positive but old news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EWT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Taiwan ETF exposure to TSMC news is diluted and the investment figure is already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates previously announced TSMC $100B US investment as part of broader investment bragging list; largely repeat information with mild positive tilt for TSM, negligible new information for EWT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts TSMC's already-announced $100B US investment pledge, positive but old news.\", \"added\": false}, {\"ticker\": \"EWT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Taiwan ETF exposure to TSMC news is diluted and the investment figure is already known.\", \"added\": false}], \"summary\": \"The President reiterates previously announced TSMC $100B US investment as part of broader investment bragging list; largely repeat information with mild positive tilt for TSM, negligible new information for EWT.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01591:aapl",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1591.17,
+   "t_wall": 1761711703.17,
+   "t_wall_et": "2025-10-29T00:21:43.170000-04:00",
+   "segment_text": "Apple,",
+   "context": "hire a lot of people so we can make our numbers look good. I do the opposite. And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Apple, $600,000,000,000 investment.",
+    "summary": "The President claims Apple pledged $600 billion US investment."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterated Apple's previously announced $600B US investment pledge, a mild positive but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark restates a known Apple investment pledge already priced in, so expect only a minor positive drift versus the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterated Apple's previously announced $600B US investment pledge, a mild positive but not new information.\", \"added\": false}], \"summary\": \"The remark restates a known Apple investment pledge already priced in, so expect only a minor positive drift versus the market.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01594:hyundai",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "hyundai",
+   "entity": "Hyundai",
+   "kind": "company",
+   "alias": "hyundai",
+   "text_span": "Hyundai",
+   "dict_tickers": [
+    "HYMTF"
+   ],
+   "triggers_nearby": [
+    "investment",
+    "tremendous"
+   ],
+   "t_audio": 1594.37,
+   "t_wall": 1761711706.37,
+   "t_wall_et": "2025-10-29T00:21:46.370000-04:00",
+   "segment_text": "Hyundai,",
+   "context": "hire a lot of people so we can make our numbers look good. I do the opposite. And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Hyundai",
+    "tickers": [
+     "HYMTF"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Hyundai",
+    "summary": "The President mentions Hyundai among companies investing in the US post-election."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HYMTF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates Hyundai's $26B US investment pledge, mildly positive but already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President lists prior investment pledges including Hyundai's $26B US commitment as evidence of trade policy success; this is largely repeat information with modest positive implications for HYMTF.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HYMTF\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates Hyundai's $26B US investment pledge, mildly positive but already known.\", \"added\": false}], \"summary\": \"The President lists prior investment pledges including Hyundai's $26B US commitment as evidence of trade policy success; this is largely repeat information with modest positive implications for HYMTF.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01596:mu",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "mu",
+   "entity": "Micron",
+   "kind": "company",
+   "alias": "micron",
+   "text_span": "Micron",
+   "dict_tickers": [
+    "MU"
+   ],
+   "triggers_nearby": [
+    "investment",
+    "tremendous"
+   ],
+   "t_audio": 1596.2101,
+   "t_wall": 1761711708.2101,
+   "t_wall_et": "2025-10-29T00:21:48.210100-04:00",
+   "segment_text": "Micron, 200,000,000,000.",
+   "context": "And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Micron",
+    "tickers": [
+     "MU"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Micron, 200,000,000,000",
+    "summary": "Micron pledged $200 billion investment in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts Micron's $200B US investment pledge as evidence of manufacturing reshoring, mildly positive but likely already known to markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President lists Micron among companies making large US investment pledges, a positive but largely repeated data point unlikely to move MU much beyond market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts Micron's $200B US investment pledge as evidence of manufacturing reshoring, mildly positive but likely already known to markets.\", \"added\": false}], \"summary\": \"The President lists Micron among companies making large US investment pledges, a positive but largely repeated data point unlikely to move MU much beyond market.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01597:sftby",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "sftby",
+   "entity": "SoftBank",
+   "kind": "company",
+   "alias": "softbank",
+   "text_span": "SoftBank",
+   "dict_tickers": [
+    "SFTBY"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1597.81,
+   "t_wall": 1761711709.81,
+   "t_wall_et": "2025-10-29T00:21:49.810000-04:00",
+   "segment_text": "SoftBank, OpenAI,",
+   "context": "And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "SoftBank",
+    "tickers": [
+     "SFTBY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "SoftBank",
+    "summary": "The President lists SoftBank among companies investing in the USA post-election."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SFTBY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "SoftBank's US investment pledge (with OpenAI/Oracle) is already publicly known and restated here as part of a general list, so limited new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats previously announced investment pledges including SoftBank's, which is already priced in, so minimal incremental market impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SFTBY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"SoftBank's US investment pledge (with OpenAI/Oracle) is already publicly known and restated here as part of a general list, so limited new information.\", \"added\": false}], \"summary\": \"The President repeats previously announced investment pledges including SoftBank's, which is already priced in, so minimal incremental market impact.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01599:openai",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "openai",
+   "entity": "OpenAI",
+   "kind": "company",
+   "alias": "openai",
+   "text_span": "OpenAI",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1599.0806470588236,
+   "t_wall": 1761711711.080647,
+   "t_wall_et": "2025-10-29T00:21:51.080647-04:00",
+   "segment_text": "SoftBank, OpenAI,",
+   "context": "And we have we have real numb these are real numbers. There's truly no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "OpenAI",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.82,
+    "quote": "OpenAI",
+    "summary": "The President lists OpenAI among companies investing in the USA post-election."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark focuses on OpenAI/SoftBank/Oracle investment figures already public, with no direct new information about Microsoft specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate previously announced investment pledges from various companies including OpenAI, but contain no new or specific information materially affecting Microsoft's stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark focuses on OpenAI/SoftBank/Oracle investment figures already public, with no direct new information about Microsoft specifically.\", \"added\": false}], \"summary\": \"The President's remarks reiterate previously announced investment pledges from various companies including OpenAI, but contain no new or specific information materially affecting Microsoft's stock.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01600:orcl",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "orcl",
+   "entity": "Oracle",
+   "kind": "company",
+   "alias": "oracle",
+   "text_span": "Oracle",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1600.270706060606,
+   "t_wall": 1761711712.2707062,
+   "t_wall_et": "2025-10-29T00:21:52.270706-04:00",
+   "segment_text": "and Oracle, over 500,000,000,000.",
+   "context": "no better time to invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oracle",
+    "tickers": [
+     "ORCL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Oracle, over 500,000,000,000",
+    "summary": "The President cites Oracle as part of $500B+ U.S. investment commitment."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President repeats already publicized SoftBank/OpenAI/Oracle $500B Stargate investment figure, mildly reinforcing positive sentiment but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Oracle's involvement in the $500B AI investment is a restatement of previously known Stargate project details, offering only mild positive reinforcement rather than new price-moving information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President repeats already publicized SoftBank/OpenAI/Oracle $500B Stargate investment figure, mildly reinforcing positive sentiment but not new information.\", \"added\": false}], \"summary\": \"The President's mention of Oracle's involvement in the $500B AI investment is a restatement of previously known Stargate project details, offering only mild positive reinforcement rather than new price-moving information.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01602:amzn",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1602.4501,
+   "t_wall": 1761711714.4501,
+   "t_wall_et": "2025-10-29T00:21:54.450100-04:00",
+   "segment_text": "Amazon, 35,000,000,000.",
+   "context": "invest in The USA. The results speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Amazon, 35,000,000,000.",
+    "summary": "The President cites Amazon's $35 billion U.S. investment pledge as evidence of post-election corporate confidence."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates a previously announced $35B investment pledge with no new details, so limited fresh price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Amazon's $35B investment is a repeat of already-known news, offering little new information for markets.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates a previously announced $35B investment pledge with no new details, so limited fresh price impact.\", \"added\": false}], \"summary\": \"The President's mention of Amazon's $35B investment is a repeat of already-known news, offering little new information for markets.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01604:pfe",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1604.77,
+   "t_wall": 1761711716.77,
+   "t_wall_et": "2025-10-29T00:21:56.770000-04:00",
+   "segment_text": "Pfizer, 70,000,000,000.",
+   "context": "speak for themselves. Since the election, TSMC has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000. Pfizer, 70,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Pfizer, 70,000,000,000.",
+    "summary": "Pfizer pledged $70 billion investment in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts Pfizer's $70B US investment pledge, a positive but likely already-known figure from prior announcements.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President lists Pfizer among companies pledging large US investments, a mildly positive but probably already-priced repeat of earlier announced figures.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts Pfizer's $70B US investment pledge, a positive but likely already-known figure from prior announcements.\", \"added\": false}], \"summary\": \"The President lists Pfizer among companies pledging large US investments, a mildly positive but probably already-priced repeat of earlier announced figures.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01608:googl",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1608.505,
+   "t_wall": 1761711720.505,
+   "t_wall_et": "2025-10-29T00:22:00.505000-04:00",
+   "segment_text": "Google, 25,000,000,000.",
+   "context": "has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000. Pfizer, 70,000,000,000. Jira, 200,000,000,000. Google, 25,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Google, 25,000,000,000.",
+    "summary": "Google pledged $25 billion investment in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restating a previously announced $25B US investment is unlikely to move the stock materially as it is already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President lists Google's already-announced $25B US investment among many corporate pledges; this is repeat information with minimal new price-relevant content for GOOGL.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GOOGL\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restating a previously announced $25B US investment is unlikely to move the stock materially as it is already known.\",\"added\":false}],\"summary\":\"The President lists Google's already-announced $25B US investment among many corporate pledges; this is repeat information with minimal new price-relevant content for GOOGL.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01610:nvda",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1610.425,
+   "t_wall": 1761711722.425,
+   "t_wall_et": "2025-10-29T00:22:02.425000-04:00",
+   "segment_text": "Nvidia,",
+   "context": "has pledged to invest $100,000,000,000 in The United States. So they're coming in from Taiwan. We have tremendous numbers of companies coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000. Pfizer, 70,000,000,000. Jira, 200,000,000,000. Google, 25,000,000,000. Nvidia,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Nvidia, [investment amount cut off]",
+    "summary": "Nvidia listed among major companies pledging US investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts Nvidia's $500B US investment pledge as evidence of favorable domestic investment climate, a mildly positive but largely already-known figure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks list Nvidia among major companies pledging huge US investments, reinforcing a positive narrative already known to markets, so modest upside with low novelty.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts Nvidia's $500B US investment pledge as evidence of favorable domestic investment climate, a mildly positive but largely already-known figure.\", \"added\": false}], \"summary\": \"The President's remarks list Nvidia among major companies pledging huge US investments, reinforcing a positive narrative already known to markets, so modest upside with low novelty.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01615:jnj",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "jnj",
+   "entity": "Johnson & Johnson",
+   "kind": "company",
+   "alias": "johnson and johnson",
+   "text_span": "Johnson and Johnson",
+   "dict_tickers": [
+    "JNJ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1615.1101485148515,
+   "t_wall": 1761711727.1101484,
+   "t_wall_et": "2025-10-29T00:22:07.110148-04:00",
+   "segment_text": "50,000,000,000. Johnson and Johnson, 57. We're bringing back all of our pharmaceutical business. IBM,",
+   "context": "coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000. Pfizer, 70,000,000,000. Jira, 200,000,000,000. Google, 25,000,000,000. Nvidia, 500,000,000,000. Genentech, 50,000,000,000. Johnson and Johnson, 57. We're bringing back all of our pharmaceutical business. IBM,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Johnson & Johnson",
+    "tickers": [
+     "JNJ"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Johnson and Johnson, 57. We're bringing back all of our pharmaceutical business.",
+    "summary": "The President cites J&J investment figure and pharma sector reshoring plan."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "JNJ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts JNJ's $57B US investment pledge as part of pharma reshoring, mildly positive but likely already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's list of investment pledges including JNJ's $57B is generally positive PR for the company but is largely a repeat of previously announced figures, limiting market impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"JNJ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts JNJ's $57B US investment pledge as part of pharma reshoring, mildly positive but likely already known.\", \"added\": false}], \"summary\": \"The President's list of investment pledges including JNJ's $57B is generally positive PR for the company but is largely a repeat of previously announced figures, limiting market impact.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01618:pharma",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1618.3481683168318,
+   "t_wall": 1761711730.3481684,
+   "t_wall_et": "2025-10-29T00:22:10.348168-04:00",
+   "segment_text": "50,000,000,000. Johnson and Johnson, 57. We're bringing back all of our pharmaceutical business. IBM,",
+   "context": "coming from Taiwan and and building in The US. Apple, $600,000,000,000 investment. Hyundai, 26,000,000,000. Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000. Pfizer, 70,000,000,000. Jira, 200,000,000,000. Google, 25,000,000,000. Nvidia, 500,000,000,000. Genentech, 50,000,000,000. Johnson and Johnson, 57. We're bringing back all of our pharmaceutical business. IBM,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "We're bringing back all of our pharmaceutical business.",
+    "summary": "The President announces plan to bring pharmaceutical manufacturing back to US."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlights Pfizer's already-announced $70B US investment as part of reshoring pharma, mildly positive framing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about reshoring pharma manufacturing is already known and sector-wide effect is ambiguous given tariff/pricing risks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated claim of bringing pharma business back does not add new pricing or tariff detail for the sub-sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not specifically mentioned; general pharma reshoring comment has no distinct company-level implication.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not specifically mentioned; no new company-specific information conveyed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts a list of already-announced foreign and pharma investment pledges (including Pfizer's $70B) as evidence of reshoring, which is mildly positive for Pfizer but largely repeat rhetoric with no new sector-wide catalyst for XLV/XPH/LLY/MRK.",
+    "raw": "{\"tickers\": [\n  {\"ticker\": \"PFE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President highlights Pfizer's already-announced $70B US investment as part of reshoring pharma, mildly positive framing.\", \"added\": false},\n  {\"ticker\": \"XLV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about reshoring pharma manufacturing is already known and sector-wide effect is ambiguous given tariff/pricing risks.\", \"added\": false},\n  {\"ticker\": \"XPH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated claim of bringing pharma business back does not add new pricing or tariff detail for the sub-sector.\", \"added\": false},\n  {\"ticker\": \"LLY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not specifically mentioned; general pharma reshoring comment has no distinct company-level implication.\", \"added\": false},\n  {\"ticker\": \"MRK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not specifically mentioned; no new company-specific information conveyed.\", \"added\": false}\n],\n\"summary\": \"The President touts a list of already-announced foreign and pharma investment pledges (including Pfizer's $70B) as evidence of reshoring, which is mildly positive for Pfizer but largely repeat rhetoric with no new sector-wide catalyst for XLV/XPH/LLY/MRK.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01622:azn",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "azn",
+   "entity": "AstraZeneca",
+   "kind": "company",
+   "alias": "astrazeneca",
+   "text_span": "AstraZeneca",
+   "dict_tickers": [
+    "AZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1622.61,
+   "t_wall": 1761711734.61,
+   "t_wall_et": "2025-10-29T00:22:14.610000-04:00",
+   "segment_text": "AstraZeneca,",
+   "context": "Micron, 200,000,000,000. SoftBank, OpenAI, and Oracle, over 500,000,000,000. Amazon, 35,000,000,000. Pfizer, 70,000,000,000. Jira, 200,000,000,000. Google, 25,000,000,000. Nvidia, 500,000,000,000. Genentech, 50,000,000,000. Johnson and Johnson, 57. We're bringing back all of our pharmaceutical business. IBM, 150,000,000,000. AstraZeneca, 50,000,000,000 among many others, many, many others. Too many to talk about.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AstraZeneca",
+    "tickers": [
+     "AZN"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "AstraZeneca, 50,000,000,000 among many others",
+    "summary": "The President lists AstraZeneca investment of $50 billion as part of pharmaceutical sector commitment."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AZN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts AstraZeneca's already-announced $50B US investment as evidence of favorable policy, mildly positive but likely already priced in.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of AstraZeneca's $50B US investment is a repeat of previously known commitments, offering only mild positive sentiment for AZN with limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AZN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts AstraZeneca's already-announced $50B US investment as evidence of favorable policy, mildly positive but likely already priced in.\", \"added\": false}], \"summary\": \"The President's mention of AstraZeneca's $50B US investment is a repeat of previously known commitments, offering only mild positive sentiment for AZN with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01951:defense",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "shipbuilding",
+   "text_span": "shipbuilding",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1951.8680034482759,
+   "t_wall": 1761712063.8680034,
+   "t_wall_et": "2025-10-29T00:27:43.868003-04:00",
+   "segment_text": "We're forging new partnerships on strategically important industries like shipbuilding,",
+   "context": "the only critics are people that took advantage of us for many years, and now they're not able to do that. The deals we're signing with our friends and partners are making our alliances closer and stronger than ever before, and they respect us because it was so foolish. The people that ran our country were so foolish. With these agreements, our nations will extend our vital security alliances into the realm of economic security for the 1st time ever. We're forging new partnerships on strategically important industries like shipbuilding,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "shipbuilding",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "LMT",
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "forging new partnerships on strategically important industries like shipbuilding",
+    "summary": "The President highlights shipbuilding as strategically important in new economic security alliances."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for defense/shipbuilding alliances is mildly supportive of the broad defense ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Aerospace/defense ETF benefits modestly from rhetoric on strengthening military alliances.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise of US military superiority and alliance-building is a mild positive but non-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar mild tailwind from general defense/alliance rhetoric without new contract details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of submarines and nuclear lead could favor Northrop-related programs, though vague.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Explicit mention of shipbuilding and nuclear submarines directly benefits General Dynamics as a key shipbuilder.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks tout new economic-security partnerships in shipbuilding, defense, and nuclear submarines, a mild positive for defense and shipbuilding-related stocks, especially General Dynamics, though most commentary is general and not highly specific.",
+    "raw": "{\"tickers\": [\n{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise for defense/shipbuilding alliances is mildly supportive of the broad defense ETF.\",\"added\":false},\n{\"ticker\":\"XAR\",\"direction\":\"up\",\"confidence\":0.53,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Aerospace/defense ETF benefits modestly from rhetoric on strengthening military alliances.\",\"added\":false},\n{\"ticker\":\"LMT\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Praise of US military superiority and alliance-building is a mild positive but non-specific.\",\"added\":false},\n{\"ticker\":\"RTX\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Similar mild tailwind from general defense/alliance rhetoric without new contract details.\",\"added\":false},\n{\"ticker\":\"NOC\",\"direction\":\"up\",\"confidence\":0.53,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mention of submarines and nuclear lead could favor Northrop-related programs, though vague.\",\"added\":false},\n{\"ticker\":\"GD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Explicit mention of shipbuilding and nuclear submarines directly benefits General Dynamics as a key shipbuilder.\",\"added\":false}\n],\n\"summary\":\"The President's remarks tout new economic-security partnerships in shipbuilding, defense, and nuclear submarines, a mild positive for defense and shipbuilding-related stocks, especially General Dynamics, though most commentary is general and not highly specific.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01953:chips",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductors",
+   "text_span": "semiconductors",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1953.1458695652175,
+   "t_wall": 1761712065.1458695,
+   "t_wall_et": "2025-10-29T00:27:45.145869-04:00",
+   "segment_text": "energy, semiconductors,",
+   "context": "the only critics are people that took advantage of us for many years, and now they're not able to do that. The deals we're signing with our friends and partners are making our alliances closer and stronger than ever before, and they respect us because it was so foolish. The people that ran our country were so foolish. With these agreements, our nations will extend our vital security alliances into the realm of economic security for the 1st time ever. We're forging new partnerships on strategically important industries like shipbuilding, energy, semiconductors,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "forging new partnerships on strategically important industries like shipbuilding, energy, semiconductors",
+    "summary": "The President identifies semiconductors as strategically important for new economic security partnerships."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about strategic partnerships in semiconductors is mildly supportive but lacks new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad sector-supportive rhetoric with no new policy detail, mildly positive sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No company-specific news, general semiconductor supportive tone only.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a domestic chip manufacturer, mention of reshoring semiconductor production is mildly favorable.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general support for domestic semiconductor and strategic industry partnerships without new concrete policy, giving mildly positive but low-confidence sentiment to chip-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about strategic partnerships in semiconductors is mildly supportive but lacks new specifics.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same broad sector-supportive rhetoric with no new policy detail, mildly positive sentiment.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No company-specific news, general semiconductor supportive tone only.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a domestic chip manufacturer, mention of reshoring semiconductor production is mildly favorable.\", \"added\": false}], \"summary\": \"The President's remarks reiterate general support for domestic semiconductor and strategic industry partnerships without new concrete policy, giving mildly positive but low-confidence sentiment to chip-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:01980:ai",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1980.385,
+   "t_wall": 1761712092.385,
+   "t_wall_et": "2025-10-29T00:28:12.385000-04:00",
+   "segment_text": "artificial intelligence where America is number 1 by a lot. Actually, we're really number 1 by a lot. We're number 1 in military and military",
+   "context": "We learned that during COVID, We had to rely on other countries to give us pharmaceuticals. You can't do that. You have to certain industries you wanna have there. You wanna have your medicines made ideally in your own country. Many of our agreements also include deepening collaboration of industries of the future such as nuclear, quantum, artificial intelligence where America is number 1 by a lot. Actually, we're really number 1 by a lot. We're number 1 in military and military",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.78,
+    "quote": "America is number 1 by a lot in artificial intelligence",
+    "summary": "The President praises U.S. leadership in AI as industry of future collaboration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for US AI leadership is mildly supportive but reiterates known rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Semiconductor sector benefits from positive AI/tech rhetoric though nothing new announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI leadership praise is a mild tailwind but not company-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Data center infrastructure beneficiary of continued AI investment optimism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's general praise of US AI, semiconductor, and industry leadership is mildly positive sentiment for the sector but reiterates familiar rhetoric with no new concrete policy, so effects are small and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise for US AI leadership is mildly supportive but reiterates known rhetoric.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Semiconductor sector benefits from positive AI/tech rhetoric though nothing new announced.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI leadership praise is a mild tailwind but not company-specific.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Data center infrastructure beneficiary of continued AI investment optimism.\", \"added\": false}], \"summary\": \"The President's general praise of US AI, semiconductor, and industry leadership is mildly positive sentiment for the sector but reiterates familiar rhetoric with no new concrete policy, so effects are small and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:02000:navy",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "navy",
+   "entity": "Shipbuilders (Navy)",
+   "kind": "sector",
+   "alias": "submarines",
+   "text_span": "submarines",
+   "dict_tickers": [
+    "HII",
+    "GD",
+    "BWXT"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 2000.1216216216217,
+   "t_wall": 1761712112.1216216,
+   "t_wall_et": "2025-10-29T00:28:32.121622-04:00",
+   "segment_text": "That's why everyone wants to buy for us. I'll tell you what we have a long lead on is submarines, nuclear submarines. We are so far advanced that by",
+   "context": "Many of our agreements also include deepening collaboration of industries of the future such as nuclear, quantum, artificial intelligence where America is number 1 by a lot. Actually, we're really number 1 by a lot. We're number 1 in military and military consequence. We're number 1 in military and the the quality of the weapons. That's why everyone wants to buy for us. I'll tell you what we have a long lead on is submarines, nuclear submarines. We are so far advanced that by",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Shipbuilders (Navy)",
+    "tickers": [
+     "HII",
+     "GD",
+     "BWXT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have a long lead on nuclear submarines. We are so far advanced.",
+    "summary": "The President praises U.S. nuclear submarine technology and advanced military capability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HII",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for US nuclear submarine dominance is mildly positive for Huntington Ingalls as a key submarine builder.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Dynamics Electric Boat benefits from rhetoric emphasizing US submarine superiority and shipbuilding partnerships.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BWXT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "BWXT supplies nuclear components for submarines, so praise of submarine capability is mildly supportive.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's boastful remarks about US nuclear submarine and military dominance are mildly bullish for submarine supply-chain defense stocks, though largely reiterating known strengths rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HII\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for US nuclear submarine dominance is mildly positive for Huntington Ingalls as a key submarine builder.\", \"added\": false}, {\"ticker\": \"GD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General Dynamics Electric Boat benefits from rhetoric emphasizing US submarine superiority and shipbuilding partnerships.\", \"added\": false}, {\"ticker\": \"BWXT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"BWXT supplies nuclear components for submarines, so praise of submarine capability is mildly supportive.\", \"added\": false}], \"summary\": \"The President's boastful remarks about US nuclear submarine and military dominance are mildly bullish for submarine supply-chain defense stocks, though largely reiterating known strengths rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:02067:defense_word",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 2067.365125,
+   "t_wall": 1761712179.365125,
+   "t_wall_et": "2025-10-29T00:29:39.365125-04:00",
+   "segment_text": "their 2 borders.",
+   "context": "I don't go to the beach and sleep all day. I like to watch. And I see Cambodia, Thailand, among many other nations, and this is true for numerous other deals too. But I see Cambodia, Thailand, and I read a front page story about the fact that there were thousands of dead people along the border. And they fought for a long time, and I said, wait a minute. We're making deals and they're starting a war? They were just starting, and it was vicious. Thousands of people were killed along the border, their 2 borders. And I said, let's call the head. I didn't know the heads of either 1.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 4,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:02198:india",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "factory",
+    "tariffs"
+   ],
+   "t_audio": 2198.97,
+   "t_wall": 1761712310.97,
+   "t_wall_et": "2025-10-29T00:31:50.970000-04:00",
+   "segment_text": "If you look at India",
+   "context": "over the next 10 years, and I think actually much more than that. That's national security because you can't have deficits and you can't have debt all over the place and stops inflation and strengthening the dollar and ultimately balancing our federal budget, which I think we're gonna do very quickly only because of our policy of fair tariffs. And for any company that does not wish to pay the tariff, I say, you know, you could build your factory in America. If you build your factory in America, there is 0 0 tariffs. But, you know, again, going back to the wars, it's so important. If you look at India and Pakistan So I'm doing a trade deal with India, and I have great respect and and love.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "I'm doing a trade deal with India, and I have great respect",
+    "summary": "The President states he is negotiating a trade deal with India and expresses respect."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated positive framing of a US-India trade deal is mildly bullish for Indian equities broad ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same India trade deal optimism supports India-focused ETF sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's reiteration of an in-progress US-India trade deal is mildly positive for India equity ETFs, though it's largely repeat rhetoric with no new terms disclosed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated positive framing of a US-India trade deal is mildly bullish for Indian equities broad ETF.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same India trade deal optimism supports India-focused ETF sentiment.\", \"added\": false}], \"summary\": \"The President's reiteration of an in-progress US-India trade deal is mildly positive for India equity ETFs, though it's largely repeat rhetoric with no new terms disclosed.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:02343:pfe",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2343.4896666666664,
+   "t_wall": 1761712455.4896667,
+   "t_wall_et": "2025-10-29T00:34:15.489667-04:00",
+   "segment_text": "Uh-huh. Pfizer,",
+   "context": "which means that you'll never do business. In other words, there's nothing you can sell for 250%. That means that's a nice way of saying we don't wanna do business with you. You don't have to say that because that's a nasty, we don't wanna do biz. No. You say we're gonna put 250% tariffs if you don't stop the war. And they understood that. And within 48 hours, we had no war, no people killed. I mean, it's makes me feel so good. It's we saved millions and millions of lives with all of them. Uh-huh. Pfizer, Bajan. If you look at if you look at",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:02541:korea",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "seoul",
+   "text_span": "Seoul",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 2541.7933333333335,
+   "t_wall": 1761712653.7933333,
+   "t_wall_et": "2025-10-29T00:37:33.793333-04:00",
+   "segment_text": "From the rolling hills of San Francisco to the gleaming streets of Seoul, from the bustling factories of Toledo",
+   "context": "And that's what America and our Indo Pacific partners really are doing this week, and what our businesses and entrepreneurs do each and every day. That's what you do, most successful people in the world. Together, we're solving the challenges that no 1 before us has ever been able to solve, and we're forging a free and open Indo Pacific. And for all of the people, we're creating a future of dignity and security, prosperity, and pride. From the rolling hills of San Francisco to the gleaming streets of Seoul, from the bustling factories of Toledo",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "gleaming streets of Seoul",
+    "summary": "Praised Seoul as part of free and open Indo Pacific vision."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise of Seoul with no concrete policy or trade detail affecting Korean equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely inspirational rhetoric about Indo-Pacific partnership with no new, actionable policy specifics, so no material price impact expected for EWY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical praise of Seoul with no concrete policy or trade detail affecting Korean equities.\", \"added\": false}], \"summary\": \"The excerpt is largely inspirational rhetoric about Indo-Pacific partnership with no new, actionable policy specifics, so no material price impact expected for EWY.\"}"
+   }
+  },
+  {
+   "signal_id": "eDOKTKbcJC4:02548:japan",
+   "video_id": "eDOKTKbcJC4",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "tokyo",
+   "text_span": "Tokyo",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 2548.51208,
+   "t_wall": 1761712660.51208,
+   "t_wall_et": "2025-10-29T00:37:40.512080-04:00",
+   "segment_text": "to the bright lights of Tokyo,",
+   "context": "And that's what America and our Indo Pacific partners really are doing this week, and what our businesses and entrepreneurs do each and every day. That's what you do, most successful people in the world. Together, we're solving the challenges that no 1 before us has ever been able to solve, and we're forging a free and open Indo Pacific. And for all of the people, we're creating a future of dignity and security, prosperity, and pride. From the rolling hills of San Francisco to the gleaming streets of Seoul, from the bustling factories of Toledo Toledo, Ohio, to the bright lights of Tokyo,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "from the bright lights of Tokyo",
+    "summary": "Japan mentioned positively as part of Indo-Pacific partnership vision."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise of Indo-Pacific partnership with no new policy or deal specifics affecting Japan markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is broad, rhetorical praise of Indo-Pacific unity without any concrete new policy, trade deal, or economic action specific to Japan, so no meaningful price impact on EWJ is expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWJ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetorical praise of Indo-Pacific partnership with no new policy or deal specifics affecting Japan markets.\",\"added\":false}],\"summary\":\"The excerpt is broad, rhetorical praise of Indo-Pacific unity without any concrete new policy, trade deal, or economic action specific to Japan, so no meaningful price impact on EWJ is expected.\"}"
+   }
+  }
+ ]
+}

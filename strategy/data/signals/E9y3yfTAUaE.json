@@ -1,0 +1,602 @@
+{
+ "video": {
+  "id": "E9y3yfTAUaE",
+  "url": "https://www.youtube.com/watch?v=E9y3yfTAUaE",
+  "title": "The President Signs Executive Orders, Jan. 30, 2026",
+  "channel": "The White House",
+  "duration": 1901.0,
+  "was_live": true,
+  "release_timestamp": 1769790676.0,
+  "upload_timestamp": 1769794593.0,
+  "upload_date": "20260130",
+  "label": "Signs Executive Orders, Jan. 30, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1769790676.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 13,
+  "confirmed": 5,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 15
+ },
+ "signals": [
+  {
+   "signal_id": "E9y3yfTAUaE:00060:defense_word",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 60.61726495726495,
+   "t_wall": 1769790736.617265,
+   "t_wall_et": "2026-01-30T11:32:16.617265-05:00",
+   "segment_text": "Germany, Roger. Right? Everybody, they they wanna they wanna win the Indy 500. Correct. They spend billions of dollars getting a car. This guy wins it, like, every year. He won it so many times that he ended up buying the track. So now he owns a track. He owns a race. It's it's pretty good. Now he's won it, though. He won it 2 times since he got it,",
+   "context": "On the 18th time, I said and he's been a friend of mine for a long time. But on the 18th time, I said, I think I'm gonna give him the Presidential Medal of Freedom because, you know, how do you do that? Japan, Germany, Roger. Right? Everybody, they they wanna they wanna win the Indy 500. Correct. They spend billions of dollars getting a car. This guy wins it, like, every year. He won it so many times that he ended up buying the track. So now he owns a track. He owns a race. It's it's pretty good. Now he's won it, though. He won it 2 times since he got it, and it's a total of 20. And didn't you win the Daytona 500? Yes. How many times? 4 times. That's all?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:00142:steel",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 142.29000333333335,
+   "t_wall": 1769790818.2900033,
+   "t_wall_et": "2026-01-30T11:33:38.290003-05:00",
+   "segment_text": "America made more steel than Japan. Can you believe it? Japan's a big steel country. America made more steel",
+   "context": "It's gonna pay take place on August 21 through the 23rd, and it's gonna be so exciting. And I love the race. I don't have a lot of time to watch it, but I love the racing. And just before we start, I will say numbers came out this morning. The they're phenomenal for the country. So we announced yesterday that for the 1st time in, I think, 28 years, America made more steel than Japan. Can you believe it? Japan's a big steel country. America made more steel",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "America made more steel than Japan. Can you believe it?",
+    "summary": "The President praises U.S. steel production exceeding Japan for first time in 28 years."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Praise for record US steel output is mildly positive sentiment for domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General bullish rhetoric on US steel production benefits large domestic producer sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive framing of US steel dominance supports sentiment for steel/iron ore producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Praise for record steel output is a mild tailwind for domestic steel names.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF benefits from positive sentiment on US steel production milestone.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's boast about record US steel production surpassing Japan is generic positive rhetoric, not new policy, but should provide mild sentiment support to domestic steel stocks and the steel ETF over coming days.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Praise for record US steel output is mildly positive sentiment for domestic steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General bullish rhetoric on US steel production benefits large domestic producer sentiment.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive framing of US steel dominance supports sentiment for steel/iron ore producer.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Praise for record steel output is a mild tailwind for domestic steel names.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF benefits from positive sentiment on US steel production milestone.\", \"added\": false}], \"summary\": \"The President's boast about record US steel production surpassing Japan is generic positive rhetoric, not new policy, but should provide mild sentiment support to domestic steel stocks and the steel ETF over coming days.\"}"
+   }
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:00202:stock_market",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "s and p",
+   "text_span": "S and P",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 202.5091513761468,
+   "t_wall": 1769790878.5091515,
+   "t_wall_et": "2026-01-30T11:34:38.509151-05:00",
+   "segment_text": "We have a record we just set, as you know. The S and P 500 just set a new record, 7,000. Nobody thought that was possible. Possible. This is quicker time. They thought maybe at the end of 4 years or 5 years or 6 years.",
+   "context": "And we're gonna do 18, and I think the eighteen's gonna go higher. We're just looking at 11 months. The 12th month hasn't come in yet, but it's gonna bring us over 18, maybe even hit 20. So you have 18 to $20,000,000,000,000 coming in, and we've never had anything like it. We have a record we just set, as you know. The S and P 500 just set a new record, 7,000. Nobody thought that was possible. Possible. This is quicker time. They thought maybe at the end of 4 years or 5 years or 6 years.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "S&P 500",
+    "tickers": [
+     "SPY"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "S and P 500 just set a new record, 7,000",
+    "summary": "The President claims S&P 500 hit record 7,000 level ahead of expectations."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General boastful rhetoric about market highs and steel/investment stats already known, not new price-moving info.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or novel policy content that would move Nasdaq relative to market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel and industrial praise is generic and already reflected in prices, no new catalyst for Dow components.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad self-congratulatory rhetoric about record markets, steel production, and investment figures already known to markets, so no material new information to move SPY, QQQ, or DIA relative to each other.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General boastful rhetoric about market highs and steel/investment stats already known, not new price-moving info.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or novel policy content that would move Nasdaq relative to market.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel and industrial praise is generic and already reflected in prices, no new catalyst for Dow components.\", \"added\": false}], \"summary\": \"The President's remarks are broad self-congratulatory rhetoric about record markets, steel production, and investment figures already known to markets, so no material new information to move SPY, QQQ, or DIA relative to each other.\"}"
+   }
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:00424:foxa_outlet",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "foxa_outlet",
+   "entity": "Fox Corporation",
+   "kind": "company",
+   "alias": "fox",
+   "text_span": "Fox",
+   "dict_tickers": [
+    "FOXA"
+   ],
+   "triggers_nearby": [
+    "partner"
+   ],
+   "t_audio": 424.07553289473685,
+   "t_wall": 1769791100.075533,
+   "t_wall_et": "2026-01-30T11:38:20.075533-05:00",
+   "segment_text": "to the area, to the city. And, obviously, with our Fox partner, Eric Shanks,",
+   "context": "and bringing it here to this race will be amazing. Certainly, the Freedom 2 50, when you think about it, it's just a byproduct to what the president has done during this year, and this will be event, obviously, in August, which will make a huge difference. And we're excited. The area for people to see. Most of the grounds will be free. So it's gonna be an economic benefit to the area, to the city. And, obviously, with our Fox partner, Eric Shanks, will be our media partner. Believe me, what they did for us at India this past year, they're gonna take that and put it on steroids, really, and take it to the next level. So thank you, mister president, for allowing us to come into your city. That's so great, brother. Thank you. Great",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:00429:india",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "partner"
+   ],
+   "t_audio": 429.19533468531466,
+   "t_wall": 1769791105.1953347,
+   "t_wall_et": "2026-01-30T11:38:25.195335-05:00",
+   "segment_text": "will be our media partner. Believe me, what they did for us at India this past year, they're gonna take that and put it on steroids, really, and take it to the next level. So thank you, mister president, for allowing us to come into your city. That's so great, brother. Thank you. Great",
+   "context": "to what the president has done during this year, and this will be event, obviously, in August, which will make a huge difference. And we're excited. The area for people to see. Most of the grounds will be free. So it's gonna be an economic benefit to the area, to the city. And, obviously, with our Fox partner, Eric Shanks, will be our media partner. Believe me, what they did for us at India this past year, they're gonna take that and put it on steroids, really, and take it to the next level. So thank you, mister president, for allowing us to come into your city. That's so great, brother. Thank you. Great",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:00492:foxa_outlet",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "foxa_outlet",
+   "entity": "Fox Corporation",
+   "kind": "company",
+   "alias": "fox",
+   "text_span": "Fox",
+   "dict_tickers": [
+    "FOXA"
+   ],
+   "triggers_nearby": [
+    "partner"
+   ],
+   "t_audio": 492.2417391304348,
+   "t_wall": 1769791168.241739,
+   "t_wall_et": "2026-01-30T11:39:28.241739-05:00",
+   "segment_text": "And at Fox Sports, we do the biggest events in sports. This year, we have the FIFA World Cup",
+   "context": "and got us here today. Secretary Bergham, your team has been absolutely Explain how many times you came to Washington trying to do this I think Bud came here 81 times. 81 meetings I had at Capitol. Meeting with senators, meeting with people at the Capitol. And they all wanted it. Everybody wanted it, but they couldn't figure it out. It was crazy. 80 somewhat. That's pretty amazing. So go ahead, please. Well, it's it's a real honor to be a partner with Roger and IndyCar. And at Fox Sports, we do the biggest events in sports. This year, we have the FIFA World Cup",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:00926:fed",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "fed chairman",
+   "text_span": "Fed chairman",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 926.9949618320611,
+   "t_wall": 1769791602.9949617,
+   "t_wall_et": "2026-01-30T11:46:42.994962-05:00",
+   "segment_text": "And if you have any questions on this subject, that'll be great. We just named a new Fed chairman today. You know that? He's he's a",
+   "context": "and we think it's the best site too. It's actually better than the original site they were looking at. But if we're gonna do it, we wanna do it right. So this is gonna be something in terms of the road with, the crowds, and everything else that we can all the best site 1 of the best sites I've ever seen, actually. And it'll be beautiful. So I'm gonna sign this. And if you have any questions on this subject, that'll be great. We just named a new Fed chairman today. You know that? He's he's a central casting. He's like Roger Penske, central casting.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We just named a new Fed chairman today. He's central casting.",
+    "summary": "The President announced a new Federal Reserve chairman appointment, comparing him to Roger Penske."
+   },
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New Fed chair nominee perceived as dovish-leaning could support bond prices if rate-cut expectations rise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Fed leadership news is relevant but direction for financials is ambiguous without clear policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Regional banks' sensitivity to rates makes the effect ambiguous absent clarity on the nominee's policy leanings.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of a new Fed chairman nominee is market-relevant news but lacks specifics on policy stance, creating modest, uncertain effects on rate-sensitive assets like TLT, XLF, and KRE.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TLT\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"New Fed chair nominee perceived as dovish-leaning could support bond prices if rate-cut expectations rise.\",\"added\":false},{\"ticker\":\"XLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Fed leadership news is relevant but direction for financials is ambiguous without clear policy stance.\",\"added\":false},{\"ticker\":\"KRE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Regional banks' sensitivity to rates makes the effect ambiguous absent clarity on the nominee's policy leanings.\",\"added\":false}],\"summary\":\"The President's announcement of a new Fed chairman nominee is market-relevant news but lacks specifics on policy stance, creating modest, uncertain effects on rate-sensitive assets like TLT, XLF, and KRE.\"}"
+   }
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:01095:iran",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1095.9427822580644,
+   "t_wall": 1769791771.9427822,
+   "t_wall_et": "2026-01-30T11:49:31.942782-05:00",
+   "segment_text": "in the back. Yes. Are you giving Iran any kind of deadline to make a deal before potentially taking Only they know for sure.",
+   "context": "you know, perfect candidate. This was not a surprise or anything. This was the man that's most qualified. Top student, best schools, everything was, like, perfect. The youngest person ever to serve on the Fed. Got the whole package. Looks don't mean anything, but he's got the look. Right? Roger, looks don't mean anything, but if they have the look, it's okay. But he's got the whole package, and I think he's gonna do a great job. And he loves the country. Mister president, why don't you Please, in the back. Yes. Are you giving Iran any kind of deadline to make a deal before potentially taking Only they know for sure.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:01284:dis_abc",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "dis_abc",
+   "entity": "Disney (ABC)",
+   "kind": "company",
+   "alias": "abc news",
+   "text_span": "ABC News",
+   "dict_tickers": [
+    "DIS"
+   ],
+   "triggers_nearby": [
+    "suing"
+   ],
+   "t_audio": 1284.8894714285714,
+   "t_wall": 1769791960.8894715,
+   "t_wall_et": "2026-01-30T11:52:40.889472-05:00",
+   "segment_text": "Mister president, why are you suing your own administration and the IRS? Why are you suing? Who are with? You I'm with ABC News. You're a loud person. Very loud. Let somebody else have a chance. Can you answer the question? Why are you suing the",
+   "context": "Only is it better? He'd like to bet if you'll No. I don't bet either. Not you're not a big you're not a big fan. I don't think so. I have a I don't I don't wanna get him in trouble, but I think he joins in 99 percent of they say it's an 80 20 issue. I think it's a 99. It's a it's maybe 99. 99 1. Mister president, why are you suing your own administration and the IRS? Why are you suing? Who are with? You I'm with ABC News. You're a loud person. Very loud. Let somebody else have a chance. Can you answer the question? Why are you suing the",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ABC News",
+    "tickers": [
+     "DIS"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "You're a loud person. Very loud.",
+    "summary": "The President criticized ABC News reporter as loud during questioning."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DIS",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's personal jab at an ABC reporter is minor rhetoric unlikely to materially affect Disney's stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a personal criticism of an ABC News reporter, not a substantive policy or business action, so it should have negligible price impact on Disney.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DIS\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's personal jab at an ABC reporter is minor rhetoric unlikely to materially affect Disney's stock.\", \"added\": false}], \"summary\": \"The remark is a personal criticism of an ABC News reporter, not a substantive policy or business action, so it should have negligible price impact on Disney.\"}"
+   }
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:01306:kraken",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1306.40824875,
+   "t_wall": 1769791982.4082487,
+   "t_wall_et": "2026-01-30T11:53:02.408249-05:00",
+   "segment_text": "Go ahead. Right here. Go. Do you think the upcoming talks by the way, is truly 1 of the worst. Go ahead. You think the upcoming talks between Russia and Ukraine stand a chance without Yeah. US envoy with Kraken and Derek Krishna there? I think it's I think they stand a chance. We've been trying. I've I've ended 8 wars.",
+   "context": "Mister president, why are you suing your own administration and the IRS? Why are you suing? Who are with? You I'm with ABC News. You're a loud person. Very loud. Let somebody else have a chance. Can you answer the question? Why are you suing the ABC fake news. You're suing. Go ahead. I didn't call on you. Go ahead, please. Go ahead. Go ahead. Right here. Go. Do you think the upcoming talks by the way, is truly 1 of the worst. Go ahead. You think the upcoming talks between Russia and Ukraine stand a chance without Yeah. US envoy with Kraken and Derek Krishna there? I think it's I think they stand a chance. We've been trying. I've I've ended 8 wars.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:01393:iran",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1393.3572256117454,
+   "t_wall": 1769792069.3572257,
+   "t_wall_et": "2026-01-30T11:54:29.357226-05:00",
+   "segment_text": "and a follow-up. If Iran doesn't make a deal, is your plan to replicate there what you just did in Venezuela? I don't wanna say that. I don't wanna talk I mean, I don't wanna talk about anything having to do with what I'm doing militarily, but we have a tremendously powerful fleet there. We have the most powerful ships in the world. We have the most powerful military by far in the world. We showed that on numerous occasions. I mean, I rebuilt the military in my term. If I didn't do, you know, I wouldn't, I think, be able to say that. But I rebuilt military, the entire United States military in my 1st term.",
+   "context": "and a follow-up. If Iran doesn't make a deal, is your plan to replicate there what you just did in Venezuela? I don't wanna say that. I don't wanna talk I mean, I don't wanna talk about anything having to do with what I'm doing militarily, but we have a tremendously powerful fleet there. We have the most powerful ships in the world. We have the most powerful military by far in the world. We showed that on numerous occasions. I mean, I rebuilt the military in my term. If I didn't do, you know, I wouldn't, I think, be able to say that. But I rebuilt military, the entire United States military in my 1st term.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:01397:venezuela",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1397.3748717781402,
+   "t_wall": 1769792073.3748717,
+   "t_wall_et": "2026-01-30T11:54:33.374872-05:00",
+   "segment_text": "and a follow-up. If Iran doesn't make a deal, is your plan to replicate there what you just did in Venezuela? I don't wanna say that. I don't wanna talk I mean, I don't wanna talk about anything having to do with what I'm doing militarily, but we have a tremendously powerful fleet there. We have the most powerful ships in the world. We have the most powerful military by far in the world. We showed that on numerous occasions. I mean, I rebuilt the military in my term. If I didn't do, you know, I wouldn't, I think, be able to say that. But I rebuilt military, the entire United States military in my 1st term.",
+   "context": "and a follow-up. If Iran doesn't make a deal, is your plan to replicate there what you just did in Venezuela? I don't wanna say that. I don't wanna talk I mean, I don't wanna talk about anything having to do with what I'm doing militarily, but we have a tremendously powerful fleet there. We have the most powerful ships in the world. We have the most powerful military by far in the world. We showed that on numerous occasions. I mean, I rebuilt the military in my term. If I didn't do, you know, I wouldn't, I think, be able to say that. But I rebuilt military, the entire United States military in my 1st term.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "E9y3yfTAUaE:01864:uber",
+   "video_id": "E9y3yfTAUaE",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1864.8176273195877,
+   "t_wall": 1769792540.8176274,
+   "t_wall_et": "2026-01-30T12:02:20.817627-05:00",
+   "segment_text": "you've made Washington so great. We walk to work. They walk to work. You you people know it very well. You walked to work now. You used to take an Uber or a taxi or something, and you even felt,",
+   "context": "The people want law and order. And we have a silent majority. You know, we have a silent majority of people. They don't go and riot and everything else, but they like what we're doing. They like having a safe city. I get calls every single day. Every person I see working in the White House, people I don't know, many people work here, and they say, I'd like to thank you, sir, why you've made Washington so great. We walk to work. They walk to work. You you people know it very well. You walked to work now. You used to take an Uber or a taxi or something, and you even felt,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Uber",
+    "tickers": [
+     "UBER"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "You used to take an Uber or a taxi or something",
+    "summary": "The President mentions Uber as transportation option people used before walking to work."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UBER",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Passing anecdotal mention of Uber as a transportation example with no policy or business implication.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general rhetoric about safety and law and order, with Uber cited only incidentally as an example of pre-existing transportation habits, carrying no material price-relevant information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UBER\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Passing anecdotal mention of Uber as a transportation example with no policy or business implication.\", \"added\": false}], \"summary\": \"The remark is general rhetoric about safety and law and order, with Uber cited only incidentally as an example of pre-existing transportation habits, carrying no material price-relevant information.\"}"
+   }
+  }
+ ]
+}

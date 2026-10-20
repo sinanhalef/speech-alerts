@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.venv/
+
+# Secrets and local config
+.env
+secrets/
+firebase/.firebase/
+
+# Local state: alert database, caches, logs, downloaded audio
+*.sqlite3
+*.sqlite3-*
+data/entities/sec_tickers.json
+eval/audio/
+logs/*
+!logs/.gitkeep
+
+# OS
+.DS_Store

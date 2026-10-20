@@ -1,0 +1,88 @@
+{
+  "name": "briefing_2026_09_15",
+  "transcript": "eval/golden/briefing_2026_09_15.txt",
+  "source_url": "https://www.youtube.com/watch?v=SE_aiQ4tBbc",
+  "title": "LIVE: President Suddenly Leaves White House Briefing | US News LIVE | Watch Full Speech LIVE 2026-09-15 15:50",
+  "speed": 20,
+  "expected": [
+    {
+      "entity": "Northrop",
+      "tickers": [
+        "NOC"
+      ],
+      "t_audio": 36,
+      "tolerance": 20,
+      "why": "you had the B-2 bombers, took out their nuclear capability"
+    },
+    {
+      "entity": "Oil",
+      "tickers": [
+        "XLE",
+        "USO"
+      ],
+      "t_audio": 380,
+      "tolerance": 30,
+      "why": "We've taken out 100,000,000 barrels of oil ... another 100,000,000 barrels coming"
+    },
+    {
+      "entity": "Refiners",
+      "tickers": [
+        "VLO",
+        "MPC",
+        "PSX"
+      ],
+      "t_audio": 391,
+      "tolerance": 30,
+      "why": "brought to the refineries in Houston"
+    },
+    {
+      "entity": "Venezuela",
+      "tickers": [
+        "XLE",
+        "CVX"
+      ],
+      "t_audio": 411,
+      "tolerance": 40,
+      "why": "it's like a partnership, great for Venezuela and great for the United States"
+    },
+    {
+      "entity": "Northrop",
+      "tickers": [
+        "NOC"
+      ],
+      "t_audio": 836,
+      "tolerance": 20,
+      "why": "our B-2 bombers recently dropped dozens of 2,000 pound bombs; the 'we ordered 25 more' line at 980 s falls inside the 600 s cooldown of this one"
+    }
+  ],
+  "not_expected": [
+    {
+      "entity": "RTX",
+      "tickers": [
+        "RTX"
+      ],
+      "t_audio": 419,
+      "tolerance": 30,
+      "reason": "reporter's question about a tomahawk; The President's answer is not about the company"
+    },
+    {
+      "entity": "Defense",
+      "tickers": [
+        "ITA"
+      ],
+      "t_audio": 548,
+      "tolerance": 30,
+      "reason": "Iran's missiles, not US defense procurement"
+    },
+    {
+      "entity": "Dell",
+      "tickers": [
+        "DELL"
+      ],
+      "t_audio": 328,
+      "tolerance": 20,
+      "reason": "'Dell see' / 'Dell'sy' is Delcy Rodriguez"
+    }
+  ],
+  "notes": "White House briefing + Q&A, 2026-09-15 (the channel loops earlier Iran remarks from 641 s). Speaker ids hand-annotated: 0 the President, 1 reporters."
+}

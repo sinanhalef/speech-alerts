@@ -1,0 +1,1182 @@
+{
+ "video": {
+  "id": "XkgLela6l6o",
+  "url": "https://www.youtube.com/watch?v=XkgLela6l6o",
+  "title": "The President Holds a Press Briefing, June 27, 2025",
+  "channel": "The White House",
+  "duration": 4545.0,
+  "was_live": true,
+  "release_timestamp": 1751038101.0,
+  "upload_timestamp": 1751042896.0,
+  "upload_date": "20250627",
+  "label": "Holds a Press Briefing, June 27, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1751038101.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 20,
+  "confirmed": 13,
+  "retracted": 7,
+  "unconfirmed": 0,
+  "llm_calls": 23
+ },
+ "signals": [
+  {
+   "signal_id": "XkgLela6l6o:01755:defense_word",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fired"
+   ],
+   "t_audio": 1755.2127980645162,
+   "t_wall": 1751039856.212798,
+   "t_wall_et": "2025-06-27T11:57:36.212798-04:00",
+   "segment_text": "entirely within the president and article 2, his right to do. We had a stay of, as you all know, of numerous Doge cases. And, again, every 1 of those stays",
+   "context": "The attorney general thanked our our lawyers, and I'll I'll do it again. Our lawyers are working 24 hours a day, 7 days a week to fight these injunctions and to emergency appeals, emergency stays, going back to the district court judge, asking them to change their view. And and so their hard work is is really paying off, today, but over the past few weeks. We had a stay of an order that prevented DHS from moving aliens to 0.333 country. We had a stay of an order that stopped the Department of Defense from implementing military readiness, the the EO that the President signed. We had another stay of an order forcing reinstatement of fired executive branch employees entirely within the president and article 2, his right to do. We had a stay of, as you all know, of numerous Doge cases. And, again, every 1 of those stays",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:02120:china",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2120.162307692308,
+   "t_wall": 1751040221.1623077,
+   "t_wall_et": "2025-06-27T12:03:41.162308-04:00",
+   "segment_text": "We've made a deal with China. We've made a deal with",
+   "context": "thought that could happen. That's a different group of people, different countries. But we get along with a lot of countries. Are respected again. Our country, The US, is respected again. It was not respected 6 months ago. Can just...... We ask about the future of this. Yeah. Go ahead, Tracy. Mister president, you have a deadline coming up on trade in 2 weeks. Which country does that On trade, on tariffs. Yeah. Sir, which countries, if any, are close to agreements with the administration? Well, that's an interesting question. We've made a deal with China. We've made a deal with",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We've made a deal with China.",
+    "summary": "The President states a trade deal has been reached with China."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmation of a China trade deal is mildly positive but already known to markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad China equity exposure benefits modestly from reiterated trade deal optimism.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Chinese internet stocks could see slight sentiment lift from improved US-China trade tone, though effect is indirect.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats that a trade deal with China has been made, a mildly positive but already-known signal for China-exposed equities, with limited new information for markets.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmation of a China trade deal is mildly positive but already known to markets.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad China equity exposure benefits modestly from reiterated trade deal optimism.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Chinese internet stocks could see slight sentiment lift from improved US-China trade tone, though effect is indirect.\", \"added\": false}], \"summary\": \"The President repeats that a trade deal with China has been made, a mildly positive but already-known signal for China-exposed equities, with limited new information for markets.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:02125:uk",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "uk",
+   "text_span": "UK",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2125.300094936709,
+   "t_wall": 1751040226.3000948,
+   "t_wall_et": "2025-06-27T12:03:46.300095-04:00",
+   "segment_text": "probably 4 or 5 different countries. With The UK, it was a great deal for both.",
+   "context": "Are respected again. Our country, The US, is respected again. It was not respected 6 months ago. Can just...... We ask about the future of this. Yeah. Go ahead, Tracy. Mister president, you have a deadline coming up on trade in 2 weeks. Which country does that On trade, on tariffs. Yeah. Sir, which countries, if any, are close to agreements with the administration? Well, that's an interesting question. We've made a deal with China. We've made a deal with probably 4 or 5 different countries. With The UK, it was a great deal for both.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "With The UK, it was a great deal for both.",
+    "summary": "The President states he made a trade deal with the UK, describing it as great for both parties."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "UK deal already announced previously, so restating it is unlikely to move UK equities ETF materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates an already-known US-UK trade deal and general tariff rhetoric with no new specifics for the UK, limiting price impact on EWU.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWU\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"UK deal already announced previously, so restating it is unlikely to move UK equities ETF materially.\",\"added\":false}],\"summary\":\"The President reiterates an already-known US-UK trade deal and general tariff rhetoric with no new specifics for the UK, limiting price impact on EWU.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:02133:defense_word",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2133.677121804511,
+   "t_wall": 1751040234.6771219,
+   "t_wall_et": "2025-06-27T12:03:54.677122-04:00",
+   "segment_text": "Howard Lutnick, these 2 guys have been doing an incredible job, and the people that work with them have been doing an incredible job.",
+   "context": "ask about the future of this. Yeah. Go ahead, Tracy. Mister president, you have a deadline coming up on trade in 2 weeks. Which country does that On trade, on tariffs. Yeah. Sir, which countries, if any, are close to agreements with the administration? Well, that's an interesting question. We've made a deal with China. We've made a deal with probably 4 or 5 different countries. With The UK, it was a great deal for both. And we're in the process of making some others. But ultimately, in fact, is here. Howard Lutnick, these 2 guys have been doing an incredible job, and the people that work with them have been doing an incredible job.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:02159:india",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2159.7078838174275,
+   "t_wall": 1751040260.7078838,
+   "t_wall_et": "2025-06-27T12:04:20.707884-04:00",
+   "segment_text": "But some of the bigger countries... So India, I think we're gonna reach a deal where we have the right to go in and trade. Right now, it's restricted. You can't walk in there. You can't even think about it. We're looking to get a full trade,",
+   "context": "But, you know, we have 200 countries. You could say 200 countries plus. We can't do that. So at a certain point over the next week and 0.5 or so or maybe before, we're gonna send out a letter. We talked to many of the countries, so we're just gonna tell them what they have to pay to do business in The United States. And it's gonna go very quickly. But some of the bigger countries... So India, I think we're gonna reach a deal where we have the right to go in and trade. Right now, it's restricted. You can't walk in there. You can't even think about it. We're looking to get a full trade,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "we're gonna reach a deal where we have the right to go in and trade",
+    "summary": "The President says US seeks full trade deal with India to open restricted market access."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Potential US-India trade deal opening markets is modestly positive for Indian equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Same India trade-opening optimism benefits this India-focused ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President signals progress toward a US-India trade deal with barrier-dropping potential, a mild positive for India-exposed equity ETFs, though uncertainty remains high.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Potential US-India trade deal opening markets is modestly positive for Indian equities broadly.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Same India trade-opening optimism benefits this India-focused ETF.\", \"added\": false}], \"summary\": \"The President signals progress toward a US-India trade deal with barrier-dropping potential, a mild positive for India-exposed equity ETFs, though uncertainty remains high.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:02307:russia",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 2307.5806191950464,
+   "t_wall": 1751040408.580619,
+   "t_wall_et": "2025-06-27T12:06:48.580619-04:00",
+   "segment_text": "Biden laptop was from Russia. The same people that did 3 or 4 of the Russia Russia Russia hoax. Put on their... No. No. Wait. Wait. Just listen. They came up with something that delayed the credit that our great pilots and these great America... I mean, they... What talent that was, and they hit it right down in the spot.",
+   "context": "next week with Iran? So Iran wants to meet. As you know, their sites were obliterated. They're very evil nuclear sites. They were... Now has been proven. We had some fake news for a little while. The same people that covered the Hunter Biden laptop was from Russia. The same people that did 3 or 4 of the Russia Russia Russia hoax. Put on their... No. No. Wait. Wait. Just listen. They came up with something that delayed the credit that our great pilots and these great America... I mean, they... What talent that was, and they hit it right down in the spot.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "fake news...from Russia...Russia Russia Russia hoax",
+    "summary": "The President criticizes Russia for spreading disinformation about Iranian strikes."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is rhetorical criticism of media/Russia disinformation narrative, not a new policy action against Russia's economy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information on Iran strikes' military success beyond what markets already priced, limited fresh geopolitical risk premium for energy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly rhetorical, reaffirming past claims about Iran strike success and criticizing media/Russia disinformation; no new tradable policy or economic signal for RSX or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is rhetorical criticism of media/Russia disinformation narrative, not a new policy action against Russia's economy.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new information on Iran strikes' military success beyond what markets already priced, limited fresh geopolitical risk premium for energy.\", \"added\": false}], \"summary\": \"The excerpt is mostly rhetorical, reaffirming past claims about Iran strike success and criticizing media/Russia disinformation; no new tradable policy or economic signal for RSX or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:02449:nuclear",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "uranium",
+   "text_span": "uranium",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2449.7053383458647,
+   "t_wall": 1751040550.7053382,
+   "t_wall_et": "2025-06-27T12:09:10.705338-04:00",
+   "segment_text": "As you go into negotiations and talks with Iran, are you demanding not only that there would be no uranium production inside of Iran,",
+   "context": "And I I don't know exactly why, but it's a hell of a system. And we bring people there, and when they go there, they don't get out. And frankly, when they hear they have to go there, they become very nice people. They become very nice people. It's a tough system, but it's a brilliant system. And, it's a system done by a very, very good leader. And we'll talk about El Salvador. A lot of respect. Yeah. Please. Thank you. A question for you and then a question for the attorney general. As you go into negotiations and talks with Iran, are you demanding not only that there would be no uranium production inside of Iran, but also that Iran would turn over all existing stockpiles",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:02847:defense_word",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 2847.051,
+   "t_wall": 1751040948.051,
+   "t_wall_et": "2025-06-27T12:15:48.051000-04:00",
+   "segment_text": "He calls me back 2 hours later. He says, you're right. We took an 88,000,000,000",
+   "context": "Sir, we have a problem. We don't know what to do. The books are a mess. I said, what do you mean by the books? The books. The money. The money coming in is so terrible. I figured, oh, boy. What's this? I don't like this question. I said, so what what seems... There's so much money coming in, and there must be some kind of an accounting mistake because we have hundreds of billions of dollars more money than we thought. I said, do me a favor. Go check the gear. Call me back. You have to call me back. Check the tariff column. He calls me back 2 hours later. He says, you're right. We took an 88,000,000,000 in tariffs. They have so much money coming in.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:02860:ai_word",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 2860.575429319372,
+   "t_wall": 1751040961.5754292,
+   "t_wall_et": "2025-06-27T12:16:01.575429-04:00",
+   "segment_text": "But more important than the money coming in, we have companies coming in, factories coming in, auto plants being built, AI is being built here instead of being built all over Europe and Asia.",
+   "context": "Sir, we have a problem. We don't know what to do. The books are a mess. I said, what do you mean by the books? The books. The money. The money coming in is so terrible. I figured, oh, boy. What's this? I don't like this question. I said, so what what seems... There's so much money coming in, and there must be some kind of an accounting mistake because we have hundreds of billions of dollars more money than we thought. I said, do me a favor. Go check the gear. Call me back. You have to call me back. Check the tariff column. He calls me back 2 hours later. He says, you're right. We took an 88,000,000,000 in tariffs. They have so much money coming in. But more important than the money coming in, we have companies coming in, factories coming in, auto plants being built, AI is being built here instead of being built all over Europe and Asia.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "AI is being built here instead of being built all over Europe and Asia.",
+    "summary": "The President claims AI manufacturing is relocating to the US from Europe and Asia."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about AI investment being built in the US is not new, specific policy affecting NVDA directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague claim of AI/factory investment domestically is generic rhetoric without new policy detail for semiconductor sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat rhetoric about tariffs boosting revenue and factories/AI being built domestically, with no new specific policy or numbers material to NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about AI investment being built in the US is not new, specific policy affecting NVDA directly.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague claim of AI/factory investment domestically is generic rhetoric without new policy detail for semiconductor sector.\", \"added\": false}], \"summary\": \"The President's remarks are largely repeat rhetoric about tariffs boosting revenue and factories/AI being built domestically, with no new specific policy or numbers material to NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:02863:eu",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 2863.5227094240836,
+   "t_wall": 1751040964.5227094,
+   "t_wall_et": "2025-06-27T12:16:04.522709-04:00",
+   "segment_text": "But more important than the money coming in, we have companies coming in, factories coming in, auto plants being built, AI is being built here instead of being built all over Europe and Asia.",
+   "context": "Sir, we have a problem. We don't know what to do. The books are a mess. I said, what do you mean by the books? The books. The money. The money coming in is so terrible. I figured, oh, boy. What's this? I don't like this question. I said, so what what seems... There's so much money coming in, and there must be some kind of an accounting mistake because we have hundreds of billions of dollars more money than we thought. I said, do me a favor. Go check the gear. Call me back. You have to call me back. Check the tariff column. He calls me back 2 hours later. He says, you're right. We took an 88,000,000,000 in tariffs. They have so much money coming in. But more important than the money coming in, we have companies coming in, factories coming in, auto plants being built, AI is being built here instead of being built all over Europe and Asia.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Europe",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "AI is being built here instead of being built all over Europe and Asia.",
+    "summary": "The President contrasts US AI investment with reduced European and Asian manufacturing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about US attracting investment vs Europe is not new policy information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeats familiar narrative of US onshoring at Europe's expense without new concrete measures.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff or policy action against Eurozone firms, just rhetorical comparison.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are largely self-congratulatory rhetoric about tariff revenue and US investment inflows, with only a passing, non-specific dig at Europe losing AI investment; no concrete new policy affecting European equities is announced.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about US attracting investment vs Europe is not new policy information.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeats familiar narrative of US onshoring at Europe's expense without new concrete measures.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff or policy action against Eurozone firms, just rhetorical comparison.\", \"added\": false}], \"summary\": \"The President's comments are largely self-congratulatory rhetoric about tariff revenue and US investment inflows, with only a passing, non-specific dig at Europe losing AI investment; no concrete new policy affecting European equities is announced.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:03287:russia",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3287.1793096153847,
+   "t_wall": 1751041388.1793096,
+   "t_wall_et": "2025-06-27T12:23:08.179310-04:00",
+   "segment_text": "it's a big deal. You know, we talk about Russia, and we're gonna work... We're working that 1. President",
+   "context": "you know, we have a great press conference coming up later, and it's The Congo and Rwanda. You know, they were fighting for years, and it was machetes. It was vicious. It was as vicious people's heads being chopped off. And I have a man who's very good in that part of the world, very smart, and put them together. And we're signing a peace treaty today. 1st time in many years they're gonna have peace, and, it's a big deal. You know, we talk about Russia, and we're gonna work... We're working that 1. President",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "we talk about Russia, and we're gonna work",
+    "summary": "The President mentions working on Russia matters alongside peace deal efforts."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague mention of ongoing Russia diplomacy with no new sanctions or deal specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete energy policy or Russia sanctions detail to move energy sector pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general rhetoric about various geopolitical negotiations with no new, specific, market-moving policy detail on Russia or energy, so no meaningful price impact expected for RSX or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague mention of ongoing Russia diplomacy with no new sanctions or deal specifics.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete energy policy or Russia sanctions detail to move energy sector pricing.\", \"added\": false}], \"summary\": \"The excerpt is general rhetoric about various geopolitical negotiations with no new, specific, market-moving policy detail on Russia or energy, so no meaningful price impact expected for RSX or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:03305:india",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 3305.892843137255,
+   "t_wall": 1751041406.8928432,
+   "t_wall_et": "2025-06-27T12:23:26.892843-04:00",
+   "segment_text": "some... We did some great work. India and Pakistan,",
+   "context": "And I have a man who's very good in that part of the world, very smart, and put them together. And we're signing a peace treaty today. 1st time in many years they're gonna have peace, and, it's a big deal. You know, we talk about Russia, and we're gonna work... We're working that 1. President Putin called up, and he said, I'd love to help you with Iran. I said, do me a favor. I'll handle Iran. Help me with Russia. We gotta get that 1 settled. And I think something's gonna happen there. But we did, some... We did some great work. India and Pakistan,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We did some great work. India and Pakistan,",
+    "summary": "The President credits himself with peace progress between India and Pakistan."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about past India-Pakistan de-escalation is already known and not a new policy trigger for the India ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated geopolitical claim, minimal new information for India-focused equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks rehash previously known claims about brokering India-Pakistan de-escalation with no new policy or trade details, so impact on India-related ETFs is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about past India-Pakistan de-escalation is already known and not a new policy trigger for the India ETF.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same repeated geopolitical claim, minimal new information for India-focused equities.\", \"added\": false}], \"summary\": \"The President's remarks rehash previously known claims about brokering India-Pakistan de-escalation with no new policy or trade details, so impact on India-related ETFs is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:03493:health_ins",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3493.0497103448274,
+   "t_wall": 1751041594.0497103,
+   "t_wall_et": "2025-06-27T12:26:34.049710-04:00",
+   "segment_text": "destroy Medicare, and destroy",
+   "context": "It's a popular bill, but we'll get no Democrats only because they don't wanna vote for the President. If they, if that bill was their bill, they would be so happy. It's so great for our military. It's great for everything. And they would normally vote, but because their hatred of the President, they have the President derangement syndrome at levels never seen before. And instead of voting for a tax cut, they're voting for a tax increase of 68%. They're voting to destroy Social Security, destroy Medicare, and destroy",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "destroy Social Security, destroy Medicare, and destroy",
+    "summary": "The President criticizes Democrats for voting to destroy Medicare."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General political rhetoric about Medicare/Medicaid framing, not a specific policy change affecting insurers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy detail specific to Cigna, just partisan rhetoric on entitlement programs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about Democrats allegedly destroying Medicare, not a concrete policy change for Elevance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Humana has heavy Medicare Advantage exposure but the remark is rhetorical, not a new policy signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is campaign-style rhetoric about the tax bill and Democrats 'destroying' Medicare/Medicaid, with no new concrete policy detail affecting health insurers' fundamentals, so price impact is expected to be negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General political rhetoric about Medicare/Medicaid framing, not a specific policy change affecting insurers.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy detail specific to Cigna, just partisan rhetoric on entitlement programs.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is about Democrats allegedly destroying Medicare, not a concrete policy change for Elevance.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Humana has heavy Medicare Advantage exposure but the remark is rhetorical, not a new policy signal.\", \"added\": false}], \"summary\": \"The excerpt is campaign-style rhetoric about the tax bill and Democrats 'destroying' Medicare/Medicaid, with no new concrete policy detail affecting health insurers' fundamentals, so price impact is expected to be negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:03518:btc",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3518.5804422857145,
+   "t_wall": 1751041619.5804422,
+   "t_wall_et": "2025-06-27T12:26:59.580442-04:00",
+   "segment_text": "Thank Sir, you, Mr. President. On a related subject, many Democrats have said that they are not going to support crypto bills in Congress only because of you and your family's",
+   "context": "Medicaid. And we're voting to make them perfect and to make them better, make them stronger and better. They're gonna destroy Medicaid and they're gonna destroy Medicare and Social Security will follow. If you vote for the Democrats, you're dead on those 3 things. Thank Sir, you, Mr. President. On a related subject, many Democrats have said that they are not going to support crypto bills in Congress only because of you and your family's personal crypto ventures. And these votes are in some cases needed to pass. Are you open to the idea of pulling away from your personal crypto ventures just for the next few years if that helps get these crypto bills passed Yeah. In the next few months? Well, it's a very funny thing, crypto. So I became a fan of crypto, and to me, it's an industry. I view it as an industry, and I'm president.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "crypto",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "I became a fan of crypto, I view it as an industry.",
+    "summary": "The President expresses support for crypto as an industry despite conflict-of-interest questions."
+   },
+   "llm_attempts": 2,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates general support for crypto as a strategic industry, mildly supportive of Bitcoin sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-crypto rhetoric is a mild tailwind for the largest US crypto exchange, though nothing new is announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a Bitcoin proxy, MSTR benefits slightly from reaffirmed pro-crypto stance despite lack of new policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats supportive but non-specific pro-crypto rhetoric, framing it as a strategic US industry; this is a mild, low-conviction positive for Bitcoin-linked names (IBIT, COIN, MSTR) with no new policy or numbers revealed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBIT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates general support for crypto as a strategic industry, mildly supportive of Bitcoin sentiment.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-crypto rhetoric is a mild tailwind for the largest US crypto exchange, though nothing new is announced.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a Bitcoin proxy, MSTR benefits slightly from reaffirmed pro-crypto stance despite lack of new policy detail.\", \"added\": false}], \"summary\": \"The President repeats supportive but non-specific pro-crypto rhetoric, framing it as a strategic US industry; this is a mild, low-conviction positive for Bitcoin-linked names (IBIT, COIN, MSTR) with no new policy or numbers revealed.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:03551:stock_market",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 3551.5187634408603,
+   "t_wall": 1751041652.5187635,
+   "t_wall_et": "2025-06-27T12:27:32.518764-04:00",
+   "segment_text": "And we've dominated that industry. It's a big industry, by the way. In fact, when the stock market went down recently, crypto and Bitcoin and all of that went down much less than anybody",
+   "context": "And these votes are in some cases needed to pass. Are you open to the idea of pulling away from your personal crypto ventures just for the next few years if that helps get these crypto bills passed Yeah. In the next few months? Well, it's a very funny thing, crypto. So I became a fan of crypto, and to me, it's an industry. I view it as an industry, and I'm president. And if we didn't have it, China would or somebody else would, but most likely China. China would love to. And we've dominated that industry. It's a big industry, by the way. In fact, when the stock market went down recently, crypto and Bitcoin and all of that went down much less than anybody",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:03818:autos",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3818.423567839196,
+   "t_wall": 1751041919.4235678,
+   "t_wall_et": "2025-06-27T12:31:59.423568-04:00",
+   "segment_text": "This is a dangerous business. What I do is a dangerous business. You know? I I tell the story of the car companies and different people and different professions. Have race car drivers as an example.",
+   "context": "that's what they say, but I don't care about danger. I I mean, this is a guy that is just a very big business guy. He wants to give up his whole life to go to Lebanon because he believes in it so much. We're with Lebanon all the way. We'll try and straighten it out.... Threatening your life as well. So what action... Threatened my life. Yeah. They have threatened. I get that throbbing feeling every once in a while. Get that throbbing feeling. But you know what? That's okay. This is a dangerous business. What I do is a dangerous business. You know? I I tell the story of the car companies and different people and different professions. Have race car drivers as an example.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:03881:nuclear",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "uranium",
+   "text_span": "uranium",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3881.2898473282444,
+   "t_wall": 1751041982.2898474,
+   "t_wall_et": "2025-06-27T12:33:02.289847-04:00",
+   "segment_text": "Are you from Iran? No. I'm not from Iran. I'm from The UK. But if if the intelligence reports conclude that Iran can enrich uranium",
+   "context": "This is the opposite of Biden. Biden would take 0.5 a question, and he'd leave without answering it. Go ahead. Iran. On Iran. You tell me when it gets boring. Iran. If if Iran... Are you from Iran? No. I'm not from Iran. I'm from The UK. But if if the intelligence reports conclude that Iran can enrich uranium to a level that concerns you, would you consider bombing the country again? Without question. Absolutely. And have you had any comments? Turned out to be unbelievable.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "uranium",
+    "tickers": [
+     "URA",
+     "CCJ",
+     "OKLO",
+     "SMR"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "If Iran can enrich uranium to a level that concerns you, would you consider bombing the country again? Without question. Absolutely.",
+    "summary": "The President affirms willingness to bomb Iran if it enriches uranium to concerning levels."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "URA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical tension around Iran uranium is unrelated to global uranium mining fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CCJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cameco's fundamentals are not directly affected by Iran-related military threats.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "OKLO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Small modular reactor company unaffected by Iran geopolitics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "NuScale's business is domestic nuclear tech, not tied to Iran conflict risk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CEG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Constellation Energy operations unaffected by renewed Iran military rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates a repeat threat to bomb Iran over uranium enrichment, which is general geopolitical rhetoric with no direct new information affecting nuclear energy or uranium-related equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"URA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Geopolitical tension around Iran uranium is unrelated to global uranium mining fundamentals.\", \"added\": false}, {\"ticker\": \"CCJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Cameco's fundamentals are not directly affected by Iran-related military threats.\", \"added\": false}, {\"ticker\": \"OKLO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Small modular reactor company unaffected by Iran geopolitics.\", \"added\": false}, {\"ticker\": \"SMR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"NuScale's business is domestic nuclear tech, not tied to Iran conflict risk.\", \"added\": false}, {\"ticker\": \"CEG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Constellation Energy operations unaffected by renewed Iran military rhetoric.\", \"added\": false}], \"summary\": \"The President reiterates a repeat threat to bomb Iran over uranium enrichment, which is general geopolitical rhetoric with no direct new information affecting nuclear energy or uranium-related equities.\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:04267:fed",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "federal reserve",
+   "text_span": "Federal Reserve",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 4267.692631128404,
+   "t_wall": 1751042368.6926312,
+   "t_wall_et": "2025-06-27T12:39:28.692631-04:00",
+   "segment_text": "So how do you finish it up? Who were you considering for the Federal Reserve then? Oh, and are you speeding up that process? I see secretary... Oh, he's terrible. He's terrible. Mean, I I have a list of things. We're, like, 38 on the list. We pay, you know,",
+   "context": "is that July 9 date set for tariffs to snap back, or could they... Could there be a... We can do whatever we want. We could extend it. We could make it shorter. I'd like to make it shorter. I'd like to just send letters out to everybody. Congratulations. You're paying 25%. He doesn't want... He's he's a much nicer person than I am. So how do you finish it up? Who were you considering for the Federal Reserve then? Oh, and are you speeding up that process? I see secretary... Oh, he's terrible. He's terrible. Mean, I I have a list of things. We're, like, 38 on the list. We pay, you know,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XkgLela6l6o:04382:fed",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "lower the rates",
+   "text_span": "lower the rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4382.935906593407,
+   "t_wall": 1751042483.9359066,
+   "t_wall_et": "2025-06-27T12:41:23.935907-04:00",
+   "segment_text": "all because the guy doesn't wanna lower the rates. He is doing the service, a very... And then he goes up to our side. I'd like to see costs come down. You know, he gets up and he does his little thing for 5 minutes, and he goes out and he goes back to the beach. He goes, I'd like to see costs come down. Well, he could lower the interest cost by $900,000,000,000",
+   "context": "Because if we borrow money at 2 points higher than we should be paying, that's $600,000,000,000. You... Wouldn't you say those numbers are about right, Scott? So it's 2 points would be about 600... Actually, more than that, but about $600,000,000,000, all because the guy doesn't wanna lower the rates. He is doing the service, a very... And then he goes up to our side. I'd like to see costs come down. You know, he gets up and he does his little thing for 5 minutes, and he goes out and he goes back to the beach. He goes, I'd like to see costs come down. Well, he could lower the interest cost by $900,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "He doesn't wanna lower the rates. He could lower the interest cost by $900,000,000,000",
+    "summary": "The President criticizes Federal Reserve for not lowering interest rates, citing $900 billion cost impact."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's repeated jawboning for lower rates modestly raises odds of eventual Fed easing, supportive for long bonds.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rate-cut rhetoric has mixed effects on financials (lower rates hurt net interest margin but ease credit conditions), net ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks similarly face offsetting effects from potential rate cuts, no clear directional edge.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates familiar criticism of Fed Chair Powell and calls for lower rates, a repeated talking point that modestly supports bonds (TLT) but has ambiguous, non-actionable impact on bank sector ETFs (XLF, KRE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's repeated jawboning for lower rates modestly raises odds of eventual Fed easing, supportive for long bonds.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rate-cut rhetoric has mixed effects on financials (lower rates hurt net interest margin but ease credit conditions), net ambiguous.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks similarly face offsetting effects from potential rate cuts, no clear directional edge.\", \"added\": false}], \"summary\": \"The President reiterates familiar criticism of Fed Chair Powell and calls for lower rates, a repeated talking point that modestly supports bonds (TLT) but has ambiguous, non-actionable impact on bank sector ETFs (XLF, KRE).\"}"
+   }
+  },
+  {
+   "signal_id": "XkgLela6l6o:04436:iran",
+   "video_id": "XkgLela6l6o",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 4436.09,
+   "t_wall": 1751042537.09,
+   "t_wall_et": "2025-06-27T12:42:17.090000-04:00",
+   "segment_text": "Iran being nuclear.",
+   "context": "and they're saying, you know, the President's right. He should really be cutting. The country's doing well. We have no inflation. Now despite him, we're doing great. But if we got the rates down, we would be a rocket ship. So I think that'll be it. And I just wanna thank everybody. It's a really big day. We've had we've had a big week. You know, we've had a big week. We've had a lot of victories this week. NATO was a tremendous victory. The war was a tremendous... Look. We were talking about this for 30 years about Iran being nuclear.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "talking about this for 30 years about Iran being nuclear",
+    "summary": "The President references long-standing concern about Iran's nuclear program."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President framing Iran war as concluded and de-escalated reduces geopolitical risk premium in oil, mildly bearish for energy stocks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Declaring the Iran conflict over removes supply-disruption fear that had supported oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for the military's strike success is reputational but doesn't signal new defense spending or contracts.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize the Iran conflict is resolved and praises the military, which is mildly bearish for oil/energy given reduced geopolitical risk, with limited direct impact on defense stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President framing Iran war as concluded and de-escalated reduces geopolitical risk premium in oil, mildly bearish for energy stocks.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Declaring the Iran conflict over removes supply-disruption fear that had supported oil prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for the military's strike success is reputational but doesn't signal new defense spending or contracts.\", \"added\": false}], \"summary\": \"The President's remarks emphasize the Iran conflict is resolved and praises the military, which is mildly bearish for oil/energy given reduced geopolitical risk, with limited direct impact on defense stocks.\"}"
+   }
+  }
+ ]
+}

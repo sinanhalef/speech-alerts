@@ -1,0 +1,3054 @@
+{
+ "video": {
+  "id": "J6SK7lotKZQ",
+  "url": "https://www.youtube.com/watch?v=J6SK7lotKZQ",
+  "title": "The President Makes an Announcement, Aug. 6, 2025",
+  "channel": "The White House",
+  "duration": 2345.0,
+  "was_live": true,
+  "release_timestamp": 1754514176.0,
+  "upload_timestamp": 1754517242.0,
+  "upload_date": "20250806",
+  "label": "Apple $600B investment announcement (White House), 2025-08-06",
+  "group": "headline",
+  "notes": "",
+  "t0": 1754514176.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 55,
+  "confirmed": 43,
+  "retracted": 12,
+  "unconfirmed": 0,
+  "llm_calls": 57
+ },
+ "signals": [
+  {
+   "signal_id": "J6SK7lotKZQ:00073:aapl",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 73.2149974909091,
+   "t_wall": 1754514249.2149975,
+   "t_wall_et": "2025-08-06T17:04:09.214998-04:00",
+   "segment_text": "anywhere in the world. Apple CEO Tim Cook. Amazing job.",
+   "context": "is praying for the victims and their families, and, hopefully, they'll fully recover. And, we can put this chapter behind, but we're not gonna forget what happened. I'm gonna gonna take very good care of this this, person that did this horrible person. This afternoon, we're pleased to welcome to the White House 1 of the great and most esteemed business leaders and geniuses and innovators anywhere in the world. Apple CEO Tim Cook. Amazing job.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "great and most esteemed business leaders and geniuses and innovators",
+    "summary": "The President praises Apple CEO Tim Cook as a great business leader and innovator."
+   },
+   "llm_attempts": 1,
+   "count": 13,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President announces Apple's $600B US investment pledge (up from prior $500B) plus praise and a new domestic manufacturing program, a positive headline for political/regulatory goodwill though limited direct earnings impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President publicly praises Apple and unveils a larger-than-previously-announced $600B US investment commitment and manufacturing push, a modestly positive, novel headline for AAPL sentiment.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President announces Apple's $600B US investment pledge (up from prior $500B) plus praise and a new domestic manufacturing program, a positive headline for political/regulatory goodwill though limited direct earnings impact.\", \"added\": false}], \"summary\": \"The President publicly praises Apple and unveils a larger-than-previously-announced $600B US investment commitment and manufacturing push, a modestly positive, novel headline for AAPL sentiment.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00166:avgo",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "avgo",
+   "entity": "Broadcom",
+   "kind": "company",
+   "alias": "broadcom",
+   "text_span": "Broadcom",
+   "dict_tickers": [
+    "AVGO"
+   ],
+   "triggers_nearby": [
+    "investments",
+    "jobs"
+   ],
+   "t_audio": 166.97,
+   "t_wall": 1754514342.97,
+   "t_wall_et": "2025-08-06T17:05:42.970000-04:00",
+   "segment_text": "Broadcom,",
+   "context": "program, which will bring factories and assembly lines across our country all roaring to life. Areas that were not doing so well are doing very well. We have about $17,000,000,000,000 coming into The United States, which is more than ever before that's never even come close. There's never been anything like it. I even you, that's even a lot of money for you. But we have commitments of more than $17,000,000,000,000. That was as of a couple of weeks ago. These investments will directly create more than 20,000 brand new American jobs and many thousands more at the Apple suppliers like Corning, Broadcom,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Broadcom",
+    "tickers": [
+     "AVGO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Apple suppliers like Corning, Broadcom",
+    "summary": "Broadcom named as Apple supplier benefiting from factory investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AVGO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Named as an Apple supplier benefiting from the $600B domestic investment push, though scale of incremental benefit is unspecified.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted Apple's $600B US manufacturing investment and named Broadcom among suppliers set to benefit, a mildly positive but vague catalyst for AVGO.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AVGO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Named as an Apple supplier benefiting from the $600B domestic investment push, though scale of incremental benefit is unspecified.\", \"added\": false}], \"summary\": \"The President highlighted Apple's $600B US manufacturing investment and named Broadcom among suppliers set to benefit, a mildly positive but vague catalyst for AVGO.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00169:samsung",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "samsung",
+   "entity": "Samsung",
+   "kind": "company",
+   "alias": "samsung",
+   "text_span": "Samsung",
+   "dict_tickers": [
+    "SSNLF"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "jobs"
+   ],
+   "t_audio": 169.83238288135595,
+   "t_wall": 1754514345.832383,
+   "t_wall_et": "2025-08-06T17:05:45.832383-04:00",
+   "segment_text": "Texas Instruments, and Samsung, who all deal in that world.",
+   "context": "coming into The United States, which is more than ever before that's never even come close. There's never been anything like it. I even you, that's even a lot of money for you. But we have commitments of more than $17,000,000,000,000. That was as of a couple of weeks ago. These investments will directly create more than 20,000 brand new American jobs and many thousands more at the Apple suppliers like Corning, Broadcom, Texas Instruments, and Samsung, who all deal in that world.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Samsung",
+    "tickers": [
+     "SSNLF"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Apple suppliers like Corning, Broadcom, Texas Instruments, and Samsung",
+    "summary": "Samsung named as Apple supplier benefiting from $17 trillion in U.S. investment commitments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SSNLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President named Samsung as an Apple supplier benefiting from expanded US manufacturing investment, a mild positive signal though vague and low-liquidity ADR.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks tout Apple's $600B domestic investment and mention Samsung as a beneficiary supplier, a modest positive for Samsung but largely rhetorical without new specific commitments.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SSNLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President named Samsung as an Apple supplier benefiting from expanded US manufacturing investment, a mild positive signal though vague and low-liquidity ADR.\",\"added\":false}],\"summary\":\"The President's remarks tout Apple's $600B domestic investment and mention Samsung as a beneficiary supplier, a modest positive for Samsung but largely rhetorical without new specific commitments.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00298:ai",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 298.7245789473684,
+   "t_wall": 1754514474.7245789,
+   "t_wall_et": "2025-08-06T17:07:54.724579-04:00",
+   "segment_text": "and invest billions of dollars to construct data centers across the country from North Carolina",
+   "context": "Isn't that nice? We're doing these things now in The United States instead of other countries, faraway countries. This is significant step toward the ultimate goal of ensuring that iPhones sold in The United States Of America also are made in America with the mass infusion of capital it's announcing today. Apple will also build a 250,000 square foot server manufacturing facility in Houston and invest billions of dollars to construct data centers across the country from North Carolina",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers [sector]",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "invest billions of dollars to construct data centers across the country",
+    "summary": "The President announces Apple will invest billions in data center construction across US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "More US data center buildout implies incremental demand for AI chips.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Semiconductor ETF benefits modestly from broader domestic data center/manufacturing investment sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly implicated; general data center rhetoric doesn't specifically affect Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Vertiv supplies data center infrastructure and benefits directly from Apple's new US data center construction announcement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks highlight Apple's new US-based data center and manufacturing investments, a positive read-through for data center infrastructure and semiconductor-linked names like VRT, NVDA, and SMH, while MSFT is largely unaffected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"More US data center buildout implies incremental demand for AI chips.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Semiconductor ETF benefits modestly from broader domestic data center/manufacturing investment sentiment.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not directly implicated; general data center rhetoric doesn't specifically affect Microsoft.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Vertiv supplies data center infrastructure and benefits directly from Apple's new US data center construction announcement.\", \"added\": false}], \"summary\": \"The President's remarks highlight Apple's new US-based data center and manufacturing investments, a positive read-through for data center infrastructure and semiconductor-linked names like VRT, NVDA, and SMH, while MSFT is largely unaffected.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00388:rare_earth",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "rare earth",
+   "text_span": "rare earth",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 388.415,
+   "t_wall": 1754514564.415,
+   "t_wall_et": "2025-08-06T17:09:24.415000-04:00",
+   "segment_text": "rare earth magnets from Texas and build oh, I love that you're doing this. I I love that. I love that.",
+   "context": "For Apple and others businesses, we're about the deductions and all of the things. And, actually, for people, they go out and buy a car 1st time it's ever been done. We talk about deductions for companies, but they're gonna be able to deduct interest when they borrow money to buy a car if it's made in America. It has to be made in America. So it is amazing. And 1 of the reasons I think I can say that Apple's coming here is that legislation we just passed with this kind of investment. Apple will also open other facilities, rare earth magnets from Texas and build oh, I love that you're doing this. I I love that. I love that.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "rare earth magnets from Texas and build",
+    "summary": "The President praises rare earth magnet production in Texas as part of Apple investment initiative."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President highlights Apple building a rare earth recycling line at Mountain Pass, California, MP Materials' key facility, implying new investment/demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive rare earth sector sentiment from Apple's US supply chain investment lifts broader rare earth ETF sentiment modestly.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks tout Apple's new US investments including a rare earth recycling line at MP Materials' Mountain Pass site, a positive, fairly specific signal for MP and mildly positive for the broader rare earth sector ETF REMX.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MP\",\"direction\":\"up\",\"confidence\":0.75,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President highlights Apple building a rare earth recycling line at Mountain Pass, California, MP Materials' key facility, implying new investment/demand.\",\"added\":false},{\"ticker\":\"REMX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Positive rare earth sector sentiment from Apple's US supply chain investment lifts broader rare earth ETF sentiment modestly.\",\"added\":true}],\"summary\":\"The President's remarks tout Apple's new US investments including a rare earth recycling line at MP Materials' Mountain Pass site, a positive, fairly specific signal for MP and mildly positive for the broader rare earth sector ETF REMX.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00398:mp",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "mp",
+   "entity": "MP Materials",
+   "kind": "company",
+   "alias": "mountain pass",
+   "text_span": "Mountain Pass",
+   "dict_tickers": [
+    "MP"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 398.764,
+   "t_wall": 1754514574.764,
+   "t_wall_et": "2025-08-06T17:09:34.764000-04:00",
+   "segment_text": "And build a brand new rare earth recycling line in Mountain Pass,",
+   "context": "when they borrow money to buy a car if it's made in America. It has to be made in America. So it is amazing. And 1 of the reasons I think I can say that Apple's coming here is that legislation we just passed with this kind of investment. Apple will also open other facilities, rare earth magnets from Texas and build oh, I love that you're doing this. I I love that. I love that. And build a brand new rare earth recycling line in Mountain Pass,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "MP Materials",
+    "tickers": [
+     "MP"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "build a brand new rare earth recycling line in Mountain Pass",
+    "summary": "The President praises MP Materials' rare earth recycling facility investment in Mountain Pass."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Apple's new rare earth recycling investment at MP Materials' Mountain Pass site signals additional demand/partnership for MP's facility.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlights Apple's investment tied to MP Materials' Mountain Pass rare earth recycling site, a mild positive for MP.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MP\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Apple's new rare earth recycling investment at MP Materials' Mountain Pass site signals additional demand/partnership for MP's facility.\",\"added\":false}],\"summary\":\"The President highlights Apple's investment tied to MP Materials' Mountain Pass rare earth recycling site, a mild positive for MP.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00409:chips",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductors",
+   "text_span": "semiconductors",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 409.345625,
+   "t_wall": 1754514585.345625,
+   "t_wall_et": "2025-08-06T17:09:45.345625-04:00",
+   "segment_text": "California. I know that area. That's that's where they have a lot of truly rare earth. That's fantastic. I love that. And Apple will help develop and manufacture semiconductors",
+   "context": "it is amazing. And 1 of the reasons I think I can say that Apple's coming here is that legislation we just passed with this kind of investment. Apple will also open other facilities, rare earth magnets from Texas and build oh, I love that you're doing this. I I love that. I love that. And build a brand new rare earth recycling line in Mountain Pass, California. I know that area. That's that's where they have a lot of truly rare earth. That's fantastic. I love that. And Apple will help develop and manufacture semiconductors",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Apple will help develop and manufacture semiconductors",
+    "summary": "The President says Apple will develop and manufacture semiconductors domestically."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad domestic semiconductor investment announcement is mildly supportive for the sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Similar sector tailwind from Apple's U.S. chip manufacturing push.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not directly mentioned; indirect sentiment effect only.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Policy push for U.S.-based chip manufacturing could favor Intel's domestic foundry ambitions.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts Apple's new U.S. semiconductor and rare-earth investments, a mildly positive signal for domestic chip manufacturing and related ETFs, with limited direct read-through for NVDA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Broad domestic semiconductor investment announcement is mildly supportive for the sector ETF.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Similar sector tailwind from Apple's U.S. chip manufacturing push.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not directly mentioned; indirect sentiment effect only.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Policy push for U.S.-based chip manufacturing could favor Intel's domestic foundry ambitions.\", \"added\": false}], \"summary\": \"The President touts Apple's new U.S. semiconductor and rare-earth investments, a mildly positive signal for domestic chip manufacturing and related ETFs, with limited direct read-through for NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00570:nvda",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 570.096,
+   "t_wall": 1754514746.096,
+   "t_wall_et": "2025-08-06T17:12:26.096000-04:00",
+   "segment_text": "certain people. Thank you very much. I appreciate it. Nvidia",
+   "context": "And then I went to NATO and saw many great leaders, and we just finished that about 4 weeks ago. Everyone virtually everyone said, in effect, that we were a dead country 1 year ago. America this was a dead country. We were dying. We were dead. And now you've got the hottest country anywhere in the world. This would have never happened except for certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Nvidia is investing 500,000,000,000 to",
+    "summary": "The President states Nvidia is investing $500 billion, but quote ends mid-sentence."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates already publicized $500B domestic investment commitment, unlikely to be new information for markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates previously announced Nvidia $500B U.S. investment as part of broader manufacturing boom rhetoric, offering little new tradable information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates already publicized $500B domestic investment commitment, unlikely to be new information for markets.\", \"added\": false}], \"summary\": \"The President reiterates previously announced Nvidia $500B U.S. investment as part of broader manufacturing boom rhetoric, offering little new tradable information.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00577:mu",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "mu",
+   "entity": "Micron",
+   "kind": "company",
+   "alias": "micron",
+   "text_span": "Micron",
+   "dict_tickers": [
+    "MU"
+   ],
+   "triggers_nearby": [
+    "great company",
+    "investing"
+   ],
+   "t_audio": 577.88,
+   "t_wall": 1754514753.88,
+   "t_wall_et": "2025-08-06T17:12:33.880000-04:00",
+   "segment_text": "Micron, great company, is investing 200,000,000,000.",
+   "context": "in effect, that we were a dead country 1 year ago. America this was a dead country. We were dying. We were dead. And now you've got the hottest country anywhere in the world. This would have never happened except for certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Micron",
+    "tickers": [
+     "MU"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Micron, great company, is investing 200,000,000,000.",
+    "summary": "The President reports Micron investing $200 billion in US operations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts Micron's $200B US investment, a positive but likely already-known figure given prior Micron investment announcements.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's positive mention of Micron's $200B investment is supportive but largely reiterates previously disclosed plans, limiting incremental price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts Micron's $200B US investment, a positive but likely already-known figure given prior Micron investment announcements.\", \"added\": false}], \"summary\": \"The President's positive mention of Micron's $200B investment is supportive but largely reiterates previously disclosed plans, limiting incremental price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00580:ibm",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ibm",
+   "entity": "IBM",
+   "kind": "company",
+   "alias": "ibm",
+   "text_span": "IBM",
+   "dict_tickers": [
+    "IBM"
+   ],
+   "triggers_nearby": [
+    "great company",
+    "investing"
+   ],
+   "t_audio": 580.995,
+   "t_wall": 1754514756.995,
+   "t_wall_et": "2025-08-06T17:12:36.995000-04:00",
+   "segment_text": "IBM is investing more than 150,000,000,000.",
+   "context": "1 year ago. America this was a dead country. We were dying. We were dead. And now you've got the hottest country anywhere in the world. This would have never happened except for certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "IBM",
+    "tickers": [
+     "IBM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "IBM is investing more than 150,000,000,000.",
+    "summary": "The President states IBM is investing over $150 billion in U.S. infrastructure."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President highlights IBM's $150B+ US investment commitment, positive PR though likely already known/self-announced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of IBM's large domestic investment is mildly positive but largely reiterates existing commitments rather than new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President highlights IBM's $150B+ US investment commitment, positive PR though likely already known/self-announced.\", \"added\": false}], \"summary\": \"The President's mention of IBM's large domestic investment is mildly positive but largely reiterates existing commitments rather than new information.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00584:sftby",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "sftby",
+   "entity": "SoftBank",
+   "kind": "company",
+   "alias": "softbank",
+   "text_span": "SoftBank",
+   "dict_tickers": [
+    "SFTBY"
+   ],
+   "triggers_nearby": [
+    "great company",
+    "investing"
+   ],
+   "t_audio": 584.755,
+   "t_wall": 1754514760.755,
+   "t_wall_et": "2025-08-06T17:12:40.755000-04:00",
+   "segment_text": "SoftBank",
+   "context": "1 year ago. America this was a dead country. We were dying. We were dead. And now you've got the hottest country anywhere in the world. This would have never happened except for certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000. SoftBank",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "SoftBank",
+    "tickers": [
+     "SFTBY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "SoftBank",
+    "summary": "SoftBank mentioned alongside other major tech companies making large US investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SFTBY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President cites SoftBank's already-known $100B+ US investment pledge as part of a general list, adding little new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is largely a repeat of previously announced investment figures across many companies, offering no new specific commitment for SoftBank that would move its stock meaningfully versus the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SFTBY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President cites SoftBank's already-known $100B+ US investment pledge as part of a general list, adding little new information.\", \"added\": false}], \"summary\": \"The President's remark is largely a repeat of previously announced investment figures across many companies, offering no new specific commitment for SoftBank that would move its stock meaningfully versus the market.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00589:tsm",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "tsm",
+   "entity": "TSMC",
+   "kind": "company",
+   "alias": "tsmc",
+   "text_span": "TSMC",
+   "dict_tickers": [
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 589.555,
+   "t_wall": 1754514765.555,
+   "t_wall_et": "2025-08-06T17:12:45.555000-04:00",
+   "segment_text": "TSMC",
+   "context": "And now you've got the hottest country anywhere in the world. This would have never happened except for certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000. SoftBank is, investing substantially more than 100,000,000,000. TSMC",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TSMC",
+    "tickers": [
+     "TSM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "TSMC",
+    "summary": "TSMC mentioned in list of major chip firms making large investments."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates TSMC's previously announced $200B US investment, mildly reinforcing positive sentiment but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks restate known investment pledges from major tech firms including TSMC, a mildly positive but largely already-priced-in signal for TSM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates TSMC's previously announced $200B US investment, mildly reinforcing positive sentiment but not new information.\", \"added\": false}], \"summary\": \"The President's remarks restate known investment pledges from major tech firms including TSMC, a mildly positive but largely already-priced-in signal for TSM.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00592:jnj",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "jnj",
+   "entity": "Johnson & Johnson",
+   "kind": "company",
+   "alias": "johnson and johnson",
+   "text_span": "Johnson and Johnson",
+   "dict_tickers": [
+    "JNJ"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 592.995,
+   "t_wall": 1754514768.995,
+   "t_wall_et": "2025-08-06T17:12:48.995000-04:00",
+   "segment_text": "Johnson and Johnson, 55,000,000,000.",
+   "context": "And now you've got the hottest country anywhere in the world. This would have never happened except for certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000. SoftBank is, investing substantially more than 100,000,000,000. TSMC is investing 200,000,000,000. Johnson and Johnson, 55,000,000,000.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Johnson & Johnson",
+    "tickers": [
+     "JNJ"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Johnson and Johnson, 55,000,000,000",
+    "summary": "The President announces Johnson & Johnson investing $55 billion in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "JNJ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Investment announcement is positive framing but $55B domestic investment pledge was previously announced and largely priced in.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates J&J's already-announced $55B US investment pledge as part of a broader list of corporate commitments; mildly positive but low novelty limits price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"JNJ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Investment announcement is positive framing but $55B domestic investment pledge was previously announced and largely priced in.\", \"added\": false}], \"summary\": \"The President reiterates J&J's already-announced $55B US investment pledge as part of a broader list of corporate commitments; mildly positive but low novelty limits price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00595:mrk",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "mrk",
+   "entity": "Merck",
+   "kind": "company",
+   "alias": "merck",
+   "text_span": "Merck",
+   "dict_tickers": [
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 595.15497,
+   "t_wall": 1754514771.15497,
+   "t_wall_et": "2025-08-06T17:12:51.154970-04:00",
+   "segment_text": "Merck,",
+   "context": "certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000. SoftBank is, investing substantially more than 100,000,000,000. TSMC is investing 200,000,000,000. Johnson and Johnson, 55,000,000,000. Merck,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Merck",
+    "tickers": [
+     "MRK"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Merck, great company, is investing",
+    "summary": "Merck announced a major investment commitment alongside other tech and pharma firms."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague reference to Merck 'putting many billions in' domestic investment is unspecific and largely rhetorical, unlikely to move the stock meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Merck investing billions is vague, undefined and part of a broader list of corporate investment announcements, offering little new tradable information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MRK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague reference to Merck 'putting many billions in' domestic investment is unspecific and largely rhetorical, unlikely to move the stock meaningfully.\", \"added\": false}], \"summary\": \"The President's mention of Merck investing billions is vague, undefined and part of a broader list of corporate investment announcements, offering little new tradable information.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00596:stla",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 596.3,
+   "t_wall": 1754514772.3,
+   "t_wall_et": "2025-08-06T17:12:52.300000-04:00",
+   "segment_text": "Stellantis,",
+   "context": "certain people. Thank you very much. I appreciate it. Nvidia is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000. SoftBank is, investing substantially more than 100,000,000,000. TSMC is investing 200,000,000,000. Johnson and Johnson, 55,000,000,000. Merck, Stellantis, and General Motors are putting many, many billions in. They haven't determined",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stellantis",
+    "tickers": [
+     "STLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Stellantis, and General Motors are putting many, many billions in.",
+    "summary": "The President states Stellantis is investing many billions in US operations."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Vague, undetermined investment figure for Stellantis is unlikely to move the stock materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Stellantis investing 'many billions' lacks a concrete figure and is largely rhetorical, offering limited actionable new information for markets.",
+    "raw": "{\"tickers\": [{\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Vague, undetermined investment figure for Stellantis is unlikely to move the stock materially.\", \"added\": false}], \"summary\": \"The President's mention of Stellantis investing 'many billions' lacks a concrete figure and is largely rhetorical, offering limited actionable new information for markets.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00597:gm",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 597.4651282051282,
+   "t_wall": 1754514773.4651282,
+   "t_wall_et": "2025-08-06T17:12:53.465128-04:00",
+   "segment_text": "and General Motors are putting many, many billions in. They haven't determined",
+   "context": "is investing 500,000,000,000 to go along with Apple, 600,000,000,000. 600,000,000,000. Micron, great company, is investing 200,000,000,000. IBM is investing more than 150,000,000,000. SoftBank is, investing substantially more than 100,000,000,000. TSMC is investing 200,000,000,000. Johnson and Johnson, 55,000,000,000. Merck, Stellantis, and General Motors are putting many, many billions in. They haven't determined",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "General Motors are putting many, many billions in",
+    "summary": "General Motors committing billions in investment alongside other major corporations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague reference to GM putting in billions without new specifics is unlikely to move the stock materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of GM investing 'many billions' is generic rhetoric lacking concrete new details, so limited market impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague reference to GM putting in billions without new specifics is unlikely to move the stock materially.\", \"added\": false}], \"summary\": \"The President's mention of GM investing 'many billions' is generic rhetoric lacking concrete new details, so limited market impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00640:oil",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "Gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 640.94495,
+   "t_wall": 1754514816.94495,
+   "t_wall_et": "2025-08-06T17:13:36.944950-04:00",
+   "segment_text": "Gasoline",
+   "context": "But it's hundreds of billions and even trillions. I mean, it's trillions of dollars that's being invested right now. Last week, it was announced that our economy grew at 3% in the 2nd 0.25, and consumer confidence is surging. Blue collar wages are rising rapidly. Costs are way down. You know, I I listen to these horrendous frauds on CNN and various other fake news networks, and they say costs are up. No. No. Costs are down. Gasoline",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Gasoline",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Costs are way down. Costs are down.",
+    "summary": "The President claims gasoline costs have fallen significantly."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touting falling gasoline prices reflects lower oil prices, which is neutral-to-negative for energy sector revenue but not a new policy signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about falling gas prices is a restatement of existing price trends, not new information for oil futures.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower gasoline/oil prices are mildly negative for producer margins but this is old news, not a fresh catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rationale as XOM; general rhetoric about falling gas prices has no new price-moving information for Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad economic boasting (investments, GDP growth, falling consumer prices including gasoline) rather than new policy affecting energy companies; the gasoline comment restates known price trends with no actionable new information for XLE, USO, XOM, or CVX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touting falling gasoline prices reflects lower oil prices, which is neutral-to-negative for energy sector revenue but not a new policy signal.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment about falling gas prices is a restatement of existing price trends, not new information for oil futures.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower gasoline/oil prices are mildly negative for producer margins but this is old news, not a fresh catalyst.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rationale as XOM; general rhetoric about falling gas prices has no new price-moving information for Chevron.\", \"added\": false}], \"summary\": \"The President's remarks are broad economic boasting (investments, GDP growth, falling consumer prices including gasoline) rather than new policy affecting energy companies; the gasoline comment restates known price trends with no actionable new information for XLE, USO, XOM, or CVX.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00644:defense_word",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 644.9978979032257,
+   "t_wall": 1754514820.9978979,
+   "t_wall_et": "2025-08-06T17:13:40.997898-04:00",
+   "segment_text": "is down. It's gonna soon, I believe, be less than $2 a gallon.",
+   "context": "of billions and even trillions. I mean, it's trillions of dollars that's being invested right now. Last week, it was announced that our economy grew at 3% in the 2nd 0.25, and consumer confidence is surging. Blue collar wages are rising rapidly. Costs are way down. You know, I I listen to these horrendous frauds on CNN and various other fake news networks, and they say costs are up. No. No. Costs are down. Gasoline is down. It's gonna soon, I believe, be less than $2 a gallon. It's around $2.40 right now. Many places other than in California where they tax you out of business,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00681:stock_market",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "price",
+    "prices",
+    "stock"
+   ],
+   "t_audio": 681.6584,
+   "t_wall": 1754514857.6584,
+   "t_wall_et": "2025-08-06T17:14:17.658400-04:00",
+   "segment_text": "up, and that's through the roof. The stock market has been hitting all time records, all time highs.",
+   "context": "but and a couple of others. But gasoline is way down. The price of groceries are down. How about eggs? When I 1st came here, my 1st week, the press hit me very hard on eggs. Eggs had quadrupled or something. I said, I didn't know about it. Give me a chance. I've just been here for 4 days. Well, eggs are down. Everything's down. Price is down. The only thing that's up is stock prices. That's really up, and that's through the roof. The stock market has been hitting all time records, all time highs.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market has been hitting all time records, all time highs",
+    "summary": "The President praises stock market reaching record highs during his tenure."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of already-known record highs, no new policy information for the broad market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic market commentary with no tech-specific news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric restates known market performance without new catalysts.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeated rhetoric touting already-known stock market highs and economic data, with no new tradable information for broad market ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise of already-known record highs, no new policy information for the broad market.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same generic market commentary with no tech-specific news.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rhetoric restates known market performance without new catalysts.\",\"added\":false}],\"summary\":\"The President's remarks are largely repeated rhetoric touting already-known stock market highs and economic data, with no new tradable information for broad market ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00701:canada",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 701.5281173770492,
+   "t_wall": 1754514877.5281174,
+   "t_wall_et": "2025-08-06T17:14:37.528117-04:00",
+   "segment_text": "Last week, it was announced that our economy grew at, levels that we haven't seen in a long time. But what the real levels of growth are gonna be judged in a year from now when you start seeing some of these incredible plants because we have car plants opening. They're coming in from Canada, from Mexico,",
+   "context": "I said, I didn't know about it. Give me a chance. I've just been here for 4 days. Well, eggs are down. Everything's down. Price is down. The only thing that's up is stock prices. That's really up, and that's through the roof. The stock market has been hitting all time records, all time highs. Last week, it was announced that our economy grew at, levels that we haven't seen in a long time. But what the real levels of growth are gonna be judged in a year from now when you start seeing some of these incredible plants because we have car plants opening. They're coming in from Canada, from Mexico,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "car plants coming in from Canada, from Mexico",
+    "summary": "Car plants from Canada entering U.S. market."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General remark about car plants relocating from Canada to the US is mildly negative for Canadian industry but too vague and already-known to move the broad Canada ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely celebratory macro rhetoric (gas, eggs, stock market, tariff revenue) with no new firm-specific or country-specific policy; the Canada mention about plants relocating is old news and not quantified, so no strong directional signal for EWC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General remark about car plants relocating from Canada to the US is mildly negative for Canadian industry but too vague and already-known to move the broad Canada ETF.\", \"added\": false}], \"summary\": \"The President's remarks are largely celebratory macro rhetoric (gas, eggs, stock market, tariff revenue) with no new firm-specific or country-specific policy; the Canada mention about plants relocating is old news and not quantified, so no strong directional signal for EWC.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00702:mexico",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 702.2345910819672,
+   "t_wall": 1754514878.234591,
+   "t_wall_et": "2025-08-06T17:14:38.234591-04:00",
+   "segment_text": "Last week, it was announced that our economy grew at, levels that we haven't seen in a long time. But what the real levels of growth are gonna be judged in a year from now when you start seeing some of these incredible plants because we have car plants opening. They're coming in from Canada, from Mexico,",
+   "context": "I said, I didn't know about it. Give me a chance. I've just been here for 4 days. Well, eggs are down. Everything's down. Price is down. The only thing that's up is stock prices. That's really up, and that's through the roof. The stock market has been hitting all time records, all time highs. Last week, it was announced that our economy grew at, levels that we haven't seen in a long time. But what the real levels of growth are gonna be judged in a year from now when you start seeing some of these incredible plants because we have car plants opening. They're coming in from Canada, from Mexico,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "car plants coming in from Canada, from Mexico",
+    "summary": "Car plants from Mexico entering U.S. market."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about auto plants relocating from Mexico due to tariffs is mildly negative for Mexican investment/exports but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat rhetoric on economic strength and tariffs; the Mexico mention implies plants moving away, a mild negative for Mexican equities but not a new, market-moving disclosure.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about auto plants relocating from Mexico due to tariffs is mildly negative for Mexican investment/exports but not new information.\", \"added\": false}], \"summary\": \"The President's remarks are largely repeat rhetoric on economic strength and tariffs; the Mexico mention implies plants moving away, a mild negative for Mexican equities but not a new, market-moving disclosure.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00723:eu",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "the eu",
+   "text_span": "the EU",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 723.8147153024911,
+   "t_wall": 1754514899.8147154,
+   "t_wall_et": "2025-08-06T17:14:59.814715-04:00",
+   "segment_text": "I think, will be take well, we're taking in hundreds of billions of dollars in tariffs. I won't be so specific other than to say because we don't even know what the final number is. We just made a deal, as you know, with the EU where they're paying hundreds of billions of dollars,",
+   "context": "Last week, it was announced that our economy grew at, levels that we haven't seen in a long time. But what the real levels of growth are gonna be judged in a year from now when you start seeing some of these incredible plants because we have car plants opening. They're coming in from Canada, from Mexico, and from all over the world. And they're coming in because they like the way the election worked out, but they also like the fact that they don't wanna pay tariffs. And, the tariffs, I think, will be take well, we're taking in hundreds of billions of dollars in tariffs. I won't be so specific other than to say because we don't even know what the final number is. We just made a deal, as you know, with the EU where they're paying hundreds of billions of dollars,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We just made a deal with the EU where they're paying hundreds of billions of dollars",
+    "summary": "The President announced a deal with EU involving hundreds of billions in payments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "EU trade deal already known and tariff cost framing is neutral-to-negative but not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates existing EU tariff deal terms without new specifics affecting eurozone equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new detail on EU tariff burden beyond what markets already priced in.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate previously known US-EU tariff deal and general tariff revenue boasting without new specifics, so limited fresh price impact on European equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"EU trade deal already known and tariff cost framing is neutral-to-negative but not new information.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates existing EU tariff deal terms without new specifics affecting eurozone equities.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new detail on EU tariff burden beyond what markets already priced in.\", \"added\": false}], \"summary\": \"The President's remarks reiterate previously known US-EU tariff deal and general tariff revenue boasting without new specifics, so limited fresh price impact on European equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00727:japan",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 727.235,
+   "t_wall": 1754514903.235,
+   "t_wall_et": "2025-08-06T17:15:03.235000-04:00",
+   "segment_text": "Japan paying hundreds of billions of dollars,",
+   "context": "Last week, it was announced that our economy grew at, levels that we haven't seen in a long time. But what the real levels of growth are gonna be judged in a year from now when you start seeing some of these incredible plants because we have car plants opening. They're coming in from Canada, from Mexico, and from all over the world. And they're coming in because they like the way the election worked out, but they also like the fact that they don't wanna pay tariffs. And, the tariffs, I think, will be take well, we're taking in hundreds of billions of dollars in tariffs. I won't be so specific other than to say because we don't even know what the final number is. We just made a deal, as you know, with the EU where they're paying hundreds of billions of dollars, Japan paying hundreds of billions of dollars,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "we just made a deal with the EU where they're paying hundreds of billions of dollars, Japan paying hundreds of billions of dollars",
+    "summary": "Japan agreed to pay hundreds of billions in tariff-related deal."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterating an already-known Japan tariff deal is unlikely to move a broad Japan ETF further.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks largely restate known tariff deals and general economic boasting; the Japan mention is repeat news with no new figures, so limited fresh market impact expected for EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterating an already-known Japan tariff deal is unlikely to move a broad Japan ETF further.\", \"added\": false}], \"summary\": \"The President's remarks largely restate known tariff deals and general economic boasting; the Japan mention is repeat news with no new figures, so limited fresh market impact expected for EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00765:aapl",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 765.2896296296296,
+   "t_wall": 1754514941.2896297,
+   "t_wall_et": "2025-08-06T17:15:41.289630-04:00",
+   "segment_text": "And it's companies like Apple. They they're coming home. They're all coming home.",
+   "context": "we're not even completed there. And as you know, they found 25,000,000,000 3 weeks ago. They said, we have a surplus of $25,000,000,000. And they said, where did this come from? And they said, check the tariffs, and they checked. They said, you're right. That's where it came from. And we've really just started. This is just in its infancy. So we have a great country. We have a country that is gonna be very rich. It's a country that we're very proud of, but it's gonna be very rich. And it's companies like Apple. They they're coming home. They're all coming home.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "companies like Apple. They're coming home. They're all coming home.",
+    "summary": "The President praises Apple for returning manufacturing operations to the United States."
+   },
+   "llm_attempts": 1,
+   "count": 11,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President confirms Apple will be exempt from the new 100% chip tariff due to its US manufacturing commitments, removing a major cost overhang.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement that companies committed to building in the US, like Apple, will avoid the new 100% semiconductor tariff is a positive, new development reducing tariff risk for AAPL.",
+    "raw": "{\"tickers\":[{\"ticker\":\"AAPL\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President confirms Apple will be exempt from the new 100% chip tariff due to its US manufacturing commitments, removing a major cost overhang.\",\"added\":false}],\"summary\":\"The President's announcement that companies committed to building in the US, like Apple, will avoid the new 100% semiconductor tariff is a positive, new development reducing tariff risk for AAPL.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00868:intc",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "intc",
+   "entity": "Intel",
+   "kind": "company",
+   "alias": "intel",
+   "text_span": "Intel",
+   "dict_tickers": [
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 868.5107553956835,
+   "t_wall": 1754515044.5107553,
+   "t_wall_et": "2025-08-06T17:17:24.510755-04:00",
+   "segment_text": "that's a big statement, and I think, the chip companies are all coming back home. They're all coming back. You know, we started with Intel,",
+   "context": "and semiconductors coming into The United States. But if you've made a commitment to build or if you're in the process of building as many are, there is no tariff. Okay? If for some reason you say you're building and you don't build, then we go back and get we add it up. It accumulates, and we charge you at a later date. You have to pay, and that's a guarantee. So, that's a big statement, and I think, the chip companies are all coming back home. They're all coming back. You know, we started with Intel,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Intel",
+    "tickers": [
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "we started with Intel",
+    "summary": "The President cites Intel as leading semiconductor company returning manufacturing to US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President positively cites Intel as a domestic chipmaker benefiting from tariff exemption for US-based semiconductor production.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "New 100% semiconductor tariff with exemption for US-based builders is positive for domestic producers like Intel, which the President singled out favorably.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President positively cites Intel as a domestic chipmaker benefiting from tariff exemption for US-based semiconductor production.\", \"added\": false}], \"summary\": \"New 100% semiconductor tariff with exemption for US-based builders is positive for domestic producers like Intel, which the President singled out favorably.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:00944:ai_word",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factory"
+   ],
+   "t_audio": 944.4857956043955,
+   "t_wall": 1754515120.4857955,
+   "t_wall_et": "2025-08-06T17:18:40.485795-04:00",
+   "segment_text": "Earlier this year, we broke ground on a new factory in Houston to make advanced AI servers.",
+   "context": "Our products are designed here. We're hiring and growing here, and we support 450,000 jobs with thousands of suppliers and partners in all 50 states. Earlier this year, we made our largest ever spending commitment, $500,000,000,000 to The US over the next 4 years. That's already yielding results. Earlier this year, we broke ground on a new factory in Houston to make advanced AI servers. And just last month, the very 1st test unit rolled off that factory's line",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01030:avgo",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "avgo",
+   "entity": "Broadcom",
+   "kind": "company",
+   "alias": "broadcom",
+   "text_span": "Broadcom",
+   "dict_tickers": [
+    "AVGO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1030.3225609756098,
+   "t_wall": 1754515206.322561,
+   "t_wall_et": "2025-08-06T17:20:06.322561-04:00",
+   "segment_text": "We're working with Amcor in Arizona and Broadcom and Global Foundries in New York.",
+   "context": "1st, with today's announcements, I'm proud to say that Apple is leading the creation of an end to end silicon supply chain right here in America from design to equipment to wafer production to fabrication to packaging. In Texas, we're working with manufacturers like Texas Instruments, Global Wafers America, and Applied Materials. We're working with Amcor in Arizona and Broadcom and Global Foundries in New York. Thanks to the President's vision and with his help in his 1st term,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01049:chips",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1049.6265086206897,
+   "t_wall": 1754515225.6265087,
+   "t_wall_et": "2025-08-06T17:20:25.626509-04:00",
+   "segment_text": "Today, they're producing tens of millions of chips for Apple Apple using 1 of the most advanced process technologies",
+   "context": "In Texas, we're working with manufacturers like Texas Instruments, Global Wafers America, and Applied Materials. We're working with Amcor in Arizona and Broadcom and Global Foundries in New York. Thanks to the President's vision and with his help in his 1st term, we also led the way to bring TSMC to Arizona by committing to be their 1st and largest customer. Today, they're producing tens of millions of chips for Apple Apple using 1 of the most advanced process technologies",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "producing tens of millions of chips for Apple using advanced process technologies",
+    "summary": "Speaker credits the President's vision for TSMC Arizona fab producing advanced semiconductor chips for Apple."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Broad announcement of new US chip supply chain investments benefits semiconductor sector ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Similar sector-wide positive read-through from new domestic chip manufacturing commitments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "NVDA not mentioned in the announcement and is not part of Apple's silicon supply chain deals described.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Intel is not named among the partner companies, so no direct benefit is implied.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President/Apple announced new US-based chip and rare-earth supply chain deals with named partners (TSMC, TI, Applied Materials, Broadcom, GlobalFoundries, Amkor, MP Materials), a mild positive for broad semiconductor ETFs but not directly for NVDA or INTC, which weren't mentioned.",
+    "raw": "{\"tickers\": [\n  {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Broad announcement of new US chip supply chain investments benefits semiconductor sector ETF sentiment.\", \"added\": false},\n  {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Similar sector-wide positive read-through from new domestic chip manufacturing commitments.\", \"added\": false},\n  {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"NVDA not mentioned in the announcement and is not part of Apple's silicon supply chain deals described.\", \"added\": false},\n  {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Intel is not named among the partner companies, so no direct benefit is implied.\", \"added\": false}\n],\n\"summary\": \"The President/Apple announced new US-based chip and rare-earth supply chain deals with named partners (TSMC, TI, Applied Materials, Broadcom, GlobalFoundries, Amkor, MP Materials), a mild positive for broad semiconductor ETFs but not directly for NVDA or INTC, which weren't mentioned.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01080:rare_earth",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "rare earth",
+   "text_span": "rare earth",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [
+    "billion",
+    "buying",
+    "factories"
+   ],
+   "t_audio": 1080.2590957446807,
+   "t_wall": 1754515256.2590957,
+   "t_wall_et": "2025-08-06T17:20:56.259096-04:00",
+   "segment_text": "we're committed to buying American made advanced rare earth magnets developed by MP Materials,",
+   "context": "Today, they're producing tens of millions of chips for Apple Apple using 1 of the most advanced process technologies in America today. We're going to keep working with our suppliers to move even more of this incredibly advanced work to America. And this year alone, American manufacturers manufacturers are on track to make 19 billion chips for Apple in 24 factories across 12 different states. 2nd, we're committed to buying American made advanced rare earth magnets developed by MP Materials,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "committed to buying American made advanced rare earth magnets",
+    "summary": "The President pledges to buy American-made rare earth magnets for advanced manufacturing."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Apple committed to a new partnership with MP Materials for rare earth magnets, expanding its Fort Worth facility and adding a recycling line in Mountain Pass.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Positive news for the leading US rare earth producer lifts sentiment for the broader rare earth ETF sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Apple's new commitment to buy MP Materials' American-made rare earth magnets and expand its Fort Worth facility is a clear positive catalyst for MP Materials and modestly supportive for rare earth sector ETFs like REMX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MP\", \"direction\": \"up\", \"confidence\": 0.75, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Apple committed to a new partnership with MP Materials for rare earth magnets, expanding its Fort Worth facility and adding a recycling line in Mountain Pass.\", \"added\": false}, {\"ticker\": \"REMX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Positive news for the leading US rare earth producer lifts sentiment for the broader rare earth ETF sector.\", \"added\": false}], \"summary\": \"Apple's new commitment to buy MP Materials' American-made rare earth magnets and expand its Fort Worth facility is a clear positive catalyst for MP Materials and modestly supportive for rare earth sector ETFs like REMX.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01082:mp",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "mp",
+   "entity": "MP Materials",
+   "kind": "company",
+   "alias": "mp materials",
+   "text_span": "MP Materials",
+   "dict_tickers": [
+    "MP"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "factories"
+   ],
+   "t_audio": 1082.5246276595744,
+   "t_wall": 1754515258.5246277,
+   "t_wall_et": "2025-08-06T17:20:58.524628-04:00",
+   "segment_text": "we're committed to buying American made advanced rare earth magnets developed by MP Materials,",
+   "context": "Today, they're producing tens of millions of chips for Apple Apple using 1 of the most advanced process technologies in America today. We're going to keep working with our suppliers to move even more of this incredibly advanced work to America. And this year alone, American manufacturers manufacturers are on track to make 19 billion chips for Apple in 24 factories across 12 different states. 2nd, we're committed to buying American made advanced rare earth magnets developed by MP Materials,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "MP Materials",
+    "tickers": [
+     "MP"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.97,
+    "quote": "committed to buying American made advanced magnets developed by MP Materials",
+    "summary": "The President commits to purchasing rare earth magnets from MP Materials, an American producer."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.8,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Apple committed to buying MP Materials' rare earth magnets and funding expansion of its Fort Worth facility plus a new recycling line, a concrete new demand/investment catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Apple's announced partnership with MP Materials for magnets and facility expansion is a concrete positive demand signal for MP Materials shares.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MP\", \"direction\": \"up\", \"confidence\": 0.8, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Apple committed to buying MP Materials' rare earth magnets and funding expansion of its Fort Worth facility plus a new recycling line, a concrete new demand/investment catalyst.\", \"added\": false}], \"summary\": \"Apple's announced partnership with MP Materials for magnets and facility expansion is a concrete positive demand signal for MP Materials shares.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01140:ai_word",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "investments"
+   ],
+   "t_audio": 1140.609,
+   "t_wall": 1754515316.609,
+   "t_wall_et": "2025-08-06T17:21:56.609000-04:00",
+   "segment_text": "growing our investments in AI,",
+   "context": "And 3rd, in Kentucky, we've worked with our partners at Corning to build the world's largest and most advanced smartphone glass production line. And I'm pleased to announce that very soon, this is for the 1st time ever, every single new iPhone and every single new Apple Watch sold anywhere in the world will contain cover glass made in Kentucky. In addition to the American manufacturing program, we're also significantly growing our investments in AI,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial Intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "significantly growing our investments in AI",
+    "summary": "The President announces increased AI investments alongside Kentucky manufacturing expansion."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Expanded AI data center investment across multiple states supports demand for AI compute hardware.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broader semiconductor ETF benefits modestly from announced AI data center expansion rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize new AI data center investments and domestic manufacturing partnerships (Apple/MP Materials/Corning), which are mildly positive for AI-linked chipmakers like NVDA and the sector ETF SMH, though the AI mention is brief and largely rhetorical.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Expanded AI data center investment across multiple states supports demand for AI compute hardware.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Broader semiconductor ETF benefits modestly from announced AI data center expansion rhetoric.\",\"added\":false}],\"summary\":\"The President's remarks emphasize new AI data center investments and domestic manufacturing partnerships (Apple/MP Materials/Corning), which are mildly positive for AI-linked chipmakers like NVDA and the sector ETF SMH, though the AI mention is brief and largely rhetorical.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01142:ai",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "investments"
+   ],
+   "t_audio": 1142.4982203389832,
+   "t_wall": 1754515318.4982204,
+   "t_wall_et": "2025-08-06T17:21:58.498220-04:00",
+   "segment_text": "including expanding data center capacity in North Carolina,",
+   "context": "we've worked with our partners at Corning to build the world's largest and most advanced smartphone glass production line. And I'm pleased to announce that very soon, this is for the 1st time ever, every single new iPhone and every single new Apple Watch sold anywhere in the world will contain cover glass made in Kentucky. In addition to the American manufacturing program, we're also significantly growing our investments in AI, including expanding data center capacity in North Carolina, in Nevada, in Iowa, in Arizona, and Oregon. Oregon.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01222:mu",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "mu",
+   "entity": "Micron",
+   "kind": "company",
+   "alias": "micron",
+   "text_span": "Micron",
+   "dict_tickers": [
+    "MU"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1222.5228048780486,
+   "t_wall": 1754515398.522805,
+   "t_wall_et": "2025-08-06T17:23:18.522805-04:00",
+   "segment_text": "people like Tim are coming. We had Micron in yesterday. We had all of the the big,",
+   "context": "Any questions, please? Mister president mister president Yes. Promised on the campaign trail to bring forth a manufacturing renaissance. You just mentioned $17,000,000,000,000 in your 7 months or so. Right. Can you talk about how an investment like this, all the other ones that you laid out, will positively impact the millions of Americans that trusted you with their vote? Thank you very much. It it changes our country. I mean, our country is a very different country than it was 6 months ago, and people like Tim are coming. We had Micron in yesterday. We had all of the the big,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Micron",
+    "tickers": [
+     "MU"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "We had Micron in yesterday.",
+    "summary": "The President mentions Micron visited, supporting manufacturing investment narrative."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive mention of Micron's US investment reinforces existing narrative but adds no new specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's brief, non-specific mention of Micron as part of a broader chip manufacturing narrative is mildly positive but largely repeats known investment themes.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive mention of Micron's US investment reinforces existing narrative but adds no new specifics.\", \"added\": false}], \"summary\": \"The President's brief, non-specific mention of Micron as part of a broader chip manufacturing narrative is mildly positive but largely repeats known investment themes.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01331:china",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "fired",
+    "plants"
+   ],
+   "t_audio": 1331.484689908257,
+   "t_wall": 1754515507.48469,
+   "t_wall_et": "2025-08-06T17:25:07.484690-04:00",
+   "segment_text": "brought it back in a very large way. You know, China is right now building 58 coal fired plants. 58 big ones.",
+   "context": "people like Kim have tremendous schools and training centers that they build along with a lot of their big plants where they train people on whether it's glass, like in Kentucky, or computers, or whatever they might be doing. It's a complex world, and they train people, and they do a great job. So it's a whole new workforce. Now we have a lot of them in energy because, you know, they've always liked energy. As you know, coal has opened up and opened up big. We brought it back and brought it back in a very large way. You know, China is right now building 58 coal fired plants. 58 big ones.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "China is right now building 58 coal fired plants.",
+    "summary": "China is constructing 58 large coal-fired power plants."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment on China's coal plants is descriptive, not a policy action affecting Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same neutral factual remark about China's energy buildout, no trade/policy signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No relevant policy or sentiment shift toward Chinese internet sector from this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark about China's coal plants is a neutral factual aside within broader energy/jobs rhetoric, with no direct market-moving implication for China-focused ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment on China's coal plants is descriptive, not a policy action affecting Chinese equities.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same neutral factual remark about China's energy buildout, no trade/policy signal.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No relevant policy or sentiment shift toward Chinese internet sector from this remark.\",\"added\":false}],\"summary\":\"The President's remark about China's coal plants is a neutral factual aside within broader energy/jobs rhetoric, with no direct market-moving implication for China-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01333:coal_word",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "fired",
+    "plants"
+   ],
+   "t_audio": 1333.3048449541284,
+   "t_wall": 1754515509.3048449,
+   "t_wall_et": "2025-08-06T17:25:09.304845-04:00",
+   "segment_text": "brought it back in a very large way. You know, China is right now building 58 coal fired plants. 58 big ones.",
+   "context": "people like Kim have tremendous schools and training centers that they build along with a lot of their big plants where they train people on whether it's glass, like in Kentucky, or computers, or whatever they might be doing. It's a complex world, and they train people, and they do a great job. So it's a whole new workforce. Now we have a lot of them in energy because, you know, they've always liked energy. As you know, coal has opened up and opened up big. We brought it back and brought it back in a very large way. You know, China is right now building 58 coal fired plants. 58 big ones.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.93,
+    "quote": "coal has opened up and opened up big. We brought it back.",
+    "summary": "The President claims he revived the coal sector significantly."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric reiterates prior policy support but adds no new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal-positive rhetoric mildly supportive but not new news for coal producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad coal revival comments provide mild sector tailwind without new specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats general pro-coal rhetoric with no new policy details, offering a mild, low-confidence positive tilt for coal producers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric reiterates prior policy support but adds no new specifics.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Coal-positive rhetoric mildly supportive but not new news for coal producers.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad coal revival comments provide mild sector tailwind without new specifics.\", \"added\": false}], \"summary\": \"The President repeats general pro-coal rhetoric with no new policy details, offering a mild, low-confidence positive tilt for coal producers.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01340:oil",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "fired",
+    "plants"
+   ],
+   "t_audio": 1340.3049569536424,
+   "t_wall": 1754515516.304957,
+   "t_wall_et": "2025-08-06T17:25:16.304957-04:00",
+   "segment_text": "And here we were saying, we don't take coal. We have more coal than anybody else in the world. We have more oil and gas than anybody else in the world.",
+   "context": "or whatever they might be doing. It's a complex world, and they train people, and they do a great job. So it's a whole new workforce. Now we have a lot of them in energy because, you know, they've always liked energy. As you know, coal has opened up and opened up big. We brought it back and brought it back in a very large way. You know, China is right now building 58 coal fired plants. 58 big ones. And here we were saying, we don't take coal. We have more coal than anybody else in the world. We have more oil and gas than anybody else in the world.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "We have more oil and gas than anybody else in the world.",
+    "summary": "The President praises US oil and gas reserves as world-leading."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General boast about US energy abundance restates known policy stance, no new action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Comment on US oil/gas leadership doesn't affect oil price fundamentals or supply/demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic pro-energy rhetoric with no new policy or subsidy for Exxon specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic energy praise, not a concrete new benefit for Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is broad, repeated rhetoric praising US energy dominance without new policy, subsidy, or regulatory action, so limited tradable impact on energy tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General boast about US energy abundance restates known policy stance, no new action.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Comment on US oil/gas leadership doesn't affect oil price fundamentals or supply/demand.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic pro-energy rhetoric with no new policy or subsidy for Exxon specifically.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic energy praise, not a concrete new benefit for Chevron.\", \"added\": false}], \"summary\": \"The President's remark is broad, repeated rhetoric praising US energy dominance without new policy, subsidy, or regulatory action, so limited tradable impact on energy tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01382:russia",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "stock"
+   ],
+   "t_audio": 1382.9835553072626,
+   "t_wall": 1754515558.9835553,
+   "t_wall_et": "2025-08-06T17:25:58.983555-04:00",
+   "segment_text": "doing well, successful. Yes, ma'am? Yes, mister president. Have Putin and Zelensky agreed to a summit yet? And where and when would that be? What would that Well, there's a a very",
+   "context": "I won't use names because I just make them better known that nobody knows who they are. But I watched this group of people on on CNN and MSDNC too, the same thing, where they say, well, costs have gone up. Costs haven't gone up. They've gone down. The I'm telling you, the thing that's gone up is stock stock prices, and success of our country. Our country is really, really doing well, successful. Yes, ma'am? Yes, mister president. Have Putin and Zelensky agreed to a summit yet? And where and when would that be? What would that Well, there's a a very",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01383:ukraine",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "zelensky",
+   "text_span": "Zelensky",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1383.5262983240225,
+   "t_wall": 1754515559.5262983,
+   "t_wall_et": "2025-08-06T17:25:59.526298-04:00",
+   "segment_text": "doing well, successful. Yes, ma'am? Yes, mister president. Have Putin and Zelensky agreed to a summit yet? And where and when would that be? What would that Well, there's a a very",
+   "context": "I won't use names because I just make them better known that nobody knows who they are. But I watched this group of people on on CNN and MSDNC too, the same thing, where they say, well, costs have gone up. Costs haven't gone up. They've gone down. The I'm telling you, the thing that's gone up is stock stock prices, and success of our country. Our country is really, really doing well, successful. Yes, ma'am? Yes, mister president. Have Putin and Zelensky agreed to a summit yet? And where and when would that be? What would that Well, there's a a very",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01458:noc",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [
+    "ordered"
+   ],
+   "t_audio": 1458.7099545454546,
+   "t_wall": 1754515634.7099545,
+   "t_wall_et": "2025-08-06T17:27:14.709955-04:00",
+   "segment_text": "brand new b 2 bombers.",
+   "context": "add to that Iran where we wiped out their nuclear capacity for weapons. They would've had a weapon within 2 months, maybe less, and that was totally obliterated. Turned out it was a total obliteration. And, the pilots and the people that did that job are really we have the greatest we have the greatest armed forces in the world, but that was really something. In fact, there's a a model of the plane right there. So, you know, you gotta bring that up, Susie. We have to see that. Look at this. This was just given to me. You know, we ordered brand new b 2 bombers.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We ordered brand new b 2 bombers",
+    "summary": "The President states the administration ordered new B-2 bombers from Northrop Grumman."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President reveals a new order of B-2 bombers, a Northrop Grumman product, implying incremental defense revenue.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's disclosure of a new B-2 bomber order is a mild positive catalyst for Northrop Grumman, the plane's manufacturer, though the exact contract details remain unclear.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President reveals a new order of B-2 bombers, a Northrop Grumman product, implying incremental defense revenue.\", \"added\": false}], \"summary\": \"The President's disclosure of a new B-2 bomber order is a mild positive catalyst for Northrop Grumman, the plane's manufacturer, though the exact contract details remain unclear.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01496:rtx",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawks",
+   "text_span": "Tomahawks",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1496.4388461538463,
+   "t_wall": 1754515672.438846,
+   "t_wall_et": "2025-08-06T17:27:52.438846-04:00",
+   "segment_text": "And then we had Tomahawks,",
+   "context": "that over a period of 36 hours of constant flying look at this. This is the brand new 1 they just ordered. Similar, but actually quite different. It's new and enhanced. It's an amazing machine. It went 36 hours. We had 52 tankers up in the air loading up our planes because this was surrounded by f 20 twos and f 30 fives, and it was flawless, Tim. Even you would say it was flawless. And every 1 of those bombs hit their target. And then we had Tomahawks,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (Tomahawks)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "we had Tomahawks",
+    "summary": "The President praised Tomahawk missile performance in military operation."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for Tomahawk performance in a past operation is general rhetoric without new contract or spending news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount past military successes (B-2 bombers, Tomahawks) and are largely narrative rather than new policy or contract announcements, so limited tradable impact on RTX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for Tomahawk performance in a past operation is general rhetoric without new contract or spending news.\", \"added\": false}], \"summary\": \"The President's remarks recount past military successes (B-2 bombers, Tomahawks) and are largely narrative rather than new policy or contract announcements, so limited tradable impact on RTX.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01547:ukraine",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 1547.8138994350284,
+   "t_wall": 1754515723.8138995,
+   "t_wall_et": "2025-08-06T17:28:43.813900-04:00",
+   "segment_text": "I guess the estimate for Ukraine is about 9,000. It's it's a it's a terrible it's a terrible situation. We wanna get it stopped. You know, we don't have American soldiers there,",
+   "context": "Did Vladimir Putin make some kind of concession that he hasn't been willing to make before? I don't call it a breakthrough. I mean, we've been working on this a long time. There are thousands of young people dying, mostly soldiers, but also, you know, missiles being hit into Kyiv and other places. But in terms of soldiers, I think Russia's lost over 20,000 since the beginning of the year. 20,000. And, I guess the estimate for Ukraine is about 9,000. It's it's a it's a terrible it's a terrible situation. We wanna get it stopped. You know, we don't have American soldiers there,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "estimate for Ukraine is about 9,000",
+    "summary": "The President references Ukrainian military casualties estimate of 9,000 soldiers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General war/military rhetoric without new defense procurement policy or contract details relevant to aerospace/defense ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new energy policy or sanctions details that would move energy sector pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely rhetorical about military strikes and Ukraine casualties without new, market-moving policy specifics (e.g., new sanctions, defense contracts, or energy measures), so no clear directional impact on ITA or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General war/military rhetoric without new defense procurement policy or contract details relevant to aerospace/defense ETF.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new energy policy or sanctions details that would move energy sector pricing.\", \"added\": false}], \"summary\": \"The excerpt is largely rhetorical about military strikes and Ukraine casualties without new, market-moving policy specifics (e.g., new sanctions, defense contracts, or energy measures), so no clear directional impact on ITA or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01623:india",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 1623.2876470588235,
+   "t_wall": 1754515799.287647,
+   "t_wall_et": "2025-08-06T17:29:59.287647-04:00",
+   "segment_text": "But we're we've made a lot of progress. And as you know, we put a 50% tariff on India",
+   "context": "with all of the land that was taken. Nothing was taken by Russia from us. Not 1 ounce of land was taken. I'm here to get the thing over with. It would have never started if I were president, and we're here to get it stopped and and get the death stopped. Yeah, please. President, in the past, you said you would know if Putin was happening to the bomb. What gives you any confidence that he is or isn't doing that this time around? Can't answer the question yet. I'll tell you, in a matter of weeks, maybe less. But we're we've made a lot of progress. And as you know, we put a 50% tariff on India",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "we put a 50% tariff on India",
+    "summary": "The President announced a 50% tariff on India."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated 50% tariff on India over Russian oil purchases is a negative macro overhang for Indian equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As an India-focused equity ETF, EPI is similarly exposed to negative sentiment from reiterated tariff threats.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated a previously announced 50% tariff on India tied to Russian oil purchases, a negative but not new development for India-exposed equities like INDA and EPI.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"down\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated 50% tariff on India over Russian oil purchases is a negative macro overhang for Indian equities broadly.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As an India-focused equity ETF, EPI is similarly exposed to negative sentiment from reiterated tariff threats.\", \"added\": false}], \"summary\": \"The President reiterated a previously announced 50% tariff on India tied to Russian oil purchases, a negative but not new development for India-exposed equities like INDA and EPI.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01629:russia",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "purchase",
+    "tariff"
+   ],
+   "t_audio": 1629.4766666666667,
+   "t_wall": 1754515805.4766667,
+   "t_wall_et": "2025-08-06T17:30:05.476667-04:00",
+   "segment_text": "from Russia.",
+   "context": "I'm here to get the thing over with. It would have never started if I were president, and we're here to get it stopped and and get the death stopped. Yeah, please. President, in the past, you said you would know if Putin was happening to the bomb. What gives you any confidence that he is or isn't doing that this time around? Can't answer the question yet. I'll tell you, in a matter of weeks, maybe less. But we're we've made a lot of progress. And as you know, we put a 50% tariff on India on oil. They're the 2nd largest. They're very close to China in terms of the purchase of oil from Russia.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "50% tariff on India on oil. They're very close to China in terms of the purchase of oil from Russia.",
+    "summary": "The President states a 50% tariff on India's oil purchases from Russia as part of sanctions policy."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff is on India, not directly on Russian assets, and RSX is largely a legacy/illiquid vehicle already isolated from sanctions dynamics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff pressure on India's Russian oil purchases could marginally reshape crude flows but is not a clear directional catalyst for US energy sector broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark reiterates a 50% tariff on India tied to Russian oil purchases, a previously known sanctions-adjacent policy with no new specific numbers affecting RSX or XLE materially.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff is on India, not directly on Russian assets, and RSX is largely a legacy/illiquid vehicle already isolated from sanctions dynamics.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff pressure on India's Russian oil purchases could marginally reshape crude flows but is not a clear directional catalyst for US energy sector broadly.\", \"added\": false}], \"summary\": \"The President's remark reiterates a 50% tariff on India tied to Russian oil purchases, a previously known sanctions-adjacent policy with no new specific numbers affecting RSX or XLE materially.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01767:aapl",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "iphone",
+   "text_span": "iPhone",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 1767.5349,
+   "t_wall": 1754515943.5349,
+   "t_wall_et": "2025-08-06T17:32:23.534900-04:00",
+   "segment_text": "iPhone.",
+   "context": "and we're gonna take care of it. You're gonna be you're gonna be safe. You're gonna be safe walking down streets. You're not gonna get mugged. President, if you do reach a deal with Ukraine and Russia, would you drop the additional tariffs on India? Well, we'll determine that later. But right now, they they're paying a 50% tariff. K? Yeah. Please. 1 for mister Cook as well. Yeah. Pleasure. Sure. The president wants a made in The USA iPhone. What are the chances that you can actually make that happen? Well, if you look at the bulk of it, we're doing a lot of the semiconductors semiconductors here. Here. We're doing the glass here. We're doing the face ID module here. So there's a ton of it, and we're doing these for products sold elsewhere in the world.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "The president wants a made in the USA iPhone.",
+    "summary": "The President supports manufacturing iPhones in USA, noting semiconductor, glass, and Face ID module production domestically."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates praise for Apple's US investment and notes final assembly stays overseas, largely restating known policy dynamics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on Apple mostly repeat known rhetoric about domestic component production while acknowledging final assembly remains abroad, making the price impact ambiguous and likely muted.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates praise for Apple's US investment and notes final assembly stays overseas, largely restating known policy dynamics.\", \"added\": false}], \"summary\": \"The President's comments on Apple mostly repeat known rhetoric about domestic component production while acknowledging final assembly remains abroad, making the price impact ambiguous and likely muted.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01775:chips",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductors",
+   "text_span": "semiconductors",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1775.2769419558358,
+   "t_wall": 1754515951.276942,
+   "t_wall_et": "2025-08-06T17:32:31.276942-04:00",
+   "segment_text": "What are the chances that you can actually make that happen? Well, if you look at the bulk of it, we're doing a lot of the semiconductors semiconductors here. Here. We're doing the glass here. We're doing the face ID module here. So there's a ton of it, and we're doing these for products sold elsewhere in the world.",
+   "context": "President, if you do reach a deal with Ukraine and Russia, would you drop the additional tariffs on India? Well, we'll determine that later. But right now, they they're paying a 50% tariff. K? Yeah. Please. 1 for mister Cook as well. Yeah. Pleasure. Sure. The president wants a made in The USA iPhone. What are the chances that you can actually make that happen? Well, if you look at the bulk of it, we're doing a lot of the semiconductors semiconductors here. Here. We're doing the glass here. We're doing the face ID module here. So there's a ton of it, and we're doing these for products sold elsewhere in the world.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "We're doing a lot of the semiconductors here.",
+    "summary": "The President states US is manufacturing semiconductors domestically for iPhones."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General comment about domestic semiconductor content in iPhones restates known reshoring narrative without new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad, non-specific commentary on US semiconductor manufacturing, low incremental information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not directly referenced; comment is about Apple's supply chain, not Nvidia-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Reinforces narrative favoring US-based chip fabrication, which could indirectly benefit Intel as a domestic foundry player.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on domestic semiconductor content in Apple products are largely rhetorical reinforcement of existing reshoring policy with no new deal or numbers, implying minimal direct market impact on chip ETFs or Nvidia, but slightly supportive for Intel as a US-based manufacturer.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General comment about domestic semiconductor content in iPhones restates known reshoring narrative without new policy specifics.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same broad, non-specific commentary on US semiconductor manufacturing, low incremental information.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not directly referenced; comment is about Apple's supply chain, not Nvidia-specific.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Reinforces narrative favoring US-based chip fabrication, which could indirectly benefit Intel as a domestic foundry player.\", \"added\": false}], \"summary\": \"The President's remarks on domestic semiconductor content in Apple products are largely rhetorical reinforcement of existing reshoring policy with no new deal or numbers, implying minimal direct market impact on chip ETFs or Nvidia, but slightly supportive for Intel as a US-based manufacturer.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01859:vaccines",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "mrna vaccines",
+   "text_span": "mRNA vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 1859.1422192513369,
+   "t_wall": 1754516035.1422193,
+   "t_wall_et": "2025-08-06T17:33:55.142219-04:00",
+   "segment_text": "So let's see what happens over the next more secondary sanctions. Yeah. You're gonna see a lot more. So this is a taste of You're gonna see a lot more. You're gonna see so much You were the driving secondary sanctions. Yes, ma'am. Sorry. You were the driving force behind Operation Warp Speed, these mRNA vaccines that are the gold standard. Right. Now your health secretary",
+   "context": "Thank you. President. Mister president. Mister president. Mister Mister officials Indian officials Let me let me go, please. Officials have said that there are other countries that are buying Russian oil. It's okay. Like China, for instance, China or Yeah. Why are you singling India out for these additional sanctions? Been 8 hours. So let's see what happens over the next more secondary sanctions. Yeah. You're gonna see a lot more. So this is a taste of You're gonna see a lot more. You're gonna see so much You were the driving secondary sanctions. Yes, ma'am. Sorry. You were the driving force behind Operation Warp Speed, these mRNA vaccines that are the gold standard. Right. Now your health secretary is pulling back all the funding for research. He's saying that the risks outweigh the benefits, which puts him at odds with",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:01973:china",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "purchase",
+    "tariffs"
+   ],
+   "t_audio": 1973.5322584905662,
+   "t_wall": 1754516149.5322585,
+   "t_wall_et": "2025-08-06T17:35:49.532259-04:00",
+   "segment_text": "are do you have any similar plans to enact more tariffs on China as it relates to their purchase? Could have. Depends on how we do. Could have. Mister O'Brien,",
+   "context": "And I think they understand that. They're just words. But, no. We've stopped a lot of wars in The Middle East. If you think about what we did with Iran, Iran was the, perpetrator of hate, a very evil place, and I think it's gonna be a lot different in the coming years. But the president did not want to go On the India penalties, are do you have any similar plans to enact more tariffs on China as it relates to their purchase? Could have. Depends on how we do. Could have. Mister O'Brien,",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02006:para",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "para",
+   "entity": "Paramount (CBS)",
+   "kind": "company",
+   "alias": "colbert",
+   "text_span": "Colbert",
+   "dict_tickers": [
+    "PSKY"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2006.095,
+   "t_wall": 1754516182.095,
+   "t_wall_et": "2025-08-06T17:36:22.095000-04:00",
+   "segment_text": "Colbert has no talent. I mean, I could take anybody here. I could go outside in the beautiful streets",
+   "context": "I've got an entertainment based question for you. A few weeks ago, Stephen Gilbert announced that he was leaving his shop. Howard Stern announced that he and Sirius XM radio are parting ways. Do you think that hate the President business model that's been in the entertainment business is going out of business because it's not popular with the American people? Well, it hasn't worked, and it hasn't worked really for a long time. And I would say pretty much from the beginning, Colbert has no talent. I mean, I could take anybody here. I could go outside in the beautiful streets",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Colbert",
+    "tickers": [
+     "PSKY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Colbert has no talent.",
+    "summary": "The President criticizes Colbert's talent in entertainment context."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PSKY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's repeated personal criticism of Colbert is general rhetoric unlikely to materially affect Paramount Skydance's valuation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a rehash of the President's long-standing criticism of late-night hosts like Colbert, with no new policy, regulatory, or business action announced that would move PSKY shares.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PSKY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's repeated personal criticism of Colbert is general rhetoric unlikely to materially affect Paramount Skydance's valuation.\", \"added\": false}], \"summary\": \"The remark is a rehash of the President's long-standing criticism of late-night hosts like Colbert, with no new policy, regulatory, or business action announced that would move PSKY shares.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02018:dis_abc",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "dis_abc",
+   "entity": "Disney (ABC)",
+   "kind": "company",
+   "alias": "kimmel",
+   "text_span": "Kimmel",
+   "dict_tickers": [
+    "DIS"
+   ],
+   "triggers_nearby": [
+    "ratings"
+   ],
+   "t_audio": 2018.7021471910111,
+   "t_wall": 1754516194.7021472,
+   "t_wall_et": "2025-08-06T17:36:34.702147-04:00",
+   "segment_text": "and pick up couple of people that do just as well or better. They get higher ratings than he did. He's got no talent. Fallon has no talent. Kimmel has no talent. They're next. They're gonna be going. I hear they're gonna be going. I don't know, but I would imagine because they get you know, Colbert has better ratings than Kimmel or Fallon. You know that.",
+   "context": "announced that he and Sirius XM radio are parting ways. Do you think that hate the President business model that's been in the entertainment business is going out of business because it's not popular with the American people? Well, it hasn't worked, and it hasn't worked really for a long time. And I would say pretty much from the beginning, Colbert has no talent. I mean, I could take anybody here. I could go outside in the beautiful streets and pick up couple of people that do just as well or better. They get higher ratings than he did. He's got no talent. Fallon has no talent. Kimmel has no talent. They're next. They're gonna be going. I hear they're gonna be going. I don't know, but I would imagine because they get you know, Colbert has better ratings than Kimmel or Fallon. You know that.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Disney (ABC)",
+    "tickers": [
+     "DIS"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Kimmel has no talent. They're next. They're gonna be going.",
+    "summary": "The President criticizes Kimmel's talent and predicts his show will end."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DIS",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's personal criticism of Kimmel is repeat rhetoric with no clear financial impact on Disney's business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments about Kimmel/Colbert are personal, repeated criticism without new policy or financial content, unlikely to move DIS shares meaningfully.",
+    "raw": "{\"tickers\":[{\"ticker\":\"DIS\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President's personal criticism of Kimmel is repeat rhetoric with no clear financial impact on Disney's business.\",\"added\":false}],\"summary\":\"The President's comments about Kimmel/Colbert are personal, repeated criticism without new policy or financial content, unlikely to move DIS shares meaningfully.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02103:japan",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "markets",
+    "tariffs"
+   ],
+   "t_audio": 2103.011476377953,
+   "t_wall": 1754516279.0114763,
+   "t_wall_et": "2025-08-06T17:37:59.011476-04:00",
+   "segment_text": "we're all from Wall Street, aren't we? You know when you get right down to it? The term Wall Street. Yeah. Please. Yep. You've made your tax cuts permanent. You mentioned that the tariffs are bringing in a ton of external revenue. You've opened up markets, EU, Japan, South Korea, many others, to American goods like we've never seen before. How much growth can we expect in the economy now that this model of yours is sort of beginning to really take off? Well, I think the growth is gonna be unprecedented.",
+   "context": "He said, like do you like this job better? Yes, sir. I mean, he's a he was a candidate, but he I don't think he'll take it. Are there any candidates? I I really don't think he'd take it, actually. From Wall Street, mister Biden? Yeah. Essentially, we're all from Wall Street, aren't we? You know when you get right down to it? The term Wall Street. Yeah. Please. Yep. You've made your tax cuts permanent. You mentioned that the tariffs are bringing in a ton of external revenue. You've opened up markets, EU, Japan, South Korea, many others, to American goods like we've never seen before. How much growth can we expect in the economy now that this model of yours is sort of beginning to really take off? Well, I think the growth is gonna be unprecedented.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02103:korea",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "markets",
+    "tariffs"
+   ],
+   "t_audio": 2103.3679527559057,
+   "t_wall": 1754516279.3679528,
+   "t_wall_et": "2025-08-06T17:37:59.367953-04:00",
+   "segment_text": "we're all from Wall Street, aren't we? You know when you get right down to it? The term Wall Street. Yeah. Please. Yep. You've made your tax cuts permanent. You mentioned that the tariffs are bringing in a ton of external revenue. You've opened up markets, EU, Japan, South Korea, many others, to American goods like we've never seen before. How much growth can we expect in the economy now that this model of yours is sort of beginning to really take off? Well, I think the growth is gonna be unprecedented.",
+   "context": "He said, like do you like this job better? Yes, sir. I mean, he's a he was a candidate, but he I don't think he'll take it. Are there any candidates? I I really don't think he'd take it, actually. From Wall Street, mister Biden? Yeah. Essentially, we're all from Wall Street, aren't we? You know when you get right down to it? The term Wall Street. Yeah. Please. Yep. You've made your tax cuts permanent. You mentioned that the tariffs are bringing in a ton of external revenue. You've opened up markets, EU, Japan, South Korea, many others, to American goods like we've never seen before. How much growth can we expect in the economy now that this model of yours is sort of beginning to really take off? Well, I think the growth is gonna be unprecedented.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02144:ai_word",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 2144.9142728070174,
+   "t_wall": 1754516320.9142728,
+   "t_wall_et": "2025-08-06T17:38:40.914273-04:00",
+   "segment_text": "I know Tim is building 1 in 1 of his big factories, but especially for AI because it needs so much electricity. So",
+   "context": "I think we're gonna have growth that's unbelievable. Now remember, we're building and just starting to build a lot of these incredible plants. We talked about the electric facilities that we're building. The the, generating plants electric generating plants are massive, and they're gonna be great. And they're gonna sell excess electricity into our grid. So we're gonna be having much more electricity than we ever had, and those plants are gonna be taken care of individually. I know Tim is building 1 in 1 of his big factories, but especially for AI because it needs so much electricity. So",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "building electric generating plants especially for AI because it needs so much electricity",
+    "summary": "The President discusses construction of power plants to support AI infrastructure and electricity demands."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General comments on building electricity capacity for AI are broadly supportive but not specific to Nvidia's business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of AI infrastructure buildout is generically positive for the semiconductor sector but adds no new tradable information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on building power plants for AI are positive sentiment for AI-related infrastructure but restate known policy with no new specifics, so limited price impact expected for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General comments on building electricity capacity for AI are broadly supportive but not specific to Nvidia's business.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of AI infrastructure buildout is generically positive for the semiconductor sector but adds no new tradable information.\", \"added\": false}], \"summary\": \"The President's remarks on building power plants for AI are positive sentiment for AI-related infrastructure but restate known policy with no new specifics, so limited price impact expected for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02272:china",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 2272.9076966292137,
+   "t_wall": 1754516448.9076967,
+   "t_wall_et": "2025-08-06T17:40:48.907697-04:00",
+   "segment_text": "but he's a good person. I think I believe that. The President, are you keeping that 10 12 day deadline? China China is facing potential secondary sanctions for for Russian oil.",
+   "context": "K? Yeah. Please. A new Gallup poll says I don't know if the poll's accurate. I think he's a good person. I think he had a bad moment, really bad moment, but he's a good person. I think I believe that. The President, are you keeping that 10 12 day deadline? China China is facing potential secondary sanctions for for Russian oil.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02276:russia",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 2276.3054494382022,
+   "t_wall": 1754516452.3054495,
+   "t_wall_et": "2025-08-06T17:40:52.305449-04:00",
+   "segment_text": "but he's a good person. I think I believe that. The President, are you keeping that 10 12 day deadline? China China is facing potential secondary sanctions for for Russian oil.",
+   "context": "Please. A new Gallup poll says I don't know if the poll's accurate. I think he's a good person. I think he had a bad moment, really bad moment, but he's a good person. I think I believe that. The President, are you keeping that 10 12 day deadline? China China is facing potential secondary sanctions for for Russian oil. Then having that tier for sanction rather or not hinges on what going forward? It may happen. Mean, I I don't know. I can't tell you yet, but I can I we did it with we did it with India?",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.7,
+    "quote": "China is facing potential secondary sanctions for Russian oil",
+    "summary": "Questioner raises potential secondary sanctions on Russia for oil trade with China."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed talk of secondary sanctions tied to Russian oil trade is mildly negative for Russia exposure, though ambiguity on enforcement limits impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potential sanctions on Russian oil buyers could tighten global supply modestly, a minor positive for US energy producers, but effect is speculative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed talk of secondary sanctions tied to Russian oil trade is mildly negative for Russia exposure, though ambiguity on enforcement limits impact.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Potential sanctions on Russian oil buyers could tighten global supply modestly, a minor positive for US energy producers, but effect is speculative.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "J6SK7lotKZQ:02276:oil",
+   "video_id": "J6SK7lotKZQ",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 2276.7584831460676,
+   "t_wall": 1754516452.7584832,
+   "t_wall_et": "2025-08-06T17:40:52.758483-04:00",
+   "segment_text": "but he's a good person. I think I believe that. The President, are you keeping that 10 12 day deadline? China China is facing potential secondary sanctions for for Russian oil.",
+   "context": "Please. A new Gallup poll says I don't know if the poll's accurate. I think he's a good person. I think he had a bad moment, really bad moment, but he's a good person. I think I believe that. The President, are you keeping that 10 12 day deadline? China China is facing potential secondary sanctions for for Russian oil. Then having that tier for sanction rather or not hinges on what going forward? It may happen. Mean, I I don't know. I can't tell you yet, but I can I we did it with we did it with India?",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

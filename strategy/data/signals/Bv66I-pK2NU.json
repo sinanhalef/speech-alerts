@@ -1,0 +1,2417 @@
+{
+ "video": {
+  "id": "Bv66I-pK2NU",
+  "url": "https://www.youtube.com/watch?v=Bv66I-pK2NU",
+  "title": "WATCH LIVE: the President set to sign executive order targeting drug prices",
+  "channel": "USA TODAY",
+  "duration": 3450.0,
+  "was_live": true,
+  "release_timestamp": 1747057831.0,
+  "upload_timestamp": 1747061470.0,
+  "upload_date": "20250512",
+  "label": "Drug pricing executive order (USA TODAY), 2025-05-12",
+  "group": "headline",
+  "notes": "",
+  "t0": 1747057831.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 37,
+  "confirmed": 28,
+  "retracted": 9,
+  "unconfirmed": 0,
+  "llm_calls": 39
+ },
+ "signals": [
+  {
+   "signal_id": "Bv66I-pK2NU:00175:defense_word",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 175.08001,
+   "t_wall": 1747058006.08001,
+   "t_wall_et": "2025-05-12T09:53:26.080010-04:00",
+   "segment_text": "after April 2 to",
+   "context": "Nobody was able to do what we did. But they stopped and we take their word for it. Today, their surrogates and them directly said, we don't wanna do this anymore. And so we were satisfied with that. In addition, yesterday, we achieved a total reset with China after productive talks in Geneva. Both sides now agreed to reduce the tariffs imposed after April 2 to 10% for 90 days as negotiators continue in the largest structural issues.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00193:steel",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 193.3661617948718,
+   "t_wall": 1747058024.3661618,
+   "t_wall_et": "2025-05-12T09:53:44.366162-04:00",
+   "segment_text": "that are our tariffs, and it doesn't include tariffs on cars, steel, aluminum,",
+   "context": "In addition, yesterday, we achieved a total reset with China after productive talks in Geneva. Both sides now agreed to reduce the tariffs imposed after April 2 to 10% for 90 days as negotiators continue in the largest structural issues. And I wanna tell you that a couple of things. 1st of all, that doesn't include the tariffs that are already on, that are our tariffs, and it doesn't include tariffs on cars, steel, aluminum,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "doesn't include tariffs on cars, steel",
+    "summary": "Steel tariffs excluded from China tariff reduction deal."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel tariffs remain unchanged and excluded from the China reset, so no new impact on domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Existing steel tariff protection reaffirmed but not newly expanded, limited price effect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new steel-specific policy change beyond confirming tariffs stay in place.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff status quo maintained, not a fresh catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected since steel tariffs are unchanged from prior policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reaffirmed that steel tariffs remain excluded from the US-China tariff reduction, a repeat of known policy with minimal new information for steel stocks; broader remarks on China tariff relief and pharma reshoring are not steel-specific.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel tariffs remain unchanged and excluded from the China reset, so no new impact on domestic steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Existing steel tariff protection reaffirmed but not newly expanded, limited price effect.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new steel-specific policy change beyond confirming tariffs stay in place.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff status quo maintained, not a fresh catalyst.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected since steel tariffs are unchanged from prior policy.\", \"added\": false}], \"summary\": \"The President reaffirmed that steel tariffs remain excluded from the US-China tariff reduction, a repeat of known policy with minimal new information for steel stocks; broader remarks on China tariff relief and pharma reshoring are not steel-specific.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00193:aluminum",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 193.81847038461538,
+   "t_wall": 1747058024.8184705,
+   "t_wall_et": "2025-05-12T09:53:44.818470-04:00",
+   "segment_text": "that are our tariffs, and it doesn't include tariffs on cars, steel, aluminum,",
+   "context": "In addition, yesterday, we achieved a total reset with China after productive talks in Geneva. Both sides now agreed to reduce the tariffs imposed after April 2 to 10% for 90 days as negotiators continue in the largest structural issues. And I wanna tell you that a couple of things. 1st of all, that doesn't include the tariffs that are already on, that are our tariffs, and it doesn't include tariffs on cars, steel, aluminum,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "doesn't include tariffs on cars, steel, aluminum",
+    "summary": "Aluminum tariffs excluded from China tariff reduction deal."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Confirmation that aluminum tariffs remain in place supports domestic producers like Alcoa by keeping import costs high.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CENX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Century Aluminum benefits from continued aluminum tariffs protecting US producers from cheaper imports.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reaffirmed that aluminum (and steel, auto) tariffs remain excluded from the China tariff reduction, a mild positive for US aluminum producers as protectionist policy persists, though this is largely a restatement of known policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Confirmation that aluminum tariffs remain in place supports domestic producers like Alcoa by keeping import costs high.\", \"added\": false}, {\"ticker\": \"CENX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Century Aluminum benefits from continued aluminum tariffs protecting US producers from cheaper imports.\", \"added\": false}], \"summary\": \"The President reaffirmed that aluminum (and steel, auto) tariffs remain excluded from the China tariff reduction, a mild positive for US aluminum producers as protectionist policy persists, though this is largely a restatement of known policy.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00198:pharma",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceuticals",
+   "text_span": "pharmaceuticals",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 198.6138706122449,
+   "t_wall": 1747058029.6138706,
+   "t_wall_et": "2025-05-12T09:53:49.613871-04:00",
+   "segment_text": "or tariffs that may be imposed on pharmaceuticals",
+   "context": "Both sides now agreed to reduce the tariffs imposed after April 2 to 10% for 90 days as negotiators continue in the largest structural issues. And I wanna tell you that a couple of things. 1st of all, that doesn't include the tariffs that are already on, that are our tariffs, and it doesn't include tariffs on cars, steel, aluminum, things such as that, or tariffs that may be imposed on pharmaceuticals",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "tariffs that may be imposed on pharmaceuticals",
+    "summary": "The President indicates potential future tariffs on pharmaceutical sector."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed mention of possible pharma tariffs and an upcoming drug-pricing executive order weighs on healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF directly exposed to threatened tariffs and drug price actions.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Major pharma importer/manufacturer facing potential tariff and pricing pressure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large-cap pharma vulnerable to tariff threats and price-cap executive order sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma company exposed to same tariff/price-control risk narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates possible pharmaceutical tariffs and previews a drug-pricing executive order, a mildly negative repeat catalyst for pharma stocks and sector ETFs, while broader tariff truce with China is unrelated to this sector.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed mention of possible pharma tariffs and an upcoming drug-pricing executive order weighs on healthcare sector sentiment.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-specific ETF directly exposed to threatened tariffs and drug price actions.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Major pharma importer/manufacturer facing potential tariff and pricing pressure.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large-cap pharma vulnerable to tariff threats and price-cap executive order sentiment.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma company exposed to same tariff/price-control risk narrative.\", \"added\": false}], \"summary\": \"The President reiterates possible pharmaceutical tariffs and previews a drug-pricing executive order, a mildly negative repeat catalyst for pharma stocks and sector ETFs, while broader tariff truce with China is unrelated to this sector.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00214:aapl",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "tim cook",
+   "text_span": "Tim Cook",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 214.37584166666667,
+   "t_wall": 1747058045.3758416,
+   "t_wall_et": "2025-05-12T09:54:05.375842-04:00",
+   "segment_text": "I spoke to Tim Cook this morning, and he's gonna, I think, even up",
+   "context": "And I wanna tell you that a couple of things. 1st of all, that doesn't include the tariffs that are already on, that are our tariffs, and it doesn't include tariffs on cars, steel, aluminum, things such as that, or tariffs that may be imposed on pharmaceuticals because we wanna bring the pharmaceutical businesses back to The United States, and they're already starting to come back now based on tariffs because they don't wanna pay 25, 50, or a 100% tariffs. So they're moving them back to The United States. I spoke to Tim Cook this morning, and he's gonna, I think, even up",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "I spoke to Tim Cook this morning, and he's gonna, I think, even up",
+    "summary": "The President spoke with Apple CEO Tim Cook regarding tariffs and manufacturing."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President says Apple will increase its US investment pledge beyond $500B, a mildly positive signal though details are vague and tariff threats on pharma/other goods remain a backdrop.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark highlights Apple's expanding US manufacturing commitment, a modestly positive signal for AAPL amid broader tariff de-escalation with China.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President says Apple will increase its US investment pledge beyond $500B, a mildly positive signal though details are vague and tariff threats on pharma/other goods remain a backdrop.\", \"added\": false}], \"summary\": \"The remark highlights Apple's expanding US manufacturing commitment, a modestly positive signal for AAPL amid broader tariff de-escalation with China.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00268:china",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 268.1010096,
+   "t_wall": 1747058099.1010096,
+   "t_wall_et": "2025-05-12T09:54:59.101010-04:00",
+   "segment_text": "we made a great deal with China, great trade deal.",
+   "context": "We're not looking to hurt China. China was being hurt very badly. They were closing up factories. They were having a lot of unrest, and they were very happy to be able to do something with us. And the relationship is very, very good. I'll speak to president Xi maybe at the end of the week. We have some other things we're doing. But 1 of the biggest things that we're doing, and I don't know if people realize this, but we made a great deal with China, great trade deal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "we made a great deal with China, great trade deal",
+    "summary": "The President claims a major trade deal with China and describes positive relationship."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive tone on US-China relations and trade talks supports China equity sentiment, but content is mostly historical anecdote.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Friendly rhetoric on Geneva talks and China relationship is mildly supportive of broad China exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General improvement in US-China trade tone is a weak tailwind for Chinese internet stocks, though not directly relevant.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rehashed history about a 2020 trade deal and general positive tone toward China, offering little new tradeable information but slightly supportive of China-exposed equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive tone on US-China relations and trade talks supports China equity sentiment, but content is mostly historical anecdote.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Friendly rhetoric on Geneva talks and China relationship is mildly supportive of broad China exposure.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General improvement in US-China trade tone is a weak tailwind for Chinese internet stocks, though not directly relevant.\", \"added\": false}], \"summary\": \"The President's remarks are largely rehashed history about a 2020 trade deal and general positive tone toward China, offering little new tradeable information but slightly supportive of China-exposed equities.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00295:farmers",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "purchase"
+   ],
+   "t_audio": 295.6623272972973,
+   "t_wall": 1747058126.6623273,
+   "t_wall_et": "2025-05-12T09:55:26.662327-04:00",
+   "segment_text": "worth of product that they were gonna purchase from our farmers, etcetera.",
+   "context": "we made a great deal with China, great trade deal. But it was a much bigger deal originally, and then they canceled it right in the last day. Some of your faces, I remember, were were there when that happened. I remember you. And we had a deal where they opened up their country to trade with The United States, and they took that away at the last moment, and then I canceled the whole thing. And then 6 months later, we ended up doing a smaller deal, but it was a big deal. It was $50,000,000,000 worth of product that they were gonna purchase from our farmers, etcetera.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "US Farmers / Agriculture Sector",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "they were gonna purchase from our farmers",
+    "summary": "China agreed to purchase $50 billion in agricultural products from US farmers."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Recounting historical China trade deal details, not new policy affecting broad ag commodity basket.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fertilizer maker not directly tied to this historical anecdote about past purchase agreements.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tractor equipment mention is anecdotal/historical, not a new demand signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions past China corn purchases under trade deal, mildly supportive sentiment but not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "References historical Chinese soybean/ag purchases, sentiment-positive but nothing new announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Grain processor tangential beneficiary of ag trade rhetoric but no new deal specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President recounts historical China trade deal and $50B farm purchase story with no new policy details; mildly positive nostalgic sentiment for US agriculture but not market-moving news, and this excerpt is unrelated to the drug-pricing headline event.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Recounting historical China trade deal details, not new policy affecting broad ag commodity basket.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fertilizer maker not directly tied to this historical anecdote about past purchase agreements.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tractor equipment mention is anecdotal/historical, not a new demand signal.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentions past China corn purchases under trade deal, mildly supportive sentiment but not new information.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"References historical Chinese soybean/ag purchases, sentiment-positive but nothing new announced.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Grain processor tangential beneficiary of ag trade rhetoric but no new deal specifics.\", \"added\": false}], \"summary\": \"The President recounts historical China trade deal and $50B farm purchase story with no new policy details; mildly positive nostalgic sentiment for US agriculture but not market-moving news, and this excerpt is unrelated to the drug-pricing headline event.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00352:defense_word",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "deal"
+   ],
+   "t_audio": 352.2360596491228,
+   "t_wall": 1747058183.2360597,
+   "t_wall_et": "2025-05-12T09:56:23.236060-04:00",
+   "segment_text": "they no longer honored the deal. There was nobody to call. I would call on an average of once every 2 weeks to say, come on, you have to speed it up a little bit. And our farmers were doing great. I said to him, buy more land and bigger tractors, if you remember. That's what happened.",
+   "context": "So I said so they came back with the deal at 15, and I said, no way. I want 50 because you said 50. They said, sir, we didn't say that anyway. Bottom line, I said, go back and ask for 50, and they gave us 50. And they were honoring the deal, and we would call them up a lot for the corn and for the wheat and for everything. The they were honoring the deal, and then when Biden got in, they no longer honored the deal. There was nobody to call. I would call on an average of once every 2 weeks to say, come on, you have to speed it up a little bit. And our farmers were doing great. I said to him, buy more land and bigger tractors, if you remember. That's what happened.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00913:pharma",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug companies",
+   "text_span": "drug companies",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 913.5079071428571,
+   "t_wall": 1747058744.5079072,
+   "t_wall_et": "2025-05-12T10:05:44.507907-04:00",
+   "segment_text": "And I'm not knocking the drug companies. I'm really more knocking the countries than the drug companies, because",
+   "context": "Jay Bhattacharya, who has been, as you know, from Stanford, so highly regarded and have all been working with us very hard on this. And the question they would ask, being a little bit new to the government aspect of it is, why hasn't why doesn't somebody fight the drug price situation? Meaning equalization. There's a term, it's called equalization. Nobody wants to mention that term. And I'm not knocking the drug companies. I'm really more knocking the countries than the drug companies, because",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "why doesn't somebody fight the drug price situation? equalization",
+    "summary": "The President advocates for drug price equalization, not directly criticizing pharmaceutical companies but their pricing practices."
+   },
+   "llm_attempts": 1,
+   "count": 12,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed rhetoric on drug price equalization threatens pharma pricing power across the sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF more directly exposed to threatened US drug price equalization policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large multinational drugmaker exposed to equalization pricing pressure and EU pricing disputes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Major branded drugmaker faces same equalization/price-gouging rhetoric risk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Big pharma name implicated in 'profiteering and price gouging' rhetoric ahead of executive order.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates plans to force drug price 'equalization' with foreign countries and criticizes big pharma profiteering, a modestly negative, largely already-known headline for US pharmaceutical pricing power, weighing on pharma stocks and sector ETFs more than the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed rhetoric on drug price equalization threatens pharma pricing power across the sector.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-specific ETF more directly exposed to threatened US drug price equalization policy.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large multinational drugmaker exposed to equalization pricing pressure and EU pricing disputes.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Major branded drugmaker faces same equalization/price-gouging rhetoric risk.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Big pharma name implicated in 'profiteering and price gouging' rhetoric ahead of executive order.\", \"added\": false}], \"summary\": \"The President reiterates plans to force drug price 'equalization' with foreign countries and criticizes big pharma profiteering, a modestly negative, largely already-known headline for US pharmaceutical pricing power, weighing on pharma stocks and sector ETFs more than the market.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00975:eu",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "suing"
+   ],
+   "t_audio": 975.2615714285714,
+   "t_wall": 1747058806.2615714,
+   "t_wall_et": "2025-05-12T10:06:46.261571-04:00",
+   "segment_text": "And the drug companies actually told me stories. It was just brutal how they forced them. And European Union suing all our companies, Apple,",
+   "context": "that what we pay many many times more for, and will no longer tolerate profiteering and price gouging from big pharma. But again, it was really the countries that forced big pharma to do things that frankly, I'm not sure they really felt comfortable doing. But they've gotten away with it, these countries. European Union has been brutal, brutal. And the drug companies actually told me stories. It was just brutal how they forced them. And European Union suing all our companies, Apple,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "European Union has been brutal, brutal.",
+    "summary": "The President criticizes EU for forcing pharma companies and suing US firms."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General criticism of EU drug pricing/lawsuits is rhetoric without new policy specifics affecting broad European equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetorical criticism of EU, unlikely to move eurozone equity index materially.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad Euro Stoxx exposure not clearly targeted by this specific drug-pricing/tariff remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on drug pricing policy and repeat criticism of the EU's trade/legal practices without new actionable details, making the impact on broad European equity ETFs (VGK, EZU, FEZ) ambiguous and likely negligible relative to SPY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General criticism of EU drug pricing/lawsuits is rhetoric without new policy specifics affecting broad European equities.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rhetorical criticism of EU, unlikely to move eurozone equity index materially.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad Euro Stoxx exposure not clearly targeted by this specific drug-pricing/tariff remark.\", \"added\": false}], \"summary\": \"The President's remarks focus on drug pricing policy and repeat criticism of the EU's trade/legal practices without new actionable details, making the impact on broad European equity ETFs (VGK, EZU, FEZ) ambiguous and likely negligible relative to SPY.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00977:aapl",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [
+    "suing"
+   ],
+   "t_audio": 977.4558571428571,
+   "t_wall": 1747058808.455857,
+   "t_wall_et": "2025-05-12T10:06:48.455857-04:00",
+   "segment_text": "And the drug companies actually told me stories. It was just brutal how they forced them. And European Union suing all our companies, Apple,",
+   "context": "that what we pay many many times more for, and will no longer tolerate profiteering and price gouging from big pharma. But again, it was really the countries that forced big pharma to do things that frankly, I'm not sure they really felt comfortable doing. But they've gotten away with it, these countries. European Union has been brutal, brutal. And the drug companies actually told me stories. It was just brutal how they forced them. And European Union suing all our companies, Apple,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.72,
+    "quote": "suing all our companies, Apple",
+    "summary": "EU suing Apple; sentence incomplete, context unclear."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President references EU antitrust suits against Apple as a grievance but this is old news and not a new policy action affecting AAPL directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt centers on drug pricing policy, with Apple mentioned only in passing as an example of EU lawsuits against US tech firms, a repeated grievance with no new material information for AAPL.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President references EU antitrust suits against Apple as a grievance but this is old news and not a new policy action affecting AAPL directly.\", \"added\": false}], \"summary\": \"The excerpt centers on drug pricing policy, with Apple mentioned only in passing as an example of EU lawsuits against US tech firms, a repeated grievance with no new material information for AAPL.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00978:googl",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "suing"
+   ],
+   "t_audio": 978.185,
+   "t_wall": 1747058809.185,
+   "t_wall_et": "2025-05-12T10:06:49.185000-04:00",
+   "segment_text": "Google,",
+   "context": "that what we pay many many times more for, and will no longer tolerate profiteering and price gouging from big pharma. But again, it was really the countries that forced big pharma to do things that frankly, I'm not sure they really felt comfortable doing. But they've gotten away with it, these countries. European Union has been brutal, brutal. And the drug companies actually told me stories. It was just brutal how they forced them. And European Union suing all our companies, Apple, Google,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "European Union suing all our companies, Apple, Google",
+    "summary": "The President mentions Google among US companies sued by European Union."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's mention of EU lawsuits against Google is old news framed as defending US companies, not a new threat to GOOGL itself.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt centers on drug pricing policy targeting pharma, with a passing reference to EU antitrust suits against Google that is not new information and if anything frames the President as sympathetic to US tech firms, so no clear price-relevant signal for GOOGL.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's mention of EU lawsuits against Google is old news framed as defending US companies, not a new threat to GOOGL itself.\", \"added\": false}], \"summary\": \"The excerpt centers on drug pricing policy targeting pharma, with a passing reference to EU antitrust suits against Google that is not new information and if anything frames the President as sympathetic to US tech firms, so no clear price-relevant signal for GOOGL.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:00980:meta_word",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "meta_word",
+   "entity": "Meta",
+   "kind": "company",
+   "alias": "meta",
+   "text_span": "Meta",
+   "dict_tickers": [
+    "META"
+   ],
+   "triggers_nearby": [
+    "suing"
+   ],
+   "t_audio": 980.58997,
+   "t_wall": 1747058811.58997,
+   "t_wall_et": "2025-05-12T10:06:51.589970-04:00",
+   "segment_text": "Meta.",
+   "context": "that what we pay many many times more for, and will no longer tolerate profiteering and price gouging from big pharma. But again, it was really the countries that forced big pharma to do things that frankly, I'm not sure they really felt comfortable doing. But they've gotten away with it, these countries. European Union has been brutal, brutal. And the drug companies actually told me stories. It was just brutal how they forced them. And European Union suing all our companies, Apple, Google, Meta.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Meta",
+    "tickers": [
+     "META"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "European Union suing all our companies, Apple, Google, Meta.",
+    "summary": "The President mentions Meta among companies sued by European Union."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "META",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President criticizes EU lawsuits against Meta but frames it as pro-Meta grievance against foreign regulators, not a new US policy threat.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark focuses on drug pricing policy targeting pharma; Meta is only mentioned as a victim of EU lawsuits, which the President frames sympathetically, so no clear negative price impact and little new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"META\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President criticizes EU lawsuits against Meta but frames it as pro-Meta grievance against foreign regulators, not a new US policy threat.\", \"added\": false}], \"summary\": \"The remark focuses on drug pricing policy targeting pharma; Meta is only mentioned as a victim of EU lawsuits, which the President frames sympathetically, so no clear negative price impact and little new information.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01084:uk",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "plant"
+   ],
+   "t_audio": 1084.4613911764704,
+   "t_wall": 1747058915.4613912,
+   "t_wall_et": "2025-05-12T10:08:35.461391-04:00",
+   "segment_text": "And here I'm paying $88 in London.",
+   "context": "and I just paid for this damn fat drug I take. I said, it's not working. They said he said, I just paid $88, and in New York, I paid $1,300. What the hell is going on? He said, so I checked, and it's the same box made in the same plant by the same company. It's the identical pill that I buy in New York, And here I'm paying $88 in London.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "in London I'm paying $88",
+    "summary": "The President criticizes UK drug pricing as much higher than US for identical medication."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anecdote about UK drug pricing disparity is rhetorical color for US drug pricing policy and doesn't materially affect broad UK equity index.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark targets US drug pricing policy via an anecdote about UK pricing; it is not a material catalyst for the UK broad market ETF EWU.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Anecdote about UK drug pricing disparity is rhetorical color for US drug pricing policy and doesn't materially affect broad UK equity index.\", \"added\": false}], \"summary\": \"The remark targets US drug pricing policy via an anecdote about UK pricing; it is not a material catalyst for the UK broad market ETF EWU.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01183:defense_word",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "prices"
+   ],
+   "t_audio": 1183.3914344827585,
+   "t_wall": 1747059014.3914344,
+   "t_wall_et": "2025-05-12T10:10:14.391434-04:00",
+   "segment_text": "when I worked so hard in the 1st term, and if I got prices down remember, I I was the only 1 to ever get prices down for a full year, but I'd get them down like 2%, and I thought it was like a big deal. Well, we're getting them down",
+   "context": "by much more, really, if you think 59. If you if you think of a drug that is sometimes 10 times more expensive, it's much more than the 59%, you know, depends on the way you want to analyze it. But in 1 way you could analyze it that way. But between 59 and 80, and I guess even 90%. So when I worked so hard in the 1st term, and if I got prices down remember, I I was the only 1 to ever get prices down for a full year, but I'd get them down like 2%, and I thought it was like a big deal. Well, we're getting them down 60, 70, 90%,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01248:health_ins",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 1248.588322,
+   "t_wall": 1747059079.588322,
+   "t_wall_et": "2025-05-12T10:11:19.588322-04:00",
+   "segment_text": "But even bigger than that, you're gonna have to score that your your cost for Medicaid and Medicare,",
+   "context": "And the Democrats have protected pharma. The Democrats this is the Democrats have protected pharma. These are the Democrats. And by the way, I just called the speaker of the house, and I just called the leader, our leader in the senate, John Theune, Mike Johnson. Spoke to both of them. I said, when you score, you're gonna have to score 2 things. You're gonna have to, number 1, score that hundreds of billions of dollars of tariff money is coming in. But even bigger than that, you're gonna have to score that your your cost for Medicaid and Medicare,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "your cost for Medicaid and Medicare",
+    "summary": "The President says scorekeeping requires addressing Medicaid and Medicare cost reductions."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark targets drug pricing/pharma, not insurer margins directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific insurer policy mentioned, effect ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicaid/Medicare cost rhetoric is general and repeats prior policy talk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Speech focuses on pharma drug pricing, not Medicare Advantage specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on lowering drug prices via tariffs and pharma pressure, which is negative for pharma but largely irrelevant or ambiguous for health insurers like UNH, CI, ELV, and HUM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark targets drug pricing/pharma, not insurer margins directly.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific insurer policy mentioned, effect ambiguous.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Medicaid/Medicare cost rhetoric is general and repeats prior policy talk.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Speech focuses on pharma drug pricing, not Medicare Advantage specifics.\", \"added\": false}], \"summary\": \"The President's remarks focus on lowering drug prices via tariffs and pharma pressure, which is negative for pharma but largely irrelevant or ambiguous for health insurers like UNH, CI, ELV, and HUM.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01259:defense",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "golden dome",
+   "text_span": "golden dome",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1259.6023333333333,
+   "t_wall": 1747059090.6023333,
+   "t_wall_et": "2025-05-12T10:11:30.602333-04:00",
+   "segment_text": "seen before. It'll pay for the golden dome. I see the golden dome is there. See? That'll easily pay for the golden dome,",
+   "context": "Spoke to both of them. I said, when you score, you're gonna have to score 2 things. You're gonna have to, number 1, score that hundreds of billions of dollars of tariff money is coming in. But even bigger than that, you're gonna have to score that your your cost for Medicaid and Medicare, and just basically pharmaceuticals and drugs is going down at a level that nobody has ever seen before. It'll pay for the golden dome. I see the golden dome is there. See? That'll easily pay for the golden dome,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01406:farmers",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "agricultural",
+   "text_span": "agricultural",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 1406.625,
+   "t_wall": 1747059237.625,
+   "t_wall_et": "2025-05-12T10:13:57.625000-04:00",
+   "segment_text": "agricultural products. We sell them virtually none.",
+   "context": "European Union. They they were the toughest of all. They were nasty. And I see that. I see that with trade too. European Union is in many ways nastier than China. Okay? And we've just started with them. Oh, they'll come down a lot. You watch. We have all the cards. They treated us very unfairly. They sell us 13,000,000 cards. We sell them none. They sell us their agricultural products. We sell them virtually none.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "They sell us their agricultural products. We sell them virtually none.",
+    "summary": "The President criticizes EU agricultural trade imbalance; signals tariff action against EU."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about EU agricultural imbalance without new policy specifics for broad ag commodities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fertilizer producer not directly targeted by this EU trade rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Equipment maker only tangentially tied to agricultural trade comments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new specific tariff or export policy on corn announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Renewed EU trade friction rhetoric could threaten U.S. soybean exports if retaliatory tariffs follow.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "As a major ag exporter/processor, escalating EU trade tension is a mild negative risk.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is mainly about drug pricing and EU trade grievances, with only vague, non-specific hints of agricultural trade friction; direct market impact on listed ag tickers is limited, though soybean/ADM exposure to EU tension skews slightly negative.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about EU agricultural imbalance without new policy specifics for broad ag commodities.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fertilizer producer not directly targeted by this EU trade rhetoric.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Equipment maker only tangentially tied to agricultural trade comments.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new specific tariff or export policy on corn announced.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Renewed EU trade friction rhetoric could threaten U.S. soybean exports if retaliatory tariffs follow.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"As a major ag exporter/processor, escalating EU trade tension is a mild negative risk.\", \"added\": false}], \"summary\": \"The remark is mainly about drug pricing and EU trade grievances, with only vague, non-specific hints of agricultural trade friction; direct market impact on listed ag tickers is limited, though soybean/ADM exposure to EU tension skews slightly negative.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01564:nvo",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "ozempic",
+   "text_span": "Ozempic",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1564.2051,
+   "t_wall": 1747059395.2051,
+   "t_wall_et": "2025-05-12T10:16:35.205100-04:00",
+   "segment_text": "Ozempic",
+   "context": "product. A common asthma drug costs almost $500 here in America, but costs less than $40 in The United Kingdom. So $40 in The United Kingdom, which is where this gentleman told me he paid a small amount for his his shot. But think of that. So $40 versus 500 here. That's not even better. Much worse examples. And the weight loss drug Ozempic",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Novo Nordisk",
+    "tickers": [
+     "NVO"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "weight loss drug Ozempic costs almost $500 here in America",
+    "summary": "The President criticizes high US pricing of Novo Nordisk's Ozempic versus UK costs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVO",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's most-favored-nation drug pricing order singles out Ozempic's high US price, threatening Novo Nordisk's US revenue margins.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's executive order targeting drug prices explicitly cites Ozempic as overpriced in the US, a negative pricing-pressure signal for Novo Nordisk, though the policy itself is not new.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVO\", \"direction\": \"down\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's most-favored-nation drug pricing order singles out Ozempic's high US price, threatening Novo Nordisk's US revenue margins.\", \"added\": false}], \"summary\": \"The President's executive order targeting drug prices explicitly cites Ozempic as overpriced in the US, a negative pricing-pressure signal for Novo Nordisk, though the policy itself is not new.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01626:pharma",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1626.7076984126984,
+   "t_wall": 1747059457.7076983,
+   "t_wall_et": "2025-05-12T10:17:37.707698-04:00",
+   "segment_text": "because of the fact I was able to cut drug prices by 80 or 90%.",
+   "context": "obligation to let it die. I chose that we had to make it work. I had to make it as good as possible. And I had a choice. I coulda let it fail or make it as good as possible. As good as possible means it was still not very good, but it was it survived. And we did the right thing. But this makes it this makes everything work. And I don't wanna have a bad form of healthcare work because of the fact I was able to cut drug prices by 80 or 90%.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "cut drug prices by 80 or 90%",
+    "summary": "The President claims credit for cutting drug prices by 80-90% through regulation."
+   },
+   "llm_attempts": 1,
+   "count": 18,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Executive order targeting drug prices is a sector-wide negative overhang for healthcare.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma ETF directly exposed to drug pricing policy threats, negative for margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large pharma faces pricing pressure from reiterated executive order rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Drug price cut claims are negative for high-margin branded drugmakers like Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Merck faces similar sector-wide pricing policy risk.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates plans to slash drug prices via executive order, a negative for pharma sector stocks though largely repeat rhetoric without new specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Executive order targeting drug prices is a sector-wide negative overhang for healthcare.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma ETF directly exposed to drug pricing policy threats, negative for margins.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large pharma faces pricing pressure from reiterated executive order rhetoric.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Drug price cut claims are negative for high-margin branded drugmakers like Lilly.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Merck faces similar sector-wide pricing policy risk.\", \"added\": false}], \"summary\": \"The President reiterates plans to slash drug prices via executive order, a negative for pharma sector stocks though largely repeat rhetoric without new specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:01795:eu",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european",
+   "text_span": "European",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 1795.2486666666666,
+   "t_wall": 1747059626.2486668,
+   "t_wall_et": "2025-05-12T10:20:26.248667-04:00",
+   "segment_text": "the European unions and other countries. This is what you do. This is what we're gonna pay. We're not gonna pay anymore.",
+   "context": "And we'll be taking a look at that very strongly. The biggest thing we're gonna do is we're gonna tell those countries, like those represented by the European Union, that, you know, that game is up. Sorry. And if they wanna get cute, then they don't have to sell cars into The United States anymore. It's a very big subject. And they won't get cute, because I'll defend the drug companies from that standpoint. They were given a price by the European unions and other countries. This is what you do. This is what we're gonna pay. We're not gonna pay anymore.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "they don't have to sell cars into The United States anymore",
+    "summary": "The President threatens to ban EU car sales if they pursue price-control tactics on drugs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Threat to bar EU car exports into the US is negative for European equity exposure broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Eurozone equity ETF faces similar tariff/trade-threat overhang tied to drug pricing dispute.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Euro Stoxx 50 index has heavy auto/industrial exposure vulnerable to a US car export threat.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's threat to block EU car sales if Europe keeps 'extorting' drug pricing is a new trade-tension escalation, mildly negative for European equity ETFs (VGK, EZU, FEZ) but not a firm policy action yet, so confidence is modest.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Threat to bar EU car exports into the US is negative for European equity exposure broadly.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Eurozone equity ETF faces similar tariff/trade-threat overhang tied to drug pricing dispute.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Euro Stoxx 50 index has heavy auto/industrial exposure vulnerable to a US car export threat.\", \"added\": false}], \"summary\": \"The President's threat to block EU car sales if Europe keeps 'extorting' drug pricing is a new trade-tension escalation, mildly negative for European equity ETFs (VGK, EZU, FEZ) but not a firm policy action yet, so confidence is modest.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02390:pharma",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2390.4360048000003,
+   "t_wall": 1747060221.4360049,
+   "t_wall_et": "2025-05-12T10:30:21.436005-04:00",
+   "segment_text": "as they should be, and they should have for many years been doing, we'll course correct a problem that's gotten out of hand. And by doing that in a thoughtful, effective way, we're going to be able to get the pharmaceutical industry whole, those jobs will still be here, will still be productive, will still be curing cancer and a slew of other ailments that plague humanity.",
+   "context": "As was pointed out by the President, 0.5 the time we're paying 3 times more than it's paid in other countries. It doesn't make any sense for the system. That stated, the President has over and over again indicated, and secretary Kennedy reflected as well, we want innovation. We want our technology partners doing the best they can to make the best solutions for drugs that cure as many people in America and around the world as possible. By getting our allies to pay a bit more, as they should be, and they should have for many years been doing, we'll course correct a problem that's gotten out of hand. And by doing that in a thoughtful, effective way, we're going to be able to get the pharmaceutical industry whole, those jobs will still be here, will still be productive, will still be curing cancer and a slew of other ailments that plague humanity.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02472:defense_word",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 2472.55445945946,
+   "t_wall": 1747060303.5544596,
+   "t_wall_et": "2025-05-12T10:31:43.554460-04:00",
+   "segment_text": "for the same product between 2 countries, there is something deeply wrong.",
+   "context": "that this is an administration that stands for fairness, and it should chill the waters for those who believe they can push us away from our North Star, which is to take care of the American people. Mister President, God bless you. Thank you very much. Thank you. Jay, you want to go next? Sure. So I teach economics at Stanford as well as health policy. And 1 thing that's really, really simple in economics is that when you have a persistent price difference for the same product between 2 countries, there is something deeply wrong. And what the President has done is a historic measure that should have been done a long time ago.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02497:pharma",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug companies",
+   "text_span": "drug companies",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2497.7935679245284,
+   "t_wall": 1747060328.793568,
+   "t_wall_et": "2025-05-12T10:32:08.793568-04:00",
+   "segment_text": "the research and development efforts for drug companies around the world by the higher prices that we pay.",
+   "context": "And 1 thing that's really, really simple in economics is that when you have a persistent price difference for the same product between 2 countries, there is something deeply wrong. And what the President has done is a historic measure that should have been done a long time ago. What we're going to do is is make sure that those prices become much closer to equal like the like a competitive market you'd expect. Right now what's happening is the American people are subsidizing in large fraction the research and development efforts for drug companies around the world by the higher prices that we pay.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "American people are subsidizing research and development efforts for drug companies",
+    "summary": "Speaker criticizes high US drug prices relative to other countries; supports the President price regulation."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Executive order aimed at lowering US drug prices weighs on healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF directly exposed to drug pricing policy, likely to underperform market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large-cap pharma faces margin risk from price equalization push, though partly known policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Drugmaker exposed to US pricing reform pressure despite mixed messaging about defending firms abroad.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar exposure to US drug pricing policy as peers, modest negative pressure expected.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's executive order aiming to lower US drug prices and equalize them globally is a negative for pharma sector stocks and ETFs, though largely reiterates known policy direction so effect should be modest.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Executive order aimed at lowering US drug prices weighs on healthcare sector sentiment.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-focused ETF directly exposed to drug pricing policy, likely to underperform market.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large-cap pharma faces margin risk from price equalization push, though partly known policy.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Drugmaker exposed to US pricing reform pressure despite mixed messaging about defending firms abroad.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar exposure to US drug pricing policy as peers, modest negative pressure expected.\", \"added\": false}], \"summary\": \"The President's executive order aiming to lower US drug prices and equalize them globally is a negative for pharma sector stocks and ETFs, though largely reiterates known policy direction so effect should be modest.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02504:eu",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2504.48,
+   "t_wall": 1747060335.48,
+   "t_wall_et": "2025-05-12T10:32:15.480000-04:00",
+   "segment_text": "Europe will share the burden of that. And in fact, if if you may think of it as as like an as somehow it's like it's it's going after drug companies, actually, it's drug companies.",
+   "context": "What we're going to do is is make sure that those prices become much closer to equal like the like a competitive market you'd expect. Right now what's happening is the American people are subsidizing in large fraction the research and development efforts for drug companies around the world by the higher prices that we pay. With this new order, Europe will share the burden of that. And in fact, if if you may think of it as as like an as somehow it's like it's it's going after drug companies, actually, it's drug companies.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "Europe will share the burden of that.",
+    "summary": "The President orders EU to pay higher drug prices to match US levels."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad Europe ETF has diversified exposure so drug pricing rhetoric alone has limited index-level impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Eurozone-wide ETF exposure dilutes any pharma-specific pricing pressure signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.51,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Euro Stoxx 50 index is broad and not primarily driven by drug pricing policy news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates his 'most favored nation' drug pricing push, pressuring Europe to pay more; this is negative for European pharma pricing power but the broad European equity ETFs listed have too diversified exposure for a clear directional market reaction, while pharma-specific stocks (not listed) would be more directly affected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad Europe ETF has diversified exposure so drug pricing rhetoric alone has limited index-level impact.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Eurozone-wide ETF exposure dilutes any pharma-specific pricing pressure signal.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.51, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Euro Stoxx 50 index is broad and not primarily driven by drug pricing policy news.\", \"added\": false}], \"summary\": \"The President reiterates his 'most favored nation' drug pricing push, pressuring Europe to pay more; this is negative for European pharma pricing power but the broad European equity ETFs listed have too diversified exposure for a clear directional market reaction, while pharma-specific stocks (not listed) would be more directly affected.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02624:f",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "executive order",
+    "markets"
+   ],
+   "t_audio": 2624.511724137931,
+   "t_wall": 1747060455.5117242,
+   "t_wall_et": "2025-05-12T10:34:15.511724-04:00",
+   "segment_text": "buying a Ford for a $175,000,",
+   "context": "to try to raise money. For what? For a system where Americans have been getting ripped off by 10, 12, 15 times higher prices than we see in other countries? The fundamental problem in healthcare is that we've had noncompetitive markets. We can do little things around the edges, or we can transform those markets to competitive markets. And that's what this executive order does today. Imagine buying a Ford for a $175,000, a regular car, and then hearing that people in London are buying it for $10,000",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "buying a Ford for $175,000, people in London buying it for $10,000",
+    "summary": "The President uses Ford as example of price disparity between US and other countries."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "intraday",
+      "rationale": "Ford is used only as a hypothetical illustration of price disparity, not a policy action affecting the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark centers on a drug-pricing executive order aimed at pharma pricing; Ford is merely a rhetorical analogy with no direct policy implication for the automaker.",
+    "raw": "{\"tickers\": [{\"ticker\": \"F\", \"direction\": \"none\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"intraday\", \"rationale\": \"Ford is used only as a hypothetical illustration of price disparity, not a policy action affecting the company.\", \"added\": false}], \"summary\": \"The President's remark centers on a drug-pricing executive order aimed at pharma pricing; Ford is merely a rhetorical analogy with no direct policy implication for the automaker.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02630:uk",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "executive order"
+   ],
+   "t_audio": 2630.846265822785,
+   "t_wall": 1747060461.8462658,
+   "t_wall_et": "2025-05-12T10:34:21.846266-04:00",
+   "segment_text": "a regular car, and then hearing that people in London are buying it for $10,000",
+   "context": "by 10, 12, 15 times higher prices than we see in other countries? The fundamental problem in healthcare is that we've had noncompetitive markets. We can do little things around the edges, or we can transform those markets to competitive markets. And that's what this executive order does today. Imagine buying a Ford for a $175,000, a regular car, and then hearing that people in London are buying it for $10,000 every day, all day long. That is the craziness of this system. We're going to do everything we can at the FDA to support this executive order.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02658:china",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2658.5835819672134,
+   "t_wall": 1747060489.583582,
+   "t_wall_et": "2025-05-12T10:34:49.583582-04:00",
+   "segment_text": "We go to what we did with China, the trade deal, and with UK.",
+   "context": "a regular car, and then hearing that people in London are buying it for $10,000 every day, all day long. That is the craziness of this system. We're going to do everything we can at the FDA to support this executive order. It's transformative. Thank you, mister president. Thank you. Thank you very much. So thank you very much everybody. It's I think it's a very important day. In many ways, you have we'll start with the Houthis. We go to Pakistan and India. We go to what we did with China, the trade deal, and with UK.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "what we did with China, the trade deal",
+    "summary": "The President references a trade deal with China as significant accomplishment."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to trade deal with China reinforces de-escalation sentiment already priced in but mildly supportive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same trade-deal reference is mildly positive for broad China equity exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Trade deal comment is general and not specific to internet/tech sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The main substance (drug pricing executive order) is not relevant to these China-exposure tickers; the only pertinent remark is a repeated, vague reference to a US-China trade deal, which is mildly supportive but not new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to trade deal with China reinforces de-escalation sentiment already priced in but mildly supportive.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same trade-deal reference is mildly positive for broad China equity exposure.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Trade deal comment is general and not specific to internet/tech sector.\", \"added\": false}], \"summary\": \"The main substance (drug pricing executive order) is not relevant to these China-exposure tickers; the only pertinent remark is a repeated, vague reference to a US-China trade deal, which is mildly supportive but not new information.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:02871:ba",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "ba",
+   "entity": "Boeing",
+   "kind": "company",
+   "alias": "boeing",
+   "text_span": "Boeing",
+   "dict_tickers": [
+    "BA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2871.3177631399317,
+   "t_wall": 1747060702.317763,
+   "t_wall_et": "2025-05-12T10:38:22.317763-04:00",
+   "segment_text": "luxury jumbo jet? And how can the American people be so sure that they will not in the future? Well, I think what happens with the plane is that, you know, we're very disappointed that it's taking Boeing so long to build a new Air Force 1. You know, we have an Air Force 1 that's 40 years old.",
+   "context": "But they can go they got very high because of additional tariffs I applied during the course because of fentanyl and other things. But no. But they go substantially higher. And then on Qatar, mister president, has I think you will have a deal, however. You you're okay. You're confident that there will be a deal. On Qatar, has Qatar asked for anything in exchange for that $400,000,000 luxury jumbo jet? And how can the American people be so sure that they will not in the future? Well, I think what happens with the plane is that, you know, we're very disappointed that it's taking Boeing so long to build a new Air Force 1. You know, we have an Air Force 1 that's 40 years old.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Boeing",
+    "tickers": [
+     "BA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "very disappointed that it's taking Boeing so long to build a new Air Force 1",
+    "summary": "The President criticizes Boeing for delays in building new Air Force One aircraft."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates criticism of Boeing's delays on Air Force One, mildly negative but a repeated grievance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's renewed criticism of Boeing's delayed Air Force One program is a mild negative for BA, though it largely restates known frustrations rather than new policy action.",
+    "raw": "{\"tickers\":[{\"ticker\":\"BA\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President reiterates criticism of Boeing's delays on Air Force One, mildly negative but a repeated grievance.\",\"added\":false}],\"summary\":\"The President's renewed criticism of Boeing's delayed Air Force One program is a mild negative for BA, though it largely restates known frustrations rather than new policy action.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03221:steel",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3221.221224489796,
+   "t_wall": 1747061052.2212245,
+   "t_wall_et": "2025-05-12T10:44:12.221225-04:00",
+   "segment_text": "are you open to negotiating your tariffs on cars, steel, and aluminum with China or any other country? Well, they were not even talking about that.",
+   "context": "And I said, what does the 59 mean? They said, well, that means there are 59 people. But then they said, but 24 are living. Now it's 21. The number's 21. So now it's actually we'll we'll get Ethan today. We think we're getting him today. So it's 20. So So they have 20 live hostages there. The rest are dead bodies. Mister president, are you open to negotiating your tariffs on cars, steel, and aluminum with China or any other country? Well, they were not even talking about that.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "are you open to negotiating your tariffs on steel",
+    "summary": "Questioner asks if the President will negotiate steel tariffs with China or other countries."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General reaffirmation of existing steel tariffs without new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff details beyond existing policy affecting domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments reiterate prior tariff stance rather than announcing change.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No incremental policy news for domestic steel producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected by repeated tariff rhetoric with no new detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks mostly reaffirm existing auto and steel tariff policy and car-plant investment claims without new tariff decisions, so steel-related tickers see minimal price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General reaffirmation of existing steel tariffs without new specifics.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff details beyond existing policy affecting domestic steelmakers.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments reiterate prior tariff stance rather than announcing change.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No incremental policy news for domestic steel producers.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected by repeated tariff rhetoric with no new detail.\", \"added\": false}], \"summary\": \"The President's remarks mostly reaffirm existing auto and steel tariff policy and car-plant investment claims without new tariff decisions, so steel-related tickers see minimal price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03221:aluminum",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3221.765993877551,
+   "t_wall": 1747061052.7659938,
+   "t_wall_et": "2025-05-12T10:44:12.765994-04:00",
+   "segment_text": "are you open to negotiating your tariffs on cars, steel, and aluminum with China or any other country? Well, they were not even talking about that.",
+   "context": "And I said, what does the 59 mean? They said, well, that means there are 59 people. But then they said, but 24 are living. Now it's 21. The number's 21. So now it's actually we'll we'll get Ethan today. We think we're getting him today. So it's 20. So So they have 20 live hostages there. The rest are dead bodies. Mister president, are you open to negotiating your tariffs on cars, steel, and aluminum with China or any other country? Well, they were not even talking about that.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "are you open to negotiating your tariffs on aluminum",
+    "summary": "Questioner asks if the President will negotiate aluminum tariffs with China or other countries."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmed tariff stance on aluminum supports domestic producers like Alcoa.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CENX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued aluminum tariffs benefit domestic smelters such as Century Aluminum.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing tariff policy on autos, steel, and aluminum without new specifics, mildly supportive for domestic aluminum producers but largely already priced in.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmed tariff stance on aluminum supports domestic producers like Alcoa.\", \"added\": false}, {\"ticker\": \"CENX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued aluminum tariffs benefit domestic smelters such as Century Aluminum.\", \"added\": false}], \"summary\": \"The President reiterates existing tariff policy on autos, steel, and aluminum without new specifics, mildly supportive for domestic aluminum producers but largely already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03236:mexico",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 3236.37,
+   "t_wall": 1747061067.37,
+   "t_wall_et": "2025-05-12T10:44:27.370000-04:00",
+   "segment_text": "Mexico in a few cases. In a few cases, they've left Canada. They're not gonna build in Canada. They're gonna build here. Because we have the market, and the tariffs",
+   "context": "get Ethan today. We think we're getting him today. So it's 20. So So they have 20 live hostages there. The rest are dead bodies. Mister president, are you open to negotiating your tariffs on cars, steel, and aluminum with China or any other country? Well, they were not even talking about that. We're bringing the car back business back into this country. We have commitments, and not only commitments, they've already started construction on many plants. They've left Mexico in a few cases. In a few cases, they've left Canada. They're not gonna build in Canada. They're gonna build here. Because we have the market, and the tariffs",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "They've left Mexico in a few cases.",
+    "summary": "Automakers leaving Mexico for US plants due to tariff policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates automakers relocating factories from Mexico to the US due to tariffs, a negative signal for Mexican industrial investment and equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated claim that automakers are leaving Mexico for US plants under tariff pressure is a mild negative for Mexico-exposed equities (EWW), though it largely restates known tariff policy.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWW\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President reiterates automakers relocating factories from Mexico to the US due to tariffs, a negative signal for Mexican industrial investment and equities.\",\"added\":false}],\"summary\":\"The President's repeated claim that automakers are leaving Mexico for US plants under tariff pressure is a mild negative for Mexico-exposed equities (EWW), though it largely restates known tariff policy.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03238:canada",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "market",
+    "plants",
+    "tariffs"
+   ],
+   "t_audio": 3238.996951219512,
+   "t_wall": 1747061069.996951,
+   "t_wall_et": "2025-05-12T10:44:29.996951-04:00",
+   "segment_text": "Mexico in a few cases. In a few cases, they've left Canada. They're not gonna build in Canada. They're gonna build here. Because we have the market, and the tariffs",
+   "context": "get Ethan today. We think we're getting him today. So it's 20. So So they have 20 live hostages there. The rest are dead bodies. Mister president, are you open to negotiating your tariffs on cars, steel, and aluminum with China or any other country? Well, they were not even talking about that. We're bringing the car back business back into this country. We have commitments, and not only commitments, they've already started construction on many plants. They've left Mexico in a few cases. In a few cases, they've left Canada. They're not gonna build in Canada. They're gonna build here. Because we have the market, and the tariffs",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.93,
+    "quote": "They've left Canada. They're not gonna build in Canada.",
+    "summary": "Automakers shifting from Canada to US plants amid tariff policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterated that automakers are shifting production out of Canada into the US due to tariffs, a modest negative for Canadian industrial/economic sentiment reflected in this ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments reinforce existing tariff-driven auto manufacturing shift away from Canada to the US, a mild repeat-rhetoric negative for Canada-exposed equities (EWC), with limited new information content.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterated that automakers are shifting production out of Canada into the US due to tariffs, a modest negative for Canadian industrial/economic sentiment reflected in this ETF.\", \"added\": false}], \"summary\": \"The President's comments reinforce existing tariff-driven auto manufacturing shift away from Canada to the US, a mild repeat-rhetoric negative for Canada-exposed equities (EWC), with limited new information content.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03286:japan",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 3286.0647928301887,
+   "t_wall": 1747061117.0647929,
+   "t_wall_et": "2025-05-12T10:45:17.064793-04:00",
+   "segment_text": "and now they're under full renovation. They'll be opening up full factories in a very short period of time. Our car industry is I think we're gonna have the number 1 industry, you know, if you look at Japan and these others, they they do tremendously with cars. And",
+   "context": "massive car factories that are gonna be built, that are gonna be that are in the process of being built. And some are going through some have actually started. We also have renovations of existing factories where they weren't utilizing the full factory from years gone by, and now they're under full renovation. They'll be opening up full factories in a very short period of time. Our car industry is I think we're gonna have the number 1 industry, you know, if you look at Japan and these others, they they do tremendously with cars. And",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "if you look at Japan and these others, they do tremendously with cars",
+    "summary": "The President compares U.S. car industry competitiveness to Japan's automotive sector."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General comparison of car industries, no new policy targeting Japan specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general rhetoric about US auto manufacturing and tariffs already known to markets, with no new actionable policy toward Japan, so EWJ impact is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General comparison of car industries, no new policy targeting Japan specifically.\", \"added\": false}], \"summary\": \"The remark is general rhetoric about US auto manufacturing and tariffs already known to markets, with no new actionable policy toward Japan, so EWJ impact is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03321:russia",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 3321.6133333333332,
+   "t_wall": 1747061152.6133332,
+   "t_wall_et": "2025-05-12T10:45:52.613333-04:00",
+   "segment_text": "between president Putin as well as president Volansky.",
+   "context": "and they can do that too. They but, you know, when they if they wanna sell cars in The United States, they're gonna have to build factories in The United States because I'm interested in cars for The United States. And 1 other thing is, in our tax bill, we're giving not only no tax on tips, no tax on social security, no tax on overtime, but also we're gonna get a deduction for people that borrow money to buy a car if if it's made in America. If it's not, we have no interest. Meeting with between president Putin as well as president Volansky. If president Putin doesn't show up to these talks in person in Turkey, will you join Europe in putting higher on the If I felt it would be, important toward getting the deal done, I'm the 1 that insisted on the meeting. They couldn't get a meeting because",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03328:eu",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3328.0416666666665,
+   "t_wall": 1747061159.0416667,
+   "t_wall_et": "2025-05-12T10:45:59.041667-04:00",
+   "segment_text": "If president Putin doesn't show up to these talks in person in Turkey, will you join Europe in putting higher on the If I felt it would be, important toward getting the deal done, I'm the 1 that insisted on the meeting. They couldn't get a meeting because",
+   "context": "we're giving not only no tax on tips, no tax on social security, no tax on overtime, but also we're gonna get a deduction for people that borrow money to buy a car if if it's made in America. If it's not, we have no interest. Meeting with between president Putin as well as president Volansky. If president Putin doesn't show up to these talks in person in Turkey, will you join Europe in putting higher on the If I felt it would be, important toward getting the deal done, I'm the 1 that insisted on the meeting. They couldn't get a meeting because",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "Bv66I-pK2NU:03412:farmers",
+   "video_id": "Bv66I-pK2NU",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 3412.665,
+   "t_wall": 1747061243.665,
+   "t_wall_et": "2025-05-12T10:47:23.665000-04:00",
+   "segment_text": "farmers are being killed.",
+   "context": "expedited path into the country for the condors but not others? Because they're being killed, and we don't wanna see people be killed. Now South Africa leadership is coming to see me, I understand, sometime next week. And, you know, we're supposed to have a, I guess, a g 20 meeting there or something, but we're having a g 20 meeting. I don't know how we can go unless that situation's taken care of. But it's a genocide that's taking place that you people don't wanna write about, but it's a terrible thing that's taking place. And farmers are being killed.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "farmers are being killed",
+    "summary": "The President expresses concern about farmers being killed in South Africa during alleged genocide."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks about South African farmer violence don't materially affect broad agricultural commodity fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct pricing implication for fertilizer producer from this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct connection to farm equipment demand or policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is about South African political violence, not U.S. grain trade or ADM operations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information affecting corn supply/demand fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is rhetorical/political, not a policy or trade action affecting soybean markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is primarily political commentary on alleged South African farmer killings and refugee policy, unrelated to U.S. drug pricing or agricultural market fundamentals; no material price-relevant signal for the listed tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks about South African farmer violence don't materially affect broad agricultural commodity fundamentals.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct pricing implication for fertilizer producer from this remark.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct connection to farm equipment demand or policy.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is about South African political violence, not U.S. grain trade or ADM operations.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new information affecting corn supply/demand fundamentals.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is rhetorical/political, not a policy or trade action affecting soybean markets.\", \"added\": false}], \"summary\": \"The excerpt is primarily political commentary on alleged South African farmer killings and refugee policy, unrelated to U.S. drug pricing or agricultural market fundamentals; no material price-relevant signal for the listed tickers.\"}"
+   }
+  }
+ ]
+}

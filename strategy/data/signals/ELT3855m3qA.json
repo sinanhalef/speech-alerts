@@ -1,0 +1,1012 @@
+{
+ "video": {
+  "id": "ELT3855m3qA",
+  "url": "https://www.youtube.com/watch?v=ELT3855m3qA",
+  "title": "The President Signs an Executive Order, Mar. 31, 2026",
+  "channel": "The White House",
+  "duration": 2496.0,
+  "was_live": true,
+  "release_timestamp": 1774990526.0,
+  "upload_timestamp": 1774995597.0,
+  "upload_date": "20260331",
+  "label": "Signs an Executive Order, Mar. 31, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1774990526.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 20,
+  "confirmed": 10,
+  "retracted": 10,
+  "unconfirmed": 0,
+  "llm_calls": 24
+ },
+ "signals": [
+  {
+   "signal_id": "ELT3855m3qA:00050:defense_word",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deals",
+    "executive order"
+   ],
+   "t_audio": 50.31193262411348,
+   "t_wall": 1774990576.3119326,
+   "t_wall_et": "2026-03-31T16:56:16.311933-04:00",
+   "segment_text": "As you've consistently identified, 2 of the biggest problems we have with election integrity in this country are 1, inaccurate voter rolls that allow eligible people to vote in various federal and state elections all over the country. And secondarily, you've consistently identified",
+   "context": "great talent, a very brilliant young man. And if you could discuss it, and then I'm gonna ask Howard Ludnick to say a few words, and then I'm gonna sign it. And then we'll take a couple of questions. Okay? Thank you. Mister president, as you said, you have in front of you an executive order that deals with a number of issues relating to election integrity. As you've consistently identified, 2 of the biggest problems we have with election integrity in this country are 1, inaccurate voter rolls that allow eligible people to vote in various federal and state elections all over the country. And secondarily, you've consistently identified",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:00422:defense_word",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 422.47989328125,
+   "t_wall": 1774990948.4798932,
+   "t_wall_et": "2026-03-31T17:02:28.479893-04:00",
+   "segment_text": "of the crime. And the good thing about that is when you get rid of 2 percent, it's not that many, you don't have a lot of crime.",
+   "context": "great pains to make it that way, but it actually happened pretty quickly. Within 3 months, was good. Within 4 months, it was very good. Within 5 months, it was great. Now it's better than it ever was. And so Washington DC is now considered a very, very safe city. We removed almost 4,000 people, just so you understand. You know, an interesting stat is that 2% of the people create more than 90% of the crime. And the good thing about that is when you get rid of 2 percent, it's not that many, you don't have a lot of crime. But Washington DC, we're very proud of. We're very proud of Memphis, Tennessee, and,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:00727:tsla",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "tsla",
+   "entity": "Tesla",
+   "kind": "company",
+   "alias": "elon musk",
+   "text_span": "Elon Musk",
+   "dict_tickers": [
+    "TSLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 727.3770998220641,
+   "t_wall": 1774991253.3770998,
+   "t_wall_et": "2026-03-31T17:07:33.377100-04:00",
+   "segment_text": "water flow. There was a water hurricane that likes it, which nobody is in. Land areas that never had lakes, all of a sudden had lakes that you couldn't even get to it. And, actually, we were helped by Elon Musk with the communication with his great communication system that worked",
+   "context": "and people will come from Alaska. They haven't been to Florida. By the time they get used to it, you know, problem can be solved. So I've never been a big fan of FEMA. I like to keep it local. I like like to see governors and neighboring states help each other as opposed to FEMA. FEMA is very expensive, and it really doesn't get the job done. You know, North Carolina, they did a terrible job until I became elected a 2nd time, and I went and, you know, we had that tremendous water flow. There was a water hurricane that likes it, which nobody is in. Land areas that never had lakes, all of a sudden had lakes that you couldn't even get to it. And, actually, we were helped by Elon Musk with the communication with his great communication system that worked",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Elon Musk",
+    "tickers": [
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "we were helped by Elon Musk with the communication with his great communication system",
+    "summary": "The President praised Musk's Starlink communication system for hurricane relief efforts in North Carolina."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise refers to Starlink/SpaceX communications during hurricane relief, not Tesla's core auto business, so limited direct stock impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment praises Musk's Starlink (SpaceX) system for hurricane relief, a reputational positive for Musk but not materially tied to Tesla's business, so minimal expected price effect on TSLA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise refers to Starlink/SpaceX communications during hurricane relief, not Tesla's core auto business, so limited direct stock impact.\", \"added\": false}], \"summary\": \"The President's comment praises Musk's Starlink (SpaceX) system for hurricane relief, a reputational positive for Musk but not materially tied to Tesla's business, so minimal expected price effect on TSLA.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:00746:iran",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "ordered",
+    "stock"
+   ],
+   "t_audio": 746.0803211009174,
+   "t_wall": 1774991272.080321,
+   "t_wall_et": "2026-03-31T17:07:52.080321-04:00",
+   "segment_text": "After you said today that the Iran war may end soon, the stock market closed much higher. Do you have thoughts on that? And also, a judge just ordered you to stop construction of the ballroom. Are you planning to stop?",
+   "context": "water flow. There was a water hurricane that likes it, which nobody is in. Land areas that never had lakes, all of a sudden had lakes that you couldn't even get to it. And, actually, we were helped by Elon Musk with the communication with his great communication system that worked very well. We were very lucky, saved a lot of lives. But, no, I I, we gotta do things right. And if you don't do them right, we shouldn't do them at all. Yeah, please. Thank you, the President. After you said today that the Iran war may end soon, the stock market closed much higher. Do you have thoughts on that? And also, a judge just ordered you to stop construction of the ballroom. Are you planning to stop?",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:00747:stock_market",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "ordered",
+    "stock"
+   ],
+   "t_audio": 747.4396100917431,
+   "t_wall": 1774991273.43961,
+   "t_wall_et": "2026-03-31T17:07:53.439610-04:00",
+   "segment_text": "After you said today that the Iran war may end soon, the stock market closed much higher. Do you have thoughts on that? And also, a judge just ordered you to stop construction of the ballroom. Are you planning to stop?",
+   "context": "water flow. There was a water hurricane that likes it, which nobody is in. Land areas that never had lakes, all of a sudden had lakes that you couldn't even get to it. And, actually, we were helped by Elon Musk with the communication with his great communication system that worked very well. We were very lucky, saved a lot of lives. But, no, I I, we gotta do things right. And if you don't do them right, we shouldn't do them at all. Yeah, please. Thank you, the President. After you said today that the Iran war may end soon, the stock market closed much higher. Do you have thoughts on that? And also, a judge just ordered you to stop construction of the ballroom. Are you planning to stop?",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:01095:fed",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "federal reserve",
+   "text_span": "Federal Reserve",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1095.8287096774193,
+   "t_wall": 1774991621.8287096,
+   "t_wall_et": "2026-03-31T17:13:41.828710-04:00",
+   "segment_text": "This building was necessary for many years by the fact that I've built many ballrooms, and I've built many things, and I know how to build. I'm not building the Federal Reserve where the guy is spending $4,000,000,000",
+   "context": "And they've been wanting this for 100... Think of it, 150 years, and we're building it, and it's covered perfectly. What's not covered perfectly is the fact that the judge said we need congressional approval. Many things have been built in the White House. They haven't gotten congressional approval, especially when the money is being not put up by the taxpayer. The taxpayer is not putting up a dime. This building was necessary for many years by the fact that I've built many ballrooms, and I've built many things, and I know how to build. I'm not building the Federal Reserve where the guy is spending $4,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "I'm not building the Federal Reserve where the guy is spending $4,000,000,000",
+    "summary": "The President criticizes Federal Reserve spending of $4 billion on building."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed Powell criticism raises Fed independence concerns but is not new information for rates markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fed criticism is rhetoric already priced in and not specific to financial sector fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy affecting regional banks beyond repeated Fed criticism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar criticism of Powell and Fed spending, a rhetorical remark with no new policy specifics, so minimal expected market impact on rate-sensitive or financial tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed Powell criticism raises Fed independence concerns but is not new information for rates markets.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fed criticism is rhetoric already priced in and not specific to financial sector fundamentals.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy affecting regional banks beyond repeated Fed criticism.\", \"added\": false}], \"summary\": \"The President repeats familiar criticism of Powell and Fed spending, a rhetorical remark with no new policy specifics, so minimal expected market impact on rate-sensitive or financial tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:01156:iran",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1156.285471698113,
+   "t_wall": 1774991682.2854717,
+   "t_wall_et": "2026-03-31T17:14:42.285472-04:00",
+   "segment_text": "by people that love our country, that love the White House, and that feel it was very necessary. Mister president, a couple of questions for you on Iran, but 1st 1 that affects Americans here at home, gas prices.",
+   "context": "so we feel... And we don't feel. We know that congressional approval is not necessary to put up a borough. And with many things have been built on the site, they've never gotten congressional approval. And especially when the money is all put up, this is all donations by people that love our country, that love the White House, and that feel it was very necessary. Mister president, a couple of questions for you on Iran, but 1st 1 that affects Americans here at home, gas prices. Today, they hit $4. At the... We have $4. Yeah. And we have a country that's not gonna be throwing a nuclear weapon at us in 6 months. But Americans are feeling the effects in the interim at point.... Feeling a lot safer. What is the plan to bring them back down? All I have to do is leave Iran, and we'll be doing that very soon. And they'll become tumbling down, and stock prices were up today",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "All I have to do is leave Iran, and we'll be doing that very soon.",
+    "summary": "The President plans to exit Iran policy; expects gas prices to fall as result."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President's expectation of falling gas/oil prices as geopolitical tensions ease is mildly negative for energy sector equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President explicitly ties de-escalation with Iran to lower oil/gas prices, directly bearish for crude oil ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Talk of regime change and reduced Iran tension is ambiguous for defense demand, no clear new policy on contracts.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President suggests Iran tensions are easing and expects gas/oil prices to fall, which is modestly bearish for energy-linked tickers (XLE, USO) and largely neutral for defense (ITA).",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President's expectation of falling gas/oil prices as geopolitical tensions ease is mildly negative for energy sector equities.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President explicitly ties de-escalation with Iran to lower oil/gas prices, directly bearish for crude oil ETF.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Talk of regime change and reduced Iran tension is ambiguous for defense demand, no clear new policy on contracts.\", \"added\": false}], \"summary\": \"The President suggests Iran tensions are easing and expects gas/oil prices to fall, which is modestly bearish for energy-linked tickers (XLE, USO) and largely neutral for defense (ITA).\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:01158:oil",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gas prices",
+   "text_span": "gas prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1158.806721698113,
+   "t_wall": 1774991684.8067217,
+   "t_wall_et": "2026-03-31T17:14:44.806722-04:00",
+   "segment_text": "by people that love our country, that love the White House, and that feel it was very necessary. Mister president, a couple of questions for you on Iran, but 1st 1 that affects Americans here at home, gas prices.",
+   "context": "so we feel... And we don't feel. We know that congressional approval is not necessary to put up a borough. And with many things have been built on the site, they've never gotten congressional approval. And especially when the money is all put up, this is all donations by people that love our country, that love the White House, and that feel it was very necessary. Mister president, a couple of questions for you on Iran, but 1st 1 that affects Americans here at home, gas prices. Today, they hit $4. At the... We have $4. Yeah. And we have a country that's not gonna be throwing a nuclear weapon at us in 6 months. But Americans are feeling the effects in the interim at point.... Feeling a lot safer. What is the plan to bring them back down? All I have to do is leave Iran, and we'll be doing that very soon. And they'll become tumbling down, and stock prices were up today",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:01186:defense_word",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "stock"
+   ],
+   "t_audio": 1186.9149895833334,
+   "t_wall": 1774991712.9149895,
+   "t_wall_et": "2026-03-31T17:15:12.914989-04:00",
+   "segment_text": "know 2 things. Number 1, we have a safe country.",
+   "context": "by people that love our country, that love the White House, and that feel it was very necessary. Mister president, a couple of questions for you on Iran, but 1st 1 that affects Americans here at home, gas prices. Today, they hit $4. At the... We have $4. Yeah. And we have a country that's not gonna be throwing a nuclear weapon at us in 6 months. But Americans are feeling the effects in the interim at point.... Feeling a lot safer. What is the plan to bring them back down? All I have to do is leave Iran, and we'll be doing that very soon. And they'll become tumbling down, and stock prices were up today almost to a record, because they know 2 things. Number 1, we have a safe country.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.72,
+    "quote": "stock prices were up today almost to a record",
+    "summary": "The President attributes stock market gains to security improvements and safe country."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about market gains and geopolitical stability, not a specific defense spending or contract announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or spending detail specific to aerospace/defense sector beyond general market commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions of regime change and B-2 bombers reference past military action, not new drone/defense procurement news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new contract or funding announcement affecting Kratos directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly rhetorical, touting market highs and geopolitical 'wins' from past military actions (Iran, B-2 bombers) without new, actionable defense-spending or contract details, so no clear tradeable signal for these defense-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about market gains and geopolitical stability, not a specific defense spending or contract announcement.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or spending detail specific to aerospace/defense sector beyond general market commentary.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentions of regime change and B-2 bombers reference past military action, not new drone/defense procurement news.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific new contract or funding announcement affecting Kratos directly.\", \"added\": false}], \"summary\": \"The excerpt is mostly rhetorical, touting market highs and geopolitical 'wins' from past military actions (Iran, B-2 bombers) without new, actionable defense-spending or contract details, so no clear tradeable signal for these defense-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:01221:stock_market",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1221.5151735042734,
+   "t_wall": 1774991747.5151734,
+   "t_wall_et": "2026-03-31T17:15:47.515173-04:00",
+   "segment_text": "very... It's amazing what we've done. We had to make a little detour. So when the stock market broke all records just",
+   "context": "We had to take a little do... Detour because we had a madman named who sadly is no longer with us. And we had regime change already. We've knocked out 1 regime, then we knocked out the 2nd regime. Now we have a group of people that's very... That are very different. They're much more reasonable. I think much more... 1... Much less radicalized. It's a... We've had regime change. We're dealing with people that are much more rational, and it's very... It's amazing what we've done. We had to make a little detour. So when the stock market broke all records just",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "stock market broke all records",
+    "summary": "The President credits his policies with record-breaking stock market performance."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about past market highs and geopolitical reassurance, no new policy or market-moving info.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or new policy content; broad market commentary only.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "References Dow record already known; no new catalyst for industrials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely retrospective self-praise about past market records and geopolitical stability, with no new tariff, deal, or policy announcement that would move SPY, QQQ, or DIA relative to the broader market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about past market highs and geopolitical reassurance, no new policy or market-moving info.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or new policy content; broad market commentary only.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"References Dow record already known; no new catalyst for industrials.\", \"added\": false}], \"summary\": \"The remark is largely retrospective self-praise about past market records and geopolitical stability, with no new tariff, deal, or policy announcement that would move SPY, QQQ, or DIA relative to the broader market.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:01237:noc",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2",
+   "text_span": "b 2",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1237.2648712871287,
+   "t_wall": 1774991763.2648714,
+   "t_wall_et": "2026-03-31T17:16:03.264871-04:00",
+   "segment_text": "I said to the American people, it's time that we have make a little detour because we have a madman that wants a nuclear weapon. And if we did not come out with a b 2 bomber, we would have a nuclear weapon right now. We would... It would have been used it would have been used before this, before today,",
+   "context": "We're dealing with people that are much more rational, and it's very... It's amazing what we've done. We had to make a little detour. So when the stock market broke all records just a few weeks ago, when it hit 50,000 on the Dow, 7,000 on the S and P, I said to the American people, it's time that we have make a little detour because we have a madman that wants a nuclear weapon. And if we did not come out with a b 2 bomber, we would have a nuclear weapon right now. We would... It would have been used it would have been used before this, before today,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "we did not come out with the b 2 bomber, we would have a nuclear weapon",
+    "summary": "The President credited B-2 bomber deployment with preventing nuclear weapon use."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for B-2 bomber's role reinforces defense value but is not new policy or contract news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely geopolitical rhetoric about Iran and oil markets; the only company-specific mention, Northrop Grumman via the B-2 bomber, receives mild positive reinforcement but no new contract or funding news, limiting upside.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for B-2 bomber's role reinforces defense value but is not new policy or contract news.\", \"added\": false}], \"summary\": \"The President's remarks are largely geopolitical rhetoric about Iran and oil markets; the only company-specific mention, Northrop Grumman via the B-2 bomber, receives mild positive reinforcement but no new contract or funding news, limiting upside.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:01271:oil",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "approval"
+   ],
+   "t_audio": 1271.6466666666665,
+   "t_wall": 1774991797.6466668,
+   "t_wall_et": "2026-03-31T17:16:37.646667-04:00",
+   "segment_text": "And if France or some other country wants to get oil or gas,",
+   "context": "and you may not be standing there asking that question. Okay? So I think we have a country that understands that. I see CNN did a poll, and they talked about voters or MAGA voters, and my poll came out at a 100. Nobody nobody covers that poll. They had another poll where it's at 92% approval. I think that the people understand it. We'll be leaving very soon. And if France or some other country wants to get oil or gas, they'll go up through the Strait",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:01457:steel",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1457.2680231578947,
+   "t_wall": 1774991983.2680233,
+   "t_wall_et": "2026-03-31T17:19:43.268023-04:00",
+   "segment_text": "But you wanna have, like, for instance, the ballroom. We have a very powerful steel, very steel",
+   "context": "Right. Roof. Right. There have been drone swarms flying over sensitive military installations in The US over the last couple weeks. The reports are they don't look commercial and they can't be jammed. Is this another country's military? I don't think so. We have a great system of... Do you notice that over the last 4 or 5 days, you haven't seen very many drone hits? Right? We have some unbelievable anti drone weaponry that's incredible. But you wanna have, like, for instance, the ballroom. We have a very powerful steel, very steel",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "very powerful steel, very steel",
+    "summary": "The President praised steel as powerful in context of military anti-drone weaponry."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Casual mention of steel roof strength is not a substantive policy or demand signal for steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or contract announced, just a passing reference to steel durability.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel mention is incidental to ballroom security discussion, not a demand driver.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific procurement or tariff action tied to this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected by an offhand remark about steel roofs and drones.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment about steel roofs was incidental to a discussion of drone defense and ballroom construction, not a substantive policy or demand signal for steelmakers, so no meaningful price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Casual mention of steel roof strength is not a substantive policy or demand signal for steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or contract announced, just a passing reference to steel durability.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel mention is incidental to ballroom security discussion, not a demand driver.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific procurement or tariff action tied to this remark.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected by an offhand remark about steel roofs and drones.\", \"added\": false}], \"summary\": \"The President's comment about steel roofs was incidental to a discussion of drone defense and ballroom construction, not a substantive policy or demand signal for steelmakers, so no meaningful price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:01678:googl",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1678.5971328671328,
+   "t_wall": 1774992204.597133,
+   "t_wall_et": "2026-03-31T17:23:24.597133-04:00",
+   "segment_text": "than the past year. Honestly... Mister president, the Iranian government threatened a bunch of US companies today in the region, Google, Apple,",
+   "context": "you'll have a president that will be like me and that he will go there and he'll knock the hell out of them again because they cannot have a nuclear weapon. They are very radicalized people. They're very sick leaderships. And I will say though that the leadership we're dealing with now, the new regime... Because we have a new regime, and the new regime is much better than the past year. Honestly... Mister president, the Iranian government threatened a bunch of US companies today in the region, Google, Apple, because... With what? What did they threaten them with? PB guns? Or... Well, that's a... You know, I'm not sure threaten... My question for you is, are you... Is The US talking to companies? You you made a... What did they threaten them with? I don't know.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:01679:aapl",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1679.1073426573428,
+   "t_wall": 1774992205.1073427,
+   "t_wall_et": "2026-03-31T17:23:25.107343-04:00",
+   "segment_text": "than the past year. Honestly... Mister president, the Iranian government threatened a bunch of US companies today in the region, Google, Apple,",
+   "context": "you'll have a president that will be like me and that he will go there and he'll knock the hell out of them again because they cannot have a nuclear weapon. They are very radicalized people. They're very sick leaderships. And I will say though that the leadership we're dealing with now, the new regime... Because we have a new regime, and the new regime is much better than the past year. Honestly... Mister president, the Iranian government threatened a bunch of US companies today in the region, Google, Apple, because... With what? What did they threaten them with? PB guns? Or... Well, that's a... You know, I'm not sure threaten... My question for you is, are you... Is The US talking to companies? You you made a... What did they threaten them with? I don't know.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:01727:nvda",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1727.8379535714284,
+   "t_wall": 1774992253.8379536,
+   "t_wall_et": "2026-03-31T17:24:13.837954-04:00",
+   "segment_text": "Iran's IRGC issues a warning that they will target 18 US technology companies if The US continues targeted assassinations of Iranian leaders beginning on April 1. Those companies including Nvidia,",
+   "context": "Tell me. How did they threaten them? Well, all I know is that they threatened them, sir. What does that mean? Fair enough. They said something massive.... Have... Are you... Is the government in touch with these companies? Are you helping to backstop them? You don't even know what the threat was. What was the threat? I haven't heard it. What was the threat? I'll get back to they're gonna blow them up? They're gonna hit them... They're not...... The wrong guys. Know what they're not gonna do? They're not gonna hit them with a nuclear weapon. Is this something you're concerned about, sir? No. Iran's IRGC issues a warning that they will target 18 US technology companies if The US continues targeted assassinations of Iranian leaders beginning on April 1. Those companies including Nvidia, Apple, Microsoft...... People are dead already.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:01728:msft",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "msft",
+   "entity": "Microsoft",
+   "kind": "company",
+   "alias": "microsoft",
+   "text_span": "Microsoft",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1728.8112765957446,
+   "t_wall": 1774992254.8112767,
+   "t_wall_et": "2026-03-31T17:24:14.811277-04:00",
+   "segment_text": "Apple, Microsoft...... People are dead already.",
+   "context": "Tell me. How did they threaten them? Well, all I know is that they threatened them, sir. What does that mean? Fair enough. They said something massive.... Have... Are you... Is the government in touch with these companies? Are you helping to backstop them? You don't even know what the threat was. What was the threat? I haven't heard it. What was the threat? I'll get back to they're gonna blow them up? They're gonna hit them... They're not...... The wrong guys. Know what they're not gonna do? They're not gonna hit them with a nuclear weapon. Is this something you're concerned about, sir? No. Iran's IRGC issues a warning that they will target 18 US technology companies if The US continues targeted assassinations of Iranian leaders beginning on April 1. Those companies including Nvidia, Apple, Microsoft...... People are dead already. Yeah, Peter? I got 1. Your son Eric posted a photo of what will be the President presidential library. It's",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Microsoft",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "neutral",
+    "action": "sanction",
+    "confidence": 0.75,
+    "quote": "Iran's IRGC warning to target Microsoft if US continues assassinations",
+    "summary": "Iran threatens to target Microsoft and 17 other US tech companies starting April 1."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Iranian IRGC threat is vague and unconfirmed, with the President dismissive of its credibility, so minimal expected market impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The exchange centers on an unverified Iranian threat against tech firms including Microsoft, which the President downplays; lack of specificity and credibility limits any tradable stock reaction.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MSFT\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Iranian IRGC threat is vague and unconfirmed, with the President dismissive of its credibility, so minimal expected market impact.\",\"added\":false}],\"summary\":\"The exchange centers on an unverified Iranian threat against tech firms including Microsoft, which the President downplays; lack of specificity and credibility limits any tradable stock reaction.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:02049:stargate",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "stargate",
+   "entity": "Stargate AI project",
+   "kind": "company",
+   "alias": "stargate",
+   "text_span": "Stargate",
+   "dict_tickers": [
+    "ORCL",
+    "SFTBY",
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2049.8949636363636,
+   "t_wall": 1774992575.8949637,
+   "t_wall_et": "2026-03-31T17:29:35.894964-04:00",
+   "segment_text": "j 6. Yeah? President Stargate AI.",
+   "context": "Some people would call it Some people would say they're right in doing it. And I don't mind being right, but the other side almost never does it. Almost. I think you could find maybe a couple of instance. Almost never does. When a Democrat appoints a judge... And I'm talking about judges, not just justices. You go before some of these Democrat judges in Washington DC and... You don't have a chance. That's why I gave pardons to hundreds of people that were so badly treated having to do with j 6. Yeah? President Stargate AI. Next... Oh, do have a question? Let's go. I didn't see you over there. Sorry. You've been so nice. Go. Now she's gonna now she's gonna hit me with a bad 1. Go ahead.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ELT3855m3qA:02245:fed",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2245.524182278481,
+   "t_wall": 1774992771.5241823,
+   "t_wall_et": "2026-03-31T17:32:51.524182-04:00",
+   "segment_text": "low interest rates, low taxes. We just gave you the largest tax cut in history.",
+   "context": "They don't want voter ID, the Democrats, because they wanna cheat. The problem is we need their votes. In order to get it, you need their votes. And, look, they know their policy is so bad. They know that if they gave those votes, they might never win another election. So they're fighting like hell. Which means... They're actually fighting their... For their survival because their policy... The Republicans have great policy, smart policy, strong borders, low interest rates, low taxes. We just gave you the largest tax cut in history.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "low interest rates, low taxes",
+    "summary": "The President highlights low interest rates as part of Republican policy achievements."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical claim about low interest rates carries no new policy signal for bonds.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new banking or rate policy announced, just campaign rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks unaffected by generic political speech with no concrete rate action.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is political rhetoric about voter ID, military strength, and general praise of low interest rates/taxes with no new, actionable policy detail, so no meaningful market-moving signal for TLT, XLF, or KRE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical claim about low interest rates carries no new policy signal for bonds.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new banking or rate policy announced, just campaign rhetoric.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks unaffected by generic political speech with no concrete rate action.\", \"added\": false}], \"summary\": \"The excerpt is political rhetoric about voter ID, military strength, and general praise of low interest rates/taxes with no new, actionable policy detail, so no meaningful market-moving signal for TLT, XLF, or KRE.\"}"
+   }
+  },
+  {
+   "signal_id": "ELT3855m3qA:02281:nyt_outlet",
+   "video_id": "ELT3855m3qA",
+   "entity_id": "nyt_outlet",
+   "entity": "New York Times",
+   "kind": "company",
+   "alias": "new york times",
+   "text_span": "New York Times",
+   "dict_tickers": [
+    "NYT"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 2281.1494794258374,
+   "t_wall": 1774992807.1494794,
+   "t_wall_et": "2026-03-31T17:33:27.149479-04:00",
+   "segment_text": "The Democrats don't want that. And when I read the fake New York Times, you take a look at it, it's like, oh, they're putting up a good fight. They're putting up a fight. They're not even shooting at us. Okay?",
+   "context": "was so incredible. People said the greatest military maneuver they've ever seen. Look what's happening in Iran, which is... I mean, we're totally unchecked. Everything's been bombed out. They have no anti aircraft protection. They have no nothing. They don't have anything. Look at our military. The Democrats don't want that. And when I read the fake New York Times, you take a look at it, it's like, oh, they're putting up a good fight. They're putting up a fight. They're not even shooting at us. Okay?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "New York Times",
+    "tickers": [
+     "NYT"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "fake New York Times",
+    "summary": "The President criticized the New York Times as fake news for coverage of military action in Iran."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NYT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated rhetorical criticism and lawsuit threat against NYT with no new legal or business development disclosed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic criticism of NYT as 'fake news' and a repeated lawsuit threat, offering no new material information likely to move the stock beyond noise.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NYT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated rhetorical criticism and lawsuit threat against NYT with no new legal or business development disclosed.\", \"added\": false}], \"summary\": \"The President's remarks are generic criticism of NYT as 'fake news' and a repeated lawsuit threat, offering no new material information likely to move the stock beyond noise.\"}"
+   }
+  }
+ ]
+}

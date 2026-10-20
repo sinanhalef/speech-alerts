@@ -1,0 +1,543 @@
+{
+ "video": {
+  "id": "EtctNOj2gz4",
+  "url": "https://www.youtube.com/watch?v=EtctNOj2gz4",
+  "title": "The President Signs an Executive Order, Aug. 3, 2026",
+  "channel": "The White House",
+  "duration": 3361.0,
+  "was_live": true,
+  "release_timestamp": 1785778497.0,
+  "upload_timestamp": 1785782693.0,
+  "upload_date": "20260803",
+  "label": "Signs an Executive Order, Aug. 3, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1785778497.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 11,
+  "confirmed": 5,
+  "retracted": 6,
+  "unconfirmed": 0,
+  "llm_calls": 13
+ },
+ "signals": [
+  {
+   "signal_id": "EtctNOj2gz4:00630:wfc",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "wfc",
+   "entity": "Wells Fargo",
+   "kind": "company",
+   "alias": "wells fargo",
+   "text_span": "Wells Fargo",
+   "dict_tickers": [
+    "WFC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 630.055737704918,
+   "t_wall": 1785779127.0557377,
+   "t_wall_et": "2026-08-03T13:45:27.055738-04:00",
+   "segment_text": "A little bit more. Yes. I think so. Thank you. Thank you. Does anybody have anything to say or question or statement? Would you like to make a statement? Yes, please. Just say I'm so excited. I've we've served with the Wells Fargo now for a number of years, and I've seen them champion the enlisted corps.",
+   "context": "in terms of response with other presidents of the past? No comparison, sir. Is that good or bad? No. It's good. Actually, it's very good. That's right. Yeah. We do okay? We do great. Little more than sleepy Joe. A little bit more. Yes. I think so. Thank you. Thank you. Does anybody have anything to say or question or statement? Would you like to make a statement? Yes, please. Just say I'm so excited. I've we've served with the Wells Fargo now for a number of years, and I've seen them champion the enlisted corps.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01666:steel",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1666.1814606741573,
+   "t_wall": 1785780163.1814606,
+   "t_wall_et": "2026-08-03T14:02:43.181461-04:00",
+   "segment_text": "and that navy is on it's a they call it a wall of steel, The United States wall of steel.",
+   "context": "Right? The failed they failed. They gave it a new name. You know why? Because nobody watched it. Go ahead. And they and fewer people are watching it now. On the Iran talks, is there discussions is Iran willing to return to a fully free navigation of the strait? Is that on the table? Say it again differently. Would would Iran be willing to return to fully free navigation of It has to be. I'm not gonna let them charge. Would you because you If anybody's gonna charge, we'll charge. We're the 1 that has total gun. We have total control. You know, we have a thing called a blockade with his navy, and that navy is on it's a they call it a wall of steel, The United States wall of steel. And no. No. There's not gonna be charging.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01736:uk",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "uk",
+   "text_span": "UK",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 1736.1379011494253,
+   "t_wall": 1785780233.137901,
+   "t_wall_et": "2026-08-03T14:03:53.137901-04:00",
+   "segment_text": "1 of the greatest deals in the world. You know, The UK buys its energy from Norway who gets the energy from the North Sea from not as vibrant a part of the North Sea oil was.",
+   "context": "Like The UK, when you look at The UK, they have 1 of the best energy fields in the world, North Sea. And I think your new prime minister is gonna actually open up the from what I hear. I spoke to him, and he sounded terrific on this subject. But you open it up, you'll be a wealthy country. You keep it closed, you're gonna be a bankrupt country, which is what you are now. Essentially, you're a bankrupt country. Do you have 1 of the greatest energy for the North Sea oil? 1 of the greatest deals in the world. You know, The UK buys its energy from Norway who gets the energy from the North Sea from not as vibrant a part of the North Sea oil was.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "You keep it closed, you're gonna be a bankrupt country, which is what you are now.",
+    "summary": "The President criticizes UK energy policy, urges opening North Sea oil fields to avoid bankruptcy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical criticism of UK energy/immigration policy with no new binding US policy action, unlikely to materially move UK equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are opinion-based commentary urging UK to open North Sea oil, not a new US policy action, so limited direct market impact on EWU beyond noise.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWU\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical criticism of UK energy/immigration policy with no new binding US policy action, unlikely to materially move UK equity ETF.\", \"added\": false}], \"summary\": \"The President's remarks are opinion-based commentary urging UK to open North Sea oil, not a new US policy action, so limited direct market impact on EWU beyond noise.\"}"
+   }
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01858:solar",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1858.5937748953975,
+   "t_wall": 1785780355.5937748,
+   "t_wall_et": "2026-08-03T14:05:55.593775-04:00",
+   "segment_text": "1 of those things. It's very sad. When I see what's happening to Europe, it's very sad to me. But they have a problem with immigration. They have a problem with energy. You have windmills all over the place. Windmills, you lose your shirt.",
+   "context": "people from your country, people from other countries that have been there for a long time and did a great job, beautiful play. And look, I love it. You know, my parents both came from Europe indirectly. So a German Scott and, you know, it's like, 1 of those things. It's very sad. When I see what's happening to Europe, it's very sad to me. But they have a problem with immigration. They have a problem with energy. You have windmills all over the place. Windmills, you lose your shirt.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Wind energy sector",
+    "tickers": [
+     "TAN",
+     "ICLN"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Windmills, you lose your shirt.",
+    "summary": "The President criticizes windmills as economically unviable for Europe."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's windmill criticism targets wind, not solar directly, though general anti-renewable rhetoric provides mild sentiment drag.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean-energy ETF includes wind exposure that the President explicitly disparaged, reinforcing familiar negative sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar-specific maker not directly mentioned; remark focused on wind energy in Europe.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar inverter company not implicated by wind-focused comment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated familiar anti-wind rhetoric calling windmills a losing investment for Europe; this is repeat rhetoric with only mild negative sentiment spillover to broad clean-energy ETFs like ICLN, while solar-specific names (TAN, FSLR, ENPH) are largely unaffected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's windmill criticism targets wind, not solar directly, though general anti-renewable rhetoric provides mild sentiment drag.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad clean-energy ETF includes wind exposure that the President explicitly disparaged, reinforcing familiar negative sentiment.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar-specific maker not directly mentioned; remark focused on wind energy in Europe.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Residential solar inverter company not implicated by wind-focused comment.\", \"added\": false}], \"summary\": \"The President reiterated familiar anti-wind rhetoric calling windmills a losing investment for Europe; this is repeat rhetoric with only mild negative sentiment spillover to broad clean-energy ETFs like ICLN, while solar-specific names (TAN, FSLR, ENPH) are largely unaffected.\"}"
+   }
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01889:xom",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxon",
+   "text_span": "Exxon",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1889.6600704225352,
+   "t_wall": 1785780386.6600704,
+   "t_wall_et": "2026-08-03T14:06:26.660070-04:00",
+   "segment_text": "2 domestic questions, sir. The 1st 1 is Exxon and Chevron in integrated",
+   "context": "is a loser. Okay? You just have to look. If they have windmills, they're a loser because you lose you lose money with windmills. Mister president Yeah. Please go ahead. Thank you. Thank you, mister president. Do you know who you are? Fredericks Media. Yeah. That's right. Original name. What was your name before? John Fredericks. Go ahead, John. We're Mark. 2 domestic questions, sir. The 1st 1 is Exxon and Chevron in integrated all US just announced record profits",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01890:cvx",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1890.471338028169,
+   "t_wall": 1785780387.471338,
+   "t_wall_et": "2026-08-03T14:06:27.471338-04:00",
+   "segment_text": "2 domestic questions, sir. The 1st 1 is Exxon and Chevron in integrated",
+   "context": "is a loser. Okay? You just have to look. If they have windmills, they're a loser because you lose you lose money with windmills. Mister president Yeah. Please go ahead. Thank you. Thank you, mister president. Do you know who you are? Fredericks Media. Yeah. That's right. Original name. What was your name before? John Fredericks. Go ahead, John. We're Mark. 2 domestic questions, sir. The 1st 1 is Exxon and Chevron in integrated all US just announced record profits",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01932:oil",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1932.2287888888889,
+   "t_wall": 1785780429.2287889,
+   "t_wall_et": "2026-08-03T14:07:09.228789-04:00",
+   "segment_text": "when you're gonna see oil when we're finished with Iran, you're gonna see the prices drop through the floor.",
+   "context": "for for Exxon, for instance, 14 being highest they've had in over a decade. For Chevron for the 0.25, highest in history. On the back times. On the back. You saw that? Yes. I mean, it's on the on the back I don't like it. Workers paying higher gas. What are is our They're making too much money. Okay? Based on a shortage, they're making too much money. I don't like it. And I'm I should be the last 1 to say it because I'm a big free enterprise guy. Nobody bigger. And, you know, when you're gonna see oil when we're finished with Iran, you're gonna see the prices drop through the floor.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "They're making too much money. I don't like it.",
+    "summary": "The President criticizes oil companies for excessive profits amid supply constraints."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President singled out Exxon by name for making too much money and implied pressure to cut consumer prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President explicitly criticized Chevron's record profits as excessive, raising political/regulatory risk perception.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector-wide criticism of oil majors' profits could weigh modestly on energy sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President's suggestion oil prices should drop once Iran situation resolves implies downward price pressure expectation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President criticized Exxon and Chevron for excessive profits and hinted at falling oil prices, a mildly negative signal for oil majors and the broader energy sector, with rhetoric largely repeating prior populist commentary rather than announcing new policy.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XOM\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President singled out Exxon by name for making too much money and implied pressure to cut consumer prices.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President explicitly criticized Chevron's record profits as excessive, raising political/regulatory risk perception.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Sector-wide criticism of oil majors' profits could weigh modestly on energy sector sentiment.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President's suggestion oil prices should drop once Iran situation resolves implies downward price pressure expectation.\",\"added\":false}],\"summary\":\"The President criticized Exxon and Chevron for excessive profits and hinted at falling oil prices, a mildly negative signal for oil majors and the broader energy sector, with rhetoric largely repeating prior populist commentary rather than announcing new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "EtctNOj2gz4:01933:iran",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1933.4532333333332,
+   "t_wall": 1785780430.4532332,
+   "t_wall_et": "2026-08-03T14:07:10.453233-04:00",
+   "segment_text": "when you're gonna see oil when we're finished with Iran, you're gonna see the prices drop through the floor.",
+   "context": "for for Exxon, for instance, 14 being highest they've had in over a decade. For Chevron for the 0.25, highest in history. On the back times. On the back. You saw that? Yes. I mean, it's on the on the back I don't like it. Workers paying higher gas. What are is our They're making too much money. Okay? Based on a shortage, they're making too much money. I don't like it. And I'm I should be the last 1 to say it because I'm a big free enterprise guy. Nobody bigger. And, you know, when you're gonna see oil when we're finished with Iran, you're gonna see the prices drop through the floor.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.88,
+    "quote": "When we're finished with Iran, you're gonna see prices drop through the floor.",
+    "summary": "The President suggests action against Iran will cause oil prices to collapse."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President publicly criticized oil majors for excess profits and demanded price cuts, a negative signal for energy sector sentiment and potential political pressure/regulatory risk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President explicitly forecast oil prices dropping sharply once Iran situation is resolved, a bearish signal for crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct relevance to defense sector from this remark about oil companies and Iran.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's criticism of Exxon/Chevron profits and prediction of falling oil prices after Iran resolution are mildly negative for energy stocks and crude oil, with no clear impact on defense names.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President publicly criticized oil majors for excess profits and demanded price cuts, a negative signal for energy sector sentiment and potential political pressure/regulatory risk.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President explicitly forecast oil prices dropping sharply once Iran situation is resolved, a bearish signal for crude prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No direct relevance to defense sector from this remark about oil companies and Iran.\", \"added\": false}], \"summary\": \"The President's criticism of Exxon/Chevron profits and prediction of falling oil prices after Iran resolution are mildly negative for energy stocks and crude oil, with no clear impact on defense names.\"}"
+   }
+  },
+  {
+   "signal_id": "EtctNOj2gz4:02125:uber",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2125.4056403041823,
+   "t_wall": 1785780622.4056404,
+   "t_wall_et": "2026-08-03T14:10:22.405640-04:00",
+   "segment_text": "if you live here. It's just you don't wanna go back. And now you can walk to work. You can walk to the White House. The people in the White House, they walk in the they tell me, sir, thank you. Oh, they're thanking me all the time. They used to have to take Uber,",
+   "context": "and they work very well with the DC police. But our military came in, the general people that we know so well, General. Right? They don't play games, and we, we got the gangs out. We removed almost 5,000 people who were career criminals, who came in with Biden with the open borders, a lot of them. And, they're no longer here. We sent them back to their countries. You've gotta say have you ever seen such a transformation? It's unbelievable if you live here. It's just you don't wanna go back. And now you can walk to work. You can walk to the White House. The people in the White House, they walk in the they tell me, sir, thank you. Oh, they're thanking me all the time. They used to have to take Uber,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Uber",
+    "tickers": [
+     "UBER"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "They used to have to take Uber",
+    "summary": "The President notes White House staff no longer need Uber rides due to improved DC safety."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UBER",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention is anecdotal about DC crime reduction, not a policy or business action affecting Uber's fundamentals.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The Uber reference is incidental color illustrating DC crime statistics, not a substantive policy or business development, so no meaningful price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UBER\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention is anecdotal about DC crime reduction, not a policy or business action affecting Uber's fundamentals.\", \"added\": false}], \"summary\": \"The Uber reference is incidental color illustrating DC crime statistics, not a substantive policy or business development, so no meaningful price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "EtctNOj2gz4:02542:brk",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "brk",
+   "entity": "Berkshire Hathaway",
+   "kind": "company",
+   "alias": "berkshire",
+   "text_span": "Berkshire",
+   "dict_tickers": [
+    "BRK.B"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2542.1079999999997,
+   "t_wall": 1785781039.108,
+   "t_wall_et": "2026-08-03T14:17:19.108000-04:00",
+   "segment_text": "When someone me, sir or Berkshire? Go ahead. Okay. When a group sir, when a group lose I'm",
+   "context": "There are 2 things, crime, but they're disgusting. They're filthy dirty. The streets are dirty. They have people lying all over the street doing, you know what? They're all the same. And this is what we're gonna put in it. It's not gonna happen in our country. Mister president, can please president, please Mister sir? Yeah. In the back. When someone me, sir or Berkshire? Go ahead. Okay. When a group sir, when a group lose I'm sorry. Was very rude to you. Right? Go",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "EtctNOj2gz4:03040:oil",
+   "video_id": "EtctNOj2gz4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "crude",
+   "text_span": "crude",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "suing"
+   ],
+   "t_audio": 3040.8532387096775,
+   "t_wall": 1785781537.8532388,
+   "t_wall_et": "2026-08-03T14:25:37.853239-04:00",
+   "segment_text": "But crude do you know what crude is? It's 0.333 rate operation",
+   "context": "It kills the grass no matter how you can't even clean it even if you got there right after. It's very powerful stuff. I know it well. So people did great damage to this thing because they're sick people. You know who's representing the man is a man from crew, a sleazebag who's been suing me for my whole political hasn't won. He's lost all the time. But crude do you know what crude is? It's 0.333 rate operation that's supposed to be a charity, but it's not. They used it for political reasons.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

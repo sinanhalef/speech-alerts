@@ -1,0 +1,1650 @@
+{
+ "video": {
+  "id": "V6vuYip9SWo",
+  "url": "https://www.youtube.com/watch?v=V6vuYip9SWo",
+  "title": "The President Hosts a Cabinet Meeting, Jul. 31, 2026",
+  "channel": "The White House",
+  "duration": 3429.0,
+  "was_live": true,
+  "release_timestamp": 1785511576.0,
+  "upload_timestamp": 1785515584.0,
+  "upload_date": "20260731",
+  "label": "Hosts a Cabinet Meeting, Jul. 31, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1785511576.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 30,
+  "confirmed": 19,
+  "retracted": 11,
+  "unconfirmed": 0,
+  "llm_calls": 40
+ },
+ "signals": [
+  {
+   "signal_id": "V6vuYip9SWo:00198:iran",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 198.46573625,
+   "t_wall": 1785511774.4657362,
+   "t_wall_et": "2026-07-31T11:29:34.465736-04:00",
+   "segment_text": "there was a cyber attack, and they blame it on Iran. I don't think so. I think I blame it on Minnesota because they're grossly incompetent. There was a cyber attack of 30 water plants,",
+   "context": "and that's in history. So think of that 0, a big beautiful 0. The murder rate saw its single largest drop ever recorded to the lowest in 125 years. That goes back to, think of it. It goes back to 1900, lowest murder rate in the history of our country. So that's something. Today, I just wanna mention that, we heard in Minnesota, there was a cyber attack, and they blame it on Iran. I don't think so. I think I blame it on Minnesota because they're grossly incompetent. There was a cyber attack of 30 water plants,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.85,
+    "quote": "cyber attack, they blame it on Iran. I don't think so.",
+    "summary": "The President disputes attribution of Minnesota cyber attack to Iran, blames state incompetence instead."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new energy policy or Iran sanctions escalation mentioned that would move energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President downplays Iran involvement rather than escalating tensions, reducing any geopolitical oil risk premium.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new defense spending or conflict escalation announced that would affect defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks dismiss Iran's involvement in a Minnesota cyber attack and focus on economic/border achievements, with no new policy, sanctions, or spending announcements affecting energy or defense sectors.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new energy policy or Iran sanctions escalation mentioned that would move energy sector.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President downplays Iran involvement rather than escalating tensions, reducing any geopolitical oil risk premium.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new defense spending or conflict escalation announced that would affect defense contractors.\",\"added\":false}],\"summary\":\"The President's remarks dismiss Iran's involvement in a Minnesota cyber attack and focus on economic/border achievements, with no new policy, sanctions, or spending announcements affecting energy or defense sectors.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00224:wmt",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "wmt",
+   "entity": "Walmart",
+   "kind": "company",
+   "alias": "walmart",
+   "text_span": "Walmart",
+   "dict_tickers": [
+    "WMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 224.545,
+   "t_wall": 1785511800.545,
+   "t_wall_et": "2026-07-31T11:30:00.545000-04:00",
+   "segment_text": "Walmart,",
+   "context": "there was a cyber attack, and they blame it on Iran. I don't think so. I think I blame it on Minnesota because they're grossly incompetent. There was a cyber attack of 30 water plants, and I would blame it on Minnesota and the governor the corrupt governor of Minnesota. They like to say, oh, it's Iran. Iran should be so lucky. Iran's got bigger problems than worrying about Minnesota. This month, it was announced that inflation is dropping at the fastest rate in more than 6 years. Walmart, Sam's Club, Giant Eagle, and others are slashing prices by by hundreds of grocery stores and",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Walmart",
+    "tickers": [
+     "WMT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Walmart, Sam's Club, Giant Eagle slashing prices by hundreds",
+    "summary": "The President credits Walmart and others with cutting grocery prices amid falling inflation."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WMT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for cutting prices is a mixed signal since price cuts can pressure margins even as it burnishes Walmart's political image, so net stock effect is ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Walmart cutting grocery prices is general economic rhetoric, not new information, and the margin implications offset the favorable political attention, so the price impact is likely negligible.",
+    "raw": "{\"tickers\":[{\"ticker\":\"WMT\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Praise for cutting prices is a mixed signal since price cuts can pressure margins even as it burnishes Walmart's political image, so net stock effect is ambiguous.\",\"added\":false}],\"summary\":\"The President's mention of Walmart cutting grocery prices is general economic rhetoric, not new information, and the margin implications offset the favorable political attention, so the price impact is likely negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00240:stock_market",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "prices",
+    "stock"
+   ],
+   "t_audio": 240.74101507246377,
+   "t_wall": 1785511816.741015,
+   "t_wall_et": "2026-07-31T11:30:16.741015-04:00",
+   "segment_text": "The stock market has set 73 all time record highs since the election.",
+   "context": "They like to say, oh, it's Iran. Iran should be so lucky. Iran's got bigger problems than worrying about Minnesota. This month, it was announced that inflation is dropping at the fastest rate in more than 6 years. Walmart, Sam's Club, Giant Eagle, and others are slashing prices by by hundreds of grocery stores and all of the stores. I mean, throughout the country, they're slashing prices, something that you haven't seen for a long time since my last administration. The stock market has set 73 all time record highs since the election.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market has set 73 all time record highs since the election",
+    "summary": "The President credits his administration with 73 stock market all-time highs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise of past market highs, no new policy information for broad market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific news, just restating already-known market performance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments are generic self-praise about the market, not new actionable information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely self-congratulatory about past economic and market performance, restating known data (record highs, inflation drop) without new policy or company-specific catalysts, so no significant differential impact on SPY, QQQ, or DIA is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical praise of past market highs, no new policy information for broad market.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific news, just restating already-known market performance.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments are generic self-praise about the market, not new actionable information.\", \"added\": false}], \"summary\": \"The President's remarks are largely self-congratulatory about past economic and market performance, restating known data (record highs, inflation drop) without new policy or company-specific catalysts, so no significant differential impact on SPY, QQQ, or DIA is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00351:defense_word",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 351.16779527559055,
+   "t_wall": 1785511927.1677952,
+   "t_wall_et": "2026-07-31T11:32:07.167795-04:00",
+   "segment_text": "Over 7,000,000 and really, really just got going, I would say, Scott, about 2 weeks ago when it was we got the final approvals,",
+   "context": "has ever had. On July 4, we launched the new savings accounts to keep provision of our great big beautiful bill. And these tax free investment savings accounts have already been activated by over 7,000,000,000 children. These are investments made in our future, which is our children. Children. Our children are the most important aspect of our future with more being added each day. So it's a tremendous hit. Over 7,000,000 and really, really just got going, I would say, Scott, about 2 weeks ago when it was we got the final approvals, and we have over 7,000,000. Actually, there's never been anything quite like that.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00435:pharma",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 435.2373021582734,
+   "t_wall": 1785512011.237302,
+   "t_wall_et": "2026-07-31T11:33:31.237302-04:00",
+   "segment_text": "On drug prices, we're achieving record discounts on prescription drugs. The prescription drugs, were going through the roof for many years,",
+   "context": "So go to the new savings accounts.gov. They're really something the overall is talking about it, and it's far ahead of schedule. Nobody thought it would be as successful as it's been, but it should be. It should be. And we start them off with 1000 dollars, and this was part of the great big beautiful bill. With my most favorite nation policy, you could say this is even a bigger thing if that's possible. On drug prices, we're achieving record discounts on prescription drugs. The prescription drugs, were going through the roof for many years,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "achieving record discounts on prescription drugs",
+    "summary": "The President claims record discounts achieved on prescription drug prices."
+   },
+   "llm_attempts": 1,
+   "count": 12,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated push for lower drug prices pressures healthcare sector sentiment modestly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF is directly exposed to rhetoric about forcing down drug prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates most-favored-nation pricing push, a known negative for branded drugmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued emphasis on record discounts implies pricing pressure on high-margin drugs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about cutting drug prices is a mild negative for large pharma revenue outlook.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats prior most-favored-nation drug pricing rhetoric, no new specifics, but tone remains negative for pharma pricing power across the sector.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated push for lower drug prices pressures healthcare sector sentiment modestly.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-focused ETF is directly exposed to rhetoric about forcing down drug prices.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates most-favored-nation pricing push, a known negative for branded drugmakers.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued emphasis on record discounts implies pricing pressure on high-margin drugs.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about cutting drug prices is a mild negative for large pharma revenue outlook.\", \"added\": false}], \"summary\": \"The President repeats prior most-favored-nation drug pricing rhetoric, no new specifics, but tone remains negative for pharma pricing power across the sector.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00518:germany",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "price",
+    "prices"
+   ],
+   "t_audio": 518.0168181818182,
+   "t_wall": 1785512094.0168183,
+   "t_wall_et": "2026-07-31T11:34:54.016818-04:00",
+   "segment_text": "in Germany,",
+   "context": "nations. The other nations had to agree, but they were paying a fraction, sometimes 10%, 20%, 40%, 70% less. So I had to call them and I had to get them on. And I said, if you don't do it, we're gonna have to charge you tariffs. And, they all said no at 1st, very politely said, sir, we can't do that. We're not gonna double our prices. They had to double their prices, and in some case, triple their price, and we would come down. So a a pill that sold for $10 in Germany,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "if you don't do it, we're gonna have to charge you tariffs",
+    "summary": "The President threatened tariffs against Germany over pharmaceutical pricing disparities."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates prior pharma pricing/tariff rhetoric aimed at achieving equalized drug prices rather than announcing new broad tariffs on Germany.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates prior narrative about forcing other nations, using Germany as an example, to raise drug prices via tariff threats, which is largely repeat rhetoric with limited new market-moving information for German equities broadly.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates prior pharma pricing/tariff rhetoric aimed at achieving equalized drug prices rather than announcing new broad tariffs on Germany.\", \"added\": false}], \"summary\": \"The President reiterates prior narrative about forcing other nations, using Germany as an example, to raise drug prices via tariff threats, which is largely repeat rhetoric with limited new market-moving information for German equities broadly.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00561:health_ins",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "obamacare",
+   "text_span": "Obamacare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 561.9912607692307,
+   "t_wall": 1785512137.9912608,
+   "t_wall_et": "2026-07-31T11:35:37.991261-04:00",
+   "segment_text": "wonderful numb numbers on this stuff, and they are horrible. What they've done Obamacare is a total disaster. It's a costly wreck.",
+   "context": "I say, no. No. Now the world is a bigger place, so it's not as bad as it sounds for them. So they went up to 20, and we came down to 20. So we now have the lowest drug prices anywhere in the world. We're tied with the lowest, but we're basically its favorite nation. So we have the lowest drug prices anywhere in the world from the highest drug prices anywhere in the world. Now what that does for your health care I mean, I see these fake polls where the Democrats have wonderful numb numbers on this stuff, and they are horrible. What they've done Obamacare is a total disaster. It's a costly wreck.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Obamacare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "What they've done Obamacare is a total disaster. It's a costly wreck.",
+    "summary": "The President criticizes Obamacare as a total disaster and costly wreck."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Obamacare criticism is repeated rhetoric with no new policy specifics affecting insurer economics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic ACA rhetoric, not new or targeted at Cigna specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat criticism of Obamacare with no concrete policy change mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric restates known ACA stance without new material impact on Humana.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus mainly on drug pricing deals with foreign countries (favorable to US drug affordability but a repeat of prior policy) and generic, repeated criticism of Obamacare with no new details, so health insurer stocks are unlikely to see a meaningful abnormal move.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General Obamacare criticism is repeated rhetoric with no new policy specifics affecting insurer economics.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic ACA rhetoric, not new or targeted at Cigna specifically.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat criticism of Obamacare with no concrete policy change mentioned.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric restates known ACA stance without new material impact on Humana.\", \"added\": false}], \"summary\": \"The President's remarks focus mainly on drug pricing deals with foreign countries (favorable to US drug affordability but a repeat of prior policy) and generic, repeated criticism of Obamacare with no new details, so health insurer stocks are unlikely to see a meaningful abnormal move.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00919:venezuela",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 919.466,
+   "t_wall": 1785512495.466,
+   "t_wall_et": "2026-07-31T11:41:35.466000-04:00",
+   "segment_text": "And, we've had tremendous success, and our military was just proud of it. Again, Venezuela",
+   "context": "new massive plants as we speak because we want them to do we want them to move faster. We have the best equipment in the world, but we want them to move faster. We don't wanna wait a year or a year and 0.5. We wanna wait a week, maybe. So that's happening, I think the results are very good. They're all they're building, at levels that nobody's ever seen before. And, we've had tremendous success, and our military was just proud of it. Again, Venezuela was a 1 day war, and we have a great relationship with Venezuela. We're working with partners with Venezuela now, taking out tens of millions of barrels of oil",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "we have a great relationship with Venezuela. We're working with partners with Venezuela now, taking out tens of millions of barrels of oil",
+    "summary": "The President claims strong Venezuela relationship and oil extraction partnership producing tens of millions of barrels."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and could benefit from expanded oil partnership access announced by the President.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply is a minor incremental positive for US refiners but ambiguous net effect on broad energy sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts a new oil partnership with Venezuela, a modest positive for US energy companies with exposure like Chevron, with limited broader sector impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and could benefit from expanded oil partnership access announced by the President.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan oil supply is a minor incremental positive for US refiners but ambiguous net effect on broad energy sector.\", \"added\": false}], \"summary\": \"The President touts a new oil partnership with Venezuela, a modest positive for US energy companies with exposure like Chevron, with limited broader sector impact.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00930:oil_strong",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 930.4226056338028,
+   "t_wall": 1785512506.4226058,
+   "t_wall_et": "2026-07-31T11:41:46.422606-04:00",
+   "segment_text": "and we have a great relationship with Venezuela. We're working with partners with Venezuela now, taking out tens of millions of barrels of oil",
+   "context": "we want them to do we want them to move faster. We have the best equipment in the world, but we want them to move faster. We don't wanna wait a year or a year and 0.5. We wanna wait a week, maybe. So that's happening, I think the results are very good. They're all they're building, at levels that nobody's ever seen before. And, we've had tremendous success, and our military was just proud of it. Again, Venezuela was a 1 day war, and we have a great relationship with Venezuela. We're working with partners with Venezuela now, taking out tens of millions of barrels of oil",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "taking out tens of millions of barrels of oil",
+    "summary": "The President reports working with Venezuela partners on oil extraction operations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply reaching US refiners is a marginal supply increase, roughly neutral to slightly negative for energy sector pricing power.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New Venezuelan barrels flowing to US refineries adds to global oil supply, a mild negative for crude prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan oil supply reaching US refiners is a marginal supply increase, roughly neutral to slightly negative for energy sector pricing power.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New Venezuelan barrels flowing to US refineries adds to global oil supply, a mild negative for crude prices.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:00938:refiners",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refineries",
+   "text_span": "refineries",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [
+    "barrels",
+    "refineries"
+   ],
+   "t_audio": 938.1842928301887,
+   "t_wall": 1785512514.1842928,
+   "t_wall_et": "2026-07-31T11:41:54.184293-04:00",
+   "segment_text": "going to different places for refinement, refineries,",
+   "context": "So that's happening, I think the results are very good. They're all they're building, at levels that nobody's ever seen before. And, we've had tremendous success, and our military was just proud of it. Again, Venezuela was a 1 day war, and we have a great relationship with Venezuela. We're working with partners with Venezuela now, taking out tens of millions of barrels of oil and, going to Houston, going to Alaska, going to Louisiana, going to different places for refinement, refineries,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Refiners",
+    "tickers": [
+     "VLO",
+     "MPC",
+     "PSX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "taking out tens of millions of barrels of oil and going to Houston, going to Alaska, going to Louisiana, going to different places for refinement",
+    "summary": "The President states Venezuelan oil will be refined in US refineries across multiple states."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VLO",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan crude flowing to US Gulf Coast refiners could boost throughput and feedstock availability for Valero.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MPC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Additional Venezuelan crude imports for refining benefits Marathon's Gulf Coast refining operations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PSX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Phillips 66 stands to gain from increased Venezuelan crude supply for US refining as described.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark that Venezuelan oil is being routed to US refineries (Houston, Louisiana, Alaska) is mildly positive for domestic refiners with Gulf Coast exposure due to potential increased heavy crude feedstock access.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VLO\",\"direction\":\"up\",\"confidence\":0.58,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Increased Venezuelan crude flowing to US Gulf Coast refiners could boost throughput and feedstock availability for Valero.\",\"added\":false},{\"ticker\":\"MPC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Additional Venezuelan crude imports for refining benefits Marathon's Gulf Coast refining operations.\",\"added\":false},{\"ticker\":\"PSX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Phillips 66 stands to gain from increased Venezuelan crude supply for US refining as described.\",\"added\":false}],\"summary\":\"The President's remark that Venezuelan oil is being routed to US refineries (Houston, Louisiana, Alaska) is mildly positive for domestic refiners with Gulf Coast exposure due to potential increased heavy crude feedstock access.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:01144:defense_word",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fraud"
+   ],
+   "t_audio": 1144.403448275862,
+   "t_wall": 1785512720.4034483,
+   "t_wall_et": "2026-07-31T11:45:20.403448-04:00",
+   "segment_text": "And I wanna just talk, for the benefit of the American people about why do we care so much about this. Because what I always try to remind people is that fraud has 2 victims.",
+   "context": "of that. It's sometimes hard. Once the money has already gone out the door, it's hard to get it back, but stopping it from going out the door is how we save the American people. $56,000,000,000, and, of course, we're gonna keep on working on that. Just today, mister president, we will announce 17 new anti fraud actions that will total about 333333333.3333333333333333333rd dollars, and that and that's added to the 230,000,000,000 that we've already uncovered. And I wanna just talk, for the benefit of the American people about why do we care so much about this. Because what I always try to remind people is that fraud has 2 victims. So to give 1 concrete example, there is a program that is administered",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:01424:israel",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1424.652246963563,
+   "t_wall": 1785513000.652247,
+   "t_wall_et": "2026-07-31T11:50:00.652247-04:00",
+   "segment_text": "Go after it and call it by name, and I think we're building a very strong coalition there. We've had some such successes in The Middle East, mister president, as you know, in the diplomatic front. The deal with Lebanon and Israel is unprecedented.",
+   "context": "and we're a part of an effort where we were shedding light on far left terrorism and violence. You know, the bomb goes off somewhere and it's tied to some right wing group or what I got. I don't consider neo Nazis right wing. Consider them Nazis. Right? But you're gonna get a lot of attention on that. But if it's a leftist group, an Antifa group, they get no cover or they ignore the ideological spin and the ideological reason behind it. So we got 60 countries came up here and hopefully creating a strong coalition to go after far left violent terrorism. Go after it and call it by name, and I think we're building a very strong coalition there. We've had some such successes in The Middle East, mister president, as you know, in the diplomatic front. The deal with Lebanon and Israel is unprecedented. President Ayun was here a week ago. I think that was the 1st visit by a Lebanese president in over 30 some odd years. In fact, this is the 1st time the Israelis and the Lebanese government have spoken at the official level close to 30 years, and that was thanks to your leadership. A lot of work to be done to keep that peace and build on it, but it's a real achievable.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:01497:f",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1497.2400107692306,
+   "t_wall": 1785513073.2400107,
+   "t_wall_et": "2026-07-31T11:51:13.240011-04:00",
+   "segment_text": "The USS Ford, I think, was in their port. Our marines and and and",
+   "context": "20 years, the overwhelming majority of the countries in the Western Hemisphere are now led by pro American leaders and pro American governments. It's an extraordinary achievement. All of it happening through a virtually every election that's happened in the Western Hemisphere since you were elected president has elected someone who is pro American. And I I think this is an an incredible, situation. And last but not least, I have to thank a number of agencies here, particularly Department of War, after that terrible earthquake in Venezuela. Within 36 hours, the full force of the American government was on the ground providing humanitarian assistance. It was a sight to behold. The USS Ford, I think, was in their port. Our marines and and and armed service personnel were helping run their airport and their tower. It is 1 of the fastest, most dramatic, the most effective humanitarian",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:01590:defense_word",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1590.28,
+   "t_wall": 1785513166.28,
+   "t_wall_et": "2026-07-31T11:52:46.280000-04:00",
+   "segment_text": "2, it takes restoring a spirit, which you have done. And 3rd, it takes investment, and not just investment, but a generational investment. And I think people miss that.",
+   "context": "Well, thank you, mister president, for the for the invitation, the opportunity to be here. It's an honor for the war department to to help run this facility also from the from the food to defense line. It's it's an honor to have you, and it's it's great Americans here and all around the country and all around the world who are the core of what keep us safe. But in order to do that, you have to have a leader that's willing to put them in a position to do it. And that and that's my takeaway, mister president, is sort of 3 points. 1, it takes courage. 2, it takes restoring a spirit, which you have done. And 3rd, it takes investment, and not just investment, but a generational investment. And I think people miss that.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:01862:blockchain",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "blockchain",
+   "entity": "Blockchain / crypto industry",
+   "kind": "sector",
+   "alias": "digital assets",
+   "text_span": "digital assets",
+   "dict_tickers": [
+    "COIN",
+    "IBIT",
+    "MSTR",
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1862.8865969387755,
+   "t_wall": 1785513438.886597,
+   "t_wall_et": "2026-07-31T11:57:18.886597-04:00",
+   "segment_text": "It is the envy of the world. And as you said, we have record investment coming in. We've never seen anything like it, and we're pulling away from the rest of the world. They are because of your leadership, the policies that you did from day 1 in terms of digital assets, in terms of technology,",
+   "context": "the our founders of president of Washington, Thomas Jefferson, Alexander Hamilton could not have imagined the economy that we would have created. It is the envy of the world. And as you said, we have record investment coming in. We've never seen anything like it, and we're pulling away from the rest of the world. They are because of your leadership, the policies that you did from day 1 in terms of digital assets, in terms of technology, and bringing back that. So",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:01941:banks",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "banks",
+   "text_span": "banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1941.73499375,
+   "t_wall": 1785513517.7349937,
+   "t_wall_et": "2026-07-31T11:58:37.734994-04:00",
+   "segment_text": "small banks are linked, thanks to your policies. Small banks, community banks are lending again,",
+   "context": "promises made, promises kept, no tax on tips, no tax on overtime, no tax on Social Security, deductibility of auto loans if you buy an American made car. And the Americans are starting starting to feel it. Core inflation is low. Consumer confidence is strong. We have the highest consumer confidence came up today the in 5 months, and Main Street is back. Small small banks are linked, thanks to your policies. Small banks, community banks are lending again,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Banks",
+    "tickers": [
+     "XLF",
+     "KRE",
+     "JPM",
+     "BAC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Small banks, community banks are lending again",
+    "summary": "The President credits his policies for enabling small and community banks to resume lending."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "KRE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised small/community bank lending, mildly supportive for regional bank sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General positive rhetoric on banks and economy is mildly supportive for financial sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JPM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark targets small/community banks, not large money-center banks like JPM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BAC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark targets small/community banks, not large banks like BAC.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise for community banks resuming lending is mildly positive for regional bank sentiment (KRE, XLF) but largely irrelevant to large banks like JPM and BAC; this is general repeat rhetoric with limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"KRE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised small/community bank lending, mildly supportive for regional bank sentiment.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General positive rhetoric on banks and economy is mildly supportive for financial sector sentiment.\", \"added\": false}, {\"ticker\": \"JPM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark targets small/community banks, not large money-center banks like JPM.\", \"added\": false}, {\"ticker\": \"BAC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark targets small/community banks, not large banks like BAC.\", \"added\": false}], \"summary\": \"The President's praise for community banks resuming lending is mildly positive for regional bank sentiment (KRE, XLF) but largely irrelevant to large banks like JPM and BAC; this is general repeat rhetoric with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02049:defense_word",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2049.3831250000003,
+   "t_wall": 1785513625.383125,
+   "t_wall_et": "2026-07-31T12:00:25.383125-04:00",
+   "segment_text": "and these are private sector jobs we are creating. As you often say in these meetings, we could have created a 2,000,000",
+   "context": "This is a working families administration. The last in the past year, that group had had real way or had wage increases 5.5%. They're 3 times the what the top end has done. So you've you've done it again, and these are private sector jobs we are creating. As you often say in these meetings, we could have created a 2,000,000 government jobs, but we didn't. The private sector is creating. We've got incentives. We've got money coming in, and we are rebuilding.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02267:nvo",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "ozempic",
+   "text_span": "Ozempic",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 2267.53463125,
+   "t_wall": 1785513843.5346313,
+   "t_wall_et": "2026-07-31T12:04:03.534631-04:00",
+   "segment_text": "When you came into office, the list price for Ozempic was $1,350",
+   "context": "press corps at any president in The United States history. I was trying You know, federally. So, anyway, I'm gonna talk just briefly about a subject you alluded to, is the MFN. And so everybody has the background. Well, you were here to every president who promised to fix that disparity between what we pay and what the other developed countries have paid. When you came into office, the list price for Ozempic was $1,350",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Novo Nordisk",
+    "tickers": [
+     "NVO"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "list price for Ozempic was $1,350",
+    "summary": "Questioner cites Ozempic list price at office entry as context for drug pricing policy discussion."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued MFN drug pricing pressure highlighting Ozempic price disparity implies further downward pressure on US list prices and margins.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate MFN drug pricing policy citing Ozempic as example, reinforcing pressure on Novo Nordisk's US pricing power, a mild negative though largely already known.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVO\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued MFN drug pricing pressure highlighting Ozempic price disparity implies further downward pressure on US list prices and margins.\", \"added\": false}], \"summary\": \"The President's remarks reiterate MFN drug pricing policy citing Ozempic as example, reinforcing pressure on Novo Nordisk's US pricing power, a mild negative though largely already known.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02272:uk",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 2272.8405943661974,
+   "t_wall": 1785513848.8405943,
+   "t_wall_et": "2026-07-31T12:04:08.840594-04:00",
+   "segment_text": "You could get it at any pharmacy in London, Hamburg, Frankfurt for $88.",
+   "context": "gonna talk just briefly about a subject you alluded to, is the MFN. And so everybody has the background. Well, you were here to every president who promised to fix that disparity between what we pay and what the other developed countries have paid. When you came into office, the list price for Ozempic was $1,350 for Americans. You could get it at any pharmacy in London, Hamburg, Frankfurt for $88. And this every president, president Bush, president Biden,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02319:amzn",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 2319.4335135135134,
+   "t_wall": 1785513895.4335134,
+   "t_wall_et": "2026-07-31T12:04:55.433513-04:00",
+   "segment_text": "We now have 800 drugs on there. We have deals with Amazon and with GoodRx.",
+   "context": "Leave office, assuming that's in 2028, 95% of the drug that are available to Americans, they will be paying the lowest prices in the world. The President Rx, just in the short time that we since we cleared it out, has saved Americans $700,000,000. We now have 800 drugs on there. We have deals with Amazon and with GoodRx.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We have deals with Amazon and with GoodRx.",
+    "summary": "The President announced Amazon as a partner in the President Rx drug pricing program."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Being named as a partner in the President Rx drug pricing initiative adds a new pharmacy distribution channel and positive visibility for Amazon Pharmacy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark focuses on drug pricing reforms and name-checks Amazon as a partner in the President Rx program, a mildly positive signal for Amazon's pharmacy business but not a major market-moving disclosure.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Being named as a partner in the President Rx drug pricing initiative adds a new pharmacy distribution channel and positive visibility for Amazon Pharmacy.\", \"added\": false}], \"summary\": \"The President's remark focuses on drug pricing reforms and name-checks Amazon as a partner in the President Rx program, a mildly positive signal for Amazon's pharmacy business but not a major market-moving disclosure.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02347:pharma",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceuticals",
+   "text_span": "pharmaceuticals",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2347.996666666667,
+   "t_wall": 1785513923.9966667,
+   "t_wall_et": "2026-07-31T12:05:23.996667-04:00",
+   "segment_text": "on pharmaceuticals",
+   "context": "We now have 800 drugs on there. We have deals with Amazon and with GoodRx. We're adding more and more drugs every day, and I'll just give you 1 example. Praluent is a very popular cholesterol drug. Its list price is $522. That's what everybody is paying. We now have it on the President Rx for $237. That means that the 300,000 Americans who take that drug will be saving $3,700 a year on pharmaceuticals",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "300,000 Americans saving $3,700 a year on pharmaceuticals",
+    "summary": "The President criticizes high drug prices; promotes the President Rx discount program reducing costs."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued push to lower drug prices pressures healthcare sector margins broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF is directly exposed to the President's drug pricing crackdown rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued price-cutting narrative and the President Rx expansion is negative for branded drugmakers' pricing power.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad-based drug pricing pressure is mildly negative for large pharma like Lilly despite no direct mention.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same sector-wide pricing pressure applies to Merck.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing the President Rx price-cutting program and touts savings, a repeat but consistently negative narrative for pharma pricing power, weighing modestly on drugmakers and pharma ETFs while broader healthcare sector sentiment stays soft.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued push to lower drug prices pressures healthcare sector margins broadly.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-specific ETF is directly exposed to the President's drug pricing crackdown rhetoric.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued price-cutting narrative and the President Rx expansion is negative for branded drugmakers' pricing power.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad-based drug pricing pressure is mildly negative for large pharma like Lilly despite no direct mention.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same sector-wide pricing pressure applies to Merck.\", \"added\": false}], \"summary\": \"The President reiterates existing the President Rx price-cutting program and touts savings, a repeat but consistently negative narrative for pharma pricing power, weighing modestly on drugmakers and pharma ETFs while broader healthcare sector sentiment stays soft.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02446:israel",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2446.6041823899373,
+   "t_wall": 1785514022.6041825,
+   "t_wall_et": "2026-07-31T12:07:02.604182-04:00",
+   "segment_text": "if I didn't terminate that, they would have had a nuclear weapon. I believe Israel would no longer be with us in big parts of the Middle East and perhaps other",
+   "context": "Doesn't mean they don't have any capability. They have some, but very little. We just wanna win. We don't wanna have them. It's very simple. They cannot have a nuclear weapon. Iran will not have a nuclear weapon, and they can't have a nuclear weapon. If they did, the Middle East would have been wiped out by now. If I didn't stop the JCPOA, the Obama deal, if I didn't terminate that, they would have had a nuclear weapon. I believe Israel would no longer be with us in big parts of the Middle East and perhaps other",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Israel",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "Israel would no longer be with us in big parts of the Middle East",
+    "summary": "The President credits his JCPOA termination with preventing Iranian nuclear threat to Israel."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General geopolitical rhetoric about Israel and Iran conflict without new economic policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued military conflict rhetoric and 'hitting them very hard' supports sustained defense spending sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate hardline stance on Iran and reaffirm strong US-Israel alignment, mostly repeating known policy rather than announcing new market-moving actions; defense sector sentiment modestly supported by continued conflict rhetoric, while Israel-specific equities show no clear new catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EIS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General geopolitical rhetoric about Israel and Iran conflict without new economic policy specifics.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued military conflict rhetoric and 'hitting them very hard' supports sustained defense spending sentiment.\", \"added\": false}], \"summary\": \"The President's remarks reiterate hardline stance on Iran and reaffirm strong US-Israel alignment, mostly repeating known policy rather than announcing new market-moving actions; defense sector sentiment modestly supported by continued conflict rhetoric, while Israel-specific equities show no clear new catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02495:ups",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "ups",
+   "entity": "UPS",
+   "kind": "company",
+   "alias": "ups",
+   "text_span": "ups",
+   "dict_tickers": [
+    "UPS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2495.584385964912,
+   "t_wall": 1785514071.5843859,
+   "t_wall_et": "2026-07-31T12:07:51.584386-04:00",
+   "segment_text": "will it go through its ups and downs? It's a very complex",
+   "context": "So they cannot have a nuclear weapon, and they won't. Mister president, mister president expect over the next 4 weeks, he needs to you know, we'll be hitting we'll be hitting him very hard. And then, you know, at some point, they're gonna say we just can't take it anymore. Mister president, on the disarmament deal that you announced, do you have assurances from Israel that they are on board with this deal? And what comes 1st? Does Israel pull back and then Hamas disarms, or does Hamas need to disarm and then Israel disarm? We do have an understanding with Israel. Israel is very happy about it. Israel helped us, they've been very good. They've been very good about it. Most people said that would be a deal that would be undoable. Now will it go through its ups and downs? It's a very complex situation over there. The people are very complex and",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02833:ukraine",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "license"
+   ],
+   "t_audio": 2833.434375,
+   "t_wall": 1785514409.434375,
+   "t_wall_et": "2026-07-31T12:13:29.434375-04:00",
+   "segment_text": "But they'll fight onward. Mister president, on Ukraine, you said the other day that you're not sure about whether to grant Ukraine the Patriot missile license that have been discussed.",
+   "context": "ships. That was their entire navy, 1 59. Their entire navy is laying at the bottom of the sea. I say that's going big. They had 200 airplanes. They're all gone. Everyone. They're not 1 airplane. They had anti aircraft weaponry. They're very good, but it didn't work. And, it's all gone. Their radar is all gone. Their leaders are all gone. Everything's all gone. But they'll fight onward. Mister president, on Ukraine, you said the other day that you're not sure about whether to grant Ukraine the Patriot missile license that have been discussed.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02837:rtx",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "patriot missile",
+   "text_span": "Patriot missile",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "license"
+   ],
+   "t_audio": 2837.8893749999997,
+   "t_wall": 1785514413.889375,
+   "t_wall_et": "2026-07-31T12:13:33.889375-04:00",
+   "segment_text": "But they'll fight onward. Mister president, on Ukraine, you said the other day that you're not sure about whether to grant Ukraine the Patriot missile license that have been discussed.",
+   "context": "Their entire navy is laying at the bottom of the sea. I say that's going big. They had 200 airplanes. They're all gone. Everyone. They're not 1 airplane. They had anti aircraft weaponry. They're very good, but it didn't work. And, it's all gone. Their radar is all gone. Their leaders are all gone. Everything's all gone. But they'll fight onward. Mister president, on Ukraine, you said the other day that you're not sure about whether to grant Ukraine the Patriot missile license that have been discussed. Do you wanna see more from Zelenskyy before you take that action? Well, it's a big step. Look. We have the greatest weapons in the world.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02923:rtx",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawk",
+   "text_span": "Tomahawk",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2923.53804,
+   "t_wall": 1785514499.53804,
+   "t_wall_et": "2026-07-31T12:14:59.538040-04:00",
+   "segment_text": "now to make those at other the Tomahawk missile is the most incredible",
+   "context": "Bing bing bing bing. I don't wanna be binding. I was in 10/06. I had to be a great deal. That would've been that would've been a great sound bite. Right? 5 missiles, and we shot all 5 down before they got close. Nobody else has that capacity. These weapons are incredible. We have to be very careful about letting somebody build them. You know, it's very important now. We are building many plants now to make those at other the Tomahawk missile is the most incredible",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (Tomahawk missile)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "Tomahawk missile is the most incredible",
+    "summary": "The President praises Tomahawk missile capability and mentions building plants for similar weapons."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for Patriot/Tomahawk systems and mention of new missile plants is mildly positive but largely reiterates known defense priorities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Patriot and Tomahawk missile systems and plans to build more production capacity is a mild positive for RTX, though largely restates existing defense policy rhetoric.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for Patriot/Tomahawk systems and mention of new missile plants is mildly positive but largely reiterates known defense priorities.\", \"added\": false}], \"summary\": \"The President's praise of Patriot and Tomahawk missile systems and plans to build more production capacity is a mild positive for RTX, though largely restates existing defense policy rhetoric.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:02976:lmt",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "javelins",
+   "text_span": "javelins",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2976.6347305084746,
+   "t_wall": 1785514552.6347306,
+   "t_wall_et": "2026-07-31T12:15:52.634731-04:00",
+   "segment_text": "and he gave and so did I. I mean, I gave them the javelins,",
+   "context": "And I don't think this would ever happen, but, you know, those people that you give that technology, they can suddenly turn on you. You know, that is possible. If you look at war, it's happened a couple of times over the years. Right? So we have to be very careful. I mean, we we guard that. We have the greatest military in the world, but we have the greatest weapons in the world. Now we have to make them a little bit faster because we've given a lot away. You know, president Biden, unfortunately, gave a lot away to Ukraine, and he gave and so did I. I mean, I gave them the javelins,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lockheed Martin",
+    "tickers": [
+     "LMT"
+    ],
+    "stance": "neutral",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "I gave them the javelins",
+    "summary": "The President states he provided Javelin missiles to Ukraine during his presidency."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LMT",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates past Javelin transfers to Ukraine, a well-known fact with no new order or policy announced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is reflective commentary on past Javelin deliveries and weapons technology security, containing no new procurement, funding, or export decision, so it is unlikely to move LMT shares meaningfully relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LMT\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates past Javelin transfers to Ukraine, a well-known fact with no new order or policy announced.\", \"added\": false}], \"summary\": \"The remark is reflective commentary on past Javelin deliveries and weapons technology security, containing no new procurement, funding, or export decision, so it is unlikely to move LMT shares meaningfully relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:03008:nvda",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3008.78,
+   "t_wall": 1785514584.78,
+   "t_wall_et": "2026-07-31T12:16:24.780000-04:00",
+   "segment_text": "Nvidia.",
+   "context": "the tank busters. Without the javelins, that that war would have been a 1 day war. It would have been over. They wiped out the tanks going up to Kyiv where they got stuck in the mud. They had a general that decided to go through the mud instead of going up the highway where they were going very nicely. Would have been over. But, no. I gave them the javelins. The javelins are unbelievably we have the greatest weapons of the world. We have to be very careful about giving out the secrets to those weapons. And, they're not you you can't copy them. It's a little like, Nvidia.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "It's a little like, Nvidia.",
+    "summary": "The President compares weapon secrecy to Nvidia's non-copyable technology advantage."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President merely uses Nvidia's chip complexity as an analogy for weapons secrecy, not new policy or business news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The Nvidia mention is a passing rhetorical analogy with no new information about the company, policy, or business, so minimal price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President merely uses Nvidia's chip complexity as an analogy for weapons secrecy, not new policy or business news.\", \"added\": false}], \"summary\": \"The Nvidia mention is a passing rhetorical analogy with no new information about the company, policy, or business, so minimal price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:03131:iran",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3131.816354961832,
+   "t_wall": 1785514707.816355,
+   "t_wall_et": "2026-07-31T12:18:27.816355-04:00",
+   "segment_text": "And I'll say, why? What did they say about it? All they do is make me angry. You know? They just make me angry. Any other questions? Do believe that you can reach a deal with Iran given that you talked about Yes. You can. I mean, I'm I'm I'm losing faith in them",
+   "context": "and we'll be in there talking about nuclear for 7 hours. I say, why is it why do you need 7? You can take 10 minutes. You have 5 minutes. Mhmm. You should stop. But 7 hours and then they'll go out, and I'll say, they discussed nuclear. And they'll go out and they'll say, we never discussed nuclear. And I'll say, why? What did they say about it? All they do is make me angry. You know? They just make me angry. Any other questions? Do believe that you can reach a deal with Iran given that you talked about Yes. You can. I mean, I'm I'm I'm losing faith in them",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "I'm losing faith in them",
+    "summary": "The President expresses diminished confidence in reaching a deal with Iran."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Escalating Iran tensions and missile strikes raise geopolitical risk premium for oil.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Heightened Iran-related military conflict risk supports crude oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Continued Iran missile attacks and US base defense underscore sustained defense demand.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks highlight ongoing Iran hostilities and stalled nuclear talks, a mild positive for energy and defense-related equities due to elevated geopolitical risk, with no new concrete policy announced.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Escalating Iran tensions and missile strikes raise geopolitical risk premium for oil.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Heightened Iran-related military conflict risk supports crude oil prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Continued Iran missile attacks and US base defense underscore sustained defense demand.\", \"added\": false}], \"summary\": \"The President's remarks highlight ongoing Iran hostilities and stalled nuclear talks, a mild positive for energy and defense-related equities due to elevated geopolitical risk, with no new concrete policy announced.\"}"
+   }
+  },
+  {
+   "signal_id": "V6vuYip9SWo:03303:russia",
+   "video_id": "V6vuYip9SWo",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3303.157075912409,
+   "t_wall": 1785514879.157076,
+   "t_wall_et": "2026-07-31T12:21:19.157076-04:00",
+   "segment_text": "I said, you gotta get this war off with. I think he wants to make a deal, and I think Putin wants to make a deal. But there's a lot of dislike, as you probably noticed. But he seems very reluctant to make concessions, president Putin. Well, nobody wants to make concessions,",
+   "context": "So last month, they had 25,000 people. It's averaging about 25000 people a month die, mostly soldiers, almost entirely. But, you know, missiles are hitting areas also, but mostly soldiers. They had 25,000 soldiers. The month before that, it was 32,000 soldiers. I said, you gotta get this war off with. I think he wants to make a deal, and I think Putin wants to make a deal. But there's a lot of dislike, as you probably noticed. But he seems very reluctant to make concessions, president Putin. Well, nobody wants to make concessions,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Putin",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "I think Putin wants to make a deal. He seems very reluctant to make concessions.",
+    "summary": "The President states Putin wants to negotiate but is reluctant on concessions regarding the war."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restatement of ongoing Russia-Ukraine peace talk dynamics without new sanctions or deal details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on Iran strikes and Ukraine war are geopolitical color without new oil-supply-relevant policy details.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks are largely reiterations of known conflict dynamics (Iran, Ukraine, India-Pakistan) with no new sanctions, deal terms, or supply disruptions specified, so limited tradeable signal for RSX or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General restatement of ongoing Russia-Ukraine peace talk dynamics without new sanctions or deal details.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments on Iran strikes and Ukraine war are geopolitical color without new oil-supply-relevant policy details.\", \"added\": false}], \"summary\": \"Remarks are largely reiterations of known conflict dynamics (Iran, Ukraine, India-Pakistan) with no new sanctions, deal terms, or supply disruptions specified, so limited tradeable signal for RSX or XLE.\"}"
+   }
+  }
+ ]
+}

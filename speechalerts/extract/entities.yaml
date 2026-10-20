@@ -1,0 +1,1329 @@
+# Curated entity dictionary. Aliases are matched case-insensitively on whole words.
+# needs_context: true  -> only fires when a trigger word appears within the context window
+#                          (use for aliases that are also ordinary words or politically generic).
+# tickers: the US-listed instruments a trader would look at first. Keep lists short.
+
+triggers:
+  # policy / actions
+  - tariff
+  - tariffs
+  - tariffed
+  - sanction
+  - sanctions
+  - ban
+  - banned
+  - banning
+  - executive order
+  - subsidy
+  - subsidies
+  - subsidize
+  - golden share
+  - stake
+  - equity
+  - nationalize
+  - break up
+  - breaking up
+  - antitrust
+  - monopoly
+  - price cap
+  - price caps
+  - most favored nation
+  - exempt
+  - exemption
+  - export
+  - exports
+  - export controls
+  - import
+  - imports
+  - license
+  - licenses
+  - approve
+  - approved
+  - approval
+  - block
+  - blocked
+  - merger
+  - acquisition
+  - takeover
+  - contract
+  - contracts
+  - drill
+  - drilling
+  - regulation
+  - deregulate
+  - deregulation
+  # money / business
+  - invest
+  - investing
+  - investment
+  - investments
+  - billion
+  - trillion
+  - million
+  - percent
+  - deal
+  - deals
+  - plant
+  - plants
+  - factory
+  - factories
+  - jobs
+  - stock
+  - stocks
+  - shares
+  - market
+  - markets
+  - buy
+  - buying
+  - sell
+  - selling
+  - price
+  - prices
+  - cheaper
+  - expensive
+  # sentiment
+  - great company
+  - greatest company
+  - tremendous
+  - terrible
+  - disgrace
+  - disgraceful
+  - fraud
+  - fake
+  - corrupt
+  - fired
+  - fire
+  - resign
+  - should resign
+  - boycott
+  - lawsuit
+  - sue
+  - suing
+  - defamation
+  - settlement
+  - settled
+  - cancelled
+  - canceled
+  - ratings
+  - fcc
+  # procurement / partnerships
+  - ordered
+  - procure
+  - procurement
+  - bought
+  - purchase
+  - purchased
+  - partnership
+  - partner
+  - barrels
+  - refineries
+  - refinery
+
+entities:
+  # ---------------- Tech / semiconductors ----------------
+  - id: aapl
+    name: Apple
+    kind: company
+    tickers: [AAPL]
+    aliases: [apple, tim cook, iphone, iphones]
+  - id: nvda
+    name: Nvidia
+    kind: company
+    tickers: [NVDA]
+    aliases: [nvidia, jensen huang, h20, blackwell, nvidia chips]
+  - id: nvda_word
+    name: Nvidia
+    kind: company
+    tickers: [NVDA]
+    aliases: [jensen]
+    needs_context: true
+  - id: intc
+    name: Intel
+    kind: company
+    tickers: [INTC]
+    aliases: [intel, lip-bu tan, lip bu tan]
+  - id: amd
+    name: AMD
+    kind: company
+    tickers: [AMD]
+    aliases: [advanced micro devices, lisa su]
+  - id: amd_word
+    name: AMD
+    kind: company
+    tickers: [AMD]
+    aliases: [amd]
+    needs_context: true
+  - id: tsm
+    name: TSMC
+    kind: company
+    tickers: [TSM]
+    aliases: [tsmc, taiwan semiconductor, taiwan semi]
+  - id: mu
+    name: Micron
+    kind: company
+    tickers: [MU]
+    aliases: [micron]
+  - id: qcom
+    name: Qualcomm
+    kind: company
+    tickers: [QCOM]
+    aliases: [qualcomm]
+  - id: avgo
+    name: Broadcom
+    kind: company
+    tickers: [AVGO]
+    aliases: [broadcom]
+  - id: msft
+    name: Microsoft
+    kind: company
+    tickers: [MSFT]
+    aliases: [microsoft, satya nadella, bill gates]
+  - id: googl
+    name: Google
+    kind: company
+    tickers: [GOOGL]
+    aliases: [google, alphabet, youtube, sundar pichai]
+  - id: amzn
+    name: Amazon
+    kind: company
+    tickers: [AMZN]
+    aliases: [amazon, jeff bezos, aws]
+  - id: amzn_word
+    name: Amazon
+    kind: company
+    tickers: [AMZN]
+    aliases: [bezos]
+    needs_context: true
+  - id: meta
+    name: Meta
+    kind: company
+    tickers: [META]
+    aliases: [facebook, instagram, mark zuckerberg, zuckerberg]
+  - id: meta_word
+    name: Meta
+    kind: company
+    tickers: [META]
+    aliases: [meta]
+    needs_context: true
+  - id: tsla
+    name: Tesla
+    kind: company
+    tickers: [TSLA]
+    aliases: [tesla, elon musk, cybertruck, xai, grok]
+    notes: xAI/Grok are private; TSLA is the sentiment proxy (same pattern as SpaceX)
+  - id: tsla_word
+    name: Tesla
+    kind: company
+    tickers: [TSLA]
+    aliases: [elon, musk]
+    needs_context: true
+  - id: spacex
+    name: SpaceX
+    kind: company
+    tickers: []
+    aliases: [spacex, starlink]
+    notes: private; watch TSLA sentiment, RKLB
+  - id: orcl
+    name: Oracle
+    kind: company
+    tickers: [ORCL]
+    aliases: [oracle, larry ellison]
+  - id: orcl_word
+    name: Oracle
+    kind: company
+    tickers: [ORCL]
+    aliases: [ellison]
+    needs_context: true
+  - id: sftby
+    name: SoftBank
+    kind: company
+    tickers: [SFTBY]
+    aliases: [softbank, masayoshi son, masa son]
+  - id: sftby_word
+    name: SoftBank
+    kind: company
+    tickers: [SFTBY]
+    aliases: [masa]
+    needs_context: true
+  - id: stargate
+    name: Stargate AI project
+    kind: company
+    tickers: [ORCL, SFTBY, NVDA]
+    aliases: [stargate]
+  - id: openai
+    name: OpenAI
+    kind: company
+    tickers: [MSFT]
+    aliases: [openai, open ai, sam altman, chatgpt, chat gpt]
+  - id: pltr
+    name: Palantir
+    kind: company
+    tickers: [PLTR]
+    aliases: [palantir, alex karp]
+  - id: ibm
+    name: IBM
+    kind: company
+    tickers: [IBM]
+    aliases: [ibm]
+    needs_context: true
+  - id: crm
+    name: Salesforce
+    kind: company
+    tickers: [CRM]
+    aliases: [salesforce, marc benioff]
+  - id: dell
+    name: Dell
+    kind: company
+    tickers: [DELL]
+    aliases: [michael dell, dell technologies]
+  - id: dell_word
+    name: Dell
+    kind: company
+    tickers: [DELL]
+    aliases: [dell]
+    needs_context: true
+  - id: hpq
+    name: HP
+    kind: company
+    tickers: [HPQ]
+    aliases: [hewlett packard, hewlett-packard]
+  - id: csco
+    name: Cisco
+    kind: company
+    tickers: [CSCO]
+    aliases: [cisco]
+  - id: tiktok
+    name: TikTok
+    kind: company
+    tickers: [ORCL]
+    aliases: [tiktok, tik tok, bytedance]
+  - id: samsung
+    name: Samsung
+    kind: company
+    tickers: [SSNLF]
+    aliases: [samsung]
+  - id: coin
+    name: Coinbase
+    kind: company
+    tickers: [COIN]
+    aliases: [coinbase]
+  - id: mstr
+    name: Strategy (MicroStrategy)
+    kind: company
+    tickers: [MSTR]
+    aliases: [microstrategy, michael saylor, saylor]
+  - id: hood
+    name: Robinhood
+    kind: company
+    tickers: [HOOD]
+    aliases: [robinhood, robin hood, vlad tenev, tenev]
+  - id: kraken
+    name: Kraken
+    kind: company
+    tickers: [COIN]
+    aliases: [kraken, arjun sethi]
+    notes: private exchange; COIN is the listed proxy
+  - id: gemi
+    name: Gemini
+    kind: company
+    tickers: [GEMI]
+    aliases: [gemini exchange, winklevoss, winklevoss twins, tyler winklevoss, cameron winklevoss]
+  - id: gemi_word
+    name: Gemini
+    kind: company
+    tickers: [GEMI]
+    aliases: [gemini]
+    needs_context: true
+  - id: crcl
+    name: Circle
+    kind: company
+    tickers: [CRCL]
+    aliases: [circle internet, jeremy allaire, usdc]
+  - id: crcl_word
+    name: Circle
+    kind: company
+    tickers: [CRCL]
+    aliases: [circle]
+    needs_context: true
+  - id: ripple
+    name: Ripple
+    kind: company
+    tickers: [COIN]
+    aliases: [ripple, xrp, brad garlinghouse, garlinghouse]
+  - id: tether
+    name: Tether
+    kind: company
+    tickers: [CRCL, COIN]
+    aliases: [tether, usdt, paolo ardoino]
+  - id: ice
+    name: Intercontinental Exchange (NYSE)
+    kind: company
+    tickers: [ICE]
+    aliases: [intercontinental exchange, jeff sprecher, sprecher, new york stock exchange, nyse]
+  - id: ndaq
+    name: Nasdaq
+    kind: company
+    tickers: [NDAQ]
+    aliases: [nasdaq, adena friedman]
+  - id: cme
+    name: CME Group
+    kind: company
+    tickers: [CME]
+    aliases: [cme group, chicago mercantile]
+  - id: stablecoins
+    name: Stablecoins
+    kind: sector
+    tickers: [CRCL, COIN]
+    aliases: [stablecoin, stablecoins, genius act]
+  - id: blockchain
+    name: Blockchain / crypto industry
+    kind: sector
+    tickers: [COIN, IBIT, MSTR, HOOD]
+    aliases: [blockchain, digital assets, crypto industry, crypto companies, crypto capital of the world, tokenization, tokenized]
+  - id: prediction_markets
+    name: Prediction markets
+    kind: sector
+    tickers: [HOOD]
+    aliases: [prediction markets, prediction market, kalshi, polymarket]
+  - id: wlfi
+    name: World Liberty Financial
+    kind: company
+    tickers: []
+    aliases: [world liberty, world liberty financial]
+    notes: private token issuer; no listed proxy
+  - id: uber
+    name: Uber
+    kind: company
+    tickers: [UBER]
+    aliases: [uber]
+  - id: nflx
+    name: Netflix
+    kind: company
+    tickers: [NFLX]
+    aliases: [netflix]
+
+  # ---------------- Autos ----------------
+  - id: gm
+    name: General Motors
+    kind: company
+    tickers: [GM]
+    aliases: [general motors, mary barra, chevrolet, chevy, cadillac]
+  - id: gm_short
+    name: General Motors
+    kind: company
+    tickers: [GM]
+    aliases: [gm]
+    needs_context: true
+  - id: f
+    name: Ford
+    kind: company
+    tickers: [F]
+    aliases: [ford, ford motor, jim farley]
+  - id: stla
+    name: Stellantis
+    kind: company
+    tickers: [STLA]
+    aliases: [stellantis, chrysler, ram trucks]
+  - id: stla_word
+    name: Stellantis
+    kind: company
+    tickers: [STLA]
+    aliases: [jeep, dodge]
+    needs_context: true
+  - id: tm
+    name: Toyota
+    kind: company
+    tickers: [TM]
+    aliases: [toyota]
+  - id: hmc
+    name: Honda
+    kind: company
+    tickers: [HMC]
+    aliases: [honda]
+  - id: hyundai
+    name: Hyundai
+    kind: company
+    tickers: [HYMTF]
+    aliases: [hyundai, kia]
+  - id: vw
+    name: Volkswagen
+    kind: company
+    tickers: [VWAGY]
+    aliases: [volkswagen, vw, audi, porsche]
+  - id: bmw
+    name: BMW
+    kind: company
+    tickers: [BMWYY]
+    aliases: [bmw]
+  - id: mbg
+    name: Mercedes-Benz
+    kind: company
+    tickers: [MBGYY]
+    aliases: [mercedes, mercedes-benz, mercedes benz]
+  - id: hog
+    name: Harley-Davidson
+    kind: company
+    tickers: [HOG]
+    aliases: [harley-davidson, harley davidson]
+  - id: hog_word
+    name: Harley-Davidson
+    kind: company
+    tickers: [HOG]
+    aliases: [harley]
+    needs_context: true
+  - id: rivn
+    name: Rivian
+    kind: company
+    tickers: [RIVN]
+    aliases: [rivian]
+
+  # ---------------- Industrials / defense / aerospace ----------------
+  - id: ba
+    name: Boeing
+    kind: company
+    tickers: [BA]
+    aliases: [boeing, air force one, kelly ortberg, f-47, f 47, f47, qatar jet, boeing jet]
+  - id: ba_word
+    name: Boeing
+    kind: company
+    tickers: [BA]
+    aliases: ["747", "747s"]
+    needs_context: true
+  - id: lmt
+    name: Lockheed Martin
+    kind: company
+    tickers: [LMT]
+    aliases: [lockheed, lockheed martin, f-35, f35, f 35, f-35s, f35s, f 35s, himars, thaad, javelin, javelins]
+  - id: rtx
+    name: RTX (Raytheon)
+    kind: company
+    tickers: [RTX]
+    aliases: [raytheon, patriot missiles, patriot missile, patriot batteries, patriot battery, tomahawk, tomahawks]
+  - id: rtx_word
+    name: RTX (Raytheon)
+    kind: company
+    tickers: [RTX]
+    aliases: [rtx, patriot, patriots, interceptor, interceptors]
+    needs_context: true
+  - id: noc
+    name: Northrop Grumman
+    kind: company
+    tickers: [NOC]
+    aliases: [northrop, northrop grumman, b-21, b21, b 21, b-2, b2, b 2, b-2 bombers, b2 bombers, b 2 bombers, b-2 bomber, stealth bomber, stealth bombers]
+  - id: gd
+    name: General Dynamics
+    kind: company
+    tickers: [GD]
+    aliases: [general dynamics]
+  - id: navy
+    name: Shipbuilders (Navy)
+    kind: sector
+    tickers: [HII, GD, BWXT]
+    aliases: [submarines, submarine, destroyers, destroyer, aircraft carriers, aircraft carrier]
+    needs_context: true
+  - id: hii
+    name: Huntington Ingalls
+    kind: company
+    tickers: [HII]
+    aliases: [huntington ingalls]
+  - id: anduril
+    name: Anduril
+    kind: company
+    tickers: [PLTR]
+    aliases: [anduril, palmer luckey]
+    notes: private; PLTR is the closest listed proxy
+  - id: cat
+    name: Caterpillar
+    kind: company
+    tickers: [CAT]
+    aliases: [caterpillar]
+  - id: de
+    name: John Deere
+    kind: company
+    tickers: [DE]
+    aliases: [john deere]
+  - id: de_word
+    name: John Deere
+    kind: company
+    tickers: [DE]
+    aliases: [deere]
+    needs_context: true
+  - id: ge
+    name: GE Aerospace
+    kind: company
+    tickers: [GE]
+    aliases: [general electric, ge aerospace]
+  - id: ge_short
+    name: GE
+    kind: company
+    tickers: [GE]
+    aliases: [ge]
+    needs_context: true
+  - id: airbus
+    name: Airbus
+    kind: company
+    tickers: [EADSY]
+    aliases: [airbus]
+  - id: ups
+    name: UPS
+    kind: company
+    tickers: [UPS]
+    aliases: [ups, united parcel]
+    needs_context: true
+  - id: fdx
+    name: FedEx
+    kind: company
+    tickers: [FDX]
+    aliases: [fedex, fed ex]
+  - id: usps
+    name: US Postal Service
+    kind: company
+    tickers: []
+    aliases: [postal service, post office, usps]
+    needs_context: true
+
+  # ---------------- Steel / metals / materials ----------------
+  - id: x
+    name: U.S. Steel
+    kind: company
+    tickers: [X, NUE, CLF, STLD]
+    aliases: [us steel, u.s. steel, united states steel, nippon steel, nippon]
+  - id: nue
+    name: Nucor
+    kind: company
+    tickers: [NUE]
+    aliases: [nucor]
+  - id: clf
+    name: Cleveland-Cliffs
+    kind: company
+    tickers: [CLF]
+    aliases: [cleveland-cliffs, cleveland cliffs]
+  - id: aa
+    name: Alcoa
+    kind: company
+    tickers: [AA]
+    aliases: [alcoa]
+  - id: fcx
+    name: Freeport-McMoRan
+    kind: company
+    tickers: [FCX]
+    aliases: [freeport, freeport-mcmoran]
+  - id: mp
+    name: MP Materials
+    kind: company
+    tickers: [MP]
+    aliases: [mp materials, mountain pass]
+
+  # ---------------- Energy ----------------
+  - id: xom
+    name: ExxonMobil
+    kind: company
+    tickers: [XOM]
+    aliases: [exxon, exxonmobil, exxon mobil]
+  - id: cvx
+    name: Chevron
+    kind: company
+    tickers: [CVX]
+    aliases: [chevron]
+  - id: oxy
+    name: Occidental
+    kind: company
+    tickers: [OXY]
+    aliases: [occidental]
+  - id: cop
+    name: ConocoPhillips
+    kind: company
+    tickers: [COP]
+    aliases: [conoco, conocophillips]
+  - id: shel
+    name: Shell
+    kind: company
+    tickers: [SHEL]
+    aliases: [shell oil, royal dutch shell]
+  - id: bp
+    name: BP
+    kind: company
+    tickers: [BP]
+    aliases: [british petroleum]
+  - id: lng
+    name: Cheniere
+    kind: company
+    tickers: [LNG]
+    aliases: [cheniere]
+  - id: vst
+    name: Vistra
+    kind: company
+    tickers: [VST]
+    aliases: [vistra]
+  - id: ceg
+    name: Constellation Energy
+    kind: company
+    tickers: [CEG]
+    aliases: [constellation energy, three mile island]
+  - id: oklo
+    name: Oklo
+    kind: company
+    tickers: [OKLO]
+    aliases: [oklo]
+  - id: smr
+    name: NuScale
+    kind: company
+    tickers: [SMR]
+    aliases: [nuscale]
+
+  # ---------------- Pharma / health ----------------
+  - id: pfe
+    name: Pfizer
+    kind: company
+    tickers: [PFE]
+    aliases: [pfizer, albert bourla]
+  - id: lly
+    name: Eli Lilly
+    kind: company
+    tickers: [LLY]
+    aliases: [eli lilly, mounjaro, zepbound]
+  - id: lly_word
+    name: Eli Lilly
+    kind: company
+    tickers: [LLY]
+    aliases: [lilly]
+    needs_context: true
+  - id: nvo
+    name: Novo Nordisk
+    kind: company
+    tickers: [NVO]
+    aliases: [novo nordisk, ozempic, wegovy]
+  - id: jnj
+    name: Johnson & Johnson
+    kind: company
+    tickers: [JNJ]
+    aliases: [johnson & johnson, johnson and johnson, j&j]
+  - id: mrk
+    name: Merck
+    kind: company
+    tickers: [MRK]
+    aliases: [merck]
+  - id: mrna
+    name: Moderna
+    kind: company
+    tickers: [MRNA]
+    aliases: [moderna]
+  - id: abbv
+    name: AbbVie
+    kind: company
+    tickers: [ABBV]
+    aliases: [abbvie]
+  - id: azn
+    name: AstraZeneca
+    kind: company
+    tickers: [AZN]
+    aliases: [astrazeneca, astra zeneca]
+  - id: unh
+    name: UnitedHealth
+    kind: company
+    tickers: [UNH]
+    aliases: [unitedhealth, united health, unitedhealthcare]
+  - id: cvs
+    name: CVS
+    kind: company
+    tickers: [CVS]
+    aliases: [cvs]
+  - id: ci
+    name: Cigna
+    kind: company
+    tickers: [CI]
+    aliases: [cigna]
+
+  # ---------------- Finance ----------------
+  - id: jpm
+    name: JPMorgan
+    kind: company
+    tickers: [JPM]
+    aliases: [jpmorgan, jp morgan, jamie dimon, dimon, chase bank]
+  - id: gs
+    name: Goldman Sachs
+    kind: company
+    tickers: [GS]
+    aliases: [goldman, goldman sachs]
+  - id: bac
+    name: Bank of America
+    kind: company
+    tickers: [BAC]
+    aliases: [bank of america]
+  - id: wfc
+    name: Wells Fargo
+    kind: company
+    tickers: [WFC]
+    aliases: [wells fargo]
+  - id: c
+    name: Citigroup
+    kind: company
+    tickers: [C]
+    aliases: [citigroup, citibank]
+  - id: ms
+    name: Morgan Stanley
+    kind: company
+    tickers: [MS]
+    aliases: [morgan stanley]
+  - id: brk
+    name: Berkshire Hathaway
+    kind: company
+    tickers: [BRK.B]
+    aliases: [berkshire, berkshire hathaway, warren buffett, buffett]
+  - id: blk
+    name: BlackRock
+    kind: company
+    tickers: [BLK]
+    aliases: [blackrock, larry fink]
+  - id: v
+    name: Visa
+    kind: company
+    tickers: [V]
+    aliases: [visa inc]
+  - id: v_word
+    name: Visa
+    kind: company
+    tickers: [V]
+    aliases: [visa]
+    needs_context: true
+  - id: ma
+    name: Mastercard
+    kind: company
+    tickers: [MA]
+    aliases: [mastercard]
+  - id: fed
+    name: Federal Reserve
+    kind: asset
+    tickers: [TLT, XLF, KRE]
+    aliases: [federal reserve, the fed, jerome powell, jay powell, powell, too late powell, interest rates, interest rate, rate cut, rate cuts, rate hike, cut rates, lower rates, lower the rates, rates down, fed chair, fed chairman, lisa cook, kevin warsh, warsh, kevin hassett, hassett]
+
+  # ---------------- Retail / consumer ----------------
+  - id: wmt
+    name: Walmart
+    kind: company
+    tickers: [WMT]
+    aliases: [walmart, wal-mart]
+  - id: cost
+    name: Costco
+    kind: company
+    tickers: [COST]
+    aliases: [costco]
+  - id: tgt
+    name: Target
+    kind: company
+    tickers: [TGT]
+    aliases: [target]
+    needs_context: true
+  - id: hd
+    name: Home Depot
+    kind: company
+    tickers: [HD]
+    aliases: [home depot]
+  - id: mcd
+    name: McDonald's
+    kind: company
+    tickers: [MCD]
+    aliases: [mcdonald's, mcdonalds]
+  - id: ko
+    name: Coca-Cola
+    kind: company
+    tickers: [KO]
+    aliases: [coca-cola, coca cola]
+  - id: ko_word
+    name: Coca-Cola
+    kind: company
+    tickers: [KO]
+    aliases: [coke]
+    needs_context: true
+  - id: pep
+    name: PepsiCo
+    kind: company
+    tickers: [PEP]
+    aliases: [pepsi, pepsico]
+  - id: nke
+    name: Nike
+    kind: company
+    tickers: [NKE]
+    aliases: [nike]
+  - id: sbux
+    name: Starbucks
+    kind: company
+    tickers: [SBUX]
+    aliases: [starbucks]
+  - id: bud
+    name: Anheuser-Busch
+    kind: company
+    tickers: [BUD]
+    aliases: [anheuser-busch, anheuser busch, bud light, budweiser]
+  - id: mat
+    name: Mattel
+    kind: company
+    tickers: [MAT]
+    aliases: [mattel, barbie]
+  - id: cbrl
+    name: Cracker Barrel
+    kind: company
+    tickers: [CBRL]
+    aliases: [cracker barrel]
+  - id: aeo
+    name: American Eagle
+    kind: company
+    tickers: [AEO]
+    aliases: [american eagle]
+  - id: kvue
+    name: Kenvue (Tylenol)
+    kind: company
+    tickers: [KVUE]
+    aliases: [tylenol, kenvue]
+
+  # ---------------- Media ----------------
+  - id: cmcsa
+    name: Comcast (NBC, MSNBC)
+    kind: company
+    tickers: [CMCSA]
+    aliases: [comcast, brian roberts]
+  - id: cmcsa_outlet
+    name: Comcast (NBC, MSNBC)
+    kind: company
+    tickers: [CMCSA]
+    aliases: [nbc, msnbc, nbc news]
+    needs_context: true
+  - id: para
+    name: Paramount (CBS)
+    kind: company
+    tickers: [PSKY]
+    aliases: [paramount, skydance, paramount skydance, david ellison, colbert]
+  - id: para_outlet
+    name: Paramount (CBS)
+    kind: company
+    tickers: [PSKY]
+    aliases: [cbs, cbs news, 60 minutes, sixty minutes]
+    needs_context: true
+  - id: wbd
+    name: Warner Bros. Discovery (CNN)
+    kind: company
+    tickers: [WBD]
+    aliases: [warner bros, warner brothers]
+  - id: wbd_outlet
+    name: Warner Bros. Discovery (CNN)
+    kind: company
+    tickers: [WBD]
+    aliases: [cnn]
+    needs_context: true
+  - id: dis
+    name: Disney (ABC)
+    kind: company
+    tickers: [DIS]
+    aliases: [disney, espn]
+  - id: dis_abc
+    name: Disney (ABC)
+    kind: company
+    tickers: [DIS]
+    aliases: [abc, abc news, kimmel, jimmy kimmel]
+    needs_context: true
+  - id: nxst
+    name: Nexstar
+    kind: company
+    tickers: [NXST]
+    aliases: [nexstar]
+  - id: sbgi
+    name: Sinclair
+    kind: company
+    tickers: [SBGI]
+    aliases: [sinclair, sinclair broadcast]
+  - id: foxa
+    name: Fox Corporation
+    kind: company
+    tickers: [FOXA]
+    aliases: [fox corporation, rupert murdoch, murdoch, lachlan murdoch]
+  - id: foxa_outlet
+    name: Fox Corporation
+    kind: company
+    tickers: [FOXA]
+    aliases: [fox news, fox]
+    needs_context: true
+  - id: nyt
+    name: New York Times
+    kind: company
+    tickers: [NYT]
+    aliases: [failing new york times]
+  - id: nyt_outlet
+    name: New York Times
+    kind: company
+    tickers: [NYT]
+    aliases: [new york times, the times]
+    needs_context: true
+  - id: wapo
+    name: Washington Post (Amazon)
+    kind: company
+    tickers: [AMZN]
+    aliases: [washington post]
+    needs_context: true
+
+  # ---------------- Airlines / travel ----------------
+  - id: dal
+    name: Delta Air Lines
+    kind: company
+    tickers: [DAL]
+    aliases: [delta airlines, delta air lines]
+  - id: ual
+    name: United Airlines
+    kind: company
+    tickers: [UAL]
+    aliases: [united airlines]
+  - id: aal
+    name: American Airlines
+    kind: company
+    tickers: [AAL]
+    aliases: [american airlines]
+
+  # ---------------- Crypto / commodities ----------------
+  - id: btc
+    name: Bitcoin
+    kind: asset
+    tickers: [IBIT, COIN, MSTR]
+    aliases: [bitcoin, crypto, cryptocurrency, cryptocurrencies, strategic bitcoin reserve]
+  - id: eth
+    name: Ethereum
+    kind: asset
+    tickers: [ETHA, COIN]
+    aliases: [ethereum, ether]
+  - id: stock_market
+    name: Stock market
+    kind: asset
+    tickers: [SPY, QQQ, DIA]
+    aliases: [stock market, the dow, dow jones, s&p, s and p, s&p 500, 401k, 401 k, 401ks, all-time high, all time high, record high, record highs]
+  - id: gold
+    name: Gold
+    kind: asset
+    tickers: [GLD]
+    aliases: [gold prices, gold price, fort knox]
+  - id: oil
+    name: Oil
+    kind: sector
+    tickers: [XLE, USO, XOM, CVX]
+    aliases: [oil, oil prices, gas prices, gasoline, drill baby drill, opec, crude]
+    needs_context: true
+  - id: oil_strong
+    name: Oil
+    kind: sector
+    tickers: [XLE, USO]
+    aliases: [oil prices, oil price, gas prices, drill baby drill, opec, crude oil, barrel of oil, barrels of oil, oil production, oil reserves]
+  - id: refiners
+    name: Refiners
+    kind: sector
+    tickers: [VLO, MPC, PSX]
+    aliases: [refineries, refinery, refiners]
+  - id: natgas
+    name: Natural gas / LNG
+    kind: sector
+    tickers: [UNG, LNG, EQT]
+    aliases: [natural gas, lng, liquefied natural gas]
+  - id: coal
+    name: Coal
+    kind: sector
+    tickers: [BTU, ARCH, AMR]
+    aliases: [clean coal, beautiful clean coal, coal miners, coal plants, coal plant, coal industry, coal mining]
+  - id: coal_word
+    name: Coal
+    kind: sector
+    tickers: [BTU, ARCH, AMR]
+    aliases: [coal]
+    needs_context: true
+  - id: nuclear
+    name: Nuclear energy
+    kind: sector
+    tickers: [URA, CCJ, OKLO, SMR, CEG]
+    aliases: [nuclear energy, nuclear power, nuclear plants, nuclear reactors, uranium]
+  - id: solar
+    name: Solar / wind
+    kind: sector
+    tickers: [TAN, ICLN, FSLR, ENPH]
+    aliases: [solar, solar panels, windmills, wind turbines, wind farms, green new deal, green new scam]
+  - id: copper
+    name: Copper
+    kind: asset
+    tickers: [COPX, FCX, SCCO]
+    aliases: [copper]
+  - id: lumber
+    name: Lumber
+    kind: sector
+    tickers: [WOOD, WY]
+    aliases: [lumber, timber, softwood]
+  - id: rare_earth
+    name: Rare earths
+    kind: sector
+    tickers: [MP, REMX]
+    aliases: [rare earth, rare earths, rare earth minerals, critical minerals]
+
+  # ---------------- Sectors ----------------
+  - id: chips
+    name: Semiconductors
+    kind: sector
+    tickers: [SMH, SOXX, NVDA, INTC]
+    aliases: [semiconductor, semiconductors, chips, chip makers, chipmakers, chip industry, microchips, the chip business]
+  - id: chips_word
+    name: Semiconductors
+    kind: sector
+    tickers: [SMH, SOXX]
+    aliases: [chip]
+    needs_context: true
+  - id: ai
+    name: Artificial intelligence / data centers
+    kind: sector
+    tickers: [NVDA, SMH, MSFT, VRT]
+    aliases: [artificial intelligence, data center, data centers, ai race, ai infrastructure]
+  - id: ai_word
+    name: Artificial intelligence
+    kind: sector
+    tickers: [NVDA, SMH]
+    aliases: [ai]
+    needs_context: true
+  - id: pharma
+    name: Pharmaceuticals
+    kind: sector
+    tickers: [XLV, XPH, PFE, LLY, MRK]
+    aliases: [pharma, pharmaceutical, pharmaceuticals, drug companies, drug prices, prescription drugs, drug makers, big pharma, drug pricing]
+  - id: vaccines
+    name: Vaccine makers
+    kind: sector
+    tickers: [PFE, MRNA, NVAX]
+    aliases: [vaccine, vaccines, mrna vaccines, covid vaccine]
+  - id: health_ins
+    name: Health insurers
+    kind: sector
+    tickers: [UNH, CI, ELV, HUM]
+    aliases: [health insurers, health insurance companies, insurance companies, obamacare, affordable care act, medicare advantage, medicaid, medicare]
+  - id: steel
+    name: Steel
+    kind: sector
+    tickers: [X, NUE, CLF, STLD, SLX]
+    aliases: [steel, steel industry, steel workers, steelworkers, steel tariffs]
+  - id: aluminum
+    name: Aluminum
+    kind: sector
+    tickers: [AA, CENX]
+    aliases: [aluminum, aluminium]
+  - id: autos
+    name: Automakers
+    kind: sector
+    tickers: [GM, F, STLA, TSLA, CARZ]
+    aliases: [automakers, auto makers, car companies, car makers, carmakers, auto industry, automobile industry, auto tariffs, car tariffs, foreign cars, auto workers, autoworkers, uaw]
+  - id: evs
+    name: Electric vehicles
+    kind: sector
+    tickers: [TSLA, RIVN, GM]
+    aliases: [electric vehicles, electric vehicle, ev mandate, evs, electric cars]
+  - id: trucks
+    name: Heavy trucks
+    kind: sector
+    tickers: [PCAR]
+    aliases: [heavy trucks, big trucks, truck tariffs, heavy duty trucks]
+  - id: furniture
+    name: Furniture / home goods
+    kind: sector
+    tickers: [WSM, RH, LZB]
+    aliases: [furniture, kitchen cabinets, bathroom vanities]
+    needs_context: true
+  - id: defense
+    name: Defense
+    kind: sector
+    tickers: [ITA, XAR, LMT, RTX, NOC, GD]
+    aliases: [defense industry, defense contractors, defense budget, military budget, military spending, defense spending, golden dome, missile defense, shipbuilding, shipbuilders, warships, navy ships]
+  - id: defense_word
+    name: Defense
+    kind: sector
+    tickers: [ITA, XAR, AVAV, KTOS]
+    aliases: [military equipment, fighter jets, 2,000 pound bombs, weapons systems, new weapons, military hardware]
+    needs_context: true
+  - id: banks
+    name: Banks
+    kind: sector
+    tickers: [XLF, KRE, JPM, BAC]
+    aliases: [banks, big banks, bankers, wall street banks, debanking, community banks]
+  - id: housing
+    name: Homebuilders
+    kind: sector
+    tickers: [XHB, ITB, LEN, DHI]
+    aliases: [homebuilders, home builders, housing market, mortgage rates, fannie mae, freddie mac]
+  - id: farmers
+    name: Agriculture
+    kind: sector
+    tickers: [DBA, MOS, DE, CORN, SOYB, ADM]
+    aliases: [farmers, soybeans, soybean, agriculture, agricultural, corn farmers, our farmers, ethanol, fertilizer]
+  - id: airlines
+    name: Airlines
+    kind: sector
+    tickers: [JETS, DAL, UAL, AAL]
+    aliases: [airlines, airline industry, air traffic control]
+  - id: trucking
+    name: Trucking / rail
+    kind: sector
+    tickers: [IYT, UNP, CSX]
+    aliases: [truckers, trucking, railroads, freight rail]
+  - id: telecom
+    name: Telecom
+    kind: sector
+    tickers: [T, VZ, TMUS]
+    aliases: [at&t, verizon, t-mobile, t mobile]
+  - id: private_equity
+    name: Private equity
+    kind: sector
+    tickers: [BX, KKR, APO]
+    aliases: [private equity, blackstone, kkr, apollo global, carried interest]
+  - id: retail_sector
+    name: Retailers
+    kind: sector
+    tickers: [XRT]
+    aliases: [retailers, big box stores, retail prices]
+    needs_context: true
+  - id: toys
+    name: Toys / consumer goods
+    kind: sector
+    tickers: [MAT, HAS]
+    aliases: [dolls, toys, toy makers]
+    needs_context: true
+  - id: movies
+    name: Film industry
+    kind: sector
+    tickers: [DIS, NFLX, WBD, PSKY]
+    aliases: [movie industry, hollywood, foreign movies, movies made in foreign lands, film industry]
+  - id: universities
+    name: Student lenders / education
+    kind: sector
+    tickers: [SLM, NAVI]
+    aliases: [student loans, student loan]
+  - id: spacers
+    name: Space
+    kind: sector
+    tickers: [RKLB, ARKX]
+    aliases: [nasa, space force, mars mission, rocket]
+    needs_context: true
+
+  # ---------------- Countries (only with a trigger nearby) ----------------
+  - id: china
+    name: China
+    kind: country
+    tickers: [FXI, MCHI, KWEB]
+    aliases: [china, chinese, beijing, xi jinping, president xi]
+    needs_context: true
+  - id: canada
+    name: Canada
+    kind: country
+    tickers: [EWC]
+    aliases: [canada, canadian, carney, ottawa]
+    needs_context: true
+  - id: mexico
+    name: Mexico
+    kind: country
+    tickers: [EWW]
+    aliases: [mexico, mexican, sheinbaum]
+    needs_context: true
+  - id: eu
+    name: European Union
+    kind: country
+    tickers: [VGK, EZU, FEZ]
+    aliases: [european union, the eu, europe, european, brussels, ursula, von der leyen]
+    needs_context: true
+  - id: japan
+    name: Japan
+    kind: country
+    tickers: [EWJ]
+    aliases: [japan, japanese, tokyo]
+    needs_context: true
+  - id: korea
+    name: South Korea
+    kind: country
+    tickers: [EWY]
+    aliases: [south korea, korea, korean, seoul]
+    needs_context: true
+  - id: taiwan
+    name: Taiwan
+    kind: country
+    tickers: [EWT, TSM]
+    aliases: [taiwan, taiwanese]
+    needs_context: true
+  - id: india
+    name: India
+    kind: country
+    tickers: [INDA, EPI]
+    aliases: [india, indian, modi, new delhi]
+    needs_context: true
+  - id: brazil
+    name: Brazil
+    kind: country
+    tickers: [EWZ]
+    aliases: [brazil, brazilian, bolsonaro, lula]
+    needs_context: true
+  - id: uk
+    name: United Kingdom
+    kind: country
+    tickers: [EWU]
+    aliases: [united kingdom, britain, british, uk, starmer, london]
+    needs_context: true
+  - id: germany
+    name: Germany
+    kind: country
+    tickers: [EWG]
+    aliases: [germany, german, berlin, merz]
+    needs_context: true
+  - id: vietnam
+    name: Vietnam
+    kind: country
+    tickers: [VNM]
+    aliases: [vietnam, vietnamese]
+    needs_context: true
+  - id: switzerland
+    name: Switzerland
+    kind: country
+    tickers: [EWL]
+    aliases: [switzerland, swiss]
+    needs_context: true
+  - id: russia
+    name: Russia
+    kind: country
+    tickers: [RSX, XLE]
+    aliases: [russia, russian, putin, moscow]
+    needs_context: true
+  - id: ukraine
+    name: Ukraine
+    kind: country
+    tickers: [ITA, XLE]
+    aliases: [ukraine, zelensky, zelenskyy, kyiv, kiev]
+    needs_context: true
+  - id: israel
+    name: Israel
+    kind: country
+    tickers: [EIS, ITA]
+    aliases: [israel, netanyahu, bibi]
+    needs_context: true
+  - id: iran
+    name: Iran
+    kind: country
+    tickers: [XLE, USO, ITA]
+    aliases: [iran, iranian, tehran]
+    needs_context: true
+  - id: saudi
+    name: Saudi Arabia
+    kind: country
+    tickers: [KSA, XLE]
+    aliases: [saudi, saudi arabia, mbs, mohammed bin salman, riyadh]
+    needs_context: true
+  - id: argentina
+    name: Argentina
+    kind: country
+    tickers: [ARGT]
+    aliases: [argentina, argentine, milei]
+    needs_context: true
+  - id: colombia
+    name: Colombia
+    kind: country
+    tickers: [GXG]
+    aliases: [colombia, colombian, petro]
+    needs_context: true
+  - id: venezuela
+    name: Venezuela
+    kind: country
+    tickers: [XLE, CVX]
+    aliases: [venezuela, venezuelan, maduro, caracas]
+    needs_context: true

@@ -1,0 +1,13 @@
+# Upcoming speaking events shown on the hosted page. Pushed to Firestore `events/{id}` by
+# `uv run python scripts/push_schedule.py` (add --prune to delete events removed here).
+# Times are venue-local ISO 8601 with offset; `tz` is the venue's IANA zone so the page can
+# show both the venue time and the viewer's local time.
+events:
+  - id: 2026-10-21-example-remarks
+    title: Remarks on the economy (example entry)
+    kind: remarks
+    venue: White House
+    city: Washington, DC
+    tz: America/New_York
+    starts_at: "2026-10-21T15:00:00-04:00"
+    source_url: https://www.whitehouse.gov/

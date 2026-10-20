@@ -1,0 +1,1950 @@
+{
+ "video": {
+  "id": "6xVpv3kfvv8",
+  "url": "https://www.youtube.com/watch?v=6xVpv3kfvv8",
+  "title": "The President Delivers Remarks at the America Business Forum Miami",
+  "channel": "The White House",
+  "duration": 3966.0,
+  "was_live": true,
+  "release_timestamp": 1762366616.0,
+  "upload_timestamp": 1762372401.0,
+  "upload_date": "20251105",
+  "label": "Delivers Remarks at the America Business Forum Miami",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1762366616.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 28,
+  "confirmed": 23,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 28
+ },
+ "signals": [
+  {
+   "signal_id": "6xVpv3kfvv8:00257:mcd",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 257.13,
+   "t_wall": 1762366873.13,
+   "t_wall_et": "2025-11-05T13:21:13.130000-05:00",
+   "segment_text": "McDonald's shot. Remember the McDonald's shot? We did the garbage truck shot. And",
+   "context": "365 days ago. You know, I was with a group of very important people, and they say, think of it last week, just last week, 6 days ago, 7 days ago, they said, you were campaigning 1 year ago. I said, no. This it felt like I've been in this position for so long. And it's right. At that 0.1 year ago, was actually campaigning. We did the McDonald's shot. Remember the McDonald's shot? We did the garbage truck shot. And",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "McDonald's",
+    "tickers": [
+     "MCD"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "We did the McDonald's shot. Remember the McDonald's shot?",
+    "summary": "The President references a McDonald's photo opportunity from his campaign."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MCD",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Nostalgic reference to a campaign photo-op, not a policy or business statement affecting McDonald's fundamentals.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is purely anecdotal reminiscence about a 2024 campaign photo-op at McDonald's with no new policy, business, or regulatory content, so it should have no material price impact on MCD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MCD\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Nostalgic reference to a campaign photo-op, not a policy or business statement affecting McDonald's fundamentals.\", \"added\": false}], \"summary\": \"The remark is purely anecdotal reminiscence about a 2024 campaign photo-op at McDonald's with no new policy, business, or regulatory content, so it should have no material price impact on MCD.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00266:googl",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 266.1971623145401,
+   "t_wall": 1762366882.1971624,
+   "t_wall_et": "2025-11-05T13:21:22.197162-05:00",
+   "segment_text": "actually, the McDonald's 1 was the biggest hit in the history of Google. Can you believe that? Number 1, the garbage truck did well, but not as well. I guess there's something about McDonald's. Right? But it worked, and, we won a tremendous election. We won all 7 swing states. We won the great state of Florida, by the way, by 1,400,000",
+   "context": "And it's right. At that 0.1 year ago, was actually campaigning. We did the McDonald's shot. Remember the McDonald's shot? We did the garbage truck shot. And actually, the McDonald's 1 was the biggest hit in the history of Google. Can you believe that? Number 1, the garbage truck did well, but not as well. I guess there's something about McDonald's. Right? But it worked, and, we won a tremendous election. We won all 7 swing states. We won the great state of Florida, by the way, by 1,400,000",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "McDonald's was the biggest hit in the history of Google.",
+    "summary": "The President praised a McDonald's campaign video as Google's biggest hit."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Mention is a passing anecdote about a viral video, not a business or policy statement affecting Google.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is nostalgic campaign rhetoric referencing a viral McDonald's video that trended on Google/YouTube; it carries no material policy or business implication for Alphabet, so no price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Mention is a passing anecdote about a viral video, not a business or policy statement affecting Google.\", \"added\": false}], \"summary\": \"The remark is nostalgic campaign rhetoric referencing a viral McDonald's video that trended on Google/YouTube; it carries no material policy or business implication for Alphabet, so no price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00405:ai_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 405.7580733944954,
+   "t_wall": 1762367021.7580733,
+   "t_wall_et": "2025-11-05T13:23:41.758073-05:00",
+   "segment_text": "But if you look at what's happening with all the factories, AI, auto plants all over the country being built,",
+   "context": "Now, we're a country that's considered the hottest country anywhere in the world. It's hottest country. We are now in the hottest country anywhere in the world. And I'm pleased to report that today, The United States has the strongest economy, the strongest borders, the strongest military, the strongest friendships, and the strongest spirit of any nation anywhere. We have this we have the greatest economy right now. A lot of people don't see that. But if you look at what's happening with all the factories, AI, auto plants all over the country being built,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "factories, AI, auto plants all over the country being built",
+    "summary": "The President praises AI investment and factory construction across the country."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise of AI and factory investment without new policy specifics affecting Nvidia directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad positive tone on US manufacturing/AI investment is generic boosterism, not a new semiconductor-specific catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic self-congratulatory rhetoric about US investment and AI/factory growth, lacking new specific policy or deal details that would move NVDA or SMH meaningfully beyond market noise.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical praise of AI and factory investment without new policy specifics affecting Nvidia directly.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad positive tone on US manufacturing/AI investment is generic boosterism, not a new semiconductor-specific catalyst.\", \"added\": false}], \"summary\": \"The President's remarks are generic self-congratulatory rhetoric about US investment and AI/factory growth, lacking new specific policy or deal details that would move NVDA or SMH meaningfully beyond market noise.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00410:defense_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 410.7945652173913,
+   "t_wall": 1762367026.7945652,
+   "t_wall_et": "2025-11-05T13:23:46.794565-05:00",
+   "segment_text": "that if you would have thought about that 2 or 3 years ago, would have said it was the opposite. They were all leaving. Now they're all coming in. They're all coming back and then some",
+   "context": "I'm pleased to report that today, The United States has the strongest economy, the strongest borders, the strongest military, the strongest friendships, and the strongest spirit of any nation anywhere. We have this we have the greatest economy right now. A lot of people don't see that. But if you look at what's happening with all the factories, AI, auto plants all over the country being built, that if you would have thought about that 2 or 3 years ago, would have said it was the opposite. They were all leaving. Now they're all coming in. They're all coming back and then some",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00475:stock_market",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 475.4099614678899,
+   "t_wall": 1762367091.4099615,
+   "t_wall_et": "2025-11-05T13:24:51.409961-05:00",
+   "segment_text": "Slightly. Just a little bit better. The stock market has set 40 time all time record highs and just recently,",
+   "context": "In 9 months, I've secured commitments of over $18,000,000,000,000, and we're gonna have 21,000,000,000,000 within the 1st year. So sleepy Joe did think of that. In 4 years, did less than 1,000,000,000,000. We're gonna have 21,000,000,000,000 in 1 year. I would say that's it's slightly better. Slightly. Just a little bit better. The stock market has set 40 time all time record highs and just recently,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "The stock market has set 40 time all time record highs",
+    "summary": "The President claims stock market reached 40 all-time record highs under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General self-congratulatory rhetoric about market highs already known to investors, no new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or new policy content, just broad market boasting.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic praise of stock market records is already priced in and non-specific.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad, repeated rhetoric touting record markets and investment figures without new, actionable policy detail, so expected market-relative impact is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General self-congratulatory rhetoric about market highs already known to investors, no new policy.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or new policy content, just broad market boasting.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic praise of stock market records is already priced in and non-specific.\", \"added\": false}], \"summary\": \"The President's remarks are broad, repeated rhetoric touting record markets and investment figures without new, actionable policy detail, so expected market-relative impact is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00622:defense_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "factory"
+   ],
+   "t_audio": 622.8363157894736,
+   "t_wall": 1762367238.8363159,
+   "t_wall_et": "2025-11-05T13:27:18.836316-05:00",
+   "segment_text": "Construction workers pay is up $2,200,",
+   "context": "It doesn't just happen. You gotta tell them. It's wonderful to do them, but if people don't talk about them, then you can do not so well in elections. Wages for workers are rising at the fastest pace in over 60 years. Those are workers, and that's what we love. We love the workers. Since I took office, wages for the typical factory worker are up $1,300. Construction workers pay is up $2,200, and miners are up nearly $5,000",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00702:farmers",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "agriculture",
+   "text_span": "Agriculture",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 702.9916740088106,
+   "t_wall": 1762367318.991674,
+   "t_wall_et": "2025-11-05T13:28:38.991674-05:00",
+   "segment_text": "But within a couple of months, we got them down. We had a great we have a great Department of Agriculture headed by Brooke Rollins, and we did a great job, and we got them down to the level they originally were a long time ago.",
+   "context": "Sir, what are you gonna do about egg prices? And they'd gone up, like, 4 or 5 times. I said, well, you just told me it has a problem, and people weren't buying Easter eggs. You believe it? I said, we're buying Easter eggs for the White House, for the for the egg hunt, the famous egg hunt. But within a couple of months, we got them down. We had a great we have a great Department of Agriculture headed by Brooke Rollins, and we did a great job, and we got them down to the level they originally were a long time ago.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "great Department of Agriculture headed by Brooke Rollins, we did a great job",
+    "summary": "The President praised Agriculture Department leadership and credited it with reducing egg prices."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about falling food/egg prices is not new policy information for this agricultural commodity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific fertilizer or input-cost policy mentioned that would move Mosaic shares.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention of farm equipment, subsidies, or trade policy affecting Deere specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is generic praise for USDA and inflation talking points, not a specific ADM catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new corn-specific policy or price data revealed.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new soybean-specific trade or subsidy information given.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely political rhetoric praising the Department of Agriculture for lowering egg prices and criticizing prior administration inflation, without any new, actionable policy specifics affecting agricultural commodities, fertilizer producers, farm equipment makers, or grain ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about falling food/egg prices is not new policy information for this agricultural commodity ETF.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific fertilizer or input-cost policy mentioned that would move Mosaic shares.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No mention of farm equipment, subsidies, or trade policy affecting Deere specifically.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is generic praise for USDA and inflation talking points, not a specific ADM catalyst.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new corn-specific policy or price data revealed.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new soybean-specific trade or subsidy information given.\", \"added\": false}], \"summary\": \"The excerpt is largely political rhetoric praising the Department of Agriculture for lowering egg prices and criticizing prior administration inflation, without any new, actionable policy specifics affecting agricultural commodities, fertilizer producers, farm equipment makers, or grain ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00753:oil",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gas prices",
+   "text_span": "Gas prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "terrible"
+   ],
+   "t_audio": 753.2449648717949,
+   "t_wall": 1762367369.2449648,
+   "t_wall_et": "2025-11-05T13:29:29.244965-05:00",
+   "segment_text": "term. I mean, is a much better term. In 1 way, it's bad to see how bad people you're gonna see the same thing in New York, by the way. You watch what happens in New York. Terrible. But you're gonna see that same thing. And I hope it doesn't happen, but you're gonna see it. Gas prices are surging to $5 a gallon,",
+   "context": "the Biden policies. And it wasn't him. It was the people surrounding him around the desk. He didn't know what the hell he was doing. Biden. How the hell did that happen? Well, I know how it happened. They rigged the election. That's how it happened. Think of the damage done. Although, I must tell you, but this is a much more powerful term. I mean, is a much better term. In 1 way, it's bad to see how bad people you're gonna see the same thing in New York, by the way. You watch what happens in New York. Terrible. But you're gonna see that same thing. And I hope it doesn't happen, but you're gonna see it. Gas prices are surging to $5 a gallon,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Gas prices",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Gas prices are surging to $5 a gallon",
+    "summary": "The President criticizes rising gas prices attributed to Biden administration policies."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touting falling gas prices and predicting $2 gasoline implies lower energy prices, a modest negative for energy sector equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about plunging gasoline and oil prices reinforces expectations of lower crude prices, weighing on oil-tracking ETFs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower gasoline price rhetoric is a mild negative for major oil producers' margins, though largely repeat rhetoric with limited new info.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar to XOM, falling gas price narrative is a slight negative for integrated oil majors' profitability outlook.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize falling gas and oil prices as a policy success, which is generally repeat rhetoric but mildly bearish for energy-sector equities and oil ETFs due to implied lower price expectations.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touting falling gas prices and predicting $2 gasoline implies lower energy prices, a modest negative for energy sector equities.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about plunging gasoline and oil prices reinforces expectations of lower crude prices, weighing on oil-tracking ETFs.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower gasoline price rhetoric is a mild negative for major oil producers' margins, though largely repeat rhetoric with limited new info.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar to XOM, falling gas price narrative is a slight negative for integrated oil majors' profitability outlook.\", \"added\": false}], \"summary\": \"The President's remarks emphasize falling gas and oil prices as a policy success, which is generally repeat rhetoric but mildly bearish for energy-sector equities and oil ETFs due to implied lower price expectations.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00757:housing",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "housing",
+   "entity": "Homebuilders",
+   "kind": "sector",
+   "alias": "mortgage rates",
+   "text_span": "mortgage rates",
+   "dict_tickers": [
+    "XHB",
+    "ITB",
+    "LEN",
+    "DHI"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 757.0286046511628,
+   "t_wall": 1762367373.0286047,
+   "t_wall_et": "2025-11-05T13:29:33.028605-05:00",
+   "segment_text": "even higher, and mortgage rates skyrocketed",
+   "context": "How the hell did that happen? Well, I know how it happened. They rigged the election. That's how it happened. Think of the damage done. Although, I must tell you, but this is a much more powerful term. I mean, is a much better term. In 1 way, it's bad to see how bad people you're gonna see the same thing in New York, by the way. You watch what happens in New York. Terrible. But you're gonna see that same thing. And I hope it doesn't happen, but you're gonna see it. Gas prices are surging to $5 a gallon, even higher, and mortgage rates skyrocketed",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "mortgage rates",
+    "tickers": [
+     "XHB",
+     "ITB",
+     "LEN",
+     "DHI"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "mortgage rates skyrocketed",
+    "summary": "The President criticizes mortgage rates for skyrocketing, affecting homebuilder stocks."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XHB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about past mortgage rate spikes and falling prices is not new policy-relevant information for homebuilders.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments reference historical mortgage rate surge under Biden, not a new policy affecting builders.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LEN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new mortgage or housing policy announced, just political rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is generic economic boasting, not a specific catalyst for homebuilder stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recycle familiar claims about falling prices and past mortgage rate spikes under Biden without announcing new housing or mortgage policy, so no material price-relevant signal for homebuilder stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XHB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about past mortgage rate spikes and falling prices is not new policy-relevant information for homebuilders.\", \"added\": false}, {\"ticker\": \"ITB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments reference historical mortgage rate surge under Biden, not a new policy affecting builders.\", \"added\": false}, {\"ticker\": \"LEN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new mortgage or housing policy announced, just political rhetoric.\", \"added\": false}, {\"ticker\": \"DHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is generic economic boasting, not a specific catalyst for homebuilder stocks.\", \"added\": false}], \"summary\": \"The President's remarks recycle familiar claims about falling prices and past mortgage rate spikes under Biden without announcing new housing or mortgage policy, so no material price-relevant signal for homebuilder stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00812:defense_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 812.1449300699301,
+   "t_wall": 1762367428.1449301,
+   "t_wall_et": "2025-11-05T13:30:28.144930-05:00",
+   "segment_text": "Gasoline prices have plummeted to the lowest in 2 decades, and we're gonna soon see $2 gasoline. Think of that. $2 a gallon. It was up to $455.",
+   "context": "cut the biggest tax cut in history. We had the biggest tax cut in history, the biggest regulation cut in history. That's why we had the great economy. And now, the only difference is we're doing better this time. Actually, we're gonna have a bigger, better, stronger economy than the 1st 4 years, and that was the biggest that was the most successful economy in history. Gasoline prices have plummeted to the lowest in 2 decades, and we're gonna soon see $2 gasoline. Think of that. $2 a gallon. It was up to $455.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00836:wmt",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "wmt",
+   "entity": "Walmart",
+   "kind": "company",
+   "alias": "walmart",
+   "text_span": "Walmart",
+   "dict_tickers": [
+    "WMT"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 836.175030875,
+   "t_wall": 1762367452.175031,
+   "t_wall_et": "2025-11-05T13:30:52.175031-05:00",
+   "segment_text": "to follow. And that's what's happening. Grocery prices are way down, and Walmart",
+   "context": "the only difference is we're doing better this time. Actually, we're gonna have a bigger, better, stronger economy than the 1st 4 years, and that was the biggest that was the most successful economy in history. Gasoline prices have plummeted to the lowest in 2 decades, and we're gonna soon see $2 gasoline. Think of that. $2 a gallon. It was up to $455. And, you know, when you get when you get gasoline and you get oil and gas down, it's so big. It's so massive, the importance of it, that everything else starts to follow. And that's what's happening. Grocery prices are way down, and Walmart",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Walmart",
+    "tickers": [
+     "WMT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "Grocery prices are way down, and Walmart",
+    "summary": "The President mentions Walmart in context of falling grocery prices."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WMT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Walmart's lower Thanksgiving meal price as evidence of falling grocery costs, mild positive PR but not new business news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark is general economic rhetoric citing Walmart's cheaper Thanksgiving meal as proof of falling prices; positive tone but no new material information affecting WMT's fundamentals, so limited expected price impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"WMT\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises Walmart's lower Thanksgiving meal price as evidence of falling grocery costs, mild positive PR but not new business news.\",\"added\":false}],\"summary\":\"Remark is general economic rhetoric citing Walmart's cheaper Thanksgiving meal as proof of falling prices; positive tone but no new material information affecting WMT's fundamentals, so limited expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00865:saudi",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "saudi",
+   "entity": "Saudi Arabia",
+   "kind": "country",
+   "alias": "saudi arabia",
+   "text_span": "Saudi Arabia",
+   "dict_tickers": [
+    "KSA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 865.5864651204819,
+   "t_wall": 1762367481.5864651,
+   "t_wall_et": "2025-11-05T13:31:21.586465-05:00",
+   "segment_text": "That's a big deal. I don't know if they care about that in Saudi Arabia, but here it means a lot. We got the princess here from Saudi Arabia. She's got a lot of cash.",
+   "context": "Thanksgiving meal. This is the greatest. They're greatest. They're wonderful. They come out every year with how much does the Thanksgiving meal cost compared to last year? Right? And it always goes up, up, up. It's 40%, 30% more. Is 25% lower than 1 year ago. Isn't that great? That's a big deal, Rima. That's a big deal. I don't know if they care about that in Saudi Arabia, but here it means a lot. We got the princess here from Saudi Arabia. She's got a lot of cash.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:00888:fed",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "Interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [
+    "price",
+    "prices"
+   ],
+   "t_audio": 888.975,
+   "t_wall": 1762367504.975,
+   "t_wall_et": "2025-11-05T13:31:44.975000-05:00",
+   "segment_text": "Energy prices are down. Interest rates are down despite the fact that we have a total nincompoop",
+   "context": "That's a big deal. I don't know if they care about that in Saudi Arabia, but here it means a lot. We got the princess here from Saudi Arabia. She's got a lot of cash. Serious cash, and she's a great person. So she doesn't care about the price of a turkey is down a little bit. You know? She just have to worry about it. Since March, the price of eggs is down 85%. Energy prices are down. Interest rates are down despite the fact that we have a total nincompoop",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "Interest rates are down despite the fact that we have a total nincompoop",
+    "summary": "The President claims interest rates have declined under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restating that rates are down is general rhetoric, not new policy information affecting bond prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Commentary on rates and inflation is repeated rhetoric with no new financial-sector policy implication.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information specific to regional banks beyond general Fed criticism already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar claims about falling prices and interest rates plus attacks on the Fed chair, offering no new tradable information for rate-sensitive financial tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restating that rates are down is general rhetoric, not new policy information affecting bond prices.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Commentary on rates and inflation is repeated rhetoric with no new financial-sector policy implication.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new information specific to regional banks beyond general Fed criticism already known.\", \"added\": false}], \"summary\": \"The President's remarks reiterate familiar claims about falling prices and interest rates plus attacks on the Fed chair, offering no new tradable information for rate-sensitive financial tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:01585:defense_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approved",
+    "plants"
+   ],
+   "t_audio": 1585.3664759036144,
+   "t_wall": 1762368201.3664758,
+   "t_wall_et": "2025-11-05T13:43:21.366476-05:00",
+   "segment_text": "to do business, and that's what it is. Right now, we're the number 1 place. I'm getting plants approved in 2 weeks. It used to take 20 years before they got rejected.",
+   "context": "and they took the communist, you know. It's pretty amazing. Was we could have done a little better in terms of candidates. From day 1 of my administration, I've been fighting every single day to turn around the catastrophe we inherited to make America the best place on the planet Earth to do business, and that's what it is. Right now, we're the number 1 place. I'm getting plants approved in 2 weeks. It used to take 20 years before they got rejected. You'd have young people start off. Their whole business was getting a certain plant accepted. 22 years later, they're ready to retire and they haven't gotten it. And then they go to a vote, they get rejected after 22 they wasted a whole life",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "I'm getting plants approved in 2 weeks.",
+    "summary": "The President claims accelerated plant approval timelines from 20+ years to 2 weeks."
+   },
+   "llm_attempts": 2,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric on permitting and manufacturing speed, not specific to defense sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific defense policy or contract mentioned in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks about faster plant approvals are generic pro-business talk, not AVAV-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention of defense contracts or drone programs relevant to KTOS.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is broad pro-business, anti-regulation rhetoric with no specific defense-sector policy, contract, or spending announcement, so no material directional impact expected for defense-related tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric on permitting and manufacturing speed, not specific to defense sector.\",\"added\":false},{\"ticker\":\"XAR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific defense policy or contract mentioned in this excerpt.\",\"added\":false},{\"ticker\":\"AVAV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remarks about faster plant approvals are generic pro-business talk, not AVAV-specific.\",\"added\":false},{\"ticker\":\"KTOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct mention of defense contracts or drone programs relevant to KTOS.\",\"added\":false}],\"summary\":\"The excerpt is broad pro-business, anti-regulation rhetoric with no specific defense-sector policy, contract, or spending announcement, so no material directional impact expected for defense-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:01622:china",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 1622.2535950413223,
+   "t_wall": 1762368238.253595,
+   "t_wall_et": "2025-11-05T13:43:58.253595-05:00",
+   "segment_text": "and the fairest trade deals anywhere in the world. You know, we're leading China. We're leading everybody by a lot in AI.",
+   "context": "You'd have young people start off. Their whole business was getting a certain plant accepted. 22 years later, they're ready to retire and they haven't gotten it. And then they go to a vote, they get rejected after 22 they wasted a whole life looking for an acceptance. We do it in 2 weeks. We make sure it's good. We make sure it's great and proper, environmentally sound. Takes 2 weeks. My goal is to have the best tax rates, the lowest energy cost, the lowest regulatory burden, the most advanced technology, and the fairest trade deals anywhere in the world. You know, we're leading China. We're leading everybody by a lot in AI.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "We're leading China. We're leading everybody by a lot.",
+    "summary": "The President claims US leads China in competition, context unclear but implies competitive advantage."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about US leading China in AI is not a specific policy action affecting Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Boastful comparison lacks concrete policy or trade measure to move broad China index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific tech-sector action against China mentioned, just general competitive rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is generic pro-America/AI rhetoric with a passing claim of leading China; it contains no new tariff, sanction, or policy detail, so it should have negligible price impact on China-focused ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about US leading China in AI is not a specific policy action affecting Chinese equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Boastful comparison lacks concrete policy or trade measure to move broad China index.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific tech-sector action against China mentioned, just general competitive rhetoric.\", \"added\": false}], \"summary\": \"The remark is generic pro-America/AI rhetoric with a passing claim of leading China; it contains no new tariff, sanction, or policy detail, so it should have negligible price impact on China-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:01624:ai_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 1624.4142561983472,
+   "t_wall": 1762368240.414256,
+   "t_wall_et": "2025-11-05T13:44:00.414256-05:00",
+   "segment_text": "and the fairest trade deals anywhere in the world. You know, we're leading China. We're leading everybody by a lot in AI.",
+   "context": "You'd have young people start off. Their whole business was getting a certain plant accepted. 22 years later, they're ready to retire and they haven't gotten it. And then they go to a vote, they get rejected after 22 they wasted a whole life looking for an acceptance. We do it in 2 weeks. We make sure it's good. We make sure it's great and proper, environmentally sound. Takes 2 weeks. My goal is to have the best tax rates, the lowest energy cost, the lowest regulatory burden, the most advanced technology, and the fairest trade deals anywhere in the world. You know, we're leading China. We're leading everybody by a lot in AI.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial Intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We're leading everybody by a lot in AI.",
+    "summary": "The President states US leads globally in AI development and capability."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI, pro-energy-buildout rhetoric is mildly supportive but restates known policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad positive AI/tech sentiment supports semiconductor sector ETF modestly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks tout US AI leadership and faster permitting/energy build-out for AI data centers, generally positive but non-specific rhetoric for AI-linked chip stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI, pro-energy-buildout rhetoric is mildly supportive but restates known policy stance.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad positive AI/tech sentiment supports semiconductor sector ETF modestly.\", \"added\": false}], \"summary\": \"The President's remarks tout US AI leadership and faster permitting/energy build-out for AI data centers, generally positive but non-specific rhetoric for AI-linked chip stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:01684:oil",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "expensive",
+    "plants"
+   ],
+   "t_audio": 1684.9605603448276,
+   "t_wall": 1762368300.9605603,
+   "t_wall_et": "2025-11-05T13:45:00.960560-05:00",
+   "segment_text": "right alongside. This is where they have their transformers and everything. They're building the most expensive electric plants you've ever seen, generating plants. Some by nuclear, some by oil and gas, some by coal as a substitute.",
+   "context": "The electricity that the AI plants need alone is double the entire electricity that we have in the country right now. Can you believe it? So I had this idea. I said, we can't fix the old grid that much. We'll fix it up. We'll keep it going. A little band aid here, a little band aid there. It's old. And I said, here's what we're gonna do. We're gonna let these geniuses build their own electric generation. So they are gonna they are building their own electric utility plants. They've become a utility, if you think about it. They're building the the utility and the electric right alongside. This is where they have their transformers and everything. They're building the most expensive electric plants you've ever seen, generating plants. Some by nuclear, some by oil and gas, some by coal as a substitute.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Some by nuclear, some by oil and gas",
+    "summary": "AI companies building private electric generation plants using oil and gas."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Positive mention of AI data centers building oil/gas-fired generation supports natural gas and energy demand narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about power generation fuel mix, not crude oil demand directly, so minimal impact on oil price ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "weeks",
+      "rationale": "Mention of gas-fired power for AI data centers is mildly positive for major integrated gas producers like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "weeks",
+      "rationale": "Similar mild positive read-through for Chevron from growing gas demand tied to AI power buildout.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks highlight AI companies building their own gas, nuclear, and coal power plants, a mildly positive but non-specific signal for energy producers and the sector ETF, with limited direct impact on crude oil pricing (USO).",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Positive mention of AI data centers building oil/gas-fired generation supports natural gas and energy demand narrative.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark is about power generation fuel mix, not crude oil demand directly, so minimal impact on oil price ETF.\",\"added\":false},{\"ticker\":\"XOM\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"weeks\",\"rationale\":\"Mention of gas-fired power for AI data centers is mildly positive for major integrated gas producers like Exxon.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"weeks\",\"rationale\":\"Similar mild positive read-through for Chevron from growing gas demand tied to AI power buildout.\",\"added\":false}],\"summary\":\"The President's remarks highlight AI companies building their own gas, nuclear, and coal power plants, a mildly positive but non-specific signal for energy producers and the sector ETF, with limited direct impact on crude oil pricing (USO).\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:01686:coal_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "expensive",
+    "plants"
+   ],
+   "t_audio": 1686.0752801724138,
+   "t_wall": 1762368302.0752802,
+   "t_wall_et": "2025-11-05T13:45:02.075280-05:00",
+   "segment_text": "right alongside. This is where they have their transformers and everything. They're building the most expensive electric plants you've ever seen, generating plants. Some by nuclear, some by oil and gas, some by coal as a substitute.",
+   "context": "The electricity that the AI plants need alone is double the entire electricity that we have in the country right now. Can you believe it? So I had this idea. I said, we can't fix the old grid that much. We'll fix it up. We'll keep it going. A little band aid here, a little band aid there. It's old. And I said, here's what we're gonna do. We're gonna let these geniuses build their own electric generation. So they are gonna they are building their own electric utility plants. They've become a utility, if you think about it. They're building the the utility and the electric right alongside. This is where they have their transformers and everything. They're building the most expensive electric plants you've ever seen, generating plants. Some by nuclear, some by oil and gas, some by coal as a substitute.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "some by coal as a substitute",
+    "summary": "AI companies building private electric generation plants using coal as substitute fuel."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "The President highlights coal as a substitute fuel for new AI-driven power plants, mildly positive for coal demand narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Same coal-demand narrative benefits Arch Resources modestly though remark is general and not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Alpha Metallurgical could see modest sentiment lift from coal being cited as power source for AI plants.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about AI firms building their own power plants using coal, nuclear, or gas as substitutes are mildly positive for coal producers, though the comment is general rhetoric rather than a new policy announcement.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"The President highlights coal as a substitute fuel for new AI-driven power plants, mildly positive for coal demand narrative.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Same coal-demand narrative benefits Arch Resources modestly though remark is general and not new policy.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Alpha Metallurgical could see modest sentiment lift from coal being cited as power source for AI plants.\", \"added\": false}], \"summary\": \"The President's remarks about AI firms building their own power plants using coal, nuclear, or gas as substitutes are mildly positive for coal producers, though the comment is general rhetoric rather than a new policy announcement.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:02118:btc",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2118.5121348314606,
+   "t_wall": 1762368734.5121348,
+   "t_wall_et": "2025-11-05T13:52:14.512135-05:00",
+   "segment_text": "I've also signed historic executive orders to end the federal government's war on crypto.",
+   "context": "I mean, I love government workers, but if you have all government workers, you don't have a country, do you? At the same time, my tariffs are bringing in hundreds of billions of dollars and are helping slash the deficit this year by more than 50%. Did you see those numbers? We're gonna be down 50, anywhere from 25 to 50, but closer to 50%. To who would think that 1? Those are big numbers. Now take that out 2 or 3 years to embrace a vital industry here in Miami. I've also signed historic executive orders to end the federal government's war on crypto.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "crypto",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "signed historic executive orders to end the federal government's war on crypto",
+    "summary": "The President signed executive orders to end federal government restrictions on cryptocurrency."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto rhetoric reiterating already-known policy stance modestly supports Bitcoin sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restating friendly crypto regulatory stance is mildly positive but not new information for the largest US exchange.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-crypto rhetoric supports Bitcoin proxy sentiment though no new policy detail was given.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated his pro-crypto stance and claim of ending the federal war on crypto, which is supportive but not new news for Bitcoin-linked equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBIT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto rhetoric reiterating already-known policy stance modestly supports Bitcoin sentiment.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restating friendly crypto regulatory stance is mildly positive but not new information for the largest US exchange.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-crypto rhetoric supports Bitcoin proxy sentiment though no new policy detail was given.\", \"added\": false}], \"summary\": \"The President repeated his pro-crypto stance and claim of ending the federal war on crypto, which is supportive but not new news for Bitcoin-linked equities.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:02177:blockchain",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "blockchain",
+   "entity": "Blockchain / crypto industry",
+   "kind": "sector",
+   "alias": "crypto capital of the world",
+   "text_span": "crypto capital of the world",
+   "dict_tickers": [
+    "COIN",
+    "IBIT",
+    "MSTR",
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2177.16,
+   "t_wall": 1762368793.16,
+   "t_wall_et": "2025-11-05T13:53:13.160000-05:00",
+   "segment_text": "the crypto capital of the world, and the undisputed leader in artificial",
+   "context": "on your victory. He made a phone call. Let's indict him. These people are the worst. Then they say, he's gonna have to call me. They indicted me. They impeached me. They did everything. It's unbelievable. Who the hell else could have taken that? Do you guys know anybody else that could have taken it? I don't think so. Lot A of people say, you're the only 1 could've taken that. I don't know if that's true, but there aren't too many. We're making The United States the Bitcoin superpower, the crypto capital of the world, and the undisputed leader in artificial",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Blockchain / crypto industry",
+    "tickers": [
+     "COIN",
+     "IBIT",
+     "MSTR",
+     "HOOD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "making The United States the crypto capital of the world",
+    "summary": "The President pledges to make US the crypto capital and Bitcoin superpower."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated pro-crypto stance is mildly supportive of crypto exchange sentiment but adds no new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "IBIT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Bullish Bitcoin rhetoric slightly supportive of BTC-tracking ETF sentiment though not new news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-Bitcoin comments modestly favorable for a Bitcoin-holding company, but rhetoric is repeat.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HOOD",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-crypto stance mildly positive for retail brokerage with crypto trading exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated general pro-crypto rhetoric with no new policy specifics, mildly positive for crypto-linked equities but low confidence given lack of novelty.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated pro-crypto stance is mildly supportive of crypto exchange sentiment but adds no new policy detail.\", \"added\": false}, {\"ticker\": \"IBIT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Bullish Bitcoin rhetoric slightly supportive of BTC-tracking ETF sentiment though not new news.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-Bitcoin comments modestly favorable for a Bitcoin-holding company, but rhetoric is repeat.\", \"added\": false}, {\"ticker\": \"HOOD\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-crypto stance mildly positive for retail brokerage with crypto trading exposure.\", \"added\": false}], \"summary\": \"The President repeated general pro-crypto rhetoric with no new policy specifics, mildly positive for crypto-linked equities but low confidence given lack of novelty.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03107:nuclear",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "nuclear power",
+   "text_span": "nuclear power",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3107.059540425532,
+   "t_wall": 1762369723.0595405,
+   "t_wall_et": "2025-11-05T14:08:43.059541-05:00",
+   "segment_text": "our nuclear. We're the number 1 nuclear power, which I hate to admit because it's so horrible.",
+   "context": "You know, we'll stay around the country for 15 years, just bomb the hell out of everybody, make everybody miserable. Nobody knows why we're there, you know, the wars that never end. But we made it clear that the days of political correctness in our military, they're over. We don't wanna get into wars. I rebuilt the military. We have the strongest military by far in the world. We make the best equipment, the best missiles, the best rockets, the best everything. We redid our nuclear. We're the number 1 nuclear power, which I hate to admit because it's so horrible. It's such a horrible situation if it ever has to be used. Russia's 2nd. China's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nuclear energy sector",
+    "tickers": [
+     "URA",
+     "CCJ",
+     "OKLO",
+     "SMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "We're the number 1 nuclear power. We redid our nuclear.",
+    "summary": "The President claims US is strongest nuclear power and rebuilt nuclear capabilities."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "URA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General nuclear military/deterrence rhetoric, not new civilian nuclear policy relevant to uranium demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CCJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment refers to nuclear weapons arsenal, not uranium fuel demand or reactor policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "OKLO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention of small modular reactor policy or subsidies, just military nuclear boasting.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about nuclear weapons strength, not commercial SMR industry support.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CEG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct link to nuclear power generation policy or utility demand from this military-focused remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark focuses on military/nuclear weapons superiority and defense spending, not civilian nuclear energy policy, so it is largely irrelevant to nuclear power stocks despite the dictionary match.",
+    "raw": "{\"tickers\": [{\"ticker\": \"URA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General nuclear military/deterrence rhetoric, not new civilian nuclear policy relevant to uranium demand.\", \"added\": false}, {\"ticker\": \"CCJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment refers to nuclear weapons arsenal, not uranium fuel demand or reactor policy.\", \"added\": false}, {\"ticker\": \"OKLO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No mention of small modular reactor policy or subsidies, just military nuclear boasting.\", \"added\": false}, {\"ticker\": \"SMR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is about nuclear weapons strength, not commercial SMR industry support.\", \"added\": false}, {\"ticker\": \"CEG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct link to nuclear power generation policy or utility demand from this military-focused remark.\", \"added\": false}], \"summary\": \"The President's remark focuses on military/nuclear weapons superiority and defense spending, not civilian nuclear energy policy, so it is largely irrelevant to nuclear power stocks despite the dictionary match.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03174:china",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3174.4739781021894,
+   "t_wall": 1762369790.473978,
+   "t_wall_et": "2025-11-05T14:09:50.473978-05:00",
+   "segment_text": "Then all around the world, America is making peace and we're really making peace through strength because they know they're not gonna mess around with us. Nobody's gonna mess around with us. You saw what happened. We made a deal with China last week, and we made a deal with",
+   "context": "used to have recruiting shortages a year ago. You remember, you couldn't get people to join our military all around the world. You couldn't get them to rejoin. You just couldn't no matter what you do. That we were way short. Now you can't get into our military. The waiting list you have waiting list to get into our military because we have spirit in our country. Then all around the world, America is making peace and we're really making peace through strength because they know they're not gonna mess around with us. Nobody's gonna mess around with us. You saw what happened. We made a deal with China last week, and we made a deal with",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We made a deal with China last week",
+    "summary": "The President claims a deal was made with China the previous week."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to already-known China trade deal, minimal new information for broad China ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates prior news of a China deal, unlikely to move broad China equity ETF materially.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff or tech-specific detail affecting Chinese internet stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of a China deal is a repeat of already-known news with no new specifics, so minimal price impact expected on China-focused ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reference to already-known China trade deal, minimal new information for broad China ETF.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restates prior news of a China deal, unlikely to move broad China equity ETF materially.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new tariff or tech-specific detail affecting Chinese internet stocks.\",\"added\":false}],\"summary\":\"The President's mention of a China deal is a repeat of already-known news with no new specifics, so minimal price impact expected on China-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03177:japan",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3177.195,
+   "t_wall": 1762369793.195,
+   "t_wall_et": "2025-11-05T14:09:53.195000-05:00",
+   "segment_text": "Japan last week. We made a deal with Malaysia.",
+   "context": "couldn't get them to rejoin. You just couldn't no matter what you do. That we were way short. Now you can't get into our military. The waiting list you have waiting list to get into our military because we have spirit in our country. Then all around the world, America is making peace and we're really making peace through strength because they know they're not gonna mess around with us. Nobody's gonna mess around with us. You saw what happened. We made a deal with China last week, and we made a deal with Japan last week. We made a deal with Malaysia.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We made a deal with Japan last week.",
+    "summary": "The President states a deal with Japan was made last week."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President repeats an already-announced trade deal with Japan, offering no new details that would move a broad Japan ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark references a previously announced US-Japan deal with no new specifics, so it is unlikely to generate a fresh, tradable move in EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President repeats an already-announced trade deal with Japan, offering no new details that would move a broad Japan ETF.\", \"added\": false}], \"summary\": \"The remark references a previously announced US-Japan deal with no new specifics, so it is unlikely to generate a fresh, tradable move in EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03220:defense_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 3220.5748784722223,
+   "t_wall": 1762369836.5748785,
+   "t_wall_et": "2025-11-05T14:10:36.574878-05:00",
+   "segment_text": "But 8 planes were shot down essentially, and I said, this is war. And they were going at it, And the 2 nuclear nations, I said, I'm not gonna make any trade deals with you guys unless you agree to peace. No way. This has nothing to do. I said, it has everything to do. Your nuclear powers",
+   "context": "I was in the midst of a trade deal with both of them. And then I read on the front page of a certain newspaper. I said, don't know, I'll mention the newspaper because it's usually fake news, but I heard they're going to war. 8 planes, 7 planes were shot down, and 8 was really badly wounded. But 8 planes were shot down essentially, and I said, this is war. And they were going at it, And the 2 nuclear nations, I said, I'm not gonna make any trade deals with you guys unless you agree to peace. No way. This has nothing to do. I said, it has everything to do. Your nuclear powers",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03250:israel",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3250.905,
+   "t_wall": 1762369866.905,
+   "t_wall_et": "2025-11-05T14:11:06.905000-05:00",
+   "segment_text": "Israel and Iran,",
+   "context": "But 8 planes were shot down essentially, and I said, this is war. And they were going at it, And the 2 nuclear nations, I said, I'm not gonna make any trade deals with you guys unless you agree to peace. No way. This has nothing to do. I said, it has everything to do. Your nuclear powers I'm not trading with you. We're not making any deals with you if you're at war with each other. A day later, I get a call. We've made peace. They stopped. I said, thank you. Let's trade. Isn't that great? Tariffs did that. You know what? Tariffs. Without tariffs, that would have never happened. Israel and Iran,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Israel",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "Tariffs did that. Without tariffs, that would have never happened.",
+    "summary": "The President credits tariffs with brokering peace between Israel and Iran."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about peace deals is not new market-moving information for Israeli equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated claims about brokered peace deals do not provide new information affecting defense contractor demand.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely a repeat of previous rhetoric about brokering peace deals via tariffs, offering no new, actionable information for EIS or ITA; thus, no significant price movement is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EIS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about peace deals is not new market-moving information for Israeli equities.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated claims about brokered peace deals do not provide new information affecting defense contractor demand.\", \"added\": false}], \"summary\": \"The President's remarks are largely a repeat of previous rhetoric about brokering peace deals via tariffs, offering no new, actionable information for EIS or ITA; thus, no significant price movement is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03251:iran",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3251.8951375,
+   "t_wall": 1762369867.8951375,
+   "t_wall_et": "2025-11-05T14:11:07.895138-05:00",
+   "segment_text": "Israel and Iran,",
+   "context": "But 8 planes were shot down essentially, and I said, this is war. And they were going at it, And the 2 nuclear nations, I said, I'm not gonna make any trade deals with you guys unless you agree to peace. No way. This has nothing to do. I said, it has everything to do. Your nuclear powers I'm not trading with you. We're not making any deals with you if you're at war with each other. A day later, I get a call. We've made peace. They stopped. I said, thank you. Let's trade. Isn't that great? Tariffs did that. You know what? Tariffs. Without tariffs, that would have never happened. Israel and Iran,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "Tariffs did that. Without tariffs, that would have never happened.",
+    "summary": "The President credits tariffs with brokering peace between Israel and Iran."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about peace deals via tariffs, no new energy policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions of Israel-Iran de-escalation are old news and not a new oil supply catalyst here.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Talk of peace deals is rhetorical self-praise, not a new defense policy or contract announcement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "This passage is retrospective rhetoric touting the President's peacemaking via tariffs, with no new tradable policy detail for energy or defense sectors.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about peace deals via tariffs, no new energy policy specifics.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentions of Israel-Iran de-escalation are old news and not a new oil supply catalyst here.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Talk of peace deals is rhetorical self-praise, not a new defense policy or contract announcement.\", \"added\": false}], \"summary\": \"This passage is retrospective rhetoric touting the President's peacemaking via tariffs, with no new tradable policy detail for energy or defense sectors.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03760:steel",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3760.4194571428575,
+   "t_wall": 1762370376.4194572,
+   "t_wall_et": "2025-11-05T14:19:36.419457-05:00",
+   "segment_text": "From the steel mills of Pittsburgh to the oil wells of Houston,",
+   "context": "For all of these failed and discredited discredited, if you think, ideologies of the past, their day is over, their grip is broken, and their time is absolutely done. The golden age of America has begun, and we are just getting started. It's a golden age like you've never seen before. From the steel mills of Pittsburgh to the oil wells of Houston,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "From the steel mills of Pittsburgh to the oil wells of Houston",
+    "summary": "The President invokes steel mills as symbol of American industrial golden age."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise for steel industry with no new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Symbolic mention of steel mills, no new material catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric restates existing pro-manufacturing stance, not a new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new tariff or subsidy announced, just general praise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected by generic rhetorical mention without policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of steel mills is part of broad patriotic rhetoric about American industrial revival, not a new policy or specific action, so it is unlikely to move steel-related stocks meaningfully beyond market noise.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetorical praise for steel industry with no new policy specifics.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Symbolic mention of steel mills, no new material catalyst.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rhetoric restates existing pro-manufacturing stance, not a new policy.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific new tariff or subsidy announced, just general praise.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Sector ETF unaffected by generic rhetorical mention without policy detail.\",\"added\":false}],\"summary\":\"The President's mention of steel mills is part of broad patriotic rhetoric about American industrial revival, not a new policy or specific action, so it is unlikely to move steel-related stocks meaningfully beyond market noise.\"}"
+   }
+  },
+  {
+   "signal_id": "6xVpv3kfvv8:03770:coal_word",
+   "video_id": "6xVpv3kfvv8",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 3770.6256216216216,
+   "t_wall": 1762370386.6256216,
+   "t_wall_et": "2025-11-05T14:19:46.625622-05:00",
+   "segment_text": "To the coal mines of West Virginia, those coal mines are opening up 1 after another. Clean, beautiful coal. You're not allowed to use the word coal unless you say, in my administration,",
+   "context": "and we are just getting started. It's a golden age like you've never seen before. From the steel mills of Pittsburgh to the oil wells of Houston, from the car plants of Detroit, and those car plants are pouring into our country, To the coal mines of West Virginia, those coal mines are opening up 1 after another. Clean, beautiful coal. You're not allowed to use the word coal unless you say, in my administration,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "those coal mines are opening up 1 after another. Clean, beautiful coal.",
+    "summary": "The President claims coal mines reopening under his administration with regulatory changes."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric reiterating existing administration stance, mildly supportive but not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad pro-coal sentiment applies to Arch Resources with no new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal-friendly rhetoric is a mild tailwind for Alpha Metallurgical Resources despite lacking new policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat pro-coal rhetoric praising reopening mines without new regulatory or financial specifics, offering only a mild sentiment boost to coal producers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric reiterating existing administration stance, mildly supportive but not new policy.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same broad pro-coal sentiment applies to Arch Resources with no new specifics.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Coal-friendly rhetoric is a mild tailwind for Alpha Metallurgical Resources despite lacking new policy detail.\", \"added\": false}], \"summary\": \"The President's remarks are largely repeat pro-coal rhetoric praising reopening mines without new regulatory or financial specifics, offering only a mild sentiment boost to coal producers.\"}"
+   }
+  }
+ ]
+}

@@ -1,0 +1,984 @@
+{
+ "video": {
+  "id": "-POgY_NsQ10",
+  "url": "https://www.youtube.com/watch?v=-POgY_NsQ10",
+  "title": "The President Delivers Remarks to U.S. Embassy Personnel and Business Leaders",
+  "channel": "The White House",
+  "duration": 2479.0,
+  "was_live": true,
+  "release_timestamp": 1789208121.0,
+  "upload_timestamp": 1789212653.0,
+  "upload_date": "20260912",
+  "label": "Delivers Remarks to U.S. Embassy Personnel and Business Leaders",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1789208121.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 17,
+  "confirmed": 13,
+  "retracted": 4,
+  "unconfirmed": 0,
+  "llm_calls": 17
+ },
+ "signals": [
+  {
+   "signal_id": "-POgY_NsQ10:00063:meta",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "meta",
+   "entity": "Meta",
+   "kind": "company",
+   "alias": "instagram",
+   "text_span": "Instagram",
+   "dict_tickers": [
+    "META"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 63.78311985239853,
+   "t_wall": 1789208184.78312,
+   "t_wall_et": "2026-09-12T06:16:24.783120-04:00",
+   "segment_text": "And that has been proven by my Instagram post, I think, that I have the best job in the world. Every now and then, I do think the ministers over here have a good job, then I see they get yelled at all the time and I say, no. I do have the best job in the world. Even you.",
+   "context": "all the VIPs that are in the room, thank you for coming here. And more importantly, thank you for welcoming my wife and I to Ireland over the last year. It has been an amazing journey. And I think I tell you all this all the time, but I do have the best job in the world. And that has been proven by my Instagram post, I think, that I have the best job in the world. Every now and then, I do think the ministers over here have a good job, then I see they get yelled at all the time and I say, no. I do have the best job in the world. Even you.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "-POgY_NsQ10:00150:meta",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "meta",
+   "entity": "Meta",
+   "kind": "company",
+   "alias": "instagram",
+   "text_span": "Instagram",
+   "dict_tickers": [
+    "META"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 150.84244897959184,
+   "t_wall": 1789208271.842449,
+   "t_wall_et": "2026-09-12T06:17:51.842449-04:00",
+   "segment_text": "So maybe we should stop that Instagram post. But,",
+   "context": "I think the president coming here just shows that that relationship is stronger than ever, and we appreciate all your support for sure. So thank you all very, very much, and give yourselves a round of applause. But you are in for a real treat. The President is an amazing person, and, I always do thank him for giving me this job and because it is an amazing opportunity, and I do tell him that all the time. He thinks I play golf all the time. So maybe we should stop that Instagram post. But, but it it is an amazing job. And I do thank him because what he did for me is absolutely amazing. And I've told some of you this story, but I will tell it again at another date.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "-POgY_NsQ10:00912:ai_word",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factory",
+    "plant",
+    "plants"
+   ],
+   "t_audio": 912.6934951037344,
+   "t_wall": 1789209033.693495,
+   "t_wall_et": "2026-09-12T06:30:33.693495-04:00",
+   "segment_text": "more auto plants being built than we've ever had. We have AI. We're dominating AI. We're leading everybody, including China. We're leading I'm meeting with president Xi in a week and 0.5 from now, and it'll be great. But we're leading in AI.",
+   "context": "a big part of it is tariffs because now if you build, you don't send it in free of charge, you know, make it someplace else. You said, no, you have to pay a tariff. So I said there's only 1 thing you can do to solve that problem. You have to build your plant, your factory. You have to build it in The US. And, we have, more auto plants being built than we've ever had. We have AI. We're dominating AI. We're leading everybody, including China. We're leading I'm meeting with president Xi in a week and 0.5 from now, and it'll be great. But we're leading in AI.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have AI. We're dominating AI. We're leading everybody.",
+    "summary": "The President claims US dominance and leadership in AI sector."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical claim about US AI dominance with no new policy or company-specific detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad boasting about AI leadership is not new information for the semiconductor sector ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are generic self-congratulatory rhetoric about US AI and investment leadership with no new policy, deal, or regulatory detail, so no material stock-specific price impact is expected for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical claim about US AI dominance with no new policy or company-specific detail.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad boasting about AI leadership is not new information for the semiconductor sector ETF.\", \"added\": false}], \"summary\": \"The President's comments are generic self-congratulatory rhetoric about US AI and investment leadership with no new policy, deal, or regulatory detail, so no material stock-specific price impact is expected for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:00915:china",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 915.8005590041494,
+   "t_wall": 1789209036.800559,
+   "t_wall_et": "2026-09-12T06:30:36.800559-04:00",
+   "segment_text": "more auto plants being built than we've ever had. We have AI. We're dominating AI. We're leading everybody, including China. We're leading I'm meeting with president Xi in a week and 0.5 from now, and it'll be great. But we're leading in AI.",
+   "context": "a big part of it is tariffs because now if you build, you don't send it in free of charge, you know, make it someplace else. You said, no, you have to pay a tariff. So I said there's only 1 thing you can do to solve that problem. You have to build your plant, your factory. You have to build it in The US. And, we have, more auto plants being built than we've ever had. We have AI. We're dominating AI. We're leading everybody, including China. We're leading I'm meeting with president Xi in a week and 0.5 from now, and it'll be great. But we're leading in AI.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01147:stock_market",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1147.9958000000001,
+   "t_wall": 1789209268.9958,
+   "t_wall_et": "2026-09-12T06:34:28.995800-04:00",
+   "segment_text": "our people are prospering at all levels like never before. The stock market",
+   "context": "that you get. But, we are. We're up and people are really liking us right now. And $40.01 k's are up about, $4,546,000 dollars. And that's these are people that are in the police forces, people that are, in some cases, soldiers or accountants or lawyers or whatever. A lot of 4 0 1 k's, millions and millions, and they're up at record levels. They have never been so high. So everybody's benefiting. And under the administration, our people are prospering at all levels like never before. The stock market",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "401ks up at record levels, never been so high",
+    "summary": "The President credits his administration with record stock market and 401k gains."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General self-congratulatory rhetoric about market highs contains no new policy signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or new policy content, just broad market praise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic remarks about record markets restate known sentiment without new catalysts.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are generic self-praise about record stock market and 401k performance with no new policy or company-specific information, so no meaningful directional trading signal for broad index ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General self-congratulatory rhetoric about market highs contains no new policy signal.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or new policy content, just broad market praise.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic remarks about record markets restate known sentiment without new catalysts.\", \"added\": false}], \"summary\": \"The President's comments are generic self-praise about record stock market and 401k performance with no new policy or company-specific information, so no meaningful directional trading signal for broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01368:tm",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 1368.5945495283017,
+   "t_wall": 1789209489.5945494,
+   "t_wall_et": "2026-09-12T06:38:09.594549-04:00",
+   "segment_text": "but we have many more than that in the hopper because we're building plants, factories, auto, and auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota,",
+   "context": "economy that we had ever had. But this is I believe you're gonna be seeing that this is blowing it away. The press is trying to minimize it as much as possible, but at certain points you can't, you know, because you see the numbers, you saw the number, last, week, couple of days ago, they came out a 162. They were project they were projecting 25,000 jobs, and it turned out to be a 162,000. And, but we have many more than that in the hopper because we're building plants, factories, auto, and auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota",
+    "summary": "Toyota mentioned among auto companies building massive plants in US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for Toyota building US plants is positive but this is general repeated rhetoric already known and offset by tariff-driven cost incentives to relocate production.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks praise Toyota's US plant investment as part of broader auto manufacturing boom rhetoric, but the comment is general and repeats known policy (100% expensing, tariff avoidance for domestic plants) rather than new firm-specific news, so limited tradable impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for Toyota building US plants is positive but this is general repeated rhetoric already known and offset by tariff-driven cost incentives to relocate production.\", \"added\": false}], \"summary\": \"The President's remarks praise Toyota's US plant investment as part of broader auto manufacturing boom rhetoric, but the comment is general and repeats known policy (100% expensing, tariff avoidance for domestic plants) rather than new firm-specific news, so limited tradable impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01369:hmc",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "hmc",
+   "entity": "Honda",
+   "kind": "company",
+   "alias": "honda",
+   "text_span": "Honda",
+   "dict_tickers": [
+    "HMC"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 1369.315,
+   "t_wall": 1789209490.315,
+   "t_wall_et": "2026-09-12T06:38:10.315000-04:00",
+   "segment_text": "Honda.",
+   "context": "but at certain points you can't, you know, because you see the numbers, you saw the number, last, week, couple of days ago, they came out a 162. They were project they were projecting 25,000 jobs, and it turned out to be a 162,000. And, but we have many more than that in the hopper because we're building plants, factories, auto, and auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota, Honda.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Honda",
+    "tickers": [
+     "HMC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota, Honda.",
+    "summary": "Honda among automakers building massive plants in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HMC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Honda for building massive US plants, mildly positive but restates known onshoring trend and tariff avoidance incentive.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "General rhetoric praising Honda's US investment reduces tariff exposure narrative, a mild positive but largely already known.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HMC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Honda for building massive US plants, mildly positive but restates known onshoring trend and tariff avoidance incentive.\", \"added\": false}], \"summary\": \"General rhetoric praising Honda's US investment reduces tariff exposure narrative, a mild positive but largely already known.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01374:gm",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1374.8698579831932,
+   "t_wall": 1789209495.869858,
+   "t_wall_et": "2026-09-12T06:38:15.869858-04:00",
+   "segment_text": "They're these companies are coming in building the biggest plants in the world. General Motors and Ford are going wild,",
+   "context": "week, couple of days ago, they came out a 162. They were project they were projecting 25,000 jobs, and it turned out to be a 162,000. And, but we have many more than that in the hopper because we're building plants, factories, auto, and auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota, Honda. They're these companies are coming in building the biggest plants in the world. General Motors and Ford are going wild,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "General Motors and Ford are going wild",
+    "summary": "The President praises auto companies building massive plants in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises GM's US manufacturing expansion and touts tariff/tax incentives benefiting domestic producers, a mild positive though largely rhetorical repeat.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of GM and Ford for domestic plant investment, combined with tariff exemptions for US-based manufacturing, is mildly positive for GM but reflects previously known policy rather than new news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises GM's US manufacturing expansion and touts tariff/tax incentives benefiting domestic producers, a mild positive though largely rhetorical repeat.\", \"added\": false}], \"summary\": \"The President's praise of GM and Ford for domestic plant investment, combined with tariff exemptions for US-based manufacturing, is mildly positive for GM but reflects previously known policy rather than new news.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01375:f",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1375.8661605042016,
+   "t_wall": 1789209496.8661604,
+   "t_wall_et": "2026-09-12T06:38:16.866160-04:00",
+   "segment_text": "They're these companies are coming in building the biggest plants in the world. General Motors and Ford are going wild,",
+   "context": "week, couple of days ago, they came out a 162. They were project they were projecting 25,000 jobs, and it turned out to be a 162,000. And, but we have many more than that in the hopper because we're building plants, factories, auto, and auto plants are going through the roof. They're all the auto companies are coming in and building massive, Toyota, Honda. They're these companies are coming in building the biggest plants in the world. General Motors and Ford are going wild,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "General Motors and Ford are going wild",
+    "summary": "The President praises auto companies building massive plants in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Ford's US manufacturing expansion and touts zero tariffs for domestic production, mildly positive but largely rhetorical/general.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat rhetoric praising the economy and domestic manufacturing; his positive mention of Ford building plants is mildly bullish but not a new policy announcement.",
+    "raw": "{\"tickers\":[{\"ticker\":\"F\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises Ford's US manufacturing expansion and touts zero tariffs for domestic production, mildly positive but largely rhetorical/general.\",\"added\":false}],\"summary\":\"The President's remarks are largely repeat rhetoric praising the economy and domestic manufacturing; his positive mention of Ford building plants is mildly bullish but not a new policy announcement.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01540:natgas",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1540.463006875,
+   "t_wall": 1789209661.463007,
+   "t_wall_et": "2026-09-12T06:41:01.463007-04:00",
+   "segment_text": "They make it impossible for you to do business. We've unleashed our vast energy resources to make America the number 1 supplier of oil and natural gas on earth.",
+   "context": "But nobody thought, including me, that it could happen to this extent this fast. But we work hard and we work smart. We've cut a record number of job killing regulations. That's a big factor. In Europe, the regulations are through the roof. They can't breathe. I mean, I'm not coming in to insult anybody, and I say it to anybody that would listen. They have regulations that are just unacceptable. They make it impossible for you to do business. We've unleashed our vast energy resources to make America the number 1 supplier of oil and natural gas on earth.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "unleashed our vast energy resources to make America the number 1 supplier of oil and natural gas on earth",
+    "summary": "The President credits deregulation and energy policy for making US the top oil and natural gas supplier."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of US natural gas dominance is mildly bullish sentiment but not new policy info, and UNG tracks gas prices which aren't directly moved by this rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated pro-energy-export rhetoric is a mild positive signal for LNG exporters like Cheniere.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for US gas production dominance is a mild tailwind sentiment for domestic gas producers like EQT.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate existing pro-energy deregulation rhetoric, providing a mild positive sentiment boost to US natural gas and LNG-related equities but containing no new policy specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of US natural gas dominance is mildly bullish sentiment but not new policy info, and UNG tracks gas prices which aren't directly moved by this rhetoric.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated pro-energy-export rhetoric is a mild positive signal for LNG exporters like Cheniere.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for US gas production dominance is a mild tailwind sentiment for domestic gas producers like EQT.\", \"added\": false}], \"summary\": \"The President's remarks reiterate existing pro-energy deregulation rhetoric, providing a mild positive sentiment boost to US natural gas and LNG-related equities but containing no new policy specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01585:oil",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1585.79,
+   "t_wall": 1789209706.79,
+   "t_wall_et": "2026-09-12T06:41:46.790000-04:00",
+   "segment_text": "of oil",
+   "context": "conflict, I call it. They say, could you maybe not use the word war? Because when you use the word war, it's a little different. So I call them, like, military. I think Iran is a military conflict. We're knocking the hell out of them, but that's a military conflict. It's a larger larger nation. But with, with Venezuela, we took that over. We won the war. We're working very well with the people that are now running it. And, it's millions and millions of barrels of oil",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Venezuela, we took that over. We won the war. Millions and millions of barrels of oil",
+    "summary": "The President claims US control of Venezuelan oil production and millions of barrels."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General rhetoric about US energy dominance and Venezuela access is not new tradeable information for the broad energy sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Claims of massive new oil supply from Venezuela and US dominance suggest potential oversupply, mildly bearish for crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Mention of big oil companies moving into Venezuela to drill suggests potential expansion opportunity for major US producers like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has historical Venezuela operations and could benefit from renewed access to Venezuelan oil fields under US-aligned government.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize US energy dominance and new access to Venezuelan oil reserves, which is mildly positive for major US oil producers with Venezuela exposure (XOM, CVX) but slightly bearish for crude oil prices (USO) due to implied supply growth; broad energy ETF XLE effect is ambiguous given lack of new tradeable specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about US energy dominance and Venezuela access is not new tradeable information for the broad energy sector ETF.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Claims of massive new oil supply from Venezuela and US dominance suggest potential oversupply, mildly bearish for crude prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Mention of big oil companies moving into Venezuela to drill suggests potential expansion opportunity for major US producers like Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has historical Venezuela operations and could benefit from renewed access to Venezuelan oil fields under US-aligned government.\", \"added\": false}], \"summary\": \"The President's remarks emphasize US energy dominance and new access to Venezuelan oil reserves, which is mildly positive for major US oil producers with Venezuela exposure (XOM, CVX) but slightly bearish for crude oil prices (USO) due to implied supply growth; broad energy ETF XLE effect is ambiguous given lack of new tradeable specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01597:oil_strong",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1597.225,
+   "t_wall": 1789209718.225,
+   "t_wall_et": "2026-09-12T06:41:58.225000-04:00",
+   "segment_text": "barrels of oil. It's good for 500 years.",
+   "context": "larger nation. But with, with Venezuela, we took that over. We won the war. We're working very well with the people that are now running it. And, it's millions and millions of barrels of oil every single day. Amazing. And we paid for the war many, many times over. But more importantly, long term, I think it's gonna be just incredible. It's 65,000,000,000 barrels of oil. It's good for 500 years.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "65,000,000,000 barrels of oil. It's good for 500 years.",
+    "summary": "The President claims Venezuela oil reserves of 65 billion barrels, strategically valuable long-term."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Claims of massive new Venezuelan oil supply entering global markets could weigh modestly on oil prices and energy-sector equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Talk of huge new Venezuelan oil output and US dominance implies more global supply, a mild bearish signal for crude prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts massive US and Venezuelan oil output growth, implying rising global supply that is mildly bearish for crude oil prices and energy equities, though rhetoric is largely repeat/unverified so confidence is modest.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Claims of massive new Venezuelan oil supply entering global markets could weigh modestly on oil prices and energy-sector equities.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Talk of huge new Venezuelan oil output and US dominance implies more global supply, a mild bearish signal for crude prices.\", \"added\": false}], \"summary\": \"The President touts massive US and Venezuelan oil output growth, implying rising global supply that is mildly bearish for crude oil prices and energy equities, though rhetoric is largely repeat/unverified so confidence is modest.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01605:defense_word",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1605.3095315789474,
+   "t_wall": 1789209726.3095317,
+   "t_wall_et": "2026-09-12T06:42:06.309532-04:00",
+   "segment_text": "well, we're very fertile, but it's 1 of the top 2 or 3 most fertile in the world in terms of oil and other things.",
+   "context": "And, it's millions and millions of barrels of oil every single day. Amazing. And we paid for the war many, many times over. But more importantly, long term, I think it's gonna be just incredible. It's 65,000,000,000 barrels of oil. It's good for 500 years. It's probably well, we're very fertile, but it's 1 of the top 2 or 3 most fertile in the world in terms of oil and other things. And we're getting along great with the people. Venezuela is so happy now. The big oil companies are moving in. They're starting to drill. They're starting to build their their rigs and massive rigs are being built.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01612:venezuela",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 1612.0995093457943,
+   "t_wall": 1789209733.0995092,
+   "t_wall_et": "2026-09-12T06:42:13.099509-04:00",
+   "segment_text": "And we're getting along great with the people. Venezuela is so happy now. The big oil companies are moving in. They're starting to drill. They're starting to build their their rigs and massive rigs are being built.",
+   "context": "Amazing. And we paid for the war many, many times over. But more importantly, long term, I think it's gonna be just incredible. It's 65,000,000,000 barrels of oil. It's good for 500 years. It's probably well, we're very fertile, but it's 1 of the top 2 or 3 most fertile in the world in terms of oil and other things. And we're getting along great with the people. Venezuela is so happy now. The big oil companies are moving in. They're starting to drill. They're starting to build their their rigs and massive rigs are being built.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Big oil companies are moving in. They're starting to drill.",
+    "summary": "The President reports oil companies drilling in Venezuela with 65 billion barrels of reserves."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Opening of Venezuelan oil reserves to US companies expands drilling opportunities for the energy sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Chevron has historic Venezuela operations and stands to benefit most directly from resumed drilling access.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Opening of Venezuelan oil reserves to US companies expands drilling opportunities for the energy sector broadly.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Chevron has historic Venezuela operations and stands to benefit most directly from resumed drilling access.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01692:rtx",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "patriot missile",
+   "text_span": "Patriot missile",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 1692.3645933333335,
+   "t_wall": 1789209813.3645933,
+   "t_wall_et": "2026-09-12T06:43:33.364593-04:00",
+   "segment_text": "the demand our equipment is incredible, the Patriot missile.",
+   "context": "to get a lot of oil. But you just look at the ground, you see oil all over the place, you say that looks like a good location to start. But under our leadership, we've made record investments in the United States military. We're the strongest military in the world by far, and we're rapidly growing our defense industrial base. As Ireland expands its military investment, we have many opportunities to expand our partnership. Ireland wants to buy our everybody does. In fact, now what we're doing really because the demand our equipment is incredible, the Patriot missile.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Patriot missile",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "the demand our equipment is incredible, the Patriot missile",
+    "summary": "The President states strong demand for U.S. Patriot missiles from Ireland military expansion."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts strong global demand and combat success for Patriot missiles, reinforcing bullish sentiment on RTX defense sales though largely restating known trends.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Patriot missile demand and performance is mildly positive for RTX, though it mostly reiterates already-known defense demand strength rather than new contract news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts strong global demand and combat success for Patriot missiles, reinforcing bullish sentiment on RTX defense sales though largely restating known trends.\", \"added\": false}], \"summary\": \"The President's praise of Patriot missile demand and performance is mildly positive for RTX, though it mostly reiterates already-known defense demand strength rather than new contract news.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01743:lmt",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "thaad",
+   "text_span": "THAAD",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1743.2779081632652,
+   "t_wall": 1789209864.277908,
+   "t_wall_et": "2026-09-12T06:44:24.277908-04:00",
+   "segment_text": "So we have things. We have the THAAD system and the Patriot system. We have the Tomahawks offense.",
+   "context": "to speed missiles. And out of the 111, all 111 were knocked down. They never even got close to the ship. Think of that technology. 5 years ago, you couldn't think of it. They had protection, but, you know, if you if you were hitting at 50%, you were lucky. And 50% is not very good if you're talking about the kind of destructive cape capability that we talk about. So we have things. We have the THAAD system and the Patriot system. We have the Tomahawks offense.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lockheed Martin",
+    "tickers": [
+     "LMT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have the THAAD system and the Patriot system.",
+    "summary": "The President praises THAAD missile defense system technology and capability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises THAAD/Patriot defense systems and notes surging global demand and expanded production, mildly positive for Lockheed but largely restating known demand trends.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of THAAD/Patriot systems and mention of expanded defense manufacturing capacity is mildly positive for Lockheed Martin, though it mostly reiterates well-known strong demand for U.S. missile defense equipment.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LMT\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises THAAD/Patriot defense systems and notes surging global demand and expanded production, mildly positive for Lockheed but largely restating known demand trends.\", \"added\": false}], \"summary\": \"The President's praise of THAAD/Patriot systems and mention of expanded defense manufacturing capacity is mildly positive for Lockheed Martin, though it mostly reiterates well-known strong demand for U.S. missile defense equipment.\"}"
+   }
+  },
+  {
+   "signal_id": "-POgY_NsQ10:01860:defense_word",
+   "video_id": "-POgY_NsQ10",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "military equipment",
+   "text_span": "military equipment",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 1860.5301111111112,
+   "t_wall": 1789209981.530111,
+   "t_wall_et": "2026-09-12T06:46:21.530111-04:00",
+   "segment_text": "we're way advanced on all military equipment.",
+   "context": "dollar drone with a very expensive missile. But we have other things that are coming online very soon that are unbelievable between the Gatling and and various computerized, machine gun type equipment. And I think especially the lasers, the lasers, what they can do is it melts them. It hits a wall and they melt. And you see them, they come they're coming down. They look like they got poured out of a hot plate. Nobody's ever seen anything like it. So we have a lot of very good stuff. And your country, other countries are are buying it in record numbers, and we're way advanced on all military equipment.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "military equipment",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "other countries are buying it in record numbers, we're way advanced",
+    "summary": "The President praises U.S. military equipment sales and technological superiority."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for US defense equipment sales supports broad defense ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar sector-wide positive sentiment on defense exports and technology dominance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comments on drone-defense systems and counter-drone tech align with AVAV's product focus.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Praise for counter-drone and laser weapon systems benefits KTOS as a key supplier in this space.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks broadly praise US military technology (lasers, counter-drone systems, missile defense) and record foreign sales, a mild positive for defense-sector equities though largely reiterating known themes.",
+    "raw": "{\"tickers\":[{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise for US defense equipment sales supports broad defense ETF sentiment.\",\"added\":false},{\"ticker\":\"XAR\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Similar sector-wide positive sentiment on defense exports and technology dominance.\",\"added\":false},{\"ticker\":\"AVAV\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Comments on drone-defense systems and counter-drone tech align with AVAV's product focus.\",\"added\":false},{\"ticker\":\"KTOS\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Praise for counter-drone and laser weapon systems benefits KTOS as a key supplier in this space.\",\"added\":false}],\"summary\":\"The President's remarks broadly praise US military technology (lasers, counter-drone systems, missile defense) and record foreign sales, a mild positive for defense-sector equities though largely reiterating known themes.\"}"
+   }
+  }
+ ]
+}

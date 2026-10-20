@@ -1,0 +1,1409 @@
+{
+ "video": {
+  "id": "uUdwiR2s8JQ",
+  "url": "https://www.youtube.com/watch?v=uUdwiR2s8JQ",
+  "title": "The President Hosts a Cabinet Meeting, Oct. 9, 2025",
+  "channel": "The White House",
+  "duration": 4175.0,
+  "was_live": true,
+  "release_timestamp": 1760025117.0,
+  "upload_timestamp": 1760030352.0,
+  "upload_date": "20251009",
+  "label": "Hosts a Cabinet Meeting, Oct. 9, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1760025117.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 24,
+  "confirmed": 14,
+  "retracted": 10,
+  "unconfirmed": 0,
+  "llm_calls": 31
+ },
+ "signals": [
+  {
+   "signal_id": "uUdwiR2s8JQ:00357:iran",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 357.89076470588236,
+   "t_wall": 1760025474.8907647,
+   "t_wall_et": "2025-10-09T11:57:54.890765-04:00",
+   "segment_text": "And therefore, even if we signed a deal, there'd be a big dark cloud over it, and it wouldn't be the same thing. So Iran's different, but Iran wants to work on peace now.",
+   "context": "they can't even believe it. They're they're so they're amazed by it. A lot of people are. But it was just everything came together. I think the attack was very important on on Iran because, let's say that didn't happen. They'd probably by now have a nuclear weapon, numerous nuclear weapons. And therefore, even if we signed a deal, there'd be a big dark cloud over it, and it wouldn't be the same thing. So Iran's different, but Iran wants to work on peace now.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "attack was very important on Iran because they'd probably have nuclear weapons",
+    "summary": "The President credits military action on Iran with preventing nuclear weapons development; notes Iran now wants peace."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical tone suggests de-escalation with Iran, reducing supply-risk premium for energy but effect is minor and diffuse.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Signs of peace and Iran wanting to work on a deal reduce Middle East conflict risk premium priced into oil.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of past military action on Iran is not new information for defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Geopolitical tone suggests de-escalation with Iran, reducing supply-risk premium for energy but effect is minor and diffuse.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Signs of peace and Iran wanting to work on a deal reduce Middle East conflict risk premium priced into oil.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of past military action on Iran is not new information for defense contractors.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:00499:russia",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 499.0834426229508,
+   "t_wall": 1760025616.0834427,
+   "t_wall_et": "2025-10-09T12:00:16.083443-04:00",
+   "segment_text": "And the 1 that I thought would be maybe the quickest of all would be Russia, Ukraine, and I think that's gonna happen too.",
+   "context": "CIA, John Radcliffe, and he's done an incredible job. So I wanna thank you all. And if I'm missing anybody, I apologize, but you've been amazing. And then you have Steve Whitcuff who worked so hard. And you remember, we settled 7. This is number 8. We settled 7 wars or major conflicts, but wars. And this is number 8. And the 1 that I thought would be maybe the quickest of all would be Russia, Ukraine, and I think that's gonna happen too.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Russia, Ukraine, and I think that's gonna happen too.",
+    "summary": "The President expects Ukraine-Russia conflict resolution as his eighth major peace settlement."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General optimism about a possible Russia-Ukraine settlement is vague and repeats prior rhetoric without new terms.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new energy-specific policy or sanctions detail that would move energy stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely celebratory rhetoric about past peace deals and hope for a Russia-Ukraine settlement, offering no new concrete policy details, so price impact on RSX and XLE is minimal and non-directional.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General optimism about a possible Russia-Ukraine settlement is vague and repeats prior rhetoric without new terms.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new energy-specific policy or sanctions detail that would move energy stocks.\", \"added\": false}], \"summary\": \"The President's remarks are largely celebratory rhetoric about past peace deals and hope for a Russia-Ukraine settlement, offering no new concrete policy details, so price impact on RSX and XLE is minimal and non-directional.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:00601:pfe",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 601.2479999999999,
+   "t_wall": 1760025718.248,
+   "t_wall_et": "2025-10-09T12:01:58.248000-04:00",
+   "segment_text": "already had numerous Pfizer and other country companies have already signed, and",
+   "context": "In fact, 1 of the things we're doing is we're gonna be reducing the cost of medicines by a 100%, 200, 300, 500%, and even more than that. Because as you know, we're in the process of favored nations right now. We've exercised a clause because we were subsidizing the entire world. The entire world pays a fraction of what The United States has been paying. And we've already had numerous Pfizer and other country companies have already signed, and",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "Pfizer and other country companies have already signed",
+    "summary": "The President invokes favored nations clause to reduce medicine costs; Pfizer cited as signatory."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates favored-nations drug pricing push and cites Pfizer as having already agreed to price cuts, which pressures pharma margins.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated favored-nations pricing rhetoric, with Pfizer named as a signatory, is mildly negative for PFE though largely already known policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates favored-nations drug pricing push and cites Pfizer as having already agreed to price cuts, which pressures pharma margins.\", \"added\": false}], \"summary\": \"The President's repeated favored-nations pricing rhetoric, with Pfizer named as a signatory, is mildly negative for PFE though largely already known policy.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:00670:pharma",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 670.7991011235955,
+   "t_wall": 1760025787.799101,
+   "t_wall_et": "2025-10-09T12:03:07.799101-04:00",
+   "segment_text": "Think of that. It was barely a reduction. But it's the 1st time in 28 years that there was a reduction in drug prices for the year. So from the beginning to the end, it was 0.125",
+   "context": "big, tough shift. Very tough. We had a lot things going on today. But, you know, and you probably heard me say this in my 1st term. I think it was my 3rd year. We reduced drugs from 1 from the beginning of the year to the end of the year. And I was so proud of it. It I actually had a news conference to announce it, and it was 0.125 of 1%. Think of that. It was barely a reduction. But it's the 1st time in 28 years that there was a reduction in drug prices for the year. So from the beginning to the end, it was 0.125",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We reduced drugs from 1 from the beginning of the year to the end of the year.",
+    "summary": "The President claimed first drug price reduction in 28 years during first term."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated push to force lower US drug prices pressures healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF directly exposed to renewed rhetoric on cutting drug prices via international price parity.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large-cap pharma faces continued pricing pressure narrative, though nothing new announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General drug-pricing rhetoric is mildly negative but not company-specific or new.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat of long-standing threat to align US drug prices with foreign markets, modestly negative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President restated his longstanding push to cut US drug prices to match lower foreign prices, which is mildly negative for pharma sector sentiment but not new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated push to force lower US drug prices pressures healthcare sector sentiment.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-focused ETF directly exposed to renewed rhetoric on cutting drug prices via international price parity.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large-cap pharma faces continued pricing pressure narrative, though nothing new announced.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General drug-pricing rhetoric is mildly negative but not company-specific or new.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat of long-standing threat to align US drug prices with foreign markets, modestly negative.\", \"added\": false}], \"summary\": \"The President restated his longstanding push to cut US drug prices to match lower foreign prices, which is mildly negative for pharma sector sentiment but not new information.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:00694:eu",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "selling"
+   ],
+   "t_audio": 694.53,
+   "t_wall": 1760025811.53,
+   "t_wall_et": "2025-10-09T12:03:31.530000-04:00",
+   "segment_text": "Europe for",
+   "context": "Think of that. It was barely a reduction. But it's the 1st time in 28 years that there was a reduction in drug prices for the year. So from the beginning to the end, it was 0.125 of 1%. Percent. And I was so proud of myself. I did something that nobody else could do. But when I started to think about it, said, it doesn't make sense. And then I I'm starting to look at numbers where a pill or a treatment or some pharmaceutical product is selling in Europe for 10% of what we pay for in New York City or in any 1 of our places and",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "pill or treatment selling in Europe for 10% of what we pay",
+    "summary": "The President criticizes drug pricing disparity between Europe and US markets."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General criticism of European drug pricing without new tariff specifics is unlikely to move broad European equity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetoric repeated from prior speeches, minimal new information for eurozone equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Threat of tariffs tied to drug pricing is vague and reiterated, unlikely to materially affect broad eurozone index.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates familiar complaints about European drug pricing and threatens reciprocal tariffs without new specifics, making this mostly repeat rhetoric with limited immediate market impact on broad European ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VGK\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General criticism of European drug pricing without new tariff specifics is unlikely to move broad European equity ETF.\",\"added\":false},{\"ticker\":\"EZU\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same rhetoric repeated from prior speeches, minimal new information for eurozone equities broadly.\",\"added\":false},{\"ticker\":\"FEZ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Threat of tariffs tied to drug pricing is vague and reiterated, unlikely to materially affect broad eurozone index.\",\"added\":false}],\"summary\":\"The President reiterates familiar complaints about European drug pricing and threatens reciprocal tariffs without new specifics, making this mostly repeat rhetoric with limited immediate market impact on broad European ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:00791:health_ins",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 791.8728284112149,
+   "t_wall": 1760025908.8728285,
+   "t_wall_et": "2025-10-09T12:05:08.872828-04:00",
+   "segment_text": "And basically, we subsidized the world. So this is gonna have a huge positive impact on Medicare, Medicaid,",
+   "context": "And I'd make the tariff substantially more than the number we're talking about, and they would immediately agree. So we have the consent, think, Bobby, of every country, essentially. They know that if they don't do it, we're gonna put a tariff on for double the price, and then they're gonna do it. So we never had that before. You never had anybody in here that knew what the hell they were doing, I'll be honest. It really makes me angry because for years and years and this started many years ago. And basically, we subsidized the world. So this is gonna have a huge positive impact on Medicare, Medicaid,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "This is gonna have a huge positive impact on Medicare, Medicaid",
+    "summary": "The President predicts tariff policy will have large positive impact on Medicare."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about drug price cuts benefiting Medicare does not directly change insurer economics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated pharma pricing rhetoric has no clear direct financial effect on health insurers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments target drug pricing/tariffs, not insurer reimbursement or regulation.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicare Advantage insurer unaffected directly by drug price tariff rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates drug price reduction and tariff rhetoric, framing it as positive for Medicare broadly, but this is largely repeat rhetoric with no direct new financial mechanism for health insurers like UNH, CI, ELV, or HUM, so minimal price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about drug price cuts benefiting Medicare does not directly change insurer economics.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated pharma pricing rhetoric has no clear direct financial effect on health insurers.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments target drug pricing/tariffs, not insurer reimbursement or regulation.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Medicare Advantage insurer unaffected directly by drug price tariff rhetoric.\", \"added\": false}], \"summary\": \"The President reiterates drug price reduction and tariff rhetoric, framing it as positive for Medicare broadly, but this is largely repeat rhetoric with no direct new financial mechanism for health insurers like UNH, CI, ELV, or HUM, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:00844:uk",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 844.5,
+   "t_wall": 1760025961.5,
+   "t_wall_et": "2025-10-09T12:06:01.500000-04:00",
+   "segment_text": "in London",
+   "context": "You're gonna get the biggest drug reductions that you've ever seen. And they're already I guess, they're starting to kick in. But we've made deals with numerous companies where and we're we're going for the full bore. We want whatever the price is. So that would mean that the world price because the world is bigger than The United States, a lot more people, but the world price will go up a little bit and our price will come down a lot. So if a pill sells for $10 in London and a $100 here, The pill will go to $20 in London and $20 for us. It's pretty simple.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:01284:oil",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1284.215,
+   "t_wall": 1760026401.215,
+   "t_wall_et": "2025-10-09T12:13:21.215000-04:00",
+   "segment_text": "gasoline is gonna be I think gasoline is gonna be below $2",
+   "context": "And other people are coming in. And, you know, I wouldn't say it's an even trade. While the other side is focused on playing games, the administration is focused on creating jobs, bringing down prices, and we've really brought them down a lot. That's the other thing. We're bringing down prices a lot. We're bringing down grocery prices, but the big thing is energy. When you bring down energy, everything comes down. And the energy prices are way down. I see we're down to about $61 now a barrel. And what we're gasoline is gonna be I think gasoline is gonna be below $2",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "gasoline",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "gasoline is gonna be below $2",
+    "summary": "The President predicts gasoline prices will fall below $2 per gallon."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Falling oil/gasoline price rhetoric implies lower energy sector revenues.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Claims of falling oil to $61/barrel and gasoline under $2 imply lower crude prices tracked by USO.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower oil and gasoline prices would pressure integrated oil majors margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same lower-price dynamic weighs modestly on Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates familiar rhetoric about falling oil and gasoline prices, which is mildly negative for energy producers and oil-tracking ETFs but not new information.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Falling oil/gasoline price rhetoric implies lower energy sector revenues.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Claims of falling oil to $61/barrel and gasoline under $2 imply lower crude prices tracked by USO.\",\"added\":false},{\"ticker\":\"XOM\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Lower oil and gasoline prices would pressure integrated oil majors margins.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same lower-price dynamic weighs modestly on Chevron.\",\"added\":false}],\"summary\":\"The President reiterates familiar rhetoric about falling oil and gasoline prices, which is mildly negative for energy producers and oil-tracking ETFs but not new information.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:01287:defense_word",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1287.8854068965518,
+   "t_wall": 1760026404.885407,
+   "t_wall_et": "2025-10-09T12:13:24.885407-04:00",
+   "segment_text": "gasoline is gonna be I think gasoline is gonna be below $2",
+   "context": "While the other side is focused on playing games, the administration is focused on creating jobs, bringing down prices, and we've really brought them down a lot. That's the other thing. We're bringing down prices a lot. We're bringing down grocery prices, but the big thing is energy. When you bring down energy, everything comes down. And the energy prices are way down. I see we're down to about $61 now a barrel. And what we're gasoline is gonna be I think gasoline is gonna be below $2 at some point in the pretty near future. It's very low. Much lower than it was under",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:02233:defense_word",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 2233.4778973105135,
+   "t_wall": 1760027350.4778974,
+   "t_wall_et": "2025-10-09T12:29:10.477897-04:00",
+   "segment_text": "in addition to the military power to reorder the globe. Those 2 things that you're standing on, both economic power and military power, allowed these negotiations to go forward. And I I think as as you've described the importance of these economic negotiations and all the trade deals, but that also begins with another 180 degree turn, and that was a 180 degree turn on energy. You have used energy diplomacy",
+   "context": "peace through strength is also prosperity. Having the strongest economy and will being willing to wield the power of a tariff in addition to the military power to reorder the globe. Those 2 things that you're standing on, both economic power and military power, allowed these negotiations to go forward. And I I think as as you've described the importance of these economic negotiations and all the trade deals, but that also begins with another 180 degree turn, and that was a 180 degree turn on energy. You have used energy diplomacy",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.75,
+    "quote": "military power to reorder the globe",
+    "summary": "The President emphasizes military power as tool for global negotiations alongside economic tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about military strength without new policy or contract announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic defense strength rhetoric, no new spending or deal specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No company-specific or program-specific news, just broad peace-through-strength messaging.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric reiterates existing military posture without new procurement or budget details.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely celebratory rhetoric about US military and economic strength tied to Middle East peace deal, with no new defense budget, contract, or policy specifics, so defense stocks should see minimal abnormal reaction relative to SPY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about military strength without new policy or contract announcement.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic defense strength rhetoric, no new spending or deal specifics.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No company-specific or program-specific news, just broad peace-through-strength messaging.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric reiterates existing military posture without new procurement or budget details.\", \"added\": false}], \"summary\": \"The excerpt is largely celebratory rhetoric about US military and economic strength tied to Middle East peace deal, with no new defense budget, contract, or policy specifics, so defense stocks should see minimal abnormal reaction relative to SPY.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:02442:spacers",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "space force",
+   "text_span": "space force",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 2442.2093923404254,
+   "t_wall": 1760027559.2093923,
+   "t_wall_et": "2025-10-09T12:32:39.209392-04:00",
+   "segment_text": "my beautiful I call it our beautiful space force. I love our space force. It's turned out to be very important. But we couldn't get anybody to join. Nobody wanted to join, including our police and fire. They didn't wanna join anything.",
+   "context": "that will be pinning on their chest. So thank you for That's good. For renaming the department, and we're trying to live up to it every day. So thank you, sir. I mean, think of this. We have record numbers of recruitment. 1 year ago, there were stories, front page stories, that we couldn't get anybody to join the Army, Navy, Air Force, Marines, Coast Guard, my beautiful I call it our beautiful space force. I love our space force. It's turned out to be very important. But we couldn't get anybody to join. Nobody wanted to join, including our police and fire. They didn't wanna join anything.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Space Force",
+    "tickers": [
+     "RKLB",
+     "ARKX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "I love our space force. It's turned out to be very important.",
+    "summary": "The President praises Space Force as important and notes strong recruitment."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RKLB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of Space Force recruitment is not a specific policy or contract signal for Rocket Lab.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARKX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Space-themed ETF unaffected by generic Space Force praise absent any funding or program specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic praise for military/Space Force recruitment with no new policy, contract, or funding details, so limited tradable impact on RKLB or ARKX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RKLB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of Space Force recruitment is not a specific policy or contract signal for Rocket Lab.\", \"added\": false}, {\"ticker\": \"ARKX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Space-themed ETF unaffected by generic Space Force praise absent any funding or program specifics.\", \"added\": false}], \"summary\": \"The President's remarks are generic praise for military/Space Force recruitment with no new policy, contract, or funding details, so limited tradable impact on RKLB or ARKX.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:02782:health_ins",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 2782.693031372549,
+   "t_wall": 1760027899.6930313,
+   "t_wall_et": "2025-10-09T12:38:19.693031-04:00",
+   "segment_text": "It immediately begins to affect Medicaid, Medicare,",
+   "context": "accolades on the Mideast peace agreement. You should also get bipartisan accolades on the MFN agreement. It is a historic agreement that's gonna benefit every hardworking American. It's gonna lower the price of drugs for every American. By the time by by the time this administration is over, we will have 95% of the drugs in this country will be will be the lowest price in the world. It immediately begins to affect Medicaid, Medicare,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "MFN agreement will lower the price of drugs. Immediately begins to affect Medicaid, Medicare.",
+    "summary": "The President claims MFN drug pricing agreement will lower drug prices and immediately affect Medicaid and Medicare."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "MFN drug pricing mainly targets manufacturers, not insurers, so direct impact on UNH is unclear.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower drug prices could reduce PBM spread revenue but effect is ambiguous for Cigna.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct new policy affecting Elevance's insurance business beyond restated MFN rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicare Advantage-focused Humana sees mixed exposure from drug pricing changes, no clear direction.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates the previously announced MFN drug pricing deal, which mainly pressures pharma manufacturers; effect on health insurers UNH, CI, ELV, HUM is ambiguous and largely already priced in.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"MFN drug pricing mainly targets manufacturers, not insurers, so direct impact on UNH is unclear.\", \"added\": false},\n{\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower drug prices could reduce PBM spread revenue but effect is ambiguous for Cigna.\", \"added\": false},\n{\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct new policy affecting Elevance's insurance business beyond restated MFN rhetoric.\", \"added\": false},\n{\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Medicare Advantage-focused Humana sees mixed exposure from drug pricing changes, no clear direction.\", \"added\": false}\n],\n\"summary\": \"The President reiterates the previously announced MFN drug pricing deal, which mainly pressures pharma manufacturers; effect on health insurers UNH, CI, ELV, HUM is ambiguous and largely already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:02874:kvue",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "kvue",
+   "entity": "Kenvue (Tylenol)",
+   "kind": "company",
+   "alias": "tylenol",
+   "text_span": "Tylenol",
+   "dict_tickers": [
+    "KVUE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2874.5462903225807,
+   "t_wall": 1760027991.5462904,
+   "t_wall_et": "2025-10-09T12:39:51.546290-04:00",
+   "segment_text": "and you should be getting bipartisan accolades on that. I'll say 1 other thing about Tylenol, but only because of this. This",
+   "context": "You did it in a way which you asked us to do, to negotiate in a way that was not gonna stifle innovation, that was gonna make sure that those companies could bring their production home, and they are doing that. And it was a profound success. It will affect every American for 100 years, and you should be getting bipartisan accolades on that. I'll say 1 other thing about Tylenol, but only because of this. This morning before I came in here, somebody showed me a TikTok video",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:02880:tiktok",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "tiktok",
+   "entity": "TikTok",
+   "kind": "company",
+   "alias": "tiktok",
+   "text_span": "TikTok",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2880.93008125,
+   "t_wall": 1760027997.9300814,
+   "t_wall_et": "2025-10-09T12:39:57.930081-04:00",
+   "segment_text": "morning before I came in here, somebody showed me a TikTok video",
+   "context": "that was not gonna stifle innovation, that was gonna make sure that those companies could bring their production home, and they are doing that. And it was a profound success. It will affect every American for 100 years, and you should be getting bipartisan accolades on that. I'll say 1 other thing about Tylenol, but only because of this. This morning before I came in here, somebody showed me a TikTok video of a pregnant woman at 8 months pregnant. She is an associate professor at the Columbia Medical School,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03095:vaccines",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccines",
+   "text_span": "vaccines",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3095.1302631578947,
+   "t_wall": 1760028212.130263,
+   "t_wall_et": "2025-10-09T12:43:32.130263-04:00",
+   "segment_text": "the vaccines in terms of these massive",
+   "context": "This is a national security issue. There is nothing more important, and I'm glad I'm grateful to you for president, because you know the flack that you take for even talking about this issue. You've shown courage and you've shown leadership, and I can't thank you enough for letting me do this work. Thank you. So think of that, 1 in 20000, and now it's 1 in 12 for boys, 1 in 18, 19 for girls. Obviously, there's something there's something that's artificially, I think, induced, something whether it's the vaccines in terms of these massive",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Vaccine makers",
+    "tickers": [
+     "PFE",
+     "MRNA",
+     "NVAX"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "something artificially, I think, induced, something whether it's the vaccines",
+    "summary": "The President suggests vaccines may be artificially inducing autism spectrum disorder in children."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed vaccine-autism criticism from the President reinforces regulatory/reputational risk for major vaccine maker Pfizer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRNA",
+      "direction": "down",
+      "confidence": 0.62,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Moderna is heavily reliant on mRNA vaccine sales and is most exposed to vaccine-skepticism rhetoric from the administration.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVAX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a smaller vaccine-focused company, Novavax faces similar sentiment risk from anti-vaccine rhetoric though less direct exposure than mRNA makers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated unsubstantiated claims linking vaccines to rising autism rates, reinforcing negative sentiment toward vaccine manufacturers, especially mRNA-focused firms like Moderna, though this restates known rhetoric rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed vaccine-autism criticism from the President reinforces regulatory/reputational risk for major vaccine maker Pfizer.\", \"added\": false}, {\"ticker\": \"MRNA\", \"direction\": \"down\", \"confidence\": 0.62, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Moderna is heavily reliant on mRNA vaccine sales and is most exposed to vaccine-skepticism rhetoric from the administration.\", \"added\": false}, {\"ticker\": \"NVAX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a smaller vaccine-focused company, Novavax faces similar sentiment risk from anti-vaccine rhetoric though less direct exposure than mRNA makers.\", \"added\": false}], \"summary\": \"The President repeated unsubstantiated claims linking vaccines to rising autism rates, reinforcing negative sentiment toward vaccine manufacturers, especially mRNA-focused firms like Moderna, though this restates known rhetoric rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03135:kvue",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "kvue",
+   "entity": "Kenvue (Tylenol)",
+   "kind": "company",
+   "alias": "tylenol",
+   "text_span": "Tylenol",
+   "dict_tickers": [
+    "KVUE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3135.6426666666666,
+   "t_wall": 1760028252.6426666,
+   "t_wall_et": "2025-10-09T12:44:12.642667-04:00",
+   "segment_text": "And some other things and but I would say don't take Tylenol",
+   "context": "And I've suggested get them in doses, get them in, you know, maybe 20%, 30%, but smaller, not such a big I think, you know, that and we had certain recommendations, the MMR, take them separately. The measles is already separate now, and it works out much better. But there doesn't seem to be any impact if you take it separately. If you take it as a combination, it's not so great. And some other things and but I would say don't take Tylenol",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Tylenol (Kenvue)",
+    "tickers": [
+     "KVUE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "don't take Tylenol",
+    "summary": "The President advises against taking Tylenol, suggesting timing concerns with vaccines."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "KVUE",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President repeats prior warnings against Tylenol use during pregnancy/infancy, reinforcing negative sentiment around Kenvue's flagship brand.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates unproven claims linking Tylenol to autism and advises against its use, which is negative for Kenvue though largely a repeat of earlier public statements.",
+    "raw": "{\"tickers\":[{\"ticker\":\"KVUE\",\"direction\":\"down\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President repeats prior warnings against Tylenol use during pregnancy/infancy, reinforcing negative sentiment around Kenvue's flagship brand.\",\"added\":false}],\"summary\":\"The President reiterates unproven claims linking Tylenol to autism and advises against its use, which is negative for Kenvue though largely a repeat of earlier public statements.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03429:health_ins",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "obamacare",
+   "text_span": "Obamacare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "subsidies"
+   ],
+   "t_audio": 3429.67375,
+   "t_wall": 1760028546.67375,
+   "t_wall_et": "2025-10-09T12:49:06.673750-04:00",
+   "segment_text": "there's a majority support for a temporary extension of the Obamacare subsidies,",
+   "context": "Arab Arab countries, Muslim countries. Ever I've never seen anything like it. Everybody is happy. It's been really amazing. Thank you. The President, the international peacekeeping force that's going to deploy to Gaza soon, do you expect that Pakistan, Turkey, other countries to contribute forces? Have has that become firmed up? Also, the shutdown, it seems like in the house, there's a majority support for a temporary extension of the Obamacare subsidies, perhaps minus the funds for illegal immigrants. Is that how you see the deal to end the shutdown happening? I see the deal just getting extended as we continue to talk. But we're willing to pay because we're paying. You know, it's very simple. We're paying.",
+   "speaker": 14,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03730:ups",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "ups",
+   "entity": "UPS",
+   "kind": "company",
+   "alias": "ups",
+   "text_span": "ups",
+   "dict_tickers": [
+    "UPS"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 3730.183125,
+   "t_wall": 1760028847.183125,
+   "t_wall_et": "2025-10-09T12:54:07.183125-04:00",
+   "segment_text": "we're all people. We're grown ups. We understand",
+   "context": "I don't think he did it for that reason. Okay? But I think just looking as an analyst would look at this, I think it's been I think BP should be very popular right now. Yeah, please. What will happen if Hamas says that it cannot locate or was not able to find all of the deceased hostages bodies within the Well, we'll have to see. I think that's gonna be it's largely been answered. We know where most of them are. Actually, the the bodies are a bigger problem because some of the bodies are gonna be a little bit hard to find. It's a terrible thing to discuss even, but you understand. We're all we're all people. We're grown ups. We understand life. Nobody can understand this stuff because that this could have taken place. But",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03875:china",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "president xi",
+   "text_span": "president Xi",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "export",
+    "export controls"
+   ],
+   "t_audio": 3875.301037735849,
+   "t_wall": 1760028992.3010378,
+   "t_wall_et": "2025-10-09T12:56:32.301038-04:00",
+   "segment_text": "You're meeting with president Xi. The Chinese have now set to put in new export controls on rare minerals,",
+   "context": "They had certain things in common, but they had a lot of things, mostly things that were not at all common to their countries. So we have a we had a very smart group of people. These are high IQ people. Okay? You know, I talk about how many low IQ people we have in our government. We got some real low ones, but some shockingly low. But these are very high IQ people, and that's what we want. I like high IQ people. Yeah. Mister president, Bank of Can I ask you about the China? You're meeting with president Xi. The Chinese have now set to put in new export controls on rare minerals,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03919:farmers",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "soybeans",
+   "text_span": "soybeans",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3919.005944117647,
+   "t_wall": 1760029036.005944,
+   "t_wall_et": "2025-10-09T12:57:16.005944-04:00",
+   "segment_text": "I'm sure we'll be able to handle it. Could I ask you about the soybeans? What is the plan to help farmers? Is it direct checks? Is it tax? Have you sorted that out yet? Well, what happens with soybeans is",
+   "context": "export I mean, look, we have the ultimate export. We have we have import, and we have export. We import from China massive amounts and, you know, maybe we'll have to stop doing that. But I don't know exactly what it is, neither do you, neither does anybody. It's a little bit soon. I just heard about it. So Scott and Howard will figure that out, and I'm sure we'll be able to handle it. Could I ask you about the soybeans? What is the plan to help farmers? Is it direct checks? Is it tax? Have you sorted that out yet? Well, what happens with soybeans is",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:03937:china",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "deal"
+   ],
+   "t_audio": 3937.7365932203393,
+   "t_wall": 1760029054.7365932,
+   "t_wall_et": "2025-10-09T12:57:34.736593-04:00",
+   "segment_text": "we're gonna see more and more, I think, opening up. And part of the reason that we'll be discuss he's got things that he wants to discuss with me, and I have things that I wanna discuss with him. And 1 of the things is soybeans. I had a great deal with China where they would buy $50,000,000,000",
+   "context": "neither do you, neither does anybody. It's a little bit soon. I just heard about it. So Scott and Howard will figure that out, and I'm sure we'll be able to handle it. Could I ask you about the soybeans? What is the plan to help farmers? Is it direct checks? Is it tax? Have you sorted that out yet? Well, what happens with soybeans is we're gonna see more and more, I think, opening up. And part of the reason that we'll be discuss he's got things that he wants to discuss with me, and I have things that I wanna discuss with him. And 1 of the things is soybeans. I had a great deal with China where they would buy $50,000,000,000",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "great deal with China where they would buy $50,000,000,000",
+    "summary": "The President references prior agricultural trade deal with China for $50 billion in purchases."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Escalating trade friction (China rare earth controls, soybean purchase halt, threat to cut imports) is a mild negative for China equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same broad China trade tension overhang applies to this China ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark centers on rare earths and agriculture, not directly relevant to Chinese internet/tech names.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Escalating trade friction (China rare earth controls, soybean purchase halt, threat to cut imports) is a mild negative for China equities broadly.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Same broad China trade tension overhang applies to this China ETF.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remark centers on rare earths and agriculture, not directly relevant to Chinese internet/tech names.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:04011:farmers",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 4011.199770967742,
+   "t_wall": 1760029128.199771,
+   "t_wall_et": "2025-10-09T12:58:48.199771-04:00",
+   "segment_text": "And the farm you remember I said to the farmers, buy larger tractors and more land. And that's exactly what happened. They did well. But we we do suffer. I'd like you to discuss that maybe for a 2nd, Brooke. Sure. Very quickly, by the way. Yes, But",
+   "context": "we you know, it's it's hard to go back after 4 years of of nobody calling them. But I used to call them every 2 weeks. I'd say, you know, you're a little or I I appreciate it. But oftentimes, I'd say, thank you very much. You are totally adhering to the agreement. But we had an agreement they would buy $50,000,000,000 worth of our product, mostly farm product. And the farm you remember I said to the farmers, buy larger tractors and more land. And that's exactly what happened. They did well. But we we do suffer. I'd like you to discuss that maybe for a 2nd, Brooke. Sure. Very quickly, by the way. Yes, But",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.85,
+    "quote": "I said to the farmers, buy larger tractors and more land.",
+    "summary": "The President encouraged farmers to expand during trade agreement period benefiting agriculture."
+   },
+   "llm_attempts": 1,
+   "count": 11,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General reminiscing about past China ag deal, no new policy for broad commodities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new fertilizer-specific policy mentioned, just historical trade commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about farmers buying larger tractors is anecdotal past advice, not a new subsidy or order.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new China purchase commitment revealed, just historical complaint about non-adherence.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Highlighting China's failure to buy agreed soybean/farm product volumes signals ongoing trade friction weighing on soy exports.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Discussion is about past deficit/deal history, not a new near-term catalyst for ADM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President mostly recounted historical China trade deal shortfalls and blamed Biden for the farm deficit, offering no new concrete policy or purchase commitments, so most ag-linked tickers see negligible price impact aside from a mild negative read for soybean exporters given emphasis on unmet China purchase quotas.",
+    "raw": "{\"tickers\":[\n{\"ticker\":\"DBA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General reminiscing about past China ag deal, no new policy for broad commodities.\",\"added\":false},\n{\"ticker\":\"MOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new fertilizer-specific policy mentioned, just historical trade commentary.\",\"added\":false},\n{\"ticker\":\"DE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment about farmers buying larger tractors is anecdotal past advice, not a new subsidy or order.\",\"added\":false},\n{\"ticker\":\"CORN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new China purchase commitment revealed, just historical complaint about non-adherence.\",\"added\":false},\n{\"ticker\":\"SOYB\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Highlighting China's failure to buy agreed soybean/farm product volumes signals ongoing trade friction weighing on soy exports.\",\"added\":false},\n{\"ticker\":\"ADM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Discussion is about past deficit/deal history, not a new near-term catalyst for ADM.\",\"added\":false}\n],\n\"summary\":\"The President mostly recounted historical China trade deal shortfalls and blamed Biden for the farm deficit, offering no new concrete policy or purchase commitments, so most ag-linked tickers see negligible price impact aside from a mild negative read for soybean exporters given emphasis on unmet China purchase quotas.\"}"
+   }
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:04081:fed",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4081.583695652174,
+   "t_wall": 1760029198.5836957,
+   "t_wall_et": "2025-10-09T12:59:58.583696-04:00",
+   "segment_text": "It includes interest rates. It includes labor.",
+   "context": "although certainly the China part is part of that. But we inherited a slew of issues. 1st of all, as the president said, when we left the President 1, we had an agriculture trade surplus. When we came back for the President 2, was a $50,000,000,000 ag deficit. That isn't everything. That's just agriculture. The 2nd part is the cost of inputs for our farmers increased on average between 3038%, but that includes fertilizer. It includes fuel. It includes interest rates. It includes labor. All of this came about under Joe Biden, a 47%",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "uUdwiR2s8JQ:04091:nvo",
+   "video_id": "uUdwiR2s8JQ",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "novo nordisk",
+   "text_span": "Novo Nordisk",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4091.5030647887324,
+   "t_wall": 1760029208.5030649,
+   "t_wall_et": "2025-10-09T13:00:08.503065-04:00",
+   "segment_text": "increase in the cost of labor that now secretary Chavez Deere and Novo Nordisk are working on. Fuel is coming down. Thank you. Interest rates,",
+   "context": "When we came back for the President 2, was a $50,000,000,000 ag deficit. That isn't everything. That's just agriculture. The 2nd part is the cost of inputs for our farmers increased on average between 3038%, but that includes fertilizer. It includes fuel. It includes interest rates. It includes labor. All of this came about under Joe Biden, a 47% increase in the cost of labor that now secretary Chavez Deere and Novo Nordisk are working on. Fuel is coming down. Thank you. Interest rates,",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

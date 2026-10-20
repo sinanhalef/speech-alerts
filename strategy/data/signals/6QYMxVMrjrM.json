@@ -1,0 +1,2072 @@
+{
+ "video": {
+  "id": "6QYMxVMrjrM",
+  "url": "https://www.youtube.com/watch?v=6QYMxVMrjrM",
+  "title": "The President Meets with U.S. Travel Executives",
+  "channel": "The White House",
+  "duration": 3050.0,
+  "was_live": true,
+  "release_timestamp": 1788371047.0,
+  "upload_timestamp": 1788374482.0,
+  "upload_date": "20260902",
+  "label": "Meets with U.S. travel executives",
+  "group": "recent",
+  "notes": "",
+  "t0": 1788371047.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 35,
+  "confirmed": 26,
+  "retracted": 9,
+  "unconfirmed": 0,
+  "llm_calls": 35
+ },
+ "signals": [
+  {
+   "signal_id": "6QYMxVMrjrM:00040:aal",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "aal",
+   "entity": "American Airlines",
+   "kind": "company",
+   "alias": "american airlines",
+   "text_span": "American Airlines",
+   "dict_tickers": [
+    "AAL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 40.80295490909091,
+   "t_wall": 1788371087.802955,
+   "t_wall_et": "2026-09-02T13:44:47.802955-04:00",
+   "segment_text": "from great companies like American Airlines,",
+   "context": "time in our country's history, frankly. And today, I'm thrilled to welcome some of our nation's top leaders in the travel industry to celebrate the record setting summer of travel in The USA. It's a total record we've had. The country is thriving. These are the men and women who helped make our country the greatest travel destination anywhere in the world. I've known them in private life, many of them, and, they're tremendously talented people. I wanna thank president and CEO of the US Travel Association, Jeff Freeman, along with executives from great companies like American Airlines,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "American Airlines",
+    "tickers": [
+     "AAL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "executives from great companies like American Airlines",
+    "summary": "The President praised American Airlines as part of travel industry leaders celebrating record summer travel."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President's general praise of American Airlines amid record travel stats is mildly positive but non-specific rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are ceremonial praise for travel industry leaders including American Airlines, with no new policy or numbers specific to the company, implying only a small, low-conviction positive drift.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President's general praise of American Airlines amid record travel stats is mildly positive but non-specific rhetoric.\", \"added\": false}], \"summary\": \"The President's remarks are ceremonial praise for travel industry leaders including American Airlines, with no new policy or numbers specific to the company, implying only a small, low-conviction positive drift.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:00643:airlines",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "airlines",
+   "entity": "Airlines",
+   "kind": "sector",
+   "alias": "air traffic control",
+   "text_span": "air traffic control",
+   "dict_tickers": [
+    "JETS",
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 643.899540229885,
+   "t_wall": 1788371690.8995402,
+   "t_wall_et": "2026-09-02T13:54:50.899540-04:00",
+   "segment_text": "we got 12,500,000,000 for air traffic control, and there's been no greater supporter of",
+   "context": "the celebration of her birthday on the July 4, a lot of people came to DC for for the for the Grand Prix, the Indy cars. But it's a time that we travel whether it's with business or families, but it's a time that families can spend together whether it's in the car and going to see our great great national parks, or going to a theme park. Just a lot a lot of opportunities for us to put our phones down and spend time together. If I can make 1 comment, we got 12,500,000,000 for air traffic control, and there's been no greater supporter of",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Airlines",
+    "tickers": [
+     "JETS",
+     "DAL",
+     "UAL",
+     "AAL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "got 12,500,000,000 for air traffic control",
+    "summary": "The President secured $12.5 billion in funding for air traffic control infrastructure."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "JETS",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated $12.5B air traffic control investment is modestly positive for airline sector sentiment but already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DAL",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Improved ATC infrastructure and praise for travel industry marginally benefits major airlines like Delta.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UAL",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive but non-specific travel/ATC comments provide slight tailwind for United.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AAL",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General optimism about travel and ATC funding is mildly supportive but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated the previously announced $12.5B air traffic control funding and praised the travel industry, a mildly positive but largely already-known development for airline stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"JETS\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated $12.5B air traffic control investment is modestly positive for airline sector sentiment but already known.\", \"added\": false}, {\"ticker\": \"DAL\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Improved ATC infrastructure and praise for travel industry marginally benefits major airlines like Delta.\", \"added\": false}, {\"ticker\": \"UAL\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive but non-specific travel/ATC comments provide slight tailwind for United.\", \"added\": false}, {\"ticker\": \"AAL\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General optimism about travel and ATC funding is mildly supportive but not new information.\", \"added\": false}], \"summary\": \"The President reiterated the previously announced $12.5B air traffic control funding and praised the travel industry, a mildly positive but largely already-known development for airline stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:00873:ai_word",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 873.4834615384615,
+   "t_wall": 1788371920.4834616,
+   "t_wall_et": "2026-09-02T13:58:40.483462-04:00",
+   "segment_text": "both AI, but of course, the AI infrastructure, but also reshoring",
+   "context": "The World Cup was extraordinary. The the Indy Cup here in my hometown was extraordinary. That was fabulous. But I think the bigger story, which you you should be proud of and we would like to thank you, is as a result of the most favorable regulatory policy that we've seen probably in a generation, most favorable tax policy that we've seen in modern times. An investment cycle that is simply breathtaking, both AI, but of course, the AI infrastructure, but also reshoring",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "investment cycle that is simply breathtaking, both AI",
+    "summary": "The President praises AI as part of extraordinary investment cycle under favorable regulatory and tax policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of AI investment cycle is positive sentiment but repeats known policy stance without new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI/semiconductor sector commentary is favorable but non-specific and already priced into sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely generic praise of the economy and AI-driven investment cycle at a travel industry event, offering no new policy details, so expected market impact on NVDA and SMH is minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of AI investment cycle is positive sentiment but repeats known policy stance without new specifics.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI/semiconductor sector commentary is favorable but non-specific and already priced into sentiment.\", \"added\": false}], \"summary\": \"The President's remarks are largely generic praise of the economy and AI-driven investment cycle at a travel industry event, offering no new policy details, so expected market impact on NVDA and SMH is minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01073:hmc",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "hmc",
+   "entity": "Honda",
+   "kind": "company",
+   "alias": "honda",
+   "text_span": "Honda",
+   "dict_tickers": [
+    "HMC"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tariffs"
+   ],
+   "t_audio": 1073.1246765363128,
+   "t_wall": 1788372120.1246765,
+   "t_wall_et": "2026-09-02T14:02:00.124676-04:00",
+   "segment_text": "A lot of it is because of the tariffs, because people, don't wanna pay tariffs, so they build their plants here. Honda just announced they're coming in with a big 1. Monster. Big.",
+   "context": "what's happening is amazing. It's not really covered properly, but it's something that's never happened before. The new number, cause I've been saying 19,200,000,000,000 for a while, but the new number's coming out. It's gonna be over $20,000,000,000,000 is being invested in The United States. There's never been a country even close to that number. A lot of it is because of the tariffs, because people, don't wanna pay tariffs, so they build their plants here. Honda just announced they're coming in with a big 1. Monster. Big.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Honda",
+    "tickers": [
+     "HMC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Honda just announced they're coming in with a big one. Monster. Big.",
+    "summary": "Honda announced a major plant investment in the US, attributed to tariff policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HMC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President highlights Honda's large new US plant investment, a positive domestic commitment though possibly already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised Honda's major new US investment tied to tariff avoidance, a modestly positive signal for HMC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HMC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President highlights Honda's large new US plant investment, a positive domestic commitment though possibly already known.\", \"added\": false}], \"summary\": \"The President praised Honda's major new US investment tied to tariff avoidance, a modestly positive signal for HMC.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01077:autos",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tariffs"
+   ],
+   "t_audio": 1077.6973796791444,
+   "t_wall": 1788372124.6973796,
+   "t_wall_et": "2026-09-02T14:02:04.697380-04:00",
+   "segment_text": "We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back.",
+   "context": "properly, but it's something that's never happened before. The new number, cause I've been saying 19,200,000,000,000 for a while, but the new number's coming out. It's gonna be over $20,000,000,000,000 is being invested in The United States. There's never been a country even close to that number. A lot of it is because of the tariffs, because people, don't wanna pay tariffs, so they build their plants here. Honda just announced they're coming in with a big 1. Monster. Big. We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "many car companies that are coming in from Canada",
+    "summary": "Multiple automakers investing in US plants due to tariff incentives."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General remarks on automakers investing in US plants don't specifically single out GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Ford not specifically mentioned; broad tariff/investment rhetoric already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new detail about Stellantis, just general foreign automaker relocation talk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned or affected by this remark on legacy automaker plant investments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad positive tone on foreign automakers building US plants due to tariffs is mildly bullish for the auto sector ETF.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks reiterate known tariff-driven trend of foreign automakers building US plants, offering mild sector-wide positivity for autos (CARZ) but no new firm-specific catalysts for GM, F, STLA, or TSLA.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General remarks on automakers investing in US plants don't specifically single out GM.\",\"added\":false},{\"ticker\":\"F\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Ford not specifically mentioned; broad tariff/investment rhetoric already known.\",\"added\":false},{\"ticker\":\"STLA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific new detail about Stellantis, just general foreign automaker relocation talk.\",\"added\":false},{\"ticker\":\"TSLA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Not mentioned or affected by this remark on legacy automaker plant investments.\",\"added\":false},{\"ticker\":\"CARZ\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad positive tone on foreign automakers building US plants due to tariffs is mildly bullish for the auto sector ETF.\",\"added\":true}],\"summary\":\"The President's remarks reiterate known tariff-driven trend of foreign automakers building US plants, offering mild sector-wide positivity for autos (CARZ) but no new firm-specific catalysts for GM, F, STLA, or TSLA.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01079:canada",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1079.4581818181819,
+   "t_wall": 1788372126.4581819,
+   "t_wall_et": "2026-09-02T14:02:06.458182-04:00",
+   "segment_text": "We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back.",
+   "context": "properly, but it's something that's never happened before. The new number, cause I've been saying 19,200,000,000,000 for a while, but the new number's coming out. It's gonna be over $20,000,000,000,000 is being invested in The United States. There's never been a country even close to that number. A lot of it is because of the tariffs, because people, don't wanna pay tariffs, so they build their plants here. Honda just announced they're coming in with a big 1. Monster. Big. We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.88,
+    "quote": "they took them from us, and now we're getting them back",
+    "summary": "The President criticizes Canada and references tariff-driven repatriation of automotive production."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that tariffs are pulling auto production out of Canada, a mild negative for Canadian equities/ETF sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize tariff-driven repatriation of auto manufacturing from Canada, which is a mild negative signal for Canadian industry represented by EWC, though this is largely repeated rhetoric rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that tariffs are pulling auto production out of Canada, a mild negative for Canadian equities/ETF sentiment.\", \"added\": false}], \"summary\": \"The President's remarks emphasize tariff-driven repatriation of auto manufacturing from Canada, which is a mild negative signal for Canadian industry represented by EWC, though this is largely repeated rhetoric rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01090:korea",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1090.7966925581395,
+   "t_wall": 1788372137.7966926,
+   "t_wall_et": "2026-09-02T14:02:17.796693-04:00",
+   "segment_text": "if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "context": "We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back. They're coming in from Mexico, from if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.88,
+    "quote": "they're coming in from South Korea",
+    "summary": "Car companies from South Korea entering US market amid tariff context."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentioning Korean automakers building US plants due to tariffs is neutral-to-mixed for broad Korea ETF, reflecting existing known dynamics rather than new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks tout record US investment and tariff-driven plant relocations including from South Korea, but this restates known trends without new firm-specific or country-specific catalysts, so effect on EWY is ambiguous and likely muted.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentioning Korean automakers building US plants due to tariffs is neutral-to-mixed for broad Korea ETF, reflecting existing known dynamics rather than new policy.\", \"added\": false}], \"summary\": \"The President's remarks tout record US investment and tariff-driven plant relocations including from South Korea, but this restates known trends without new firm-specific or country-specific catalysts, so effect on EWY is ambiguous and likely muted.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01093:japan",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1093.4620532558138,
+   "t_wall": 1788372140.4620533,
+   "t_wall_et": "2026-09-02T14:02:20.462053-04:00",
+   "segment_text": "if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "context": "We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back. They're coming in from Mexico, from if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.88,
+    "quote": "coming in from Japan",
+    "summary": "Japanese car companies entering US market alongside other foreign makers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General mention of Japanese carmakers building US plants is repeat rhetoric with no new policy detail affecting Japan ETF broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general investment and tariff rhetoric with no new specific policy affecting Japan; effect on EWJ is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General mention of Japanese carmakers building US plants is repeat rhetoric with no new policy detail affecting Japan ETF broadly.\", \"added\": false}], \"summary\": \"The President's remarks reiterate general investment and tariff rhetoric with no new specific policy affecting Japan; effect on EWJ is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01094:germany",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1094.6043506976744,
+   "t_wall": 1788372141.6043508,
+   "t_wall_et": "2026-09-02T14:02:21.604351-04:00",
+   "segment_text": "if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "context": "We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back. They're coming in from Mexico, from if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.88,
+    "quote": "coming in from Germany",
+    "summary": "German car companies entering US market amid automotive sector changes."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about German automakers building US plants is not new tariff news and has ambiguous net effect on German equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate repeat rhetoric about record US investment and tariffs pushing foreign automakers to build domestically, with no new specific policy on Germany, so the effect on EWG is ambiguous and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about German automakers building US plants is not new tariff news and has ambiguous net effect on German equities broadly.\", \"added\": false}], \"summary\": \"The President's remarks reiterate repeat rhetoric about record US investment and tariffs pushing foreign automakers to build domestically, with no new specific policy on Germany, so the effect on EWG is ambiguous and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01098:china",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1098.7927746511627,
+   "t_wall": 1788372145.7927747,
+   "t_wall_et": "2026-09-02T14:02:25.792775-04:00",
+   "segment_text": "if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "context": "We have many car companies that are coming in from Canada. As you probably have been reading, they're not thrilled, but, you know, they took them from us, and now we're getting them back. They're coming in from Mexico, from if you take a look at South Korea, they're coming in from South Korea, Japan, and also from Germany. We have a lot of car plants going up. AI is going up. We're leading China in AI very substantially. By the way, we have the president of China coming on the 24th. That'll be very exciting. It'd be great. Love to love to have him. We have a lot of good things to discuss. Very, very productive things to discuss with president Xi.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "president of China coming on the 24th, very productive things to discuss",
+    "summary": "The President hosting Chinese president Xi for trade and diplomatic discussions."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Announcement of upcoming productive talks with Xi suggests reduced trade tension risk, mildly positive for China large-caps.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Same rationale as FXI, positive sentiment on upcoming US-China summit.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Improved US-China diplomatic tone could ease regulatory/tariff overhang on Chinese internet stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of a friendly, productive upcoming meeting with Xi is a mild positive catalyst for China-exposed ETFs, though most of the speech focuses on domestic investment unrelated to these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Announcement of upcoming productive talks with Xi suggests reduced trade tension risk, mildly positive for China large-caps.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Same rationale as FXI, positive sentiment on upcoming US-China summit.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Improved US-China diplomatic tone could ease regulatory/tariff overhang on Chinese internet stocks.\", \"added\": false}], \"summary\": \"The President's mention of a friendly, productive upcoming meeting with Xi is a mild positive catalyst for China-exposed ETFs, though most of the speech focuses on domestic investment unrelated to these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01143:lly",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "lly",
+   "entity": "Eli Lilly",
+   "kind": "company",
+   "alias": "eli lilly",
+   "text_span": "Eli Lilly",
+   "dict_tickers": [
+    "LLY"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 1143.9125423728815,
+   "t_wall": 1788372190.9125423,
+   "t_wall_et": "2026-09-02T14:03:10.912542-04:00",
+   "segment_text": "It's incredible what's happening with our country. And I guess it's not covered as much as it should, but it it will be covering. And when the you see the construction numbers, you see the construction workers, but soon you're gonna see the people that work in the car plants and factories. And as an example, Eli Lilly announced they're building 5 major",
+   "context": "$20,000,000,000,000 of investment is coming in. And the other number was by China many years ago, the the previous record, but this is a record that's 5 times greater. It's incredible what's happening with our country. And I guess it's not covered as much as it should, but it it will be covering. And when the you see the construction numbers, you see the construction workers, but soon you're gonna see the people that work in the car plants and factories. And as an example, Eli Lilly announced they're building 5 major",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Eli Lilly",
+    "tickers": [
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Eli Lilly announced they're building 5 major",
+    "summary": "Eli Lilly announced major factory construction expansion in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LLY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive mention of already-announced US manufacturing expansion is mildly supportive but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Eli Lilly's US plant investments is positive but reiterates previously known plans, limiting incremental price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LLY\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive mention of already-announced US manufacturing expansion is mildly supportive but not new information.\", \"added\": false}], \"summary\": \"The President's praise of Eli Lilly's US plant investments is positive but reiterates previously known plans, limiting incremental price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01156:mrk",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "mrk",
+   "entity": "Merck",
+   "kind": "company",
+   "alias": "merck",
+   "text_span": "Merck",
+   "dict_tickers": [
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 1156.3754385964912,
+   "t_wall": 1788372203.3754387,
+   "t_wall_et": "2026-09-02T14:03:23.375439-04:00",
+   "segment_text": "the drugs that they sell. All of them, they're coming in from other countries. They're coming here. Merck, Pfizer,",
+   "context": "5 times greater. It's incredible what's happening with our country. And I guess it's not covered as much as it should, but it it will be covering. And when the you see the construction numbers, you see the construction workers, but soon you're gonna see the people that work in the car plants and factories. And as an example, Eli Lilly announced they're building 5 major places, labs, where they make the drugs that they sell. All of them, they're coming in from other countries. They're coming here. Merck, Pfizer,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Merck",
+    "tickers": [
+     "MRK"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Merck, Pfizer, they're coming here",
+    "summary": "The President lists Merck among pharma companies bringing manufacturing to US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MRK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Merck's US manufacturing investment, mildly positive but largely reiterates known reshoring narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Merck relocating manufacturing to the US is mildly positive but reflects previously known reshoring trends rather than new specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MRK\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Merck's US manufacturing investment, mildly positive but largely reiterates known reshoring narrative.\", \"added\": false}], \"summary\": \"The President's mention of Merck relocating manufacturing to the US is mildly positive but reflects previously known reshoring trends rather than new specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01156:pfe",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 1156.7552192982457,
+   "t_wall": 1788372203.7552192,
+   "t_wall_et": "2026-09-02T14:03:23.755219-04:00",
+   "segment_text": "the drugs that they sell. All of them, they're coming in from other countries. They're coming here. Merck, Pfizer,",
+   "context": "5 times greater. It's incredible what's happening with our country. And I guess it's not covered as much as it should, but it it will be covering. And when the you see the construction numbers, you see the construction workers, but soon you're gonna see the people that work in the car plants and factories. And as an example, Eli Lilly announced they're building 5 major places, labs, where they make the drugs that they sell. All of them, they're coming in from other countries. They're coming here. Merck, Pfizer,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Merck, Pfizer, they're coming here",
+    "summary": "The President lists Pfizer among pharma companies bringing manufacturing to US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General mention of pharma reshoring is positive-tinged but non-specific and already broadly known, unlikely to move PFE materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Pfizer as part of a broad, vague statement about drugmakers relocating manufacturing to the US is unlikely to be a new, material catalyst for PFE shares.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General mention of pharma reshoring is positive-tinged but non-specific and already broadly known, unlikely to move PFE materially.\", \"added\": false}], \"summary\": \"The President's mention of Pfizer as part of a broad, vague statement about drugmakers relocating manufacturing to the US is unlikely to be a new, material catalyst for PFE shares.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01500:farmers",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "tariffs",
+    "tremendous"
+   ],
+   "t_audio": 1500.2105443037974,
+   "t_wall": 1788372547.2105443,
+   "t_wall_et": "2026-09-02T14:09:07.210544-04:00",
+   "segment_text": "deal. They charge tremendous tariffs to our farmers. They take advantage of our farmers. They take advantage of our tourists. They take advantage of airlines.",
+   "context": "in terms of Canadian tourism to The US? And perhaps you folks Well, I I don't know. I can tell you this. You know, Canada has been ripping off The United States for many, many years, for decades, many decades. We lost anywhere from 60 to $100,000,000,000 with Canada. We traditionally lose that for for the last 15 years. It's a very unfair deal. They charge tremendous tariffs to our farmers. They take advantage of our farmers. They take advantage of our tourists. They take advantage of airlines.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture sector (US farmers)",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They charge tremendous tariffs to our farmers.",
+    "summary": "The President criticizes Canada's tariffs on US farmers as unfair trade practice."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General complaint about Canada's ag tariffs is not new policy and unlikely to move broad ag commodity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new fertilizer-specific policy mentioned, effect ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farmer hardship rhetoric could weigh slightly on equipment demand but nothing new announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Complaint is about Canadian tariffs hurting US farmers, not a new trade action affecting ADM directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric restates known grievance without new tariff numbers or deadlines.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new specific soybean tariff action announced, just general complaint about Canada.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates long-standing grievances about Canada's trade practices against US farmers and banks without announcing any new tariffs, deals, or deadlines, making the remark largely non-actionable rhetoric with minimal expected price impact on agriculture-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General complaint about Canada's ag tariffs is not new policy and unlikely to move broad ag commodity ETF.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new fertilizer-specific policy mentioned, effect ambiguous.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farmer hardship rhetoric could weigh slightly on equipment demand but nothing new announced.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Complaint is about Canadian tariffs hurting US farmers, not a new trade action affecting ADM directly.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric restates known grievance without new tariff numbers or deadlines.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new specific soybean tariff action announced, just general complaint about Canada.\", \"added\": false}], \"summary\": \"The President reiterates long-standing grievances about Canada's trade practices against US farmers and banks without announcing any new tariffs, deals, or deadlines, making the remark largely non-actionable rhetoric with minimal expected price impact on agriculture-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01505:airlines",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "airlines",
+   "entity": "Airlines",
+   "kind": "sector",
+   "alias": "airlines",
+   "text_span": "airlines",
+   "dict_tickers": [
+    "JETS",
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "triggers_nearby": [
+    "tariffs",
+    "tremendous"
+   ],
+   "t_audio": 1505.7846525316454,
+   "t_wall": 1788372552.7846525,
+   "t_wall_et": "2026-09-02T14:09:12.784652-04:00",
+   "segment_text": "deal. They charge tremendous tariffs to our farmers. They take advantage of our farmers. They take advantage of our tourists. They take advantage of airlines.",
+   "context": "in terms of Canadian tourism to The US? And perhaps you folks Well, I I don't know. I can tell you this. You know, Canada has been ripping off The United States for many, many years, for decades, many decades. We lost anywhere from 60 to $100,000,000,000 with Canada. We traditionally lose that for for the last 15 years. It's a very unfair deal. They charge tremendous tariffs to our farmers. They take advantage of our farmers. They take advantage of our tourists. They take advantage of airlines.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Airlines sector",
+    "tickers": [
+     "JETS",
+     "DAL",
+     "UAL",
+     "AAL"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "They take advantage of airlines.",
+    "summary": "The President claims Canada takes advantage of US airlines in trade relations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "JETS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about Canada trade unfairness with no new policy action for airline ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague complaint about Canada taking advantage of airlines, no concrete policy change specified.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new trade action announced, just rhetorical grievance against Canada.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is general criticism without a specific tariff or policy affecting airlines directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate longstanding grievances about Canada's trade practices, including vague reference to airlines, but no new concrete policy or numbers are announced, making the impact on airline stocks negligible.",
+    "raw": "{\"tickers\":[{\"ticker\":\"JETS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about Canada trade unfairness with no new policy action for airline ETF.\",\"added\":false},{\"ticker\":\"DAL\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Vague complaint about Canada taking advantage of airlines, no concrete policy change specified.\",\"added\":false},{\"ticker\":\"UAL\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new trade action announced, just rhetorical grievance against Canada.\",\"added\":false},{\"ticker\":\"AAL\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment is general criticism without a specific tariff or policy affecting airlines directly.\",\"added\":false}],\"summary\":\"The President's remarks reiterate longstanding grievances about Canada's trade practices, including vague reference to airlines, but no new concrete policy or numbers are announced, making the impact on airline stocks negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01514:banks",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "banks",
+   "text_span": "banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1514.0823896551724,
+   "t_wall": 1788372561.0823896,
+   "t_wall_et": "2026-09-02T14:09:21.082390-04:00",
+   "segment_text": "Canada has all of its major banks here, and with their biggest source of income, far bigger than they are in Canada.",
+   "context": "anywhere from 60 to $100,000,000,000 with Canada. We traditionally lose that for for the last 15 years. It's a very unfair deal. They charge tremendous tariffs to our farmers. They take advantage of our farmers. They take advantage of our tourists. They take advantage of airlines. Something that nobody brought up, I'll bring it up right now. They think it's so sensitive, but I don't find it sensitive. Canada has all of its major banks here, and with their biggest source of income, far bigger than they are in Canada.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Banks",
+    "tickers": [
+     "XLF",
+     "KRE",
+     "JPM",
+     "BAC"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "Canada has all of its major banks here, biggest source of income",
+    "summary": "The President criticizes Canadian banks as major income source, implies unfair advantage."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about Canadian banks operating in US has no clear direct financial impact on US financial sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks are not directly implicated by this remark about Canadian bank presence.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JPM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific policy action targeting JPM; remark is complaint about reciprocity, not a new restriction on US banks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BAC",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President references Bank of America by name as example of a US bank barred from Canada, implying potential future push to open Canadian market which could be mildly positive if trade talks progress, but currently just rhetorical criticism of Canada.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are primarily criticism of Canada's trade and banking practices, not new policy affecting US banks or financials; no material price impact expected for the listed tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about Canadian banks operating in US has no clear direct financial impact on US financial sector.\",\"added\":false},{\"ticker\":\"KRE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Regional banks are not directly implicated by this remark about Canadian bank presence.\",\"added\":false},{\"ticker\":\"JPM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific policy action targeting JPM; remark is complaint about reciprocity, not a new restriction on US banks.\",\"added\":false},{\"ticker\":\"BAC\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President references Bank of America by name as example of a US bank barred from Canada, implying potential future push to open Canadian market which could be mildly positive if trade talks progress, but currently just rhetorical criticism of Canada.\",\"added\":false}],\"summary\":\"The President's remarks are primarily criticism of Canada's trade and banking practices, not new policy affecting US banks or financials; no material price impact expected for the listed tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01601:defense_word",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 1601.9299,
+   "t_wall": 1788372648.9299,
+   "t_wall_et": "2026-09-02T14:10:48.929900-04:00",
+   "segment_text": "2 hours.",
+   "context": "this has been going on. They won't certify Gulfstream. So he's very friendly with Gulfstream. He told the head of Gulfstream to call me, gave him the numbers we called and spoke. He said, sir, I've spent $60,000,000 trying to get certified in Canada. I can't get certified in Canada. They won't do it. So I immediately said, I'm putting a major tariff on Bombardier and other things that they said until they're certified. They got certified in 2 hours. I got a call from the prime minister.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01673:vietnam",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "vietnam",
+   "entity": "Vietnam",
+   "kind": "country",
+   "alias": "vietnam",
+   "text_span": "Vietnam",
+   "dict_tickers": [
+    "VNM"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1673.2583333333334,
+   "t_wall": 1788372720.2583334,
+   "t_wall_et": "2026-09-02T14:12:00.258333-04:00",
+   "segment_text": "And people surprised when I say it. Like, I have China coming here. A lot of people say, who's the toughest 1 to deal with? Is it China, sir? Is it China? Is it Vietnam? Is I said, no. Actually, it's Canada.",
+   "context": "trying to do it. I did it in a matter of moments, but that's the way they treat us. And I thought that was really egregious. It was incredible because everyone knows how good the Gulf Stream is. It's a it's the best plane. Mhmm. And for them to not be allowed to sell it in Canada but that's the way they are. And people surprised when I say it. Like, I have China coming here. A lot of people say, who's the toughest 1 to deal with? Is it China, sir? Is it China? Is it Vietnam? Is I said, no. Actually, it's Canada. Canada has felt emboldened. We they had presidents that didn't know what was happening.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01704:canada",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "tariff",
+    "tariffs"
+   ],
+   "t_audio": 1704.5253189781022,
+   "t_wall": 1788372751.5253189,
+   "t_wall_et": "2026-09-02T14:12:31.525319-04:00",
+   "segment_text": "All they would've had to do is charge tariffs, and they would've put tariffs on. You build a car in Canada, you have to pay a 25% tariff,",
+   "context": "Canada has felt emboldened. We they had presidents that didn't know what was happening. Not only the last 1, all of them. I mean, they just were taken into our country's been taken advantage of by Canada. They took 20% of our car industry out. I don't blame them for that, but if would've we had a president that knew what was happening, nobody would've left. Now they're all coming back. All they would've had to do is charge tariffs, and they would've put tariffs on. You build a car in Canada, you have to pay a 25% tariff,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "You build a car in Canada, you have to pay a 25% tariff",
+    "summary": "The President announces 25% tariff on cars built in Canada."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed threats of steep tariffs on Canadian-built cars are negative for Canadian equities broadly, though this rhetoric largely repeats prior tariff threats.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates threats of high tariffs (25-100%) on cars built in Canada, framing Canada as an adversarial trade partner, which is modestly negative for Canada-exposed equities like EWC but not a new policy announcement.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed threats of steep tariffs on Canadian-built cars are negative for Canadian equities broadly, though this rhetoric largely repeats prior tariff threats.\", \"added\": false}], \"summary\": \"The President reiterates threats of high tariffs (25-100%) on cars built in Canada, framing Canada as an adversarial trade partner, which is modestly negative for Canada-exposed equities like EWC but not a new policy announcement.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01726:oil",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1726.5305204081633,
+   "t_wall": 1788372773.5305204,
+   "t_wall_et": "2026-09-02T14:12:53.530520-04:00",
+   "segment_text": "more oil and gas than they do. We have tremendous",
+   "context": "All they would've had to do is charge tariffs, and they would've put tariffs on. You build a car in Canada, you have to pay a 25% tariff, and nobody could pay. And if that didn't work, you make it 50%. Or if that didn't work, you make it a 100%. And we have everybody coming or you stop doing business with the nation. You know, when we lose 60 to $100,000,000,000 with Canada, I could say, well, if we don't do business because we don't need we have more oil and gas than they do. We have tremendous",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "we have more oil and gas than they do. We have tremendous",
+    "summary": "The President asserts US oil and gas abundance versus Canada in trade context."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General boast about US oil abundance, no new policy or demand impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new supply/demand information affecting oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetorical comparison to Canada, not a specific policy affecting Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No actionable new information for Chevron from this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are generic trade rhetoric about Canada and US energy abundance, containing no new policy, deal, or price-relevant specifics for the oil sector tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General boast about US oil abundance, no new policy or demand impact.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new supply/demand information affecting oil prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetorical comparison to Canada, not a specific policy affecting Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No actionable new information for Chevron from this remark.\", \"added\": false}], \"summary\": \"The President's comments are generic trade rhetoric about Canada and US energy abundance, containing no new policy, deal, or price-relevant specifics for the oil sector tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01731:lumber",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "lumber",
+   "entity": "Lumber",
+   "kind": "sector",
+   "alias": "lumber",
+   "text_span": "lumber",
+   "dict_tickers": [
+    "WOOD",
+    "WY"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1731.3198419999999,
+   "t_wall": 1788372778.319842,
+   "t_wall_et": "2026-09-02T14:12:58.319842-04:00",
+   "segment_text": "forests. We don't need their lumber. We don't need",
+   "context": "All they would've had to do is charge tariffs, and they would've put tariffs on. You build a car in Canada, you have to pay a 25% tariff, and nobody could pay. And if that didn't work, you make it 50%. Or if that didn't work, you make it a 100%. And we have everybody coming or you stop doing business with the nation. You know, when we lose 60 to $100,000,000,000 with Canada, I could say, well, if we don't do business because we don't need we have more oil and gas than they do. We have tremendous forests. We don't need their lumber. We don't need",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lumber",
+    "tickers": [
+     "WOOD",
+     "WY"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "We don't need their lumber.",
+    "summary": "The President suggests U.S. could stop importing Canadian lumber via tariffs or trade restrictions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Threat to restrict Canadian lumber imports could benefit US domestic lumber producers like Weyerhaeuser.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "WOOD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mixed global timber ETF exposure makes the net effect of anti-Canada lumber rhetoric ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated rhetoric about not needing Canadian lumber signals potential tariff pressure that could modestly favor US domestic lumber producers while having ambiguous effect on diversified timber ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"WY\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Threat to restrict Canadian lumber imports could benefit US domestic lumber producers like Weyerhaeuser.\",\"added\":false},{\"ticker\":\"WOOD\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mixed global timber ETF exposure makes the net effect of anti-Canada lumber rhetoric ambiguous.\",\"added\":false}],\"summary\":\"The President's repeated rhetoric about not needing Canadian lumber signals potential tariff pressure that could modestly favor US domestic lumber producers while having ambiguous effect on diversified timber ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01885:iran",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1885.670092361111,
+   "t_wall": 1788372932.6700923,
+   "t_wall_et": "2026-09-02T14:15:32.670092-04:00",
+   "segment_text": "of US strikes in Iran have sent oil prices back up to $95 a barrel. How come that? How how long will this renewed campaign go for? And and also,",
+   "context": "to the queen, to king Charles, and I don't know. I maybe I'm different. I wouldn't have taken him back. Right? President If I were the royal family, I would I would not have taken him back. Mister president, true. Sorry. The recent resumption of US strikes in Iran have sent oil prices back up to $95 a barrel. How come that? How how long will this renewed campaign go for? And and also,",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:01911:oil_strong",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1911.415652173913,
+   "t_wall": 1788372958.4156523,
+   "t_wall_et": "2026-09-02T14:15:58.415652-04:00",
+   "segment_text": "bringing lots of boats out every day with millions of barrels of oil.",
+   "context": "of US strikes in Iran have sent oil prices back up to $95 a barrel. How come that? How how long will this renewed campaign go for? And and also, given that what you've said about having destroyed the Iranian military, what is there still left to strike and why? K. We we have controlled and we are controlling the Hormone Strait. We are bringing lots of boats out every day with millions of barrels of oil. We are, for the most part, doing it without trouble. Every once in a while, they shoot a drone and knock it down.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02029:vaccines",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccine",
+   "text_span": "vaccine",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2029.01992481203,
+   "t_wall": 1788373076.0199249,
+   "t_wall_et": "2026-09-02T14:17:56.019925-04:00",
+   "segment_text": "And we're prepared to do another 1 any anytime we want. So how long is the vaccine to get the back and forth? I do think this. We had",
+   "context": "gave a little love tap, but we hit them very hard last night. We took out all of the new equipment that they tried to build along the Strait Hormuz, some defensive, some offensive. They were trying to see the ships because they can't see the ships. You know? We're taking out a lot of ships. They can't see it because they have no radar because we blew it up. And we blew up much more than their radar last night. Was a it was a very heavy attack last night. And we're prepared to do another 1 any anytime we want. So how long is the vaccine to get the back and forth? I do think this. We had gasoline selling when I decided that I have to go in and stop this because we can't let Iran have a nuclear weapon. So a little more than a year ago,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02037:iran",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "selling"
+   ],
+   "t_audio": 2037.1873928571429,
+   "t_wall": 1788373084.187393,
+   "t_wall_et": "2026-09-02T14:18:04.187393-04:00",
+   "segment_text": "selling when I decided that I have to go in and stop this because we can't let Iran have a nuclear weapon. So a little more than a year ago,",
+   "context": "some defensive, some offensive. They were trying to see the ships because they can't see the ships. You know? We're taking out a lot of ships. They can't see it because they have no radar because we blew it up. And we blew up much more than their radar last night. Was a it was a very heavy attack last night. And we're prepared to do another 1 any anytime we want. So how long is the vaccine to get the back and forth? I do think this. We had gasoline selling when I decided that I have to go in and stop this because we can't let Iran have a nuclear weapon. So a little more than a year ago,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "we can't let Iran have a nuclear weapon",
+    "summary": "The President states military action taken to prevent Iran nuclear capability."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Escalation with Iran near Strait of Hormuz raises geopolitical risk premium on oil, benefiting energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Military strikes near key oil transit routes and ongoing conflict risk support crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued military engagement and mention of advanced weapons use support defense sector demand outlook.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize ongoing military strikes against Iran and geopolitical risk near the Strait of Hormuz, which modestly favor energy and defense stocks due to elevated oil risk premiums and defense spending, while not directly affecting travel-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Escalation with Iran near Strait of Hormuz raises geopolitical risk premium on oil, benefiting energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Military strikes near key oil transit routes and ongoing conflict risk support crude prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued military engagement and mention of advanced weapons use support defense sector demand outlook.\", \"added\": false}], \"summary\": \"The President's remarks emphasize ongoing military strikes against Iran and geopolitical risk near the Strait of Hormuz, which modestly favor energy and defense stocks due to elevated oil risk premiums and defense spending, while not directly affecting travel-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02067:stock_market",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 2067.8370268656718,
+   "t_wall": 1788373114.8370268,
+   "t_wall_et": "2026-09-02T14:18:34.837027-04:00",
+   "segment_text": "And I hate to do this, but we're gonna have to do it. Oil will go up, and probably the stock market will go down. Well, the good news is the stock market hits new records every day, so the stock market",
+   "context": "in Iowa. I was in Iowa making a speech. It was a dollar and 95¢. Mhmm. And then it went to a dollar 85 past another station. I went 1 1 95, think of that, and $1.85. And right after that, I called everybody into the office, made my speech, and I said, we have a problem because Iran is soon gonna have a nuclear weapon. And I hate to do this, but we're gonna have to do it. Oil will go up, and probably the stock market will go down. Well, the good news is the stock market hits new records every day, so the stock market",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "stock market hits new records every day",
+    "summary": "The President notes stock market reaching new records daily despite oil price concerns."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about market highs and geopolitical tensions is not new information for pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific policy content, just general market boasting.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments reiterate known market performance without new industrial policy signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate known geopolitical actions and general market bragging without new, tradeable information, so no clear directional impact on broad index ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about market highs and geopolitical tensions is not new information for pricing.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No tech-specific policy content, just general market boasting.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comments reiterate known market performance without new industrial policy signal.\",\"added\":false}],\"summary\":\"The President's remarks reiterate known geopolitical actions and general market bragging without new, tradeable information, so no clear directional impact on broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02117:retail_sector",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "retail_sector",
+   "entity": "Retailers",
+   "kind": "sector",
+   "alias": "retail prices",
+   "text_span": "retail prices",
+   "dict_tickers": [
+    "XRT"
+   ],
+   "triggers_nearby": [
+    "price",
+    "prices"
+   ],
+   "t_audio": 2117.3227981220657,
+   "t_wall": 1788373164.322798,
+   "t_wall_et": "2026-09-02T14:19:24.322798-04:00",
+   "segment_text": "mister president you met with oil industry leaders, and you previously accused them of price gouging. Is that something you brought up with them? Yeah. I did. I want the retail prices. These were mostly retailers,",
+   "context": "it's very simple. Iran cannot have a nuclear weapon. As soon as it's over, which I don't think it will be very much longer, I've I don't know how much more they can take. But, you know, whatever it is, it doesn't matter. And I'm not affected by the election. Number 1, I'm not running. But my party's running, and I'm gonna help my party. But I think my party respects the fact that we're not allowing Iran to have a nuclear weapon. And frankly, other presidents should have done that, but they didn't have whatever it takes to do it. Mister president, your endorsement, mister president you met with oil industry leaders, and you previously accused them of price gouging. Is that something you brought up with them? Yeah. I did. I want the retail prices. These were mostly retailers,",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Retailers",
+    "tickers": [
+     "XRT"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "I want the retail prices. These were mostly retailers.",
+    "summary": "The President criticized retail prices during oil industry meeting; accused retailers of price gouging."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XRT",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague comment about wanting lower retail gasoline prices from oil retailers is not a clear policy action affecting the broad retail ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark about wanting retail (gas) prices to come down reflects general rhetoric on oil retailers, not a substantive new policy affecting XRT, so minimal price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XRT\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague comment about wanting lower retail gasoline prices from oil retailers is not a clear policy action affecting the broad retail ETF.\", \"added\": false}], \"summary\": \"The President's remark about wanting retail (gas) prices to come down reflects general rhetoric on oil retailers, not a substantive new policy affecting XRT, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02123:ai",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2123.1836090225565,
+   "t_wall": 1788373170.183609,
+   "t_wall_et": "2026-09-02T14:19:30.183609-04:00",
+   "segment_text": "and I want the retail prices to come down. Mister president And is the president on data centers real quickly? Mister president, on Ukraine, something you've said for a long time is that the war should have never happened. And something you used to say, which was proven correct, was that they the Biden administration, along with much of the mainstream media, was lying about the number of Ukrainians who were dying in the war. And now we're seeing they're having a shortage of young men. There's these horrific videos coming out of Ukraine where they're kidnapping them off the streets. Their moms, their wives are being thrown to the ground and sprayed with mace while their loved ones get taken away. I'm wondering, have you seen these videos? Because the main tribute is also not reporting on those. And if you haven't seen them, could I send to Stephen Chang or another member of your staff to show you? I know. Put them out.",
+   "context": "and I want the retail prices to come down. Mister president And is the president on data centers real quickly? Mister president, on Ukraine, something you've said for a long time is that the war should have never happened. And something you used to say, which was proven correct, was that they the Biden administration, along with much of the mainstream media, was lying about the number of Ukrainians who were dying in the war. And now we're seeing they're having a shortage of young men. There's these horrific videos coming out of Ukraine where they're kidnapping them off the streets. Their moms, their wives are being thrown to the ground and sprayed with mace while their loved ones get taken away. I'm wondering, have you seen these videos? Because the main tribute is also not reporting on those. And if you haven't seen them, could I send to Stephen Chang or another member of your staff to show you? I know. Put them out.",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02125:ukraine",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2125.139957035446,
+   "t_wall": 1788373172.139957,
+   "t_wall_et": "2026-09-02T14:19:32.139957-04:00",
+   "segment_text": "and I want the retail prices to come down. Mister president And is the president on data centers real quickly? Mister president, on Ukraine, something you've said for a long time is that the war should have never happened. And something you used to say, which was proven correct, was that they the Biden administration, along with much of the mainstream media, was lying about the number of Ukrainians who were dying in the war. And now we're seeing they're having a shortage of young men. There's these horrific videos coming out of Ukraine where they're kidnapping them off the streets. Their moms, their wives are being thrown to the ground and sprayed with mace while their loved ones get taken away. I'm wondering, have you seen these videos? Because the main tribute is also not reporting on those. And if you haven't seen them, could I send to Stephen Chang or another member of your staff to show you? I know. Put them out.",
+   "context": "and I want the retail prices to come down. Mister president And is the president on data centers real quickly? Mister president, on Ukraine, something you've said for a long time is that the war should have never happened. And something you used to say, which was proven correct, was that they the Biden administration, along with much of the mainstream media, was lying about the number of Ukrainians who were dying in the war. And now we're seeing they're having a shortage of young men. There's these horrific videos coming out of Ukraine where they're kidnapping them off the streets. Their moms, their wives are being thrown to the ground and sprayed with mace while their loved ones get taken away. I'm wondering, have you seen these videos? Because the main tribute is also not reporting on those. And if you haven't seen them, could I send to Stephen Chang or another member of your staff to show you? I know. Put them out.",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02238:russia",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2238.338333333333,
+   "t_wall": 1788373285.3383334,
+   "t_wall_et": "2026-09-02T14:21:25.338333-04:00",
+   "segment_text": "numbers of soldiers, both Ukrainian and Russian, are being killed,",
+   "context": "but mostly young soldiers. 25,000 soldiers a month are being killed. Can you imagine that? 25 that's like a a stadium. 25,000 on average, and many of them are Ukrainian. You know, they like to say, oh, it's all Russian. Well, there are a lot of Russians. Probably more Russians because they're offensive. You know, they're on the offense as opposed to the defense, and more people die when you're on the offense. But tremendous numbers of soldiers, both Ukrainian and Russian, are being killed,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "tremendous numbers of soldiers, both Ukrainian and Russian, are being killed",
+    "summary": "The President discusses casualty figures in Ukraine conflict involving Russian and Ukrainian soldiers."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General war commentary with no new sanctions or peace-deal specifics to move Russian equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy on energy markets or Russian oil flows mentioned.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks are general commentary on Ukraine-Russia war casualties and potential future summit, with no new sanctions, deal terms, or policy specifics that would clearly move RSX or energy-sector stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General war commentary with no new sanctions or peace-deal specifics to move Russian equities.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy on energy markets or Russian oil flows mentioned.\", \"added\": false}], \"summary\": \"Remarks are general commentary on Ukraine-Russia war casualties and potential future summit, with no new sanctions, deal terms, or policy specifics that would clearly move RSX or energy-sector stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02254:defense_word",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2254.650769230769,
+   "t_wall": 1788373301.6507692,
+   "t_wall_et": "2026-09-02T14:21:41.650769-04:00",
+   "segment_text": "the 2 presidents, tremendous animosity.",
+   "context": "Ukrainian. You know, they like to say, oh, it's all Russian. Well, there are a lot of Russians. Probably more Russians because they're offensive. You know, they're on the offense as opposed to the defense, and more people die when you're on the offense. But tremendous numbers of soldiers, both Ukrainian and Russian, are being killed, and they ought to stop that stupid war. And we are continuing and I stopped 8 wars. 8. Some of them would be thought of as much tougher to stop than this, and I got them stopped. But there's tremendous animosity between the 2 presidents, tremendous animosity. But I think it's it's gonna be pretty close. It's gonna be time. They seem to have a a new burst of energy,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02285:ukraine",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2285.7417088607594,
+   "t_wall": 1788373332.7417088,
+   "t_wall_et": "2026-09-02T14:22:12.741709-04:00",
+   "segment_text": "but I think they're gonna be I'm dealing with both of them, and I think they're gonna stop it. But you're right about that. Mister president mister president, on on Russia as well, is there any hope that Russian president Vladimir Putin would do another summit with you in the near future? Oh, he'd do it if I wanted it, but I wanna do it when we're ready to do a peace deal. I wanna do it with you know, we wanna have good relationship with Russia, Ukraine, with everybody.",
+   "context": "the 2 presidents, tremendous animosity. But I think it's it's gonna be pretty close. It's gonna be time. They seem to have a a new burst of energy, but I think they're gonna be I'm dealing with both of them, and I think they're gonna stop it. But you're right about that. Mister president mister president, on on Russia as well, is there any hope that Russian president Vladimir Putin would do another summit with you in the near future? Oh, he'd do it if I wanted it, but I wanna do it when we're ready to do a peace deal. I wanna do it with you know, we wanna have good relationship with Russia, Ukraine, with everybody.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "we wanna have good relationship with Russia, Ukraine, with everybody",
+    "summary": "The President mentions wanting good relationship with Ukraine in context of potential Russia peace deal."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General war-related commentary without new defense policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Russia's valuable land and energy potential is vague rhetoric, not a new energy policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks are largely general geopolitical rhetoric about Ukraine-Russia peace prospects with no new, actionable policy details affecting defense or energy sectors.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General war-related commentary without new defense policy specifics.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Russia's valuable land and energy potential is vague rhetoric, not a new energy policy.\", \"added\": false}], \"summary\": \"Remarks are largely general geopolitical rhetoric about Ukraine-Russia peace prospects with no new, actionable policy details affecting defense or energy sectors.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02350:movies",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "movies",
+   "entity": "Film industry",
+   "kind": "sector",
+   "alias": "film industry",
+   "text_span": "film industry",
+   "dict_tickers": [
+    "DIS",
+    "NFLX",
+    "WBD",
+    "PSKY"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2350.845,
+   "t_wall": 1788373397.845,
+   "t_wall_et": "2026-09-02T14:23:17.845000-04:00",
+   "segment_text": "film industry, our entertainment industry, television industry, the making of the product into their countries. I mean, Canada is booming because they give tax incentives.",
+   "context": "And these are people in many cases that have no money. But I understood that he just came out and he supported the television. Just so you know, Canada again, but Canada Canada, number 1. But The UK, Australia, many countries give tremendous incentives to take our film industry, our entertainment industry, television industry, the making of the product into their countries. I mean, Canada is booming because they give tax incentives.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Film industry",
+    "tickers": [
+     "DIS",
+     "NFLX",
+     "WBD",
+     "PSKY"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "Canada gives tax incentives to take our film industry into their countries.",
+    "summary": "The President notes Canada offers tax incentives to attract US film production."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NFLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potential US tax incentives for film/TV production would lower content costs for Netflix, and the President singled out Netflix positively.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIS",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Domestic film/TV tax incentives would benefit major studio production costs including Disney.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "WBD",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potential tax credits for US production could modestly help Warner Bros Discovery's content costs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PSKY",
+      "direction": "none",
+      "confidence": 0.4,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Paramount Skydance could see marginal benefit from US production tax incentives but effect is unclear and unconfirmed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President floats offering US tax incentives to compete with Canada/UK/Australia for film production, a mildly positive but non-specific signal for Hollywood studios/streamers; no concrete policy announced yet.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NFLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Potential US tax incentives for film/TV production would lower content costs for Netflix, and the President singled out Netflix positively.\", \"added\": false}, {\"ticker\": \"DIS\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Domestic film/TV tax incentives would benefit major studio production costs including Disney.\", \"added\": false}, {\"ticker\": \"WBD\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Potential tax credits for US production could modestly help Warner Bros Discovery's content costs.\", \"added\": false}, {\"ticker\": \"PSKY\", \"direction\": \"none\", \"confidence\": 0.4, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Paramount Skydance could see marginal benefit from US production tax incentives but effect is unclear and unconfirmed.\", \"added\": false}], \"summary\": \"The President floats offering US tax incentives to compete with Canada/UK/Australia for film production, a mildly positive but non-specific signal for Hollywood studios/streamers; no concrete policy announced yet.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02373:nflx",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "nflx",
+   "entity": "Netflix",
+   "kind": "company",
+   "alias": "netflix",
+   "text_span": "Netflix",
+   "dict_tickers": [
+    "NFLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2373.885,
+   "t_wall": 1788373420.885,
+   "t_wall_et": "2026-09-02T14:23:40.885000-04:00",
+   "segment_text": "Netflix,",
+   "context": "give tremendous incentives to take our film industry, our entertainment industry, television industry, the making of the product into their countries. I mean, Canada is booming because they give tax incentives. We don't give anything, and we should. And this is probably more of a Democrat thing, frankly, because they seem to be the Hollywood. Hollywood is dead, and they want it to be revived. And I've spoken to Netflix, who's a fantastic Ted, who's fantastic, and Ari Emmanuel and many others. And John Boyd came to see me about it. John Boyd came to see me about it",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Netflix",
+    "tickers": [
+     "NFLX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.72,
+    "quote": "I've spoken to Netflix, who's fantastic",
+    "summary": "The President spoke with Netflix leadership about film and entertainment industry incentives."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NFLX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive but vague mention of talks on domestic production tax incentives, not a concrete policy or deal specific to Netflix.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's friendly mention of Netflix amid discussion of proposed film/TV tax incentives is mildly positive in tone but lacks concrete new policy specifics, so limited near-term stock impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NFLX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive but vague mention of talks on domestic production tax incentives, not a concrete policy or deal specific to Netflix.\", \"added\": false}], \"summary\": \"The President's friendly mention of Netflix amid discussion of proposed film/TV tax incentives is mildly positive in tone but lacks concrete new policy specifics, so limited near-term stock impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "6QYMxVMrjrM:02806:defense_word",
+   "video_id": "6QYMxVMrjrM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 2806.142264285714,
+   "t_wall": 1788373853.1422644,
+   "t_wall_et": "2026-09-02T14:30:53.142264-04:00",
+   "segment_text": "And that guy got 2.5 percent",
+   "context": "they have a man named we have a very good senator named Dan Sullivan. The Democrats put up another man named Dan Sullivan. So we have 2 Dan Sullivan's in the and by the way, the other man who had never been in politics, had never voted he hasn't voted for years, a totally set pretty nonpolitical person, person, I guess, but never had any thought of running. All of a sudden, he's running for the senate in Alaska. His name is Dan Sullivan. They have the same name. And that guy got 2.5 percent in the recent primary. And",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  }
+ ]
+}

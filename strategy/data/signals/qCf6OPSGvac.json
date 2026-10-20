@@ -1,0 +1,784 @@
+{
+ "video": {
+  "id": "qCf6OPSGvac",
+  "url": "https://www.youtube.com/watch?v=qCf6OPSGvac",
+  "title": "The President Participates in a Healthcare Affordability Event, May 18, 2026",
+  "channel": "The White House",
+  "duration": 1877.0,
+  "was_live": true,
+  "release_timestamp": 1779135552.0,
+  "upload_timestamp": 1779141208.0,
+  "upload_date": "20260518",
+  "label": "Participates in a Healthcare Affordability Event, May 18, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1779135552.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 12,
+  "confirmed": 8,
+  "retracted": 4,
+  "unconfirmed": 0,
+  "llm_calls": 14
+ },
+ "signals": [
+  {
+   "signal_id": "qCf6OPSGvac:00033:pharma",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "prescription drugs",
+   "text_span": "prescription drugs",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 33.87222222222222,
+   "t_wall": 1779135585.8722222,
+   "t_wall_et": "2026-05-18T16:19:45.872222-04:00",
+   "segment_text": "a brand new website featuring the largest discounts on prescription drugs in the history of our country. The history, frankly, of any country. And for decades, Americans paid the highest drug prices",
+   "context": "Well, thank you very much. It's great to be here on this very beautiful day. A lot of very positive things happening. Less than 4 months ago, I stood before you to announce the launch of the the drug-pricing program.gov, a brand new website featuring the largest discounts on prescription drugs in the history of our country. The history, frankly, of any country. And for decades, Americans paid the highest drug prices",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "largest discounts on prescription drugs in the history of our country",
+    "summary": "The President announced the drug-pricing program.gov website offering record drug price discounts to address high prices."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad healthcare sector faces continued pricing pressure from most-favored-nation drug policy rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF is directly exposed to reiterated claims of massive drug price cuts.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large branded drugmaker negatively affected by continued most-favored-nation pricing pressure, though details are not new.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "High-margin branded drug maker exposed to reiterated price-cut rhetoric, though no new specifics given.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similarly exposed to ongoing drug pricing pressure narrative without new policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated prior claims about the drug-pricing program.gov and most-favored-nation drug pricing cuts without new specifics, mildly negative for pharma and healthcare tickers but largely already priced in.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad healthcare sector faces continued pricing pressure from most-favored-nation drug policy rhetoric.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-focused ETF is directly exposed to reiterated claims of massive drug price cuts.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large branded drugmaker negatively affected by continued most-favored-nation pricing pressure, though details are not new.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"High-margin branded drug maker exposed to reiterated price-cut rhetoric, though no new specifics given.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similarly exposed to ongoing drug pricing pressure narrative without new policy detail.\", \"added\": false}], \"summary\": \"The President reiterated prior claims about the drug-pricing program.gov and most-favored-nation drug pricing cuts without new specifics, mildly negative for pharma and healthcare tickers but largely already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:00262:amzn",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 262.73912087912083,
+   "t_wall": 1779135814.739121,
+   "t_wall_et": "2026-05-18T16:23:34.739121-04:00",
+   "segment_text": "and keep them wealthy. Right? Good. Good to be with you. Vice president of Amazon Pharmacy,",
+   "context": "I wanna thank the leaders of several major pharmacies and generic drug makers who are partnering with us on this effort, including the cofounder of Cost Plus Drugs, Mark Cuban. Mark, thank you very much, Mark. Looking good, Mark. Come here, Mark. Nice to be with Thank you, sir. Appreciate it. We have the same thing, 1 thing in common. We wanna make people better and keep them wealthy. Right? Good. Good to be with you. Vice president of Amazon Pharmacy, Tanvi Patel. Thank you very much.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "Vice president of Amazon Pharmacy, Tanvi Patel. Thank you very much.",
+    "summary": "The President thanks Amazon Pharmacy VP for partnering on drug pricing effort."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Amazon Pharmacy is highlighted as a partner in the the drug-pricing program drug pricing initiative, a mild positive visibility/traffic boost though Amazon is a tiny part of overall business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised Amazon Pharmacy as a partner in the new the drug-pricing program drug pricing platform, a modestly positive but immaterial development for AMZN given its small share of Amazon's overall revenue.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Amazon Pharmacy is highlighted as a partner in the the drug-pricing program drug pricing initiative, a mild positive visibility/traffic boost though Amazon is a tiny part of overall business.\", \"added\": false}], \"summary\": \"The President praised Amazon Pharmacy as a partner in the new the drug-pricing program drug pricing platform, a modestly positive but immaterial development for AMZN given its small share of Amazon's overall revenue.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:00360:health_ins",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 360.8226549019608,
+   "t_wall": 1779135912.822655,
+   "t_wall_et": "2026-05-18T16:25:12.822655-04:00",
+   "segment_text": "for the Centers for Medicare and Medicaid Services,",
+   "context": "Politicians from both parties promised for decades to make health care more affordable, but they all failed, every single 1 of them. And when they thought they had it, they couldn't get other countries to go along. I got all the other countries to come along. I said, you don't come along, we're gonna tariff you. And they all said, we'd love to come along, sir. But I'm actually getting it done, and I don't care how I do it. I gotta get it done for the people. I wanna thank the incredible team behind this historic accomplishment, including secretary of health and human services, Robert f Kennedy junior, I'll be administrator for the Centers for Medicare and Medicaid Services,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "administrator for the Centers for Medicare and Medicaid Services",
+    "summary": "The President mentions appointing administrator for Medicare and Medicaid Services."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic Medicare/Medicaid mention without new policy specifics for insurers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new insurer-specific policy revealed, mostly rhetoric on drug pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of CMS administrator is routine, not a new regulatory shock.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete Medicare Advantage policy change announced, just praise for team.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on drug pricing wins and praise for his health team, with only a passing, non-specific mention of Medicare/Medicaid administration; no new material impact on health insurers is disclosed.",
+    "raw": "{\"tickers\": [\n  {\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic Medicare/Medicaid mention without new policy specifics for insurers.\", \"added\": false},\n  {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new insurer-specific policy revealed, mostly rhetoric on drug pricing.\", \"added\": false},\n  {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of CMS administrator is routine, not a new regulatory shock.\", \"added\": false},\n  {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete Medicare Advantage policy change announced, just praise for team.\", \"added\": false}\n],\n\"summary\": \"The President's remarks focus on drug pricing wins and praise for his health team, with only a passing, non-specific mention of Medicare/Medicaid administration; no new material impact on health insurers is disclosed.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:00758:pharma",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 758.8902096240602,
+   "t_wall": 1779136310.8902097,
+   "t_wall_et": "2026-05-18T16:31:50.890210-04:00",
+   "segment_text": "And part of the reason for that, which the president recognized early on and pushed hard until it got done because it was a force of his personality that allowed us to go to the all the major pharmaceutical companies representing the vast majority of the marketplace",
+   "context": "is yet another example of this administration, the president's leadership making life more affordable, and it's in a particularly important arena because almost 1 in 3 Americans, when they go to a drugstore, cannot afford to pick up the medications that their doctor prescribed for them. And part of the reason for that, which the president recognized early on and pushed hard until it got done because it was a force of his personality that allowed us to go to the all the major pharmaceutical companies representing the vast majority of the marketplace of branded drugs in America. But what he realized was we're paying 3 times more for the exact same drugs, made in the same facilities often in this country",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01031:pharma",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1031.7358226349893,
+   "t_wall": 1779136583.7358227,
+   "t_wall_et": "2026-05-18T16:36:23.735823-04:00",
+   "segment_text": "So to accelerate this process, we will continue focusing on 3 things. The same 3 things we talked about you in our last conversation on most favored nation pricing led by the president. 1st, we continue to bring additional industry partners on board. Last time we had a conversation with you about MFN, we put out a call to small and mid sized biotechnology manufacturers and pharmaceutical companies to come sit with us to make their product portfolios available",
+   "context": "and they're doing it not just because it's the right business decision, but it's the right moral decision. So to accelerate this process, we will continue focusing on 3 things. The same 3 things we talked about you in our last conversation on most favored nation pricing led by the president. 1st, we continue to bring additional industry partners on board. Last time we had a conversation with you about MFN, we put out a call to small and mid sized biotechnology manufacturers and pharmaceutical companies to come sit with us to make their product portfolios available",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "pharmaceutical companies to come sit with us to make their product portfolios available",
+    "summary": "The President inviting pharma manufacturers to participate in most-favored-nation pricing initiative."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued MFN pricing push pressures healthcare sector margins broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Expansion of MFN pricing to more pharma manufacturers is negative for pharma industry pricing power.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of MFN pricing and expanding manufacturer participation is a mild negative for large pharma revenue.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Explicit mention of GLP-1 price cuts of $1,800 directly hits Lilly's key growth drug pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broader MFN pricing expansion is a mild negative for Merck's drug pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm and expand most-favored-nation drug pricing initiatives, including GLP-1 and fertility drug price cuts, which are mildly negative for pharma pricing power and margins, especially for GLP-1 makers like Lilly, while broader healthcare sector sentiment is slightly pressured.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Continued MFN pricing push pressures healthcare sector margins broadly.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.58,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Expansion of MFN pricing to more pharma manufacturers is negative for pharma industry pricing power.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiteration of MFN pricing and expanding manufacturer participation is a mild negative for large pharma revenue.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Explicit mention of GLP-1 price cuts of $1,800 directly hits Lilly's key growth drug pricing.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broader MFN pricing expansion is a mild negative for Merck's drug pricing power.\",\"added\":false}],\"summary\":\"The President's remarks reaffirm and expand most-favored-nation drug pricing initiatives, including GLP-1 and fertility drug price cuts, which are mildly negative for pharma pricing power and margins, especially for GLP-1 makers like Lilly, while broader healthcare sector sentiment is slightly pressured.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01052:defense_word",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1052.745350877193,
+   "t_wall": 1779136604.7453508,
+   "t_wall_et": "2026-05-18T16:36:44.745351-04:00",
+   "segment_text": "at MFN prices. We said that we would be fair and we would be reasonable, and the industry has answered that call. We've been inundated with demand for discussions to ensure that every American family can continue to access MFN prices, not just for the companies that have been negotiated, but for the many that are yet to come. Number 2, as the president mentioned, we are continuing to negotiate international trade agreements. Those are well underway working lockstep with our partners at trade and at commerce. And number 3, legislation. We are continuing discussions",
+   "context": "So to accelerate this process, we will continue focusing on 3 things. The same 3 things we talked about you in our last conversation on most favored nation pricing led by the president. 1st, we continue to bring additional industry partners on board. Last time we had a conversation with you about MFN, we put out a call to small and mid sized biotechnology manufacturers and pharmaceutical companies to come sit with us to make their product portfolios available at MFN prices. We said that we would be fair and we would be reasonable, and the industry has answered that call. We've been inundated with demand for discussions to ensure that every American family can continue to access MFN prices, not just for the companies that have been negotiated, but for the many that are yet to come. Number 2, as the president mentioned, we are continuing to negotiate international trade agreements. Those are well underway working lockstep with our partners at trade and at commerce. And number 3, legislation. We are continuing discussions",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01128:amzn",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1128.2916030534352,
+   "t_wall": 1779136680.291603,
+   "t_wall_et": "2026-05-18T16:38:00.291603-04:00",
+   "segment_text": "Thank you. Thank you, mister president, for having Amazon here today. It's really great to work with the administration and the NDS",
+   "context": "benefit from lower drug prices as a country. The foundation is built. The market is engaged. The future is affordable, and I yield the podium back to the man who made all this possible. Thank you, mister president. Would you like to say something? You're over there. You look so beautiful and nice. You 2, come on over here. Just say a couple of words about Thank you. Thank you, mister president, for having Amazon here today. It's really great to work with the administration and the NDS on building the President Rx at Amazon Pharmacy. It's been our mission to build a pharmacy with price transparency",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01235:defense_word",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1235.7949,
+   "t_wall": 1779136787.7949,
+   "t_wall_et": "2026-05-18T16:39:47.794900-04:00",
+   "segment_text": "2 or 3 days in a short period of time because they think that they are getting very close to making a deal. And if we can do that where there's no nuclear weapon going into the hands of Iran,",
+   "context": "attack Iran? Other countries have come to me and they've said we were getting ready to do a very major attack tomorrow. I've put it off for a little while, hopefully, maybe forever, but possibly for a little while because we've had, very big discussions with Iran, and we'll see what they amount to. I was asked by Saudi Arabia, Qatar, UAE, and some others if we could put it off for 2 or 3 days in a short period of time because they think that they are getting very close to making a deal. And if we can do that where there's no nuclear weapon going into the hands of Iran,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01246:iran",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1246.1029031413614,
+   "t_wall": 1779136798.1029031,
+   "t_wall_et": "2026-05-18T16:39:58.102903-04:00",
+   "segment_text": "2 or 3 days in a short period of time because they think that they are getting very close to making a deal. And if we can do that where there's no nuclear weapon going into the hands of Iran,",
+   "context": "attack Iran? Other countries have come to me and they've said we were getting ready to do a very major attack tomorrow. I've put it off for a little while, hopefully, maybe forever, but possibly for a little while because we've had, very big discussions with Iran, and we'll see what they amount to. I was asked by Saudi Arabia, Qatar, UAE, and some others if we could put it off for 2 or 3 days in a short period of time because they think that they are getting very close to making a deal. And if we can do that where there's no nuclear weapon going into the hands of Iran,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "neutral",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "no nuclear weapon going into the hands of Iran",
+    "summary": "The President delayed military action against Iran pending nuclear deal discussions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Delay of military strike on Iran reduces near-term Middle East supply disruption risk, easing oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Lower geopolitical risk premium on oil weighs modestly on energy sector equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Reduced likelihood of imminent military conflict slightly dampens defense sector demand expectations.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments signal a pause in planned military action against Iran pending diplomatic progress, easing geopolitical risk and modestly pressuring oil and defense-linked equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Delay of military strike on Iran reduces near-term Middle East supply disruption risk, easing oil prices.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Lower geopolitical risk premium on oil weighs modestly on energy sector equities.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Reduced likelihood of imminent military conflict slightly dampens defense sector demand expectations.\", \"added\": false}], \"summary\": \"The President's comments signal a pause in planned military action against Iran pending diplomatic progress, easing geopolitical risk and modestly pressuring oil and defense-linked equities.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01375:amzn",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1375.76145,
+   "t_wall": 1779136927.76145,
+   "t_wall_et": "2026-05-18T16:42:07.761450-04:00",
+   "segment_text": "The what does this say about what you 2 are building here? The Well, it says we love people. We love our country. He wants to he's got a a good company, and he's gonna do a lot of business with this. And, I'm gonna get drugs out through Amazon, through the whole group, and we're gonna get drugs out.",
+   "context": "Mister president, it's pretty remarkable seeing you and Mark Cuban up there and the fact that, obviously, Mark endorsed Kamala Harris back in 2020 Well, he made a mistake. It was a big mistake. The what does this say about what you 2 are building here? The Well, it says we love people. We love our country. He wants to he's got a a good company, and he's gonna do a lot of business with this. And, I'm gonna get drugs out through Amazon, through the whole group, and we're gonna get drugs out.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "get drugs out through Amazon, through the whole group",
+    "summary": "The President plans to distribute drugs through Amazon as part of business initiative."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President announced a plan to distribute drugs through Amazon, a mildly positive new business channel for the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment ties Amazon to a new drug-distribution initiative, a modestly positive but low-confidence catalyst given vague details.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President announced a plan to distribute drugs through Amazon, a mildly positive new business channel for the company.\", \"added\": false}], \"summary\": \"The President's comment ties Amazon to a new drug-distribution initiative, a modestly positive but low-confidence catalyst given vague details.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01588:stock_market",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1588.3756827380953,
+   "t_wall": 1779137140.3756828,
+   "t_wall_et": "2026-05-18T16:45:40.375683-04:00",
+   "segment_text": "And it's very simple, you know. We don't wanna go through this. We had the greatest economy ever. We still do. The stock market hit a brand new high a little while ago.",
+   "context": "That's a lot. That's a big we could leave right now. Would take them 25 years to rebuild. The the last thing they're thinking about, I think, is nuclear. Now they have to put it down in writing. But when you say nothing, we've we've totally destroyed excuse me Yeah. From CNN. We've totally destroyed their military. We've destroyed their leadership. As you know, their leaders are gone. Their leaders are gone at the 1st level. The 2nd level, we're dealing with 0.5 of the 3rd level. And I think we've made a lot of progress. And it's very simple, you know. We don't wanna go through this. We had the greatest economy ever. We still do. The stock market hit a brand new high a little while ago.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market hit a brand new high a little while ago",
+    "summary": "The President claims the stock market reached a new high recently."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General boastful rhetoric about market highs and Iran conflict, not new price-relevant policy information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific policy content, just general market boasting.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Dow at 50,000 is a repeat of already-known market performance, not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical, restating already-known market highs and geopolitical claims about Iran; no new market-moving policy or company-specific information is present, so no directional trades are warranted based on this excerpt.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General boastful rhetoric about market highs and Iran conflict, not new price-relevant policy information.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific policy content, just general market boasting.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Dow at 50,000 is a repeat of already-known market performance, not new information.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical, restating already-known market highs and geopolitical claims about Iran; no new market-moving policy or company-specific information is present, so no directional trades are warranted based on this excerpt.\"}"
+   }
+  },
+  {
+   "signal_id": "qCf6OPSGvac:01635:steel",
+   "video_id": "qCf6OPSGvac",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1635.8796153846154,
+   "t_wall": 1779137187.8796153,
+   "t_wall_et": "2026-05-18T16:46:27.879615-04:00",
+   "segment_text": "tremendous we built really a steel wall",
+   "context": "I never thought that was gonna happen. We had to make the excursion. You know, we hit 50,000 on the Dow. We had 7,000 on the S and P, and everyone said that couldn't be done within my 4 years. It would be too too big. Well, we did it in my 1st year. And then I called Scott and Howard. I called them all into my office. I say, we're gonna take a little excursion down to the Middle East, and we're gonna confront Iran because they are desperate to have a nuclear weapon. And the only reason they wanted is to use it. And I said, that's I hate to do this because we're doing so well, but this is the most important thing we can do. We can't let Iran have a nuclear weapon. So we did that. And when we did that, we were met with a little force and we ended up destroying them. We now have a tremendous we built really a steel wall",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "we built really a tremendous steel wall",
+    "summary": "The President praises steel, referencing a wall built with the material."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of a 'steel wall' is a figurative reference to a military blockade, not a policy or steel demand announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No concrete steel-sector policy or demand signal beyond a metaphorical phrase.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The 'steel wall' remark is about a naval blockade, not steel industry support.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No actionable steel-sector information beyond figurative language.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected by a metaphorical use of 'steel' describing a military blockade.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's 'steel wall' comment refers to a naval blockade against Iran, not an actual steel industry policy, so no material price impact is expected for steel-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention of a 'steel wall' is a figurative reference to a military blockade, not a policy or steel demand announcement.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No concrete steel-sector policy or demand signal beyond a metaphorical phrase.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The 'steel wall' remark is about a naval blockade, not steel industry support.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No actionable steel-sector information beyond figurative language.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected by a metaphorical use of 'steel' describing a military blockade.\", \"added\": false}], \"summary\": \"The President's 'steel wall' comment refers to a naval blockade against Iran, not an actual steel industry policy, so no material price impact is expected for steel-related tickers.\"}"
+   }
+  }
+ ]
+}

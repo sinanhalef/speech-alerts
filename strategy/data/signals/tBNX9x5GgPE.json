@@ -1,0 +1,2687 @@
+{
+ "video": {
+  "id": "tBNX9x5GgPE",
+  "url": "https://www.youtube.com/watch?v=tBNX9x5GgPE",
+  "title": "The President Delivers Remarks and Signs Executive Orders at AI Summit",
+  "channel": "The White House",
+  "duration": 3426.0,
+  "was_live": true,
+  "release_timestamp": 1753305016.0,
+  "upload_timestamp": 1753309353.0,
+  "upload_date": "20250723",
+  "label": "Delivers Remarks and Signs Executive Orders at AI Summit",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1753305016.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 39,
+  "confirmed": 36,
+  "retracted": 3,
+  "unconfirmed": 0,
+  "llm_calls": 40
+ },
+ "signals": [
+  {
+   "signal_id": "tBNX9x5GgPE:00079:japan",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 79.837001,
+   "t_wall": 1753305095.837001,
+   "t_wall_et": "2025-07-23T17:11:35.837001-04:00",
+   "segment_text": "big trade deal with Japan",
+   "context": "That's about as good as it comes up here, the brainpower. The greatest power of them all, the brainpower. Well, I'm thrilled to be here with so many tech leaders and luminaries as we take historic action to reassert the future which belongs to America, always has belonged to America. We just lost sight of it on occasion. And I just wanna start by saying that we've just concluded our big trade deal with Japan",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "we've just concluded our big trade deal with Japan",
+    "summary": "The President announces completion of a major trade deal with Japan."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Confirmed US-Japan trade deal with reduced tariffs (25% to 15%) and large investment commitment is positive for Japanese equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of a finalized US-Japan trade deal with lowered tariffs and a $550B investment pledge is a positive, market-moving development for Japan-exposed assets like EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Confirmed US-Japan trade deal with reduced tariffs (25% to 15%) and large investment commitment is positive for Japanese equities broadly.\", \"added\": false}], \"summary\": \"The President's announcement of a finalized US-Japan trade deal with lowered tariffs and a $550B investment pledge is a positive, market-moving development for Japan-exposed assets like EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00173:stock_market",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 173.086875,
+   "t_wall": 1753305189.086875,
+   "t_wall_et": "2025-07-23T17:13:09.086875-04:00",
+   "segment_text": "And they're very happy, and their stock market went up, and our stock market went up, and that's supposed to be the way it is. Ours went way up,",
+   "context": "can go out and do business openly and freely in Japan, a very rich and prosperous and profitable and wonderful country, frankly. And we will pay a 0 tariff as we do business in Japan. So we're paying 0. They're paying 15. We're getting $550,000,000,000. And to be exact, it's 90% of that, but we control the whole lot of it. And it's really been great. And they're very happy, and their stock market went up, and our stock market went up, and that's supposed to be the way it is. Ours went way up,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "their stock market went up, and our stock market went up",
+    "summary": "The President reports US and Japanese stock markets both rose significantly."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Trade deal with Japan reducing tariff uncertainty is a mild positive for broad US equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Trade deal news is broad market relevant but not specific to tech sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Industrial and multinational Dow components benefit from reduced Japan tariff uncertainty and open trade access.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts a US-Japan trade deal lowering tariffs to 15% with zero US tariff on Japan, framing it as a market-positive win; this is largely restating known deal terms, giving a mild broad-market positive but limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Trade deal with Japan reducing tariff uncertainty is a mild positive for broad US equities.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Trade deal news is broad market relevant but not specific to tech sector.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Industrial and multinational Dow components benefit from reduced Japan tariff uncertainty and open trade access.\", \"added\": false}], \"summary\": \"The President touts a US-Japan trade deal lowering tariffs to 15% with zero US tariff on Japan, framing it as a market-positive win; this is largely restating known deal terms, giving a mild broad-market positive but limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00232:eu",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 232.8538562091503,
+   "t_wall": 1753305248.8538563,
+   "t_wall_et": "2025-07-23T17:14:08.853856-04:00",
+   "segment_text": "that were closed, always closed. Everyone in this room would never remember any of them to be open. We've we've offered such a deal to the European Union",
+   "context": "but we're gonna have a very, simple tariff for some of the countries. There's so many countries you can't negotiate deals with everyone, so we'll have a straight simple tariff of anywhere between 1550%. A couple of we have 15 because we haven't been getting along with those countries too well. So we just say, let's pay 50, and that's the way it is. But remember, we get countries that were closed, always closed. Everyone in this room would never remember any of them to be open. We've we've offered such a deal to the European Union",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We've offered such a deal to the European Union",
+    "summary": "The President says the US has offered a deal to the European Union."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Possible EU tariff deal reducing trade tension is mildly positive for European equities exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Ongoing EU-US tariff negotiations with potential lower tariff outcome is modestly supportive for eurozone stocks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Prospect of reduced tariffs on EU goods is a mild positive for Euro Stoxx 50 exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks describe an in-progress US-EU tariff negotiation offering lower tariffs if the EU opens markets, a mildly positive but largely already-known development for European equity ETFs, with no direct new numbers confirmed for the EU deal.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VGK\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Possible EU tariff deal reducing trade tension is mildly positive for European equities exposure.\",\"added\":false},{\"ticker\":\"EZU\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Ongoing EU-US tariff negotiations with potential lower tariff outcome is modestly supportive for eurozone stocks.\",\"added\":false},{\"ticker\":\"FEZ\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Prospect of reduced tariffs on EU goods is a mild positive for Euro Stoxx 50 exposure.\",\"added\":false}],\"summary\":\"The President's remarks describe an in-progress US-EU tariff negotiation offering lower tariffs if the EU opens markets, a mildly positive but largely already-known development for European equity ETFs, with no direct new numbers confirmed for the EU deal.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00315:china",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 315.3127551020408,
+   "t_wall": 1753305331.312755,
+   "t_wall_et": "2025-07-23T17:15:31.312755-04:00",
+   "segment_text": "in the process of completing our deal with China.",
+   "context": "compete and do really well if they compete properly like the people that I know. Everyone in this room practically I know has competed very successfully. I haven't seen any, and I know the I know the losers just like I know the winners. Tell you, I don't see any of the losers here. But now, if some of the countries that pay 25% or more on autos complain, remember that Japan was willing to pay upfront the $550,000,000,000 for that privilege of negotiating with The United States Of America. We also made a deal yesterday with The Philippines and Indonesia, which in both cases will be opening up their country, and, we're in the process of completing our deal with China.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "in the process of completing our deal with China",
+    "summary": "The President states the US is completing a trade deal with China."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of progress toward completing a US-China trade deal is mildly positive for Chinese equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same trade-deal optimism supports broad China exposure ETF, though this restates known progress.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Improved US-China trade sentiment slightly benefits Chinese internet stocks despite no new specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates that a US-China trade deal is nearly done alongside other completed deals, a mildly positive but not new signal for China-exposed equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of progress toward completing a US-China trade deal is mildly positive for Chinese equities broadly.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same trade-deal optimism supports broad China exposure ETF, though this restates known progress.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Improved US-China trade sentiment slightly benefits Chinese internet stocks despite no new specifics.\", \"added\": false}], \"summary\": \"The President reiterates that a US-China trade deal is nearly done alongside other completed deals, a mildly positive but not new signal for China-exposed equities.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00317:uk",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "uk",
+   "text_span": "UK",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 317.5934403797468,
+   "t_wall": 1753305333.5934403,
+   "t_wall_et": "2025-07-23T17:15:33.593440-04:00",
+   "segment_text": "And as you know, The UK, we made a deal. It was a very good deal for everybody.",
+   "context": "But now, if some of the countries that pay 25% or more on autos complain, remember that Japan was willing to pay upfront the $550,000,000,000 for that privilege of negotiating with The United States Of America. We also made a deal yesterday with The Philippines and Indonesia, which in both cases will be opening up their country, and, we're in the process of completing our deal with China. And as you know, The UK, we made a deal. It was a very good deal for everybody.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "The UK, we made a deal. It was a very good deal for everybody.",
+    "summary": "The President states a trade deal with UK was completed and beneficial to both sides."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The UK trade deal was already announced previously and this is a repeated reference with no new terms, so limited fresh market impact on the UK ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates previously announced UK trade deal as a success but provides no new details, so minimal incremental price effect expected on EWU.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The UK trade deal was already announced previously and this is a repeated reference with no new terms, so limited fresh market impact on the UK ETF.\", \"added\": false}], \"summary\": \"The President reiterates previously announced UK trade deal as a success but provides no new details, so minimal incremental price effect expected on EWU.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00669:oil",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 669.9865308928571,
+   "t_wall": 1753305685.9865308,
+   "t_wall_et": "2025-07-23T17:21:25.986531-04:00",
+   "segment_text": "It's not the closest, but it is pretty much the closest when it comes to oil and gas and energy, and we're making some incredible deals. And I wanna thank Chris. Chris'",
+   "context": "energy success that we're having. We're having tremendous energy success. We're the biggest we have more energy than anybody else in the world. Nobody knew that until I came along, but we have more energy than anybody else in the world. We're making incredible deals on energy, including deals in Alaska where we, sort of that's the mother lode. That's the big 1, and we're making deals with various Asian countries that need it. And it's actually hard to believe you don't think of it, but Asia is very close to Alaska, relatively speaking. It's not the closest, but it is pretty much the closest when it comes to oil and gas and energy, and we're making some incredible deals. And I wanna thank Chris. Chris'",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "making incredible deals on energy, including deals in Alaska",
+    "summary": "The President claims major energy deals in Alaska and with Asian countries for oil and gas exports."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about energy dominance and Alaska deals is broadly positive but not new specific policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Oil price is set globally by supply/demand, not directly moved by rhetorical praise of domestic energy production.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Faster permitting and pro-energy rhetoric mildly favors large US oil producers like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same pro-domestic-energy tailwind applies to Chevron as a major US oil and gas producer.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general pro-energy, pro-Alaska deal rhetoric and faster permitting, mildly positive for US energy producers and the sector ETF but not a new tradable catalyst for crude oil itself.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about energy dominance and Alaska deals is broadly positive but not new specific policy.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Oil price is set globally by supply/demand, not directly moved by rhetorical praise of domestic energy production.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Faster permitting and pro-energy rhetoric mildly favors large US oil producers like Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same pro-domestic-energy tailwind applies to Chevron as a major US oil and gas producer.\", \"added\": false}], \"summary\": \"The President's remarks reiterate general pro-energy, pro-Alaska deal rhetoric and faster permitting, mildly positive for US energy producers and the sector ETF but not a new tradable catalyst for crude oil itself.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00866:nvda_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "nvda_word",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen",
+   "text_span": "Jensen",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 866.2354878048781,
+   "t_wall": 1753305882.2354877,
+   "t_wall_et": "2025-07-23T17:24:42.235488-04:00",
+   "segment_text": "What's his name? His name is Jensen Wong,",
+   "context": "I'll tell you what, this man works hard. Ted works hard, and he works good. And a very special thanks to some of the top industry leaders here, including somebody that's amazing. I said, look, we'll break this guy up. This is before I learned the facts of life. I said, we'll break them up. They said, don't say it's very hard. I said, why? I said, what percentages of the market does he have? Sir, he has 100%. I said, who the hell is he? What's his name? His name is Jensen Wong,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "I said, we'll break them up. He has 100% market.",
+    "summary": "The President criticizes Nvidia's market dominance and mentions breaking it up."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President recounts past antitrust musings but concludes praising Nvidia's dominance and Jensen Huang, ending on a positive note with no new policy action.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is anecdotal storytelling that ultimately praises Nvidia's success rather than announcing any new antitrust action, so the net price impact is likely minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President recounts past antitrust musings but concludes praising Nvidia's dominance and Jensen Huang, ending on a positive note with no new policy action.\", \"added\": false}], \"summary\": \"The remark is anecdotal storytelling that ultimately praises Nvidia's success rather than announcing any new antitrust action, so the net price impact is likely minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00867:nvda",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 867.215,
+   "t_wall": 1753305883.215,
+   "t_wall_et": "2025-07-23T17:24:43.215000-04:00",
+   "segment_text": "Nvidia. I said, what the hell is Nvidia? I've never heard of it before. He said, you don't wanna know about it, sir. I figured we could go in and we could sort of break them up a little bit, get them a little competition,",
+   "context": "And a very special thanks to some of the top industry leaders here, including somebody that's amazing. I said, look, we'll break this guy up. This is before I learned the facts of life. I said, we'll break them up. They said, don't say it's very hard. I said, why? I said, what percentages of the market does he have? Sir, he has 100%. I said, who the hell is he? What's his name? His name is Jensen Wong, Nvidia. I said, what the hell is Nvidia? I've never heard of it before. He said, you don't wanna know about it, sir. I figured we could go in and we could sort of break them up a little bit, get them a little competition,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "I said we'll break them up. He has 100% market share.",
+    "summary": "The President discusses breaking up Nvidia due to its dominant market position."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President recounts past consideration of breaking up Nvidia but ends with praise for its dominance and Jensen Huang, no new policy action announced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Anecdote about once considering breaking up Nvidia is framed as past musing followed by praise, with no new regulatory threat, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President recounts past consideration of breaking up Nvidia but ends with praise for its dominance and Jensen Huang, no new policy action announced.\", \"added\": false}], \"summary\": \"Anecdote about once considering breaking up Nvidia is framed as past musing followed by praise, with no new regulatory threat, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00928:pltr",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "pltr",
+   "entity": "Palantir",
+   "kind": "company",
+   "alias": "palantir",
+   "text_span": "Palantir",
+   "dict_tickers": [
+    "PLTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 928.565,
+   "t_wall": 1753305944.565,
+   "t_wall_et": "2025-07-23T17:25:44.565000-04:00",
+   "segment_text": "Palantir,",
+   "context": "And then I got to know Jensen, and now I see why. Jensen, we used to end up. What a job. What a job you've done. Man. Great. It's a great he's a great guy too. Lisa Hsu of AMD. Lisa? Lisa? Thank you. Congratulations. Great job. Sham Sanacar of Palantir,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Palantir",
+    "tickers": [
+     "PLTR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "Sham Sanacar of Palantir",
+    "summary": "The President acknowledges Palantir executive in context of general praise."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PLTR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Palantir executive and notes government buys a lot from them, mildly reinforcing existing government-contract narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Positive but generic acknowledgment of Palantir's government business; modest supportive sentiment, no new policy details.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PLTR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Palantir executive and notes government buys a lot from them, mildly reinforcing existing government-contract narrative.\", \"added\": false}], \"summary\": \"Positive but generic acknowledgment of Palantir's government business; modest supportive sentiment, no new policy details.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00938:eu",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "deal"
+   ],
+   "t_audio": 938.9735294117647,
+   "t_wall": 1753305954.9735293,
+   "t_wall_et": "2025-07-23T17:25:54.973529-04:00",
+   "segment_text": "We just, made a deal with the European Union where,",
+   "context": "Great. It's a great he's a great guy too. Lisa Hsu of AMD. Lisa? Lisa? Thank you. Congratulations. Great job. Sham Sanacar of Palantir, who buy a lot of things from Palantir. Where are you? Are we paying our bills? I think so. We just, made a deal with the European Union where,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "made a deal with the European Union",
+    "summary": "The President announced a deal with the European Union."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Defense spending shift benefits US defense firms more than broad EU equity index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Deal shifts defense procurement costs to Europe, a fiscal burden rather than a clear equity positive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Eurozone blue-chip index unlikely to move materially on restated NATO/EU defense funding arrangement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate prior NATO/EU defense spending agreements rather than reveal new market-moving details, so broad European equity ETFs (VGK, EZU, FEZ) should see negligible abnormal reaction relative to SPY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Defense spending shift benefits US defense firms more than broad EU equity index.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Deal shifts defense procurement costs to Europe, a fiscal burden rather than a clear equity positive.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Eurozone blue-chip index unlikely to move materially on restated NATO/EU defense funding arrangement.\", \"added\": false}], \"summary\": \"The President's remarks reiterate prior NATO/EU defense spending agreements rather than reveal new market-moving details, so broad European equity ETFs (VGK, EZU, FEZ) should see negligible abnormal reaction relative to SPY.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:00945:defense_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "military equipment",
+   "text_span": "military equipment",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 945.8531456953642,
+   "t_wall": 1753305961.8531456,
+   "t_wall_et": "2025-07-23T17:26:01.853146-04:00",
+   "segment_text": "of the cost of all military equipment, they're gonna ship it to the European Union, and then they'll distribute it, and, much of it will go to Ukraine.",
+   "context": "Sham Sanacar of Palantir, who buy a lot of things from Palantir. Where are you? Are we paying our bills? I think so. We just, made a deal with the European Union where, they're gonna pay The United States Of America 100% of the cost of all military equipment, they're gonna ship it to the European Union, and then they'll distribute it, and, much of it will go to Ukraine.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector (military equipment)",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "made a deal with the European Union, they're gonna pay 100% of the cost of all military equipment",
+    "summary": "The President announces EU deal for US military equipment sales with full EU cost coverage."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "EU fully funding US military equipment purchases benefits US defense contractors broadly represented in this ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar positive read-through for aerospace/defense ETF from EU purchasing US-made military equipment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Drone/defense supplier could see incremental demand if EU-funded equipment flows increase, though direct impact unclear.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Defense equipment maker benefits modestly from expanded EU procurement of US military gear.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate a previously announced EU deal to fully fund US military equipment purchases, a mild tailwind for US defense contractors and related ETFs, though the information is largely already known (repeat), limiting magnitude and confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"EU fully funding US military equipment purchases benefits US defense contractors broadly represented in this ETF.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar positive read-through for aerospace/defense ETF from EU purchasing US-made military equipment.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Drone/defense supplier could see incremental demand if EU-funded equipment flows increase, though direct impact unclear.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Defense equipment maker benefits modestly from expanded EU procurement of US military gear.\", \"added\": false}], \"summary\": \"The President's remarks reiterate a previously announced EU deal to fully fund US military equipment purchases, a mild tailwind for US defense contractors and related ETFs, though the information is largely already known (repeat), limiting magnitude and confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01039:ai",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1039.0561764705883,
+   "t_wall": 1753306055.0561764,
+   "t_wall_et": "2025-07-23T17:27:35.056176-04:00",
+   "segment_text": "Around the globe, everyone is talking about artificial intelligence.",
+   "context": "a long time, the husband of Kelly, who's really doing a good job. You are really doing a good job. Small business, which is actually big business if you add it all up. Right? Probably the biggest bank there is and but they call it small business and she's done a fantastic job. Thanks, Gail. Say hello to Jeff. As we gather this afternoon, we're still in the earliest days of 1 of the most important technological revolutions in the history of the world. Around the globe, everyone is talking about artificial intelligence.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "one of the most important technological revolutions in the history of the world",
+    "summary": "The President characterizes AI as among history's most important technological revolutions."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI rhetoric reinforces bullish sentiment for the leading AI chipmaker.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive AI framing supports semiconductor sector sentiment broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise of AI's transformative potential mildly supports large AI infrastructure players like Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "AI enthusiasm supports data-center infrastructure demand narrative benefiting Vertiv.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's general praise of AI as a transformative technology is mildly bullish sentiment for AI-linked equities but contains no new policy or numbers, so effects are small and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI rhetoric reinforces bullish sentiment for the leading AI chipmaker.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive AI framing supports semiconductor sector sentiment broadly.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise of AI's transformative potential mildly supports large AI infrastructure players like Microsoft.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"AI enthusiasm supports data-center infrastructure demand narrative benefiting Vertiv.\", \"added\": false}], \"summary\": \"The President's general praise of AI as a transformative technology is mildly bullish sentiment for AI-linked equities but contains no new policy or numbers, so effects are small and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01243:china",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 1243.8510105485232,
+   "t_wall": 1753306259.8510106,
+   "t_wall_et": "2025-07-23T17:30:59.851011-04:00",
+   "segment_text": "and, that's a big thing that you're working on right now, I know, but you just can't do it. China's not doing it, and if you're gonna be beating China, and right now we're leading China very substantially in AI, very, very substantially,",
+   "context": "And if you're gonna try and do that, you're not gonna have a successful program. I think most of the people in the room know what I mean. When a person reads a book or an article, you've gained great knowledge. That does not mean that you're violating copyright laws or have to make deals with every content provider, and, that's a big thing that you're working on right now, I know, but you just can't do it. China's not doing it, and if you're gonna be beating China, and right now we're leading China very substantially in AI, very, very substantially,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "China's not doing it, and if you're gonna be beating China",
+    "summary": "The President criticizes China for not making copyright deals while claiming US leads substantially in AI."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric on AI competitiveness with China, not a new policy action against Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is about copyright/AI rules, not a direct China trade or market action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific policy targeting Chinese tech firms announced, just comparative rhetoric on AI leadership.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on domestic AI copyright policy and a claim of US leadership over China, without new concrete action against Chinese firms, so China-focused ETFs should see minimal price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric on AI competitiveness with China, not a new policy action against Chinese equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is about copyright/AI rules, not a direct China trade or market action.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific policy targeting Chinese tech firms announced, just comparative rhetoric on AI leadership.\", \"added\": false}], \"summary\": \"The President's remarks focus on domestic AI copyright policy and a claim of US leadership over China, without new concrete action against Chinese firms, so China-focused ETFs should see minimal price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01296:ai_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "contract"
+   ],
+   "t_audio": 1296.7250428571429,
+   "t_wall": 1753306312.7250428,
+   "t_wall_et": "2025-07-23T17:31:52.725043-04:00",
+   "segment_text": "use AI.",
+   "context": "intelligence machine, we'll call it, you cannot expect to every time, every single time say, oh, let's pay this 1 that much, let's pay this 1. It just doesn't work that way. Of course, you can't copy or plagiarize an article, but if you read an article and learn from it, we have to allow AI to use that pool of knowledge without going complexity of contract negotiations of which there would be thousands for every time we use AI.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "AI to use that pool of knowledge without going complexity of contract negotiations",
+    "summary": "The President advocates allowing AI to use knowledge without requiring thousands of contracts."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Pro-AI, pro-deregulation federal standard rhetoric is broadly supportive of AI infrastructure demand including Nvidia chips.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Favorable federal AI policy stance benefits semiconductor sector broadly, though largely reiterates known administration position.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Pro-AI, pro-deregulation federal standard rhetoric is broadly supportive of AI infrastructure demand including Nvidia chips.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Favorable federal AI policy stance benefits semiconductor sector broadly, though largely reiterates known administration position.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01593:autos",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1593.4290058479532,
+   "t_wall": 1753306609.4290059,
+   "t_wall_et": "2025-07-23T17:36:49.429006-04:00",
+   "segment_text": "1 industry. I mean, I can talk about cars where we're doing incredibly well. We have car companies moving in all the time, but I talk about other industries as everybody's",
+   "context": "new frontiers, and we control our own fate, and we determine by doing that our own destiny. Winning this competition will be a test of our capacities unlike anything since the dawn of the space age. I believe that. It's hard to believe as a as the president, the amount of enthusiasm for this 1 industry. I mean, I can talk about cars where we're doing incredibly well. We have car companies moving in all the time, but I talk about other industries as everybody's",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "car companies moving in all the time",
+    "summary": "The President praises automakers for investing and moving operations into the country."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise for auto sector investment with no specific new policy or company mention.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague reference to car companies moving in, not a specific new commitment affecting Ford.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new information about Stellantis operations or policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "AI summit rhetoric doesn't single out Tesla or EV policy specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad, non-specific praise for auto sector investment offers little tradable new information for the ETF.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks are general AI-summit rhetoric with only a passing, non-specific mention of car companies investing domestically; no concrete new policy, deal, or number is revealed, so the effect on auto tickers is negligible and directionless.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical praise for auto sector investment with no specific new policy or company mention.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague reference to car companies moving in, not a specific new commitment affecting Ford.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific new information about Stellantis operations or policy.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"AI summit rhetoric doesn't single out Tesla or EV policy specifically.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad, non-specific praise for auto sector investment offers little tradable new information for the ETF.\", \"added\": true}], \"summary\": \"The President's remarks are general AI-summit rhetoric with only a passing, non-specific mention of car companies investing domestically; no concrete new policy, deal, or number is revealed, so the effect on auto tickers is negligible and directionless.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01677:india",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 1677.396814159292,
+   "t_wall": 1753306693.396814,
+   "t_wall_et": "2025-07-23T17:38:13.396814-04:00",
+   "segment_text": "while building their factories in China, hiring workers in India, and slashing profits in Ireland. You know that.",
+   "context": "For too long, much of our tech industry pursued a radical globalism that left millions of Americans feeling distrustful and betrayed. And you know that, everybody knows that, everybody in this room certainly does. Many of our largest tech companies have reaped the blessings of American freedom while building their factories in China, hiring workers in India, and slashing profits in Ireland. You know that.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "hiring workers in India",
+    "summary": "The President criticizes tech companies for hiring workers in India instead of America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical criticism of offshoring to India, not a concrete policy action against India-listed equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetorical criticism, no new tariff or policy specifics targeting Indian equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is broad nationalist rhetoric criticizing US tech firms for outsourcing to India, China, and Ireland but announces no new India-specific policy, so effect on India-focused ETFs is minor and ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical criticism of offshoring to India, not a concrete policy action against India-listed equities.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rhetorical criticism, no new tariff or policy specifics targeting Indian equities.\", \"added\": false}], \"summary\": \"The President's remark is broad nationalist rhetoric criticizing US tech firms for outsourcing to India, China, and Ireland but announces no new India-specific policy, so effect on India-focused ETFs is minor and ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01734:ai",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "ai infrastructure",
+   "text_span": "AI infrastructure",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1734.5406349206348,
+   "t_wall": 1753306750.5406349,
+   "t_wall_et": "2025-07-23T17:39:10.540635-04:00",
+   "segment_text": "the largest, most powerful, and most advanced AI infrastructure",
+   "context": "in achieving this vision, today we're releasing the White House AI action plan. Big stuff. We're signing it right after this. In fact, I see it sitting right there. Maybe I should just sign it right now. Who the hell has to make the rest of this speech? Right? But here are the pillars of the strategy. 1st, my administration will use every tool at our disposal to ensure that The United States can build and maintain the largest, most powerful, and most advanced AI infrastructure",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI infrastructure",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "ensure that The United States can build and maintain the largest, most powerful, and most advanced AI infrastructure",
+    "summary": "The President commits to building largest, most advanced US AI infrastructure via White House plan."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-AI-infrastructure, deregulation stance supports demand for chips even though largely reiterating known policy direction.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF benefits from stated push for new chip manufacturing facilities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Favorable policy tone for AI infrastructure buildout benefits major cloud/AI investors like Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Data center power and infrastructure buildout directly benefits Vertiv as a key supplier of data center cooling/power equipment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's AI action plan speech signals continued pro-AI-infrastructure and deregulatory policy, mildly positive for chipmakers, cloud/AI leaders, and data-center infrastructure suppliers, though mostly reiterates known administration priorities rather than new specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-AI-infrastructure, deregulation stance supports demand for chips even though largely reiterating known policy direction.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF benefits from stated push for new chip manufacturing facilities.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Favorable policy tone for AI infrastructure buildout benefits major cloud/AI investors like Microsoft.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Data center power and infrastructure buildout directly benefits Vertiv as a key supplier of data center cooling/power equipment.\", \"added\": false}], \"summary\": \"The President's AI action plan speech signals continued pro-AI-infrastructure and deregulatory policy, mildly positive for chipmakers, cloud/AI leaders, and data-center infrastructure suppliers, though mostly reiterates known administration priorities rather than new specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01740:chips",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductor",
+   "text_span": "semiconductor",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1740.1261224489795,
+   "t_wall": 1753306756.1261225,
+   "t_wall_et": "2025-07-23T17:39:16.126122-04:00",
+   "segment_text": "America needs new data centers, new semiconductor",
+   "context": "Big stuff. We're signing it right after this. In fact, I see it sitting right there. Maybe I should just sign it right now. Who the hell has to make the rest of this speech? Right? But here are the pillars of the strategy. 1st, my administration will use every tool at our disposal to ensure that The United States can build and maintain the largest, most powerful, and most advanced AI infrastructure anywhere on the planet. America needs new data centers, new semiconductor",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "America needs new data centers, new semiconductor",
+    "summary": "The President commits to building advanced AI infrastructure including new semiconductor capacity."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI-infrastructure and pro-semiconductor rhetoric supports sector sentiment though largely reiterates known policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad semiconductor buildout push benefits the sector ETF modestly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "AI infrastructure expansion is a tailwind for the largest AI chipmaker though no new specific measure mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Push for domestic chip manufacturing capacity could favor US fabs like Intel.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates pro-AI, pro-domestic-semiconductor infrastructure policy via new AI action plan, mildly bullish for chip and AI-related equities but largely restates known priorities rather than new specifics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-AI-infrastructure and pro-semiconductor rhetoric supports sector sentiment though largely reiterates known policy stance.\",\"added\":false},{\"ticker\":\"SOXX\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same broad semiconductor buildout push benefits the sector ETF modestly.\",\"added\":false},{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"AI infrastructure expansion is a tailwind for the largest AI chipmaker though no new specific measure mentioned.\",\"added\":false},{\"ticker\":\"INTC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Push for domestic chip manufacturing capacity could favor US fabs like Intel.\",\"added\":false}],\"summary\":\"The President reiterates pro-AI, pro-domestic-semiconductor infrastructure policy via new AI action plan, mildly bullish for chip and AI-related equities but largely restates known priorities rather than new specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:01848:defense_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "regulation"
+   ],
+   "t_audio": 1848.39,
+   "t_wall": 1753306864.39,
+   "t_wall_et": "2025-07-23T17:41:04.390000-04:00",
+   "segment_text": "2 term presidents where you're talking about",
+   "context": "and this is so important, for every new regulation, 10 old regulations must be immediately eliminated. So we have old regulations that clog up the books that don't even mean anything anymore. You know, my 1st term, I had more regulation cuts than any president in history times 4, and that included 2 term presidents where you're talking about 8 years. We had more than any other president,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02031:solar",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "green new scam",
+   "text_span": "Green New scam",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2031.5063333333333,
+   "t_wall": 1753307047.5063334,
+   "t_wall_et": "2025-07-23T17:44:07.506333-04:00",
+   "segment_text": "My administration is also pursuing a future of all out American energy dominance, and on day 1, I terminated the Green New scam. You know what that was? You were all victims to it.",
+   "context": "50% of our automobile business to Mexico, Canada, and various other places, as you know, in Europe and in Asia, and now we're getting it back. We're getting it back in record numbers, and I think we're gonna be topping any amount. In a few years, we'll be making more automobiles than we've ever made in the history of our country, including what I call prime time. My administration is also pursuing a future of all out American energy dominance, and on day 1, I terminated the Green New scam. You know what that was? You were all victims to it.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Green New Deal / Clean Energy sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "on day 1, I terminated the Green New scam",
+    "summary": "The President claims to have terminated the Green New Deal policy on day one."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated anti-green-energy rhetoric signals continued hostile policy environment for solar.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean energy ETF hurt by repeated administration hostility to green policy, though not new news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Domestic solar manufacturer faces ongoing negative policy sentiment despite no new specific action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar exposed to negative sentiment from repeated anti-clean-energy rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated derision of the 'Green New scam' reiterates known hostile stance toward clean energy, mildly negative for solar/clean energy names but not new policy information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated anti-green-energy rhetoric signals continued hostile policy environment for solar.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad clean energy ETF hurt by repeated administration hostility to green policy, though not new news.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Domestic solar manufacturer faces ongoing negative policy sentiment despite no new specific action.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Residential solar exposed to negative sentiment from repeated anti-clean-energy rhetoric.\", \"added\": false}], \"summary\": \"The President's repeated derision of the 'Green New scam' reiterates known hostile stance toward clean energy, mildly negative for solar/clean energy names but not new policy information.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02138:natgas",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2138.086262962963,
+   "t_wall": 1753307154.086263,
+   "t_wall_et": "2025-07-23T17:45:54.086263-04:00",
+   "segment_text": "But we're unleashing all forms of energy, including natural gas, oil, and clean beautiful coal. I instructed",
+   "context": "we had 0 people enter our country illegally, and over the last number of years, you'd have hundreds of thousands, literally hundreds of thousands of people a week pour into our country, totally unvetted and unchecked. And, what the hell were they thinking? What they've done to our country is so sad, and we can never forget it. But we're unleashing all forms of energy, including natural gas, oil, and clean beautiful coal. I instructed",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "unleashing all forms of energy, including natural gas, oil, and clean beautiful coal",
+    "summary": "The President endorses unleashing natural gas as part of broad energy policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-energy rhetoric restates known deregulation stance without new specifics for natural gas prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Reiterated support for natural gas expansion is mildly positive for LNG exporters but not new news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Pro-natural gas policy tone benefits domestic gas producers like EQT, though rhetoric is familiar.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated his standard pro-energy dominance rhetoric, favoring natural gas and coal producers modestly but offering no new policy specifics to move prices sharply.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-energy rhetoric restates known deregulation stance without new specifics for natural gas prices.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Reiterated support for natural gas expansion is mildly positive for LNG exporters but not new news.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Pro-natural gas policy tone benefits domestic gas producers like EQT, though rhetoric is familiar.\", \"added\": false}], \"summary\": \"The President repeated his standard pro-energy dominance rhetoric, favoring natural gas and coal producers modestly but offering no new policy specifics to move prices sharply.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02175:coal_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2175.5806416666665,
+   "t_wall": 1753307191.5806417,
+   "t_wall_et": "2025-07-23T17:46:31.580642-04:00",
+   "segment_text": "big power plants all fueled by coal,",
+   "context": "you are not allowed to say the word coal without saying clean beautiful in front of it. You can only say clean beautiful coal. It's a little embarrassing because we had somebody making a speech the other day, right, and he mentioned the word coal about 30 times because that was the subject, and he kept going clean beautiful. I wanted to say, okay, just take it easy. You could just got a little bit crazy. Right, Doug? But it's you know, China's using it. They're building now 57 big power plants all fueled by coal,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "China's using it. They're building now 57 big power plants all fueled by coal.",
+    "summary": "The President notes China is building 57 coal-fueled power plants while U.S. restricts coal use."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Pro-coal rhetoric and push for domestic coal energy is mildly supportive for coal producers like Peabody.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "General pro-coal policy stance is mildly favorable for domestic coal miner Arch Resources.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "The President's continued advocacy for expanding US coal production supports metallurgical/coal producer Alpha Metallurgical.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated pro-coal, pro-energy dominance rhetoric, which is a mild, non-novel positive for domestic coal producers but not a major market-moving new policy announcement.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Pro-coal rhetoric and push for domestic coal energy is mildly supportive for coal producers like Peabody.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"General pro-coal policy stance is mildly favorable for domestic coal miner Arch Resources.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"The President's continued advocacy for expanding US coal production supports metallurgical/coal producer Alpha Metallurgical.\", \"added\": false}], \"summary\": \"The President reiterated pro-coal, pro-energy dominance rhetoric, which is a mild, non-novel positive for domestic coal producers but not a major market-moving new policy announcement.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02247:oil",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "drill baby drill",
+   "text_span": "drill baby drill",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 2247.2689470588234,
+   "t_wall": 1753307263.2689471,
+   "t_wall_et": "2025-07-23T17:47:43.268947-04:00",
+   "segment_text": "saying those very famous campaign words, drill baby drill and build baby build, and we will be adding at least as much electric capacity",
+   "context": "What they've done is really amazing. So we opened up the industry, very strict rules, but we opened up the industry, and some of you are gonna choose nuclear over oil and gas or whatever it might be. Under the last year of Biden, China added 11 times as much power generation capacity as did The United States. Can you imagine that 11 times under the administration, we will be saying those very famous campaign words, drill baby drill and build baby build, and we will be adding at least as much electric capacity",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil sector",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "drill baby drill and build baby build",
+    "summary": "The President pledges increased oil drilling and energy capacity expansion under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated pro-drilling rhetoric and expanded power generation support broad energy sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General drill-baby-drill rhetoric is oil-supportive but not new policy, limited price impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-drilling stance modestly favorable to major domestic oil producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-drilling stance modestly favorable to major domestic oil producer.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated familiar pro-drilling and energy expansion rhetoric, mildly supportive for oil and energy stocks but not new policy, so effects are small and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated pro-drilling rhetoric and expanded power generation support broad energy sector sentiment.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General drill-baby-drill rhetoric is oil-supportive but not new policy, limited price impact.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-drilling stance modestly favorable to major domestic oil producer.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-drilling stance modestly favorable to major domestic oil producer.\", \"added\": false}], \"summary\": \"The President repeated familiar pro-drilling and energy expansion rhetoric, mildly supportive for oil and energy stocks but not new policy, so effects are small and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02254:china",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 2254.0048666666667,
+   "t_wall": 1753307270.0048666,
+   "t_wall_et": "2025-07-23T17:47:50.004867-04:00",
+   "segment_text": "as China.",
+   "context": "very strict rules, but we opened up the industry, and some of you are gonna choose nuclear over oil and gas or whatever it might be. Under the last year of Biden, China added 11 times as much power generation capacity as did The United States. Can you imagine that 11 times under the administration, we will be saying those very famous campaign words, drill baby drill and build baby build, and we will be adding at least as much electric capacity as China.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "China added 11 times as much power generation capacity as did The United States.",
+    "summary": "The President criticizes China's power generation capacity expansion compared to the US under Biden."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical comparison on power capacity, not a specific policy action against Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad China commentary with no new tariff or sanction announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about energy capacity, not tech-sector specific policy affecting Chinese internet firms.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comparison of US vs China power generation growth is broad rhetoric with no new concrete policy, sanction, or tariff announced, so no clear directional impact on Chinese equity ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetorical comparison on power capacity, not a specific policy action against Chinese equities.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same broad China commentary with no new tariff or sanction announced.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark is about energy capacity, not tech-sector specific policy affecting Chinese internet firms.\",\"added\":false}],\"summary\":\"The President's comparison of US vs China power generation growth is broad rhetoric with no new concrete policy, sanction, or tariff announced, so no clear directional impact on Chinese equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02304:amzn",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2304.49,
+   "t_wall": 1753307320.49,
+   "t_wall_et": "2025-07-23T17:48:40.490000-04:00",
+   "segment_text": "Amazon,",
+   "context": "and you are essentially going to become your own utility. It's a utility to yourselves. And as I said, any excess energy you're gonna sell back to the grid, and make plenty of money doing it. As a result of these pro American policies since my election, we're seeing trillions and trillions of dollars in new investments. So at this moment, we have almost $17,000,000,000,000 coming into this country. There's never been a period of time like that, and that's in a period of a few months. In a few months, Meta, Amazon,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "In a few months, Meta, Amazon",
+    "summary": "Amazon cited as example of major investment inflow to U.S."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President merely cites Amazon's already-known AI data center investments as an example of broader trend, no new policy or figure specific to Amazon.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general pro-AI/energy rhetoric praising known corporate investment trends; mention of Amazon is incidental and non-material, so no meaningful stock-specific price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President merely cites Amazon's already-known AI data center investments as an example of broader trend, no new policy or figure specific to Amazon.\", \"added\": false}], \"summary\": \"The remark is general pro-AI/energy rhetoric praising known corporate investment trends; mention of Amazon is incidental and non-material, so no meaningful stock-specific price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02305:googl",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 2305.45,
+   "t_wall": 1753307321.45,
+   "t_wall_et": "2025-07-23T17:48:41.450000-04:00",
+   "segment_text": "Google, Microsoft are all investing",
+   "context": "And as I said, any excess energy you're gonna sell back to the grid, and make plenty of money doing it. As a result of these pro American policies since my election, we're seeing trillions and trillions of dollars in new investments. So at this moment, we have almost $17,000,000,000,000 coming into this country. There's never been a period of time like that, and that's in a period of a few months. In a few months, Meta, Amazon, Google, Microsoft are all investing",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Meta, Amazon, Google, Microsoft are all investing",
+    "summary": "Google mentioned among companies investing in US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Google among big tech AI infrastructure investors, mildly positive but restates known spending plans.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reference already-known massive AI/data-center investments by Google and peers, a mild positive but not new information likely to move GOOGL meaningfully versus market.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GOOGL\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises Google among big tech AI infrastructure investors, mildly positive but restates known spending plans.\",\"added\":false}],\"summary\":\"The President's remarks reference already-known massive AI/data-center investments by Google and peers, a mild positive but not new information likely to move GOOGL meaningfully versus market.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02305:msft",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "msft",
+   "entity": "Microsoft",
+   "kind": "company",
+   "alias": "microsoft",
+   "text_span": "Microsoft",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 2305.9985485714283,
+   "t_wall": 1753307321.9985485,
+   "t_wall_et": "2025-07-23T17:48:41.998549-04:00",
+   "segment_text": "Google, Microsoft are all investing",
+   "context": "And as I said, any excess energy you're gonna sell back to the grid, and make plenty of money doing it. As a result of these pro American policies since my election, we're seeing trillions and trillions of dollars in new investments. So at this moment, we have almost $17,000,000,000,000 coming into this country. There's never been a period of time like that, and that's in a period of a few months. In a few months, Meta, Amazon, Google, Microsoft are all investing",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Microsoft",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Meta, Amazon, Google, Microsoft are all investing",
+    "summary": "Microsoft mentioned among companies investing in US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive but already-known mention of Microsoft's AI data center investment alongside peers, unlikely to move the stock materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks praise AI/data center investment broadly (Meta, Amazon, Google, Microsoft, Nvidia) as evidence of pro-America policy success, but the Microsoft mention is generic and reiterates known investment plans rather than revealing new information, so limited standalone stock impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive but already-known mention of Microsoft's AI data center investment alongside peers, unlikely to move the stock materially.\", \"added\": false}], \"summary\": \"The President's remarks praise AI/data center investment broadly (Meta, Amazon, Google, Microsoft, Nvidia) as evidence of pro-America policy success, but the Microsoft mention is generic and reiterates known investment plans rather than revealing new information, so limited standalone stock impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02335:nvda",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2335.205,
+   "t_wall": 1753307351.205,
+   "t_wall_et": "2025-07-23T17:49:11.205000-04:00",
+   "segment_text": "Nvidia",
+   "context": "Google, Microsoft are all investing $320,000,000,000 or more in data centers and AI infrastructure this year. Those companies are really, they're really going at it, and they're very smart people, very good people. I got to know a lot of them. You know, I didn't like them so much the 1st term when I was running. I I wouldn't say I was thrilled with them, but I've gotten to know them and like them, and I think they got to like me, but I think they got to like my policies maybe much more than me. Nvidia",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "Google, Microsoft investing $320 billion in data centers, AI infrastructure.",
+    "summary": "The President praises Google and Microsoft AI investments; Nvidia benefits from infrastructure spending."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlights massive AI infrastructure spending and Nvidia's already-announced $500B commitment, reinforcing bullish sentiment but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate known AI infrastructure investment figures including Nvidia's $500B commitment, mildly reinforcing positive sentiment without new material news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President highlights massive AI infrastructure spending and Nvidia's already-announced $500B commitment, reinforcing bullish sentiment but not new information.\", \"added\": false}], \"summary\": \"The President's remarks reiterate known AI infrastructure investment figures including Nvidia's $500B commitment, mildly reinforcing positive sentiment without new material news.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02340:nvda_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "nvda_word",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen",
+   "text_span": "Jensen",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 2340.520234,
+   "t_wall": 1753307356.520234,
+   "t_wall_et": "2025-07-23T17:49:16.520234-04:00",
+   "segment_text": "over the next 4 years. Thank you, Jensen. I'm sure that'll be a good investment. If you're doing it,",
+   "context": "this year. Those companies are really, they're really going at it, and they're very smart people, very good people. I got to know a lot of them. You know, I didn't like them so much the 1st term when I was running. I I wouldn't say I was thrilled with them, but I've gotten to know them and like them, and I think they got to like me, but I think they got to like my policies maybe much more than me. Nvidia has committed $500,000,000,000 over the next 4 years. Thank you, Jensen. I'm sure that'll be a good investment. If you're doing it,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Jensen Huang (Nvidia CEO)",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Nvidia has committed $500,000,000,000 over the next 4 years. Thank you, Jensen.",
+    "summary": "The President credits Nvidia CEO Jensen Huang for $500 billion investment commitment over four years."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates Nvidia's already-announced $500B commitment with praise but no new information for traders.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark restates a previously known Nvidia investment figure and offers general praise, so it is unlikely to move NVDA meaningfully relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates Nvidia's already-announced $500B commitment with praise but no new information for traders.\", \"added\": false}], \"summary\": \"The remark restates a previously known Nvidia investment figure and offers general praise, so it is unlikely to move NVDA meaningfully relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02359:ai",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 2359.619023255814,
+   "t_wall": 1753307375.6190233,
+   "t_wall_et": "2025-07-23T17:49:35.619023-04:00",
+   "segment_text": "in energy and data center projects, including what will soon be the largest natural gas power plant anywhere in North America. They're going to town. It's already under construction, largest in North America by far.",
+   "context": "over the next 4 years. Thank you, Jensen. I'm sure that'll be a good investment. If you're doing it, it's good. Thank you very much. It's a great it's a great statement. Last week, was in Pennsylvania's 20 companies announced $92,000,000,000 with David McCormick, senator, great guy from Pennsylvania. $92,000,000,000 in energy and data center projects, including what will soon be the largest natural gas power plant anywhere in North America. They're going to town. It's already under construction, largest in North America by far.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "$92 billion in energy and data center projects, largest natural gas power plant North America.",
+    "summary": "The President highlights $92B in PA data center and energy investments, including largest North American natural gas plant."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise and reference to Nvidia's already-announced $500B commitment reinforces positive sentiment but is not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bullish AI infrastructure rhetoric supports semiconductor sector sentiment though largely repeats known trends.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of massive data center capex reaffirms known AI spending plans, mildly supportive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Continued emphasis on data center and power infrastructure buildout benefits Vertiv as a key infrastructure supplier.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise and reference to Nvidia's already-announced $500B commitment reinforces positive sentiment but is not new information.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General bullish AI infrastructure rhetoric supports semiconductor sector sentiment though largely repeats known trends.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of massive data center capex reaffirms known AI spending plans, mildly supportive.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Continued emphasis on data center and power infrastructure buildout benefits Vertiv as a key infrastructure supplier.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02406:defense_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2406.3287715355805,
+   "t_wall": 1753307422.3287716,
+   "t_wall_et": "2025-07-23T17:50:22.328772-04:00",
+   "segment_text": "great paying jobs, the kind of jobs we want, including lots of blue collar jobs and, you know, our numbers are very good right now, but when you see these numbers in 2 years from now, it will mean higher wages and more opportunity for millions of energy workers, HVAC",
+   "context": "we are going to have leaders who are going to build up our nation. This colossal investment in AI infrastructure and many other industries for that matter, such as automobiles and so many other things, will also create thousands and thousands of great paying jobs, the kind of jobs we want, including lots of blue collar jobs and, you know, our numbers are very good right now, but when you see these numbers in 2 years from now, it will mean higher wages and more opportunity for millions of energy workers, HVAC",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02468:ai_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2468.722014159292,
+   "t_wall": 1753307484.7220142,
+   "t_wall_et": "2025-07-23T17:51:24.722014-04:00",
+   "segment_text": "The 2nd pillar of our action plan for AI dominance is to get the entire world running on the backbone of American",
+   "context": "You will get so good at service in so many ways, not only from Lee with the environment, but you need many other types of permits and you're gonna go so fast. You're gonna say, well, wait a minute, this is too fast. I didn't expect to go this quickly. This is a problem. I may cause a problem in opposite, but including factories, data centers, and power plants of all kinds, The United States will have total industrial and technological supremacy. The 2nd pillar of our action plan for AI dominance is to get the entire world running on the backbone of American",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "get the entire world running on the backbone of American",
+    "summary": "The President plans US AI dominance through infrastructure investment and global deployment."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Faster permitting for AI infrastructure and repeal of export restrictions supports demand for Nvidia chips domestically and abroad.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Pro-AI infrastructure and eased export policy is broadly positive for the semiconductor sector ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks favor accelerated AI infrastructure buildout and looser export rules, a positive backdrop for AI chipmakers like Nvidia and the semiconductor sector broadly, though much of this is reiterated policy rather than new specifics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.62,\"magnitude\":\"medium\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Faster permitting for AI infrastructure and repeal of export restrictions supports demand for Nvidia chips domestically and abroad.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.58,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Pro-AI infrastructure and eased export policy is broadly positive for the semiconductor sector ETF.\",\"added\":false}],\"summary\":\"The President's remarks favor accelerated AI infrastructure buildout and looser export rules, a positive backdrop for AI chipmakers like Nvidia and the semiconductor sector broadly, though much of this is reiterated policy rather than new specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02607:saudi",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "saudi",
+   "entity": "Saudi Arabia",
+   "kind": "country",
+   "alias": "saudi arabia",
+   "text_span": "Saudi Arabia",
+   "dict_tickers": [
+    "KSA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 2607.0666314285713,
+   "t_wall": 1753307623.0666313,
+   "t_wall_et": "2025-07-23T17:53:43.066631-04:00",
+   "segment_text": "We're gonna come home with trillions and trillions of dollars in deals, and that's the way it is. But the king of Saudi Arabia met 3 great leaders. I went to 3 countries, predominantly king of Saudi Arabia said, and I can say that Qatar and UAE,",
+   "context": "No. They just voted her the most powerful woman anywhere in the world. She might be the most powerful person in the world, I think. But she's done a fantastic She's a good job though. Good. We're gonna come home with trillions and trillions of dollars in deals, and that's the way it is. But the king of Saudi Arabia met 3 great leaders. I went to 3 countries, predominantly king of Saudi Arabia said, and I can say that Qatar and UAE,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Saudi Arabia",
+    "tickers": [
+     "KSA",
+     "XLE"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "king of Saudi Arabia met 3 great leaders. We're gonna come home with trillions and trillions of dollars in deals.",
+    "summary": "The President visited Saudi Arabia and negotiated major deals worth trillions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "KSA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about strong US-Saudi relations and deals is mildly positive for the Saudi Arabia ETF but not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific energy policy or Saudi oil-related announcement was made that would move the energy sector ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate prior rhetoric about massive deals with Saudi Arabia and Gulf states without new specifics, offering only mild, low-confidence upside for Saudi-linked assets and no clear effect on the energy sector ETF.",
+    "raw": "{\"tickers\": [{\"ticker\": \"KSA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about strong US-Saudi relations and deals is mildly positive for the Saudi Arabia ETF but not new information.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific energy policy or Saudi oil-related announcement was made that would move the energy sector ETF.\", \"added\": false}], \"summary\": \"The President's remarks reiterate prior rhetoric about massive deals with Saudi Arabia and Gulf states without new specifics, offering only mild, low-confidence upside for Saudi-linked assets and no clear effect on the energy sector ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02641:defense_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2641.5939130434786,
+   "t_wall": 1753307657.593913,
+   "t_wall_et": "2025-07-23T17:54:17.593913-04:00",
+   "segment_text": "And when I went to NATO 2 weeks ago, where we made the deal where they pay 5% instead of 2%,",
+   "context": "We're gonna come home with trillions and trillions of dollars in deals, and that's the way it is. But the king of Saudi Arabia met 3 great leaders. I went to 3 countries, predominantly king of Saudi Arabia said, and I can say that Qatar and UAE, the leaders, brilliant guys, great people, they said the same thing. They said, you know what? That 1 year ago, your country was dead. It was a dead country. They were looking at China, they were looking at other places, but you had a dead country. And today, mister president, you have the hottest country anywhere in the world. They said that and they meant it so strongly. And when I went to NATO 2 weeks ago, where we made the deal where they pay 5% instead of 2%,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "NATO weeks ago, where we made the deal where they pay 5% instead of 2%",
+    "summary": "The President claims NATO members agreed to increase defense spending from 2% to 5% of GDP."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Restated NATO 5% defense spending pledge supports higher long-term defense budgets and demand for aerospace/defense contractors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Same NATO defense spending narrative modestly bullish for aerospace/defense sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Higher allied defense budgets could indirectly boost demand for drone/defense tech firms like AVAV.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Reiterated NATO spending increase is a mild tailwind for defense contractors like KTOS.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated the NATO 5% defense spending deal (already known) which is mildly positive for defense-sector equities and ETFs, while the AI export order is not directly tied to these tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Restated NATO 5% defense spending pledge supports higher long-term defense budgets and demand for aerospace/defense contractors.\",\"added\":false},{\"ticker\":\"XAR\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Same NATO defense spending narrative modestly bullish for aerospace/defense sector ETF.\",\"added\":false},{\"ticker\":\"AVAV\",\"direction\":\"up\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Higher allied defense budgets could indirectly boost demand for drone/defense tech firms like AVAV.\",\"added\":false},{\"ticker\":\"KTOS\",\"direction\":\"up\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Reiterated NATO spending increase is a mild tailwind for defense contractors like KTOS.\",\"added\":false}],\"summary\":\"The President reiterated the NATO 5% defense spending deal (already known) which is mildly positive for defense-sector equities and ETFs, while the AI export order is not directly tied to these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:02686:chips",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [
+    "exports"
+   ],
+   "t_audio": 2686.4855309734517,
+   "t_wall": 1753307702.485531,
+   "t_wall_et": "2025-07-23T17:55:02.485531-04:00",
+   "segment_text": "will work to rapidly expand American AI exports of all kinds from chips to software to data storage of all kinds,",
+   "context": "They all said it. All those leaders said it, 30 of them. So today, I'm signing another major executive order that will turn America into an AI export powerhouse. Under this order, secretary, secretary Marco Rubio, Rubio is doing a great job as secretary of state, will work to rapidly expand American AI exports of all kinds from chips to software to data storage of all kinds,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "expand American AI exports of all kinds from chips to software",
+    "summary": "The President signing executive order to expand US semiconductor exports as AI powerhouse strategy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Executive order to expand AI/chip exports broadly benefits semiconductor sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same export-expansion policy supports semiconductor ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "As leading AI chip exporter, NVDA stands to benefit most from eased export rules.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Intel is less export/AI-chip focused so impact is more muted and ambiguous given criticism of chip subsidy recipients.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks announcing an executive order to expand US AI chip exports are mildly positive for semiconductor stocks and ETFs broadly, especially export leaders like NVDA, with less clear impact for Intel given his criticism of CHIPS Act subsidy recipients.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Executive order to expand AI/chip exports broadly benefits semiconductor sector sentiment.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Same export-expansion policy supports semiconductor ETF sentiment.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"As leading AI chip exporter, NVDA stands to benefit most from eased export rules.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Intel is less export/AI-chip focused so impact is more muted and ambiguous given criticism of chip subsidy recipients.\", \"added\": false}], \"summary\": \"The President's remarks announcing an executive order to expand US AI chip exports are mildly positive for semiconductor stocks and ETFs broadly, especially export leaders like NVDA, with less clear impact for Intel given his criticism of CHIPS Act subsidy recipients.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:03052:ai",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "ai race",
+   "text_span": "AI race",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3052.5490721649485,
+   "t_wall": 1753308068.5490723,
+   "t_wall_et": "2025-07-23T18:01:08.549072-04:00",
+   "segment_text": "technological power. I believe that Joe Biden had a plan to lose the AI race. I think he wanted to lose it because his plan would never have worked. It would have never been successful, you would have spent a lot of money and you wouldn't have been able to win. They didn't allow you to win,",
+   "context": "Jensen was small well, you have a small I think so. When you started in your bedroom, I think you were small. Right? You started as very small, and now he's really become very amazing. If you regulate them too much, you kill the source of American genius and technological power. I believe that Joe Biden had a plan to lose the AI race. I think he wanted to lose it because his plan would never have worked. It would have never been successful, you would have spent a lot of money and you wouldn't have been able to win. They didn't allow you to win,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Joe Biden had a plan to lose the AI race",
+    "summary": "The President criticizes Biden's AI strategy as deliberately losing to China."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI, light-touch regulation rhetoric is mildly supportive of Nvidia as key AI infrastructure supplier.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-innovation, deregulatory AI stance is a mild tailwind for semiconductor sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not specifically named and rhetoric is general pro-AI sentiment without firm-specific catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Pro-AI buildout stance is a mild positive for data center infrastructure suppliers like Vertiv.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general pro-AI, anti-regulation rhetoric praising OpenAI, Google, Meta and startups, mildly bullish for AI/semiconductor names but not a specific new policy catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI, light-touch regulation rhetoric is mildly supportive of Nvidia as key AI infrastructure supplier.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-innovation, deregulatory AI stance is a mild tailwind for semiconductor sector broadly.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not specifically named and rhetoric is general pro-AI sentiment without firm-specific catalyst.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Pro-AI buildout stance is a mild positive for data center infrastructure suppliers like Vertiv.\", \"added\": false}], \"summary\": \"The President's remarks are general pro-AI, anti-regulation rhetoric praising OpenAI, Google, Meta and startups, mildly bullish for AI/semiconductor names but not a specific new policy catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:03080:openai",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "openai",
+   "entity": "OpenAI",
+   "kind": "company",
+   "alias": "openai",
+   "text_span": "OpenAI",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3080.8166666666666,
+   "t_wall": 1753308096.8166666,
+   "t_wall_et": "2025-07-23T18:01:36.816667-04:00",
+   "segment_text": "The people of OpenAI,",
+   "context": "technological power. I believe that Joe Biden had a plan to lose the AI race. I think he wanted to lose it because his plan would never have worked. It would have never been successful, you would have spent a lot of money and you wouldn't have been able to win. They didn't allow you to win, but we have a plan which only admires and respects the winners. Every citizen should take incredible pride in the inspiring feats of American innovators who are pushing the bounds of human knowledge and achievement. The people of OpenAI,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "OpenAI",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "The people of OpenAI, pushing the bounds of human knowledge.",
+    "summary": "The President praises OpenAI as American innovators pushing bounds of human knowledge."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI, light-touch regulation rhetoric and praise of OpenAI (Microsoft-backed) is mildly supportive but non-specific.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broadly pro-AI-industry rhetoric favoring light regulation and praising OpenAI/Google/Meta, which is mildly positive but non-specific for Microsoft given its OpenAI partnership.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MSFT\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-AI, light-touch regulation rhetoric and praise of OpenAI (Microsoft-backed) is mildly supportive but non-specific.\",\"added\":false}],\"summary\":\"The President's remarks are broadly pro-AI-industry rhetoric favoring light regulation and praising OpenAI/Google/Meta, which is mildly positive but non-specific for Microsoft given its OpenAI partnership.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:03081:googl",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3081.59,
+   "t_wall": 1753308097.59,
+   "t_wall_et": "2025-07-23T18:01:37.590000-04:00",
+   "segment_text": "Google,",
+   "context": "technological power. I believe that Joe Biden had a plan to lose the AI race. I think he wanted to lose it because his plan would never have worked. It would have never been successful, you would have spent a lot of money and you wouldn't have been able to win. They didn't allow you to win, but we have a plan which only admires and respects the winners. Every citizen should take incredible pride in the inspiring feats of American innovators who are pushing the bounds of human knowledge and achievement. The people of OpenAI, Google,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "The people of OpenAI, Google, pushing the bounds of human knowledge",
+    "summary": "The President praises Google alongside OpenAI as American AI innovators."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of Google as an American AI leader alongside supportive light-touch regulatory rhetoric is mildly positive but not new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks praise Google among AI leaders and favor light regulation, a mild positive but largely rhetorical repeat of known pro-AI stance.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of Google as an American AI leader alongside supportive light-touch regulatory rhetoric is mildly positive but not new policy.\", \"added\": false}], \"summary\": \"The President's remarks praise Google among AI leaders and favor light regulation, a mild positive but largely rhetorical repeat of known pro-AI stance.\"}"
+   }
+  },
+  {
+   "signal_id": "tBNX9x5GgPE:03328:ai_word",
+   "video_id": "tBNX9x5GgPE",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "executive order",
+    "export"
+   ],
+   "t_audio": 3328.9727093023257,
+   "t_wall": 1753308344.9727094,
+   "t_wall_et": "2025-07-23T18:05:44.972709-04:00",
+   "segment_text": "the export abroad of American AI models to ensure American AI dominance in the future.",
+   "context": "As you said before, sir, it's absolutely essential that American AI models and American the American AI industry dominates the future of this industry around the world. What this next executive order will do is is promote through various instrumentalities of the federal government, the export abroad of American AI models to ensure American AI dominance in the future. Great.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  }
+ ]
+}

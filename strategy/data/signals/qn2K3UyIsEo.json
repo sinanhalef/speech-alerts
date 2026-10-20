@@ -1,0 +1,1188 @@
+{
+ "video": {
+  "id": "qn2K3UyIsEo",
+  "url": "https://www.youtube.com/watch?v=qn2K3UyIsEo",
+  "title": "The President Makes an Announcement, Sep. 2, 2025",
+  "channel": "The White House",
+  "duration": 2940.0,
+  "was_live": true,
+  "release_timestamp": 1756838456.0,
+  "upload_timestamp": 1756842074.0,
+  "upload_date": "20250902",
+  "label": "Makes an Announcement, Sep. 2, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1756838456.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 19,
+  "confirmed": 14,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 19
+ },
+ "signals": [
+  {
+   "signal_id": "qn2K3UyIsEo:00241:defense",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "golden dome",
+   "text_span": "Golden Dome",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 241.7414450867052,
+   "t_wall": 1756838697.741445,
+   "t_wall_et": "2025-09-02T14:44:57.741445-04:00",
+   "segment_text": "will play a key role in building the Golden Dome, as you know. That's gonna be a big thing. Everybody wants to be a participant in it. Missile Defense Shield, we're gonna be",
+   "context": "The problem I have with Colorado, 1 of the big problems, they do mail in voting. They went to all mail in voting. So they have automatically crooked elections, and we can't have that. When a state is for mail in voting, that means they want this honest elections because that's what that means. So that played a big factor also. In Huntsville, SpaceCom will play a key role in building the Golden Dome, as you know. That's gonna be a big thing. Everybody wants to be a participant in it. Missile Defense Shield, we're gonna be",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Golden Dome",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "LMT",
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "SpaceCom will play a key role in building the Golden Dome",
+    "summary": "The President identifies Golden Dome as a major space/defense initiative with broad contractor interest."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Golden Dome missile defense program broadly boosts defense sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Aerospace/defense ETF benefits from continued Golden Dome buildout narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Likely major contractor candidate for missile defense shield work, though no new contract announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Missile defense systems maker stands to benefit from expanded Golden Dome program.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Space and missile defense contractor benefits from continued Golden Dome momentum.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Less directly tied to missile defense/space than peers, minimal specific impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates the Golden Dome missile defense initiative and SpaceCom's Huntsville headquarters, generally positive but not new information for defense/aerospace stocks, with modest upside skew for major contractors.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Golden Dome missile defense program broadly boosts defense sector sentiment.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Aerospace/defense ETF benefits from continued Golden Dome buildout narrative.\", \"added\": false}, {\"ticker\": \"LMT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Likely major contractor candidate for missile defense shield work, though no new contract announced.\", \"added\": false}, {\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Missile defense systems maker stands to benefit from expanded Golden Dome program.\", \"added\": false}, {\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Space and missile defense contractor benefits from continued Golden Dome momentum.\", \"added\": false}, {\"ticker\": \"GD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Less directly tied to missile defense/space than peers, minimal specific impact.\", \"added\": false}], \"summary\": \"The President reiterates the Golden Dome missile defense initiative and SpaceCom's Huntsville headquarters, generally positive but not new information for defense/aerospace stocks, with modest upside skew for major contractors.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:00465:spacex",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "spacex",
+   "entity": "SpaceX",
+   "kind": "company",
+   "alias": "spacex",
+   "text_span": "SpaceX",
+   "dict_tickers": [],
+   "triggers_nearby": [],
+   "t_audio": 465.165,
+   "t_wall": 1756838921.165,
+   "t_wall_et": "2025-09-02T14:48:41.165000-04:00",
+   "segment_text": "SpaceX.",
+   "context": "but we know where we're at, and we need to expound on that. Now, this move will save the taxpayers $480,000,000. It's not going to cost more. It's going to cut $480,000,000. We have the plans intact. It'll be behind a secure wall in Huntsville, Alabama, Redstone Arsenal. We have 40,000 people there. We have FBI there. We have missile defense there. We have NASA, Blue Origin, and SpaceX.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "SpaceX",
+    "tickers": [],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "We have NASA, Blue Origin, and SpaceX.",
+    "summary": "SpaceX operates at Redstone Arsenal in Huntsville, Alabama alongside NASA and missile defense."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Space Command basing decision to Huntsville is a minor positive signal for defense/missile contractors broadly but not specific enough to move RTX materially",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "LMT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Space Command location decision benefits Huntsville defense ecosystem generally but no direct contract news for Lockheed",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President announces Space Command headquarters will be based in Huntsville, Alabama, a decision with mild positive implications for the local defense/aerospace ecosystem but no direct, tradeable news for any specific public company like SpaceX (private) or named tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"RTX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Space Command basing decision to Huntsville is a minor positive signal for defense/missile contractors broadly but not specific enough to move RTX materially\",\"added\":true},{\"ticker\":\"LMT\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Space Command location decision benefits Huntsville defense ecosystem generally but no direct contract news for Lockheed\",\"added\":true}],\"summary\":\"The President announces Space Command headquarters will be based in Huntsville, Alabama, a decision with mild positive implications for the local defense/aerospace ecosystem but no direct, tradeable news for any specific public company like SpaceX (private) or named tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:00774:nuclear",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "nuclear power",
+   "text_span": "nuclear power",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 774.6933832335329,
+   "t_wall": 1756839230.6933832,
+   "t_wall_et": "2025-09-02T14:53:50.693383-04:00",
+   "segment_text": "potential nuclear power for a long time to come. I think within a month, they would have had it if we didn't do what we did. But he gave us a little bit of a briefing,",
+   "context": "boat, a drug carrying boat, a lot of drugs in that boat. And, you'll be seeing that, and you'll be reading about that. It just happened moments ago and our great general, head of the Joint Chiefs of Staff, who has been so incredible, including what took place in Iran, knocking out potential nuclear power for a long time to come. I think within a month, they would have had it if we didn't do what we did. But he gave us a little bit of a briefing,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nuclear energy sector",
+    "tickers": [
+     "URA",
+     "CCJ",
+     "OKLO",
+     "SMR"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "knocking out potential nuclear power for a long time to come",
+    "summary": "The President praised military action that destroyed Iran's nuclear capability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "URA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about Iran nuclear program destruction is unrelated to commercial uranium/nuclear energy sector economics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CCJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or demand signal for uranium miners from this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "OKLO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark concerns Iran strike, not US nuclear reactor policy or subsidies.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct relevance to small modular reactor commercial outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CEG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about military strike on Iran nuclear facilities has no bearing on Constellation Energy operations.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The nuclear-related remark refers to destroying Iran's nuclear weapons capability, not to US civilian nuclear energy policy, so it carries no material pricing implication for uranium or nuclear energy stocks.",
+    "raw": "{\"tickers\": [{\"ticker\":\"URA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment about Iran nuclear program destruction is unrelated to commercial uranium/nuclear energy sector economics.\",\"added\":false},{\"ticker\":\"CCJ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new policy or demand signal for uranium miners from this remark.\",\"added\":false},{\"ticker\":\"OKLO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark concerns Iran strike, not US nuclear reactor policy or subsidies.\",\"added\":false},{\"ticker\":\"SMR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct relevance to small modular reactor commercial outlook.\",\"added\":false},{\"ticker\":\"CEG\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment about military strike on Iran nuclear facilities has no bearing on Constellation Energy operations.\",\"added\":false}],\"summary\":\"The nuclear-related remark refers to destroying Iran's nuclear weapons capability, not to US civilian nuclear energy policy, so it carries no material pricing implication for uranium or nuclear energy stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:01119:pltr",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "pltr",
+   "entity": "Palantir",
+   "kind": "company",
+   "alias": "palantir",
+   "text_span": "Palantir",
+   "dict_tickers": [
+    "PLTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1119.2395864661655,
+   "t_wall": 1756839575.2395864,
+   "t_wall_et": "2025-09-02T14:59:35.239586-04:00",
+   "segment_text": "if there isn't some type of announcement of a meeting with president Putin and president Palantir? Yeah. There will be. Consequences.",
+   "context": "a lot of instances. Other countries have also. They have different kinds of problems than we have, but we do have there's there's something going on something going on, and it's a it's a bad thing. Yes, please. Have you spoken with president Putin in the past week? Have you spoken with president Putin? Yeah. I don't wanna I I have I have learned things that will be very interesting. Think in the next few days, you'll find out. Will there be any consequences if there isn't some type of announcement of a meeting with president Putin and president Palantir? Yeah. There will be. Consequences. We're gonna see what they do and what happens. I'm watching it very closely.",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:01192:defense_word",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 1192.184709589041,
+   "t_wall": 1756839648.1847095,
+   "t_wall_et": "2025-09-02T15:00:48.184710-04:00",
+   "segment_text": "Gavin Newsom would be probably the 2 worst and most naive. They're naive.",
+   "context": "Last week, as you know, it was 7 people, 24 people hit, and 7 people died. And then over the last 2 days, was the that was the the crown jewel. They had, I guess, 9 killed, 9 or 10 killed, and 50 hit with bullets. And you have this governor get up, who's a terrible governor, probably he and Gavin Newsom would be probably the 2 worst and most naive. They're naive. Either they're naive or they're very untruthful.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02117:rtx_word",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "rtx_word",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "patriots",
+   "text_span": "patriots",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2117.4133333333334,
+   "t_wall": 1756840573.4133334,
+   "t_wall_et": "2025-09-02T15:16:13.413333-04:00",
+   "segment_text": "They've ruled 7 to 4 with 1 of the most liberal of them all voting in our favor because they're they're patriots. I I think I give tremendous credit to that judge, and now it's going to the Supreme Court. Now we're gonna be asking for",
+   "context": "And and by the way, all these countries signed agreements as an example. They signed they're all happy. Everybody's happy. But some whack job put in a lawsuit. It went before a very liberal court, and the liberal court ruled it was 11. They've ruled 7 to 4 with 1 of the most liberal of them all voting in our favor because they're they're patriots. I I think I give tremendous credit to that judge, and now it's going to the Supreme Court. Now we're gonna be asking for",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02134:stock_market",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock",
+    "tariffs"
+   ],
+   "t_audio": 2134.4575763636367,
+   "t_wall": 1756840590.4575763,
+   "t_wall_et": "2025-09-02T15:16:30.457576-04:00",
+   "segment_text": "you know, when you look at the stock market's down today, the stock market's down because of that. Because the stock market needs the tariffs, they want the tariffs.",
+   "context": "and the liberal court ruled it was 11. They've ruled 7 to 4 with 1 of the most liberal of them all voting in our favor because they're they're patriots. I I think I give tremendous credit to that judge, and now it's going to the Supreme Court. Now we're gonna be asking for early admittance. We're we're going tomorrow, and we're gonna ask for expedited an expedited ruling because, you know, when you look at the stock market's down today, the stock market's down because of that. Because the stock market needs the tariffs, they want the tariffs.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "stock market needs the tariffs, they want the tariffs",
+    "summary": "The President states the stock market wants and needs tariffs for growth."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about tariff court case adds uncertainty but no new policy detail for broad market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "AI/tariff comments are rhetorical reinforcement, not new information affecting tech sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new material policy for industrial-heavy index beyond existing tariff uncertainty.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark restates existing tariff legal battle and rhetoric without new concrete policy, so limited distinguishable market impact beyond general tariff-court uncertainty already priced in.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about tariff court case adds uncertainty but no new policy detail for broad market.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"AI/tariff comments are rhetorical reinforcement, not new information affecting tech sector.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new material policy for industrial-heavy index beyond existing tariff uncertainty.\",\"added\":false}],\"summary\":\"Remark restates existing tariff legal battle and rhetoric without new concrete policy, so limited distinguishable market impact beyond general tariff-court uncertainty already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02142:ai_word",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock",
+    "tariffs"
+   ],
+   "t_audio": 2142.2765666666664,
+   "t_wall": 1756840598.2765667,
+   "t_wall_et": "2025-09-02T15:16:38.276567-04:00",
+   "segment_text": "If you look at AI,",
+   "context": "They've ruled 7 to 4 with 1 of the most liberal of them all voting in our favor because they're they're patriots. I I think I give tremendous credit to that judge, and now it's going to the Supreme Court. Now we're gonna be asking for early admittance. We're we're going tomorrow, and we're gonna ask for expedited an expedited ruling because, you know, when you look at the stock market's down today, the stock market's down because of that. Because the stock market needs the tariffs, they want the tariffs. If you look at AI,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "If you look at AI",
+    "summary": "The President links AI sector to stock market and tariff policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric linking tariffs to AI leadership is not new information specific to Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad commentary on tariff court case and AI investment is macro noise rather than a specific semiconductor catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on the pending Supreme Court tariff ruling and general AI investment rhetoric, repeating known talking points without new specific action affecting NVDA or SMH, so market-relative impact is likely negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric linking tariffs to AI leadership is not new information specific to Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad commentary on tariff court case and AI investment is macro noise rather than a specific semiconductor catalyst.\", \"added\": false}], \"summary\": \"The President's remarks focus on the pending Supreme Court tariff ruling and general AI investment rhetoric, repeating known talking points without new specific action affecting NVDA or SMH, so market-relative impact is likely negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02216:japan",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "tariffs"
+   ],
+   "t_audio": 2216.4918794871796,
+   "t_wall": 1756840672.4918795,
+   "t_wall_et": "2025-09-02T15:17:52.491879-04:00",
+   "segment_text": "we signed a deal with Japan. They're paying us hundreds of billions of dollars. We signed a deal with South Korea. We signed a deal with the European Union.",
+   "context": "We don't have 60 votes. Know, I'd love to do that. Oh, if we had if we had 60 senators, if we got the 60 votes, we would get them. But we need 60 votes, and we need, you know, a certain number in the house. We'd get I think we'd get I don't know. We have about 5 of them here. Would everybody agree with me on tariffs? Without tariffs, we're a different country. We we have taken in so much money. And and here's the thing, we signed a deal with Japan. They're paying us hundreds of billions of dollars. We signed a deal with South Korea. We signed a deal with the European Union.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We signed a deal with Japan. They're paying us hundreds of billions of dollars.",
+    "summary": "The President claims a deal with Japan yielding hundreds of billions in payments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates an already-known trade deal with Japan without new specifics, unlikely to move the broad Japan ETF materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments reiterate previously announced tariff deals and legal arguments defending tariff authority; the Japan deal reference is not new information, so limited expected market impact on EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates an already-known trade deal with Japan without new specifics, unlikely to move the broad Japan ETF materially.\", \"added\": false}], \"summary\": \"The President's comments reiterate previously announced tariff deals and legal arguments defending tariff authority; the Japan deal reference is not new information, so limited expected market impact on EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02220:korea",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2220.7176230769232,
+   "t_wall": 1756840676.717623,
+   "t_wall_et": "2025-09-02T15:17:56.717623-04:00",
+   "segment_text": "we signed a deal with Japan. They're paying us hundreds of billions of dollars. We signed a deal with South Korea. We signed a deal with the European Union.",
+   "context": "We don't have 60 votes. Know, I'd love to do that. Oh, if we had if we had 60 senators, if we got the 60 votes, we would get them. But we need 60 votes, and we need, you know, a certain number in the house. We'd get I think we'd get I don't know. We have about 5 of them here. Would everybody agree with me on tariffs? Without tariffs, we're a different country. We we have taken in so much money. And and here's the thing, we signed a deal with Japan. They're paying us hundreds of billions of dollars. We signed a deal with South Korea. We signed a deal with the European Union.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We signed a deal with South Korea.",
+    "summary": "The President states a deal was signed with South Korea."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to already-announced US-South Korea tariff deal provides no new information for Korean equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates previously known trade deals (Japan, South Korea, EU) as justification for tariffs; no new terms are disclosed, so market impact on EWY is likely minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to already-announced US-South Korea tariff deal provides no new information for Korean equities.\", \"added\": false}], \"summary\": \"The President reiterates previously known trade deals (Japan, South Korea, EU) as justification for tariffs; no new terms are disclosed, so market impact on EWY is likely minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02222:eu",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2222.7776730769233,
+   "t_wall": 1756840678.777673,
+   "t_wall_et": "2025-09-02T15:17:58.777673-04:00",
+   "segment_text": "we signed a deal with Japan. They're paying us hundreds of billions of dollars. We signed a deal with South Korea. We signed a deal with the European Union.",
+   "context": "We don't have 60 votes. Know, I'd love to do that. Oh, if we had if we had 60 senators, if we got the 60 votes, we would get them. But we need 60 votes, and we need, you know, a certain number in the house. We'd get I think we'd get I don't know. We have about 5 of them here. Would everybody agree with me on tariffs? Without tariffs, we're a different country. We we have taken in so much money. And and here's the thing, we signed a deal with Japan. They're paying us hundreds of billions of dollars. We signed a deal with South Korea. We signed a deal with the European Union.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We signed a deal with the European Union.",
+    "summary": "The President states a deal was signed with the European Union."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates already-known EU trade deal with no new terms.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated claim about EU deal, largely priced in already.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff or trade terms disclosed for eurozone equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks restate the already-known EU tariff deal and general tariff rhetoric without new details, so minimal price impact expected on European equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates already-known EU trade deal with no new terms.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same repeated claim about EU deal, largely priced in already.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff or trade terms disclosed for eurozone equities.\", \"added\": false}], \"summary\": \"The President's remarks restate the already-known EU tariff deal and general tariff rhetoric without new details, so minimal price impact expected on European equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02289:defense_word",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2289.043293877551,
+   "t_wall": 1756840745.043294,
+   "t_wall_et": "2025-09-02T15:19:05.043294-04:00",
+   "segment_text": "And so what are you asking me about her? NATO's concerned about I think 2 of us 2 NATO is concerned about. Well, nobody knows where it came from, but they did take away her ability to use a phone.",
+   "context": "on a legal basis. They have no legal basis whatsoever. But on a common sense basis, it would destroy America. Okay. So do you see we talked about controlling the sky. On Sunday, the satellite signal, also the hondylites playing with the With Ursula? Well, she had an interesting event. She's a tremendous woman. And so what are you asking me about her? NATO's concerned about I think 2 of us 2 NATO is concerned about. Well, nobody knows where it came from, but they did take away her ability to use a phone.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02305:india",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2305.9199,
+   "t_wall": 1756840761.9199,
+   "t_wall_et": "2025-09-02T15:19:21.919900-04:00",
+   "segment_text": "the tariffs on India from 50%?",
+   "context": "signal, also the hondylites playing with the With Ursula? Well, she had an interesting event. She's a tremendous woman. And so what are you asking me about her? NATO's concerned about I think 2 of us 2 NATO is concerned about. Well, nobody knows where it came from, but they did take away her ability to use a phone. You know? Sometimes that's a good thing. Sometimes that could happen to me. I'd be very happy. Mister president Is everybody reducing the tariffs on India from 50%? What does that mean? Are you considering taking away some of the tariffs that you've imposed on India? This you had posted No. We'll get along with India very well. But India has you have to understand,",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "We'll get along with India very well. But India has",
+    "summary": "The President addresses tariffs on India, says relationship is good but sentence incomplete."
+   },
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates existing tariff stance on India without announcing any change, so no new tradeable information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetoric repeats prior tariff policy on India with no concrete new decision affecting India-exposed equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President discusses India tariffs in general historical terms, denying any reduction but not announcing new measures, making this mostly repeat rhetoric with limited immediate price impact on India ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates existing tariff stance on India without announcing any change, so no new tradeable information.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rhetoric repeats prior tariff policy on India with no concrete new decision affecting India-exposed equities.\", \"added\": false}], \"summary\": \"The President discusses India tariffs in general historical terms, denying any reduction but not announcing new measures, making this mostly repeat rhetoric with limited immediate price impact on India ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02355:hog",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "hog",
+   "entity": "Harley-Davidson",
+   "kind": "company",
+   "alias": "harley davidson",
+   "text_span": "Harley Davidson",
+   "dict_tickers": [
+    "HOG"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2355.1622,
+   "t_wall": 1756840811.1622,
+   "t_wall_et": "2025-09-02T15:20:11.162200-04:00",
+   "segment_text": "And therefore, it wouldn't be made here, you know, which is a negative. But we would not send in anything because they were charging us a 100% tariffs and, you know. I'll give you an example, Harley Davidson.",
+   "context": "India was charging us tremendous tariffs, about the highest in the world. They were about the highest in the world, number 1. And we therefore weren't doing much business with India, but they were doing business with us because we weren't charging them foolishly. We weren't charging them. So they would send in massive you know, everything they made, they'd send it in, pour it into our country. And therefore, it wouldn't be made here, you know, which is a negative. But we would not send in anything because they were charging us a 100% tariffs and, you know. I'll give you an example, Harley Davidson.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Harley-Davidson",
+    "tickers": [
+     "HOG"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "I'll give you an example, Harley Davidson.",
+    "summary": "The President cited Harley-Davidson as example of US company hurt by Indian tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HOG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President cites Harley-Davidson's India tariff story as a well-known example rather than announcing new policy, so limited fresh price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark rehashes a familiar anecdote about Harley-Davidson and Indian tariffs without new policy details, implying minimal incremental market impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HOG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President cites Harley-Davidson's India tariff story as a well-known example rather than announcing new policy, so limited fresh price impact.\", \"added\": false}], \"summary\": \"Remark rehashes a familiar anecdote about Harley-Davidson and Indian tariffs without new policy details, implying minimal incremental market impact.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02376:autos",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2376.6555263157898,
+   "t_wall": 1756840832.6555264,
+   "t_wall_et": "2025-09-02T15:20:32.655526-04:00",
+   "segment_text": "thousands of country of companies are coming into The US, car companies, AI,",
+   "context": "And therefore, it wouldn't be made here, you know, which is a negative. But we would not send in anything because they were charging us a 100% tariffs and, you know. I'll give you an example, Harley Davidson. Harley Davidson couldn't sell into India. There was a 200% tariff on a motorcycle. So what happens? Harley Davidson went to India and built a motorcycle plant, And now they don't have to pay tariffs. Same thing as us. So what we're doing is literally thousands of country of companies are coming into The US, car companies, AI,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "car companies are coming into The US",
+    "summary": "The President states automakers are relocating to US in response to tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "The President reiterates tariffs push automakers to build US plants, mildly favorable narrative for domestic production though no new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Same tariff-driven reshoring rhetoric could be seen as marginally supportive for Ford's domestic manufacturing base.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Stellantis relies more on Mexico/Canada production, so tariff pressure is a net negative even as rhetoric is generic.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tesla already builds in US, so tariff commentary has little incremental effect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Broad auto ETF exposure makes the mixed tariff impact across foreign and domestic automakers roughly neutral.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar tariff rhetoric encouraging automakers to build in the US, a mild positive for US-heavy producers like GM/F, neutral to slightly negative for import-reliant Stellantis, and largely irrelevant for Tesla or the broad CARZ ETF; no new policy specifics were revealed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"The President reiterates tariffs push automakers to build US plants, mildly favorable narrative for domestic production though no new policy detail.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Same tariff-driven reshoring rhetoric could be seen as marginally supportive for Ford's domestic manufacturing base.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Stellantis relies more on Mexico/Canada production, so tariff pressure is a net negative even as rhetoric is generic.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tesla already builds in US, so tariff commentary has little incremental effect.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Broad auto ETF exposure makes the mixed tariff impact across foreign and domestic automakers roughly neutral.\", \"added\": false}], \"summary\": \"The President repeats familiar tariff rhetoric encouraging automakers to build in the US, a mild positive for US-heavy producers like GM/F, neutral to slightly negative for import-reliant Stellantis, and largely irrelevant for Tesla or the broad CARZ ETF; no new policy specifics were revealed.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02387:china",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 2387.2477000000003,
+   "t_wall": 1756840843.2477,
+   "t_wall_et": "2025-09-02T15:20:43.247700-04:00",
+   "segment_text": "being designed right now. And they're coming from China, they're coming from Mexico,",
+   "context": "Harley Davidson couldn't sell into India. There was a 200% tariff on a motorcycle. So what happens? Harley Davidson went to India and built a motorcycle plant, And now they don't have to pay tariffs. Same thing as us. So what we're doing is literally thousands of country of companies are coming into The US, car companies, AI, but, you know, more traditionally, companies. We have so many car company factories under construction or being designed right now. And they're coming from China, they're coming from Mexico,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "they're coming from China",
+    "summary": "Chinese car companies building factories in US to avoid tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General repeat rhetoric on tariffs and China manufacturing relocation, not new policy news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated tariff rhetoric with no new China-specific policy details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment does not target Chinese internet/tech firms specifically, minimal price relevance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing tariff rhetoric about India and China-related manufacturing relocation without new policy specifics, limited market-moving content for Chinese equity ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General repeat rhetoric on tariffs and China manufacturing relocation, not new policy news.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same repeated tariff rhetoric with no new China-specific policy details.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment does not target Chinese internet/tech firms specifically, minimal price relevance.\",\"added\":false}],\"summary\":\"The President reiterates existing tariff rhetoric about India and China-related manufacturing relocation without new policy specifics, limited market-moving content for Chinese equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02388:mexico",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 2388.8933500000003,
+   "t_wall": 1756840844.89335,
+   "t_wall_et": "2025-09-02T15:20:44.893350-04:00",
+   "segment_text": "being designed right now. And they're coming from China, they're coming from Mexico,",
+   "context": "Harley Davidson couldn't sell into India. There was a 200% tariff on a motorcycle. So what happens? Harley Davidson went to India and built a motorcycle plant, And now they don't have to pay tariffs. Same thing as us. So what we're doing is literally thousands of country of companies are coming into The US, car companies, AI, but, you know, more traditionally, companies. We have so many car company factories under construction or being designed right now. And they're coming from China, they're coming from Mexico,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "they're coming from Mexico",
+    "summary": "Mexican car companies building factories in US to avoid tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeats known tariff rhetoric about auto companies relocating from Mexico without new policy specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing tariff policy narrative and cites Mexico as a source of relocating factories, but offers no new tariff numbers or deadlines, making this largely repeat rhetoric with limited fresh market impact on Mexico-exposed EWW.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeats known tariff rhetoric about auto companies relocating from Mexico without new policy specifics.\", \"added\": false}], \"summary\": \"The President reiterates existing tariff policy narrative and cites Mexico as a source of relocating factories, but offers no new tariff numbers or deadlines, making this largely repeat rhetoric with limited fresh market impact on Mexico-exposed EWW.\"}"
+   }
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02398:defense_word",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2398.0059653465346,
+   "t_wall": 1756840854.0059652,
+   "t_wall_et": "2025-09-02T15:20:54.005965-04:00",
+   "segment_text": "But they're coming into our country because they wanna build here, and they wanna build here for 2 reasons. Number 1, they'd like to be here. And number 2, the tariffs are protecting them. And number 3,",
+   "context": "thousands of country of companies are coming into The US, car companies, AI, but, you know, more traditionally, companies. We have so many car company factories under construction or being designed right now. And they're coming from China, they're coming from Mexico, I must tell you, and they're coming from Canada. A lot of them coming from Canada. But they're coming into our country because they wanna build here, and they wanna build here for 2 reasons. Number 1, they'd like to be here. And number 2, the tariffs are protecting them. And number 3,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "qn2K3UyIsEo:02604:fed",
+   "video_id": "qn2K3UyIsEo",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "the fed",
+   "text_span": "the Fed",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2604.5491757961786,
+   "t_wall": 1756841060.5491757,
+   "t_wall_et": "2025-09-02T15:24:20.549176-04:00",
+   "segment_text": "we are really proud, and the people of Alabama are ready to get to work. And I've got a couple of questions if you could just for a 2nd, mister president. Please. Owning a home and going about the American dream seems like it's out of flesh for a lot of Americans. Just recently, you pushed out a statement about addressing an emergency housing situation. That's right. We're thinking about doing that. Yeah. Can you just Well, we need a little help from the Fed. We have",
+   "context": "to meet the needs in front of us. As far as economic impact, it would be tremendous. Does anybody have an exact number? 1603000 spin off. With 3,000 spin off. Look at this. This is teamwork right here. So we are really proud, and the people of Alabama are ready to get to work. And I've got a couple of questions if you could just for a 2nd, mister president. Please. Owning a home and going about the American dream seems like it's out of flesh for a lot of Americans. Just recently, you pushed out a statement about addressing an emergency housing situation. That's right. We're thinking about doing that. Yeah. Can you just Well, we need a little help from the Fed. We have",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We need a little help from the Fed.",
+    "summary": "The President indicates need for Federal Reserve assistance on housing policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed pressure on the Fed to cut rates aggressively could push bond yields lower, lifting long Treasury prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rate-cut rhetoric is a mixed signal for financials, offsetting lower net interest margins against housing/mortgage activity gains.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks face similar mixed exposure to rate cuts as broader financials, no new policy specifics given.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar criticism of Powell and calls for rate cuts to help housing, a mostly rhetorical repeat with modest bond-market implications and little new information for financials.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TLT\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Renewed pressure on the Fed to cut rates aggressively could push bond yields lower, lifting long Treasury prices.\",\"added\":false},{\"ticker\":\"XLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rate-cut rhetoric is a mixed signal for financials, offsetting lower net interest margins against housing/mortgage activity gains.\",\"added\":false},{\"ticker\":\"KRE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Regional banks face similar mixed exposure to rate cuts as broader financials, no new policy specifics given.\",\"added\":false}],\"summary\":\"The President repeats familiar criticism of Powell and calls for rate cuts to help housing, a mostly rhetorical repeat with modest bond-market implications and little new information for financials.\"}"
+   }
+  }
+ ]
+}

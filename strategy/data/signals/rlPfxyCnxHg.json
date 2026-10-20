@@ -1,0 +1,1026 @@
+{
+ "video": {
+  "id": "rlPfxyCnxHg",
+  "url": "https://www.youtube.com/watch?v=rlPfxyCnxHg",
+  "title": "The President Signs Executive Orders, Aug. 25, 2025",
+  "channel": "The White House",
+  "duration": 4663.0,
+  "was_live": true,
+  "release_timestamp": 1756132561.0,
+  "upload_timestamp": 1756138369.0,
+  "upload_date": "20250825",
+  "label": "Signs Executive Orders, Aug. 25, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1756132561.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 19,
+  "confirmed": 12,
+  "retracted": 7,
+  "unconfirmed": 0,
+  "llm_calls": 25
+ },
+ "signals": [
+  {
+   "signal_id": "rlPfxyCnxHg:00535:rivn",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "rivn",
+   "entity": "Rivian",
+   "kind": "company",
+   "alias": "rivian",
+   "text_span": "Rivian",
+   "dict_tickers": [
+    "RIVN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 535.0338812785388,
+   "t_wall": 1756133096.0338812,
+   "t_wall_et": "2025-08-25T10:44:56.033881-04:00",
+   "segment_text": "So I 'm thinking about, you know, when I have some slob like Rivian criticizing us before we even go there, I made the statement that next should be Chicago because as you all know, Chicago is a killing field right now.",
+   "context": "I think this is another men and women's sports thing. I think this is 1 of those... You know, they call them 80 20 issues. I call them 97 3. I think the Democrats better get smart. And, you know, politically, I hope they don't. But, actually, in terms of love for the country, I hope they do because, it will be good to work together. So I 'm thinking about, you know, when I have some slob like Rivian criticizing us before we even go there, I made the statement that next should be Chicago because as you all know, Chicago is a killing field right now.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rivian",
+    "tickers": [
+     "RIVN"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "when I have some slob like Rivian criticizing us",
+    "summary": "The President criticized Rivian as a slob for criticizing him before visiting Chicago."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RIVN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President personally insulted Rivian's leadership, a negative headline risk though not a policy action.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's disparaging remark about Rivian is negative sentiment but lacks concrete policy action, so expect only a small, short-lived negative reaction.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RIVN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President personally insulted Rivian's leadership, a negative headline risk though not a policy action.\", \"added\": false}], \"summary\": \"The President's disparaging remark about Rivian is negative sentiment but lacks concrete policy action, so expect only a small, short-lived negative reaction.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:01455:smr",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "smr",
+   "entity": "NuScale",
+   "kind": "company",
+   "alias": "nuscale",
+   "text_span": "NuScale",
+   "dict_tickers": [
+    "SMR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1455.5814329268292,
+   "t_wall": 1756134016.5814328,
+   "t_wall_et": "2025-08-25T11:00:16.581433-04:00",
+   "segment_text": "We did a great job. And, NuScale, we got an... I mean, he's an incumbent governor.",
+   "context": "said, and he came out very strongly, he said, if we didn't have these people, we were not able to control it. Now 4 days later, after we had it totally under control, we we did that quickly. He changes to it a little bit. Well, I think we could have done it. You know? He was... They were dead. And we didn't send in the troops. Los Angeles was dead. The Olympics was gone. The World Cup was gone. Everything was gone. We did a great job. And, NuScale, we got an... I mean, he's an incumbent governor. But I think people should want us to be there because otherwise, all they'll do is complain as we do our job.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:02134:ripple",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "ripple",
+   "entity": "Ripple",
+   "kind": "company",
+   "alias": "ripple",
+   "text_span": "ripple",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2134.221244117647,
+   "t_wall": 1756134695.221244,
+   "t_wall_et": "2025-08-25T11:11:35.221244-04:00",
+   "segment_text": "So by what you're doing here is gonna have a ripple effect in Miami,",
+   "context": "which means they never should have been in this country to begin with. But they were in this country, invaded over our southern border or our northern border or maritime seas, and then they committed crimes against the American people. So by getting those individuals incarcerated, we've stopped those violent crimes from happening here in the city. And, sir, they do. Exactly like Stephen was talking, they have ties to cartels. They have networks across this country and other cities. So by what you're doing here is gonna have a ripple effect in Miami, in Chicago, in other cities because you're grabbing those networks and giving us information and targeting information to go and get more criminals",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:02595:india",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2595.2738541666668,
+   "t_wall": 1756135156.2738543,
+   "t_wall_et": "2025-08-25T11:19:16.273854-04:00",
+   "segment_text": "deepest dark... Darkest Africa. I got that war stopped. Nobody else could have done that. We did a lot of jobs. We did a lot of... A lot of wars were stopped that nobody thought would even be possible. I'll tell you what, the war with India",
+   "context": "And I stopped it. In fact, the presidents are coming in a week or 2 to sign the... We have the foreign ministers. It's all signed. The war stopped. But I got it stopped and saved a lot of lives. The Congo, that's deep into deepest dark... Darkest Africa. I got that war stopped. Nobody else could have done that. We did a lot of jobs. We did a lot of... A lot of wars were stopped that nobody thought would even be possible. I'll tell you what, the war with India and Pakistan, that was the next level that was gonna be a nuclear war. They already shot down 7 jets.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "war with India and Pakistan, that was the next level that was gonna be a nuclear war",
+    "summary": "The President claims he prevented nuclear war between India and Pakistan."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about past India-Pakistan de-escalation, no new policy or trade action revealed.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated claim, no actionable new information for Indian equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are retrospective rhetoric about stopping wars, including India-Pakistan, with no new tariff, trade, or policy details that would move India-focused ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"INDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about past India-Pakistan de-escalation, no new policy or trade action revealed.\",\"added\":false},{\"ticker\":\"EPI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same repeated claim, no actionable new information for Indian equities.\",\"added\":false}],\"summary\":\"The President's remarks are retrospective rhetoric about stopping wars, including India-Pakistan, with no new tariff, trade, or policy details that would move India-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03550:intc",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "intc",
+   "entity": "Intel",
+   "kind": "company",
+   "alias": "intel",
+   "text_span": "Intel",
+   "dict_tickers": [
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3550.9142805755396,
+   "t_wall": 1756136111.9142807,
+   "t_wall_et": "2025-08-25T11:35:11.914281-04:00",
+   "segment_text": "a private company with the federal government like you're proposing with Intel. What do you say to some who say this is a bit hypocritical,",
+   "context": "will... I can't get a US attorney. I can only get a Democrat US attorney. And this is based on an old custom. It's not based on law, and I think it's unconstitutional. And I'll probably be filing a suit on that pretty soon. Yeah, please. During the campaign, you called Harris a communist. For the Biden Harris administration, they never called for nationalizing a private company with the federal government like you're proposing with Intel. What do you say to some who say this is a bit hypocritical, and is this the new way of doing industrial policy? Yeah. I sure it is. I wanna try and get as much as I can. If people come in and they need something, as an example,",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Intel",
+    "tickers": [
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "I wanna try and get as much as I can. If people come in and they need something",
+    "summary": "The President proposes federal investment or support for Intel as industrial policy."
+   },
+   "llm_attempts": 2,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reaffirms federal government interest/stake in Intel as industrial policy, which is generally supportive for the company even if terms are dilutive.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments reaffirm a government-backed arrangement with Intel, framing it as favorable industrial policy, a mild positive signal already partly known to markets.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reaffirms federal government interest/stake in Intel as industrial policy, which is generally supportive for the company even if terms are dilutive.\", \"added\": false}], \"summary\": \"The President's comments reaffirm a government-backed arrangement with Intel, framing it as favorable industrial policy, a mild positive signal already partly known to markets.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03679:solar",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar",
+   "text_span": "Solar",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3679.717588235294,
+   "t_wall": 1756136240.7175882,
+   "t_wall_et": "2025-08-25T11:37:20.717588-04:00",
+   "segment_text": "in the business of The United States? Isn't that Yeah. What you were... Solar tariffs. So are tariffs.",
+   "context": "And, yeah, there will be other cases. If I have that opportunity again, I would do that. And then, you know, you do have stupid people saying, oh, that's a shame. That's not a shame. It's called business. If somebody's willing to give you 10% of a company and you're not paying for it, and and I will tell you, with a company like Intel, as you know, it's had difficulty. I want them to do well. I have a... I want them to do well anyway, but I want them to do well in particular then. But isn't public ownership of a private company a new way of doing business in the business of The United States? Isn't that Yeah. What you were... Solar tariffs. So are tariffs. So are as you know, the stock market went up almost 1000 points on Friday,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03682:stock_market",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock",
+    "tariffs"
+   ],
+   "t_audio": 3682.735810810811,
+   "t_wall": 1756136243.7358108,
+   "t_wall_et": "2025-08-25T11:37:23.735811-04:00",
+   "segment_text": "So are as you know, the stock market went up almost 1000 points on Friday,",
+   "context": "And, yeah, there will be other cases. If I have that opportunity again, I would do that. And then, you know, you do have stupid people saying, oh, that's a shame. That's not a shame. It's called business. If somebody's willing to give you 10% of a company and you're not paying for it, and and I will tell you, with a company like Intel, as you know, it's had difficulty. I want them to do well. I have a... I want them to do well anyway, but I want them to do well in particular then. But isn't public ownership of a private company a new way of doing business in the business of The United States? Isn't that Yeah. What you were... Solar tariffs. So are tariffs. So are as you know, the stock market went up almost 1000 points on Friday,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "stock market went up almost 1000 points on Friday",
+    "summary": "The President notes stock market gained nearly 1000 points Friday."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment merely notes past market performance and general tariff rhetoric without new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tech-specific policy revealed beyond restated Intel stake news already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General market commentary referencing Friday rally, not new information for Dow components.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President mostly recaps the Intel equity stake deal and touts a prior market rally driven by CBO tariff estimates; nothing new for broad indices, so index ETFs should see negligible abnormal impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment merely notes past market performance and general tariff rhetoric without new policy content.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new tech-specific policy revealed beyond restated Intel stake news already known.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General market commentary referencing Friday rally, not new information for Dow components.\",\"added\":false}],\"summary\":\"The President mostly recaps the Intel equity stake deal and touts a prior market rally driven by CBO tariff estimates; nothing new for broad indices, so index ETFs should see negligible abnormal impact.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03725:spacers",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "rocket",
+   "text_span": "rocket",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "market",
+    "tariffs"
+   ],
+   "t_audio": 3725.262474226804,
+   "t_wall": 1756136286.2624743,
+   "t_wall_et": "2025-08-25T11:38:06.262474-04:00",
+   "segment_text": "and the market went up like a rocket ship because the tariffs are good. Well, tariffs aren't that",
+   "context": "It went up because of something much different. It went up because, it was announced... CBO announced the numbers, and as you know, they gave no credit to tariffs. They said they made a mistake that the trade deficit will be reduced because of the President's tariffs, will be be reduced by $4,000,000,000,000. Right? Is that what they said? Right? They said $4,000,000,000,000, and the market went up like a rocket ship because the tariffs are good. Well, tariffs aren't that usual. If... The 7 wars I stopped,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03856:stla",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3856.917470886076,
+   "t_wall": 1756136417.917471,
+   "t_wall_et": "2025-08-25T11:40:17.917471-04:00",
+   "segment_text": "I said that Stellantis is the greatest salesman I think I've ever met better than PT Barnum because he'd come to the country and walk out with $50,000,000,000",
+   "context": "significant security guarantees, and they should because they're right there. But we'll be involved at... From the standpoint of backup. We're gonna help them. And I think if we get a deal, and I think we will, but if we get a deal, they're not gonna... I don't believe you're gonna have much of a problem. But we'll back it up because I wanna stop seeing people being killed. You know, when Biden was here, he gave $350,000,000,000. You know this from covering business. $350,000,000,000 to Ukraine. I said that Stellantis is the greatest salesman I think I've ever met better than PT Barnum because he'd come to the country and walk out with $50,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03873:rare_earth",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "rare earth",
+   "text_span": "Rare earth",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3873.965398809524,
+   "t_wall": 1756136434.9653988,
+   "t_wall_et": "2025-08-25T11:40:34.965399-04:00",
+   "segment_text": "1000000000000 dollars worth of air... Rare earth that we have from the country because I felt badly for our taxpayer, but I did something else at the NATO NATO meeting.",
+   "context": "You know this from covering business. $350,000,000,000 to Ukraine. I said that Stellantis is the greatest salesman I think I've ever met better than PT Barnum because he'd come to the country and walk out with $50,000,000,000 every time. He actually came here once. He walked out with a $100,000,000,000. We're up to 350,000,000,000. I got 1000000000000 dollars worth of air... Rare earth that we have from the country because I felt badly for our taxpayer, but I did something else at the NATO NATO meeting.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "1000000000000 dollars worth of air that we have from the country",
+    "summary": "The President claims US has substantial rare earth resources; felt sympathy for taxpayers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about Ukraine rare earth deal is repeat news, not a specific new policy for MP.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment restates prior rare earth deal claims without new specifics affecting sector pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks rehash previously known claims about a Ukraine rare earth deal without new concrete details, so limited fresh price impact expected for rare earth-related tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MP\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about Ukraine rare earth deal is repeat news, not a specific new policy for MP.\",\"added\":false},{\"ticker\":\"REMX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment restates prior rare earth deal claims without new specifics affecting sector pricing.\",\"added\":false}],\"summary\":\"The President's remarks rehash previously known claims about a Ukraine rare earth deal without new concrete details, so limited fresh price impact expected for rare earth-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03896:ukraine",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3896.8228358208953,
+   "t_wall": 1756136457.822836,
+   "t_wall_et": "2025-08-25T11:40:57.822836-04:00",
+   "segment_text": "through NATO. We deal with NATO. We don't deal really with Ukraine.",
+   "context": "every time. He actually came here once. He walked out with a $100,000,000,000. We're up to 350,000,000,000. I got 1000000000000 dollars worth of air... Rare earth that we have from the country because I felt badly for our taxpayer, but I did something else at the NATO NATO meeting. They are wealthy countries, but they weren't paying. And we don't pay any money to Ukraine anymore. Do you know that? In fact, it's the opposite. They request through NATO. We deal with NATO. We don't deal really with Ukraine.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "We don't deal really with Ukraine.",
+    "summary": "The President states US no longer directly deals with Ukraine, works through NATO instead."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued NATO purchases of US missiles/Patriots for Ukraine support demand for US defense contractors comprising this ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Rare earth mention is not oil/energy related, no direct impact on energy sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize continued NATO-funded arms purchases (positive for defense stocks like ITA) with no material impact on energy sector (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued NATO purchases of US missiles/Patriots for Ukraine support demand for US defense contractors comprising this ETF.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Rare earth mention is not oil/energy related, no direct impact on energy sector.\", \"added\": false}], \"summary\": \"The President's remarks emphasize continued NATO-funded arms purchases (positive for defense stocks like ITA) with no material impact on energy sector (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03899:rtx_word",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "rtx_word",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "patriots",
+   "text_span": "Patriots",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3899.806666666667,
+   "t_wall": 1756136460.8066666,
+   "t_wall_et": "2025-08-25T11:41:00.806667-04:00",
+   "segment_text": "NATO requests missiles. They want Patriots. They want missiles. We give the missiles to NATO.",
+   "context": "1000000000000 dollars worth of air... Rare earth that we have from the country because I felt badly for our taxpayer, but I did something else at the NATO NATO meeting. They are wealthy countries, but they weren't paying. And we don't pay any money to Ukraine anymore. Do you know that? In fact, it's the opposite. They request through NATO. We deal with NATO. We don't deal really with Ukraine. NATO requests missiles. They want Patriots. They want missiles. We give the missiles to NATO.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (RTX)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "They want Patriots. They want missiles. We give the missiles to NATO.",
+    "summary": "The President states US supplies Patriot missiles to NATO for Ukraine support."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued NATO demand for Patriot missiles supports Raytheon's defense sales pipeline but this is already known policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates that NATO pays for US-supplied Patriot missiles for Ukraine, a mild continuation of existing demand supportive of RTX with limited new information.",
+    "raw": "{\"tickers\":[{\"ticker\":\"RTX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Continued NATO demand for Patriot missiles supports Raytheon's defense sales pipeline but this is already known policy.\",\"added\":false}],\"summary\":\"The President reiterates that NATO pays for US-supplied Patriot missiles for Ukraine, a mild continuation of existing demand supportive of RTX with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03921:lmt",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "javelins",
+   "text_span": "Javelins",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3921.882181818182,
+   "t_wall": 1756136482.882182,
+   "t_wall_et": "2025-08-25T11:41:22.882182-04:00",
+   "segment_text": "to Ukraine. You know, if we didn't give that kind of money... And I was the 1 that gave the Javelins, if you remember. I gave the Javelins. They were very effective.",
+   "context": "through NATO. We deal with NATO. We don't deal really with Ukraine. NATO requests missiles. They want Patriots. They want missiles. We give the missiles to NATO. NATO pays us in full and does what they want. I mean, I think they give them mostly to... They can do other things with them too because we're dealing with NATO. We pay no money to Ukraine. We gave $350,000,000,000 to Ukraine. You know, if we didn't give that kind of money... And I was the 1 that gave the Javelins, if you remember. I gave the Javelins. They were very effective.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lockheed Martin",
+    "tickers": [
+     "LMT"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "I gave the Javelins. They were very effective.",
+    "summary": "The President claims credit for providing Javelin missiles to Ukraine, praising their effectiveness."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of NATO buying weapons (Javelins/Patriots made partly by Lockheed/RTX) via NATO funding is mildly supportive of defense contractors but not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize NATO now fully funding US-made weapons (Javelins, Patriots), which is mildly positive for defense contractors like Lockheed Martin, though this restates known policy rather than new news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LMT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of NATO buying weapons (Javelins/Patriots made partly by Lockheed/RTX) via NATO funding is mildly supportive of defense contractors but not new information.\", \"added\": false}], \"summary\": \"The President's remarks emphasize NATO now fully funding US-made weapons (Javelins, Patriots), which is mildly positive for defense contractors like Lockheed Martin, though this restates known policy rather than new news.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:03979:defense_word",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 3979.395980252101,
+   "t_wall": 1756136540.3959804,
+   "t_wall_et": "2025-08-25T11:42:20.395980-04:00",
+   "segment_text": "They had 2% and didn't pay. Now they have 5%, and they're all paid up. So they have trillions of dollars, and they give us that money. But I really want the war to end, and we're gonna get an end. Mister president, how about the historic summit here with Ukrainian president Zelensky, European leaders all met here with you at the White House. You said you wanted to get this done bilateral as soon as possible. Have you spoken to Putin since last Monday? Since the Yeah. What",
+   "context": "to NATO because NATO agreed, because of me, to go to 5%. They had 2% and didn't pay. Now they have 5%, and they're all paid up. So they have trillions of dollars, and they give us that money. But I really want the war to end, and we're gonna get an end. Mister president, how about the historic summit here with Ukrainian president Zelensky, European leaders all met here with you at the White House. You said you wanted to get this done bilateral as soon as possible. Have you spoken to Putin since last Monday? Since the Yeah. What",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "NATO agreed to go to 5%. They had 2% and didn't pay.",
+    "summary": "The President credits himself with increasing NATO defense spending from 2% to 5% of GDP."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "NATO members buying more US weapons at 5% GDP spending benefits broad defense ETF holdings.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Increased NATO defense spending and US weapons sales support aerospace/defense sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Higher NATO defense budgets and continued weapons sales to allies modestly benefit drone/defense suppliers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rising NATO defense spending and weapons purchases are a mild tailwind for defense tech firms like Kratos.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates that NATO now spends 5% of GDP and buys US weapons, a repeated but positive fundamental backdrop for defense-related equities and ETFs, though no new specific contract or number was revealed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"NATO members buying more US weapons at 5% GDP spending benefits broad defense ETF holdings.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Increased NATO defense spending and US weapons sales support aerospace/defense sector sentiment.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Higher NATO defense budgets and continued weapons sales to allies modestly benefit drone/defense suppliers.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rising NATO defense spending and weapons purchases are a mild tailwind for defense tech firms like Kratos.\", \"added\": false}], \"summary\": \"The President reiterates that NATO now spends 5% of GDP and buys US weapons, a repeated but positive fundamental backdrop for defense-related equities and ETFs, though no new specific contract or number was revealed.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:04119:steel",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4119.74990797546,
+   "t_wall": 1756136680.749908,
+   "t_wall_et": "2025-08-25T11:44:40.749908-04:00",
+   "segment_text": "went right through that steel just like it was nothing. It's amazing. It's called mass. Mass is a big deal. But the mass of that boat, those people all died. But they were... They thought they were totally safe. 2 of them were eating their lunch. They were, you know, whatever. They were watching it. They could've gotten off.",
+   "context": "Baltimore.... The ridge tag. Thank you. On Baltimore, you you said that you are gonna have to reconsider bridge funding. Is that contingent on Westmore cleaning up the streets? No. We were very generous to him on a bridge. You know, a boat ran into a bridge, and the bridge came down. Like, I've never seen anything. The boat was just so it just shows you the mass of that boat, the power of that boat. You know, people were up on that bridge, painters. They were painting the bridge, and they were watching it happen, and they thought they were very safe. They all died. They were painting the bridge. Can you imagine? And they watched the boat. The engines were off, and they watched the boat. And the power of that boat, the mass of that boat, went right through that steel just like it was nothing. It's amazing. It's called mass. Mass is a big deal. But the mass of that boat, those people all died. But they were... They thought they were totally safe. 2 of them were eating their lunch. They were, you know, whatever. They were watching it. They could've gotten off.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:04353:health_ins",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4353.113378378378,
+   "t_wall": 1756136914.1133783,
+   "t_wall_et": "2025-08-25T11:48:34.113378-04:00",
+   "segment_text": "the 1 thing I said, and I gave my word, we're not gonna hurt anybody on Medicaid, Medicare, or Social Security.",
+   "context": "I got the largest vote in the history of Texas by far. Nobody's ever gotten more votes in the last election. I think in all the elections, the 3 elections, but but, they like me in Texas. So people are waiting for me, but I I just... I'd rather not comment on it right now. I like both guys. They're friends of mine, and they're both good and very different. There's some talk among congressional Republicans about another reconciliation bill. Where do you fall on that, and what would you like to prioritize? Well, I don't wanna do cutting. I wanna save all the different things. I'm I'm gonna cut things that are unnecessary. But, the 1 thing I said, and I gave my word, we're not gonna hurt anybody on Medicaid, Medicare, or Social Security.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "we're not gonna hurt anybody on Medicaid, Medicare, or Social Security",
+    "summary": "The President pledges not to cut Medicaid, Medicare, or Social Security benefits."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirming no cuts to Medicaid/Medicare is a repeat of prior pledges, mildly reassuring but not new information for managed care insurers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restatement of protecting entitlement programs has limited direct new impact on Cigna.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy detail affecting Elevance's Medicaid/Medicare exposure beyond repeated rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Humana is heavily Medicare Advantage-exposed, so a pledge against Medicare cuts is mildly supportive relative to sector peers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's pledge to protect Medicaid, Medicare, and Social Security is largely a repeat of prior rhetoric, offering mild reassurance to health insurers with limited new tradable information, with Humana slightly more sensitive given its Medicare Advantage focus.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirming no cuts to Medicaid/Medicare is a repeat of prior pledges, mildly reassuring but not new information for managed care insurers.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General restatement of protecting entitlement programs has limited direct new impact on Cigna.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy detail affecting Elevance's Medicaid/Medicare exposure beyond repeated rhetoric.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Humana is heavily Medicare Advantage-exposed, so a pledge against Medicare cuts is mildly supportive relative to sector peers.\", \"added\": false}], \"summary\": \"The President's pledge to protect Medicaid, Medicare, and Social Security is largely a repeat of prior rhetoric, offering mild reassurance to health insurers with limited new tradable information, with Humana slightly more sensitive given its Medicare Advantage focus.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:04396:pharma",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 4396.980250990098,
+   "t_wall": 1756136957.980251,
+   "t_wall_et": "2025-08-25T11:49:17.980251-04:00",
+   "segment_text": "I'm I'm always open to cost cutting. If we can cost cut, I like it, but nothing's gonna happen to medical. We have something coming up, favored nations, where I'm gonna be reducing drug prices by 1500%,",
+   "context": "So now we're... I am very big into certain things, and 1 of those 3... You could say 3 of those things are Medicare, Medicaid, Social Security. We're gonna protect it. And so we'll see how everything works out. We're talking about rescissions on other things, I'm I'm always open to cost cutting. If we can cost cut, I like it, but nothing's gonna happen to medical. We have something coming up, favored nations, where I'm gonna be reducing drug prices by 1500%,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "reducing drug prices by 1500%",
+    "summary": "The President pledges to reduce drug prices significantly via favored-nations policy."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad healthcare sector faces pricing pressure rhetoric though policy is not new.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF more directly exposed to favored-nations drug pricing threats.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large-cap pharma vulnerable to reiterated threat of steep US price cuts via tariffs/favored-nations policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated pledge to slash US drug prices weighs on high-margin pharma like Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same favored-nations drug pricing threat pressures Merck though it restates known policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated his favored-nations plan to drastically cut US drug prices and threatened tariffs on non-compliant countries, a negative but largely repeat rhetoric for pharma stocks and sector ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad healthcare sector faces pricing pressure rhetoric though policy is not new.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Pharma-focused ETF more directly exposed to favored-nations drug pricing threats.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Large-cap pharma vulnerable to reiterated threat of steep US price cuts via tariffs/favored-nations policy.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Repeated pledge to slash US drug prices weighs on high-margin pharma like Lilly.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same favored-nations drug pricing threat pressures Merck though it restates known policy.\",\"added\":false}],\"summary\":\"The President reiterated his favored-nations plan to drastically cut US drug prices and threatened tariffs on non-compliant countries, a negative but largely repeat rhetoric for pharma stocks and sector ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:04401:germany",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 4401.339761818182,
+   "t_wall": 1756136962.3397617,
+   "t_wall_et": "2025-08-25T11:49:22.339762-04:00",
+   "segment_text": "where a pill that sells in Germany for $10 costs a $150",
+   "context": "So now we're... I am very big into certain things, and 1 of those 3... You could say 3 of those things are Medicare, Medicaid, Social Security. We're gonna protect it. And so we'll see how everything works out. We're talking about rescissions on other things, I'm I'm always open to cost cutting. If we can cost cut, I like it, but nothing's gonna happen to medical. We have something coming up, favored nations, where I'm gonna be reducing drug prices by 1500%, where a pill that sells in Germany for $10 costs a $150",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "pill that sells in Germany for $10 costs $150",
+    "summary": "The President cites German drug prices as benchmark for US price reduction policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Germany mentioned only as a drug-price benchmark, not a policy action affecting the German equity market broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark targets US drug pricing policy (favored nations) and threatens tariffs on countries resisting, which is negative for pharma but not directly relevant to the German market ETF EWG beyond an incidental price comparison.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Germany mentioned only as a drug-price benchmark, not a policy action affecting the German equity market broadly.\", \"added\": false}], \"summary\": \"The remark targets US drug pricing policy (favored nations) and threatens tariffs on countries resisting, which is negative for pharma but not directly relevant to the German market ETF EWG beyond an incidental price comparison.\"}"
+   }
+  },
+  {
+   "signal_id": "rlPfxyCnxHg:04535:aapl",
+   "video_id": "rlPfxyCnxHg",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4535.11615771812,
+   "t_wall": 1756137096.1161578,
+   "t_wall_et": "2025-08-25T11:51:36.116158-04:00",
+   "segment_text": "I think he said, wow. This might be it. Because it was the apple of his eyes. It would have never never happened if I were president. Mister president, you have built relationship with Russian leaders and also North Korean leaders. As they are getting closer, how would that affect your diplomat...",
+   "context": "if we had a real president instead of a guy that got in there with a fraudulent election, if we had a real president, that war would have never happened. Putin actually said he said if the President were president, it wouldn't have happened. Happened for a lot of reasons. It because of Afghanistan. When he saw how incompetent Millie was and all these guys were, I think he said, wow. This might be it. Because it was the apple of his eyes. It would have never never happened if I were president. Mister president, you have built relationship with Russian leaders and also North Korean leaders. As they are getting closer, how would that affect your diplomat...",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

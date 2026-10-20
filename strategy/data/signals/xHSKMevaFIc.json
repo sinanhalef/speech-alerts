@@ -1,0 +1,1357 @@
+{
+ "video": {
+  "id": "xHSKMevaFIc",
+  "url": "https://www.youtube.com/watch?v=xHSKMevaFIc",
+  "title": "The President Signs Executive Orders, Sep. 4, 2026",
+  "channel": "The White House",
+  "duration": 3021.0,
+  "was_live": true,
+  "release_timestamp": 1788545026.0,
+  "upload_timestamp": 1788548955.0,
+  "upload_date": "20260904",
+  "label": "Signs executive orders, Sep 4 2026",
+  "group": "recent",
+  "notes": "",
+  "t0": 1788545026.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 22,
+  "confirmed": 14,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 25
+ },
+ "signals": [
+  {
+   "signal_id": "xHSKMevaFIc:00018:farmers",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 18.080593220338983,
+   "t_wall": 1788545044.080593,
+   "t_wall_et": "2026-09-04T14:04:04.080593-04:00",
+   "segment_text": "meeting with a great group of people, farmers and ranchers,",
+   "context": "Well, thank you very much, everybody. This is a very important meeting with a great group of people, farmers and ranchers,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "very important meeting with a great group of farmers and ranchers",
+    "summary": "The President holds meeting with farmers and ranchers; no specific policies mentioned."
+   },
+   "llm_attempts": 1,
+   "count": 16,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-farmer rhetoric with no concrete commodity policy affecting the broad agriculture ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention of fertilizer or input costs, so limited relevance to Mosaic.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No equipment-specific policy mentioned, just general farmer support rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific corn policy or price action referenced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No soybean-specific measures mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President singles out the 'big processors' as a monopoly acting against ranchers, implying potential regulatory or antitrust pressure on large meat/ag processors like ADM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-farmer rhetoric with no concrete commodity policy affecting the broad agriculture ETF.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No mention of fertilizer or input costs, so limited relevance to Mosaic.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No equipment-specific policy mentioned, just general farmer support rhetoric.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific corn policy or price action referenced.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No soybean-specific measures mentioned.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President singles out the 'big processors' as a monopoly acting against ranchers, implying potential regulatory or antitrust pressure on large meat/ag processors like ADM.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:00682:farmers",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 682.98305,
+   "t_wall": 1788545708.98305,
+   "t_wall_et": "2026-09-04T14:15:08.983050-04:00",
+   "segment_text": "the farmers are processing their food, and I'm signing an order authorizing ranches to protect rural communities and cattle herds from the predatory Mexican gray wolves and others,",
+   "context": "I've been hearing about it for a long time, and you have no choice. Just like the processing. It's ridiculous that you're not allowed to keep. You'll you'll do it cleaner than these 4 monopolies, 2 of which are based in Brazil. So it's, like, ridiculous. So this order also will require country of origin labeling across all foreign beefs. So what we're doing, the farmers are processing their food, and I'm signing an order authorizing ranches to protect rural communities and cattle herds from the predatory Mexican gray wolves and others,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "farmers are processing their food, authorizing ranches to protect rural communities",
+    "summary": "The President signs order to support ranches and protect cattle herds from predators."
+   },
+   "llm_attempts": 1,
+   "count": 12,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad ag ETF has no direct beef/cattle exposure tied to this ranching order.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Fertilizer producer unaffected by wolf predation/cattle ranching order.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Farm equipment maker not directly impacted by cattle ranching protections.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Corn futures ETF unrelated to cattle/wolf policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Soybean ETF unrelated to cattle ranching order.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Grain processor not directly tied to cattle/wolf predation policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remarks focus on protecting ranchers from wolf predation and country-of-origin beef labeling, which mainly benefits cattle ranchers and disadvantages large meatpackers (not in the given tickers); none of the listed ag-commodity or equipment tickers are materially affected.",
+    "raw": "{\"tickers\": [\n{\"ticker\":\"DBA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Broad ag ETF has no direct beef/cattle exposure tied to this ranching order.\",\"added\":false},\n{\"ticker\":\"MOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Fertilizer producer unaffected by wolf predation/cattle ranching order.\",\"added\":false},\n{\"ticker\":\"DE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Farm equipment maker not directly impacted by cattle ranching protections.\",\"added\":false},\n{\"ticker\":\"CORN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Corn futures ETF unrelated to cattle/wolf policy.\",\"added\":false},\n{\"ticker\":\"SOYB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Soybean ETF unrelated to cattle ranching order.\",\"added\":false},\n{\"ticker\":\"ADM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Grain processor not directly tied to cattle/wolf predation policy.\",\"added\":false}\n],\n\"summary\":\"The remarks focus on protecting ranchers from wolf predation and country-of-origin beef labeling, which mainly benefits cattle ranchers and disadvantages large meatpackers (not in the given tickers); none of the listed ag-commodity or equipment tickers are materially affected.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:00909:solar",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar panels",
+   "text_span": "solar panels",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 909.7757281967213,
+   "t_wall": 1788545935.7757282,
+   "t_wall_et": "2026-09-04T14:18:55.775728-04:00",
+   "segment_text": "It's incredible. Yeah. That's a problem. Sir, she's also trying to take his ranch by putting solar panels on it. For what?",
+   "context": "he's also had a problem. Well, here's the remnants of what from Biden. You still have that, and we're getting most of them out. We're taking them out. Well, there's a lot of them that Katie Hobbs is protecting, and it's hard to get those out. We have to fight her all the time. She's bad news. We have to fight her all the time, and they have the sanctuary city stuff. They're protecting rapists. They're protecting murderers. It's incredible. Yeah. That's a problem. Sir, she's also trying to take his ranch by putting solar panels on it. For what? Hobbs has I ranch on state ground that I lease. It's been in my family for over 100 years.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:00967:russia",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 967.4483333333334,
+   "t_wall": 1788545993.4483333,
+   "t_wall_et": "2026-09-04T14:19:53.448333-04:00",
+   "segment_text": "The Green New Deal. Can you believe it? No. On Calverts. It was like Russia, Russia, Russia, total hoax. Mhmm. Anyway",
+   "context": "but if it hadn't been for her, I would not be a rancher anymore. Mister president, I wanna thank you. You've been 1 of the most pro farmer and rancher presidents I've ever seen. Of them on. Yeah. Eagles. But on the left, we've been attacked by the Green New Deal, by eminent domain law affair, by meatless Mondays. That's really I don't like ended the Green New Deal. Thank you very much, sir. We ended that nonsense. The Green New Deal. Can you believe it? No. On Calverts. It was like Russia, Russia, Russia, total hoax. Mhmm. Anyway but things are a lot better now. Much better, sir. Okay. Well, they're gonna be better after today.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01384:stock_market",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1384.006452991453,
+   "t_wall": 1788546410.006453,
+   "t_wall_et": "2026-09-04T14:26:50.006453-04:00",
+   "segment_text": "Watch. The stock market will go down because we have good numbers. Because everyone every time you have good numbers,",
+   "context": "and, from the Biden administration. And, the prices are coming down, not only of, food, but just about of everything else. It's been amazing. And today, they announced a 162,000 jobs, new jobs, which was about 5 times more than the projection. And sadly, I said, oh, the number's doing so good. The country is doing so well. Watch. The stock market will go down because we have good numbers. Because everyone every time you have good numbers,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01521:stock_market",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1521.8523119047618,
+   "t_wall": 1788546547.8523118,
+   "t_wall_et": "2026-09-04T14:29:07.852312-04:00",
+   "segment_text": "But you have to be smart. When we have great numbers, the stock market should go up.",
+   "context": "And also the threat that if a country doesn't treat us fairly, we're not gonna trade with that country anymore. So, we had great numbers today, unbelievable numbers coming out, and really our our you know, we should have a GDP of we should be allowed to have a GDP of 12, 13, 14, 15 instead of 2, 3, and 4 all the time. And under this administration, we are doing so well. We could have a growth we we could have a GDP that would break every single record. But you have to be smart. When we have great numbers, the stock market should go up.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "When we have great numbers, the stock market should go up.",
+    "summary": "The President expects stock market gains from strong economic performance."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about economy and stock market with no new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or new policy content beyond general optimism.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad market commentary without actionable new information for industrials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic pro-market rhetoric and reiteration of existing trade/military stances, offering no new tradable information, so no directional market impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about economy and stock market with no new policy detail.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or new policy content beyond general optimism.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad market commentary without actionable new information for industrials.\", \"added\": false}], \"summary\": \"The President's remarks are generic pro-market rhetoric and reiteration of existing trade/military stances, offering no new tradable information, so no directional market impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01792:iran",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1792.652268722467,
+   "t_wall": 1788546818.6522686,
+   "t_wall_et": "2026-09-04T14:33:38.652269-04:00",
+   "segment_text": "And, we will I would say it's a a military conflict if you want. Some people could go into it. I don't think it matters what you call it. What matters is the fact that we have had tremendous success. We stopped Iran from having",
+   "context": "their radar. They're very sophisticated. They brought in radar because we knocked it out once. Now we knocked it out twice. Now we don't notice any activity. I think they're tired of putting it in and getting blood. But the Strait Of Hormuz is taking a lot of ships. We're getting a lot of ships out of there. A lot of oil is coming out of the Strait. There are no mines whatsoever. We have no mines. You know why? We took out all the mines. They had some mines. We took them all with our minesweepers. They go underwater. Nobody can see them. The best in the world. So we're doing a great job. And, we will I would say it's a a military conflict if you want. Some people could go into it. I don't think it matters what you call it. What matters is the fact that we have had tremendous success. We stopped Iran from having",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "We stopped Iran from having",
+    "summary": "The President claims military success against Iran in Strait of Hormuz operations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Claims of secured Strait of Hormuz and reduced Iran threat could ease supply risk but also signal geopolitical tension supporting energy sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Mixed signal: claims of safe shipping lanes reduce risk premium but ongoing military conflict rhetoric keeps uncertainty elevated, netting to no clear directional edge.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued emphasis on military operations and success against Iran supports sustained defense spending sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate ongoing military actions against Iran and claims of clearing the Strait of Hormuz, which are largely repeat rhetoric with mixed implications for oil markets but mildly supportive for defense and energy sectors due to sustained geopolitical tension narrative.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Claims of secured Strait of Hormuz and reduced Iran threat could ease supply risk but also signal geopolitical tension supporting energy sector broadly.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Mixed signal: claims of safe shipping lanes reduce risk premium but ongoing military conflict rhetoric keeps uncertainty elevated, netting to no clear directional edge.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued emphasis on military operations and success against Iran supports sustained defense spending sentiment.\", \"added\": false}], \"summary\": \"The President's remarks reiterate ongoing military actions against Iran and claims of clearing the Strait of Hormuz, which are largely repeat rhetoric with mixed implications for oil markets but mildly supportive for defense and energy sectors due to sustained geopolitical tension narrative.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01799:russia",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1799.1536529680366,
+   "t_wall": 1788546825.153653,
+   "t_wall_et": "2026-09-04T14:33:45.153653-04:00",
+   "segment_text": "much pressure. Under your watch that Putin would never attack NATO territory. Now Germany is blaming Russia for an explode explosive drone found at a German airport. Isn't that an attack on NATO territory? Putin will be",
+   "context": "And, we will I would say it's a a military conflict if you want. Some people could go into it. I don't think it matters what you call it. What matters is the fact that we have had tremendous success. We stopped Iran from having a nuclear much pressure. Under your watch that Putin would never attack NATO territory. Now Germany is blaming Russia for an explode explosive drone found at a German airport. Isn't that an attack on NATO territory? Putin will be",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Putin",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Under your watch that Putin would never attack NATO territory.",
+    "summary": "The President references Putin in context of NATO territory attacks."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on Putin/NATO are general rhetoric with no new sanctions or policy action affecting Russian equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Discussion of Strait of Hormuz tensions and Iran conflict keeps geopolitical oil-supply risk premium elevated, modestly supportive for energy stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly geopolitical rhetoric (Iran, Venezuela, Putin/NATO) without concrete new policy actions; only mild upside risk premium for energy (XLE) from ongoing Strait of Hormuz tension, while RSX is unaffected by vague Putin remarks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments on Putin/NATO are general rhetoric with no new sanctions or policy action affecting Russian equities.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Discussion of Strait of Hormuz tensions and Iran conflict keeps geopolitical oil-supply risk premium elevated, modestly supportive for energy stocks.\", \"added\": false}], \"summary\": \"The excerpt is mostly geopolitical rhetoric (Iran, Venezuela, Putin/NATO) without concrete new policy actions; only mild upside risk premium for energy (XLE) from ongoing Strait of Hormuz tension, while RSX is unaffected by vague Putin remarks.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01801:germany",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1801.8824200913243,
+   "t_wall": 1788546827.88242,
+   "t_wall_et": "2026-09-04T14:33:47.882420-04:00",
+   "segment_text": "much pressure. Under your watch that Putin would never attack NATO territory. Now Germany is blaming Russia for an explode explosive drone found at a German airport. Isn't that an attack on NATO territory? Putin will be",
+   "context": "And, we will I would say it's a a military conflict if you want. Some people could go into it. I don't think it matters what you call it. What matters is the fact that we have had tremendous success. We stopped Iran from having a nuclear much pressure. Under your watch that Putin would never attack NATO territory. Now Germany is blaming Russia for an explode explosive drone found at a German airport. Isn't that an attack on NATO territory? Putin will be",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.7,
+    "quote": "Germany is blaming Russia for an explosive drone found at a German airport.",
+    "summary": "The President mentions Germany's claim of Russian drone attack on airport."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Passing mention of a Germany-Russia drone incident is geopolitical color, not a policy action affecting German equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The Germany reference is incidental commentary on a drone/airport incident, not a market-moving policy statement; no clear directional trade for EWG.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Passing mention of a Germany-Russia drone incident is geopolitical color, not a policy action affecting German equities broadly.\", \"added\": false}], \"summary\": \"The Germany reference is incidental commentary on a drone/airport incident, not a market-moving policy statement; no clear directional trade for EWG.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01863:switzerland",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "switzerland",
+   "entity": "Switzerland",
+   "kind": "country",
+   "alias": "switzerland",
+   "text_span": "Switzerland",
+   "dict_tickers": [
+    "EWL"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1863.4709838509316,
+   "t_wall": 1788546889.4709837,
+   "t_wall_et": "2026-09-04T14:34:49.470984-04:00",
+   "segment_text": "but we have a much more powerful right than that. We have a right not to trade with them. So if we don't trade with Switzerland and just to use it as an example,",
+   "context": "Have countries that are considered elite financially, like Switzerland, Switzerland, like others. But if we didn't trade with them, they would be bankrupt countries. So they're considered elite because we have massive deficits with them. We have the right not to trade. We have the right to put tariffs on them, but we have a much more powerful right than that. We have a right not to trade with them. So if we don't trade with Switzerland and just to use it as an example,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Switzerland",
+    "tickers": [
+     "EWL"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "We have the right to put tariffs on them, we have a right not to trade.",
+    "summary": "The President asserts right to impose tariffs on Switzerland or cease trade due to trade deficit."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWL",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President reiterates threat of tariffs or trade cutoff with Switzerland, a mild negative for Swiss equities exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's threat to tariff or cease trade with Switzerland is a modest negative for Swiss-market ETF EWL, though rhetoric largely repeats known tariff stance.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWL\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President reiterates threat of tariffs or trade cutoff with Switzerland, a mild negative for Swiss equities exposure.\", \"added\": false}], \"summary\": \"The President's threat to tariff or cease trade with Switzerland is a modest negative for Swiss-market ETF EWL, though rhetoric largely repeats known tariff stance.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01897:fed",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rate",
+   "text_span": "interest rate",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1897.3382342007435,
+   "t_wall": 1788546923.3382342,
+   "t_wall_et": "2026-09-04T14:35:23.338234-04:00",
+   "segment_text": "We've cut our deficit way down. We've cut our trade deficit way down, tremendously down. Nobody's ever seen cuts like this. But we have the right to take a so called financially elite country that's paying a much lower interest rate. You know, we have countries paying,",
+   "context": "Now we have a big deficit with a lot of countries that should never have been allowed to happen. I had it very much corralled, starting to corral it my 1st administration, then Biden let it go to hell, and we took it over. We've cut our deficit way down. We've cut our trade deficit way down, tremendously down. Nobody's ever seen cuts like this. But we have the right to take a so called financially elite country that's paying a much lower interest rate. You know, we have countries paying, some countries are paying 0.5 a point,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:01959:fed",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rate",
+   "text_span": "interest rate",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1959.7858595505618,
+   "t_wall": 1788546985.7858596,
+   "t_wall_et": "2026-09-04T14:36:25.785860-04:00",
+   "segment_text": "And so what I'm saying very simply is that we should be paying the lowest interest rate in the world. Each point in interest in this country that we pay cost us $650,000,000,000.",
+   "context": "All trading with Canada. Don't forget, they do all of their business, almost all of their business with The United States, and we do a relatively small amount of business with them. But if we didn't wanna if we were playing hardball, all we're doing is say, we're gonna do no trading with Canada. If we did no trading with Canada, we'd save $90,000,000,000. And so what I'm saying very simply is that we should be paying the lowest interest rate in the world. Each point in interest in this country that we pay cost us $650,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "we should be paying the lowest interest rate in the world",
+    "summary": "The President criticizes current US interest rates as too high relative to global peers."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed pressure for lower rates is bond-bullish if it signals continued Fed easing push, though rhetoric alone is largely already priced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic rate-cut rhetoric has ambiguous net effect on financials (lower rates hurt net interest margins but help loan demand).",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same ambiguous rate-cut implications apply to regional banks as to large financials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar criticism of high US interest rates and threatens Canada trade cutoff, mostly rehashed rhetoric with limited new tradable information; mild bond-bullish tilt, financials effect ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed pressure for lower rates is bond-bullish if it signals continued Fed easing push, though rhetoric alone is largely already priced.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic rate-cut rhetoric has ambiguous net effect on financials (lower rates hurt net interest margins but help loan demand).\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same ambiguous rate-cut implications apply to regional banks as to large financials.\", \"added\": false}], \"summary\": \"The President repeats familiar criticism of high US interest rates and threatens Canada trade cutoff, mostly rehashed rhetoric with limited new tradable information; mild bond-bullish tilt, financials effect ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02051:defense_word",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 2051.153738738739,
+   "t_wall": 1788547077.1537387,
+   "t_wall_et": "2026-09-04T14:37:57.153739-04:00",
+   "segment_text": "people that I think we have a chance of doing very well in the midterms. Look, history has said that the sitting president, Republican or Democrat, no matter how, I don't think anybody's had a better 1st 2 years than we have. There's never been anything like it. Look at the numbers that you see. Look at the investment numbers of 2.",
+   "context": "wealthy, happy, and they have to keep us fed. Right? How do you make how do you make say, on the president, do you make that determination of how to spend in How do I make it? I sit down and I say, let's do this. Let's do that. I'm gonna be going around. I'm gonna be making I'm gonna be making contributions to various campaigns of people that I think are good, Republicans that I think are good, people that I think are gonna win and can win or are close to winning, people that I think we have a chance of doing very well in the midterms. Look, history has said that the sitting president, Republican or Democrat, no matter how, I don't think anybody's had a better 1st 2 years than we have. There's never been anything like it. Look at the numbers that you see. Look at the investment numbers of 2.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02180:eu",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2180.2517666666663,
+   "t_wall": 1788547206.2517667,
+   "t_wall_et": "2026-09-04T14:40:06.251767-04:00",
+   "segment_text": "We lose with the European Union $200,000,000,000",
+   "context": "Mister president, back to the rates, back to interest rates. A rate hike could reassure the bond market. If you'd like to see lower rates To me, it doesn't reassure a bond market. To me, you you do a rate cut because we should be at 1% or 0.5 a percent. We should not be at 4% because everything I as I explained, we could do tremendous good for ourselves by just not trading with countries. We lose with the European Union $200,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "We lose with the European Union $200,000,000,000",
+    "summary": "The President states the U.S. loses $200 billion in trade with the EU."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates already-known trade deficit rhetoric without new tariff action, limited fresh impact on European equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same general trade grievance repeated, no new policy announced against EU.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about EU trade deficit is familiar and doesn't introduce new tariff measures.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats well-known trade deficit complaints about the EU, Mexico, and Canada without announcing new tariffs or policy changes, so European equity ETFs should see little abnormal reaction.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates already-known trade deficit rhetoric without new tariff action, limited fresh impact on European equities.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same general trade grievance repeated, no new policy announced against EU.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about EU trade deficit is familiar and doesn't introduce new tariff measures.\", \"added\": false}], \"summary\": \"The President repeats well-known trade deficit complaints about the EU, Mexico, and Canada without announcing new tariffs or policy changes, so European equity ETFs should see little abnormal reaction.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02467:kraken",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 2467.023220338983,
+   "t_wall": 1788547493.0232203,
+   "t_wall_et": "2026-09-04T14:44:53.023220-04:00",
+   "segment_text": "Steve Whitcoff and Jared Kraken, the 2 2 great negotiators.",
+   "context": "Do you know what hate is? They have serious hate, and it's getting in the way of them. You know, last week, lost 32,000 people, mostly soldiers last during the last month. 4 weeks, they lost 32,000 soldiers. They're losing, on average, 25,000 soldiers a month. It's gotta get settled. So I did. I sent, Steve Whitcoff and Jared Kraken, the 2 2 great negotiators. They've done a great job. And, we sent them over to",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02467:defense_word",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 2467.787966101695,
+   "t_wall": 1788547493.787966,
+   "t_wall_et": "2026-09-04T14:44:53.787966-04:00",
+   "segment_text": "Steve Whitcoff and Jared Kraken, the 2 2 great negotiators.",
+   "context": "Do you know what hate is? They have serious hate, and it's getting in the way of them. You know, last week, lost 32,000 people, mostly soldiers last during the last month. 4 weeks, they lost 32,000 soldiers. They're losing, on average, 25,000 soldiers a month. It's gotta get settled. So I did. I sent, Steve Whitcoff and Jared Kraken, the 2 2 great negotiators. They've done a great job. And, we sent them over to",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02571:argentina",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "argentina",
+   "entity": "Argentina",
+   "kind": "country",
+   "alias": "argentina",
+   "text_span": "Argentina",
+   "dict_tickers": [
+    "ARGT"
+   ],
+   "triggers_nearby": [
+    "imports"
+   ],
+   "t_audio": 2571.6901915708813,
+   "t_wall": 1788547597.6901915,
+   "t_wall_et": "2026-09-04T14:46:37.690192-04:00",
+   "segment_text": "where is beef coming from? The White House Well, it's coming from different places. From Which country? It's coming from Argentina. It's coming from Brazil. It's coming from a couple of other places. We have our inspectors down. It's very clean. It's very good.",
+   "context": "So the house, the house has been great. We got the great big beautiful bill. That was you know, just so people understand, a lot of the things that we gave you, we gave it in the great big beautiful bill. We don't have to do new we put 17 different bills into that. Lucky we did because it wouldn't get anything else passed, but, the house has been speaker Johnson has done a fantastic job. On beef, mister president, the suspension of tariffs on ground beef imports, where is beef coming from? The White House Well, it's coming from different places. From Which country? It's coming from Argentina. It's coming from Brazil. It's coming from a couple of other places. We have our inspectors down. It's very clean. It's very good.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Argentina",
+    "tickers": [
+     "ARGT"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "It's coming from Argentina. It's coming from Brazil.",
+    "summary": "The President confirms ground beef imports from Argentina under tariff suspension."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ARGT",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Confirms known beef import/tariff suspension detail, minor positive for Argentine exporters but not new information likely to move a broad country ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks largely restate existing beef tariff suspension details naming Argentina and Brazil as sources; this is a repeat of known policy with limited new market-moving information for ARGT.",
+    "raw": "{\"tickers\":[{\"ticker\":\"ARGT\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Confirms known beef import/tariff suspension detail, minor positive for Argentine exporters but not new information likely to move a broad country ETF.\",\"added\":false}],\"summary\":\"The President's remarks largely restate existing beef tariff suspension details naming Argentina and Brazil as sources; this is a repeat of known policy with limited new market-moving information for ARGT.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02598:farmers",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2598.270769230769,
+   "t_wall": 1788547624.2707691,
+   "t_wall_et": "2026-09-04T14:47:04.270769-04:00",
+   "segment_text": "we're building up the herds. The farmers ranchers are building up their herds.",
+   "context": "where is beef coming from? The White House Well, it's coming from different places. From Which country? It's coming from Argentina. It's coming from Brazil. It's coming from a couple of other places. We have our inspectors down. It's very clean. It's very good. And as soon as these people, you know, their herds are increasing. Their herd decreased very, very substantially during the Biden years, during the Biden administration. But even from an environmental standpoint, you know, they wanted to decrease your herds for environmental reasons. You believe that 1? So, we're building up the herds. The farmers ranchers are building up their herds.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "ranchers are building up their herds",
+    "summary": "The President praises farmers and ranchers for rebuilding herds after Biden-era decreases."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad agriculture commodity ETF only tangentially touched by beef tariff comments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fertilizer maker not directly affected by beef import/tariff remarks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-farmer rhetoric could modestly support equipment demand sentiment but not a new catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Grain processor not specifically impacted by beef tariff suspension comments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Corn futures ETF unrelated to beef import policy discussion.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Soybean ETF not directly tied to beef tariff/import comments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BRFS",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Brazilian beef exporter benefits from confirmed tariff suspension allowing cheaper beef imports into the US.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "TSN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "US meat processor faces more competition from cheaper subsidized foreign beef imports under tariff suspension.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks confirm a specific new policy—suspension of tariffs on Argentine/Brazilian ground beef sold below market prices—benefiting foreign beef exporters and pressuring US meat processors, while broader agriculture ETFs/tickers see little direct impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"DBA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad agriculture commodity ETF only tangentially touched by beef tariff comments.\",\"added\":false},{\"ticker\":\"MOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Fertilizer maker not directly affected by beef import/tariff remarks.\",\"added\":false},{\"ticker\":\"DE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-farmer rhetoric could modestly support equipment demand sentiment but not a new catalyst.\",\"added\":false},{\"ticker\":\"ADM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Grain processor not specifically impacted by beef tariff suspension comments.\",\"added\":false},{\"ticker\":\"CORN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Corn futures ETF unrelated to beef import policy discussion.\",\"added\":false},{\"ticker\":\"SOYB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Soybean ETF not directly tied to beef tariff/import comments.\",\"added\":false},{\"ticker\":\"BRFS\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Brazilian beef exporter benefits from confirmed tariff suspension allowing cheaper beef imports into the US.\",\"added\":true},{\"ticker\":\"TSN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"US meat processor faces more competition from cheaper subsidized foreign beef imports under tariff suspension.\",\"added\":true}],\"summary\":\"The President's remarks confirm a specific new policy—suspension of tariffs on Argentine/Brazilian ground beef sold below market prices—benefiting foreign beef exporters and pressuring US meat processors, while broader agriculture ETFs/tickers see little direct impact.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02609:brazil",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "brazil",
+   "entity": "Brazil",
+   "kind": "country",
+   "alias": "brazil",
+   "text_span": "Brazil",
+   "dict_tickers": [
+    "EWZ"
+   ],
+   "triggers_nearby": [
+    "market",
+    "prices"
+   ],
+   "t_audio": 2609.421446875,
+   "t_wall": 1788547635.4214468,
+   "t_wall_et": "2026-09-04T14:47:15.421447-04:00",
+   "segment_text": "Follow-up on that, mister president. You had said that importers had agreed that ground beef would be sold at 25% below market prices. So are those countries only Argentina and Brazil, or are there other countries Well, that there could be other countries.",
+   "context": "But even from an environmental standpoint, you know, they wanted to decrease your herds for environmental reasons. You believe that 1? So, we're building up the herds. The farmers ranchers are building up their herds. Follow-up on that, mister president. You had said that importers had agreed that ground beef would be sold at 25% below market prices. So are those countries only Argentina and Brazil, or are there other countries Well, that there could be other countries. But right now, it's primarily Argentina and Brazil, but there could be other countries. And we're doing it in a very limited fashion because our our ranchers can handle it.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Brazil",
+    "tickers": [
+     "EWZ"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "primarily Argentina and Brazil, but there could be other countries",
+    "summary": "The President confirms Brazil as primary partner for discounted ground beef imports at 25% below market."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Confirmation of Brazil as a major beneficiary of tariff suspension for beef exports to the US modestly supports Brazilian trade/export sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President confirms tariff suspension benefits Argentina and Brazil for beef imports at discounted prices, a mild positive for Brazilian exporters reflected in EWZ, with limited direct US equity impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Confirmation of Brazil as a major beneficiary of tariff suspension for beef exports to the US modestly supports Brazilian trade/export sentiment.\", \"added\": false}], \"summary\": \"The President confirms tariff suspension benefits Argentina and Brazil for beef imports at discounted prices, a mild positive for Brazilian exporters reflected in EWZ, with limited direct US equity impact.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02756:ai",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 2756.1205323193917,
+   "t_wall": 1788547782.1205323,
+   "t_wall_et": "2026-09-04T14:49:42.120532-04:00",
+   "segment_text": "today, especially with 1st generation farmers. So I think those are very good moves. And, mister president, on the country Thank you. He's done a fantastic job. On the country of origin labeling, what is the timeline there? When can consumers who go to the stores gonna be up to the house. It's also gonna be a little bit involved with congress because I understand congress has something to do with that 1. So we're putting it in front of congress right away. It should be no problem. Would you like to see it? It should be no problem. And they're working very hard at getting the farm bill approved too. Back on the size the What is your message to communities who say they don't like data centers and they're they're worried AI could become dangerous? Well, I look at data centers very,",
+   "context": "today, especially with 1st generation farmers. So I think those are very good moves. And, mister president, on the country Thank you. He's done a fantastic job. On the country of origin labeling, what is the timeline there? When can consumers who go to the stores gonna be up to the house. It's also gonna be a little bit involved with congress because I understand congress has something to do with that 1. So we're putting it in front of congress right away. It should be no problem. Would you like to see it? It should be no problem. And they're working very hard at getting the farm bill approved too. Back on the size the What is your message to communities who say they don't like data centers and they're they're worried AI could become dangerous? Well, I look at data centers very,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02818:ai",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2818.105104255319,
+   "t_wall": 1788547844.1051042,
+   "t_wall_et": "2026-09-04T14:50:44.105104-04:00",
+   "segment_text": "if you wanna create tremendous wealth, if you want your house to be more valuable and everything else, you're gonna want a data center. If you wanna go through poverty, crime, and squalor,",
+   "context": "they all create their own energy. They're we're giving them the right to build their own power plant so they don't have to use the grid. They're actually taking their excess energy, and they're building some incredible plants along with the building. So they're building their own generation plant, and the excess is going back into the grid. So we're actually making money on that. It's gonna bring energy costs down. The the data centers, you wanna pay a little bit in the right location, but if you wanna get rich as a state or as a town, and if you wanna pay lower taxes, if you wanna create tremendous wealth, if you want your house to be more valuable and everything else, you're gonna want a data center. If you wanna go through poverty, crime, and squalor,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "you're gonna want a data center",
+    "summary": "The President promotes data centers as wealth-creating investments with energy self-sufficiency benefits."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-data-center rhetoric supports AI compute demand narrative but adds no new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive sentiment toward data center buildout is broadly supportive of semiconductor sector demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Encouragement of data center expansion mildly benefits major cloud/AI infrastructure operators like Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vertiv supplies power/cooling infrastructure for data centers, directly benefiting from pro-buildout rhetoric and mention of on-site power generation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's supportive comments on data centers reinforce existing pro-AI infrastructure policy stance, providing mild positive sentiment for data center ecosystem stocks (NVDA, SMH, MSFT, VRT) with no new concrete policy details.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-data-center rhetoric supports AI compute demand narrative but adds no new policy specifics.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive sentiment toward data center buildout is broadly supportive of semiconductor sector demand.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Encouragement of data center expansion mildly benefits major cloud/AI infrastructure operators like Microsoft.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vertiv supplies power/cooling infrastructure for data centers, directly benefiting from pro-buildout rhetoric and mention of on-site power generation.\", \"added\": false}], \"summary\": \"The President's supportive comments on data centers reinforce existing pro-AI infrastructure policy stance, providing mild positive sentiment for data center ecosystem stocks (NVDA, SMH, MSFT, VRT) with no new concrete policy details.\"}"
+   }
+  },
+  {
+   "signal_id": "xHSKMevaFIc:02845:china",
+   "video_id": "xHSKMevaFIc",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 2845.440625,
+   "t_wall": 1788547871.440625,
+   "t_wall_et": "2026-09-04T14:51:11.440625-04:00",
+   "segment_text": "both in this country and in particular in China.",
+   "context": "if you wanna create tremendous wealth, if you want your house to be more valuable and everything else, you're gonna want a data center. If you wanna go through poverty, crime, and squalor, I would say don't approve data centers, you know, because you have your choice. So I'm all for people approving them or not. But if you look at places that have really gotten wealthy and rich and lower taxes and try it it's where properly approved data centers have have been allowed to go up. Now if they don't approve them, there's a lot of places that want them, both in this country and in particular in China.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "lot of places that want them, both in this country and in particular in China",
+    "summary": "China mentioned as alternative location for data center investment if U.S. regions reject them."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about AI competition with China, no specific policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions China only as alternative data center destination, not a specific market-moving policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tech-sector-specific China policy revealed in this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general commentary on U.S. data center growth and AI competitiveness with China, with no new, specific policy or company impact affecting Chinese equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about AI competition with China, no specific policy action.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentions China only as alternative data center destination, not a specific market-moving policy.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tech-sector-specific China policy revealed in this remark.\", \"added\": false}], \"summary\": \"The excerpt is general commentary on U.S. data center growth and AI competitiveness with China, with no new, specific policy or company impact affecting Chinese equity ETFs.\"}"
+   }
+  }
+ ]
+}

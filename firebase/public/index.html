@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#1b1e24">
+<title>speechalerts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css?v=3">
+</head>
+<body>
+<div class="panes">
+<main id="term" class="term pane" aria-live="polite">
+
+  <section class="cmd" id="sec-status">
+    <p class="prompt"><span class="ps1">speechalerts</span> status</p>
+    <pre class="out" id="status-out">connecting to feed…</pre>
+  </section>
+
+  <section class="cmd" id="sec-schedule">
+    <p class="prompt"><span class="ps1">speechalerts</span> schedule <span class="flag" id="schedule-flag">--tz …</span></p>
+    <pre class="out" id="schedule-out">loading…</pre>
+  </section>
+
+  <section class="cmd" id="sec-alerts">
+    <p class="prompt"><span class="ps1">speechalerts</span> alerts --follow --tail <span id="alerts-n">25</span></p>
+    <pre class="out" id="alerts-out">loading…</pre>
+    <p class="more" id="alerts-more" hidden><button type="button" class="link" id="alerts-more-btn">… show all</button></p>
+  </section>
+
+  <section class="cmd" id="sec-quotes">
+    <p class="prompt"><span class="ps1">speechalerts</span> quotes --stream <span id="quotes-stream">latest</span></p>
+    <pre class="out" id="quotes-out">loading…</pre>
+    <p class="note">Verbatim words that raised each alert, in the order they were spoken.</p>
+    <p class="streams" id="quotes-streams"></p>
+  </section>
+
+  <p class="prompt tail"><span class="ps1">speechalerts</span> <span class="cursor" aria-hidden="true"></span></p>
+</main>
+
+<aside class="transcript pane" id="transcript">
+  <p class="prompt"><span class="ps1">speechalerts</span> transcript --follow <span class="flag" id="transcript-stream">…</span></p>
+  <p class="note" id="transcript-title"></p>
+  <div class="tscroll" id="tscroll">
+    <pre class="out" id="transcript-out">loading…</pre>
+  </div>
+  <p class="tfoot"><button type="button" class="link" id="follow-btn" hidden>↓ jump to live</button></p>
+</aside>
+</div>
+
+<footer class="statusbar" id="statusbar">
+  <span class="sb-left" id="sb-left">[watch] connecting</span>
+  <span class="sb-mid" id="sb-mid"></span>
+  <span class="sb-right" id="sb-right"></span>
+</footer>
+
+<script src="/__/firebase/10.14.1/firebase-app-compat.js"></script>
+<script src="/__/firebase/10.14.1/firebase-firestore-compat.js"></script>
+<script src="/__/firebase/init.js"></script>
+<script src="app.js?v=3"></script>
+</body>
+</html>

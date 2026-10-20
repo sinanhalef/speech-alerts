@@ -1,0 +1,2035 @@
+{
+ "video": {
+  "id": "9JYvcEVlu3s",
+  "url": "https://www.youtube.com/watch?v=9JYvcEVlu3s",
+  "title": "The President Participates in a Press Conference, Jul. 8, 2026",
+  "channel": "The White House",
+  "duration": 2417.0,
+  "was_live": true,
+  "release_timestamp": 1783523111.0,
+  "upload_timestamp": 1783529488.0,
+  "upload_date": "20260708",
+  "label": "Participates in a Press Conference, Jul. 8, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1783523111.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 31,
+  "confirmed": 27,
+  "retracted": 4,
+  "unconfirmed": 0,
+  "llm_calls": 30
+ },
+ "signals": [
+  {
+   "signal_id": "9JYvcEVlu3s:00184:defense",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "defense spending",
+   "text_span": "defense spending",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 184.13958491525423,
+   "t_wall": 1783523295.139585,
+   "t_wall_et": "2026-07-08T11:08:15.139585-04:00",
+   "segment_text": "and over the past 18 months, The United States has led a historic effort to dramatically increase the defense spending",
+   "context": "and they have a lot of good in their heart, not evil. Good. And they're doing a great job for their country. The world is doing well. We have, as you know, the oil is down. We'll see whether or not we keep it down. We should keep it down. We're doing things that should have been done 47 years ago with Iran. And I just wanna say that, throughout my 1st term and over the past 18 months, The United States has led a historic effort to dramatically increase the defense spending",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense spending",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "LMT",
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "dramatically increase the defense spending",
+    "summary": "The President claims US led historic effort to increase defense spending over 18 months."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric on increased defense spending is mildly supportive of the defense sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated defense spending narrative is a mild positive for aerospace/defense ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric on higher defense spending supports major prime contractors like Lockheed.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad defense spending comments are mildly positive for RTX as a top defense contractor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General defense buildup rhetoric benefits Northrop as a major defense supplier.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments reaffirming increased defense spending are mildly supportive for General Dynamics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated that the US has dramatically increased defense spending, a repeat of known policy that is mildly positive but not new information for defense stocks and ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric on increased defense spending is mildly supportive of the defense sector ETF.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated defense spending narrative is a mild positive for aerospace/defense ETF.\", \"added\": false}, {\"ticker\": \"LMT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric on higher defense spending supports major prime contractors like Lockheed.\", \"added\": false}, {\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad defense spending comments are mildly positive for RTX as a top defense contractor.\", \"added\": false}, {\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General defense buildup rhetoric benefits Northrop as a major defense supplier.\", \"added\": false}, {\"ticker\": \"GD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments reaffirming increased defense spending are mildly supportive for General Dynamics.\", \"added\": false}], \"summary\": \"The President reiterated that the US has dramatically increased defense spending, a repeat of known policy that is mildly positive but not new information for defense stocks and ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00361:defense_word",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 361.9871607142857,
+   "t_wall": 1783523472.9871607,
+   "t_wall_et": "2026-07-08T11:11:12.987161-04:00",
+   "segment_text": "It's a big up. They were 2%.",
+   "context": "Many of these countries are very rich, by the way. We'd have to feel sorry for them. But it doesn't mean they're properly protected. There's a big difference. Some have truly answered the call, and others are making big changes and will be answering the call. I think I can say in all cases, they're gonna be answering the call. And we'll be we'll be taking in over 1000000000000 dollars a year toward defense, and that's a tremendous amount of money. It's a big up. They were 2%.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "taking in over 1 trillion dollars a year toward defense",
+    "summary": "The President states allied nations will contribute over $1 trillion annually to defense spending."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated NATO defense spending commitments support broad defense sector demand outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive sector-wide sentiment from higher NATO defense spending targets benefits aerospace/defense ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rising NATO defense budgets modestly bullish for drone/defense tech suppliers like AVAV.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General increase in allied defense spending supports demand for Kratos systems, though not a new specific catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm rising NATO defense spending (repeat rhetoric, not new specifics), which is mildly positive for defense-sector equities and ETFs broadly.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated NATO defense spending commitments support broad defense sector demand outlook.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive sector-wide sentiment from higher NATO defense spending targets benefits aerospace/defense ETF.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rising NATO defense budgets modestly bullish for drone/defense tech suppliers like AVAV.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General increase in allied defense spending supports demand for Kratos systems, though not a new specific catalyst.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm rising NATO defense spending (repeat rhetoric, not new specifics), which is mildly positive for defense-sector equities and ETFs broadly.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00445:rtx",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawks",
+   "text_span": "Tomahawks",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 445.3786756521739,
+   "t_wall": 1783523556.3786757,
+   "t_wall_et": "2026-07-08T11:12:36.378676-04:00",
+   "segment_text": "defense companies they're great. We make the best equipment, the Patriots and the Tomahawks, and everything we have is is considered to be the best. Not by me, it's everybody wants it.",
+   "context": "we achieved last year, defense spending of other NATO members surged by more than almost $150,000,000,000 in 2025, and much of that money is being spent on American made equipment. They all want American made equipment. We're we're pushing very hard to have the defense companies they're great. We make the best equipment, the Patriots and the Tomahawks, and everything we have is is considered to be the best. Not by me, it's everybody wants it.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (RTX)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "Tomahawks and everything we have is considered to be the best.",
+    "summary": "The President praised Tomahawk missiles and U.S. defense equipment as the best globally sought."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised Raytheon's Tomahawks and highlighted surging NATO demand and new plant construction, reinforcing a positive but largely already-known demand narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Raytheon's Tomahawk missiles and rising allied defense spending reinforces bullish sentiment for RTX, though much of this narrative is already priced in.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised Raytheon's Tomahawks and highlighted surging NATO demand and new plant construction, reinforcing a positive but largely already-known demand narrative.\", \"added\": false}], \"summary\": \"The President's praise of Raytheon's Tomahawk missiles and rising allied defense spending reinforces bullish sentiment for RTX, though much of this narrative is already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00456:lmt",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "lockheed",
+   "text_span": "Lockheed",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 456.84306451612906,
+   "t_wall": 1783523567.8430645,
+   "t_wall_et": "2026-07-08T11:12:47.843065-04:00",
+   "segment_text": "as much as we could make. And as you know, I had Lockheed and,",
+   "context": "in 2025, and much of that money is being spent on American made equipment. They all want American made equipment. We're we're pushing very hard to have the defense companies they're great. We make the best equipment, the Patriots and the Tomahawks, and everything we have is is considered to be the best. Not by me, it's everybody wants it. I wish we made it faster because we could sell as much as we could make. And as you know, I had Lockheed and,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lockheed Martin",
+    "tickers": [
+     "LMT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "I had [[Lockheed]] and, we make the best equipment, the Patriots and the Tomahawks",
+    "summary": "The President praises Lockheed Martin equipment as best-in-class, notes high demand."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Lockheed's Patriot/Tomahawk equipment and notes surging NATO demand and capacity expansion, reinforcing bullish defense demand narrative already known but supportive.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Lockheed and NATO defense spending growth is mildly positive for LMT, though largely reiterates known trends.",
+    "raw": "{\"tickers\":[{\"ticker\":\"LMT\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises Lockheed's Patriot/Tomahawk equipment and notes surging NATO demand and capacity expansion, reinforcing bullish defense demand narrative already known but supportive.\",\"added\":false}],\"summary\":\"The President's praise of Lockheed and NATO defense spending growth is mildly positive for LMT, though largely reiterates known trends.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00463:ba",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "ba",
+   "entity": "Boeing",
+   "kind": "company",
+   "alias": "boeing",
+   "text_span": "Boeing",
+   "dict_tickers": [
+    "BA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 463.30807692307695,
+   "t_wall": 1783523574.3080769,
+   "t_wall_et": "2026-07-08T11:12:54.308077-04:00",
+   "segment_text": "every 1 of the companies, all of the companies who had done Raytheon is an example, Boeing.",
+   "context": "on American made equipment. They all want American made equipment. We're we're pushing very hard to have the defense companies they're great. We make the best equipment, the Patriots and the Tomahawks, and everything we have is is considered to be the best. Not by me, it's everybody wants it. I wish we made it faster because we could sell as much as we could make. And as you know, I had Lockheed and, every 1 of the companies, all of the companies who had done Raytheon is an example, Boeing.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Boeing",
+    "tickers": [
+     "BA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We make the best equipment. I wish we made it faster because we could sell as much as we could make.",
+    "summary": "The President praises US defense equipment makers including Boeing for quality and export demand."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Boeing among defense manufacturers benefiting from surging NATO demand and capacity expansion, though this is largely reiterating known trends.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of US defense contractors including Boeing for strong demand and capacity buildout is mildly positive but mostly restates known dynamics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Boeing among defense manufacturers benefiting from surging NATO demand and capacity expansion, though this is largely reiterating known trends.\", \"added\": false}], \"summary\": \"The President's praise of US defense contractors including Boeing for strong demand and capacity buildout is mildly positive but mostly restates known dynamics.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00622:lly",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "lly",
+   "entity": "Eli Lilly",
+   "kind": "company",
+   "alias": "eli lilly",
+   "text_span": "Eli Lilly",
+   "dict_tickers": [
+    "LLY"
+   ],
+   "triggers_nearby": [
+    "billion",
+    "million",
+    "plants",
+    "trillion"
+   ],
+   "t_audio": 622.09,
+   "t_wall": 1783523733.09,
+   "t_wall_et": "2026-07-08T11:15:33.090000-04:00",
+   "segment_text": "Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building.",
+   "context": "We have 19,200,000,000,000 invested in 1 year. We haven't gone into the extra almost 0.5 a year, 1.5 years. Those numbers won't come out for a little while. So we've have 19,200,000,000,000, not billion, not million, trillion with a t, invested in plants and equipment that's being built all over the country. Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Eli Lilly",
+    "tickers": [
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Eli Lilly is building plants, big drug",
+    "summary": "Eli Lilly is building pharmaceutical plants as part of major domestic investment."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Lilly building plants domestically is a mild positive but reflects already-known investment plans and tariff policy, not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate known tariff and domestic investment policy; the Eli Lilly mention is generic praise for existing plant-building plans rather than a new company-specific catalyst, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LLY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Lilly building plants domestically is a mild positive but reflects already-known investment plans and tariff policy, not new information.\", \"added\": false}], \"summary\": \"The President's remarks reiterate known tariff and domestic investment policy; the Eli Lilly mention is generic praise for existing plant-building plans rather than a new company-specific catalyst, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00624:mrk",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "mrk",
+   "entity": "Merck",
+   "kind": "company",
+   "alias": "merck",
+   "text_span": "Merck",
+   "dict_tickers": [
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "trillion"
+   ],
+   "t_audio": 624.6421428571429,
+   "t_wall": 1783523735.6421428,
+   "t_wall_et": "2026-07-08T11:15:35.642143-04:00",
+   "segment_text": "Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building.",
+   "context": "We have 19,200,000,000,000 invested in 1 year. We haven't gone into the extra almost 0.5 a year, 1.5 years. Those numbers won't come out for a little while. So we've have 19,200,000,000,000, not billion, not million, trillion with a t, invested in plants and equipment that's being built all over the country. Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Merck",
+    "tickers": [
+     "MRK"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Merck, all of them, the drug companies are building.",
+    "summary": "Merck is building plants alongside other drug companies in domestic investment surge."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General mention that Merck is building plants domestically is a mild positive but non-specific and already consistent with known trends, unlikely to move stock meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark broadly praises domestic investment including Merck but offers no new specific commitment, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MRK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General mention that Merck is building plants domestically is a mild positive but non-specific and already consistent with known trends, unlikely to move stock meaningfully.\", \"added\": false}], \"summary\": \"The President's remark broadly praises domestic investment including Merck but offers no new specific commitment, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00626:pharma",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug companies",
+   "text_span": "drug companies",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 626.2126923076922,
+   "t_wall": 1783523737.2126923,
+   "t_wall_et": "2026-07-08T11:15:37.212692-04:00",
+   "segment_text": "Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building.",
+   "context": "We have 19,200,000,000,000 invested in 1 year. We haven't gone into the extra almost 0.5 a year, 1.5 years. Those numbers won't come out for a little while. So we've have 19,200,000,000,000, not billion, not million, trillion with a t, invested in plants and equipment that's being built all over the country. Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.94,
+    "quote": "all of them, the drug companies are building",
+    "summary": "Drug companies collectively investing heavily in plant and equipment construction nationwide."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LLY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive mention of Lilly building new US plants reinforces domestic investment narrative, mildly bullish.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Merck cited as building plants domestically, a mildly positive signal amid tariff-driven onshoring.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not specifically named, general sector comment has limited direct impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad healthcare ETF unlikely to react meaningfully to generic praise of drugmakers building plants.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma sector ETF benefits slightly from narrative of tariff-driven domestic pharma investment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of drug companies building US plants amid tariff policy is mildly positive for pharma investment narrative, especially for LLY and MRK, with limited direct effect on PFE and broader healthcare ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LLY\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive mention of Lilly building new US plants reinforces domestic investment narrative, mildly bullish.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Merck cited as building plants domestically, a mildly positive signal amid tariff-driven onshoring.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not specifically named, general sector comment has limited direct impact.\", \"added\": false}, {\"ticker\": \"XLV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad healthcare ETF unlikely to react meaningfully to generic praise of drugmakers building plants.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma sector ETF benefits slightly from narrative of tariff-driven domestic pharma investment.\", \"added\": false}], \"summary\": \"The President's praise of drug companies building US plants amid tariff policy is mildly positive for pharma investment narrative, especially for LLY and MRK, with limited direct effect on PFE and broader healthcare ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00628:autos",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 628.6762883168317,
+   "t_wall": 1783523739.6762884,
+   "t_wall_et": "2026-07-08T11:15:39.676288-04:00",
+   "segment_text": "The car companies are building like crazy. In fact, as you probably saw a big announcement yesterday,",
+   "context": "invested in 1 year. We haven't gone into the extra almost 0.5 a year, 1.5 years. Those numbers won't come out for a little while. So we've have 19,200,000,000,000, not billion, not million, trillion with a t, invested in plants and equipment that's being built all over the country. Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building. The car companies are building like crazy. In fact, as you probably saw a big announcement yesterday,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "car companies are building like crazy",
+    "summary": "The President states automakers are building plants at high pace across the country."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated tariff protection for US-built vehicles is a mild positive for domestic-heavy manufacturers like GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Ford benefits similarly from tariff-driven reshoring incentives already largely known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Stellantis has significant Mexico-built exports that would face the 25% tariff mentioned, a negative relative to peers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tesla's US-based production is largely insulated from Mexico tariffs, making this remark largely neutral.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mixed global auto ETF exposure makes the net effect of tariff rhetoric ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Toyota's new announced Texas plant to replace Mexico production is a concrete positive investment signal directly tied to this remark.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President reiterated tariff-driven reshoring rhetoric benefiting US-based automakers like GM and Ford, while Mexico-heavy producers like Stellantis face relative tariff risk; the new specific detail about Toyota's Texas plant is the clearest actionable news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated tariff protection for US-built vehicles is a mild positive for domestic-heavy manufacturers like GM.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Ford benefits similarly from tariff-driven reshoring incentives already largely known.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Stellantis has significant Mexico-built exports that would face the 25% tariff mentioned, a negative relative to peers.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tesla's US-based production is largely insulated from Mexico tariffs, making this remark largely neutral.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mixed global auto ETF exposure makes the net effect of tariff rhetoric ambiguous.\", \"added\": false}, {\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Toyota's new announced Texas plant to replace Mexico production is a concrete positive investment signal directly tied to this remark.\", \"added\": true}], \"summary\": \"The President reiterated tariff-driven reshoring rhetoric benefiting US-based automakers like GM and Ford, while Mexico-heavy producers like Stellantis face relative tariff risk; the new specific detail about Toyota's Texas plant is the clearest actionable news.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00634:tm",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 634.28503,
+   "t_wall": 1783523745.28503,
+   "t_wall_et": "2026-07-08T11:15:45.285030-04:00",
+   "segment_text": "Toyota",
+   "context": "invested in 1 year. We haven't gone into the extra almost 0.5 a year, 1.5 years. Those numbers won't come out for a little while. So we've have 19,200,000,000,000, not billion, not million, trillion with a t, invested in plants and equipment that's being built all over the country. Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building. The car companies are building like crazy. In fact, as you probably saw a big announcement yesterday, Toyota",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "car companies are building like crazy. In fact, as you probably saw a big announcement yesterday, Toyota",
+    "summary": "Toyota mentioned alongside other automakers as building plants and making major announcements."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Toyota's new Texas plant as a shift from Mexico, framing it positively though the news was already reported.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlights Toyota's Texas plant investment as evidence of tariff-driven reshoring, a mildly positive but largely already-known development for Toyota.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Toyota's new Texas plant as a shift from Mexico, framing it positively though the news was already reported.\", \"added\": false}], \"summary\": \"The President highlights Toyota's Texas plant investment as evidence of tariff-driven reshoring, a mildly positive but largely already-known development for Toyota.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00636:mexico",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 636.2535377358491,
+   "t_wall": 1783523747.2535377,
+   "t_wall_et": "2026-07-08T11:15:47.253538-04:00",
+   "segment_text": "is leaving Mexico and they're gonna build 1 of the biggest car manufacturing plants in the world in Texas.",
+   "context": "So we've have 19,200,000,000,000, not billion, not million, trillion with a t, invested in plants and equipment that's being built all over the country. Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building. The car companies are building like crazy. In fact, as you probably saw a big announcement yesterday, Toyota is leaving Mexico and they're gonna build 1 of the biggest car manufacturing plants in the world in Texas.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "Toyota is leaving Mexico and they're gonna build in Texas.",
+    "summary": "Toyota relocating major car plant from Mexico to Texas."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Toyota's relocation from Mexico plus threatened tariffs on Mexican-built goods signal continued manufacturing flight from Mexico, mildly negative for Mexican equities/economy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's tariff-driven rhetoric highlights companies like Toyota leaving Mexico for the US, which is negative for Mexico-exposed assets like EWW while broadly bullish for US manufacturing and domestic beneficiaries not listed here.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Toyota's relocation from Mexico plus threatened tariffs on Mexican-built goods signal continued manufacturing flight from Mexico, mildly negative for Mexican equities/economy.\", \"added\": false}], \"summary\": \"The President's tariff-driven rhetoric highlights companies like Toyota leaving Mexico for the US, which is negative for Mexico-exposed assets like EWW while broadly bullish for US manufacturing and domestic beneficiaries not listed here.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00651:japan",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "tariff",
+    "tariffs"
+   ],
+   "t_audio": 651.528012,
+   "t_wall": 1783523762.528012,
+   "t_wall_et": "2026-07-08T11:16:02.528012-04:00",
+   "segment_text": "If you build in Japan or if you build in",
+   "context": "Eli Lilly is building plants, big drug Merck, all of them, the drug companies are building. The car companies are building like crazy. In fact, as you probably saw a big announcement yesterday, Toyota is leaving Mexico and they're gonna build 1 of the biggest car manufacturing plants in the world in Texas. That's because of the tariffs because we don't mind if you build in Mexico, but if you build in Mexico, you have to pay 25% tariff. If you build in Japan or if you build in",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "if you build in Japan or if you build in",
+    "summary": "The President describes tariff policy: 25% tariff on Mexico-built cars, alternative to build in Japan."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated tariff threats on Japan-built autos/goods reinforce pressure on Japanese exporters, weighing modestly on Japan-exposed equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated tariff policy pushing manufacturers to build in the US, with Japan cited among locations facing tariffs, a mild negative for Japan-linked ETF EWJ though largely repeat rhetoric.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated tariff threats on Japan-built autos/goods reinforce pressure on Japanese exporters, weighing modestly on Japan-exposed equities.\", \"added\": false}], \"summary\": \"The President reiterated tariff policy pushing manufacturers to build in the US, with Japan cited among locations facing tariffs, a mild negative for Japan-linked ETF EWJ though largely repeat rhetoric.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00654:china",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "tariff"
+   ],
+   "t_audio": 654.9437320388349,
+   "t_wall": 1783523765.943732,
+   "t_wall_et": "2026-07-08T11:16:05.943732-04:00",
+   "segment_text": "any place, now China is a much higher tariff versus a 100% tariff because we don't wanna lose our jobs.",
+   "context": "The car companies are building like crazy. In fact, as you probably saw a big announcement yesterday, Toyota is leaving Mexico and they're gonna build 1 of the biggest car manufacturing plants in the world in Texas. That's because of the tariffs because we don't mind if you build in Mexico, but if you build in Mexico, you have to pay 25% tariff. If you build in Japan or if you build in any place, now China is a much higher tariff versus a 100% tariff because we don't wanna lose our jobs.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "China is a much higher tariff versus a 100% tariff",
+    "summary": "The President imposes 100% tariff on Chinese goods to protect US jobs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of existing China tariff stance is already priced into broad China ETFs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restated tariff rhetoric on China with no new numbers or deadlines.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Internet-sector ETF not directly targeted by tariff comments on manufacturing goods.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats existing tariff policy framing toward China (up to 100%+) without new specifics, so China-exposed ETFs face mild, already-priced negative sentiment but no fresh catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of existing China tariff stance is already priced into broad China ETFs.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General restated tariff rhetoric on China with no new numbers or deadlines.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Internet-sector ETF not directly targeted by tariff comments on manufacturing goods.\", \"added\": false}], \"summary\": \"The President repeats existing tariff policy framing toward China (up to 100%+) without new specifics, so China-exposed ETFs face mild, already-priced negative sentiment but no fresh catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00671:ai_word",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "plants"
+   ],
+   "t_audio": 671.7177551020408,
+   "t_wall": 1783523782.717755,
+   "t_wall_et": "2026-07-08T11:16:22.717755-04:00",
+   "segment_text": "in the history of our country. Car plants, AI plants, and all other plants, pharmaceutical plants,",
+   "context": "we don't mind if you build in Mexico, but if you build in Mexico, you have to pay 25% tariff. If you build in Japan or if you build in any place, now China is a much higher tariff versus a 100% tariff because we don't wanna lose our jobs. We don't wanna have our workers lose their jobs. We have the we have the largest number of plants being built for the most money ever in the history of our country. Car plants, AI plants, and all other plants, pharmaceutical plants,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "AI plants, and all other plants, pharmaceutical plants",
+    "summary": "The President highlights AI plant construction as part of record domestic industrial investment."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about AI plant construction is not new or specific enough to move NVDA materially.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad domestic manufacturing praise including chips restates existing tariff policy without new specifics for semiconductor ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat rhetoric about broad domestic investment and tariffs, with no new specific policy or numbers directly affecting NVDA or SMH, so minimal expected price impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about AI plant construction is not new or specific enough to move NVDA materially.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad domestic manufacturing praise including chips restates existing tariff policy without new specifics for semiconductor ETF.\",\"added\":false}],\"summary\":\"The President's remarks are largely repeat rhetoric about broad domestic investment and tariffs, with no new specific policy or numbers directly affecting NVDA or SMH, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00675:chips",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 675.44995,
+   "t_wall": 1783523786.44995,
+   "t_wall_et": "2026-07-08T11:16:26.449950-04:00",
+   "segment_text": "chips.",
+   "context": "we don't mind if you build in Mexico, but if you build in Mexico, you have to pay 25% tariff. If you build in Japan or if you build in any place, now China is a much higher tariff versus a 100% tariff because we don't wanna lose our jobs. We don't wanna have our workers lose their jobs. We have the we have the largest number of plants being built for the most money ever in the history of our country. Car plants, AI plants, and all other plants, pharmaceutical plants, chips.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "pharmaceutical plants, chips",
+    "summary": "The President highlights record semiconductor plant construction in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about chip plant investment restates known tariff policy, minimal new info for the sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF exposure is diluted and the comments are largely repeat rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "NVDA is fabless and not directly tied to US plant-building announcements mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major US-based chip manufacturer, praise for domestic chip plant construction mildly favors Intel amid tariff-driven reshoring.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate existing tariff policy encouraging domestic manufacturing of chips, cars, and pharma; mildly positive for US-based chip fabs like Intel but largely repeat rhetoric with limited new tradeable information for chip ETFs or fabless NVDA.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about chip plant investment restates known tariff policy, minimal new info for the sector ETF.\", \"added\": false},\n{\"ticker\": \"SOXX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF exposure is diluted and the comments are largely repeat rhetoric.\", \"added\": false},\n{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"NVDA is fabless and not directly tied to US plant-building announcements mentioned.\", \"added\": false},\n{\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major US-based chip manufacturer, praise for domestic chip plant construction mildly favors Intel amid tariff-driven reshoring.\", \"added\": false}\n],\n\"summary\": \"The President's remarks reiterate existing tariff policy encouraging domestic manufacturing of chips, cars, and pharma; mildly positive for US-based chip fabs like Intel but largely repeat rhetoric with limited new tradeable information for chip ETFs or fabless NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00691:chips_word",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "chips_word",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chip",
+   "text_span": "chip",
+   "dict_tickers": [
+    "SMH",
+    "SOXX"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 691.3116966666666,
+   "t_wall": 1783523802.3116968,
+   "t_wall_et": "2026-07-08T11:16:42.311697-04:00",
+   "segment_text": "if they make a chip or if they make a car, if they make pharmaceuticals.",
+   "context": "We don't wanna have our workers lose their jobs. We have the we have the largest number of plants being built for the most money ever in the history of our country. Car plants, AI plants, and all other plants, pharmaceutical plants, chips. We're not giving anything. All we're saying is, if you don't start if they will give them a year and 0.5 to 2 years to build their plant. If they don't have that, they have to pay a 100%, 200%, even 250% if they make a chip or if they make a car, if they make pharmaceuticals.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "if they make a chip... they have to pay 100%, 200%, 250%",
+    "summary": "The President threatens 100-250% tariffs on chip manufacturers without domestic plants."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated threat of up to 250% tariffs on chips not manufactured domestically pressures semiconductor importers broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same tariff threat on chips applies to this semiconductor ETF, creating downside risk for non-US-based producers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated existing tariff threats (up to 250%) on chips, cars, and pharma made abroad without US plants; this is largely known rhetoric but modestly negative for semiconductor sector ETFs exposed to import tariffs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated threat of up to 250% tariffs on chips not manufactured domestically pressures semiconductor importers broadly.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same tariff threat on chips applies to this semiconductor ETF, creating downside risk for non-US-based producers.\", \"added\": false}], \"summary\": \"The President repeated existing tariff threats (up to 250%) on chips, cars, and pharma made abroad without US plants; this is largely known rhetoric but modestly negative for semiconductor sector ETFs exposed to import tariffs.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00770:tiktok",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "tiktok",
+   "entity": "TikTok",
+   "kind": "company",
+   "alias": "tiktok",
+   "text_span": "TikTok",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 770.6764949484536,
+   "t_wall": 1783523881.6764948,
+   "t_wall_et": "2026-07-08T11:18:01.676495-04:00",
+   "segment_text": "Even in TikTok, you know, I was watching somebody say, oh, the TikTok deal. It's so bad for well,",
+   "context": "and that 1 industry, which is so big, so powerful, it needs more than that. In fact, some people say almost double. So this was my idea. I said, you can never service that. You can't reinvigorate the grid. You can make it better, but nothing like that. You wouldn't be able to build. And we're leading China in AI. Well, in most just about everything. But we're leading China in AI. Even in TikTok, you know, I was watching somebody say, oh, the TikTok deal. It's so bad for well,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TikTok",
+    "tickers": [
+     "ORCL"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "I was watching somebody say, oh, the TikTok deal.",
+    "summary": "The President references TikTok deal amid discussion of AI leadership against China."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President references the TikTok deal generally without new details relevant to Oracle's hosting role.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general rhetoric about AI leadership and a passing, non-specific reference to the already-known TikTok deal, offering no new information to move ORCL shares.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President references the TikTok deal generally without new details relevant to Oracle's hosting role.\", \"added\": false}], \"summary\": \"The remark is general rhetoric about AI leadership and a passing, non-specific reference to the already-known TikTok deal, offering no new information to move ORCL shares.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00934:eu",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "investments"
+   ],
+   "t_audio": 934.5833060465116,
+   "t_wall": 1783524045.583306,
+   "t_wall_et": "2026-07-08T11:20:45.583306-04:00",
+   "segment_text": "sustainment facility, a big deal in Europe.",
+   "context": "It's gonna quadruple the output that we have with the munitions and and the basic equipment itself, whether it's a Patriot or Tomahawk missile or any of the missiles that we make make many missiles, different types for different occasions. And just today at the summit, we announced $3,000,000,000 of new defense investments with US companies, and Lockheed Martin will establish a world class Patriot missile sustainment facility, a big deal in Europe.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "$3,000,000,000 of new defense investments with US companies, Lockheed Martin will establish a world class Patriot missile sustainment facility",
+    "summary": "The President announces $3B defense investment in Europe with Lockheed Martin Patriot facility."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Defense investment news is US-company focused and unlikely to materially move broad European equity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Eurozone broad index unlikely to react meaningfully to a US defense contractor announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Euro Stoxx 50 exposure to defense spending news is diluted across many sectors, limited price impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Lockheed Martin gains new $3B facility deal and additional missile partnership announcements, both new positive revenue news.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Northrop Grumman advancing drone tech sale is a new positive revenue development.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The remark highlights new US defense contracts and investments benefiting Lockheed Martin and Northrop Grumman directly, while broad European equity ETFs (VGK, EZU, FEZ) are unlikely to see material price impact from this narrowly US-company-focused defense news.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VGK\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Defense investment news is US-company focused and unlikely to materially move broad European equity ETF.\",\"added\":false},{\"ticker\":\"EZU\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Eurozone broad index unlikely to react meaningfully to a US defense contractor announcement.\",\"added\":false},{\"ticker\":\"FEZ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Euro Stoxx 50 exposure to defense spending news is diluted across many sectors, limited price impact.\",\"added\":false},{\"ticker\":\"LMT\",\"direction\":\"up\",\"confidence\":0.75,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Lockheed Martin gains new $3B facility deal and additional missile partnership announcements, both new positive revenue news.\",\"added\":true},{\"ticker\":\"NOC\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Northrop Grumman advancing drone tech sale is a new positive revenue development.\",\"added\":true}],\"summary\":\"The remark highlights new US defense contracts and investments benefiting Lockheed Martin and Northrop Grumman directly, while broad European equity ETFs (VGK, EZU, FEZ) are unlikely to see material price impact from this narrowly US-company-focused defense news.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00943:noc",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "northrop grumman",
+   "text_span": "Northrop Grumman",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 943.5641558441558,
+   "t_wall": 1783524054.5641558,
+   "t_wall_et": "2026-07-08T11:20:54.564156-04:00",
+   "segment_text": "They've given a tremendous incentive by Europe to do that. All goes to the benefit of us and Europe because they're getting the best equipment. Northrop Grumman is moving forward with the sale of advanced American drone technology.",
+   "context": "or Tomahawk missile or any of the missiles that we make make many missiles, different types for different occasions. And just today at the summit, we announced $3,000,000,000 of new defense investments with US companies, and Lockheed Martin will establish a world class Patriot missile sustainment facility, a big deal in Europe. They've given a tremendous incentive by Europe to do that. All goes to the benefit of us and Europe because they're getting the best equipment. Northrop Grumman is moving forward with the sale of advanced American drone technology.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "Northrop Grumman is moving forward with the sale of advanced American drone technology.",
+    "summary": "Northrop Grumman advancing sale of advanced American drone technology."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President announced Northrop Grumman is moving forward with a drone technology sale, a positive new deal disclosure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted a new Northrop Grumman drone tech sale among broader defense investment announcements, a modest positive catalyst for NOC.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NOC\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President announced Northrop Grumman is moving forward with a drone technology sale, a positive new deal disclosure.\",\"added\":false}],\"summary\":\"The President highlighted a new Northrop Grumman drone tech sale among broader defense investment announcements, a modest positive catalyst for NOC.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:00976:anduril",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "anduril",
+   "entity": "Anduril",
+   "kind": "company",
+   "alias": "anduril",
+   "text_span": "Anduril",
+   "dict_tickers": [
+    "PLTR"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "partnership"
+   ],
+   "t_audio": 976.295,
+   "t_wall": 1783524087.295,
+   "t_wall_et": "2026-07-08T11:21:27.295000-04:00",
+   "segment_text": "Anduril is announcing a deal to build their",
+   "context": "We're actually the leader in drone tech. A lot of people don't know that. We have the we have the most sophisticated drones in the world. And, we're a real I guess, we're the leader, but we'll we'll soon be the leader by many times over. And Lockheed and Ryan Metal are announcing a partnership to build the army tactical missile systems, which is a big deal. And Anduril is announcing a deal to build their",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Anduril",
+    "tickers": [
+     "PLTR"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "Anduril is announcing a deal to build their",
+    "summary": "The President mentions Anduril announcing a defense manufacturing deal."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PLTR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark concerns Anduril, Lockheed, Northrop and defense deals, not Palantir specifically, though sector sentiment for defense/tech names is mildly positive.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt highlights defense deals for Lockheed, Northrop, Anduril and Ryan Metal, positive for the defense sector broadly, but does not mention Palantir directly, so any effect on PLTR is indirect and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PLTR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remark concerns Anduril, Lockheed, Northrop and defense deals, not Palantir specifically, though sector sentiment for defense/tech names is mildly positive.\", \"added\": false}], \"summary\": \"The excerpt highlights defense deals for Lockheed, Northrop, Anduril and Ryan Metal, positive for the defense sector broadly, but does not mention Palantir directly, so any effect on PLTR is indirect and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01033:steel",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "percent",
+    "tariff",
+    "tariffs"
+   ],
+   "t_audio": 1033.8453759398496,
+   "t_wall": 1783524144.845376,
+   "t_wall_et": "2026-07-08T11:22:24.845376-04:00",
+   "segment_text": "As an example, we're doing great on steel because we charge tariffs. So now all of a sudden, the steel industry, which was absolutely",
+   "context": "And what it really does, it does it mean means jobs. And, again, I I have to just say that when Toyota announced yesterday, I wasn't that surprised, but everybody wanted to get that. That's the largest I think it's gonna be the largest plant in the world, car plant, and they're moving into The United States. And again, they're doing that to avoid paying their tariff because if you build your product here, you pay no tariff. If you don't, you pay a 25 percent tariff depending. 35% sometimes, sometimes a 100%, 200% depending on what the product is. As an example, we're doing great on steel because we charge tariffs. So now all of a sudden, the steel industry, which was absolutely",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "we're doing great on steel because we charge tariffs",
+    "summary": "The President credits tariffs for steel industry strength and revival."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates tariffs are reviving US steel industry, generally positive for domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for steel tariffs supports domestic steel producers like Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs benefits from continued steel tariff protection rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel Dynamics gains from reiterated tariff-support narrative for domestic steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF benefits broadly from tariff-supportive comments, though rhetoric is repeat not new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar tariff-driven steel revival rhetoric, mildly positive for domestic steel producers but not new information; also touts a new Oklahoma aluminum plant and Anduril defense deal, neither directly tied to listed tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President reiterates tariffs are reviving US steel industry, generally positive for domestic steelmakers.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Praise for steel tariffs supports domestic steel producers like Nucor.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Cleveland-Cliffs benefits from continued steel tariff protection rhetoric.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Steel Dynamics gains from reiterated tariff-support narrative for domestic steel.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Steel sector ETF benefits broadly from tariff-supportive comments, though rhetoric is repeat not new policy.\",\"added\":false}],\"summary\":\"The President repeats familiar tariff-driven steel revival rhetoric, mildly positive for domestic steel producers but not new information; also touts a new Oklahoma aluminum plant and Anduril defense deal, neither directly tied to listed tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01063:aluminum",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 1063.0338659793815,
+   "t_wall": 1783524174.033866,
+   "t_wall_et": "2026-07-08T11:22:54.033866-04:00",
+   "segment_text": "We don't even make aluminum anymore. Now we're gonna have the largest aluminum plant in the world",
+   "context": "As an example, we're doing great on steel because we charge tariffs. So now all of a sudden, the steel industry, which was absolutely dead a few years ago I revived it in my 1st term, pretty good. And then they blew it in in the Biden term. And what a shame. They just blew it right out the way. They had no idea what they were doing. And I quickly revived it at the beginning of my of this term, year and 0.5. We are the steel business is through the roof. We don't even make aluminum anymore. Now we're gonna have the largest aluminum plant in the world",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "We're gonna have the largest aluminum plant in the world",
+    "summary": "The President announces plans for world's largest aluminum plant in US."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New announcement of largest aluminum plant being built in Oklahoma signals bullish domestic aluminum industry backdrop and tariff protection.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CENX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "As a pure-play US aluminum producer, Century Aluminum benefits most directly from tariff protection and new domestic capacity narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's tariff-driven onshoring rhetoric and new aluminum plant announcement are modestly bullish for domestic aluminum producers AA and CENX, with CENX more directly exposed.",
+    "raw": "{\"tickers\":[{\"ticker\":\"AA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"New announcement of largest aluminum plant being built in Oklahoma signals bullish domestic aluminum industry backdrop and tariff protection.\",\"added\":false},{\"ticker\":\"CENX\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"As a pure-play US aluminum producer, Century Aluminum benefits most directly from tariff protection and new domestic capacity narrative.\",\"added\":false}],\"summary\":\"The President's tariff-driven onshoring rhetoric and new aluminum plant announcement are modestly bullish for domestic aluminum producers AA and CENX, with CENX more directly exposed.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01086:defense_word",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 1086.165,
+   "t_wall": 1783524197.165,
+   "t_wall_et": "2026-07-08T11:23:17.165000-04:00",
+   "segment_text": "Over the course of the past 2 days, I had a number of excellent discussions with other leaders at the summit and held productive bilateral meetings with",
+   "context": "We don't even make aluminum anymore. Now we're gonna have the largest aluminum plant in the world being built in Oklahoma. I love Oklahoma. 77 out of 77 counties. 3 times, and it's great. It's a great state. They're gonna be building the largest aluminum plant in the entire world in Oklahoma. It's starting very soon. Over the course of the past 2 days, I had a number of excellent discussions with other leaders at the summit and held productive bilateral meetings with",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01265:iran",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1265.4557391304347,
+   "t_wall": 1783524376.455739,
+   "t_wall_et": "2026-07-08T11:26:16.455739-04:00",
+   "segment_text": "to end the Iran war? So I think we're doing just the opposite. The Iran war has been a tremendous military success.",
+   "context": "He's a handsome guy, but he's very insecure. Go ahead. Do you wanna shout it out? Give him a mic. How about giving him a He shouted out. Mister president, your operation in Venezuela has been involved in its military success, and yet the Iran war seems to be a strategic dead end for you. Why are you apparently unable to end the Iran war? So I think we're doing just the opposite. The Iran war has been a tremendous military success.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "The Iran war has been a tremendous military success.",
+    "summary": "The President claims Iran military operations have been a strategic success."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts lower oil prices since the Iran conflict, mildly bearish for energy sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "He explicitly highlights oil prices are lower than before, reinforcing a soft-oil narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Emphasis on military success and destruction of Iranian military assets supports continued defense spending narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar rhetoric about Iran military success and lower oil prices, offering mild negative read-through for oil-linked tickers and mild positive for defense, with no new tradable information.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"down\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President touts lower oil prices since the Iran conflict, mildly bearish for energy sector sentiment.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.53,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"He explicitly highlights oil prices are lower than before, reinforcing a soft-oil narrative.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Emphasis on military success and destruction of Iranian military assets supports continued defense spending narrative.\",\"added\":false}],\"summary\":\"The President's remarks reiterate familiar rhetoric about Iran military success and lower oil prices, offering mild negative read-through for oil-linked tickers and mild positive for defense, with no new tradable information.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01301:oil",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil prices",
+   "text_span": "oil prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "tremendous"
+   ],
+   "t_audio": 1301.1773641791044,
+   "t_wall": 1783524412.177364,
+   "t_wall_et": "2026-07-08T11:26:52.177364-04:00",
+   "segment_text": "And you see the oil prices are lower than they were when I started.",
+   "context": "And, you know, I can only answer the question by saying they're not gonna have a nuclear weapon. I think it's been I was there for 1 reason that Iran cannot have a nuclear weapon. I call it we denuclearize Iran, and that's happened. They will never have a nuclear weapon. That stuff is so far down under a mountain. It's a granite mountain that collapsed on top of it. Take months to get it out. I think it's a tremendous success, Iran. And you see the oil prices are lower than they were when I started.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "oil prices are lower than they were when I started",
+    "summary": "The President credits his Iran policy with lower oil prices than when he took office."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about lower oil prices is not new information for energy sector equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment on oil prices being lower is a restatement of known market conditions, not a new catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or supply/demand shift disclosed that would move Exxon shares.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is rhetorical framing of Iran conflict success, not a specific catalyst for Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment merely touts lower oil prices as evidence of policy success, restating known market conditions with no new tariff, sanction, or supply information, so no meaningful directional impact on energy tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about lower oil prices is not new information for energy sector equities.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment on oil prices being lower is a restatement of known market conditions, not a new catalyst.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or supply/demand shift disclosed that would move Exxon shares.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is rhetorical framing of Iran conflict success, not a specific catalyst for Chevron.\", \"added\": false}], \"summary\": \"The President's comment merely touts lower oil prices as evidence of policy success, restating known market conditions with no new tariff, sanction, or supply information, so no meaningful directional impact on energy tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01639:tiktok",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "tiktok",
+   "entity": "TikTok",
+   "kind": "company",
+   "alias": "tiktok",
+   "text_span": "TikTok",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1639.371753246753,
+   "t_wall": 1783524750.3717532,
+   "t_wall_et": "2026-07-08T11:32:30.371753-04:00",
+   "segment_text": "So I do talk about it, and I talk about it on TikTok, and I talk about it everywhere. I talk about it here. And you're right. It has become international,",
+   "context": "people, I I set a record republicans. I get great numbers for the election to help me get elected in a landslide, the Hispanics, because a lot of them came from countries that were essentially communist. You know, whether you call them radical socialist or communist is not that much, but there's a little difference. When they say social democrats, we're social democrats. It sounds so nice. It's not nice. It's a very dangerous term. So I do talk about it, and I talk about it on TikTok, and I talk about it everywhere. I talk about it here. And you're right. It has become international,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TikTok",
+    "tickers": [
+     "ORCL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "I talk about it on TikTok, and I talk about it everywhere.",
+    "summary": "The President uses TikTok as a platform to discuss communist/socialist ideology threats."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of TikTok is purely as a platform for political rhetoric, not related to Oracle's TikTok deal or business terms.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general anti-communism rhetoric with a passing TikTok reference used as a communication channel, not a policy or deal announcement affecting Oracle.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of TikTok is purely as a platform for political rhetoric, not related to Oracle's TikTok deal or business terms.\", \"added\": false}], \"summary\": \"The excerpt is general anti-communism rhetoric with a passing TikTok reference used as a communication channel, not a policy or deal announcement affecting Oracle.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01726:nyt_outlet",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "nyt_outlet",
+   "entity": "New York Times",
+   "kind": "company",
+   "alias": "new york times",
+   "text_span": "New York Times",
+   "dict_tickers": [
+    "NYT"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1726.4437845410628,
+   "t_wall": 1783524837.4437845,
+   "t_wall_et": "2026-07-08T11:33:57.443784-04:00",
+   "segment_text": "president, Tyler Pager with the New York Times. Last month, you said Iranian leaders were very rational people, nice people to deal with, strong people, smart people. Today, you said they were scum sick people and being led by sick people. What changed and do you think they're I got to know. So Well, I got to about a lot. Now when you say rational, I think they're much more rational than level 1, level 2. Level",
+   "context": "and it gets very evil and very nasty. Yeah. Please go ahead. Mister president, Tyler Pager with the New York Times. Last month, you said Iranian leaders were very rational people, nice people to deal with, strong people, smart people. Today, you said they were scum sick people and being led by sick people. What changed and do you think they're I got to know. So Well, I got to about a lot. Now when you say rational, I think they're much more rational than level 1, level 2. Level",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:01906:iran",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1906.6449208333333,
+   "t_wall": 1783525017.6449208,
+   "t_wall_et": "2026-07-08T11:36:57.644921-04:00",
+   "segment_text": "everything went to Iran.",
+   "context": "machinery in the world probably won't get you there, if you wanna know the truth. It's way, way below. But we we're watching that. And if anybody goes there, they get blown up. So nobody's gonna touch that. Eventually, we'll take it. But what we do have is we have that that's gone. If we wouldn't have had that, they would have had a nuclear weapon, and they would have wiped out Israel. If I weren't president, Israel wouldn't exist. Now we did it 2 times. When the g JCPOA, the Obama deal, when that was originally conceived, everything went to Iran.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "everything went to Iran",
+    "summary": "The President criticizes Iran nuclear deal, claims it enabled nuclear threat to Israel."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric on Iran nuclear program without new policy or supply disruption detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates prior Iran strike narrative rather than new escalation threatening oil supply.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new defense contract or spending announcement, just recap of past military action against Iran.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recap the prior strike on Iran's nuclear site and JCPOA criticism without new actionable policy, market impact likely minimal for energy or defense names.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric on Iran nuclear program without new policy or supply disruption detail.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates prior Iran strike narrative rather than new escalation threatening oil supply.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new defense contract or spending announcement, just recap of past military action against Iran.\", \"added\": false}], \"summary\": \"The President's remarks recap the prior strike on Iran's nuclear site and JCPOA criticism without new actionable policy, market impact likely minimal for energy or defense names.\"}"
+   }
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:02128:cat",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "cat",
+   "entity": "Caterpillar",
+   "kind": "company",
+   "alias": "caterpillar",
+   "text_span": "Caterpillar",
+   "dict_tickers": [
+    "CAT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2128.097792721519,
+   "t_wall": 1783525239.0977926,
+   "t_wall_et": "2026-07-08T11:40:39.097793-04:00",
+   "segment_text": "ahead. Red. Mister president, you said today, Ines de la Caterpillar with MS Now. You said today that countries You're with who? MS Now. MS Now. What a that's a failing network. Why would you wanna work for them? MS Now, can you imagine? They wanted to get away. They took the name NBC because they were embarrassed by it. Go ahead. Let's go. When you when hear this question. You said today that countries like Spain, Italy, and The UK were not there for The US and its war with Iran. Should those countries be attacked? Will The US be there for them? Well, I'll tell you what. Number 1, Spain has been very bad, but, you know, the",
+   "context": "ahead. Red. Mister president, you said today, Ines de la Caterpillar with MS Now. You said today that countries You're with who? MS Now. MS Now. What a that's a failing network. Why would you wanna work for them? MS Now, can you imagine? They wanted to get away. They took the name NBC because they were embarrassed by it. Go ahead. Let's go. When you when hear this question. You said today that countries like Spain, Italy, and The UK were not there for The US and its war with Iran. Should those countries be attacked? Will The US be there for them? Well, I'll tell you what. Number 1, Spain has been very bad, but, you know, the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:02227:lmt",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "f 35",
+   "text_span": "f 35",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2227.1674560747665,
+   "t_wall": 1783525338.1674562,
+   "t_wall_et": "2026-07-08T11:42:18.167456-04:00",
+   "segment_text": "President, after your meeting with president Erdogan, can you tell us whether you and president Erdogan reach an understanding on Turkey's return to the f 35 program and the future of US Turkey defense cooperation?",
+   "context": "each other. That was tremendous unification. It was a nice thing to say. That was a very fair question too. Yeah. Green. Green. Yeah. You're wearing green. Right? Thank you, mister president. Eda Aturil from Haber Global TV, Turkey. President, after your meeting with president Erdogan, can you tell us whether you and president Erdogan reach an understanding on Turkey's return to the f 35 program and the future of US Turkey defense cooperation? And do you believe US Turkey relations are entering a new chapter right now?",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "9JYvcEVlu3s:02309:lmt",
+   "video_id": "9JYvcEVlu3s",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "f 35",
+   "text_span": "f 35",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2309.660894117647,
+   "t_wall": 1783525420.6608942,
+   "t_wall_et": "2026-07-08T11:43:40.660894-04:00",
+   "segment_text": "And they're talking about the f 35",
+   "context": "in the Oval Office the following day, pastor Brunson. I had a great relationship. When sleepy Joe Biden got in, bad things happened with a lot of things between the border. Everything was bad. We were left at all over the world, and we had a very bad relationship with a lot of countries. I think Turkey was 1 of those countries. But that changed on November 5 when we had the election, and we've I've it it it's 1 of our best relationships. We have a great relationship, And they're talking about the f 35",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lockheed Martin",
+    "tickers": [
+     "LMT"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "they're talking about the f 35",
+    "summary": "The President mentions F-35 fighter jet program in context of improved US-Turkey relationship."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LMT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President signals inclination to sell F-35s to Turkey, a potential new large order for Lockheed Martin.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's favorable comments toward Turkey and openness to selling F-35s suggest a possible new order for Lockheed Martin, a mild positive.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LMT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President signals inclination to sell F-35s to Turkey, a potential new large order for Lockheed Martin.\", \"added\": false}], \"summary\": \"The President's favorable comments toward Turkey and openness to selling F-35s suggest a possible new order for Lockheed Martin, a mild positive.\"}"
+   }
+  }
+ ]
+}

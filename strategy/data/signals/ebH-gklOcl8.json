@@ -1,0 +1,1249 @@
+{
+ "video": {
+  "id": "ebH-gklOcl8",
+  "url": "https://www.youtube.com/watch?v=ebH-gklOcl8",
+  "title": "The President Delivers Remarks on the new savings accounts",
+  "channel": "The White House",
+  "duration": 2943.0,
+  "was_live": true,
+  "release_timestamp": 1769615751.0,
+  "upload_timestamp": 1769619802.0,
+  "upload_date": "20260128",
+  "label": "Delivers Remarks on the new savings accounts",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1769615751.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 23,
+  "confirmed": 20,
+  "retracted": 3,
+  "unconfirmed": 0,
+  "llm_calls": 18
+ },
+ "signals": [
+  {
+   "signal_id": "ebH-gklOcl8:00251:ai_word",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 251.85689189189188,
+   "t_wall": 1769616002.8568919,
+   "t_wall_et": "2026-01-28T11:00:02.856892-05:00",
+   "segment_text": "plants so big, car plants, AI plants.",
+   "context": "For the 1st time ever, we're going to give every newborn American child a financial stake in the future, head start with life, and a fair shot at the American dream, something people don't talk about so much. At least not for the last 4 years, haven't been, but now they're talking about it big. This last period of time, it's been unbelievable. What you see what's going on with our economy, the tremendous investments that's been made in our country. We have over $18,000,000,000,000 coming in. The most, I think, was 3. That was 10 years ago in another country, not even our country. We have $18,000,000,000,000, and we have thousands of businesses being built all over the country and hundreds of massive plants so big, car plants, AI plants.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "hundreds of massive plants so big, car plants, AI plants",
+    "summary": "The President highlights AI plants being built as part of massive domestic investment wave."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about AI plant investment is not new firm-specific information for Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad mention of AI plants restates known investment narrative without new policy detail affecting semiconductors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark focuses on the new savings accounts for newborns and general economic investment claims; the AI plant mention is vague, repeat rhetoric with no new tangible policy for chipmakers, so no clear tradeable direction for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about AI plant investment is not new firm-specific information for Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad mention of AI plants restates known investment narrative without new policy detail affecting semiconductors.\", \"added\": false}], \"summary\": \"Remark focuses on the new savings accounts for newborns and general economic investment claims; the AI plant mention is vague, repeat rhetoric with no new tangible policy for chipmakers, so no clear tradeable direction for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:00362:canada",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 362.66032110091743,
+   "t_wall": 1769616113.660321,
+   "t_wall_et": "2026-01-28T11:01:53.660321-05:00",
+   "segment_text": "But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico,",
+   "context": "So think of it. Rich people get so many deductions. I'm the king of deductions. I love deductions. But people middle income people never had a deduction before. Now they're getting a deduction on interest. They buy a car. That's gonna have a huge impact on the automobile. By the way, there's 1 proviso. It has to be made in America. If the car is made in another country, no, thank you. But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "factories coming in from Canada",
+    "summary": "The President expects auto factories from Canada to open in America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks suggest Canadian auto manufacturing shifting to the US, which is a mild negative for Canadian industrial base but is vague and already-known rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates general tax and auto-tariff policy while claiming Canadian factories are relocating to the US, a repeat, low-specificity remark with minor potential negative implication for Canada-exposed EWC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks suggest Canadian auto manufacturing shifting to the US, which is a mild negative for Canadian industrial base but is vague and already-known rhetoric.\", \"added\": false}], \"summary\": \"The President reiterates general tax and auto-tariff policy while claiming Canadian factories are relocating to the US, a repeat, low-specificity remark with minor potential negative implication for Canada-exposed EWC.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:00363:mexico",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 363.0948165137615,
+   "t_wall": 1769616114.0948164,
+   "t_wall_et": "2026-01-28T11:01:54.094816-05:00",
+   "segment_text": "But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico,",
+   "context": "So think of it. Rich people get so many deductions. I'm the king of deductions. I love deductions. But people middle income people never had a deduction before. Now they're getting a deduction on interest. They buy a car. That's gonna have a huge impact on the automobile. By the way, there's 1 proviso. It has to be made in America. If the car is made in another country, no, thank you. But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "factories coming in from Mexico",
+    "summary": "The President expects auto factories from Mexico to open in America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's remark implies factories relocating from Mexico to the US to avoid tariffs, a mild negative for Mexican industrial base but largely repeats existing tariff rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates tariff-driven reshoring of auto manufacturing from Mexico and other countries to the US, a mild repeat-rhetoric negative for Mexico-exposed equities but not a new policy announcement, so limited price impact expected for EWW.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's remark implies factories relocating from Mexico to the US to avoid tariffs, a mild negative for Mexican industrial base but largely repeats existing tariff rhetoric.\", \"added\": false}], \"summary\": \"The President reiterates tariff-driven reshoring of auto manufacturing from Mexico and other countries to the US, a mild repeat-rhetoric negative for Mexico-exposed equities but not a new policy announcement, so limited price impact expected for EWW.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:00363:japan",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 363.875,
+   "t_wall": 1769616114.875,
+   "t_wall_et": "2026-01-28T11:01:54.875000-05:00",
+   "segment_text": "Japan, Germany, all over Europe.",
+   "context": "So think of it. Rich people get so many deductions. I'm the king of deductions. I love deductions. But people middle income people never had a deduction before. Now they're getting a deduction on interest. They buy a car. That's gonna have a huge impact on the automobile. By the way, there's 1 proviso. It has to be made in America. If the car is made in another country, no, thank you. But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico, Japan, Germany, all over Europe.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "factories coming in from Canada, Mexico, Japan, Germany, all over Europe",
+    "summary": "Japanese automotive factories expected to enter U.S. market."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about foreign auto factories relocating to the US to avoid tariffs is not new information specific to Japan's broad equity market.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark reiterates known tariff-driven manufacturing relocation rhetoric with no new policy specifics affecting Japanese equities broadly, so EWJ impact is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about foreign auto factories relocating to the US to avoid tariffs is not new information specific to Japan's broad equity market.\", \"added\": false}], \"summary\": \"The remark reiterates known tariff-driven manufacturing relocation rhetoric with no new policy specifics affecting Japanese equities broadly, so EWJ impact is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:00364:germany",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 364.365,
+   "t_wall": 1769616115.365,
+   "t_wall_et": "2026-01-28T11:01:55.365000-05:00",
+   "segment_text": "Japan, Germany, all over Europe.",
+   "context": "So think of it. Rich people get so many deductions. I'm the king of deductions. I love deductions. But people middle income people never had a deduction before. Now they're getting a deduction on interest. They buy a car. That's gonna have a huge impact on the automobile. By the way, there's 1 proviso. It has to be made in America. If the car is made in another country, no, thank you. But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico, Japan, Germany, all over Europe.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "factories coming in from Canada, Mexico, Japan, Germany, all over Europe",
+    "summary": "German automotive factories expected to enter U.S. market."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about German automakers relocating to US is a repeat tariff narrative with unclear net effect on broad German equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark reiterates prior tariff/reshoring rhetoric encouraging foreign automakers, including German firms, to build US factories; not new information and net effect on EWG is ambiguous, so no strong directional call.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about German automakers relocating to US is a repeat tariff narrative with unclear net effect on broad German equity ETF.\", \"added\": false}], \"summary\": \"Remark reiterates prior tariff/reshoring rhetoric encouraging foreign automakers, including German firms, to build US factories; not new information and net effect on EWG is ambiguous, so no strong directional call.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:00365:eu",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 365.625,
+   "t_wall": 1769616116.625,
+   "t_wall_et": "2026-01-28T11:01:56.625000-05:00",
+   "segment_text": "Japan, Germany, all over Europe.",
+   "context": "So think of it. Rich people get so many deductions. I'm the king of deductions. I love deductions. But people middle income people never had a deduction before. Now they're getting a deduction on interest. They buy a car. That's gonna have a huge impact on the automobile. By the way, there's 1 proviso. It has to be made in America. If the car is made in another country, no, thank you. But they're all gonna be made in America pretty soon because we have factories coming in from Canada, Mexico, Japan, Germany, all over Europe.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Europe",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "factories coming in from Canada, Mexico, Japan, Germany, all over Europe",
+    "summary": "European automotive manufacturers expected to build factories in America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "The President reiterates that foreign automakers must build in the US or pay tariffs, implying continued pressure on European manufacturing investment and exports.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Repeated tariff rhetoric targeting European carmakers is mildly negative for eurozone equities broadly exposed to autos.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Same tariff threat dynamic weighs slightly on large-cap eurozone index including major auto exporters.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks repeat existing tariff policy pressuring European automakers to relocate production to the US, a mild negative for European equity ETFs and no new information for US-listed tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VGK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"The President reiterates that foreign automakers must build in the US or pay tariffs, implying continued pressure on European manufacturing investment and exports.\",\"added\":false},{\"ticker\":\"EZU\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Repeated tariff rhetoric targeting European carmakers is mildly negative for eurozone equities broadly exposed to autos.\",\"added\":false},{\"ticker\":\"FEZ\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Same tariff threat dynamic weighs slightly on large-cap eurozone index including major auto exporters.\",\"added\":false}],\"summary\":\"The President's remarks repeat existing tariff policy pressuring European automakers to relocate production to the US, a mild negative for European equity ETFs and no new information for US-listed tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:00953:defense_word",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 953.7283270676692,
+   "t_wall": 1769616704.728327,
+   "t_wall_et": "2026-01-28T11:11:44.728327-05:00",
+   "segment_text": "she said, we're gonna try and have the permits done within 2 years. Remember that? I got into an argue I said, you mean within 2 days. Right? She said, no. And I'm meeting all these people as I'm walking along the streets with the fire departments and the policemen,",
+   "context": "And I said to him, so what do you wanna do? They said, sir, we wanna start immediately, immediately. Well, we'll get you permits. Now the hardest permanently was the federal permit. Is that right? He got everything done in 20 days. Right? The whole thing? Is that a correct statement or less? 20 days. So you got everything done a 100% ready to go. And I went for a meeting, and this mayor, who's a grossly incompetent person, she said, we're gonna try and have the permits done within 2 years. Remember that? I got into an argue I said, you mean within 2 days. Right? She said, no. And I'm meeting all these people as I'm walking along the streets with the fire departments and the policemen,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01098:defense_word",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 1098.0411,
+   "t_wall": 1769616849.0411,
+   "t_wall_et": "2026-01-28T11:14:09.041100-05:00",
+   "segment_text": "never get approved. So do whatever you can, Lee. There's a provision that you're allowed to do it, and we will I'll sign it in 2 seconds, frankly. They'll never ever it'll never happen.",
+   "context": "so they can build a little bit bigger house. So, if you want, will you accept the job? He's he's under a lot of stress. Okay? Alright? Override those people. Those those people are incompetent. Between the mayor and the governor, they're incompetent. They'll never get they'll never get approved. They'll never get approved. So do whatever you can, Lee. There's a provision that you're allowed to do it, and we will I'll sign it in 2 seconds, frankly. They'll never ever it'll never happen. I also want to introduce a man,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01187:fed",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "kevin hassett",
+   "text_span": "Kevin Hassett",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1187.6020669491525,
+   "t_wall": 1769616938.602067,
+   "t_wall_et": "2026-01-28T11:15:38.602067-05:00",
+   "segment_text": "director of National Economic Council, a man who's in the news a lot. You know, my only problem is I don't wanna lose him. I will tell you that he's working from a big deficit because I don't wanna lose him. He's so good. Kevin Hassett.",
+   "context": "because a few people have done that. Few few billionaires have sort of left. But, Frank has gone from he's 1 of the most successful people. He was a he worked with Jamie Diamond. I don't think Jamie likes me too much nowadays, but that's okay. I I never minded that. But, Frank, you are fantastic, and you're doing a great job. We appreciate it. Thank you. And thank you to the family. The director of National Economic Council, a man who's in the news a lot. You know, my only problem is I don't wanna lose him. I will tell you that he's working from a big deficit because I don't wanna lose him. He's so good. Kevin Hassett.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Kevin Hassett",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "He's so good. Kevin Hassett.",
+    "summary": "The President praises Kevin Hassett, Director of National Economic Council, as excellent and expresses reluctance to lose him."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of Hassett is political rhetoric with no new policy signal for rates or Fed leadership.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new financial policy content beyond personnel praise, unlikely to move financials sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is unrelated to regional bank regulation or rates, no actionable content.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely ceremonial praise for cabinet officials and senators with no new policy or market-moving content; effects on TLT, XLF, and KRE are negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of Hassett is political rhetoric with no new policy signal for rates or Fed leadership.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new financial policy content beyond personnel praise, unlikely to move financials sector.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is unrelated to regional bank regulation or rates, no actionable content.\", \"added\": false}], \"summary\": \"The excerpt is largely ceremonial praise for cabinet officials and senators with no new policy or market-moving content; effects on TLT, XLF, and KRE are negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01472:tiktok",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "tiktok",
+   "entity": "TikTok",
+   "kind": "company",
+   "alias": "tiktok",
+   "text_span": "TikTok",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1472.3725,
+   "t_wall": 1769617223.3725,
+   "t_wall_et": "2026-01-28T11:20:23.372500-05:00",
+   "segment_text": "And we got the TikTok deal done.",
+   "context": "Bert Jones. Where are you, Bert? Thank you, Bert. Great guy. Chief design officer of The United States, Joe Gabbia. Joe, thank you. Great idea. Great great ideas. Also, have mister wonderful Kevin O'Leary. I like Kevin O'Leary. Where's Kevin O'Leary? Come out. Kevin is so nice. He's with me 90% of the time. But when he's with me, he's really with me. Great. And we got the TikTok deal done.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TikTok",
+    "tickers": [
+     "ORCL"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "we got the TikTok deal done",
+    "summary": "The President claims TikTok deal has been completed."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reaffirms the TikTok deal is done, which is broadly positive for Oracle as the reported US tech partner but was already largely known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's casual confirmation that the TikTok deal is complete is mildly positive for Oracle, though the news is not new and mostly rhetorical, limiting market impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reaffirms the TikTok deal is done, which is broadly positive for Oracle as the reported US tech partner but was already largely known.\", \"added\": false}], \"summary\": \"The President's casual confirmation that the TikTok deal is complete is mildly positive for Oracle, though the news is not new and mostly rhetorical, limiting market impact.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01564:dell",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "dell",
+   "entity": "Dell",
+   "kind": "company",
+   "alias": "michael dell",
+   "text_span": "Michael Dell",
+   "dict_tickers": [
+    "DELL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1564.8818615384616,
+   "t_wall": 1769617315.8818614,
+   "t_wall_et": "2026-01-28T11:21:55.881861-05:00",
+   "segment_text": "Not as much as Michael Dell. Not quite.",
+   "context": "We're also pleased my daughter, she went crazy when she heard that this was I wanna go. You know, she happens to be in the wrong state right now for that, but when she heard that there's a certain person that's here who's the greatest and most successful female rapper in history, Nikki Minaj. Come on. And, you know, and Nikki makes a lot of cash. Not as much as Michael Dell. Not quite.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Dell",
+    "tickers": [
+     "DELL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Not as much as Michael Dell. Not quite.",
+    "summary": "The President mentions Michael Dell in a casual comparison of wealth."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DELL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Casual wealth comparison mentioning Michael Dell has no policy or business implication for DELL stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a casual anecdote about Michael Dell's wealth with no material business or policy content, so no meaningful price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DELL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Casual wealth comparison mentioning Michael Dell has no policy or business implication for DELL stock.\", \"added\": false}], \"summary\": \"The remark is a casual anecdote about Michael Dell's wealth with no material business or policy content, so no meaningful price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01937:uber",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1937.8809260869566,
+   "t_wall": 1769617688.8809261,
+   "t_wall_et": "2026-01-28T11:28:08.880926-05:00",
+   "segment_text": "including Uber, Schwab,",
+   "context": "across the country. He's gonna make a massive donation already. We know what it is. Brad is not only 1 of the most successful business people, he's the founder of the Invest America Foundation, and he's been working on this idea for years. And he was the 1 who went over to see Michael. Michael loved it, And those 2 were a hell of a team along with missus Dell, who's been so great, Susan. I also delighted to report that dozens of major employers have signed up to add the the new savings accounts contributions to the employee benefit packages, including Uber, Schwab,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Uber",
+    "tickers": [
+     "UBER"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "dozens of major employers have signed up including Uber",
+    "summary": "Uber signed up to add the new savings accounts contributions to employee benefits."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UBER",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Signing up for a the President-account employee benefit program is a minor CSR-type commitment with negligible direct financial impact on Uber's stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised Uber for joining the the new savings accounts program, but this is a minor, non-material announcement unlikely to move UBER shares relative to the market.",
+    "raw": "{\"tickers\":[{\"ticker\":\"UBER\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Signing up for a the President-account employee benefit program is a minor CSR-type commitment with negligible direct financial impact on Uber's stock.\",\"added\":false}],\"summary\":\"The President praised Uber for joining the the new savings accounts program, but this is a minor, non-material announcement unlikely to move UBER shares relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01945:intc",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "intc",
+   "entity": "Intel",
+   "kind": "company",
+   "alias": "intel",
+   "text_span": "Intel",
+   "dict_tickers": [
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1945.3278655555555,
+   "t_wall": 1769617696.3278656,
+   "t_wall_et": "2026-01-28T11:28:16.327866-05:00",
+   "segment_text": "and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM,",
+   "context": "and he's been working on this idea for years. And he was the 1 who went over to see Michael. Michael loved it, And those 2 were a hell of a team along with missus Dell, who's been so great, Susan. I also delighted to report that dozens of major employers have signed up to add the the new savings accounts contributions to the employee benefit packages, including Uber, Schwab, Charter Communications, and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Intel",
+    "tickers": [
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Intel, Nvidia, Broadcom, IBM signed up today",
+    "summary": "Intel announced as major employer signing up for the new savings accounts contributions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Signing up for the new savings accounts employee contributions is a minor PR/benefits commitment unlikely to materially affect Intel earnings or valuation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark highlights Intel joining a corporate benefits program tied to the new savings accounts, a modest and largely symbolic commitment with negligible direct financial impact on Intel's stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Signing up for the new savings accounts employee contributions is a minor PR/benefits commitment unlikely to materially affect Intel earnings or valuation.\", \"added\": false}], \"summary\": \"The remark highlights Intel joining a corporate benefits program tied to the new savings accounts, a modest and largely symbolic commitment with negligible direct financial impact on Intel's stock.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01945:nvda",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1945.8726911111112,
+   "t_wall": 1769617696.8726912,
+   "t_wall_et": "2026-01-28T11:28:16.872691-05:00",
+   "segment_text": "and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM,",
+   "context": "and he's been working on this idea for years. And he was the 1 who went over to see Michael. Michael loved it, And those 2 were a hell of a team along with missus Dell, who's been so great, Susan. I also delighted to report that dozens of major employers have signed up to add the the new savings accounts contributions to the employee benefit packages, including Uber, Schwab, Charter Communications, and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Intel, Nvidia, Broadcom, IBM signed up today",
+    "summary": "Nvidia announced as major employer signing up for the new savings accounts contributions."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Signing up for employee the new savings accounts contributions is a minor CSR-type commitment unlikely to materially affect NVDA financials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Nvidia joining the new savings accounts contributions is a minor, non-financially material announcement with negligible expected stock price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Signing up for employee the new savings accounts contributions is a minor CSR-type commitment unlikely to materially affect NVDA financials.\", \"added\": false}], \"summary\": \"The President's mention of Nvidia joining the new savings accounts contributions is a minor, non-financially material announcement with negligible expected stock price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01946:avgo",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "avgo",
+   "entity": "Broadcom",
+   "kind": "company",
+   "alias": "broadcom",
+   "text_span": "Broadcom",
+   "dict_tickers": [
+    "AVGO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1946.4953488888889,
+   "t_wall": 1769617697.495349,
+   "t_wall_et": "2026-01-28T11:28:17.495349-05:00",
+   "segment_text": "and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM,",
+   "context": "and he's been working on this idea for years. And he was the 1 who went over to see Michael. Michael loved it, And those 2 were a hell of a team along with missus Dell, who's been so great, Susan. I also delighted to report that dozens of major employers have signed up to add the the new savings accounts contributions to the employee benefit packages, including Uber, Schwab, Charter Communications, and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Broadcom",
+    "tickers": [
+     "AVGO"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Intel, Nvidia, Broadcom, IBM signed up today",
+    "summary": "Broadcom announced as major employer signing up for the new savings accounts contributions."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AVGO",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Signing up for employee the new savings accounts contributions is a minor CSR/benefits announcement unlikely to materially affect Broadcom's earnings or valuation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Broadcom's participation in the the new savings accounts program is a small, non-core corporate action with negligible financial impact, so no meaningful stock reaction is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AVGO\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Signing up for employee the new savings accounts contributions is a minor CSR/benefits announcement unlikely to materially affect Broadcom's earnings or valuation.\", \"added\": false}], \"summary\": \"Broadcom's participation in the the new savings accounts program is a small, non-core corporate action with negligible financial impact, so no meaningful stock reaction is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01948:coin",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "coin",
+   "entity": "Coinbase",
+   "kind": "company",
+   "alias": "coinbase",
+   "text_span": "Coinbase",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 1948.8679769230769,
+   "t_wall": 1769617699.867977,
+   "t_wall_et": "2026-01-28T11:28:19.867977-05:00",
+   "segment_text": "Stake and Shake, Coinbase,",
+   "context": "and he's been working on this idea for years. And he was the 1 who went over to see Michael. Michael loved it, And those 2 were a hell of a team along with missus Dell, who's been so great, Susan. I also delighted to report that dozens of major employers have signed up to add the the new savings accounts contributions to the employee benefit packages, including Uber, Schwab, Charter Communications, and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM, Stake and Shake, Coinbase,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coinbase",
+    "tickers": [
+     "COIN"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "Coinbase, and just today, it was announced",
+    "summary": "The President listed Coinbase among major employers signing up for the new savings accounts employee benefit packages."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Coinbase named as new participant in the new savings accounts employer contribution program, a mildly positive PR/benefit signal but immaterial financially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark names Coinbase among companies newly signing up for the new savings accounts contributions, a small positive PR development with limited direct financial impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Coinbase named as new participant in the new savings accounts employer contribution program, a mildly positive PR/benefit signal but immaterial financially.\", \"added\": false}], \"summary\": \"The President's remark names Coinbase among companies newly signing up for the new savings accounts contributions, a small positive PR development with limited direct financial impact.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:01951:cmcsa",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "cmcsa",
+   "entity": "Comcast (NBC, MSNBC)",
+   "kind": "company",
+   "alias": "comcast",
+   "text_span": "Comcast",
+   "dict_tickers": [
+    "CMCSA"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 1951.4943333333333,
+   "t_wall": 1769617702.4943333,
+   "t_wall_et": "2026-01-28T11:28:22.494333-05:00",
+   "segment_text": "and Comcast have all signed up for really big contributions.",
+   "context": "missus Dell, who's been so great, Susan. I also delighted to report that dozens of major employers have signed up to add the the new savings accounts contributions to the employee benefit packages, including Uber, Schwab, Charter Communications, and many, many others. And just today, it was announced that Intel, Nvidia, Broadcom, IBM, Stake and Shake, Coinbase, Continental Resources, and Comcast have all signed up for really big contributions.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Comcast",
+    "tickers": [
+     "CMCSA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Comcast have all signed up for really big contributions.",
+    "summary": "Comcast signed up for major the new savings accounts contributions to employee benefits."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CMCSA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Comcast agreeing to contribute to employee the new savings accounts is a minor CSR-type commitment with negligible direct financial impact on the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is mostly promotional about the new savings accounts and corporate participation; Comcast's mention is a minor goodwill commitment unlikely to materially move its stock relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CMCSA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Comcast agreeing to contribute to employee the new savings accounts is a minor CSR-type commitment with negligible direct financial impact on the company.\", \"added\": false}], \"summary\": \"The remark is mostly promotional about the new savings accounts and corporate participation; Comcast's mention is a minor goodwill commitment unlikely to materially move its stock relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:02046:msft",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "msft",
+   "entity": "Microsoft",
+   "kind": "company",
+   "alias": "microsoft",
+   "text_span": "Microsoft",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 2046.0587275362318,
+   "t_wall": 1769617797.0587275,
+   "t_wall_et": "2026-01-28T11:29:57.058728-05:00",
+   "segment_text": "Nvidia and Microsoft, all the greatest com companies in this country.",
+   "context": "that this wasn't about the wealthy folks in America. This was about the 50,000,000 American families who will be lifted up and reconnected to the American dream because this is now the law of the land for every more forevermore, every child in America from rural Missouri to rural Indiana, from Trenton to Compton is gonna start off life with an investment account at birth, seeded with 1000 dollars where they privately own. Nvidia and Microsoft, all the greatest com companies in this country.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Microsoft",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "they privately own Nvidia and Microsoft, all the greatest companies",
+    "summary": "Microsoft named among greatest companies in investment account proposal for American children."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentioned only as an example of a great company in the new savings accounts investment vehicle, not a material policy or business action affecting Microsoft.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general rhetoric about the new savings accounts and citizen capitalism, mentioning Microsoft merely illustratively with no new policy or financial impact for the company.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MSFT\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mentioned only as an example of a great company in the new savings accounts investment vehicle, not a material policy or business action affecting Microsoft.\",\"added\":false}],\"summary\":\"The remark is general rhetoric about the new savings accounts and citizen capitalism, mentioning Microsoft merely illustratively with no new policy or financial impact for the company.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:02193:tether",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "tether",
+   "entity": "Tether",
+   "kind": "company",
+   "alias": "tether",
+   "text_span": "Tether",
+   "dict_tickers": [
+    "CRCL",
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2193.3487056603776,
+   "t_wall": 1769617944.3487058,
+   "t_wall_et": "2026-01-28T11:32:24.348706-05:00",
+   "segment_text": "I wanna give a very special thanks to some of the CEOs here this morning. Vlad Tether of Robinhood, what a job he's done. Where's Vlad? What a job you've done.",
+   "context": "creates a incredible platform for that to occur at enormous scale, and we're excited to see it all come together. Thank you all so much. Fantastic job. Thank you. Those are 2 fantastic people. I can tell you that. I wanna give a very special thanks to some of the CEOs here this morning. Vlad Tether of Robinhood, what a job he's done. Where's Vlad? What a job you've done.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "ebH-gklOcl8:02193:hood",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "hood",
+   "entity": "Robinhood",
+   "kind": "company",
+   "alias": "robinhood",
+   "text_span": "Robinhood",
+   "dict_tickers": [
+    "HOOD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2193.97259245283,
+   "t_wall": 1769617944.9725924,
+   "t_wall_et": "2026-01-28T11:32:24.972592-05:00",
+   "segment_text": "I wanna give a very special thanks to some of the CEOs here this morning. Vlad Tether of Robinhood, what a job he's done. Where's Vlad? What a job you've done.",
+   "context": "creates a incredible platform for that to occur at enormous scale, and we're excited to see it all come together. Thank you all so much. Fantastic job. Thank you. Those are 2 fantastic people. I can tell you that. I wanna give a very special thanks to some of the CEOs here this morning. Vlad Tether of Robinhood, what a job he's done. Where's Vlad? What a job you've done.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Robinhood",
+    "tickers": [
+     "HOOD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "Vlad of Robinhood, what a job he's done.",
+    "summary": "The President praises Robinhood CEO Vlad Tenev for excellent performance."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HOOD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President's public praise of Robinhood's CEO is mildly positive sentiment but not new policy or business news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general praise for Robinhood's CEO amid a the new savings accounts event, offering only a mild sentiment boost with no new material information for the stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HOOD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President's public praise of Robinhood's CEO is mildly positive sentiment but not new policy or business news.\", \"added\": false}], \"summary\": \"The President's remarks are general praise for Robinhood's CEO amid a the new savings accounts event, offering only a mild sentiment boost with no new material information for the stock.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:02204:kraken",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "arjun sethi",
+   "text_span": "Arjun Sethi",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2204.275,
+   "t_wall": 1769617955.275,
+   "t_wall_et": "2026-01-28T11:32:35.275000-05:00",
+   "segment_text": "Arjun Sethi of Kraken.",
+   "context": "Fantastic job. Thank you. Those are 2 fantastic people. I can tell you that. I wanna give a very special thanks to some of the CEOs here this morning. Vlad Tether of Robinhood, what a job he's done. Where's Vlad? What a job you've done. Young guy. Nice young guy too. Arjun Sethi of Kraken.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Arjun Sethi / Kraken",
+    "tickers": [
+     "COIN"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "Arjun Sethi of Kraken. What a job you've done.",
+    "summary": "The President praised Arjun Sethi, CEO of crypto exchange Kraken, as part of thanking CEOs present."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COIN",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for Kraken (private, not COIN) and general crypto-friendly tone offers only mild indirect sentiment boost to Coinbase.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised private competitor Kraken's CEO within a broader pro-crypto/fintech event, a mildly positive sector signal but not directly about Coinbase, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COIN\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for Kraken (private, not COIN) and general crypto-friendly tone offers only mild indirect sentiment boost to Coinbase.\", \"added\": false}], \"summary\": \"The President praised private competitor Kraken's CEO within a broader pro-crypto/fintech event, a mildly positive sector signal but not directly about Coinbase, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:02277:v_word",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "v_word",
+   "entity": "Visa",
+   "kind": "company",
+   "alias": "visa",
+   "text_span": "Visa",
+   "dict_tickers": [
+    "V"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2277.4906666666666,
+   "t_wall": 1769618028.4906666,
+   "t_wall_et": "2026-01-28T11:33:48.490667-05:00",
+   "segment_text": "accounts. That's a big deal. Visa. Thank you.",
+   "context": "calling on all employers all across America to follow the lead of many of these amazing companies and make matching the new savings accounts contributions to benefit for the American worker, and they're gonna benefit the American worker so much. This morning, I'm also pleased to announce that Visa is creating a brand new platform which will allow credit card holders to deposit their cash back rewards directly into the new savings accounts. That's a big deal. Visa. Thank you.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Visa",
+    "tickers": [
+     "V"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "Visa is creating a brand new platform for cash back rewards into the new savings accounts",
+    "summary": "Visa launching new platform integrating cash back rewards with the new savings accounts."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "V",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Visa announced a new platform integrating cash back rewards with the new savings accounts, a modest positive product news item.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted a new Visa platform tying cash back rewards to the new savings accounts, a mildly positive, novel product announcement for Visa with limited financial materiality.",
+    "raw": "{\"tickers\": [{\"ticker\": \"V\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Visa announced a new platform integrating cash back rewards with the new savings accounts, a modest positive product news item.\", \"added\": false}], \"summary\": \"The President highlighted a new Visa platform tying cash back rewards to the new savings accounts, a mildly positive, novel product announcement for Visa with limited financial materiality.\"}"
+   }
+  },
+  {
+   "signal_id": "ebH-gklOcl8:02325:stock_market",
+   "video_id": "ebH-gklOcl8",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "s and p",
+   "text_span": "S and P",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2325.029175257732,
+   "t_wall": 1769618076.0291753,
+   "t_wall_et": "2026-01-28T11:34:36.029175-05:00",
+   "segment_text": "And just this morning, as I'm running out, I see the S and P 500 hit 7,000 for the 1st time ever,",
+   "context": "We were a country that was left at a year and 0.5 ago. We were left at. Now we're the hottest country anywhere in the world. Nobody even close. So, you know, who knew this was gonna take place this quickly? Right, Michael? I didn't think it was gonna go that fast. I knew we were gonna do it, but I thought it would take a couple of years at least. We just couple of days longer than the 1st year, so it's really amazing. And just this morning, as I'm running out, I see the S and P 500 hit 7,000 for the 1st time ever,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "S&P 500",
+    "tickers": [
+     "SPY"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "S and P 500 hit 7,000 for the 1st time ever",
+    "summary": "The President notes S&P 500 reached 7,000 milestone under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General market cheerleading about already-known S&P milestone, not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific news, just broad market praise already reflected in prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic positive rhetoric about stock market highs with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "V",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Visa singled out for a new cashback-to-the President-account platform, a mild positive publicity and business initiative.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "Remark is mostly self-congratulatory rhetoric about market highs with no new tradable policy for broad indices; Visa gets a minor positive mention for a new product initiative.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General market cheerleading about already-known S&P milestone, not new information.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No tech-specific news, just broad market praise already reflected in prices.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Generic positive rhetoric about stock market highs with no new policy content.\",\"added\":false},{\"ticker\":\"V\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Visa singled out for a new cashback-to-the President-account platform, a mild positive publicity and business initiative.\",\"added\":true}],\"summary\":\"Remark is mostly self-congratulatory rhetoric about market highs with no new tradable policy for broad indices; Visa gets a minor positive mention for a new product initiative.\"}"
+   }
+  }
+ ]
+}

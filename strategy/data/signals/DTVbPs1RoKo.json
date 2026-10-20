@@ -1,0 +1,409 @@
+{
+ "video": {
+  "id": "DTVbPs1RoKo",
+  "url": "https://www.youtube.com/watch?v=DTVbPs1RoKo",
+  "title": "The President Signs an Executive Order, Dec. 18, 2025",
+  "channel": "The White House",
+  "duration": 2167.0,
+  "was_live": true,
+  "release_timestamp": 1766083361.0,
+  "upload_timestamp": 1766085747.0,
+  "upload_date": "20251218",
+  "label": "Signs an Executive Order, Dec. 18, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1766083361.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 8,
+  "confirmed": 3,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 9
+ },
+ "signals": [
+  {
+   "signal_id": "DTVbPs1RoKo:00131:health_ins",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 131.481,
+   "t_wall": 1766083492.481,
+   "t_wall_et": "2025-12-18T13:44:52.481000-05:00",
+   "segment_text": "centers for Medicare",
+   "context": "so literally, I mean, just I can't tell you. I think I probably have received more phone calls on this on doing what we're doing. I don't think I received any calls on the other side of it. But hopefully, this reclassification, which, by the way, polls at 82, will help many of those patients live a far better life. We're joined today by secretary Robert f Kennedy junior, who's doing a fantastic job, administrator of centers for Medicare",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "reclassification, which polls at 82, will help many patients",
+    "summary": "The President endorses a Medicare reclassification policy expected to benefit patients."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Cannabis rescheduling has no direct bearing on health insurer economics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No material link between drug scheduling change and insurer margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Reclassification of a controlled substance is not an insurer-specific catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct financial impact on Medicare Advantage insurer from this executive order.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark concerns marijuana rescheduling for patient pain relief, not Medicare policy affecting insurers, so no material price impact expected for UNH, CI, ELV, or HUM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Cannabis rescheduling has no direct bearing on health insurer economics.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No material link between drug scheduling change and insurer margins.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Reclassification of a controlled substance is not an insurer-specific catalyst.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No direct financial impact on Medicare Advantage insurer from this executive order.\", \"added\": false}], \"summary\": \"The remark concerns marijuana rescheduling for patient pain relief, not Medicare policy affecting insurers, so no material price impact expected for UNH, CI, ELV, or HUM.\"}"
+   }
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:00440:pharma",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 440.47879145214523,
+   "t_wall": 1766083801.4787915,
+   "t_wall_et": "2025-12-18T13:50:01.478791-05:00",
+   "segment_text": "population that's like that's desirous of trying new ways besides some of the conventional approaches that have been tested by pharmaceutical companies but have untoward side effects. At the beginning of the year, 1 of the 1st things the president told me he doesn't actually tell you, demanded from me,",
+   "context": "from some of the solutions we're talking about today. Howard Kessler, who's standing behind me here, was a mutual friend of ours, was an early caller of the president, many others have have ever reached out as well. And Howard's been a passionate advocate for avoiding narcotics, especially in seniors, and particularly seniors suffering from cancer. And that's a population that is a very important 1, and it's a sympathetic population that's like that's desirous of trying new ways besides some of the conventional approaches that have been tested by pharmaceutical companies but have untoward side effects. At the beginning of the year, 1 of the 1st things the president told me he doesn't actually tell you, demanded from me,",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:00656:kraken",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 656.5100321428572,
+   "t_wall": 1766084017.5100322,
+   "t_wall_et": "2025-12-18T13:53:37.510032-05:00",
+   "segment_text": "initiatives to study the data that we're collecting. Howard Kraken, God bless you for being a pain in our sides.",
+   "context": "and it delivers on the need for more data collection and research into hemp usage. CMS is gonna collect data, that's our job, on the patients that are being given these products by their physicians. And in accordance with all the privacy and security regulations, we're gonna analyze that data, gonna make it publicly available to everybody to be able to analyze with us. If it shows promise, we will expand access to these products to even more conditions amongst Medicare and Medicaid beneficiaries. I wanna thank not just the secretary, but Marty Makary. We want a lot of companies who are doing this research that approach the FDA for formal approval. That is the right way to move forward. And Jay Bhattacharya, who's hiding in the back, he rarely hides. But Jay runs NIH, and he's agreed to support initiatives to study the data that we're collecting. Howard Kraken, God bless you for being a pain in our sides. Mister president, he's promised to stop calling you.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:01336:health_ins",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "obamacare",
+   "text_span": "Obamacare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "subsidies"
+   ],
+   "t_audio": 1336.7522794520548,
+   "t_wall": 1766084697.7522795,
+   "t_wall_et": "2025-12-18T14:04:57.752280-05:00",
+   "segment_text": "Mister president Yes. A health related question on on your health care plan. You've said you wanna make direct payments to Americans, but these Obamacare subsidies are expiring now in a matter of just a few days. More than 20,000,000 Americans are now bracing for their premiums to skyrocket.",
+   "context": "Thank you. Thank you very much, everybody. Any questions, please? Mister president Yes. A health related question on on your health care plan. You've said you wanna make direct payments to Americans, but these Obamacare subsidies are expiring now in a matter of just a few days. More than 20,000,000 Americans are now bracing for their premiums to skyrocket.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:01466:health_ins",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "insurance companies",
+   "text_span": "insurance companies",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1466.11,
+   "t_wall": 1766084827.11,
+   "t_wall_et": "2025-12-18T14:07:07.110000-05:00",
+   "segment_text": "insurance companies",
+   "context": "So it's a good deal even if you don't get the extra 20%. It's a great it's a great solution to much better health care at a much lower cost. Yeah. Please. But do you want congress to extend these ACA subsidies Well, I'd like not to be able to do it. I'd like to get right into this and ask us this question in particular, but I'd like to see us get right into this. I don't know why we have to extend. This could be done rapidly if the Democrats would come along. We have a problem. The insurance companies",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Health insurers",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "We have a problem. The insurance companies",
+    "summary": "The President identifies insurance companies as a problem in ACA subsidy discussion."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President criticizes insurers as profiting excessively and blocking ACA subsidy deal, mild negative sentiment overhang.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar rhetorical attack on insurers as beneficiaries of ACA subsidies creates mild negative sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Grouped with insurers criticized for controlling Democrats and profiting from ACA subsidies.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Health insurer sector broadly targeted by critical rhetoric, though no new policy announced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated criticism of insurance companies as profiteering and politically entrenched is mildly negative sentiment for major health insurers, but no new policy or numbers were announced, limiting magnitude and confidence.",
+    "raw": "{\"tickers\":[{\"ticker\":\"UNH\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President criticizes insurers as profiting excessively and blocking ACA subsidy deal, mild negative sentiment overhang.\",\"added\":false},{\"ticker\":\"CI\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Similar rhetorical attack on insurers as beneficiaries of ACA subsidies creates mild negative sentiment.\",\"added\":false},{\"ticker\":\"ELV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Grouped with insurers criticized for controlling Democrats and profiting from ACA subsidies.\",\"added\":false},{\"ticker\":\"HUM\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Health insurer sector broadly targeted by critical rhetoric, though no new policy announced.\",\"added\":false}],\"summary\":\"The President's repeated criticism of insurance companies as profiteering and politically entrenched is mildly negative sentiment for major health insurers, but no new policy or numbers were announced, limiting magnitude and confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:01510:fed",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "federal reserve",
+   "text_span": "Federal Reserve",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1510.0508402985074,
+   "t_wall": 1766084871.0508404,
+   "t_wall_et": "2025-12-18T14:07:51.050840-05:00",
+   "segment_text": "based on the data we just received from the federal marketplace. This can go very quickly, actually. Yes, please. Mister president, can I ask you clarify something for me on on the Federal Reserve? How many people are you interviewing for the Fed chairman? And what did you think of Chris Waller? The I think he's great. I mean, he's a",
+   "context": "you know, insurance companies? They're making a fortune. I want the money to go to the people. Go ahead, us. How would you say that? I I agree with the president. We we have some ideas out there. Congress is working through some concepts. I just wanna emphasize that the ACA's are not imploding based on the data we just received from the federal marketplace. This can go very quickly, actually. Yes, please. Mister president, can I ask you clarify something for me on on the Federal Reserve? How many people are you interviewing for the Fed chairman? And what did you think of Chris Waller? The I think he's great. I mean, he's a",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:01863:venezuela",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1863.6267977142857,
+   "t_wall": 1766085224.6267977,
+   "t_wall_et": "2025-12-18T14:13:44.626798-05:00",
+   "segment_text": "For any what? For any land attacks on drug cartels in Venezuela. I wouldn't mind telling them, but, you know, it's not a big deal. I don't have to tell them. It's been proven.",
+   "context": "And we're also to get get Congress to put up a lot of money and other people to put up a lot of money. We had a lot of donors come in for record setting numbers. So we we saved the Kennedy Center, and I was really this was brought up by 1 of the very distinguished board members, and they voted on it. And there's a lot of board members, and they voted unanimously. So I was very honored, but thank you. Mister president, will you be seeking any authorization from congress for any land attacks on cartels in Venezuela? For any what? For any land attacks on drug cartels in Venezuela. I wouldn't mind telling them, but, you know, it's not a big deal. I don't have to tell them. It's been proven.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "land attacks on drug cartels in Venezuela",
+    "summary": "The President hints at potential military operations against cartels in Venezuela without congressional authorization."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Potential military action in Venezuela raises geopolitical risk to oil supply, mildly supportive of energy prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Escalation risk near Venezuela could tighten oil supply expectations, slightly benefiting major oil producers like Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on potential land attacks against cartels in Venezuela raise geopolitical risk that could modestly support oil prices and energy stocks, while the rest of the excerpt (Kennedy Center, Ukraine) is not price-relevant for these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Potential military action in Venezuela raises geopolitical risk to oil supply, mildly supportive of energy prices.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Escalation risk near Venezuela could tighten oil supply expectations, slightly benefiting major oil producers like Chevron.\", \"added\": false}], \"summary\": \"The President's comments on potential land attacks against cartels in Venezuela raise geopolitical risk that could modestly support oil prices and energy stocks, while the rest of the excerpt (Kennedy Center, Ukraine) is not price-relevant for these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "DTVbPs1RoKo:01933:defense_word",
+   "video_id": "DTVbPs1RoKo",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 1933.42,
+   "t_wall": 1766085294.42,
+   "t_wall_et": "2025-12-18T14:14:54.420000-05:00",
+   "segment_text": "2. And, you know, you've heard me say I I settled",
+   "context": "soldiers were killed last month. Think of that. What do you think of that, doctor? It's 27000. It's like 0.5 a football stadium were killed in 1 month, and it's it's that way. It's anywhere between 20 and 30000, mostly soldiers. Also, some people from Kiev and other people places. But largely, it's the soldiers. They're losing their lives. Nobody's ever said anything like it. It's the worst since World War 2. And, you know, you've heard me say I I settled",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

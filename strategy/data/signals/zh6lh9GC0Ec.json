@@ -1,0 +1,1546 @@
+{
+ "video": {
+  "id": "zh6lh9GC0Ec",
+  "url": "https://www.youtube.com/watch?v=zh6lh9GC0Ec",
+  "title": "The President announces plans to address violent crime and homelessness in Washington, D.C. — 8/11/25",
+  "channel": "CNBC Television",
+  "duration": 4810.0,
+  "was_live": true,
+  "release_timestamp": 1754923017.0,
+  "upload_timestamp": 1754928098.0,
+  "upload_date": "20250811",
+  "label": "Press conference on DC crime, Nvidia chips Q&A (CNBC), 2025-08-11",
+  "group": "headline",
+  "notes": "",
+  "t0": 1754923017.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 27,
+  "confirmed": 19,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 32
+ },
+ "signals": [
+  {
+   "signal_id": "zh6lh9GC0Ec:00245:colombia",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "colombia",
+   "entity": "Colombia",
+   "kind": "country",
+   "alias": "colombia",
+   "text_span": "Colombia",
+   "dict_tickers": [
+    "GXG"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 245.44300775000002,
+   "t_wall": 1754923262.4430077,
+   "t_wall_et": "2025-08-11T10:41:02.443008-04:00",
+   "segment_text": "is higher than that of Bogota, Colombia,",
+   "context": "you don't wanna get mugged and raped and shot and killed. And you all know people and friends of yours that that happened. And so you can be any anything you want, but you wanna have safety in the streets. You wanna be able to leave your apartment or your house where you live and feel safe and go into a store to buy a newspaper or buy something. And you don't have that now. The murder rate in Washington today is higher than that of Bogota, Colombia, Mexico City, some of the places that you hear about as",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Colombia",
+    "tickers": [
+     "GXG"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "murder rate in Washington today is higher than that of Bogota, Colombia",
+    "summary": "The President compares Washington murder rate unfavorably to Bogota, Colombia."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GXG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Colombia mentioned only as a crime-rate comparison with no policy implication for Colombian markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is domestic crime/DC-policy rhetoric; the Colombia mention is incidental and carries no material implication for GXG.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GXG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Colombia mentioned only as a crime-rate comparison with no policy implication for Colombian markets.\", \"added\": false}], \"summary\": \"The remark is domestic crime/DC-policy rhetoric; the Colombia mention is incidental and carries no material implication for GXG.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:00246:mexico",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 246.89001,
+   "t_wall": 1754923263.89001,
+   "t_wall_et": "2025-08-11T10:41:03.890010-04:00",
+   "segment_text": "Mexico City, some of the places that you hear about as",
+   "context": "you don't wanna get mugged and raped and shot and killed. And you all know people and friends of yours that that happened. And so you can be any anything you want, but you wanna have safety in the streets. You wanna be able to leave your apartment or your house where you live and feel safe and go into a store to buy a newspaper or buy something. And you don't have that now. The murder rate in Washington today is higher than that of Bogota, Colombia, Mexico City, some of the places that you hear about as",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "murder rate in Washington today is higher than that of Bogota, Colombia, Mexico City",
+    "summary": "The President compares Washington D.C. murder rate unfavorably to Mexico City."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mexico City mentioned only as a crime comparison, not a policy action affecting Mexican markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is domestic D.C. crime/security rhetoric with a passing comparison to Mexico City; no substantive policy toward Mexico is announced, so no meaningful price impact on EWW.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mexico City mentioned only as a crime comparison, not a policy action affecting Mexican markets.\", \"added\": false}], \"summary\": \"The remark is domestic D.C. crime/security rhetoric with a passing comparison to Mexico City; no substantive policy toward Mexico is announced, so no meaningful price impact on EWW.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:01813:intc",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "intc",
+   "entity": "Intel",
+   "kind": "company",
+   "alias": "intel",
+   "text_span": "intel",
+   "dict_tickers": [
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1813.9616611510792,
+   "t_wall": 1754924830.961661,
+   "t_wall_et": "2025-08-11T11:07:10.961661-04:00",
+   "segment_text": "When you let good cops be cops, when you give them the intel they need, when you work with our homeland security task force, when you work with Terry and Gaddy and I go way back to Miami, these guys are great leaders of the respective departments and law enforcement capacities.",
+   "context": "And how do we do it? And what are we gonna bring to DC? What we did in Northern Virginia, thanks to Terry Cole and governor Youngkin and the team, we stood up a task force out in my Northern Virginia field office, and we said, let's let good cops be cops. Let's get them the intelligence and what they need, and let's get the red tape out of their way, and let's get DOJ partnered up with us to bring great prosecutions. And that's exactly what we did. In 1 month, we arrested 545 violent felons. 545 in the state of Virginia, thanks to governor Youngkin's partnership. And that simplicity in law enforcement is what's coming to Washington DC. When you let good cops be cops, when you give them the intel they need, when you work with our homeland security task force, when you work with Terry and Gaddy and I go way back to Miami, these guys are great leaders of the respective departments and law enforcement capacities.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:02264:lng",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "lng",
+   "entity": "Cheniere",
+   "kind": "company",
+   "alias": "cheniere",
+   "text_span": "Cheniere",
+   "dict_tickers": [
+    "LNG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2264.406943103448,
+   "t_wall": 1754925281.406943,
+   "t_wall_et": "2025-08-11T11:14:41.406943-04:00",
+   "segment_text": "Thank you, Cheniere. You're welcome. Great job. Thank you.",
+   "context": "is through the state attorney general, Schwab. I did a poster of the young man from Doge who was beaten bloody with a severe concussion, a broken nose. And then I did a poster of what happens to those kids because I can't arrest them. I can't prosecute them. They go to family court, and they get to do yoga and arts and crafts. Enough. It changes today. Thank you, mister president. Thank you, Cheniere. You're welcome. Great job. Thank you.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Cheniere",
+    "tickers": [
+     "LNG"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Thank you, Cheniere. You're welcome. Great job.",
+    "summary": "The President praised Cheniere after remarks on criminal justice policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LNG",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "A brief thank-you/praise with no new policy or deal detail for Cheniere is unlikely to move the stock materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt centers on DC crime/policing executive actions; the passing 'thank you, Cheniere' is generic praise without new business-relevant information, so limited expected price impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"LNG\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"A brief thank-you/praise with no new policy or deal detail for Cheniere is unlikely to move the stock materially.\",\"added\":false}],\"summary\":\"The excerpt centers on DC crime/policing executive actions; the passing 'thank you, Cheniere' is generic praise without new business-relevant information, so limited expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:02284:defense_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2284.439022346369,
+   "t_wall": 1754925301.4390223,
+   "t_wall_et": "2025-08-11T11:15:01.439022-04:00",
+   "segment_text": "A short while ago in the Oval Office, the President signed 2 crucial executive actions to deal with the emergency crime conditions we currently face in the District Of Columbia.",
+   "context": "today. Thank you, mister president. Thank you, Cheniere. You're welcome. Great job. Thank you. If I could, I just signed some executive orders. I'd like to have Will please come up and we'll let the people know what we signed. Do you wanna put him down? Yes, sir. Go ahead. A short while ago in the Oval Office, the President signed 2 crucial executive actions to deal with the emergency crime conditions we currently face in the District Of Columbia.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:02639:defense_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fire"
+   ],
+   "t_audio": 2639.0065,
+   "t_wall": 1754925656.0065,
+   "t_wall_et": "2025-08-11T11:20:56.006500-04:00",
+   "segment_text": "you're gonna be that guy I hope I don't have to fire him in 2 weeks because he's too soft.",
+   "context": "clean up the trash and the graffiti and the grime and the dirt and the broken marble panels and all of the things they've done to hurt this city. And we're gonna restore the city back to the gleaming capital that everybody wants it to be. It's gonna be something very special. All of these people are really could I shake your hand, Geddy, please? You're gonna be so important here. You're gonna be you're gonna be that guy I hope I don't have to fire him in 2 weeks because he's too soft. I don't think he's too soft. If I do, I will, though. Is it okay if you do if you're soft, weak,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:02746:defense_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investment",
+    "percent"
+   ],
+   "t_audio": 2746.1770569444443,
+   "t_wall": 1754925763.177057,
+   "t_wall_et": "2025-08-11T11:22:43.177057-04:00",
+   "segment_text": "a month and 0.5 ago, I was at NATO. We had a great thing. They agreed to put up 5% instead of 2%. 2%, they didn't pay. 5 percent's already paid.",
+   "context": "and seeing, like, the pride of what DC is. Do you believe that the status of the city, the cleanliness, the the way that crime is low is a direct reflection on how the country is run at a Yeah. I do. I think, the capital look. Everyone comes here. They're all they're all coming. All the leaders, they're all wanting to come. And I say it. I've said it again, but I'm really just quoting other leaders from NATO, from The Middle East, king of Saudi Arabia, Qatar, UAE. I was over there. We brought back $5,100,000,000,000 of investment into our country, but I was a month and 0.5 ago, I was at NATO. We had a great thing. They agreed to put up 5% instead of 2%. 2%, they didn't pay. 5 percent's already paid.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "NATO defense spending commitment",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "They agreed to put up 5% instead of 2%",
+    "summary": "NATO members agreed to increase defense spending from 2% to 5% of GDP."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated NATO 5% defense spending pledge is bullish for defense contractors but already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same NATO spending narrative supports aerospace/defense sector ETF modestly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General defense spending rhetoric, no company-specific news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new specific information beyond repeated NATO spending claim.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats already-known claim that NATO allies agreed to raise defense spending to 5% of GDP, a mild positive but stale catalyst for broad defense-sector ETFs, with no new company-specific detail for individual defense contractors.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated NATO 5% defense spending pledge is bullish for defense contractors but already known.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same NATO spending narrative supports aerospace/defense sector ETF modestly.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General defense spending rhetoric, no company-specific news.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new specific information beyond repeated NATO spending claim.\", \"added\": false}], \"summary\": \"The President repeats already-known claim that NATO allies agreed to raise defense spending to 5% of GDP, a mild positive but stale catalyst for broad defense-sector ETFs, with no new company-specific detail for individual defense contractors.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03163:steel",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3163.527504964539,
+   "t_wall": 1754926180.527505,
+   "t_wall_et": "2025-08-11T11:29:40.527505-04:00",
+   "segment_text": "and I saw people standing in front of a burned down home. It was their homes were incinerated. They weren't like even the steel was literally",
+   "context": "which I told him about in my 1st term, say, you're gonna have problems. Let it come down. We actually sent in our military to have the water come down into LA. They still didn't want it to come down after the fires, but that was it. We have it coming down. But hopefully, LA is watching. That mayor also the city's burning. They lost, like, 25,000 homes. I went there the day after the fire. You were there, and I saw people standing in front of a burned down home. It was their homes were incinerated. They weren't like even the steel was literally it was all warped and literally disintegrated",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03357:china",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "disgrace",
+    "tariff"
+   ],
+   "t_audio": 3357.0306976744187,
+   "t_wall": 1754926374.0306976,
+   "t_wall_et": "2025-08-11T11:32:54.030698-04:00",
+   "segment_text": "Yeah. Thank you. The China tariff deadline is tonight, but do you plan to extend that?",
+   "context": "which is gonna be fantastic, and also for the World Cup. So we have a lot of good things, and I hope 250 is gonna be 250th anniversary is gonna be the best. But when I looked at those people and I saw last night on television that they still don't have their permits, It's a disgrace what's happened in Las Vegas. The President. Yeah. Thank you. The China tariff deadline is tonight, but do you plan to extend that? We'll see what happens. China's been,",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03400:aapl",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3400.2205555555556,
+   "t_wall": 1754926417.2205555,
+   "t_wall_et": "2025-08-11T11:33:37.220556-04:00",
+   "segment_text": "it was the apple of his eye. I got along very well with president Putin.",
+   "context": "and we'll see what happens. They've been dealing quite nicely. The relationship is very good with president with president Xi and myself. Mister president president you mentioned your upcoming upcoming meeting with president Putin. Can you tell us what you hope to get out of that and whether you consider inviting president Zelensky to join. So you have to understand, this is a war that should have never happened. This is a war that wouldn't have happened if I were president. Would have never happened. Wasn't it was the apple of his eye. I got along very well with president Putin. But if you look under president Bush, they took a lot of territory. Under president Obama,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03450:russia",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 3450.349644808743,
+   "t_wall": 1754926467.349645,
+   "t_wall_et": "2025-08-11T11:34:27.349645-04:00",
+   "segment_text": "you roll over like Biden did. Biden came in and he immediately approved the pipeline. I couldn't believe it. Then they say, wasn't tough on Russia. I wasn't tough. I was the toughest.",
+   "context": "you can't build your pipeline. That was 0.5 built. I came in. I stopped the pipelines. It's called called Nord Stream 2. Nobody knows it. You know? Nobody ever heard of Nord Stream 2. You might have not even heard it. Biggest pipeline in the world. I stopped it. I was not a friend of Russia, but I got along well with Putin. It's always good to get along with other countries if possible, but that doesn't mean you you roll over like Biden did. Biden came in and he immediately approved the pipeline. I couldn't believe it. Then they say, wasn't tough on Russia. I wasn't tough. I was the toughest.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.95,
+    "quote": "I stopped the pipelines. It's called Nord Stream 2.",
+    "summary": "The President claims he stopped Nord Stream 2 pipeline; criticizes Biden for approving it."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about past pipeline actions and upcoming Putin meeting is not new policy and effect is ambiguous, possible peace deal upside offsets sanction rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Nord Stream 2 commentary is old news and not directly price-relevant to US energy sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks focus on DC crime/homelessness plans (not detailed) and repeat the President's past claims about stopping Nord Stream 2; no new tradable information for RSX or XLE.",
+    "raw": "{\"tickers\":[{\"ticker\":\"RSX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rhetoric about past pipeline actions and upcoming Putin meeting is not new policy and effect is ambiguous, possible peace deal upside offsets sanction rhetoric.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Nord Stream 2 commentary is old news and not directly price-relevant to US energy sector.\",\"added\":false}],\"summary\":\"Remarks focus on DC crime/homelessness plans (not detailed) and repeat the President's past claims about stopping Nord Stream 2; no new tradable information for RSX or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03550:defense_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "percent"
+   ],
+   "t_audio": 3550.242654491018,
+   "t_wall": 1754926567.2426546,
+   "t_wall_et": "2025-08-11T11:36:07.242655-04:00",
+   "segment_text": "we don't pay anything anymore. You know, we're not paying anything. They are buying things from us, and NATO is paying us. I got it raised from 2 percent of GDP to 5%,",
+   "context": "they're young soldiers, although in the case of Ukraine, they're getting much older. They're drafting 60 year olds now. It's a terrible thing to witness, and I think I have an obligation. Look. This is Joe Biden's war. This is not my war. I made a deal with NATO a month ago. You covered it very accurately. Actually, we're we don't pay anything anymore. You know, we're not paying anything. They are buying things from us, and NATO is paying us. I got it raised from 2 percent of GDP to 5%,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector spending (NATO 2% to 5% GDP)",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "I got it raised from 2 percent of GDP to 5%",
+    "summary": "The President claims NATO defense spending increased from 2% to 5% of GDP."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Reiterated NATO spending hike to 5% GDP supports broad defense sector demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Higher NATO defense budgets are a modest tailwind for aerospace/defense ETF holdings.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Increased NATO defense spending could indirectly boost demand for drone/defense tech makers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Higher allied defense budgets modestly support Kratos' unmanned systems business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated claim of NATO defense spending rising to 5% GDP is mildly positive but already-known news for defense-related tickers; the DC crime/homelessness comments are unrelated to these names.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Reiterated NATO spending hike to 5% GDP supports broad defense sector demand.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Higher NATO defense budgets are a modest tailwind for aerospace/defense ETF holdings.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Increased NATO defense spending could indirectly boost demand for drone/defense tech makers.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Higher allied defense budgets modestly support Kratos' unmanned systems business.\", \"added\": false}], \"summary\": \"The President's repeated claim of NATO defense spending rising to 5% GDP is mildly positive but already-known news for defense-related tickers; the DC crime/homelessness comments are unrelated to these names.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03559:eu",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "approved",
+    "percent"
+   ],
+   "t_audio": 3559.235,
+   "t_wall": 1754926576.235,
+   "t_wall_et": "2025-08-11T11:36:16.235000-04:00",
+   "segment_text": "Europe has spent a 100,000,000,000.",
+   "context": "It's a terrible thing to witness, and I think I have an obligation. Look. This is Joe Biden's war. This is not my war. I made a deal with NATO a month ago. You covered it very accurately. Actually, we're we don't pay anything anymore. You know, we're not paying anything. They are buying things from us, and NATO is paying us. I got it raised from 2 percent of GDP to 5%, and, they're paying us for everything that we send. We're not paying. But Biden approved $350,000,000,000. Europe has spent a 100,000,000,000.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Europe has spent a 100,000,000,000.",
+    "summary": "The President criticizes European spending on Ukraine conflict; contrasts with NATO payment commitments."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric on Ukraine war spending is not new price-relevant policy for European equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment reiterates known NATO/spending dynamics without new policy action affecting eurozone stocks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff, sanction, or trade action announced against Europe, just rhetorical framing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely rhetorical commentary on the Ukraine war and NATO burden-sharing, not a new policy action, so it should have minimal direct market impact on European equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric on Ukraine war spending is not new price-relevant policy for European equities.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment reiterates known NATO/spending dynamics without new policy action affecting eurozone stocks.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff, sanction, or trade action announced against Europe, just rhetorical framing.\", \"added\": false}], \"summary\": \"The excerpt is largely rhetorical commentary on the Ukraine war and NATO burden-sharing, not a new policy action, so it should have minimal direct market impact on European equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03761:ukraine",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 3761.2322151898734,
+   "t_wall": 1754926778.2322152,
+   "t_wall_et": "2025-08-11T11:39:38.232215-04:00",
+   "segment_text": "believe that Putin wanted all of Ukraine. I happen to be 1 of them, by the way.",
+   "context": "Ukraine, a lot of people don't know that Ukraine was largely 1000 miles of ocean. That's gone. Other than 1 small area, Odessa. It's a small area. There's just a little bit of water left. So I'm gonna go and see the parameters. Now I may leave and say good luck, and that'll be the end. I may say this this is not gonna be settled. I mean, there are those that believe that Putin wanted all of Ukraine. I happen to be 1 of them, by the way.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Putin wanted all of Ukraine. I happen to be 1 of them.",
+    "summary": "The President discusses Putin's territorial ambitions regarding Ukraine and his assessment of the conflict."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical commentary on Ukraine/Russia negotiations doesn't clearly move defense spending expectations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of existing tariff threat on Russian oil buyers is already known and not a new policy announcement.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "This excerpt is primarily geopolitical rhetoric about Ukraine-Russia negotiations with no new tariff, sanction, or spending decisions revealed, so it is not clearly price-relevant for ITA or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Geopolitical commentary on Ukraine/Russia negotiations doesn't clearly move defense spending expectations.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of existing tariff threat on Russian oil buyers is already known and not a new policy announcement.\", \"added\": false}], \"summary\": \"This excerpt is primarily geopolitical rhetoric about Ukraine-Russia negotiations with no new tariff, sanction, or spending decisions revealed, so it is not clearly price-relevant for ITA or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03814:oil",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "tariff"
+   ],
+   "t_audio": 3814.025,
+   "t_wall": 1754926831.025,
+   "t_wall_et": "2025-08-11T11:40:31.025000-04:00",
+   "segment_text": "oil buyer that we're putting a 50% tariff on you if you buy",
+   "context": "I think a deal should be made for both. I think Russia has to get back into building their country. It's a massive country. I think they have 11 time zones, if you can believe it. It's a massive it's by far, from the standpoint of land, it's by far the largest. They have tremendous potential in Russia to do well. They're not doing well. Their economy is not doing well right now because it's been very well disturbed by this. It doesn't help when the president of The United States tells their largest or 2nd largest, oil buyer that we're putting a 50% tariff on you if you buy",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "50% tariff on you if you buy",
+    "summary": "The President proposes 50% tariff on oil purchases from Russia's largest buyers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates already-known secondary tariff threat on Russian oil buyers with no new details for US energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of prior tariff threat rather than new supply disruption information affecting oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new company-specific or US-production impact from this repeated geopolitical rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated tariff rhetoric, not a fresh catalyst for Chevron shares.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks largely restate his prior 50% tariff threat on buyers of Russian oil and general Ukraine peace-deal rhetoric; no new specifics are given, so the market impact on energy tickers is likely muted.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates already-known secondary tariff threat on Russian oil buyers with no new details for US energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of prior tariff threat rather than new supply disruption information affecting oil prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new company-specific or US-production impact from this repeated geopolitical rhetoric.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same repeated tariff rhetoric, not a fresh catalyst for Chevron shares.\", \"added\": false}], \"summary\": \"The President's remarks largely restate his prior 50% tariff threat on buyers of Russian oil and general Ukraine peace-deal rhetoric; no new specifics are given, so the market impact on energy tickers is likely muted.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:03858:lmt",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "lmt",
+   "entity": "Lockheed Martin",
+   "kind": "company",
+   "alias": "javelins",
+   "text_span": "Javelins",
+   "dict_tickers": [
+    "LMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3858.1683838383838,
+   "t_wall": 1754926875.1683838,
+   "t_wall_et": "2025-08-11T11:41:15.168384-04:00",
+   "segment_text": "I also gave the Javelins. You know? Do you ever hear of a Javelin? Javelin is called a tank buster.",
+   "context": "but I got a call that they'd like to meet. And I'm gonna see what they wanna meet about it. I'd like to see a ceasefire. I'd like to see the best deal that could be made for both parties. You know, it takes 2 to tango. Right? So, ultimately, I'll have a meeting next week. I had a great relationship with him considering the fact that, you know, I was not nice to him because of the, pipeline. I I ended the pipeline. I also gave the Javelins. You know? Do you ever hear of a Javelin? Javelin is called a tank buster.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Lockheed Martin",
+    "tickers": [
+     "LMT"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "I also gave the Javelins. Javelin is called a tank buster.",
+    "summary": "The President provided Javelin anti-tank missiles; describes military aid delivery."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LMT",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to past Javelin deliveries (Javelins are RTX/Saab JV, not LMT) is old news and not a new contract signal for Lockheed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark recounts historical Javelin missile aid to Ukraine, which is already known and not primarily a Lockheed Martin product line, so it carries little new price-relevant information for LMT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LMT\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to past Javelin deliveries (Javelins are RTX/Saab JV, not LMT) is old news and not a new contract signal for Lockheed.\", \"added\": false}], \"summary\": \"The remark recounts historical Javelin missile aid to Ukraine, which is already known and not primarily a Lockheed Martin product line, so it carries little new price-relevant information for LMT.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04045:china",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 4045.6544650406504,
+   "t_wall": 1754927062.654465,
+   "t_wall_et": "2025-08-11T11:44:22.654465-04:00",
+   "segment_text": "go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete.",
+   "context": "as complex as this 1 having to do with routes trade. Meeting on Friday with Vladimir Putin. Well, we're gonna have a meeting with Vladimir Putin. And at the end of that meeting, probably in the 1st 2 minutes, I'll know exactly whether or not a deal can be won. How do you know that? Because that's what I do. I make deals. Please go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete.",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04052:nvda",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4052.367417886179,
+   "t_wall": 1754927069.3674178,
+   "t_wall_et": "2025-08-11T11:44:29.367418-04:00",
+   "segment_text": "go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete.",
+   "context": "as complex as this 1 having to do with routes trade. Meeting on Friday with Vladimir Putin. Well, we're gonna have a meeting with Vladimir Putin. And at the end of that meeting, probably in the 1st 2 minutes, I'll know exactly whether or not a deal can be won. How do you know that? Because that's what I do. I make deals. Please go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete. Well and then 15% of the You mean the twenties? No. No. That's this is an old chip",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "advanced Nvidia and AMD chips. No. Obsolete.",
+    "summary": "The President contradicts questioner's claim about advanced chips export, calling them obsolete."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that only the older H20 chip (not advanced Blackwell) is being sold to China, restating known export policy with no new restriction.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly political/geopolitical commentary; on NVDA it merely clarifies existing H20 export terms without new restrictions or deals, so market impact should be minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that only the older H20 chip (not advanced Blackwell) is being sold to China, restating known export policy with no new restriction.\", \"added\": false}], \"summary\": \"The excerpt is mostly political/geopolitical commentary; on NVDA it merely clarifies existing H20 export terms without new restrictions or deals, so market impact should be minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04053:chips",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4053.2207593495937,
+   "t_wall": 1754927070.2207594,
+   "t_wall_et": "2025-08-11T11:44:30.220759-04:00",
+   "segment_text": "go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete.",
+   "context": "as complex as this 1 having to do with routes trade. Meeting on Friday with Vladimir Putin. Well, we're gonna have a meeting with Vladimir Putin. And at the end of that meeting, probably in the 1st 2 minutes, I'll know exactly whether or not a deal can be won. How do you know that? Because that's what I do. I make deals. Please go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete. Well and then 15% of the You mean the twenties? No. No. That's this is an old chip",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "advanced chips. No. Obsolete.",
+    "summary": "Discussion of chip export restrictions; The President disputes characterization of exported chips as advanced."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President suggests any deal on advanced Blackwell chip exports to China would require major performance cuts, signaling continued restriction risk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF exposed to NVDA export policy uncertainty.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF slightly pressured by China export policy uncertainty.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly referenced in the chip export discussion.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on H20 and potential Blackwell export restrictions to China create mild negative sentiment for NVDA and broader chip ETFs, with no direct implication for INTC.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President suggests any deal on advanced Blackwell chip exports to China would require major performance cuts, signaling continued restriction risk.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Sector ETF exposed to NVDA export policy uncertainty.\",\"added\":false},{\"ticker\":\"SOXX\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Broad semiconductor ETF slightly pressured by China export policy uncertainty.\",\"added\":false},{\"ticker\":\"INTC\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not directly referenced in the chip export discussion.\",\"added\":false}],\"summary\":\"The President's comments on H20 and potential Blackwell export restrictions to China create mild negative sentiment for NVDA and broader chip ETFs, with no direct implication for INTC.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04065:nvda_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "nvda_word",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen",
+   "text_span": "Jensen",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4065.926428571429,
+   "t_wall": 1754927082.9264286,
+   "t_wall_et": "2025-08-11T11:44:42.926429-04:00",
+   "segment_text": "And I deal with Jensen, who's a great guy,",
+   "context": "Please go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete. Well and then 15% of the You mean the twenties? No. No. That's this is an old chip that China already has. And I deal with Jensen, who's a great guy,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "I deal with Jensen, who's a great guy",
+    "summary": "The President expresses positive regard for Nvidia's Jensen Huang regarding chip export policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates the already-known H20 export deal and 15-20% revenue cut arrangement, with no new policy detail materially affecting NVDA.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark restates known Nvidia H20 export/tax arrangement and praises Jensen Huang, but reveals nothing new, so minimal price impact expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President reiterates the already-known H20 export deal and 15-20% revenue cut arrangement, with no new policy detail materially affecting NVDA.\",\"added\":false}],\"summary\":\"Remark restates known Nvidia H20 export/tax arrangement and praises Jensen Huang, but reveals nothing new, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04070:chips_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "chips_word",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chip",
+   "text_span": "chip",
+   "dict_tickers": [
+    "SMH",
+    "SOXX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4070.469090909091,
+   "t_wall": 1754927087.469091,
+   "t_wall_et": "2025-08-11T11:44:47.469091-04:00",
+   "segment_text": "The chip that we're talking about, the h 20,",
+   "context": "go ahead. Thank you, mister president. I'm gonna ask you, 2 questions. 1 about China, 1 about Russia, if I could. On China, your administration agreed to send, the the most advanced or or advanced Nvidia and AMD chips. No. Obsolete. No. Obsolete. Well and then 15% of the You mean the twenties? No. No. That's this is an old chip that China already has. And I deal with Jensen, who's a great guy, and Nvidia. The chip that we're talking about, the h 20,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "the H20, that we're talking about, obsolete chip that China already has",
+    "summary": "The President characterizes restricted chip exports to China as involving obsolete technology."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates already-known H20/China chip export arrangement with no new policy details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments restate existing chip export framework, not materially new for the sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks largely restate prior policy on H20 chip exports to China and DC crime/homelessness plans, offering no new tradable information for semiconductor stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates already-known H20/China chip export arrangement with no new policy details.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments restate existing chip export framework, not materially new for the sector.\", \"added\": false}], \"summary\": \"The President's remarks largely restate prior policy on H20 chip exports to China and DC crime/homelessness plans, offering no new tradable information for semiconductor stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04108:blk",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "blk",
+   "entity": "BlackRock",
+   "kind": "company",
+   "alias": "blackrock",
+   "text_span": "BlackRock",
+   "dict_tickers": [
+    "BLK"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4108.733521126761,
+   "t_wall": 1754927125.7335212,
+   "t_wall_et": "2025-08-11T11:45:25.733521-04:00",
+   "segment_text": "in a negative way BlackRock. In other words, take 30% to 50% off of it.",
+   "context": "Or they have a combination of 2 will make up for it and even then some. Now Jensen also has Jensen's a very brilliant guy, and Jensen also has a new chip, the Blackwell. Do you know what the Blackwell is? The Blackwell is super duper advanced. I wouldn't make a deal with that. Although, it's possible I'd make a deal, a somewhat enhanced in a negative way BlackRock. In other words, take 30% to 50% off of it.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "BlackRock",
+    "tickers": [
+     "BLK"
+    ],
+    "stance": "negative",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "take 30% to 50% off of it",
+    "summary": "The President suggests a potential deal with BlackRock at a steep discount."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BLK",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "intraday",
+      "rationale": "The 'BlackRock' mention is clearly a verbal slip referring to the Blackwell chip, not BlackRock the company, so no real fundamental impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The BlackRock reference appears to be an accidental mix-up with Nvidia's 'Blackwell' chip during a discussion of chip export deals with China, not an actual statement about BlackRock the asset manager, so no material price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BLK\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"intraday\", \"rationale\": \"The 'BlackRock' mention is clearly a verbal slip referring to the Blackwell chip, not BlackRock the company, so no real fundamental impact.\", \"added\": false}], \"summary\": \"The BlackRock reference appears to be an accidental mix-up with Nvidia's 'Blackwell' chip during a discussion of chip export deals with China, not an actual statement about BlackRock the asset manager, so no material price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04195:defense_word",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "fighter jets",
+   "text_span": "fighter jets",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 4195.838976842105,
+   "t_wall": 1754927212.8389769,
+   "t_wall_et": "2025-08-11T11:46:52.838977-04:00",
+   "segment_text": "the big 1. Like, I don't know if you know it. We will sometimes sell fighter jets to a country,",
+   "context": "what we call a stopper, not allowed to do it. A restrict is really known as a restrictive covenant. And I said, if I'm gonna do that, I want you to pay us as a country something because I'm giving you a release. I released them only from the a the h 20. Now on the black well, I think he's coming to see me again about that, but that will be a unenhanced version of the big 1. Like, I don't know if you know it. We will sometimes sell fighter jets to a country,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "fighter jets",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "We will sometimes sell fighter jets to a country",
+    "summary": "The President notes the U.S. sometimes sells fighter jets to countries."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General remark about arms export practices, not new policy affecting defense sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment on fighter jet export discounting is generic and not new information for aerospace/defense ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention of drone or AVAV-related programs, remark unrelated.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct reference to Kratos or its programs, remark is general on jet sales.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on chip export deals and fighter jet sales as an analogy, with no new, specific policy news materially affecting these defense-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General remark about arms export practices, not new policy affecting defense sector broadly.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment on fighter jet export discounting is generic and not new information for aerospace/defense ETF.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention of drone or AVAV-related programs, remark unrelated.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct reference to Kratos or its programs, remark is general on jet sales.\", \"added\": false}], \"summary\": \"The President's remarks focus on chip export deals and fighter jet sales as an analogy, with no new, specific policy news materially affecting these defense-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04204:russia",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 4204.4383333333335,
+   "t_wall": 1754927221.4383333,
+   "t_wall_et": "2025-08-11T11:47:01.438333-04:00",
+   "segment_text": "than we have. Do know what I mean? Right? That's the same. President. So on Russia president. Do",
+   "context": "And I said, if I'm gonna do that, I want you to pay us as a country something because I'm giving you a release. I released them only from the a the h 20. Now on the black well, I think he's coming to see me again about that, but that will be a unenhanced version of the big 1. Like, I don't know if you know it. We will sometimes sell fighter jets to a country, and we'll give them 20% less than we have. Do know what I mean? Right? That's the same. President. So on Russia president. Do you see a do you see a time, mister president, when there could be normal trade between The US and Russia? Should your meeting go well, should there be peace? I do. Yeah. Russia has a very valuable piece of land. If",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04341:russia",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 4341.667647058824,
+   "t_wall": 1754927358.6676471,
+   "t_wall_et": "2025-08-11T11:49:18.667647-04:00",
+   "segment_text": "expect to have a meeting with Putin that I I think it'll be good, but it might be bad. And I have hey.",
+   "context": "of billions of dollars of cash is pouring into our country now because of tariffs. And all we're doing is we're doing what they do to us. It's so beautiful to see it. They find they found last month, they just saw $25,000,000,000 of excess cash flow. They're saying, where did it come from? I said, I'll tell you where it came from. It came from a place called tariffs, and we're doing very well. We're really doing well. But I expect to have a meeting with Putin that I I think it'll be good, but it might be bad. And I have hey.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Putin",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "I expect to have a meeting with Putin that I think it'll be good, but it might be bad.",
+    "summary": "The President expects to meet with Putin; outcome uncertain."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Uncertain outcome of a potential Putin meeting offers no clear directional catalyst for Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete policy or supply signal on energy markets from this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments center on tariffs, trade wins over China, and an uncertain prospective Putin meeting on Ukraine, offering no new, tradable information for RSX or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Uncertain outcome of a potential Putin meeting offers no clear directional catalyst for Russia-exposed assets.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete policy or supply signal on energy markets from this remark.\", \"added\": false}], \"summary\": \"The President's comments center on tariffs, trade wins over China, and an uncertain prospective Putin meeting on Ukraine, offering no new, tradable information for RSX or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04614:eu",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european",
+   "text_span": "European",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4614.228378947369,
+   "t_wall": 1754927631.228379,
+   "t_wall_et": "2025-08-11T11:53:51.228379-04:00",
+   "segment_text": "I'll be calling the European leaders. I'm going with totally I mean, we have we have a lot of talks. They're great people. They're great leaders, actually, and they wanna get back. Honestly,",
+   "context": "comfortable. So so no. I don't wanna make I don't wanna make life comfortable. So look. Look. Look. Let let's just do this. Let's do this. It's gonna be a big thing. We're going to Russia. That's gonna be a big deal. What happens happens. I'll let you know what happens. You'll be the 1st to know. I'll be calling the European leaders. I'm going with totally I mean, we have we have a lot of talks. They're great people. They're great leaders, actually, and they wanna get back. Honestly,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "I'll be calling the European leaders. They're great leaders.",
+    "summary": "The President plans to call European leaders to discuss talks and negotiations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about calling European leaders on Ukraine talks with no new policy or deal specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague diplomatic commentary lacks any concrete market-moving detail for eurozone equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff, sanction, or deal information affecting Euro Stoxx exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are mostly rhetorical about upcoming diplomatic calls with European leaders on Ukraine, with no concrete new policy, deal, or economic detail that would move European equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about calling European leaders on Ukraine talks with no new policy or deal specifics.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague diplomatic commentary lacks any concrete market-moving detail for eurozone equities.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff, sanction, or deal information affecting Euro Stoxx exposure.\", \"added\": false}], \"summary\": \"The President's remarks are mostly rhetorical about upcoming diplomatic calls with European leaders on Ukraine, with no concrete new policy, deal, or economic detail that would move European equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "zh6lh9GC0Ec:04626:ukraine",
+   "video_id": "zh6lh9GC0Ec",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "settlement"
+   ],
+   "t_audio": 4626.500510204081,
+   "t_wall": 1754927643.5005102,
+   "t_wall_et": "2025-08-11T11:54:03.500510-04:00",
+   "segment_text": "on trying to settle Ukraine. They've OD'd, meaning they've overdosed on the settlement of Ukraine.",
+   "context": "look. Look. Look. Let let's just do this. Let's do this. It's gonna be a big thing. We're going to Russia. That's gonna be a big deal. What happens happens. I'll let you know what happens. You'll be the 1st to know. I'll be calling the European leaders. I'm going with totally I mean, we have we have a lot of talks. They're great people. They're great leaders, actually, and they wanna get back. Honestly, as 1 of them said, I've OD'd on trying to settle Ukraine. They've OD'd, meaning they've overdosed on the settlement of Ukraine.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "They've OD'd on trying to settle Ukraine.",
+    "summary": "The President indicates European leaders are fatigued with Ukraine settlement efforts."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General remarks on Ukraine talks fatigue don't reveal new defense spending or policy details.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information on energy markets, sanctions, or Russia deal terms that would move energy stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly rhetorical commentary on European fatigue with Ukraine negotiations and personal remarks about a ballroom, with no new concrete policy, deal terms, or numbers that would materially move ITA or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General remarks on Ukraine talks fatigue don't reveal new defense spending or policy details.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new information on energy markets, sanctions, or Russia deal terms that would move energy stocks.\", \"added\": false}], \"summary\": \"The excerpt is mostly rhetorical commentary on European fatigue with Ukraine negotiations and personal remarks about a ballroom, with no new concrete policy, deal terms, or numbers that would materially move ITA or XLE.\"}"
+   }
+  }
+ ]
+}

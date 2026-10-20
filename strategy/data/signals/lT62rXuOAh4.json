@@ -1,0 +1,3348 @@
+{
+ "video": {
+  "id": "lT62rXuOAh4",
+  "url": "https://www.youtube.com/watch?v=lT62rXuOAh4",
+  "title": "The President Participates in a Cabinet Meeting, Jan. 29, 2026",
+  "channel": "The White House",
+  "duration": 5225.0,
+  "was_live": true,
+  "release_timestamp": 1769704387.0,
+  "upload_timestamp": 1769709930.0,
+  "upload_date": "20260129",
+  "label": "Participates in a Cabinet Meeting, Jan. 29, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1769704387.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 54,
+  "confirmed": 40,
+  "retracted": 14,
+  "unconfirmed": 0,
+  "llm_calls": 65
+ },
+ "signals": [
+  {
+   "signal_id": "lT62rXuOAh4:00589:venezuela",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 589.5147203225806,
+   "t_wall": 1769704976.5147204,
+   "t_wall_et": "2026-01-29T11:42:56.514720-05:00",
+   "segment_text": "tremendous wealth for Venezuela",
+   "context": "We're getting along really well with them. The relationships have been very strong, very good. And they have informed me that that they feel this very good security, very strong security. We're working with the various people involved, Chris and Doug and everybody on the major oil companies going to Venezuela now, scouting it out and picking their locations, and they'll be bringing back, tremendous wealth for Venezuela",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "major oil companies going to Venezuela now, scouting it out and picking their locations",
+    "summary": "The President states major oil companies are scouting Venezuela for oil operations and locations."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Opening Venezuela to US oil majors expands potential reserves access for the energy sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has historical Venezuela operations and stands to benefit most directly from renewed access and stability.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks signal opening of Venezuela to US oil majors, a modestly positive new development for Chevron and the broader energy sector.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Opening Venezuela to US oil majors expands potential reserves access for the energy sector broadly.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has historical Venezuela operations and stands to benefit most directly from renewed access and stability.\", \"added\": false}], \"summary\": \"The President's remarks signal opening of Venezuela to US oil majors, a modestly positive new development for Chevron and the broader energy sector.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:00592:oil",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 592.0686513157895,
+   "t_wall": 1769704979.0686512,
+   "t_wall_et": "2026-01-29T11:42:59.068651-05:00",
+   "segment_text": "and for The United States, and the oil companies will do fine too. Venezuela will actually make for themselves more money than they've ever made before,",
+   "context": "informed me that that they feel this very good security, very strong security. We're working with the various people involved, Chris and Doug and everybody on the major oil companies going to Venezuela now, scouting it out and picking their locations, and they'll be bringing back, tremendous wealth for Venezuela and for The United States, and the oil companies will do fine too. Venezuela will actually make for themselves more money than they've ever made before,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil [sector]",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "major oil companies going to Venezuela now, scouting it out and picking their locations",
+    "summary": "The President states major oil companies are scouting and establishing locations in Venezuela for operations."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and is best positioned to benefit from reopened access and airspace normalization.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Exxon could pursue new Venezuela opportunities though it lacks Chevron's existing footprint there.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Broad energy sector benefits modestly from new US oil access to Venezuelan reserves.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply reaching global markets is mildly bearish for crude oil prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced US oil majors are scouting Venezuela and airspace is reopening, a new development positive for Chevron in particular and broader energy equities, while added Venezuelan supply is mildly negative for crude oil prices.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and is best positioned to benefit from reopened access and airspace normalization.\", \"added\": false},\n{\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Exxon could pursue new Venezuela opportunities though it lacks Chevron's existing footprint there.\", \"added\": false},\n{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Broad energy sector benefits modestly from new US oil access to Venezuelan reserves.\", \"added\": false},\n{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan oil supply reaching global markets is mildly bearish for crude oil prices.\", \"added\": false}\n],\n\"summary\": \"The President announced US oil majors are scouting Venezuela and airspace is reopening, a new development positive for Chevron in particular and broader energy equities, while added Venezuelan supply is mildly negative for crude oil prices.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:00709:farmers",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 709.5429177941177,
+   "t_wall": 1769705096.5429177,
+   "t_wall_et": "2026-01-29T11:44:56.542918-05:00",
+   "segment_text": "we gave to the farmers of our country so that yesterday, I was up in",
+   "context": "5.4 GDP growth in the 4th 0.25, and that's despite the fact that we had a Democrat shutdown. We would have had that number would have been 7%, which is a number nobody's ever heard of. And we've had we've been given great national security because of tariffs, and we've also been given unprecedented income because of tariffs. Part of the income that we gave, $12,000,000,000, we gave to the farmers of our country so that yesterday, I was up in",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.95,
+    "quote": "we gave $12,000,000,000 to the farmers of our country",
+    "summary": "The President gave $12 billion subsidy to farmers due to tariff impacts."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farmer subsidy support is mildly positive for agriculture broadly but already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farm income support could bolster fertilizer demand modestly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farmer subsidies could support equipment purchases though effect is small and already priced in.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Subsidy support for farmers slightly positive for corn market sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Soybean farmers directly benefit from tariff-related subsidy payments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farm subsidy support indirectly benefits agribusiness processors like ADM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated the previously announced $12B farmer subsidy tied to tariffs, a mild positive for agriculture-linked tickers but not new information for markets.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"DBA\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farmer subsidy support is mildly positive for agriculture broadly but already known.\", \"added\": false},\n{\"ticker\": \"MOS\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farm income support could bolster fertilizer demand modestly.\", \"added\": false},\n{\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farmer subsidies could support equipment purchases though effect is small and already priced in.\", \"added\": false},\n{\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Subsidy support for farmers slightly positive for corn market sentiment.\", \"added\": false},\n{\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Soybean farmers directly benefit from tariff-related subsidy payments.\", \"added\": false},\n{\"ticker\": \"ADM\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farm subsidy support indirectly benefits agribusiness processors like ADM.\", \"added\": false}\n],\n\"summary\": \"The President reiterated the previously announced $12B farmer subsidy tied to tariffs, a mild positive for agriculture-linked tickers but not new information for markets.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:00743:stock_market",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "s and p",
+   "text_span": "S and P",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 743.2009677419355,
+   "t_wall": 1769705130.2009678,
+   "t_wall_et": "2026-01-29T11:45:30.200968-05:00",
+   "segment_text": "And just yesterday, the S and P 500 hit 7,000 for the 1st time",
+   "context": "and they were very happy, madam secretary. Yes, sir. They were very, very happy. Were great. The GDP growth in the 4th 0.25 was great. It's gonna be, I think we're gonna have an amazing and incredible year. Hopefully, we won't have a shutdown, and we're working on that right now. I think we're getting close. The Democrats, I don't believe, wanna see it either. So we'll work in a very bipartisan way. I believe not to have a shutdown. We don't want a shutdown. And just yesterday, the S and P 500 hit 7,000 for the 1st time",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "S&P 500",
+    "tickers": [
+     "SPY"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "just yesterday, the S and P 500 hit 7,000 for the 1st time",
+    "summary": "S&P 500 reached 7,000 milestone, presented as positive economic indicator."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of already-known market highs is not new information for pricing SPY itself.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad market cheerleading with no tech-specific policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Dow record highs is a restatement of known facts, not new catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are celebratory rhetoric about already-known market milestones and GDP data, offering no new tradable information for broad index ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of already-known market highs is not new information for pricing SPY itself.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad market cheerleading with no tech-specific policy content.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Dow record highs is a restatement of known facts, not new catalyst.\", \"added\": false}], \"summary\": \"The President's remarks are celebratory rhetoric about already-known market milestones and GDP data, offering no new tradable information for broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:00897:defense_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "bought"
+   ],
+   "t_audio": 897.7933125000001,
+   "t_wall": 1769705284.7933125,
+   "t_wall_et": "2026-01-29T11:48:04.793313-05:00",
+   "segment_text": "And I was corrected by 2 farmers that said, I just bought my gasoline for $1.85.",
+   "context": "So 1 cost 34,000 and 1 made 3,000. That's a big swing. Gasoline is plunged to, think of this, over $4 a gallon depending on where you are. In California, it's $78 a gallon. While I was in Iowa, and they had $1.85 because I had it at $1.99 a gallon. And I was corrected by 2 farmers that said, I just bought my gasoline for $1.85. That's right. So, Chris, you have to be doing something right, you and Doug. Right?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01037:fed",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "the fed",
+   "text_span": "the Fed",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1037.5232432432433,
+   "t_wall": 1769705424.5232432,
+   "t_wall_et": "2026-01-29T11:50:24.523243-05:00",
+   "segment_text": "We have now very as you saw yesterday with the Fed, I'm not a fan of his. He said that inflation essentially is",
+   "context": "And by the time we had the egg hunt, a few months later, we had the prices down pretty good. And now they're really low. Now they're at a very low level. So we really have you don't hear the word affordability because we inherited very high prices, and we inherited the highest inflation in 48 years. I say the history of our country. I think it sounds almost the same. Actually, I think 48 years sounds actually worse for some reason. So I'll go with the 40 because the press corrected me. I said history, and they said, it's not history. It's 48 years. I said, I'll accept that. And we had the highest inflation in 48 years. We have now very as you saw yesterday with the Fed, I'm not a fan of his. He said that inflation essentially is",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "I'm not a fan of his.",
+    "summary": "The President expresses disapproval of the Federal Reserve chair's inflation management."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated criticism of Powell/Fed does not add new policy information affecting rates expectations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Fed criticism is familiar rhetoric with no new financial-sector policy implications.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new regulatory or rate-related news specific to regional banks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar criticism of the Fed chair and touts tax cuts/affordability, but offers no new policy details materially affecting rates or financial sector pricing.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated criticism of Powell/Fed does not add new policy information affecting rates expectations.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General Fed criticism is familiar rhetoric with no new financial-sector policy implications.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new regulatory or rate-related news specific to regional banks.\", \"added\": false}], \"summary\": \"The President repeats familiar criticism of the Fed chair and touts tax cuts/affordability, but offers no new policy details materially affecting rates or financial sector pricing.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01168:autos",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1168.0316355555556,
+   "t_wall": 1769705555.0316355,
+   "t_wall_et": "2026-01-29T11:52:35.031636-05:00",
+   "segment_text": "including the car companies. I was in Detroit",
+   "context": "bill. In addition, I think it's very good. I think it's very important you have no tax on overtime, no tax on tips, and no tax on Social Security, but you also have you're getting an inter this is the 1st time this ever happened. If you buy a car, you go out and borrow money, you get an interest deduction. You take the interest rate, the interest that you're paying on the loan, you're able to deduct it for income tax purposes. So that's a 1st ever, and I think it's gonna be great for everybody, including the car companies. I was in Detroit",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "gonna be great for everybody, including the car companies",
+    "summary": "Interest deduction on car loans benefits automakers."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Auto loan interest deduction and praise for strong GM performance is a mild positive but policy already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Specific praise for Ford round-the-clock production and factory expansion is a positive signal, though largely already reported.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned directly; sector-wide tax benefit applies but no company-specific catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned; loan interest deduction benefits traditional financed purchases more than Tesla-specific narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad auto sector ETF benefits mildly from tax and production optimism for domestic automakers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated praise of tax cuts, auto loan interest deductibility, and Ford/GM production gains is mildly positive for domestic automakers (F, GM, CARZ) but not new information, with no direct relevance to STLA or TSLA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Auto loan interest deduction and praise for strong GM performance is a mild positive but policy already known.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Specific praise for Ford round-the-clock production and factory expansion is a positive signal, though largely already reported.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not mentioned directly; sector-wide tax benefit applies but no company-specific catalyst.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not mentioned; loan interest deduction benefits traditional financed purchases more than Tesla-specific narrative.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad auto sector ETF benefits mildly from tax and production optimism for domestic automakers.\", \"added\": false}], \"summary\": \"The President's repeated praise of tax cuts, auto loan interest deductibility, and Ford/GM production gains is mildly positive for domestic automakers (F, GM, CARZ) but not new information, with no direct relevance to STLA or TSLA.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01172:f",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [
+    "factory"
+   ],
+   "t_audio": 1172.003,
+   "t_wall": 1769705559.003,
+   "t_wall_et": "2026-01-29T11:52:39.003000-05:00",
+   "segment_text": "3 weeks ago. I went to the Ford factory,",
+   "context": "bill. In addition, I think it's very good. I think it's very important you have no tax on overtime, no tax on tips, and no tax on Social Security, but you also have you're getting an inter this is the 1st time this ever happened. If you buy a car, you go out and borrow money, you get an interest deduction. You take the interest rate, the interest that you're paying on the loan, you're able to deduct it for income tax purposes. So that's a 1st ever, and I think it's gonna be great for everybody, including the car companies. I was in Detroit 3 weeks ago. I went to the Ford factory,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "I went to the Ford factory, I was in Detroit 3 weeks ago.",
+    "summary": "The President visited Ford factory in Detroit three weeks ago; context of tax benefits for car purchases."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Ford's Detroit factory expansion and round-the-clock production, a positive but already-known anecdote.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are complimentary toward Ford's US production ramp-up and highlight auto-loan interest deductions benefiting car buyers, a mildly positive but largely repeated narrative for F.",
+    "raw": "{\"tickers\": [{\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Ford's Detroit factory expansion and round-the-clock production, a positive but already-known anecdote.\", \"added\": false}], \"summary\": \"The President's remarks are complimentary toward Ford's US production ramp-up and highlight auto-loan interest deductions benefiting car buyers, a mildly positive but largely repeated narrative for F.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01174:gm",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [
+    "factory"
+   ],
+   "t_audio": 1174.0957303030302,
+   "t_wall": 1769705561.0957303,
+   "t_wall_et": "2026-01-29T11:52:41.095730-05:00",
+   "segment_text": "spoke to the General Motors people. It's all the same. They're doing better than they've ever done.",
+   "context": "bill. In addition, I think it's very good. I think it's very important you have no tax on overtime, no tax on tips, and no tax on Social Security, but you also have you're getting an inter this is the 1st time this ever happened. If you buy a car, you go out and borrow money, you get an interest deduction. You take the interest rate, the interest that you're paying on the loan, you're able to deduct it for income tax purposes. So that's a 1st ever, and I think it's gonna be great for everybody, including the car companies. I was in Detroit 3 weeks ago. I went to the Ford factory, spoke to the General Motors people. It's all the same. They're doing better than they've ever done.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "They're doing better than they've ever done.",
+    "summary": "The President praised General Motors, saying the company is performing better than ever."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise about auto sector strength and tax policy benefits, but largely restates known narrative.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks praising GM and Ford's production strength, plus tax incentives for car buyers, are mildly positive for GM but mostly reiterate prior rhetoric rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise about auto sector strength and tax policy benefits, but largely restates known narrative.\", \"added\": false}], \"summary\": \"The President's remarks praising GM and Ford's production strength, plus tax incentives for car buyers, are mildly positive for GM but mostly reiterate prior rhetoric rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01233:ai_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1233.8805172413793,
+   "t_wall": 1769705620.8805172,
+   "t_wall_et": "2026-01-29T11:53:40.880517-05:00",
+   "segment_text": "You have AI building, but the",
+   "context": "last week, they announced during my visit, they announced that they're going to round the clock. On the round the clock production, they never thought it was I said, did you ever think I spoke with Bill Ford and and the president of Ford. They were both there, and they said, we can't even believe it. We're gonna close this building 2 years ago, and now it's going round the clock. He said, we cannot I mean, I they wish they said, we wish it was twice the size, but they're now building additional plants in The United States as is everybody else. You have AI building, but the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "You have AI building, but the",
+    "summary": "AI companies expanding US manufacturing capacity alongside Ford."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General mention of AI building investment is vague rhetoric with no specific new policy affecting Nvidia directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI/manufacturing praise is not specific enough to move semiconductor sector ETF meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on auto manufacturing (Ford, GM) and steel tariffs, with only a passing, non-specific reference to AI building capacity, giving little actionable new information for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General mention of AI building investment is vague rhetoric with no specific new policy affecting Nvidia directly.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI/manufacturing praise is not specific enough to move semiconductor sector ETF meaningfully.\", \"added\": false}], \"summary\": \"The President's remarks focus on auto manufacturing (Ford, GM) and steel tariffs, with only a passing, non-specific reference to AI building capacity, giving little actionable new information for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01246:germany",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1246.761062345679,
+   "t_wall": 1769705633.7610624,
+   "t_wall_et": "2026-01-29T11:53:53.761062-05:00",
+   "segment_text": "and they're coming back from Germany. All over Europe. They're coming back. They're building here because they want to avoid the tariffs. They don't wanna pay the",
+   "context": "and and the president of Ford. They were both there, and they said, we can't even believe it. We're gonna close this building 2 years ago, and now it's going round the clock. He said, we cannot I mean, I they wish they said, we wish it was twice the size, but they're now building additional plants in The United States as is everybody else. You have AI building, but the companies I love the car companies, and you have them they're all coming back. They're coming back from Mexico. They're coming back from Canada. They're coming back from Japan, and they're coming back from Germany. All over Europe. They're coming back. They're building here because they want to avoid the tariffs. They don't wanna pay the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "coming back from Germany. All over Europe.",
+    "summary": "German car companies returning to US to avoid tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restating that German automakers are relocating production to the US due to tariffs is old rhetoric with mixed implications for a broad German equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar tariff rhetoric about automakers moving to the US, which is not new information and only mildly relevant/ambiguous for the broad German market ETF EWG.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restating that German automakers are relocating production to the US due to tariffs is old rhetoric with mixed implications for a broad German equity ETF.\", \"added\": false}], \"summary\": \"The President repeats familiar tariff rhetoric about automakers moving to the US, which is not new information and only mildly relevant/ambiguous for the broad German market ETF EWG.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01247:eu",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1247.43827345679,
+   "t_wall": 1769705634.4382734,
+   "t_wall_et": "2026-01-29T11:53:54.438273-05:00",
+   "segment_text": "and they're coming back from Germany. All over Europe. They're coming back. They're building here because they want to avoid the tariffs. They don't wanna pay the",
+   "context": "and and the president of Ford. They were both there, and they said, we can't even believe it. We're gonna close this building 2 years ago, and now it's going round the clock. He said, we cannot I mean, I they wish they said, we wish it was twice the size, but they're now building additional plants in The United States as is everybody else. You have AI building, but the companies I love the car companies, and you have them they're all coming back. They're coming back from Mexico. They're coming back from Canada. They're coming back from Japan, and they're coming back from Germany. All over Europe. They're coming back. They're building here because they want to avoid the tariffs. They don't wanna pay the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "coming back from Germany. All over Europe.",
+    "summary": "European car manufacturers relocating to US amid tariff concerns."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "The President reiterates that European manufacturers are relocating production to the US to avoid tariffs, a mild negative for European industrial base and equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Same tariff-driven reshoring narrative implies lost investment/production in the Eurozone, slightly negative for EZU.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Eurozone blue-chip index exposed to autos and exporters facing continued US tariff pressure and relocation trend.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar tariff rhetoric claiming European (and other) automakers are relocating to the US to avoid tariffs, a mild negative for European equity ETFs and slightly positive for US steel/auto producers, though this is largely repeat rhetoric with limited new information.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VGK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"The President reiterates that European manufacturers are relocating production to the US to avoid tariffs, a mild negative for European industrial base and equities.\",\"added\":false},{\"ticker\":\"EZU\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Same tariff-driven reshoring narrative implies lost investment/production in the Eurozone, slightly negative for EZU.\",\"added\":false},{\"ticker\":\"FEZ\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Eurozone blue-chip index exposed to autos and exporters facing continued US tariff pressure and relocation trend.\",\"added\":false}],\"summary\":\"The President repeats familiar tariff rhetoric claiming European (and other) automakers are relocating to the US to avoid tariffs, a mild negative for European equity ETFs and slightly positive for US steel/auto producers, though this is largely repeat rhetoric with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01269:steel",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1269.5685714285714,
+   "t_wall": 1769705656.5685713,
+   "t_wall_et": "2026-01-29T11:54:16.568571-05:00",
+   "segment_text": "Scott told me is that for the 1st time ever, tell them about the steel",
+   "context": "Mexico. They're coming back from Canada. They're coming back from Japan, and they're coming back from Germany. All over Europe. They're coming back. They're building here because they want to avoid the tariffs. They don't wanna pay the 15%. In some cases, 25 tariff. Could be a lot higher than that if it wasn't working. So because of that, they're all coming back. 1 statistic yesterday that Scott told me is that for the 1st time ever, tell them about the steel",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "they're all coming back. 1 statistic yesterday that Scott told me is that for the 1st time ever, tell them about the steel",
+    "summary": "Steel companies returning to US to avoid tariffs; first-time statistic cited."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on tariffs boosting US steel production benefits domestic steelmakers like US Steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for tariff-driven steel resurgence supports domestic steel producers including Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs benefits from continued tariff protection narrative for US steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel Dynamics gains from reinforced tariff support rhetoric though not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF likely to see modest positive sentiment from tariff praise.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated existing tariff policy crediting it for a US steel production milestone, which is mildly positive but not new news for domestic steelmakers (X, NUE, CLF, STLD, SLX).",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Positive rhetoric on tariffs boosting US steel production benefits domestic steelmakers like US Steel.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Praise for tariff-driven steel resurgence supports domestic steel producers including Nucor.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Cleveland-Cliffs benefits from continued tariff protection narrative for US steel.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Steel Dynamics gains from reinforced tariff support rhetoric though not new policy.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Steel sector ETF likely to see modest positive sentiment from tariff praise.\",\"added\":false}],\"summary\":\"The President reiterated existing tariff policy crediting it for a US steel production milestone, which is mildly positive but not new news for domestic steelmakers (X, NUE, CLF, STLD, SLX).\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01374:pharma",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "most favored nation",
+    "prices"
+   ],
+   "t_audio": 1374.1131451612903,
+   "t_wall": 1769705761.113145,
+   "t_wall_et": "2026-01-29T11:56:01.113145-05:00",
+   "segment_text": "what we've done because we're bringing drug prices down by 90%",
+   "context": "it's it's an amazing number. Nobody would have believed that. If you would have said that 3, 4, 5 years ago, people would have said, yeah. It's not a it's not a true fact. But so it has to be true because otherwise, you question me. You question me at everything. I have to be extremely accurate. I don't exaggerate it. I don't wanna exaggerate because you will call me. You don't call other people, but you would call me under my most favored nation's spot, which I think is the most important thing, Bobby, of all what we've done because we're bringing drug prices down by 90%",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "bringing drug prices down by 90%",
+    "summary": "The President claims most favored nation policy reducing drug prices by 90%."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated MFN drug pricing threat pressures healthcare sector sentiment broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF more directly exposed to reiterated 90% drug price cut rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large branded drugmaker faces margin pressure narrative from repeated MFN pricing claims.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "High-priced branded drug maker exposed to most-favored-nation pricing threat.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated pledge of 90% drug price cuts is negative sentiment for major pharma.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated his prior most-favored-nation drug pricing claims of 90% price cuts, a well-known but negative talking point for pharmaceutical companies and sector ETFs; steel comments were unrelated to these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated MFN drug pricing threat pressures healthcare sector sentiment broadly.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-specific ETF more directly exposed to reiterated 90% drug price cut rhetoric.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Large branded drugmaker faces margin pressure narrative from repeated MFN pricing claims.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"High-priced branded drug maker exposed to most-favored-nation pricing threat.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated pledge of 90% drug price cuts is negative sentiment for major pharma.\", \"added\": false}], \"summary\": \"The President repeated his prior most-favored-nation drug pricing claims of 90% price cuts, a well-known but negative talking point for pharmaceutical companies and sector ETFs; steel comments were unrelated to these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01435:health_ins",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "obamacare",
+   "text_span": "Obamacare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1435.167910958904,
+   "t_wall": 1769705822.167911,
+   "t_wall_et": "2026-01-29T11:57:02.167911-05:00",
+   "segment_text": "help repair some of the unaffordable care acts damage that they've done. Because the unaffordable care act, which is Obamacare, it's unaffordable.",
+   "context": "nation. We're gonna have the most favored price in the whole world. Whatever Whatever the lowest price in the world is that that's what we're going to pay. And I don't wanna go into a big deal, but nobody else could've gotten this, but this administration of being very nice when I say that the cost of prescription drugs is coming down by tremendous by a number that never was never even thought of. This will have a huge impact on health care, by the way, because, obviously, drugs are a big part of health care. And it will help repair some of the unaffordable care acts damage that they've done. Because the unaffordable care act, which is Obamacare, it's unaffordable.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Obamacare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "unaffordable care act, which is Obamacare, it's unaffordable",
+    "summary": "The President criticizes Obamacare as unaffordable and cites prescription drug cost reductions as addressing its damage."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President criticizes health insurers and proposes redirecting subsidy money away from insurers to individuals, a negative for insurer revenue model.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric against insurers profiting from government money and Obamacare criticism is mildly negative for health insurer sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same sector-wide criticism of insurers benefiting from ACA subsidies weighs on stock sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General anti-insurer rhetoric and threat to redirect ACA money to consumers is a modest negative overhang.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates plans for drug price cuts and criticizes Obamacare and insurers for profiting from government subsidies, a mild negative for health insurers as he proposes redirecting funds away from them; no new concrete policy details make this mostly repeat rhetoric with limited but directionally negative impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President criticizes health insurers and proposes redirecting subsidy money away from insurers to individuals, a negative for insurer revenue model.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric against insurers profiting from government money and Obamacare criticism is mildly negative for health insurer sentiment.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same sector-wide criticism of insurers benefiting from ACA subsidies weighs on stock sentiment.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General anti-insurer rhetoric and threat to redirect ACA money to consumers is a modest negative overhang.\", \"added\": false}], \"summary\": \"The President reiterates plans for drug price cuts and criticizes Obamacare and insurers for profiting from government subsidies, a mild negative for health insurers as he proposes redirecting funds away from them; no new concrete policy details make this mostly repeat rhetoric with limited but directionally negative impact.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01568:uk",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "selling"
+   ],
+   "t_audio": 1568.78916,
+   "t_wall": 1769705955.78916,
+   "t_wall_et": "2026-01-29T11:59:15.789160-05:00",
+   "segment_text": "nation policy for drugs will bring you drug prices down and level. So now they're selling a pill for $10 in London and a $130",
+   "context": "the Democrats will never go along with it, but the people go along with it. Because I put it out, it went viral. It went viral. As soon as I went went all over the place, It became the biggest story. I just said it. And so I think we have a great situation if we could do it. But if you think most favored nation policy for drugs will bring you drug prices down and level. So now they're selling a pill for $10 in London and a $130 in New York. The London price will go up to $20,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "selling a pill for $10 in London and a $130 in New York",
+    "summary": "The President cites UK drug pricing as example in most-favored-nation policy discussion."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of UK drug prices is illustrative rhetoric about US pharma pricing policy, not a UK economic or equity market driver.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark reiterates the President's most-favored-nation drug pricing push and tariff threats against drugmakers, using UK prices as a comparison; this is not price-relevant for a broad UK equity ETF like EWU.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWU\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mention of UK drug prices is illustrative rhetoric about US pharma pricing policy, not a UK economic or equity market driver.\",\"added\":false}],\"summary\":\"The remark reiterates the President's most-favored-nation drug pricing push and tariff threats against drugmakers, using UK prices as a comparison; this is not price-relevant for a broad UK equity ETF like EWU.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:01790:nvo",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "ozempic",
+   "text_span": "Ozempic",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1790.2399555555555,
+   "t_wall": 1769706177.2399557,
+   "t_wall_et": "2026-01-29T12:02:57.239956-05:00",
+   "segment_text": "you know, Ozempic,",
+   "context": "my friend who's very successful I told you, a seriously overweight person, He takes the fat the fat pill or the fat shot. And he was in London, and he said, cost $87 there, cost $1,300 in New York. What's going on? He called me up. And, I mean, I knew that, but he put it in a very blunt way. I've known him a long time. He's a crude individual, but smart as hell, made a lot of money. But he just thought it was sort of ridiculous. He happened to be in London, and he got the shot, you know, Ozempic,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Novo Nordisk",
+    "tickers": [
+     "NVO"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "cost $87 there, cost $1,300 in New York. What's going on?",
+    "summary": "The President criticizes Ozempic pricing disparity between London and New York."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates pressure to cut US GLP-1 drug prices to match lower international prices, a negative for Novo Nordisk's US pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks restate his push to lower US drug prices (citing Ozempic pricing gap), a repeat of known policy rhetoric that is mildly negative for Novo Nordisk given implied pricing pressure.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVO\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates pressure to cut US GLP-1 drug prices to match lower international prices, a negative for Novo Nordisk's US pricing power.\", \"added\": false}], \"summary\": \"The President's remarks restate his push to lower US drug prices (citing Ozempic pricing gap), a repeat of known policy rhetoric that is mildly negative for Novo Nordisk given implied pricing pressure.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02096:russia",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2096.925,
+   "t_wall": 1769706483.925,
+   "t_wall_et": "2026-01-29T12:08:03.925000-05:00",
+   "segment_text": "Russia,",
+   "context": "are so happy. It's amazing actually how We we we sent a message to the parents on your behalf, as you suggested, and they are they were so grateful. You'll I have a note to me is a much better word because it's hard to be happy. But they were, actually. I mean, they couldn't believe that they had their their baby boy. They the mother said the baby my baby boy back. It's a very terrible thing. Steve, Russia, Ukraine, we're making a lot of progress. Could you explain that? The Ukrainians actually said that we've made more progress in the last",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Russia, Ukraine, we're making a lot of progress.",
+    "summary": "The President states progress is being made regarding Russia and Ukraine."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Progress toward a Russia-Ukraine peace deal could ease sanctions pressure and is mildly positive for Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Peace progress could eventually ease supply risk premia but this is vague and not new information for energy sector pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general progress in Russia-Ukraine peace talks without new specifics, mildly bullish for Russia-linked assets like RSX but largely neutral for broad energy sector (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Progress toward a Russia-Ukraine peace deal could ease sanctions pressure and is mildly positive for Russia-exposed assets.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Peace progress could eventually ease supply risk premia but this is vague and not new information for energy sector pricing.\", \"added\": false}], \"summary\": \"The President's remarks reiterate general progress in Russia-Ukraine peace talks without new specifics, mildly bullish for Russia-linked assets like RSX but largely neutral for broad energy sector (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02098:ukraine",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2098.125,
+   "t_wall": 1769706485.125,
+   "t_wall_et": "2026-01-29T12:08:05.125000-05:00",
+   "segment_text": "Ukraine, we're making a lot of progress. Could you explain that? The Ukrainians actually said that we've made more progress in the last",
+   "context": "It's amazing actually how We we we sent a message to the parents on your behalf, as you suggested, and they are they were so grateful. You'll I have a note to me is a much better word because it's hard to be happy. But they were, actually. I mean, they couldn't believe that they had their their baby boy. They the mother said the baby my baby boy back. It's a very terrible thing. Steve, Russia, Ukraine, we're making a lot of progress. Could you explain that? The Ukrainians actually said that we've made more progress in the last",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "we're making a lot of progress",
+    "summary": "The President claims progress in Ukraine negotiations or settlement discussions."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Progress toward a Russia-Ukraine peace deal reduces expectations of sustained elevated defense spending, mildly negative for aerospace/defense.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Peace progress could ease geopolitical risk premium on energy prices but effect is small and ambiguous for the sector ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlights progress in Russia-Ukraine peace talks, a modestly bearish signal for defense stocks like ITA due to reduced war-risk premium, with limited direct impact on energy (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Progress toward a Russia-Ukraine peace deal reduces expectations of sustained elevated defense spending, mildly negative for aerospace/defense.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Peace progress could ease geopolitical risk premium on energy prices but effect is small and ambiguous for the sector ETF.\", \"added\": false}], \"summary\": \"The President highlights progress in Russia-Ukraine peace talks, a modestly bearish signal for defense stocks like ITA due to reduced war-risk premium, with limited direct impact on energy (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02329:fed",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [
+    "markets"
+   ],
+   "t_audio": 2329.756060465116,
+   "t_wall": 1769706716.7560604,
+   "t_wall_et": "2026-01-29T12:11:56.756060-05:00",
+   "segment_text": "inflation, and interest rates. Immigration,",
+   "context": "segment that you and she did has 1000000000 hits, 1000000000 hits on the Internet. So we're telling everyone, go fill out form 4540seven, the new savings accounts.gov. So thanks to you, the the new savings accounts, the next generations of America will benefit from today's record breaking economy, record breaking markets. Sir, when we came in, the Biden administration had destroyed the American people with 3 i's, immigration, inflation, and interest rates. Immigration,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Biden administration had destroyed the American people with interest rates",
+    "summary": "The President criticizes high interest rates under Biden administration."
+   },
+   "llm_attempts": 1,
+   "count": 12,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric hoping for lower rates is not new information affecting bond prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on economy and rates are generic optimism, not new policy for financials.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new rate or regulatory information specific to regional banks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric hoping for lower rates is not new information affecting bond prices.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments on economy and rates are generic optimism, not new policy for financials.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new rate or regulatory information specific to regional banks.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02337:tgt",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "tgt",
+   "entity": "Target",
+   "kind": "company",
+   "alias": "target",
+   "text_span": "target",
+   "dict_tickers": [
+    "TGT"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2337.3099065573774,
+   "t_wall": 1769706724.3099065,
+   "t_wall_et": "2026-01-29T12:12:04.309906-05:00",
+   "segment_text": "as we've heard, backed down to target prices are coming down,",
+   "context": "So thanks to you, the the new savings accounts, the next generations of America will benefit from today's record breaking economy, record breaking markets. Sir, when we came in, the Biden administration had destroyed the American people with 3 i's, immigration, inflation, and interest rates. Immigration, check, you close the border. The inflation, as we've heard, backed down to target prices are coming down, and interest rates, we hope there's more",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02367:de",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "de",
+   "entity": "John Deere",
+   "kind": "company",
+   "alias": "john deere",
+   "text_span": "John Deere",
+   "dict_tickers": [
+    "DE"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tariffs"
+   ],
+   "t_audio": 2367.85701754386,
+   "t_wall": 1769706754.8570175,
+   "t_wall_et": "2026-01-29T12:12:34.857018-05:00",
+   "segment_text": "They have from that, we saw the CEO of John Deere who said thanks thanks to your tariffs, new new plants in Indiana and North Carolina Massive 2 massive plants being built",
+   "context": "on on the way. We've got gains in wages, low prices, and I think 2026 is gonna be the year for the President boom. It's gonna be a supply side boom. I enjoyed the trip out to Iowa in the diner. The staff there was thanking you for the no tax on tips, and they're expecting big refunds. They have from that, we saw the CEO of John Deere who said thanks thanks to your tariffs, new new plants in Indiana and North Carolina Massive 2 massive plants being built",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "John Deere",
+    "tickers": [
+     "DE"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "CEO said thanks to your tariffs, new plants in Indiana and North Carolina",
+    "summary": "John Deere CEO credits the President's tariffs for new manufacturing plants in Indiana and North Carolina."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President highlights John Deere building two new US plants due to tariffs, a mildly positive domestic investment narrative though details already partly known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's anecdote praising John Deere's tariff-driven US plant investments is mildly positive for DE, though largely reiterates known tariff policy with limited new market-moving specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President highlights John Deere building two new US plants due to tariffs, a mildly positive domestic investment narrative though details already partly known.\", \"added\": false}], \"summary\": \"The President's anecdote praising John Deere's tariff-driven US plant investments is mildly positive for DE, though largely reiterates known tariff policy with limited new market-moving specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02375:defense_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tariffs"
+   ],
+   "t_audio": 2375.1157309941523,
+   "t_wall": 1769706762.115731,
+   "t_wall_et": "2026-01-29T12:12:42.115731-05:00",
+   "segment_text": "They have from that, we saw the CEO of John Deere who said thanks thanks to your tariffs, new new plants in Indiana and North Carolina Massive 2 massive plants being built",
+   "context": "is gonna be the year for the President boom. It's gonna be a supply side boom. I enjoyed the trip out to Iowa in the diner. The staff there was thanking you for the no tax on tips, and they're expecting big refunds. They have from that, we saw the CEO of John Deere who said thanks thanks to your tariffs, new new plants in Indiana and North Carolina Massive 2 massive plants being built by John Deere. And I he's the chairman and CEO, a wonderful guy. And I said to he was at the event we had in Iowa, which is appropriate, John Deere, Iowa. But I said to him, so what are you doing? He said, we just announced 2 massive plants.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02568:stock_market",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "record high",
+   "text_span": "record high",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2568.4221021276594,
+   "t_wall": 1769706955.4221022,
+   "t_wall_et": "2026-01-29T12:15:55.422102-05:00",
+   "segment_text": "We're gonna let workers pay record high prices,",
+   "context": "finances improving. So that will bring down the borrowing cost, the calendar year budget for 2024, 7% deficit to GDP, highest when we weren't at war, not in a recession, all the way down to 5.4 and getting better. Biggest decline since 2014. Generational gains in productivity, soaring productivity. We're gonna let workers pay record high prices, record high profits, and stock prices",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "record high profits, and stock prices",
+    "summary": "The President credits policy changes with record high stock prices and profits."
+   },
+   "llm_attempts": 2,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General upbeat economic rhetoric with a new Fed chair announcement teased, but mostly repeats known talking points with no market-moving specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific policy content, broad market commentary only.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about growth and lower rates is generically positive but not new or targeted.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely a rehash of prior claims about growth, deficits, and inflation, with a teaser about naming a new Fed chair; broad market ETFs (SPY, QQQ, DIA) see limited incremental price impact since the content lacks new tradable specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General upbeat economic rhetoric with a new Fed chair announcement teased, but mostly repeats known talking points with no market-moving specifics.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific policy content, broad market commentary only.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about growth and lower rates is generically positive but not new or targeted.\", \"added\": false}], \"summary\": \"The President's remarks are largely a rehash of prior claims about growth, deficits, and inflation, with a teaser about naming a new Fed chair; broad market ETFs (SPY, QQQ, DIA) see limited incremental price impact since the content lacks new tradable specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02583:defense_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 2583.6472950819675,
+   "t_wall": 1769706970.647295,
+   "t_wall_et": "2026-01-29T12:16:10.647295-05:00",
+   "segment_text": "Over the past 3 months, the consumer price index is just 2.1,",
+   "context": "all the way down to 5.4 and getting better. Biggest decline since 2014. Generational gains in productivity, soaring productivity. We're gonna let workers pay record high prices, record high profits, and stock prices are are soaring. We got a manufacturing renaissance, and all the key inflation metrics are trending lower. Over the past 3 months, the consumer price index is just 2.1, and core prices are even lower at 1.6.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02593:pharma",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2593.0860897435896,
+   "t_wall": 1769706980.0860898,
+   "t_wall_et": "2026-01-29T12:16:20.086090-05:00",
+   "segment_text": "as you talked about, the pharmaceutical",
+   "context": "We're gonna let workers pay record high prices, record high profits, and stock prices are are soaring. We got a manufacturing renaissance, and all the key inflation metrics are trending lower. Over the past 3 months, the consumer price index is just 2.1, and core prices are even lower at 1.6. And I think that that could trend below 1 given energy, as you talked about, the pharmaceutical discounts and rents.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "pharmaceutical discounts and rents",
+    "summary": "The President credits pharmaceutical price discounts as factor in lower inflation."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General mention of pharma discounts helping inflation, not new policy specific to healthcare sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated framing that pharmaceutical discounts are lowering prices implies continued pricing pressure on drugmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated rhetoric on pharma discounts suggests ongoing pricing pressure but nothing new announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic pharma discount rhetoric implies mild negative pricing sentiment for large drugmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of drug price discount narrative is mildly negative for branded pharma pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments largely repeat known rhetoric about inflation and pharmaceutical price discounts without new policy specifics, implying only mild, low-confidence negative pressure on pharma pricing-sensitive names and no clear market-moving news for broader healthcare tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General mention of pharma discounts helping inflation, not new policy specific to healthcare sector.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated framing that pharmaceutical discounts are lowering prices implies continued pricing pressure on drugmakers.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated rhetoric on pharma discounts suggests ongoing pricing pressure but nothing new announced.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic pharma discount rhetoric implies mild negative pricing sentiment for large drugmakers.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of drug price discount narrative is mildly negative for branded pharma pricing power.\", \"added\": false}], \"summary\": \"The President's comments largely repeat known rhetoric about inflation and pharmaceutical price discounts without new policy specifics, implying only mild, low-confidence negative pressure on pharma pricing-sensitive names and no clear market-moving news for broader healthcare tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02949:lly",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "lly",
+   "entity": "Eli Lilly",
+   "kind": "company",
+   "alias": "eli lilly",
+   "text_span": "Eli Lilly",
+   "dict_tickers": [
+    "LLY"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants",
+    "prices",
+    "stock"
+   ],
+   "t_audio": 2949.865,
+   "t_wall": 1769707336.865,
+   "t_wall_et": "2026-01-29T12:22:16.865000-05:00",
+   "segment_text": "Eli Lilly is building 6 new plants, including an API plant.",
+   "context": "As you said, not only do I want MFN, but I want them to all reassure their production to this country. And they don't have any money to do it because we've taken it off from them. And I wanna make sure we continue to lead the world world in innovation. We succeeded in all of those goals, and the the proof that we did that is after we signed those agreements, the stock prices for those companies went up $1,300,000,000,000. Amazing. Right. And they are reshoring Eli Lilly is building 6 new plants, including an API plant.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Eli Lilly",
+    "tickers": [
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Eli Lilly is building 6 new plants, including an API plant.",
+    "summary": "The President credits his policy for Eli Lilly's investment in 6 new domestic plants."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LLY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for reshoring investment and MFN deal completion is mildly positive but largely already-known information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate previously announced MFN drug pricing deals and Eli Lilly's reshoring plans, providing mild positive sentiment but limited new information for LLY.",
+    "raw": "{\"tickers\":[{\"ticker\":\"LLY\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Praise for reshoring investment and MFN deal completion is mildly positive but largely already-known information.\",\"added\":false}],\"summary\":\"The President's remarks reiterate previously announced MFN drug pricing deals and Eli Lilly's reshoring plans, providing mild positive sentiment but limited new information for LLY.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02959:china",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "plant",
+    "plants"
+   ],
+   "t_audio": 2959.879509090909,
+   "t_wall": 1769707346.879509,
+   "t_wall_et": "2026-01-29T12:22:26.879509-05:00",
+   "segment_text": "So the next time that we have a pandemic in this country, we're not gonna be stuck buying API from China who cuts us off.",
+   "context": "And I wanna make sure we continue to lead the world world in innovation. We succeeded in all of those goals, and the the proof that we did that is after we signed those agreements, the stock prices for those companies went up $1,300,000,000,000. Amazing. Right. And they are reshoring Eli Lilly is building 6 new plants, including an API plant. So the next time that we have a pandemic in this country, we're not gonna be stuck buying API from China who cuts us off.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "not gonna be stuck buying API from China who cuts us off",
+    "summary": "The President criticizes China for cutting off API supply during pandemics, supporting domestic reshoring."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General reshoring rhetoric away from China but no new policy against Chinese equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about API sourcing is repeat rhetoric, not a new China-wide policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct relevance to Chinese internet/tech sector from this pharma reshoring remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark focuses on drug pricing deals and reshoring pharma production away from China, mildly negative for China narrative but not a new actionable policy for these broad China ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General reshoring rhetoric away from China but no new policy against Chinese equities broadly.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment about API sourcing is repeat rhetoric, not a new China-wide policy action.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct relevance to Chinese internet/tech sector from this pharma reshoring remark.\",\"added\":false}],\"summary\":\"Remark focuses on drug pricing deals and reshoring pharma production away from China, mildly negative for China narrative but not a new actionable policy for these broad China ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:02963:nvo",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "novo nordisk",
+   "text_span": "Novo Nordisk",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "plants"
+   ],
+   "t_audio": 2963.6652851851854,
+   "t_wall": 1769707350.665285,
+   "t_wall_et": "2026-01-29T12:22:30.665285-05:00",
+   "segment_text": "We're gonna be able to make it right here. Novo Nordisk is building 4 new plants,",
+   "context": "We succeeded in all of those goals, and the the proof that we did that is after we signed those agreements, the stock prices for those companies went up $1,300,000,000,000. Amazing. Right. And they are reshoring Eli Lilly is building 6 new plants, including an API plant. So the next time that we have a pandemic in this country, we're not gonna be stuck buying API from China who cuts us off. We're gonna be able to make it right here. Novo Nordisk is building 4 new plants,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Novo Nordisk",
+    "tickers": [
+     "NVO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Novo Nordisk is building 4 new plants",
+    "summary": "Novo Nordisk announced construction of 4 new manufacturing plants."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive framing of Novo Nordisk's US reshoring investment and MFN drug deal completion suggests favorable regulatory treatment, though price-cap policies could offset gains.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised Novo Nordisk's US plant investments as part of a broader drug pricing deal narrative, a mildly positive signal for NVO despite looming pricing pressure.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive framing of Novo Nordisk's US reshoring investment and MFN drug deal completion suggests favorable regulatory treatment, though price-cap policies could offset gains.\", \"added\": false}], \"summary\": \"The President praised Novo Nordisk's US plant investments as part of a broader drug pricing deal narrative, a mildly positive signal for NVO despite looming pricing pressure.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03112:health_ins",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "fraud"
+   ],
+   "t_audio": 3112.8112470588235,
+   "t_wall": 1769707499.811247,
+   "t_wall_et": "2026-01-29T12:24:59.811247-05:00",
+   "segment_text": "fighting hundreds of billions of dollars in Medicaid, Medicare fraud",
+   "context": "and it's gonna lower the cost of meats, of proteins, of whole grains, of fruits and vegetables so that every American will have an reach an affordable meal that actually is real food. 70% of American kids now are 70% of the diet of American kids is now ultra processed foods. That's why we're spending $5,000,000,000,000 in in treating chronic disease in this country every every year. Year. We are attacking fraud. We have odds fighting hundreds of billions of dollars in Medicaid, Medicare fraud",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "fighting hundreds of billions of dollars in Medicaid, Medicare fraud",
+    "summary": "The President pledges to combat hundreds of billions in Medicaid fraud."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fraud crackdown and elimination of prior authorization pressure insurer margins and revenue cycle practices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Prior authorization elimination and fraud enforcement threaten insurer profitability broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector-wide negative from Medicaid/Medicare fraud crackdown and prior authorization changes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Heavy Medicare Advantage exposure makes Humana sensitive to fraud enforcement rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fraud crackdown and elimination of prior authorization pressure insurer margins and revenue cycle practices.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Prior authorization elimination and fraud enforcement threaten insurer profitability broadly.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector-wide negative from Medicaid/Medicare fraud crackdown and prior authorization changes.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Heavy Medicare Advantage exposure makes Humana sensitive to fraud enforcement rhetoric.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03213:mrk",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "mrk",
+   "entity": "Merck",
+   "kind": "company",
+   "alias": "merck",
+   "text_span": "Merck",
+   "dict_tickers": [
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3213.485,
+   "t_wall": 1769707600.485,
+   "t_wall_et": "2026-01-29T12:26:40.485000-05:00",
+   "segment_text": "Merck,",
+   "context": "every American is gonna have that guarantee. We're doing a lot of other stuff, but we were told to keep it short. You are. And the autism that's moving along really, isn't it? Trying to figure out We've now dozens of studies, maybe over a 100, and we are gonna get those done for you. Good. That's so important. Also, Eli Lilly, Merck, Pfizer, every drug company, they're spending trillions of dollars right now as we speak building plants in The United States because",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Merck",
+    "tickers": [
+     "MRK"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Eli Lilly, Merck, Pfizer, every drug company, they're spending trillions of dollars right now as we speak building plants in The United States",
+    "summary": "Merck among drug companies investing trillions in US plant construction."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates known tariff threats and pharma reshoring already publicized, with capex being a cost rather than a clear near-term benefit for Merck.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks repeat existing tariff threats pushing drugmakers like Merck to build US plants, which is more a cost/compliance story than a clear positive catalyst, so limited price-relevant new information for MRK.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MRK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates known tariff threats and pharma reshoring already publicized, with capex being a cost rather than a clear near-term benefit for Merck.\", \"added\": false}], \"summary\": \"The President's remarks repeat existing tariff threats pushing drugmakers like Merck to build US plants, which is more a cost/compliance story than a clear positive catalyst, so limited price-relevant new information for MRK.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03214:pfe",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3214.2852,
+   "t_wall": 1769707601.2852,
+   "t_wall_et": "2026-01-29T12:26:41.285200-05:00",
+   "segment_text": "Pfizer,",
+   "context": "every American is gonna have that guarantee. We're doing a lot of other stuff, but we were told to keep it short. You are. And the autism that's moving along really, isn't it? Trying to figure out We've now dozens of studies, maybe over a 100, and we are gonna get those done for you. Good. That's so important. Also, Eli Lilly, Merck, Pfizer,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Eli Lilly, Merck, Pfizer",
+    "summary": "The President lists Pfizer among pharmaceutical companies in context of autism studies."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff threat on pharma imports is repeated rhetoric but building US plants offsets long-term tariff risk, net ambiguous for PFE.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates prior tariff threats on pharma while praising domestic plant-building efforts by Pfizer among others; no new firm-specific policy or numbers announced, so impact on PFE is minimal and ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff threat on pharma imports is repeated rhetoric but building US plants offsets long-term tariff risk, net ambiguous for PFE.\", \"added\": false}], \"summary\": \"The President reiterates prior tariff threats on pharma while praising domestic plant-building efforts by Pfizer among others; no new firm-specific policy or numbers announced, so impact on PFE is minimal and ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03235:defense_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "percent",
+    "plant",
+    "tariffs"
+   ],
+   "t_audio": 3235.268,
+   "t_wall": 1769707622.268,
+   "t_wall_et": "2026-01-29T12:27:02.268000-05:00",
+   "segment_text": "in 2 or 3 years from now. So I said, you better have your plant built because in",
+   "context": "and we are gonna get those done for you. Good. That's so important. Also, Eli Lilly, Merck, Pfizer, every drug company, they're spending trillions of dollars right now as we speak building plants in The United States because they wanna be able to save a lot of money on tariffs. It'll be hundreds of percent. A 100%, 200%, 300% in 2 or 3 years from now. So I said, you better have your plant built because in",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03258:lly_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "lly_word",
+   "entity": "Eli Lilly",
+   "kind": "company",
+   "alias": "lilly",
+   "text_span": "Lilly",
+   "dict_tickers": [
+    "LLY"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3258.315,
+   "t_wall": 1769707645.315,
+   "t_wall_et": "2026-01-29T12:27:25.315000-05:00",
+   "segment_text": "Lilly, who's a fantastic guy, a star, actually. He's a star, very smart.",
+   "context": "100%, 200%, 300% in 2 or 3 years from now. So I said, you better have your plant built because in 2 years from now, before I leave off, it's be a sad day. It's a very sad day for me. But before I leave, every 1 of these plants better be built because you're be paying 300% tariffs. And they're all building their little hearts out. I spoke with the head of Eli Lilly, who's a fantastic guy, a star, actually. He's a star, very smart.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Eli Lilly",
+    "tickers": [
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "head of Eli Lilly, who's a fantastic guy, a star",
+    "summary": "The President praised Eli Lilly's leader and referenced 300% tariffs driving plant construction."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for Eli Lilly's CEO and reiteration of already-known domestic plant-building/tariff threat is largely repeat rhetoric with mixed cost implications.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments reiterate known pharma tariff threats and praise Eli Lilly's US manufacturing buildout, a mildly positive but mostly already-priced narrative with no new concrete policy detail.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LLY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for Eli Lilly's CEO and reiteration of already-known domestic plant-building/tariff threat is largely repeat rhetoric with mixed cost implications.\", \"added\": false}], \"summary\": \"The President's comments reiterate known pharma tariff threats and praise Eli Lilly's US manufacturing buildout, a mildly positive but mostly already-priced narrative with no new concrete policy detail.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03335:fed",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3335.4673432343234,
+   "t_wall": 1769707722.4673433,
+   "t_wall_et": "2026-01-29T12:28:42.467343-05:00",
+   "segment_text": "I'm gonna ask Scott Turner to speak really quickly about housing because in my opinion, I have very strong strong opinions on housing. That's what I did for a long time. I did good with it. But, you know, we gotta get interest rates down even lower. They are now pretty low, but we gotta get them lower.",
+   "context": "month, we approved origin and cell therapies at any time in history. And we're making this a safe and productive and encouraging ecosystem for biotech so that China does not steal that industry from us. Fantastic. I'm gonna ask Scott Turner to speak really quickly about housing because in my opinion, I have very strong strong opinions on housing. That's what I did for a long time. I did good with it. But, you know, we gotta get interest rates down even lower. They are now pretty low, but we gotta get them lower.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "we gotta get interest rates down even lower",
+    "summary": "The President calls for the Federal Reserve to lower interest rates further."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated rhetoric pushing the Fed to cut rates without new policy action carries limited independent signal for long bonds.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic call for lower rates is familiar rhetoric with mixed implications for bank margins, so limited net effect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks face similar ambiguous exposure to rate-cut jawboning as broader financials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar calls for lower interest rates to support housing values, a well-known stance with no new policy detail, so market impact on rate-sensitive tickers is limited.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated rhetoric pushing the Fed to cut rates without new policy action carries limited independent signal for long bonds.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic call for lower rates is familiar rhetoric with mixed implications for bank margins, so limited net effect.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks face similar ambiguous exposure to rate-cut jawboning as broader financials.\", \"added\": false}], \"summary\": \"The President repeats familiar calls for lower interest rates to support housing values, a well-known stance with no new policy detail, so market impact on rate-sensitive tickers is limited.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03687:oil_strong",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil production",
+   "text_span": "oil production",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3687.175456,
+   "t_wall": 1769708074.175456,
+   "t_wall_et": "2026-01-29T12:34:34.175456-05:00",
+   "segment_text": "United States oil production today is greater than",
+   "context": "And I want them to understand it. You know, there's so much talk about, oh, we're gonna drive housing prices down. I don't wanna drive housing prices down. I wanna drive housing prices up for people that own their homes, and they can be assured that's what's gonna happen. Chris, could you say a few words about energy, please? You bet, mister president. I can say with confidence that your energy dominance agenda is firing on all cylinders. United States oil production today is greater than Saudi Arabia and Russia combined, the number 2 and number 3 producers.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03695:natgas",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3695.1446428571426,
+   "t_wall": 1769708082.1446428,
+   "t_wall_et": "2026-01-29T12:34:42.144643-05:00",
+   "segment_text": "Our natural gas production today is greater than Russia,",
+   "context": "And I want them to understand it. You know, there's so much talk about, oh, we're gonna drive housing prices down. I don't wanna drive housing prices down. I wanna drive housing prices up for people that own their homes, and they can be assured that's what's gonna happen. Chris, could you say a few words about energy, please? You bet, mister president. I can say with confidence that your energy dominance agenda is firing on all cylinders. United States oil production today is greater than Saudi Arabia and Russia combined, the number 2 and number 3 producers. Our natural gas production today is greater than Russia,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "natural gas production today is greater than Russia",
+    "summary": "US natural gas production exceeds Russia's output; speaker praises energy dominance."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "UNG tracks near-term natural gas futures prices, not production volumes, so praise for US output growth is not directly price-relevant.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "General praise for US natural gas dominance and export capacity is mildly supportive of LNG exporters but restates known policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "As a major US natural gas producer, EQT benefits modestly from favorable rhetoric on domestic gas production dominance, though this is not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"UNG tracks near-term natural gas futures prices, not production volumes, so praise for US output growth is not directly price-relevant.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"General praise for US natural gas dominance and export capacity is mildly supportive of LNG exporters but restates known policy stance.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"As a major US natural gas producer, EQT benefits modestly from favorable rhetoric on domestic gas production dominance, though this is not new information.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03731:coal",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "beautiful clean coal",
+   "text_span": "beautiful clean coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3731.9926829268293,
+   "t_wall": 1769708118.992683,
+   "t_wall_et": "2026-01-29T12:35:18.992683-05:00",
+   "segment_text": "And this beautiful clean coal was the MVP",
+   "context": "Huge production in The United States. Secretary Bergham at the interior department has taken in more money on oil and gas lease sales in the 1st year of this administration than the entire 4 years of the Biden administration. And beyond oil and gas, 6 new coal leases under this 1st year of this administration from the interior department, and coal production is growing again in The United States after years of of decline. And this beautiful clean coal was the MVP",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "beautiful clean coal was the MVP",
+    "summary": "The President praised coal production growth and new leases in his first year."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised coal's reliability and growth, generally positive rhetoric for coal producers though largely repeat rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive coal sector commentary and new coal leases modestly favor domestic coal miners like Arch Resources.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric and lease growth mildly benefit metallurgical/thermal coal producer Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of coal's reliability during the cold snap and new coal leases is mildly bullish for domestic coal producers (BTU, ARCH, AMR), though the remarks mostly restate known pro-coal policy rather than reveal new deals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised coal's reliability and growth, generally positive rhetoric for coal producers though largely repeat rhetoric.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive coal sector commentary and new coal leases modestly favor domestic coal miners like Arch Resources.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric and lease growth mildly benefit metallurgical/thermal coal producer Alpha Metallurgical Resources.\", \"added\": false}], \"summary\": \"The President's praise of coal's reliability during the cold snap and new coal leases is mildly bullish for domestic coal producers (BTU, ARCH, AMR), though the remarks mostly restate known pro-coal policy rather than reveal new deals.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03756:solar",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar",
+   "text_span": "solar",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3756.2667590163933,
+   "t_wall": 1769708143.266759,
+   "t_wall_et": "2026-01-29T12:35:43.266759-05:00",
+   "segment_text": "has delivered 20 times more electricity than solar and batteries. Think about that. 20 times more. And if you choose coal,",
+   "context": "And this beautiful clean coal was the MVP of the huge cold snap we're in right now, I can say with some confidence, hundreds of American lives have been saved because of your leaning in and stopping the killing of coal and revitalizing coal. Coal, over the last few days, where we're peak demand in electricity, has delivered 20 times more electricity than solar and batteries. Think about that. 20 times more. And if you choose coal,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Coal delivered 20 times more electricity than solar and batteries.",
+    "summary": "The President criticizes solar and battery performance compared to coal during peak demand."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General anti-solar rhetoric reinforces negative policy sentiment toward solar sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean energy ETF hurt by repeated criticism of wind and solar reliability.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar panel maker faces sentiment headwind from repeated anti-solar rhetoric, though not policy-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar/battery equipment maker indirectly targeted by comparison to coal reliability.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated pro-coal, anti-wind/solar rhetoric is mildly negative for clean energy names but is largely restated messaging rather than new policy, limiting magnitude and confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General anti-solar rhetoric reinforces negative policy sentiment toward solar sector ETF.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad clean energy ETF hurt by repeated criticism of wind and solar reliability.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar panel maker faces sentiment headwind from repeated anti-solar rhetoric, though not policy-specific.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar/battery equipment maker indirectly targeted by comparison to coal reliability.\", \"added\": false}], \"summary\": \"The President's repeated pro-coal, anti-wind/solar rhetoric is mildly negative for clean energy names but is largely restated messaging rather than new policy, limiting magnitude and confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03820:eu",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "expensive"
+   ],
+   "t_audio": 3820.4613414634146,
+   "t_wall": 1769708207.4613414,
+   "t_wall_et": "2026-01-29T12:36:47.461341-05:00",
+   "segment_text": "and they make a fortune on windmills that don't even work, and they don't produce anywhere near what they should be. And it's the worst, most expensive form of energy there is. And by the way, Europe is destroying itself with the stupid windmills they're putting all over their beautiful",
+   "context": "How does it react under freezing, freezing cold weather? It steps up and delivers big time. In fact, what cold did during this this storm was deliver massively more electricity than it was delivering a month ago because we needed far more electricity. Electricity. Who Who can can step step up? Up? The windmills, by the way, are all frozen. You know, that they don't turn. The windmills aren't turning. The windmills that these fools paid for, that the fool is this country. Because the people that have the windmills get massive subsidy, and they make a fortune on windmills that don't even work, and they don't produce anywhere near what they should be. And it's the worst, most expensive form of energy there is. And by the way, Europe is destroying itself with the stupid windmills they're putting all over their beautiful",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Europe is destroying itself with stupid windmills",
+    "summary": "The President criticizes EU energy policy for costly, ineffective windmill subsidies."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical criticism of EU energy policy is not a new, tradeable catalyst for this broad Europe ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat of familiar the President anti-wind/anti-EU rhetoric with no policy specifics affecting eurozone equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete tariff, sanction, or trade action mentioned, just rhetorical criticism of European energy choices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad rhetorical criticism of European wind energy policy without any new tariff, sanction, or trade action, so impact on European equity ETFs (VGK, EZU, FEZ) is likely negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical criticism of EU energy policy is not a new, tradeable catalyst for this broad Europe ETF.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat of familiar the President anti-wind/anti-EU rhetoric with no policy specifics affecting eurozone equities.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete tariff, sanction, or trade action mentioned, just rhetorical criticism of European energy choices.\", \"added\": false}], \"summary\": \"The President's remarks are broad rhetorical criticism of European wind energy policy without any new tariff, sanction, or trade action, so impact on European equity ETFs (VGK, EZU, FEZ) is likely negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03917:china",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 3917.8219121495326,
+   "t_wall": 1769708304.821912,
+   "t_wall_et": "2026-01-29T12:38:24.821912-05:00",
+   "segment_text": "and that were really powerful. You know? By the way, China does most of everything they're doing with coal.",
+   "context": "dramatically different outcome for the American people. We continued the Biden era policies for 1 more year, continued to shut down coal plants, continued these crazy climate restrictions. They wouldn't even let power plants run at maximum at maximum demand time. We hadn't liberated all the backup generators that are sitting there. We gave up an emergency approval. So a lot of that we're going to close the coal plants that are were modern and good and threw up very little problem, and that were really powerful. You know? By the way, China does most of everything they're doing with coal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "China does most of everything they're doing with coal.",
+    "summary": "The President notes China relies heavily on coal for energy production."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment about China's coal use is descriptive rhetoric, not a new policy action affecting Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff, sanction or trade policy announced toward China, just general commentary on coal usage.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark unrelated to Chinese internet/tech sector fundamentals.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on US domestic energy policy and coal, with only a passing, non-substantive comment about China's coal use; no new China-specific policy action is announced, so no material price impact expected for FXI, MCHI, or KWEB.",
+    "raw": "```json\n{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comment about China's coal use is descriptive rhetoric, not a new policy action affecting Chinese equities.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new tariff, sanction or trade policy announced toward China, just general commentary on coal usage.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark unrelated to Chinese internet/tech sector fundamentals.\",\"added\":false}],\"summary\":\"The President's remarks focus on US domestic energy policy and coal, with only a passing, non-substantive comment about China's coal use; no new China-specific policy action is announced, so no material price impact expected for FXI, MCHI, or KWEB.\"}\n```"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:03934:coal_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "sell"
+   ],
+   "t_audio": 3934.7040625,
+   "t_wall": 1769708321.7040625,
+   "t_wall_et": "2026-01-29T12:38:41.704062-05:00",
+   "segment_text": "the coal I mean, I understand they're using it also as a great backup. So you build a plant, but they have it as a backup in case of tragedy, in case of really bad weather, etcetera, etcetera.",
+   "context": "and that were really powerful. You know? By the way, China does most of everything they're doing with coal. Not that we wanna copy anybody, but, you know, they make the windmills, but they don't have a lot of wind farms. That's somebody ought to look at that. How many wind farms do they have? Very, very few. They make them. They sell them. They make a fortune, but they don't use them. So the coal I mean, I understand they're using it also as a great backup. So you build a plant, but they have it as a backup in case of tragedy, in case of really bad weather, etcetera, etcetera.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "coal...great backup...in case of tragedy, bad weather",
+    "summary": "The President praises coal as reliable backup power for plants during emergencies."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises coal reliability and highlights blocking closures of coal plants, supportive for coal producers like Peabody.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on coal's role in grid reliability benefits Arch Resources as a coal producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal stance and emphasis on stopping plant closures is modestly supportive for Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's pro-coal rhetoric and claims of blocking coal plant closures are mildly positive for coal producers (BTU, ARCH, AMR), though largely reiterates known administration policy rather than new news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises coal reliability and highlights blocking closures of coal plants, supportive for coal producers like Peabody.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive rhetoric on coal's role in grid reliability benefits Arch Resources as a coal producer.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal stance and emphasis on stopping plant closures is modestly supportive for Alpha Metallurgical Resources.\", \"added\": false}], \"summary\": \"The President's pro-coal rhetoric and claims of blocking coal plant closures are mildly positive for coal producers (BTU, ARCH, AMR), though largely reiterates known administration policy rather than new news.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04117:oil",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 4117.050260493827,
+   "t_wall": 1769708504.0502605,
+   "t_wall_et": "2026-01-29T12:41:44.050261-05:00",
+   "segment_text": "mostly electric. But electric could they could use nuclear to do it. They can use oil and gas. They can use coal. They can use whatever they want. I think many are choosing oil and gas because it's there. It's dried. It's true. It's plentiful.",
+   "context": "1 of the things we're doing with energy, think that's so important. We have an old grid, been around a long time, and not really it can't be much expanded. It can be fixed up a little bit, but can't be much expanded. And we have some plants that are so big that the grid would never be able to hold it. We're allowing them to build a electric producing plant, mostly electric. But electric could they could use nuclear to do it. They can use oil and gas. They can use coal. They can use whatever they want. I think many are choosing oil and gas because it's there. It's dried. It's true. It's plentiful.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "They can use oil and gas. Many are choosing oil and gas because it's plentiful.",
+    "summary": "The President allows energy plants to use oil and gas for electricity production."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-oil/gas rhetoric supports energy sector sentiment but adds little new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments about power plant fuel choice do not materially affect crude oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Favorable framing of oil and gas as preferred energy source for new plants is mildly supportive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar mild tailwind from pro-oil/gas commentary though largely reiterating known policy stance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate a pro-oil-and-gas stance for powering new energy-hungry data center-like plants, providing a mild but not highly novel tailwind to energy equities like XOM, CVX, and XLE, while having negligible direct impact on crude prices (USO).",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-oil/gas rhetoric supports energy sector sentiment but adds little new policy specifics.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments about power plant fuel choice do not materially affect crude oil prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Favorable framing of oil and gas as preferred energy source for new plants is mildly supportive.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar mild tailwind from pro-oil/gas commentary though largely reiterating known policy stance.\", \"added\": false}], \"summary\": \"The President's remarks reiterate a pro-oil-and-gas stance for powering new energy-hungry data center-like plants, providing a mild but not highly novel tailwind to energy equities like XOM, CVX, and XLE, while having negligible direct impact on crude prices (USO).\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04138:defense_word",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fire",
+    "plants"
+   ],
+   "t_audio": 4138.01820754717,
+   "t_wall": 1769708525.0182076,
+   "t_wall_et": "2026-01-29T12:42:05.018208-05:00",
+   "segment_text": "the plants, you know, you read, well, how do we ever fire those plants? Because we need to do this, we need 2 times the electricity we produce in 1 year for the entire country, which is almost hard to believe. These buildings are so big. They're going up now. So I did something that nobody thought was possible. Also,",
+   "context": "mostly electric. But electric could they could use nuclear to do it. They can use oil and gas. They can use coal. They can use whatever they want. I think many are choosing oil and gas because it's there. It's dried. It's true. It's plentiful. It's inexpensive. Some are going nuclear. Some are going both. Many are going all 3. But the plants, you know, you read, well, how do we ever fire those plants? Because we need to do this, we need 2 times the electricity we produce in 1 year for the entire country, which is almost hard to believe. These buildings are so big. They're going up now. So I did something that nobody thought was possible. Also,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04251:smr",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "smr",
+   "entity": "NuScale",
+   "kind": "company",
+   "alias": "nuscale",
+   "text_span": "NuScale",
+   "dict_tickers": [
+    "SMR"
+   ],
+   "triggers_nearby": [
+    "approval"
+   ],
+   "t_audio": 4251.3062,
+   "t_wall": 1769708638.3062,
+   "t_wall_et": "2026-01-29T12:43:58.306200-05:00",
+   "segment_text": "and the state and the city, that's Gavin, NuScale,",
+   "context": "or so houses, which shouldn't have been lost, they should have allowed the water to come down from the Pacific Northwest, which was very plentiful. But they didn't do that. They lost 25,000. Lee and his team gave them the most complicated permit within 20 days. Everybody, every single house that burned down was got the federal approval. Unfortunately, it's well over a year, and the state and the city, that's Gavin, NuScale, and the city, the mayor who's grossly incompetent, by the way, they have been unable to give permits. They're like 3 houses being built.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "NuScale",
+    "tickers": [
+     "SMR"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "NuScale, and the city, the mayor who's grossly incompetent",
+    "summary": "The President criticizes NuScale and local officials for slow permit delays on housing reconstruction."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMR",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The mention of NuScale appears to be a mistaken/garbled reference to Gavin Newsom rather than a substantive comment on the company's nuclear business, so no clear fundamental impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The transcript's 'NuScale' reference is almost certainly a transcription error for Gavin Newsom, not a real critique of NuScale Power's business, so there is no meaningful price-relevant signal for SMR.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMR\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The mention of NuScale appears to be a mistaken/garbled reference to Gavin Newsom rather than a substantive comment on the company's nuclear business, so no clear fundamental impact.\", \"added\": false}], \"summary\": \"The transcript's 'NuScale' reference is almost certainly a transcription error for Gavin Newsom, not a real critique of NuScale Power's business, so there is no meaningful price-relevant signal for SMR.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04649:farmers",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4649.911405405405,
+   "t_wall": 1769709036.9114053,
+   "t_wall_et": "2026-01-29T12:50:36.911405-05:00",
+   "segment_text": "Hardworking families, farmers, small businesses expressing gratitude lined up to thank you. I was out with our great vice president last week in Toledo, Ohio. They are thanking this administration for getting Main Street back. The President tax cuts, the tariffs,",
+   "context": "History says that doesn't work too well. Go ahead. We're gonna make sure that doesn't happen, mister president. Please. But under your leadership, you've ended at least 8 wars. Okay? But the probably the most important and underreported war that this president ended was Joe Biden and the Democrats' war on Main Street and hardworking families. We've seen it as I've gone across the country this month, 10 different states, and we saw it when we were together in Iowa. Hardworking families, farmers, small businesses expressing gratitude lined up to thank you. I was out with our great vice president last week in Toledo, Ohio. They are thanking this administration for getting Main Street back. The President tax cuts, the tariffs,",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04665:spacers",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "rocket",
+   "text_span": "rocket",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "deregulation",
+    "tariffs"
+   ],
+   "t_audio": 4665.619908759124,
+   "t_wall": 1769709052.6199088,
+   "t_wall_et": "2026-01-29T12:50:52.619909-05:00",
+   "segment_text": "it's all rocket fuel for hardworking families in Main Streets. And I see it whether it's talking about small business expensing a 100% accelerated for made in America factories, the 20% pass through, but it's also working families where they have expanded child tax credits,",
+   "context": "Hardworking families, farmers, small businesses expressing gratitude lined up to thank you. I was out with our great vice president last week in Toledo, Ohio. They are thanking this administration for getting Main Street back. The President tax cuts, the tariffs, deregulation, it's all rocket fuel for hardworking families in Main Streets. And I see it whether it's talking about small business expensing a 100% accelerated for made in America factories, the 20% pass through, but it's also working families where they have expanded child tax credits,",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04724:farmers",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "agriculture",
+   "text_span": "agriculture",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4724.641724137931,
+   "t_wall": 1769709111.641724,
+   "t_wall_et": "2026-01-29T12:51:51.641724-05:00",
+   "segment_text": "in Macon, Georgia. 500 employees machining parts for our defense, our agriculture, our automotive, our aerospace industry. They're gonna hire 500",
+   "context": "All time small business confidence hit a record under this president last year after the President tax cuts. All time small business formation now at 36,000,000 small businesses and a record $100,000,000,000 out from SBA because a record number of people wanna invest in this country and hire. And whether I've talked to manufacturers about tariffs, they know that this president is bringing manufacturing back just like Prince Manufacturing in Macon, Georgia. 500 employees machining parts for our defense, our agriculture, our automotive, our aerospace industry. They're gonna hire 500",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04762:f",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4762.778571428572,
+   "t_wall": 1769709149.7785714,
+   "t_wall_et": "2026-01-29T12:52:29.778571-05:00",
+   "segment_text": "of our manufacturers meet the small business definition. So Ford has 5,000 small manufacturing suppliers.",
+   "context": "more people this year because of tariffs, because of the President tax cuts, and because of SBA lending. And I see this state after state as I've gone across the country, talked to hundreds of business owners, walked dozens of factory floors. This is not being covered, but it's going on in America. The number 1 problem is they need skilled workers. This is something I'm working on with secretary Chavez Deere. I'm working across the administration to ensure that we empower our small businesses. 98% of our manufacturers meet the small business definition. So Ford has 5,000 small manufacturing suppliers.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Ford has 5,000 small manufacturing suppliers.",
+    "summary": "Ford cited as example of company with extensive small supplier base."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Ford is mentioned only as an illustrative example of small-business suppliers, not a policy action affecting the company directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general pro-manufacturing and small-business rhetoric with Ford cited merely as an example, offering no new policy or material information specific to Ford.",
+    "raw": "{\"tickers\": [{\"ticker\": \"F\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Ford is mentioned only as an illustrative example of small-business suppliers, not a policy action affecting the company directly.\", \"added\": false}], \"summary\": \"The remark is general pro-manufacturing and small-business rhetoric with Ford cited merely as an example, offering no new policy or material information specific to Ford.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04777:fed",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [
+    "regulation"
+   ],
+   "t_audio": 4777.791871035941,
+   "t_wall": 1769709164.791871,
+   "t_wall_et": "2026-01-29T12:52:44.791871-05:00",
+   "segment_text": "GDP now is probably underestimating where it is in 4 q, but with interest rates going down, with regulation going down, these are all taxes on small businesses, and those are going away. And thanks to the President, your leadership, we are seeing Main Street boom, hardworking families have 1000 dollars already in their pockets. And when they get their thousand dollar refund tax, I hope they all remember that every Democrat voted against them getting their tax refunds",
+   "context": "you brought in is creating an economic boom like none we've ever seen before. We are gonna have 7% GDP growth. GDP now is probably underestimating where it is in 4 q, but with interest rates going down, with regulation going down, these are all taxes on small businesses, and those are going away. And thanks to the President, your leadership, we are seeing Main Street boom, hardworking families have 1000 dollars already in their pockets. And when they get their thousand dollar refund tax, I hope they all remember that every Democrat voted against them getting their tax refunds",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04858:steel",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4858.865,
+   "t_wall": 1769709245.865,
+   "t_wall_et": "2026-01-29T12:54:05.865000-05:00",
+   "segment_text": "steel. We have the steel now, and we're gonna be doing that as an enhancement. But we our military is very, very strong. You may wanna say something about the",
+   "context": "We're gonna be doing something new. We're bringing back the battleship. And I thought, like, you remember the battleships for the great Iowa and Alabama, Missouri. Those unbelievable scenes that you see victory at sea. You'd see these incredible ships. And I thought they were powerful, but the battleships that we're building are going to be 100 times more powerful than those beautiful works of art. I mean, they were magnificent. All steel. We have the steel now, and we're gonna be doing that as an enhancement. But we our military is very, very strong. You may wanna say something about the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "We have the steel now, and we're gonna be doing that.",
+    "summary": "The President plans to use steel for building new, more powerful battleships."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New battleship-building program implies incremental domestic steel demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Military shipbuilding buildout could boost demand for US steel producers like Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Domestic steel-intensive battleship program is a mild positive for Cleveland-Cliffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steel Dynamics could benefit modestly from new military steel demand rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steel sector ETF likely to see mild positive sentiment from battleship-building comments.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark about building new, more powerful battleships using domestic steel is a mild positive catalyst for US steel producers and the steel sector ETF, though details remain vague and largely rhetorical.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New battleship-building program implies incremental domestic steel demand.\", \"added\": false},\n{\"ticker\": \"NUE\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Military shipbuilding buildout could boost demand for US steel producers like Nucor.\", \"added\": false},\n{\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Domestic steel-intensive battleship program is a mild positive for Cleveland-Cliffs.\", \"added\": false},\n{\"ticker\": \"STLD\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Steel Dynamics could benefit modestly from new military steel demand rhetoric.\", \"added\": false},\n{\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF likely to see mild positive sentiment from battleship-building comments.\", \"added\": false}\n],\n\"summary\": \"The President's remark about building new, more powerful battleships using domestic steel is a mild positive catalyst for US steel producers and the steel sector ETF, though details remain vague and largely rhetorical.\"}"
+   }
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04921:iran",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4921.745056179775,
+   "t_wall": 1769709308.7450562,
+   "t_wall_et": "2026-01-29T12:55:08.745056-05:00",
+   "segment_text": "we treat them like the Al Qaeda of the Western Hemisphere, he meant it, and we're executing that. When you said, mister president, we're securing the border, the military was proud to do their part alongside Homeland Security to do that. Same thing with, with Iran right now, ensuring that, they have all the options to make a deal. They should not pursue,",
+   "context": "What happened in Afghanistan, what happened in Ukraine, a war that never would have occurred, what happened on October 7 in Israel, never would have happened under the President. So as a result, we're having to rebuild how our enemies perceive us. And when the President said, we're not getting a nuclear Iran, you won't have a nuclear bomb, he meant it. And we sent those b twos halfway around the world, and then they'd never noticed. When he said, we're not gonna tolerate trafficking drugs anymore in our hemisphere, we treat them like the Al Qaeda of the Western Hemisphere, he meant it, and we're executing that. When you said, mister president, we're securing the border, the military was proud to do their part alongside Homeland Security to do that. Same thing with, with Iran right now, ensuring that, they have all the options to make a deal. They should not pursue,",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04991:health_ins",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "insurance companies",
+   "text_span": "insurance companies",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4991.15,
+   "t_wall": 1769709378.15,
+   "t_wall_et": "2026-01-29T12:56:18.150000-05:00",
+   "segment_text": "and the insurance companies didn't wanna",
+   "context": "bombs dropped 3 minutes before the helicopters dropped. No other country could coordinate that. No other president would have been willing to empower those warriors that way to be that effective. And that sends a message to every capital around the world that when the President speaks, he means business, and we are reestablishing deterrence at the war department, mister president. Thank you. Great job you're doing. Just to finish up on that, the Somalian pirates over the years have, pirated, stolen many ships. They would get large amounts of money for the ship. You know, you have 1000000000 dollar ship, and the insurance companies didn't wanna fight because, you know, some of those ships are very flammable. They're carrying millions",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "lT62rXuOAh4:04997:oil_strong",
+   "video_id": "lT62rXuOAh4",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 4997.9783333333335,
+   "t_wall": 1769709384.9783332,
+   "t_wall_et": "2026-01-29T12:56:24.978333-05:00",
+   "segment_text": "of barrels of oil.",
+   "context": "bombs dropped 3 minutes before the helicopters dropped. No other country could coordinate that. No other president would have been willing to empower those warriors that way to be that effective. And that sends a message to every capital around the world that when the President speaks, he means business, and we are reestablishing deterrence at the war department, mister president. Thank you. Great job you're doing. Just to finish up on that, the Somalian pirates over the years have, pirated, stolen many ships. They would get large amounts of money for the ship. You know, you have 1000000000 dollar ship, and the insurance companies didn't wanna fight because, you know, some of those ships are very flammable. They're carrying millions of barrels of oil. Very flammable, very dangerous situation if they're shot at.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

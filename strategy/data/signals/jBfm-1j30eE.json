@@ -1,0 +1,1527 @@
+{
+ "video": {
+  "id": "jBfm-1j30eE",
+  "url": "https://www.youtube.com/watch?v=jBfm-1j30eE",
+  "title": "The President Participates in the Champion of Coal Event",
+  "channel": "The White House",
+  "duration": 1675.0,
+  "was_live": true,
+  "release_timestamp": 1770845212.0,
+  "upload_timestamp": 1770847381.0,
+  "upload_date": "20260211",
+  "label": "Participates in the Champion of Coal Event",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1770845212.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 22,
+  "confirmed": 17,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 22
+ },
+ "signals": [
+  {
+   "signal_id": "jBfm-1j30eE:00097:coal",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal miners",
+   "text_span": "coal miners",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 97.86313432835821,
+   "t_wall": 1770845309.8631344,
+   "t_wall_et": "2026-02-11T16:28:29.863134-05:00",
+   "segment_text": "Our amazing coal miners, thank you very much, fellas. That's great.",
+   "context": "We love clean, beautiful coal, don't we, Doug? I'm thrilled to welcome to the White House the men and women who light our cities. And, you know, you do things that people don't even understand. There's so much. You do so much. You heat our homes, fuel our factories, and turn natural resources into American riches and dreams. Our amazing coal miners, thank you very much, fellas. That's great.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal miners",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "We love clean, beautiful coal. Thank you very much, fellas.",
+    "summary": "The President praised coal miners and the coal sector at White House event."
+   },
+   "llm_attempts": 1,
+   "count": 10,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal praise reinforces supportive sentiment for coal producers but offers no new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal sector-wide praise is mildly positive though rhetoric is not new.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad coal-friendly rhetoric mildly supportive but lacks concrete new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely ceremonial praise for coal miners with no new policy or funding details, offering only mild, low-conviction upside for coal producers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"BTU\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-coal praise reinforces supportive sentiment for coal producers but offers no new policy specifics.\",\"added\":false},{\"ticker\":\"ARCH\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Coal sector-wide praise is mildly positive though rhetoric is not new.\",\"added\":false},{\"ticker\":\"AMR\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad coal-friendly rhetoric mildly supportive but lacks concrete new policy.\",\"added\":false}],\"summary\":\"The President's remarks are largely ceremonial praise for coal miners with no new policy or funding details, offering only mild, low-conviction upside for coal producers.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00130:stock_market",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "price",
+    "stock"
+   ],
+   "t_audio": 130.53311389344265,
+   "t_wall": 1770845342.533114,
+   "t_wall_et": "2026-02-11T16:29:02.533114-05:00",
+   "segment_text": "and now I decided to do this. But you know what? We just hit the highest price in the history of the stock market, 50,000,",
+   "context": "And I know you well. You know, I know you well. I think I get about 97% of your vote, and you wouldn't wanna do anything else. You wouldn't switch with a guy who had a beautiful penthouse apartment on 5th Avenue. You wouldn't switch with that me. That was me. I had a nice easy life, and now I decided to do this. But you know what? We just hit the highest price in the history of the stock market, 50,000,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "We just hit the highest price in the history of the stock market, 50,000",
+    "summary": "The President claims stock market reached record high of 50,000."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "General praise of record market levels is already known information with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "No tech-specific policy mentioned, just generic market boasting.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Dow-focused claim of 50,000 references already known market performance, not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark is celebratory rhetoric about coal miners and a claimed stock market record, with no new tradable policy signal for broad market ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"General praise of record market levels is already known information with no new policy content.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"No tech-specific policy mentioned, just generic market boasting.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Dow-focused claim of 50,000 references already known market performance, not new information.\", \"added\": false}], \"summary\": \"Remark is celebratory rhetoric about coal miners and a claimed stock market record, with no new tradable policy signal for broad market ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00346:coal_word",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 346.2121696923077,
+   "t_wall": 1770845558.2121696,
+   "t_wall_et": "2026-02-11T16:32:38.212170-05:00",
+   "segment_text": "would keep running when we need it most, and that's 24 hours a day in rain, sleet, and snow. You know, coal can operate when other",
+   "context": "And I'll give you the bad news. It's the 1st time that that's happened in more than 27 years. Alright? Those other presidents didn't take good care of you. They didn't take good care of you at all. They didn't realize what they had. The last time many of us were together, I signed a historic executive order to ensure that America's beautiful clean coal plants would keep running when we need it most, and that's 24 hours a day in rain, sleet, and snow. You know, coal can operate when other",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "America's beautiful clean coal plants would keep running when we need it most",
+    "summary": "The President praised coal plants and signed executive order to ensure their operation."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric reaffirms supportive policy stance but adds no new concrete measures.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal sector praise is mildly positive but largely restates known executive order support.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal miners broadly benefit from continued rhetorical and policy support though nothing new announced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric reaffirms supportive policy stance but adds no new concrete measures.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Coal sector praise is mildly positive but largely restates known executive order support.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Coal miners broadly benefit from continued rhetorical and policy support though nothing new announced.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00422:solar",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar",
+   "text_span": "solar",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 422.98,
+   "t_wall": 1770845634.98,
+   "t_wall_et": "2026-02-11T16:33:54.980000-05:00",
+   "segment_text": "while solar and wind",
+   "context": "And you see it all the time. So instead, when large parts of our country were hit with winter storms, it was coal that kept the power on, and it was coal that never was bothered by cold weather, warm weather. It's never bothered by anything. It just keeps on chugging. Right? During this vicious storm, and they had some really bad ones, coal generation surged 31%, while solar and wind",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind [sector]",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "coal generation surged 31%, while solar and wind",
+    "summary": "The President contrasts coal's reliability during winter storms against solar and wind underperformance."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates anti-solar/wind rhetoric and pro-coal policy stance, mildly bearish sentiment for solar ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean energy ETF exposed to same anti-renewable rhetoric and policy bias favoring coal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Criticism of solar reliability and continued hostile administration tone toward solar subsidies is a mild negative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar/inverter maker faces same negative policy sentiment as broader solar sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated pro-coal, anti-wind/solar rhetoric with no new policy specifics is mildly negative sentiment for solar and clean energy equities, though largely a restatement of known stance.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates anti-solar/wind rhetoric and pro-coal policy stance, mildly bearish sentiment for solar ETF.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad clean energy ETF exposed to same anti-renewable rhetoric and policy bias favoring coal.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Criticism of solar reliability and continued hostile administration tone toward solar subsidies is a mild negative.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Residential solar/inverter maker faces same negative policy sentiment as broader solar sector.\", \"added\": false}], \"summary\": \"The President's repeated pro-coal, anti-wind/solar rhetoric with no new policy specifics is mildly negative sentiment for solar and clean energy equities, though largely a restatement of known stance.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00436:china",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 436.7343174137931,
+   "t_wall": 1770845648.7343173,
+   "t_wall_et": "2026-02-11T16:34:08.734317-05:00",
+   "segment_text": "Let's look for a couple of wind farms in China, see if you can find 1. They sell us those things for fortunes, but we don't do them anymore. Have we done any this year, Doug?",
+   "context": "that kept the power on, and it was coal that never was bothered by cold weather, warm weather. It's never bothered by anything. It just keeps on chugging. Right? During this vicious storm, and they had some really bad ones, coal generation surged 31%, while solar and wind totally collapsed. I'm not a big fan of those crazy windmills. They're all made in China. You know, they're made in China, but not used by China. Let's look for a couple of wind farms in China, see if you can find 1. They sell us those things for fortunes, but we don't do them anymore. Have we done any this year, Doug?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "They're made in China, but not used by China. They sell us those things for fortunes.",
+    "summary": "The President criticizes China for manufacturing windmills sold to US but not used domestically."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical criticism of China over wind turbine trade, not a new policy action affecting broad China equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic anti-China rhetoric with no concrete tariff or sanction announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark targets wind turbine manufacturing, unrelated to Chinese internet/tech sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's coal-event remarks praise coal and criticize wind energy and China's turbine exports, but contain no new China-specific trade action, so broad China ETFs should see negligible abnormal moves.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical criticism of China over wind turbine trade, not a new policy action affecting broad China equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic anti-China rhetoric with no concrete tariff or sanction announcement.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark targets wind turbine manufacturing, unrelated to Chinese internet/tech sector.\", \"added\": false}], \"summary\": \"The President's coal-event remarks praise coal and criticize wind energy and China's turbine exports, but contain no new China-specific trade action, so broad China ETFs should see negligible abnormal moves.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00555:defense_word",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 555.1178985507247,
+   "t_wall": 1770845767.1178985,
+   "t_wall_et": "2026-02-11T16:36:07.117898-05:00",
+   "segment_text": "that would have been forced to shut down in the very immediate future. And today, I'm proud to announce that the Tennessee Valley Authority is taking action to save 2 major coal plants in Tennessee Tennessee",
+   "context": "and we withdrew from the unfair one-sided Paris Climate Accord. That was another beauty we had. We paid $1,000,000,000,000. Nobody else had to pay 10¢. Already, I've saved 74 coal power plants from crushing restrictions and closures that would have been forced to shut down in the very immediate future. And today, I'm proud to announce that the Tennessee Valley Authority is taking action to save 2 major coal plants in Tennessee Tennessee Valley Authority.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00636:defense_word",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 636.6902747252748,
+   "t_wall": 1770845848.6902747,
+   "t_wall_et": "2026-02-11T16:37:28.690275-05:00",
+   "segment_text": "and continue to do all the things that they do. These 2 plants were slated for termination,",
+   "context": "a year. They're paying them 10,000,000. I think the speaker of the house wants to resign and head the Tennessee Valley there. And he could do a much better job, I can tell you that. Is that right, Doug? They pay them $10,000,000 a year? Can you believe it? Well, the President is on the scene now. We're gonna make his life miserable. $10,000,000. I wonder what he got before he got that job. Probably making 150,000. Right? And the Kingston fossil plant in Harriman, Tennessee, so they're gonna remain open and they're gonna be vibrant. They're gonna be improved, built up, and continue to do all the things that they do. These 2 plants were slated for termination,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector plants",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "These plants were slated for termination",
+    "summary": "The President states defense plants in Tennessee will remain open and be improved."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remarks concern coal plants and TVA, not defense sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No defense-specific policy mentioned in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Content is about coal energy policy, irrelevant to drone maker.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No connection between coal plant remarks and Kratos business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt focuses on coal plants, TVA management criticism, and new coal mining permits, with no substantive relevance to defense contractors; the flagged 'Defense' mention appears to be a false positive from '2 plants'.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remarks concern coal plants and TVA, not defense sector.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No defense-specific policy mentioned in this excerpt.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Content is about coal energy policy, irrelevant to drone maker.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No connection between coal plant remarks and Kratos business.\", \"added\": false}], \"summary\": \"The excerpt focuses on coal plants, TVA management criticism, and new coal mining permits, with no substantive relevance to defense contractors; the flagged 'Defense' mention appears to be a false positive from '2 plants'.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00735:oil",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 735.1962211453745,
+   "t_wall": 1770845947.196221,
+   "t_wall_et": "2026-02-11T16:39:07.196221-05:00",
+   "segment_text": "in my 1st year, and that number is gonna be about 25 or 30% this coming year, at least. These pro American energy policies are bringing energy prices way down. You see what's happening even with gasoline. Gasoline I was in Iowa",
+   "context": "If you look at some of the most prosperous places in the world, they run on coal. Since I took office, coal production is up by nearly 4,000,000 tons a month after falling for decades. I mean, literally decades. Coal power generation is up by nearly 15% in my 1st year, and that number is gonna be about 25 or 30% this coming year, at least. These pro American energy policies are bringing energy prices way down. You see what's happening even with gasoline. Gasoline I was in Iowa",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "energy prices way down. You see what's happening even with gasoline.",
+    "summary": "The President credits pro-American energy policies for bringing gasoline and energy prices down."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Speech focuses on coal, not new oil/gas policy, so minimal direct sector impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts falling gasoline prices as a policy win, implying continued downward price pressure narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention of Exxon or new oil policy, effect ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct company-specific catalyst mentioned for Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remarks are a pro-coal rhetorical push crediting energy policy for lower gasoline prices, with no new concrete oil/gas policy announced, so effects on oil majors are largely neutral while low gas price framing is mildly negative for oil price benchmarks.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Speech focuses on coal, not new oil/gas policy, so minimal direct sector impact.\", \"added\": false},\n{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts falling gasoline prices as a policy win, implying continued downward price pressure narrative.\", \"added\": false},\n{\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention of Exxon or new oil policy, effect ambiguous.\", \"added\": false},\n{\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct company-specific catalyst mentioned for Chevron.\", \"added\": false}\n],\n\"summary\": \"The remarks are a pro-coal rhetorical push crediting energy policy for lower gasoline prices, with no new concrete oil/gas policy announced, so effects on oil majors are largely neutral while low gas price framing is mildly negative for oil price benchmarks.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00837:coal",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal miners",
+   "text_span": "coal miners",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 837.1117055555555,
+   "t_wall": 1770846049.1117055,
+   "t_wall_et": "2026-02-11T16:40:49.111706-05:00",
+   "segment_text": "As he said, my name is Kayla Blackford, and I am so proud and honored to be here today representing Peabody and coal miners across this country.",
+   "context": "son, Isaac. And Kayla, if you could come forward, I'd like to just have you say a few words, please. Come on up. Where's Kayla? Kayla. Oh, hi, Kayla. Thank you, mister president. As he said, my name is Kayla Blackford, and I am so proud and honored to be here today representing Peabody and coal miners across this country. My husband and I both work at Bear Run Mine in Southern Indiana.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00926:coal",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal plants",
+   "text_span": "coal plants",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "plants"
+   ],
+   "t_audio": 926.5550000000001,
+   "t_wall": 1770846138.555,
+   "t_wall_et": "2026-02-11T16:42:18.555000-05:00",
+   "segment_text": "The common sense policies to keep coal plants running implemented by this administration",
+   "context": "has friends whose parents also work at Bear Run. And when you grow up seeing huge mining equipment from the road, like Isaac and his friends do, you dream about the day when you get to run that equipment. When a mine closes, families don't just lose their jobs. They're often forced to leave their communities, their schools, and their support systems behind. The common sense policies to keep coal plants running implemented by this administration mean that my husband and I can keep working,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00995:steel",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 995.5709368932039,
+   "t_wall": 1770846207.570937,
+   "t_wall_et": "2026-02-11T16:43:27.570937-05:00",
+   "segment_text": "Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's",
+   "context": "Good job. She did a good job. Right? Look at the boy. He's so proud of mom. Did a good job. Couldn't do better. Right? Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "Coal is critical to our national security, vital to steel production",
+    "summary": "The President links coal to steel production as national security priority."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal-to-steel linkage and national security framing mildly supportive of domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-domestic-industry rhetoric tied to steel is mildly positive but not company-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "CLF is coal-and-steel exposed, benefiting from new military coal purchasing agreements and steel security framing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Modest tailwind from pro-steel/coal rhetoric but no specific policy for this firm.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF benefits marginally from supportive rhetoric on domestic steel/coal industries.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New executive order directing the Department of War to sign power purchase agreements with coal plants directly boosts coal producers like Peabody.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Government commitment to buy more coal via military purchasing agreements is a direct positive for coal miners.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President announced a new executive order directing the military to buy coal via power purchase agreements, a clear positive for coal producers, with secondary positive framing for steel/national security linking mildly benefiting steelmakers and related ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Coal-to-steel linkage and national security framing mildly supportive of domestic steelmakers.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-domestic-industry rhetoric tied to steel is mildly positive but not company-specific.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"CLF is coal-and-steel exposed, benefiting from new military coal purchasing agreements and steel security framing.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Modest tailwind from pro-steel/coal rhetoric but no specific policy for this firm.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.53,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Steel sector ETF benefits marginally from supportive rhetoric on domestic steel/coal industries.\",\"added\":false},{\"ticker\":\"BTU\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"New executive order directing the Department of War to sign power purchase agreements with coal plants directly boosts coal producers like Peabody.\",\"added\":true},{\"ticker\":\"ARCH\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Government commitment to buy more coal via military purchasing agreements is a direct positive for coal miners.\",\"added\":true}],\"summary\":\"The President announced a new executive order directing the military to buy coal via power purchase agreements, a clear positive for coal producers, with secondary positive framing for steel/national security linking mildly benefiting steelmakers and related ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00996:defense",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "shipbuilding",
+   "text_span": "shipbuilding",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 996.728213592233,
+   "t_wall": 1770846208.7282135,
+   "t_wall_et": "2026-02-11T16:43:28.728214-05:00",
+   "segment_text": "Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's",
+   "context": "Good job. She did a good job. Right? Look at the boy. He's so proud of mom. Did a good job. Couldn't do better. Right? Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense/Shipbuilding",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "LMT",
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.91,
+    "quote": "Coal is critical to our national security, vital to shipbuilding",
+    "summary": "The President identifies coal as vital to shipbuilding and national security."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Coal power purchasing order for military facilities is not a direct driver of aerospace/defense equipment demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of shipbuilding is incidental to a coal energy policy, not a new contract for aerospace/defense firms.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LMT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No specific contract or spending news for Lockheed from this coal-focused remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark centers on coal power agreements, not RTX-specific defense procurement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NOC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Shipbuilding reference is generic national-security rhetoric, not a Northrop-specific catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "As a major shipbuilder, General Dynamics could see modest positive sentiment from renewed emphasis on shipbuilding/national security tied to coal for steel.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is primarily a coal energy policy announcement (military power purchasing agreements) with only a tangential shipbuilding/national-security reference, offering little direct new information for defense contractors; effects are mostly neutral with a slight positive tilt for shipbuilders like GD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Coal power purchasing order for military facilities is not a direct driver of aerospace/defense equipment demand.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention of shipbuilding is incidental to a coal energy policy, not a new contract for aerospace/defense firms.\", \"added\": false}, {\"ticker\": \"LMT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No specific contract or spending news for Lockheed from this coal-focused remark.\", \"added\": false}, {\"ticker\": \"RTX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remark centers on coal power agreements, not RTX-specific defense procurement.\", \"added\": false}, {\"ticker\": \"NOC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Shipbuilding reference is generic national-security rhetoric, not a Northrop-specific catalyst.\", \"added\": false}, {\"ticker\": \"GD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"As a major shipbuilder, General Dynamics could see modest positive sentiment from renewed emphasis on shipbuilding/national security tied to coal for steel.\", \"added\": false}], \"summary\": \"The remark is primarily a coal energy policy announcement (military power purchasing agreements) with only a tangential shipbuilding/national-security reference, offering little direct new information for defense contractors; effects are mostly neutral with a slight positive tilt for shipbuilders like GD.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:00997:ai",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 997.7118987864078,
+   "t_wall": 1770846209.7118988,
+   "t_wall_et": "2026-02-11T16:43:29.711899-05:00",
+   "segment_text": "Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's",
+   "context": "Good job. She did a good job. Right? Look at the boy. He's so proud of mom. Did a good job. Couldn't do better. Right? Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial Intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.89,
+    "quote": "Coal is critical to our national security, vital to artificial intelligence",
+    "summary": "The President connects coal importance to AI sector and national security."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal-AI linkage is rhetorical and does not directly affect NVDA fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct semiconductor policy action mentioned, just general AI power framing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct impact on Microsoft from coal power purchasing order.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New executive order directing military to buy coal power for grid reliability could support data-center power infrastructure suppliers like Vertiv.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks announce a new executive order for military coal power purchasing agreements to bolster grid reliability for AI/data centers, a modest positive for power-infrastructure names like VRT, but largely non-material for chipmakers and software firms like NVDA, SMH, and MSFT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Coal-AI linkage is rhetorical and does not directly affect NVDA fundamentals.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct semiconductor policy action mentioned, just general AI power framing.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct impact on Microsoft from coal power purchasing order.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New executive order directing military to buy coal power for grid reliability could support data-center power infrastructure suppliers like Vertiv.\", \"added\": true}], \"summary\": \"The President's remarks announce a new executive order for military coal power purchasing agreements to bolster grid reliability for AI/data centers, a modest positive for power-infrastructure names like VRT, but largely non-material for chipmakers and software firms like NVDA, SMH, and MSFT.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01021:coal",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal plants",
+   "text_span": "coal plants",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "executive order",
+    "plants"
+   ],
+   "t_audio": 1021.869317029703,
+   "t_wall": 1770846233.869317,
+   "t_wall_et": "2026-02-11T16:43:53.869317-05:00",
+   "segment_text": "That's why I'm also pleased to announce that in just a moment, I will sign an executive order that directs the Department of War to work directly with coal plants on the new power purchasing agreements,",
+   "context": "Anyway, thank you, Kelly. That's really nice. Thank you very much. Coal is also critical to our national security, vital to everything from steel production to shipbuilding and artificial intelligence. It's incredible what's happening with coal, and it's also incredible how clean they are able to keep it now with all of the new techniques. By using it, they do they're able to do things environmentally that are amazing. You see that? That's why I'm also pleased to announce that in just a moment, I will sign an executive order that directs the Department of War to work directly with coal plants on the new power purchasing agreements,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "Department of War to work directly with coal plants on new power purchasing agreements",
+    "summary": "The President directs Department of War to negotiate power purchasing agreements with coal plants."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Executive order directing military to sign power purchasing agreements with coal plants boosts demand for coal producers like Peabody.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New government-driven coal purchasing agreements benefit coal miners broadly including Arch Resources.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Positive sector-wide policy for coal producers lifts Alpha Metallurgical Resources sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.7, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Executive order directing military to sign power purchasing agreements with coal plants boosts demand for coal producers like Peabody.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New government-driven coal purchasing agreements benefit coal miners broadly including Arch Resources.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Positive sector-wide policy for coal producers lifts Alpha Metallurgical Resources sentiment.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01032:coal_word",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "expensive"
+   ],
+   "t_audio": 1032.7772459016394,
+   "t_wall": 1770846244.777246,
+   "t_wall_et": "2026-02-11T16:44:04.777246-05:00",
+   "segment_text": "resilient grid power. And we're gonna be buying a lot of coal through the military now, and it's going to be less expensive and actually much more effective than what we have been using for many, many years. And again, with the environmental progress that's been made on coal, it's gonna be just as clean.",
+   "context": "That's why I'm also pleased to announce that in just a moment, I will sign an executive order that directs the Department of War to work directly with coal plants on the new power purchasing agreements, ensuring that we have more reliable power and stronger and more resilient grid power. And we're gonna be buying a lot of coal through the military now, and it's going to be less expensive and actually much more effective than what we have been using for many, many years. And again, with the environmental progress that's been made on coal, it's gonna be just as clean.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.95,
+    "quote": "we're gonna be buying a lot of coal through the military now",
+    "summary": "The President directs DoD to purchase coal via power agreements, citing cost savings and grid reliability."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "DoD directive to buy coal via new power purchasing agreements is a concrete demand boost for coal producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Government-backed coal procurement policy broadly benefits major US coal miners.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased federal coal demand supports metallurgical/thermal coal producers like Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced an executive order directing the Department of War to buy coal via new power purchasing agreements, a concrete new subsidy-like demand boost that is mildly positive for coal miners BTU, ARCH, and AMR.",
+    "raw": "{\"tickers\":[{\"ticker\":\"BTU\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"DoD directive to buy coal via new power purchasing agreements is a concrete demand boost for coal producers.\",\"added\":false},{\"ticker\":\"ARCH\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Government-backed coal procurement policy broadly benefits major US coal miners.\",\"added\":false},{\"ticker\":\"AMR\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Increased federal coal demand supports metallurgical/thermal coal producers like Alpha Metallurgical Resources.\",\"added\":false}],\"summary\":\"The President announced an executive order directing the Department of War to buy coal via new power purchasing agreements, a concrete new subsidy-like demand boost that is mildly positive for coal miners BTU, ARCH, and AMR.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01089:oil_strong",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 1089.535,
+   "t_wall": 1770846301.535,
+   "t_wall_et": "2026-02-11T16:45:01.535000-05:00",
+   "segment_text": "barrels of oil that we have floating right now to Houston to be refined, and we're getting energy from all different sources. And so oil and gas is fantastic.",
+   "context": "our commitment to American energy independence and the American energy dominance. We're gonna be dominant. We are dominant right now. We have a new group of people that we're very close to, become very close to, and that's called Venezuela, where we're taking in, in this case, oil. We had 50,000,000 barrels of oil that we have floating right now to Houston to be refined, and we're getting energy from all different sources. And so oil and gas is fantastic.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01123:japan",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 1123.4716666666668,
+   "t_wall": 1770846335.4716666,
+   "t_wall_et": "2026-02-11T16:45:35.471667-05:00",
+   "segment_text": "In just the past few months, we've made historic trade deals with Japan,",
+   "context": "barrels of oil that we have floating right now to Houston to be refined, and we're getting energy from all different sources. And so oil and gas is fantastic. So many of them are so good, but we're not gonna use the bad ones. America is now the number 1 energy producer in the world. We are by far number 1. In fact, we're gonna very we're very soon going to be number 1 by double what number 2 is. And under our leadership, we're becoming a massive energy exporter. In just the past few months, we've made historic trade deals with Japan,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "historic trade deals with Japan",
+    "summary": "The President claims historic trade deals made with Japan in recent months."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General reference to already-known trade deals with Japan boosting coal exports is not new material information for broad Japan equity ETF pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat rhetoric on energy dominance and prior trade deals, including a passing mention of Japan trade deals that is not new news and unlikely to materially move EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General reference to already-known trade deals with Japan boosting coal exports is not new material information for broad Japan equity ETF pricing.\", \"added\": false}], \"summary\": \"The President's remarks are largely repeat rhetoric on energy dominance and prior trade deals, including a passing mention of Japan trade deals that is not new news and unlikely to materially move EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01123:korea",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "korea",
+   "text_span": "Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "deals",
+    "exports"
+   ],
+   "t_audio": 1123.985,
+   "t_wall": 1770846335.985,
+   "t_wall_et": "2026-02-11T16:45:35.985000-05:00",
+   "segment_text": "Korea, India, and others to increase our coal exports dramatically. We're now exporting coal to all over the world, and the quality of our coal is supposed to be I mean, I'm not an expert in coal, but I've been very good to the people that are",
+   "context": "in the world. We are by far number 1. In fact, we're gonna very we're very soon going to be number 1 by double what number 2 is. And under our leadership, we're becoming a massive energy exporter. In just the past few months, we've made historic trade deals with Japan, Korea, India, and others to increase our coal exports dramatically. We're now exporting coal to all over the world, and the quality of our coal is supposed to be I mean, I'm not an expert in coal, but I've been very good to the people that are",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "historic trade deals with Japan, Korea, India, and others to increase our coal exports",
+    "summary": "The President claims historic coal export trade deal with South Korea among others."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal export deal with Korea is a minor positive for Korean energy trade but not a broad market-mover for the Korea ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on US coal export deals with Korea and others, a small positive for trade ties but limited direct impact on EWY, which tracks broad Korean equities.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWY\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Coal export deal with Korea is a minor positive for Korean energy trade but not a broad market-mover for the Korea ETF.\",\"added\":false}],\"summary\":\"The President's remarks focus on US coal export deals with Korea and others, a small positive for trade ties but limited direct impact on EWY, which tracks broad Korean equities.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01124:india",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "deals",
+    "exports"
+   ],
+   "t_audio": 1124.378353909465,
+   "t_wall": 1770846336.3783538,
+   "t_wall_et": "2026-02-11T16:45:36.378354-05:00",
+   "segment_text": "Korea, India, and others to increase our coal exports dramatically. We're now exporting coal to all over the world, and the quality of our coal is supposed to be I mean, I'm not an expert in coal, but I've been very good to the people that are",
+   "context": "in the world. We are by far number 1. In fact, we're gonna very we're very soon going to be number 1 by double what number 2 is. And under our leadership, we're becoming a massive energy exporter. In just the past few months, we've made historic trade deals with Japan, Korea, India, and others to increase our coal exports dramatically. We're now exporting coal to all over the world, and the quality of our coal is supposed to be I mean, I'm not an expert in coal, but I've been very good to the people that are",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "historic trade deals with Japan, Korea, India, and others to increase our coal exports",
+    "summary": "The President claims historic coal export trade deal with India among others."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General trade-deal rhetoric with India is not new or specific enough to move a broad India ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same vague coal-export trade deal claim offers no new tradable specifics for this India equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical praise for US coal exports and past trade deals, with no new concrete details affecting India-focused ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General trade-deal rhetoric with India is not new or specific enough to move a broad India ETF.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same vague coal-export trade deal claim offers no new tradable specifics for this India equity ETF.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical praise for US coal exports and past trade deals, with no new concrete details affecting India-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01254:stock_market",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "s and p",
+   "text_span": "S and P",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1254.4124315789472,
+   "t_wall": 1770846466.4124315,
+   "t_wall_et": "2026-02-11T16:47:46.412431-05:00",
+   "segment_text": "on the S and P and,",
+   "context": "Right, speaker? And we have to fight. Just came out. Everyone's saying that can't be right. 7878% reduction in our trade deficit. And next year, we're gonna be positive if we keep it all going. We're waiting for a very important decision from the Supreme Court. But I wanna thank the speakers here because you have fought with me. You've got you got it very early. Now almost everybody's getting it. But it's number numbers that we've never seen. The other thing is breaking 7,000 on the S and P and,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "S&P 500",
+    "tickers": [
+     "SPY"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "breaking 7,000 on the S and P",
+    "summary": "The President reports S&P 500 index breaking 7,000 level."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bragging about market highs is already known and not new information for pricing SPY itself.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific policy content, just general market boasting.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Dow 50,000 comment is a restatement of already-known market performance, not new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are celebratory rhetoric about already-public market milestones (S&P 7000, Dow 50000) and trade deficit figures, offering no new tradable policy information for broad index ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General bragging about market highs is already known and not new information for pricing SPY itself.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific policy content, just general market boasting.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Dow 50,000 comment is a restatement of already-known market performance, not new policy.\", \"added\": false}], \"summary\": \"The President's remarks are celebratory rhetoric about already-public market milestones (S&P 7000, Dow 50000) and trade deficit figures, offering no new tradable policy information for broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01299:saudi",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "saudi",
+   "entity": "Saudi Arabia",
+   "kind": "country",
+   "alias": "saudi arabia",
+   "text_span": "Saudi Arabia",
+   "dict_tickers": [
+    "KSA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1299.1711764705883,
+   "t_wall": 1770846511.1711764,
+   "t_wall_et": "2026-02-11T16:48:31.171176-05:00",
+   "segment_text": "I tell the story that in Saudi Arabia, the king said, you know, sir,",
+   "context": "unbelievably successful. Well, we produced 50,000 in excess now, went up today, in excess of 50,000 at the end of my 1st year. So that's some difference. And that's that's because of that's because of that's because of tariffs. So we're we're doing numbers that nobody thought were possible. The economy is rich. I tell the story that in Saudi Arabia, the king said, you know, sir,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Saudi Arabia",
+    "tickers": [
+     "KSA",
+     "XLE"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "in Saudi Arabia, the king said, you know, sir",
+    "summary": "The President references Saudi Arabia's king in context of economic success and tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "KSA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anecdotal praise of Saudi king's comments carries no new policy or investment signal for Saudi equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Speech is about coal industry gratitude and general economic boasting, not a new energy-sector policy affecting broad energy stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly self-congratulatory rhetoric about economic data and a coal industry event with no new, tradable policy specifics for Saudi Arabia (KSA) or the broader energy sector (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"KSA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Anecdotal praise of Saudi king's comments carries no new policy or investment signal for Saudi equities.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Speech is about coal industry gratitude and general economic boasting, not a new energy-sector policy affecting broad energy stocks.\", \"added\": false}], \"summary\": \"The excerpt is mostly self-congratulatory rhetoric about economic data and a coal industry event with no new, tradable policy specifics for Saudi Arabia (KSA) or the broader energy sector (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "jBfm-1j30eE:01424:rare_earth",
+   "video_id": "jBfm-1j30eE",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "rare earth",
+   "text_span": "rare earth",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1424.6959483606558,
+   "t_wall": 1770846636.6959484,
+   "t_wall_et": "2026-02-11T16:50:36.695948-05:00",
+   "segment_text": "as a source of rare earth elements and critical minerals that are essential for our national security and economic future.",
+   "context": "And, mister president, that changed with you. We saw the impact of your wise policy in real time during the recent winter storm as temperatures plunged and demand surged. The coal plants you directed to keep open provided the stability and resilience that the grid needed. And today, thanks to your leadership, sir, we are working with your administration on the potential to build new coal fuel power plants and having coal emerge as a source of rare earth elements and critical minerals that are essential for our national security and economic future.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

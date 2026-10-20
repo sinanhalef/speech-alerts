@@ -1,0 +1,987 @@
+{
+ "video": {
+  "id": "rB9gbCxb_K0",
+  "url": "https://www.youtube.com/watch?v=rB9gbCxb_K0",
+  "title": "The President Makes an Announcement, Aug. 22, 2025",
+  "channel": "The White House",
+  "duration": 4040.0,
+  "was_live": true,
+  "release_timestamp": 1755881406.0,
+  "upload_timestamp": 1755885702.0,
+  "upload_date": "20250822",
+  "label": "Makes an Announcement, Aug. 22, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1755881406.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 17,
+  "confirmed": 12,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 17
+ },
+ "signals": [
+  {
+   "signal_id": "rB9gbCxb_K0:01187:stock_market",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1187.9889316901408,
+   "t_wall": 1755882593.9889317,
+   "t_wall_et": "2025-08-22T13:09:53.988932-04:00",
+   "segment_text": "are gonna reduce the deficit by numbers far greater than they ever expected or heard of. And by the way, the stock market went up 1000 points.",
+   "context": "And again, I'll just say it's the World Cup and it's, the biggest thing there is in sports and we have it. And I got it in my 1st administration, and I was really somewhat devastated, as devastated as I can be. I don't have time to get too devastated. I was very happy that today, as you saw, the, group that does this, a government group, radical left group, announced that the President was right, took in $4,000,000,000,000 worth of tariffs, that the $4,000,000,000,000 are gonna reduce the deficit by numbers far greater than they ever expected or heard of. And by the way, the stock market went up 1000 points.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "the stock market went up 1000 points",
+    "summary": "The President credits tariff policy with stock market gain of 1000 points."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President merely narrates an already-occurred market move, giving no new tradable information relative to the market itself.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "No tech-specific policy content; comment is generic market commentary already reflected in prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "References a broad market rally already realized, not new information for the Dow specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount an already-occurred stock market rally tied to tariff/deficit news and World Cup economic projections, offering no new actionable policy signal for these broad index ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President merely narrates an already-occurred market move, giving no new tradable information relative to the market itself.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"No tech-specific policy content; comment is generic market commentary already reflected in prices.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"References a broad market rally already realized, not new information for the Dow specifically.\", \"added\": false}], \"summary\": \"The President's remarks recount an already-occurred stock market rally tied to tariff/deficit news and World Cup economic projections, offering no new actionable policy signal for these broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:02161:defense_word",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2161.763096085409,
+   "t_wall": 1755883567.763096,
+   "t_wall_et": "2025-08-22T13:26:07.763096-04:00",
+   "segment_text": "And this was totally unexpected. That is Right? Yep. I mean, I don't know where they've been for people to do this stuff, but it's it's terrible. I wanna thank Christie for another reason. I said to her 2 weeks ago, said, Christie, do me a favor. I built hundreds of miles of wall.",
+   "context": "And a year ago, we had a dead country. I'm telling you, it was a dead country. It was a country that was gonna that had lost its way. It was a country that was gonna fail. Look even today where they say $4,000,000,000,000 in reductions of deficits. And this was totally unexpected. That is Right? Yep. I mean, I don't know where they've been for people to do this stuff, but it's it's terrible. I wanna thank Christie for another reason. I said to her 2 weeks ago, said, Christie, do me a favor. I built hundreds of miles of wall. I built the same wall that the border patrol asked me to build. It wasn't my 1st choice. I wanted to do concrete plank and everything nice, but you wouldn't have been able to see through it. So I had border patrol in and they tested everything else. And we gave them steel wall high grade steel, very hard to cut, till we gave inside that is 9,000 pound concrete, which is a very tough concrete. Inside that is rebar, a big fat piece of rebar.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:02181:steel",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2181.0487546275394,
+   "t_wall": 1755883587.0487547,
+   "t_wall_et": "2025-08-22T13:26:27.048755-04:00",
+   "segment_text": "I built the same wall that the border patrol asked me to build. It wasn't my 1st choice. I wanted to do concrete plank and everything nice, but you wouldn't have been able to see through it. So I had border patrol in and they tested everything else. And we gave them steel wall high grade steel, very hard to cut, till we gave inside that is 9,000 pound concrete, which is a very tough concrete. Inside that is rebar, a big fat piece of rebar.",
+   "context": "And this was totally unexpected. That is Right? Yep. I mean, I don't know where they've been for people to do this stuff, but it's it's terrible. I wanna thank Christie for another reason. I said to her 2 weeks ago, said, Christie, do me a favor. I built hundreds of miles of wall. I built the same wall that the border patrol asked me to build. It wasn't my 1st choice. I wanted to do concrete plank and everything nice, but you wouldn't have been able to see through it. So I had border patrol in and they tested everything else. And we gave them steel wall high grade steel, very hard to cut, till we gave inside that is 9,000 pound concrete, which is a very tough concrete. Inside that is rebar, a big fat piece of rebar.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "high grade steel, very hard to cut",
+    "summary": "The President praised high-grade steel used in border wall construction."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of steel wall material is not company-specific and repeats known border policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific contract or policy news beyond generic wall steel anecdote.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.51,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is anecdotal about wall paint/steel, not a new domestic steel policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.51,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new procurement or tariff detail specific to Steel Dynamics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected materially by anecdotal wall-painting story.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are a nostalgic, non-substantive anecdote about wall construction and paint, offering no new policy, contract, or tariff information relevant to steel producers, so price impact should be negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of steel wall material is not company-specific and repeats known border policy.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific contract or policy news beyond generic wall steel anecdote.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.51, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is anecdotal about wall paint/steel, not a new domestic steel policy.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.51, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new procurement or tariff detail specific to Steel Dynamics.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected materially by anecdotal wall-painting story.\", \"added\": false}], \"summary\": \"The President's remarks are a nostalgic, non-substantive anecdote about wall construction and paint, offering no new policy, contract, or tariff information relevant to steel producers, so price impact should be negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:02254:defense_word",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 2254.0598436363634,
+   "t_wall": 1755883660.0598435,
+   "t_wall_et": "2025-08-22T13:27:40.059844-04:00",
+   "segment_text": "and a high quality black. You know, it really looked good. Yeah. We got the paint a 2 coat job or 1 coat? Just 1 coat. 1 coat. We we used the paint you told me to buy. Yep. The 2 coat will take place in 3 years from now. Right. We'll do the 2nd coat. But it looks beautiful. But thank you very much. I didn't know you were listening that I because we talked about 7 different subjects,",
+   "context": "and it looked beautiful, by the way, when that paint went over there. And it's hot. It's hot. It's hot. If it's white, it's not hot. If it's black, it's it's gonna be very hard to climb that sucker. You're gonna it's gonna it's not gonna be easy, but it's black and a high quality black. You know, it really looked good. Yeah. We got the paint a 2 coat job or 1 coat? Just 1 coat. 1 coat. We we used the paint you told me to buy. Yep. The 2 coat will take place in 3 years from now. Right. We'll do the 2nd coat. But it looks beautiful. But thank you very much. I didn't know you were listening that I because we talked about 7 different subjects,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:02425:russia",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "factory"
+   ],
+   "t_audio": 2425.5885135135136,
+   "t_wall": 1755883831.5885136,
+   "t_wall_et": "2025-08-22T13:30:31.588514-04:00",
+   "segment_text": "a big US factory was hit in a Russian airstrike in Ukraine? What's your reaction to that then? I'm not happy about it, and I'm not happy about anything having to do with that war. I said I settled not 7 wars, and actually,",
+   "context": "He may be coming and he may not, depending on what happens. We have a lot of things happening over the next couple of weeks. So but I thought it was a nice picture of him. Okay of me, but nice of him. So that was very nice that it was said to me. Okay? Mister president, that subject, have you talked to Vladimir Putin about the fact that yesterday, a big US factory was hit in a Russian airstrike in Ukraine? What's your reaction to that then? I'm not happy about it, and I'm not happy about anything having to do with that war. I said I settled not 7 wars, and actually,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "I'm not happy about it, and I'm not happy about anything having to do with that war.",
+    "summary": "The President expressed displeasure with Russian airstrikes on US factory in Ukraine."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President's criticism of Russia over the airstrike signals continued geopolitical tension and risk of sanctions, negative for Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct energy policy content in this excerpt beyond general war rhetoric, minimal direct effect on US energy sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks express frustration with Russia over an airstrike on a US-linked factory, mildly negative for Russia-exposed assets like RSX, with no clear direct implication for US energy stocks (XLE).",
+    "raw": "{\"tickers\":[{\"ticker\":\"RSX\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President's criticism of Russia over the airstrike signals continued geopolitical tension and risk of sanctions, negative for Russia-exposed assets.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"No direct energy policy content in this excerpt beyond general war rhetoric, minimal direct effect on US energy sector.\",\"added\":false}],\"summary\":\"The President's remarks express frustration with Russia over an airstrike on a US-linked factory, mildly negative for Russia-exposed assets like RSX, with no clear direct implication for US energy stocks (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:02426:ukraine",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "factory",
+    "settled"
+   ],
+   "t_audio": 2426.805472972973,
+   "t_wall": 1755883832.805473,
+   "t_wall_et": "2025-08-22T13:30:32.805473-04:00",
+   "segment_text": "a big US factory was hit in a Russian airstrike in Ukraine? What's your reaction to that then? I'm not happy about it, and I'm not happy about anything having to do with that war. I said I settled not 7 wars, and actually,",
+   "context": "He may be coming and he may not, depending on what happens. We have a lot of things happening over the next couple of weeks. So but I thought it was a nice picture of him. Okay of me, but nice of him. So that was very nice that it was said to me. Okay? Mister president, that subject, have you talked to Vladimir Putin about the fact that yesterday, a big US factory was hit in a Russian airstrike in Ukraine? What's your reaction to that then? I'm not happy about it, and I'm not happy about anything having to do with that war. I said I settled not 7 wars, and actually,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.8,
+    "quote": "I'm not happy about anything having to do with that war.",
+    "summary": "The President criticized the war situation affecting US factory in Ukraine."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General war commentary and no new defense policy specifics affecting aerospace/defense sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new energy policy or sanctions detail that would move energy sector pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly rhetoric about the Ukraine war, Putin, and Canada tariffs with no concrete new policy affecting defense or energy sectors, so no clear price-moving signal for ITA or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General war commentary and no new defense policy specifics affecting aerospace/defense sector.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new energy policy or sanctions detail that would move energy sector pricing.\", \"added\": false}], \"summary\": \"The excerpt is mostly rhetoric about the Ukraine war, Putin, and Canada tariffs with no concrete new policy affecting defense or energy sectors, so no clear price-moving signal for ITA or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:02658:defense_word",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2658.055701357466,
+   "t_wall": 1755884064.0557013,
+   "t_wall_et": "2025-08-22T13:34:24.055701-04:00",
+   "segment_text": "I thought we would have had it done by now, but it's a it's more different. There's a lot of anger, lot of hatred. There's a tremendous amount of hatred there. So but we'll see what happens. I think in 2 weeks, we'll know",
+   "context": "7 of them where they were in wars for 31, 35, and 37 years. We had 3 of them that were for more than 30 years, Johnny, and I got them solved. And we solved 1 that could have been a nuclear war with India and Pakistan. I was getting ready to be a nuclear war. I solved them all. And, this 1, I thought we would have had it done by now, but it's a it's more different. There's a lot of anger, lot of hatred. There's a tremendous amount of hatred there. So but we'll see what happens. I think in 2 weeks, we'll know which way I'm going. Because I'm gonna go 1 way or the other,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03204:stock_market",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 3204.7963848101267,
+   "t_wall": 1755884610.7963848,
+   "t_wall_et": "2025-08-22T13:43:30.796385-04:00",
+   "segment_text": "And now you look and now you look at the stock market today, it's way up to start off with from where I took it. And this market was gonna crash. If Joe Biden or Kamala were president, this market would we would had a crash like in 1929.",
+   "context": "the head of Harvard, who was Jeffrey Epstein's best friend. Nobody ever talks about that. I mean, I but I don't wanna hurt Larry Summers, but he was best friends with Jeffrey Epstein. No. This is a democratic hoax to try and get the the significance of what we've done over the past 7 months. Nobody's ever seen anything like it. They say it's number 1 in history. What we've done, including stopping 7 wars, I mean, include that. And now you look and now you look at the stock market today, it's way up to start off with from where I took it. And this market was gonna crash. If Joe Biden or Kamala were president, this market would we would had a crash like in 1929.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market today, it's way up to start off with",
+    "summary": "The President claims stock market is up significantly from when he took office."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General market bragging with no new policy content, unlikely to move the broad market beyond noise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific news, just repeated rhetoric about market performance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new information affecting industrial/blue-chip stocks beyond generic praise.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely repetitive rhetoric praising the stock market's rise and touting the EU trade deal without new actionable details, so it should have negligible differential impact on SPY, QQQ, or DIA relative to the broader market.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General market bragging with no new policy content, unlikely to move the broad market beyond noise.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No tech-specific news, just repeated rhetoric about market performance.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new information affecting industrial/blue-chip stocks beyond generic praise.\",\"added\":false}],\"summary\":\"The remark is largely repetitive rhetoric praising the stock market's rise and touting the EU trade deal without new actionable details, so it should have negligible differential impact on SPY, QQQ, or DIA relative to the broader market.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03251:eu",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3251.346859504132,
+   "t_wall": 1755884657.3468595,
+   "t_wall_et": "2025-08-22T13:44:17.346859-04:00",
+   "segment_text": "they're not ripping us off. We just signed a deal with the European Union. They're paying us essentially $950,000,000,000",
+   "context": "And despite COVID, we had the strongest economy in the history of our country, and we're gonna blow it away this time. I was always good at making a lot of money. And, whether it was for myself or whether it's I like doing it this way better. I mean, I like I like making it for the country. Our country has been ripped off by friend and foe. Nations all over the world ripped off. And the friends have been much worse than the foes for the most part. And, they're not ripping us off. We just signed a deal with the European Union. They're paying us essentially $950,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We just signed a deal with the European Union. They're paying us essentially $950,000,000,000",
+    "summary": "The President claims a signed deal with EU involving ~$950 billion payment to US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Trade deal removing tariff uncertainty is modestly positive for European equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of EU trade deal reduces tariff risk, mildly supportive for eurozone equity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Confirmation of EU-US deal is mildly positive for large-cap eurozone stocks, though details already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Trade deal removing tariff uncertainty is modestly positive for European equities broadly.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of EU trade deal reduces tariff risk, mildly supportive for eurozone equity ETF.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Confirmation of EU-US deal is mildly positive for large-cap eurozone stocks, though details already known.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03286:israel",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "israel",
+   "text_span": "Israel",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 3286.46545751634,
+   "t_wall": 1755884692.4654574,
+   "t_wall_et": "2025-08-22T13:44:52.465457-04:00",
+   "segment_text": "this country is run by smart people now. So, president, in Israel 2 questions. 1 is the Intel. There have been reports that you're considering taking a stake in Intel. Can you tell us about that? 10%? About the 10%. Yeah. I met a man. He was a very nice man, and I called for his removal because I saw something by a man named Tom Cotton, a senator from Arkansas. He's a great guy, friend of mine, supporter of mine, big supporter. I'm a supporter of his too.",
+   "context": "And she's so happy that she has an agreement. But people aren't ripping us anymore. They're we're run by this country is run by smart people now. So, president, in Israel 2 questions. 1 is the Intel. There have been reports that you're considering taking a stake in Intel. Can you tell us about that? 10%? About the 10%. Yeah. I met a man. He was a very nice man, and I called for his removal because I saw something by a man named Tom Cotton, a senator from Arkansas. He's a great guy, friend of mine, supporter of mine, big supporter. I'm a supporter of his too.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03286:defense_word",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 3286.8362745098043,
+   "t_wall": 1755884692.8362746,
+   "t_wall_et": "2025-08-22T13:44:52.836275-04:00",
+   "segment_text": "this country is run by smart people now. So, president, in Israel 2 questions. 1 is the Intel. There have been reports that you're considering taking a stake in Intel. Can you tell us about that? 10%? About the 10%. Yeah. I met a man. He was a very nice man, and I called for his removal because I saw something by a man named Tom Cotton, a senator from Arkansas. He's a great guy, friend of mine, supporter of mine, big supporter. I'm a supporter of his too.",
+   "context": "And she's so happy that she has an agreement. But people aren't ripping us anymore. They're we're run by this country is run by smart people now. So, president, in Israel 2 questions. 1 is the Intel. There have been reports that you're considering taking a stake in Intel. Can you tell us about that? 10%? About the 10%. Yeah. I met a man. He was a very nice man, and I called for his removal because I saw something by a man named Tom Cotton, a senator from Arkansas. He's a great guy, friend of mine, supporter of mine, big supporter. I'm a supporter of his too.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03288:intc",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "intc",
+   "entity": "Intel",
+   "kind": "company",
+   "alias": "intel",
+   "text_span": "Intel",
+   "dict_tickers": [
+    "INTC"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 3288.0016993464055,
+   "t_wall": 1755884694.0016994,
+   "t_wall_et": "2025-08-22T13:44:54.001699-04:00",
+   "segment_text": "this country is run by smart people now. So, president, in Israel 2 questions. 1 is the Intel. There have been reports that you're considering taking a stake in Intel. Can you tell us about that? 10%? About the 10%. Yeah. I met a man. He was a very nice man, and I called for his removal because I saw something by a man named Tom Cotton, a senator from Arkansas. He's a great guy, friend of mine, supporter of mine, big supporter. I'm a supporter of his too.",
+   "context": "And she's so happy that she has an agreement. But people aren't ripping us anymore. They're we're run by this country is run by smart people now. So, president, in Israel 2 questions. 1 is the Intel. There have been reports that you're considering taking a stake in Intel. Can you tell us about that? 10%? About the 10%. Yeah. I met a man. He was a very nice man, and I called for his removal because I saw something by a man named Tom Cotton, a senator from Arkansas. He's a great guy, friend of mine, supporter of mine, big supporter. I'm a supporter of his too.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Intel",
+    "tickers": [
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "I met a man. He was a very nice man, and I called for his removal",
+    "summary": "The President addressed reports of considering a stake in Intel; praised an individual involved."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President confirms the US government is pursuing a 10% equity stake in Intel, a concrete government-backing signal that is positive for the stock despite dilution concerns.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's confirmation of a potential 10% US government stake in Intel is a new, price-relevant positive catalyst for INTC as government support/investment signals validation and possible capital backing.",
+    "raw": "{\"tickers\":[{\"ticker\":\"INTC\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President confirms the US government is pursuing a 10% equity stake in Intel, a concrete government-backing signal that is positive for the stock despite dilution concerns.\",\"added\":false}],\"summary\":\"The President's confirmation of a potential 10% US government stake in Intel is a new, price-relevant positive catalyst for INTC as government support/investment signals validation and possible capital backing.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03347:nvda",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3347.537682051282,
+   "t_wall": 1755884753.537682,
+   "t_wall_et": "2025-08-22T13:45:53.537682-04:00",
+   "segment_text": "Jensen and some of our friends, Nvidia,",
+   "context": "saw me. We talked for a while. I liked him a lot. I thought he was very good. I thought he was somewhat a victim, but, you know, nobody's a total victim, I guess. And I said, you know what? I think The United States should be given 10% of Intel. And he said, I would consider that. I said, well, I'd like you to do that because Intel has been left behind, as you know, compared to Jensen and some of our friends, Nvidia,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "Jensen and some of our friends, Nvidia",
+    "summary": "The President mentions Nvidia as a competitive reference point versus Intel."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Nvidia is mentioned only as a comparison point to illustrate Intel's decline, not a policy action affecting Nvidia itself.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark centers on a potential US government 10% stake in Intel and tariff rhetoric on foreign chip production; Nvidia is referenced only rhetorically as a successful peer, with no direct policy implication for NVDA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Nvidia is mentioned only as a comparison point to illustrate Intel's decline, not a policy action affecting Nvidia itself.\", \"added\": false}], \"summary\": \"The remark centers on a potential US government 10% stake in Intel and tariff rhetoric on foreign chip production; Nvidia is referenced only rhetorically as a successful peer, with no direct policy implication for NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03369:taiwan",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "taiwan",
+   "entity": "Taiwan",
+   "kind": "country",
+   "alias": "taiwan",
+   "text_span": "Taiwan",
+   "dict_tickers": [
+    "EWT",
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 3369.465780882353,
+   "t_wall": 1755884775.465781,
+   "t_wall_et": "2025-08-22T13:46:15.465781-04:00",
+   "segment_text": "And if we had a president who would have said, okay. You can go to Taiwan, but we're gonna put a 100% tariff or a 200 or a 300 or a 500%",
+   "context": "Intel has been left behind, as you know, compared to Jensen and some of our friends, Nvidia, some of the people and the people in because Intel should have never been Intel was the biggest, most powerful chip company in the world. And then, they started leaving. And they started going to foreign countries, in particular Taiwan. And if we had a president who would have said, okay. You can go to Taiwan, but we're gonna put a 100% tariff or a 200 or a 300 or a 500%",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Taiwan",
+    "tickers": [
+     "EWT",
+     "TSM"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "put a 100% tariff or a 200 or a 300 or a 500%",
+    "summary": "The President proposes massive tariffs on Taiwan if chip manufacturing moves there."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates hypothetical massive tariffs on chip imports tied to Taiwan production, a lingering overhang for TSM though framed as past hypothetical.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EWT",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed tariff rhetoric targeting Taiwan-based chip production is mildly negative for Taiwan equity exposure via EWT.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates hypothetical massive tariffs on chip imports tied to Taiwan production, a lingering overhang for TSM though framed as past hypothetical.\", \"added\": false}, {\"ticker\": \"EWT\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed tariff rhetoric targeting Taiwan-based chip production is mildly negative for Taiwan equity exposure via EWT.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03441:nvda_word",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "nvda_word",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen",
+   "text_span": "Jensen",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "deals"
+   ],
+   "t_audio": 3441.115,
+   "t_wall": 1755884847.115,
+   "t_wall_et": "2025-08-22T13:47:27.115000-04:00",
+   "segment_text": "Jensen.",
+   "context": "for the I I don't get it. This comes to The United States Of America. And I said, I think it would be good having The United States as your partner. He agreed. And they've agreed to do it, and I think it's a great deal for them. And I think it's a great deal. He walked in wanting to keep his job, and he ended up giving us $10,000,000,000 for The United States. So we picked up 10,000,000,000, and we do a lot of deals like that. I'll do more of them. If somebody has like, we have restrictive covenants with Jensen. We have it's Nvidia. And to unrestrict the cover not nothing to do with losing our our powers or military or anything because that I wouldn't do.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "We have restrictive covenants with Jensen. We have it's Nvidia.",
+    "summary": "The President references restrictive covenants with Nvidia regarding export controls or military technology restrictions."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President hints at possibly easing export restrictions for payment but gives no concrete new policy for Nvidia, leaving effect ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President discusses restrictive covenants and export controls involving Nvidia, suggesting potential future easing in exchange for payment, but no concrete deal is announced, so the near-term price impact is ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President hints at possibly easing export restrictions for payment but gives no concrete new policy for Nvidia, leaving effect ambiguous.\", \"added\": false}], \"summary\": \"The President discusses restrictive covenants and export controls involving Nvidia, suggesting potential future easing in exchange for payment, but no concrete deal is announced, so the near-term price impact is ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03553:bac",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "bac",
+   "entity": "Bank of America",
+   "kind": "company",
+   "alias": "bank of america",
+   "text_span": "Bank of America",
+   "dict_tickers": [
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3553.8767236842104,
+   "t_wall": 1755884959.8767238,
+   "t_wall_et": "2025-08-22T13:49:19.876724-04:00",
+   "segment_text": "Now you look at what the Democrats have done to San Francisco. They've destroyed it. I own a big chunk of the Bank of America building in San Francisco.",
+   "context": "you making have have there been concrete steps that the administration is taking to do that? Or what are other cities as well? Haven't spoken to him. He's grossly incompetent. I haven't spoken to him. I know. When we're ready, we'll go ahead and we'll straighten out Chicago just like we did DC. Chicago is very dangerous. Great place. I built great stuff there. I have a I have the most beautiful building in Chicago, I think. But I hate to see what's happened to Chicago. Chicago is our greatest city, actually. Bob Tisch, a great friend of mine, passed away. He used to own the Giants and very successful Lowe's. He said Chicago I think they had their main office in Chicago. He said Chicago and San Francisco are the 2 greatest cities in the world. Now you look at what the Democrats have done to San Francisco. They've destroyed it. I own a big chunk of the Bank of America building in San Francisco.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Bank of America",
+    "tickers": [
+     "BAC"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "I own a big chunk of the Bank of America building in San Francisco.",
+    "summary": "The President states he owns a significant portion of a Bank of America building in San Francisco."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BAC",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President referencing his ownership of a building bearing the Bank of America name is a personal anecdote with no bearing on the company's business or financials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is an irrelevant personal anecdote about real estate ownership, not a policy or business statement affecting Bank of America's fundamentals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BAC\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President referencing his ownership of a building bearing the Bank of America name is a personal anecdote with no bearing on the company's business or financials.\", \"added\": false}], \"summary\": \"The remark is an irrelevant personal anecdote about real estate ownership, not a policy or business statement affecting Bank of America's fundamentals.\"}"
+   }
+  },
+  {
+   "signal_id": "rB9gbCxb_K0:03716:fed",
+   "video_id": "rB9gbCxb_K0",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "jay powell",
+   "text_span": "Jay Powell",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3716.0409297805645,
+   "t_wall": 1755885122.0409298,
+   "t_wall_et": "2025-08-22T13:52:02.040930-04:00",
+   "segment_text": "we're doing everything we can to get the hostages out. Mister mister Thank you all very much. Yes. Thank So Jackson, hold Jay Powell today said he he, you know, suggested that they might cut interest rates, but they have to proceed very well. Too late for a reason. You should've cut them a year ago. He's too late. You",
+   "context": "So it's not easy to get. And, I know if you're a parent, you just don't care. You you wanna I want my baby back. They want their babies back. They want their kids back, and I understand. But I got them out and, did a good job, and we'll, we're doing everything we can to get the hostages out. Mister mister Thank you all very much. Yes. Thank So Jackson, hold Jay Powell today said he he, you know, suggested that they might cut interest rates, but they have to proceed very well. Too late for a reason. You should've cut them a year ago. He's too late. You",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Jay Powell",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "He's too late. You should've cut them a year ago.",
+    "summary": "The President criticizes Fed Chair Powell for delaying interest rate cuts."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated push for rate cuts modestly supports bond prices though it repeats known stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic rhetoric on Fed policy with no new information for financial sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated criticism of Powell adds no new catalyst specific to regional banks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar criticism of Powell for being slow to cut rates amid a strong stock market narrative; no new policy details are revealed, so market impact is limited and mostly a mild tailwind for rate-sensitive assets like long bonds.",
+    "raw": "{\"tickers\": [\n  {\"ticker\": \"TLT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated push for rate cuts modestly supports bond prices though it repeats known stance.\", \"added\": false},\n  {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Generic rhetoric on Fed policy with no new information for financial sector.\", \"added\": false},\n  {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated criticism of Powell adds no new catalyst specific to regional banks.\", \"added\": false}\n], \"summary\": \"The President repeats familiar criticism of Powell for being slow to cut rates amid a strong stock market narrative; no new policy details are revealed, so market impact is limited and mostly a mild tailwind for rate-sensitive assets like long bonds.\"}"
+   }
+  }
+ ]
+}

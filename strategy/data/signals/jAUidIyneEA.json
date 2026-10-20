@@ -1,0 +1,1423 @@
+{
+ "video": {
+  "id": "jAUidIyneEA",
+  "url": "https://www.youtube.com/watch?v=jAUidIyneEA",
+  "title": "The President Makes an Announcement on American Nuclear Innovation",
+  "channel": "The White House",
+  "duration": 2314.0,
+  "was_live": true,
+  "release_timestamp": 1784919661.0,
+  "upload_timestamp": 1784923256.0,
+  "upload_date": "20260724",
+  "label": "Makes an Announcement on American Nuclear Innovation",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1784919661.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 31,
+  "confirmed": 13,
+  "retracted": 18,
+  "unconfirmed": 0,
+  "llm_calls": 34
+ },
+ "signals": [
+  {
+   "signal_id": "jAUidIyneEA:00036:nuclear",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "nuclear energy",
+   "text_span": "nuclear energy",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 36.141804511278195,
+   "t_wall": 1784919697.1418045,
+   "t_wall_et": "2026-07-24T15:01:37.141804-04:00",
+   "segment_text": "today, we're celebrating a historic milestone for civilian nuclear energy and the incredible renaissance of nuclear power in America.",
+   "context": "It's a wave of the future. We have the most brilliant people in the world standing behind me that were big into the world of nuclear like my uncle was at MIT. My uncle was very big into nuclear for 41 years at MIT, but, they've advanced somewhat since those days, I think. I hope. So today, we're celebrating a historic milestone for civilian nuclear energy and the incredible renaissance of nuclear power in America.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nuclear energy",
+    "tickers": [
+     "URA",
+     "CCJ",
+     "OKLO",
+     "SMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "historic milestone for civilian nuclear energy and incredible renaissance",
+    "summary": "The President praises nuclear energy as a historic milestone and renaissance in America."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "URA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-nuclear rhetoric supports uranium sector sentiment broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CCJ",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive nuclear sentiment modestly benefits largest uranium producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "OKLO",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "White House event celebrating nuclear renaissance boosts sentiment for advanced reactor startups like OKLO.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive framing of nuclear innovation supports small modular reactor developers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CEG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad pro-nuclear policy tone is mildly supportive of major nuclear generator Constellation Energy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's celebratory remarks on a nuclear renaissance are broadly positive but generic praise rather than new policy, so effects on nuclear-linked equities (uranium miners, SMR/OKLO reactor startups, CEG) are mildly positive with low-to-moderate confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"URA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-nuclear rhetoric supports uranium sector sentiment broadly.\", \"added\": false}, {\"ticker\": \"CCJ\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive nuclear sentiment modestly benefits largest uranium producer.\", \"added\": false}, {\"ticker\": \"OKLO\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"White House event celebrating nuclear renaissance boosts sentiment for advanced reactor startups like OKLO.\", \"added\": false}, {\"ticker\": \"SMR\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive framing of nuclear innovation supports small modular reactor developers.\", \"added\": false}, {\"ticker\": \"CEG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad pro-nuclear policy tone is mildly supportive of major nuclear generator Constellation Energy.\", \"added\": false}], \"summary\": \"The President's celebratory remarks on a nuclear renaissance are broadly positive but generic praise rather than new policy, so effects on nuclear-linked equities (uranium miners, SMR/OKLO reactor startups, CEG) are mildly positive with low-to-moderate confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:00211:kraken",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 211.9405725714286,
+   "t_wall": 1784919872.9405725,
+   "t_wall_et": "2026-07-24T15:04:32.940573-04:00",
+   "segment_text": "Michael Kraken, who's been absolutely fantastic in the administration,",
+   "context": "But now America is building again. America is dreaming again, and we're leading the world in pioneering the next generation of nuclear power. There's nobody even close. We've taken a lead over the last 2 years that has been, I hope, insurmountable. We'll see. But let me ask director of the Office of Science and Technology Policy, Michael Kraken, who's been absolutely fantastic in the administration, to say a few words, followed by a few of the people. Let's see. Chris Wright will go, and Jordan Bramble, and Isaiah Taylor,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00316:defense",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "golden dome",
+   "text_span": "Golden Dome",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 316.5761182608696,
+   "t_wall": 1784919977.5761182,
+   "t_wall_et": "2026-07-24T15:06:17.576118-04:00",
+   "segment_text": "Us at Antares, we look forward to being a resilient energy source for for Golden Dome to power high powered assets in space and eventually undersea autonomy. So this is a strategic technology for our nation,",
+   "context": "The President said enough of that. America is gonna be back as the leader in the nuclear space in large reactors and in next generation small reactors. He set a bold goal. It's been exceeded, and I'm incredibly proud to be standing here with these fabulous entrepreneurs next to me. And brilliant science people too. Really. Please go ahead. Mister president, thank you so much for your leadership. It was really your executive orders that catalyzed this nuclear renaissance. You know, when they 1st came out, people scoffed at them. They said it couldn't be done, and now there's not only 3 companies, but 4 companies here that that really meant the moment. Us at Antares, we look forward to being a resilient energy source for for Golden Dome to power high powered assets in space and eventually undersea autonomy. So this is a strategic technology for our nation,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00363:steel",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 363.71730076923075,
+   "t_wall": 1784920024.7173007,
+   "t_wall_et": "2026-07-24T15:07:04.717301-04:00",
+   "segment_text": "when we have nuclear power of every kind that's allowing us to make steel again, to make aluminum again,",
+   "context": "Please go ahead. And, mister president, thank you so much for your leadership in this moment. I think that The United States has been a leader in nuclear energy since the very beginning. We were the 1st ever to turn on an an advanced reactor in the world. We were all the also the 1st to turn on any type of nuclear reactor in the world. But over the last 30 years, we became more interested in power point than in power plants, and it's your leadership that is changing that. The executive orders that were signed last year, I think if you look forward in 50 to 100 years when we are when we have nuclear power of every kind that's allowing us to make steel again, to make aluminum again, to actually be able to go to outer space and all the places that humanity wants to go, you could trace it back to the executive orders that started last year. So we're we're honored to serve our country and be a part of this, and thank you again for your leadership. Thank you. Great job.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00364:aluminum",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 364.78345865384614,
+   "t_wall": 1784920025.7834587,
+   "t_wall_et": "2026-07-24T15:07:05.783459-04:00",
+   "segment_text": "when we have nuclear power of every kind that's allowing us to make steel again, to make aluminum again,",
+   "context": "Please go ahead. And, mister president, thank you so much for your leadership in this moment. I think that The United States has been a leader in nuclear energy since the very beginning. We were the 1st ever to turn on an an advanced reactor in the world. We were all the also the 1st to turn on any type of nuclear reactor in the world. But over the last 30 years, we became more interested in power point than in power plants, and it's your leadership that is changing that. The executive orders that were signed last year, I think if you look forward in 50 to 100 years when we are when we have nuclear power of every kind that's allowing us to make steel again, to make aluminum again, to actually be able to go to outer space and all the places that humanity wants to go, you could trace it back to the executive orders that started last year. So we're we're honored to serve our country and be a part of this, and thank you again for your leadership. Thank you. Great job.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00440:tgt",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "tgt",
+   "entity": "Target",
+   "kind": "company",
+   "alias": "target",
+   "text_span": "target",
+   "dict_tickers": [
+    "TGT"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 440.9348971193416,
+   "t_wall": 1784920101.9348972,
+   "t_wall_et": "2026-07-24T15:08:21.934897-04:00",
+   "segment_text": "and our target market is data centers. So we're making the ideal nuclear product to power That's right. Data centers with bring your own power. That's our whole goal. So thank you once again for unlocking this, and we really, really cannot be here without you. That's great. Thank you very much. Appreciate it. Thank you. Have anything to say? Sure. No. Go ahead. Go ahead. I would just say, I mean, this is exactly why you created the Energy Dominance Council that you wanted to unlock",
+   "context": "on the July 4. Wow. So thank you again so much for setting these executive orders. Like everyone else said, we would not be here without those executive orders, so thank you so much. And what it's unlocking for us is this year, we are going to be raising 1000000000 dollars moving into 1000000 square foot facility, and our target market is data centers. So we're making the ideal nuclear product to power That's right. Data centers with bring your own power. That's our whole goal. So thank you once again for unlocking this, and we really, really cannot be here without you. That's great. Thank you very much. Appreciate it. Thank you. Have anything to say? Sure. No. Go ahead. Go ahead. I would just say, I mean, this is exactly why you created the Energy Dominance Council that you wanted to unlock",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00441:ai",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 441.7740534979424,
+   "t_wall": 1784920102.7740536,
+   "t_wall_et": "2026-07-24T15:08:22.774054-04:00",
+   "segment_text": "and our target market is data centers. So we're making the ideal nuclear product to power That's right. Data centers with bring your own power. That's our whole goal. So thank you once again for unlocking this, and we really, really cannot be here without you. That's great. Thank you very much. Appreciate it. Thank you. Have anything to say? Sure. No. Go ahead. Go ahead. I would just say, I mean, this is exactly why you created the Energy Dominance Council that you wanted to unlock",
+   "context": "on the July 4. Wow. So thank you again so much for setting these executive orders. Like everyone else said, we would not be here without those executive orders, so thank you so much. And what it's unlocking for us is this year, we are going to be raising 1000000000 dollars moving into 1000000 square foot facility, and our target market is data centers. So we're making the ideal nuclear product to power That's right. Data centers with bring your own power. That's our whole goal. So thank you once again for unlocking this, and we really, really cannot be here without you. That's great. Thank you very much. Appreciate it. Thank you. Have anything to say? Sure. No. Go ahead. Go ahead. I would just say, I mean, this is exactly why you created the Energy Dominance Council that you wanted to unlock",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00528:saudi",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "saudi",
+   "entity": "Saudi Arabia",
+   "kind": "country",
+   "alias": "saudi",
+   "text_span": "Saudi",
+   "dict_tickers": [
+    "KSA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 528.9664413733906,
+   "t_wall": 1784920189.9664414,
+   "t_wall_et": "2026-07-24T15:09:49.966441-04:00",
+   "segment_text": "1st of all, maybe you have some questions for the people behind me. Please go ahead. Hi, mister president. I wanna ask about the Saudi nuclear deal. This man over your shoulder announces a big deal after 18 months of negotiating with",
+   "context": "And I have to say that in all my years, and I've been around for a while, I've never seen government, private industry, and the laboratories working together this effectively, and it's all driven by the bold goals in your executive orders. So thank you so very much. Congratulations. So 1st of all, maybe you have some questions for the people behind me. Please go ahead. Hi, mister president. I wanna ask about the Saudi nuclear deal. This man over your shoulder announces a big deal after 18 months of negotiating with",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00628:nyt",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "nyt",
+   "entity": "New York Times",
+   "kind": "company",
+   "alias": "failing new york times",
+   "text_span": "failing New York Times",
+   "dict_tickers": [
+    "NYT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 628.9610715517242,
+   "t_wall": 1784920289.9610715,
+   "t_wall_et": "2026-07-24T15:11:29.961071-04:00",
+   "segment_text": "won't respond to that question. Who are you with? The New York Times. I figured so. A failing New York Times. I just",
+   "context": "it's a 2 way street, and we think it's very important for the future of the Middle East. The Abraham Accords have been incredibly successful for the for the countries, as you know, for the countries in them. And I think it's very important. So, you know, at some point, they'll join they'll join, and they'll do their civil that's what I call it, civil nuclear, but that's what it is. No enrichment. It's civil nuclear. Quick question about Iran. You're talking about blowing up civilian power plants and bridges. Much of the civilized world would consider that a war crime. Do you? I won't respond to that question. Who are you with? The New York Times. I figured so. A failing New York Times. I just",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "New York Times",
+    "tickers": [
+     "NYT"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "A failing New York Times. I just",
+    "summary": "The President criticized the New York Times as failing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NYT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's recurring criticism of the New York Times as 'failing' is repeat rhetoric with negligible historical price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a repeated personal jab at the New York Times with no new policy or business information, so it is unlikely to move NYT stock meaningfully relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NYT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's recurring criticism of the New York Times as 'failing' is repeat rhetoric with negligible historical price impact.\", \"added\": false}], \"summary\": \"The remark is a repeated personal jab at the New York Times with no new policy or business information, so it is unlikely to move NYT stock meaningfully relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:00753:xom",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxon",
+   "text_span": "Exxon",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 753.0646470588235,
+   "t_wall": 1784920414.064647,
+   "t_wall_et": "2026-07-24T15:13:34.064647-04:00",
+   "segment_text": "right now, even before the big companies, you know, Exxon, all the big companies are,",
+   "context": "It was being left at all over the world. We have the hottest country. This is the hottest country anywhere in the world. So I saw him wearing the essentially make America great again hat, and I know that he meant it as a very great compliment, and we appreciate it. As far as the elections in Venezuela, they're not really ready for them yet, but, boy, a lot of progress has been made. Delsea has been doing a fantastic job, as you know. The, the amount of, the amount of oil coming out of Venezuela right now, even before the big companies, you know, Exxon, all the big companies are,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ExxonMobil",
+    "tickers": [
+     "XOM"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "the big companies, you know, Exxon, all the big companies are",
+    "summary": "The President references Exxon among major oil companies operating in Venezuela."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention that Exxon is looking at Venezuela opportunities is vague and not a confirmed new deal, so limited near-term price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Exxon among companies eyeing Venezuelan oil is a passing, unconfirmed reference rather than a concrete new business development, so it should have negligible market-moving effect on XOM relative to SPY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention that Exxon is looking at Venezuela opportunities is vague and not a confirmed new deal, so limited near-term price impact.\", \"added\": false}], \"summary\": \"The President's mention of Exxon among companies eyeing Venezuelan oil is a passing, unconfirmed reference rather than a concrete new business development, so it should have negligible market-moving effect on XOM relative to SPY.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:00782:venezuela",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 782.1514583333334,
+   "t_wall": 1784920443.1514583,
+   "t_wall_et": "2026-07-24T15:14:03.151458-04:00",
+   "segment_text": "fact. And as you say, you know, I'm very popular in Venezuela because we're bringing tremendous,",
+   "context": "right now, even before the big companies, you know, Exxon, all the big companies are, looking at it. They're going there. It's a very fertile territory. But the amount of money being made by Venezuela now is more than they've ever made before, and we're taking a lot also for, you know, for our efforts. And the money is being sent and the oil is being sent to Houston and Louisiana to be refined, and we paid for the war many times over. It's been an amazing fact. And as you say, you know, I'm very popular in Venezuela because we're bringing tremendous,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "oil is being sent to Houston and Louisiana to be refined, we paid for the war many times over",
+    "summary": "The President claims US is profiting from Venezuelan oil extraction and refining operations."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General commentary on Venezuela oil flows to Gulf Coast refiners is not a clear sector-wide catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and increased oil flows to US refiners could modestly benefit its business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on Venezuela oil profits are mildly positive for energy companies with exposure there, particularly Chevron, but too vague and repeat-like to move the broader energy sector significantly.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General commentary on Venezuela oil flows to Gulf Coast refiners is not a clear sector-wide catalyst.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and increased oil flows to US refiners could modestly benefit its business.\", \"added\": false}], \"summary\": \"The President's remarks on Venezuela oil profits are mildly positive for energy companies with exposure there, particularly Chevron, but too vague and repeat-like to move the broader energy sector significantly.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:00799:oil_strong",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels",
+    "selling"
+   ],
+   "t_audio": 799.54,
+   "t_wall": 1784920460.54,
+   "t_wall_et": "2026-07-24T15:14:20.540000-04:00",
+   "segment_text": "selling millions and millions of barrels of oil.",
+   "context": "the money is being sent and the oil is being sent to Houston and Louisiana to be refined, and we paid for the war many times over. It's been an amazing fact. And as you say, you know, I'm very popular in Venezuela because we're bringing tremendous, economics back to the country. And they were absolutely dying. They were in such trouble. And now Venezuela is becoming extremely successful. They're taking in billions of dollars, selling millions and millions of barrels of oil.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Venezuela is selling millions and millions of barrels of oil.",
+    "summary": "The President credits oil sales to Venezuela's economic recovery and US refining contracts."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on Venezuela oil sales does not materially change US energy sector fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply reaching Gulf refiners could modestly pressure crude prices but this is already known policy, not new news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate existing Venezuela oil arrangement rhetoric with no new policy detail, limiting tradable impact on energy tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General commentary on Venezuela oil sales does not materially change US energy sector fundamentals.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan oil supply reaching Gulf refiners could modestly pressure crude prices but this is already known policy, not new news.\", \"added\": false}], \"summary\": \"The President's remarks reiterate existing Venezuela oil arrangement rhetoric with no new policy detail, limiting tradable impact on energy tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:00864:defense_word",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 864.9772033898305,
+   "t_wall": 1784920525.9772034,
+   "t_wall_et": "2026-07-24T15:15:25.977203-04:00",
+   "segment_text": "but they do wanna make a deal. There's 2 ways. I mean, it's",
+   "context": "what is the exit strategy? Well, I think there's a lot of them. There's a military exit where we just keep going just the way we are, and we can even make it a heavier dose, and it's, knocking out everything they have. Or there's a smarter strategy, that's you make a deal, and they wanna make a deal. I just don't think they're ready yet, but they do wanna make a deal. Sometimes they don't wanna say they wanna make a deal. They wanna be the tough guys, but they do wanna make a deal. There's 2 ways. I mean, it's you can just keep doing exactly what we're doing and take them apart piece by piece. We could do it in a more rapid fashion, which we might do,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:00957:mexico",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 957.3184504845815,
+   "t_wall": 1784920618.3184505,
+   "t_wall_et": "2026-07-24T15:16:58.318450-04:00",
+   "segment_text": "There's this there's this food coming in, I guess, from Mexico. It's tainted. It's making a lot of people sick. That is the CDC's term. Well, I think I I think what we're gonna is we're gonna put a major tariff on tax on Mexico",
+   "context": "I don't know. I haven't thought about it. It's the 1st time I've been asked that question. Are you eating lettuce recently? I should always have more lettuce. Wanna get that out of here, Peter. No. It's a very interesting question from you. I didn't think you'd ask that kind of a question. Nobody wants to ask that question, but exciting. There's this there's this food coming in, I guess, from Mexico. It's tainted. It's making a lot of people sick. That is the CDC's term. Well, I think I I think what we're gonna is we're gonna put a major tariff on tax on Mexico",
+   "speaker": 14,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "put a major tariff on tax on Mexico",
+    "summary": "The President proposes major tariff on Mexico over tainted food imports."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President threatens a major new tariff on Mexico over tainted produce, a negative for Mexican equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's off-the-cuff threat of a major tariff on Mexico is a new, negative catalyst for Mexican equities (EWW), while other remarks (Iran, Canada, lettuce) are not directly tied to the ticker list.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President threatens a major new tariff on Mexico over tainted produce, a negative for Mexican equities broadly.\", \"added\": false}], \"summary\": \"The President's off-the-cuff threat of a major tariff on Mexico is a new, negative catalyst for Mexican equities (EWW), while other remarks (Iran, Canada, lettuce) are not directly tied to the ticker list.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:00961:canada",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 961.8250224999999,
+   "t_wall": 1784920622.8250225,
+   "t_wall_et": "2026-07-24T15:17:02.825022-04:00",
+   "segment_text": "and we're gonna put a big tariff on Canada because of the smoke.",
+   "context": "I should always have more lettuce. Wanna get that out of here, Peter. No. It's a very interesting question from you. I didn't think you'd ask that kind of a question. Nobody wants to ask that question, but exciting. There's this there's this food coming in, I guess, from Mexico. It's tainted. It's making a lot of people sick. That is the CDC's term. Well, I think I I think what we're gonna is we're gonna put a major tariff on tax on Mexico because of the lettuce, and we're gonna put a big tariff on Canada because of the smoke.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "put a big tariff on Canada because of the smoke",
+    "summary": "The President proposes major tariff on Canada related to smoke issue."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President floats a new tariff threat on Canada over wildfire smoke, a negative headline risk for Canadian equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's off-the-cuff tariff threat against Canada is a new, negative catalyst for Canada-exposed assets like EWC, though vague and possibly not followed through.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President floats a new tariff threat on Canada over wildfire smoke, a negative headline risk for Canadian equities.\", \"added\": false}], \"summary\": \"The President's off-the-cuff tariff threat against Canada is a new, negative catalyst for Canada-exposed assets like EWC, though vague and possibly not followed through.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:01136:brk",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "brk",
+   "entity": "Berkshire Hathaway",
+   "kind": "company",
+   "alias": "berkshire",
+   "text_span": "Berkshire",
+   "dict_tickers": [
+    "BRK.B"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1136.678171764706,
+   "t_wall": 1784920797.6781719,
+   "t_wall_et": "2026-07-24T15:19:57.678172-04:00",
+   "segment_text": "So, Berkshire, you might be able to help with this. So you have criticized criticized",
+   "context": "I guess you could I call it the iron wall on the water. Nothing gets through. Nothing blockade. Nothing gets through. And they sort of have to make a deal. But we are talking to them. I think they're being serious. I think I think they are being by far the most serious that we've seen them, but that doesn't mean we get there. We'll see what happens. But I always prefer that alternative. Mister president, you I have an energy question. So, Berkshire, you might be able to help with this. So you have criticized criticized windmills for quite a long time. They're very ugly. They're not they're they tend",
+   "speaker": 16,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01140:solar",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1140.55,
+   "t_wall": 1784920801.55,
+   "t_wall_et": "2026-07-24T15:20:01.550000-04:00",
+   "segment_text": "windmills for quite a long time. They're very ugly. They're not they're they tend",
+   "context": "I guess you could I call it the iron wall on the water. Nothing gets through. Nothing blockade. Nothing gets through. And they sort of have to make a deal. But we are talking to them. I think they're being serious. I think I think they are being by far the most serious that we've seen them, but that doesn't mean we get there. We'll see what happens. But I always prefer that alternative. Mister president, you I have an energy question. So, Berkshire, you might be able to help with this. So you have criticized criticized windmills for quite a long time. They're very ugly. They're not they're they tend",
+   "speaker": 16,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "windmills for quite a long time. They're very ugly.",
+    "summary": "The President criticizes windmills as ugly, consistent with long-standing opposition."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed anti-wind rhetoric reinforces hostile federal stance toward renewables broadly, weighing modestly on solar sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated criticism of wind energy signals continued unfavorable policy environment for clean energy ETF constituents.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks target wind specifically, with limited direct implication for solar panel maker First Solar.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments focus on windmills, not solar inverters, so direct impact on Enphase is minimal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates long-standing criticism of windmills as ugly, noisy, and bird-killing, a repeat of known anti-wind stance that modestly pressures wind/clean-energy sentiment (TAN, ICLN) but has little direct bearing on solar-specific names like FSLR or ENPH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed anti-wind rhetoric reinforces hostile federal stance toward renewables broadly, weighing modestly on solar sentiment.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated criticism of wind energy signals continued unfavorable policy environment for clean energy ETF constituents.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks target wind specifically, with limited direct implication for solar panel maker First Solar.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments focus on windmills, not solar inverters, so direct impact on Enphase is minimal.\", \"added\": false}], \"summary\": \"The President reiterates long-standing criticism of windmills as ugly, noisy, and bird-killing, a repeat of known anti-wind stance that modestly pressures wind/clean-energy sentiment (TAN, ICLN) but has little direct bearing on solar-specific names like FSLR or ENPH.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:01200:china",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "expensive",
+    "terrible"
+   ],
+   "t_audio": 1200.325573770492,
+   "t_wall": 1784920861.3255737,
+   "t_wall_et": "2026-07-24T15:21:01.325574-04:00",
+   "segment_text": "And they're all made in China, but China has very few windmills. You know, they have they're made in China, but China doesn't use them for the most part. You China actually uses coal,",
+   "context": "They ruin housing values of people. If you're looking at a windmill or hearing a windmill because they're noisy, they kill all the birds. They kill all the eagles. You know? You shoot an eagle, you go to jail for 2 years. If you kill an eagle with a windmill, you don't go to jail, they have hundreds of them laying on the ground. You know? It's terrible. And they're very expensive energy. And they're all made in China, but China has very few windmills. You know, they have they're made in China, but China doesn't use them for the most part. You China actually uses coal,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "They're made in China, but China doesn't use them. China uses coal.",
+    "summary": "The President criticizes windmills as expensive, made in China, while China relies on coal instead."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about wind and China's energy mix, not a policy action targeting Chinese equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is about US wind policy and China's energy use, not a China-specific economic or trade action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No relevance to Chinese internet/tech sector from this remark about windmills and energy policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks target US wind energy policy and criticize windmills as Chinese-made but not used domestically in China; this is unrelated to broad China equity ETFs and carries no clear directional trading signal for FXI, MCHI, or KWEB.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about wind and China's energy mix, not a policy action targeting Chinese equities broadly.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is about US wind policy and China's energy use, not a China-specific economic or trade action.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No relevance to Chinese internet/tech sector from this remark about windmills and energy policy.\", \"added\": false}], \"summary\": \"The President's remarks target US wind energy policy and criticize windmills as Chinese-made but not used domestically in China; this is unrelated to broad China equity ETFs and carries no clear directional trading signal for FXI, MCHI, or KWEB.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:01435:natgas",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "lng",
+   "text_span": "LNG",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "ban",
+    "export",
+    "exports"
+   ],
+   "t_audio": 1435.7674086538461,
+   "t_wall": 1784921096.7674086,
+   "t_wall_et": "2026-07-24T15:24:56.767409-04:00",
+   "segment_text": "export for Rio. 18 months ago, we had ban on LNG exports from our country. Now we're the world's largest",
+   "context": "You get rid of the regulation. You support entrepreneurs. The capital flows. Flows. America wins. And, mister secretary, the the you know, the starting for this nuclear, you know, dominance, what does that look like for the American people out there? Like, what are those 1st steps that we can see in these these coming months and years? Well, I should say I'll go on it. You can see it right now because when you take a look across the whole world, the President's policies, whether it's, you know, Venezuela, whether it's Alaska, whether it's reinstating export for Rio. 18 months ago, we had ban on LNG exports from our country. Now we're the world's largest",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.7,
+    "quote": "ban on LNG exports from our country. Now we're the world's largest",
+    "summary": "Speaker credits the President policies with lifting LNG export ban, positioning US as largest exporter."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for US LNG export expansion is supportive of Cheniere as leading exporter, but policy is already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bullish rhetoric on US natural gas exports modestly supports gas prices/ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major US gas producer, EQT benefits from continued rhetoric favoring LNG export growth.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates support for expanded US LNG exports and energy dominance, a mild positive for domestic gas producers and exporters but largely repeat rhetoric with limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for US LNG export expansion is supportive of Cheniere as leading exporter, but policy is already known.\", \"added\": false}, {\"ticker\": \"UNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General bullish rhetoric on US natural gas exports modestly supports gas prices/ETF sentiment.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major US gas producer, EQT benefits from continued rhetoric favoring LNG export growth.\", \"added\": false}], \"summary\": \"The President reiterates support for expanded US LNG exports and energy dominance, a mild positive for domestic gas producers and exporters but largely repeat rhetoric with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:01450:russia",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "sell",
+    "selling"
+   ],
+   "t_audio": 1450.2548863636364,
+   "t_wall": 1784921111.2548864,
+   "t_wall_et": "2026-07-24T15:25:11.254886-04:00",
+   "segment_text": "exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667",
+   "context": "Well, I should say I'll go on it. You can see it right now because when you take a look across the whole world, the President's policies, whether it's, you know, Venezuela, whether it's Alaska, whether it's reinstating export for Rio. 18 months ago, we had ban on LNG exports from our country. Now we're the world's largest exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01453:eu",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "selling"
+   ],
+   "t_audio": 1453.8508143939393,
+   "t_wall": 1784921114.8508143,
+   "t_wall_et": "2026-07-24T15:25:14.850814-04:00",
+   "segment_text": "exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667",
+   "context": "Well, I should say I'll go on it. You can see it right now because when you take a look across the whole world, the President's policies, whether it's, you know, Venezuela, whether it's Alaska, whether it's reinstating export for Rio. 18 months ago, we had ban on LNG exports from our country. Now we're the world's largest exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667 of that that gas has been displaced by America. America has turned those into our customers supporting our allies.",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01461:venezuela",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "refineries"
+   ],
+   "t_audio": 1461.5925590909092,
+   "t_wall": 1784921122.592559,
+   "t_wall_et": "2026-07-24T15:25:22.592559-04:00",
+   "segment_text": "And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska,",
+   "context": "export for Rio. 18 months ago, we had ban on LNG exports from our country. Now we're the world's largest exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667 of that that gas has been displaced by America. America has turned those into our customers supporting our allies. And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska,",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01464:refiners",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refineries",
+   "text_span": "refineries",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "refineries"
+   ],
+   "t_audio": 1464.4707045454547,
+   "t_wall": 1784921125.4707046,
+   "t_wall_et": "2026-07-24T15:25:25.470705-04:00",
+   "segment_text": "And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska,",
+   "context": "export for Rio. 18 months ago, we had ban on LNG exports from our country. Now we're the world's largest exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667 of that that gas has been displaced by America. America has turned those into our customers supporting our allies. And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska,",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01466:oil",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gas prices",
+   "text_span": "gas prices",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices",
+    "refineries"
+   ],
+   "t_audio": 1466.886290909091,
+   "t_wall": 1784921127.886291,
+   "t_wall_et": "2026-07-24T15:25:27.886291-04:00",
+   "segment_text": "And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska,",
+   "context": "exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667 of that that gas has been displaced by America. America has turned those into our customers supporting our allies. And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska, which the pre previous administration sanctioned more than Iran.",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01472:iran",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1472.3699078125,
+   "t_wall": 1784921133.3699079,
+   "t_wall_et": "2026-07-24T15:25:33.369908-04:00",
+   "segment_text": "which the pre previous administration sanctioned more than Iran.",
+   "context": "exporter of LNG. The President's policy was let's sell energy to our friends and allies, keep it affordable at home so our our friends and allies can stop buying from our adversaries. Russia was selling virtually all of the natural gas into Western Europe. 0.667 of that that gas has been displaced by America. America has turned those into our customers supporting our allies. And with Venezuela, as the President said, that flowing to our refineries on the South Coast, that's lowering gas prices for America, unleashing Alaska, which the pre previous administration sanctioned more than Iran. That's gonna that's gonna, again, help provide low cost energy for Americans. So today, we have the lowest price, most secure energy of any country in the world. That's gonna change change the course of this country for decades to come. Mister president, mister president, what? The justice department last night withdrew those subpoenas to The New York Times journalists who reported on Air Force 1.",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "previous administration sanctioned more than Iran",
+    "summary": "The President contrasts Alaska sanctions unfavorably to Iran sanctions under prior administration."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "General pro-energy policy rhetoric (LNG exports, Alaska, Venezuela) is mildly supportive of US energy sector but largely already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments emphasize lowering gas prices via increased supply, which is roughly neutral to slightly bearish for oil prices, offsetting bullish export rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "No mention of defense spending or contracts in this excerpt, irrelevant to nuclear/energy discussion.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate existing energy dominance narrative (LNG exports, Alaska, Venezuela) which is mildly positive for domestic energy producers but not new information, with no direct impact on defense stocks like ITA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"General pro-energy policy rhetoric (LNG exports, Alaska, Venezuela) is mildly supportive of US energy sector but largely already known.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments emphasize lowering gas prices via increased supply, which is roughly neutral to slightly bearish for oil prices, offsetting bullish export rhetoric.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"No mention of defense spending or contracts in this excerpt, irrelevant to nuclear/energy discussion.\", \"added\": false}], \"summary\": \"The President's remarks reiterate existing energy dominance narrative (LNG exports, Alaska, Venezuela) which is mildly positive for domestic energy producers but not new information, with no direct impact on defense stocks like ITA.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:01635:saudi",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "saudi",
+   "entity": "Saudi Arabia",
+   "kind": "country",
+   "alias": "saudi",
+   "text_span": "Saudi",
+   "dict_tickers": [
+    "KSA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1635.9415274089936,
+   "t_wall": 1784921296.9415274,
+   "t_wall_et": "2026-07-24T15:28:16.941527-04:00",
+   "segment_text": "or the reporter. They say, national security, who gave you this information? I'm okay with that. Mister president, could you authorize for secretary right to sign the Saudi nuclear deal? If not, why didn't he sign it? Well, we didn't talk about it, but it was always understood. And Chris knew and Saudi Arabia knew that if they didn't join the Abraham Accords, the deal's not not I'm gonna do the deal. So why did you sign it? Senator the President because I they understood",
+   "context": "I think it's absolutely fine. And, again, I'm not knocking Obama for doing it. I'm knocking the press for not even wanting to cover it. But Obama did that often. Other presidents have done it also. They go to the journalists or the reporter. They say, national security, who gave you this information? I'm okay with that. Mister president, could you authorize for secretary right to sign the Saudi nuclear deal? If not, why didn't he sign it? Well, we didn't talk about it, but it was always understood. And Chris knew and Saudi Arabia knew that if they didn't join the Abraham Accords, the deal's not not I'm gonna do the deal. So why did you sign it? Senator the President because I they understood",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01683:de",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "de",
+   "entity": "John Deere",
+   "kind": "company",
+   "alias": "john deere",
+   "text_span": "John Deere",
+   "dict_tickers": [
+    "DE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1683.3629605263159,
+   "t_wall": 1784921344.3629606,
+   "t_wall_et": "2026-07-24T15:29:04.362961-04:00",
+   "segment_text": "by many fold. Thank you. Senator John Deere suggested that if the White House thinks that there are votes to pass the Save America Act, you should be picking up the phone. Who are you with? I'm with the Washington Examiner, sir.",
+   "context": "they had to sign into the Abraham Accords. And they've had great success. The Abraham Accords have been very successful. But in order to do that, we wanted them, we want them in. We think it's very good. We think the Abraham Accords bring peace in The Middle East, and now there's no longer an Iran factor. There's no longer Iran to worry about because they've been reduced in terms of their capability and power by many fold. Thank you. Senator John Deere suggested that if the White House thinks that there are votes to pass the Save America Act, you should be picking up the phone. Who are you with? I'm with the Washington Examiner, sir.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:01792:ukraine",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "zelensky",
+   "text_span": "Zelensky",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 1792.228429787234,
+   "t_wall": 1784921453.2284298,
+   "t_wall_et": "2026-07-24T15:30:53.228430-04:00",
+   "segment_text": "Laura Loomis interview with president Zelensky.",
+   "context": "for 3 years. So it's 50 years. For 50 years, they should have done it. But who who wouldn't approve voter ID, And that's photo ID. Who wouldn't approve proof of citizenship? And the Democrats don't want it because they cheat. But no Republican should put us in a position where they don't approve something like that. Yeah, please. And then earlier today, you reposted Laura Loomis interview with president Zelensky. What do you make of growing MAGA support for the war in Iran or or war in Ukraine? Sorry.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "jAUidIyneEA:02248:iran",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2248.140601851852,
+   "t_wall": 1784921909.1406019,
+   "t_wall_et": "2026-07-24T15:38:29.140602-04:00",
+   "segment_text": "And that includes right at the beginning with Barack Hussein Obama's nuclear deal that was so bad with Iran.",
+   "context": "And we'll see how it all works. And right now, we are talking to them seriously, but, you know, I've talked to them before, and they don't seem to be able to get there. Maybe now they will. But, you know, look, if I thought they were anywhere near getting a nuclear weapon if I didn't come if I wasn't elected, Israel would, in my opinion, not be around anymore. They would have been hit by a nuclear weapon. And that includes right at the beginning with Barack Hussein Obama's nuclear deal that was so bad with Iran.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "Barack Hussein Obama's nuclear deal that was so bad with Iran",
+    "summary": "The President criticizes the Iran nuclear deal as bad; warns of nuclear threat to Israel without his election."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Iran rhetoric with no new policy or supply action affecting energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new sanctions or military escalation announced that would move oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued rhetoric on military strikes against Iran reinforces defense spending narrative benefiting defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are mostly rhetorical about past strikes on Iran and no new policy details, so market-moving impact on energy tickers is minimal, while defense sector sentiment stays mildly supportive.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General Iran rhetoric with no new policy or supply action affecting energy sector.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new sanctions or military escalation announced that would move oil prices.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Continued rhetoric on military strikes against Iran reinforces defense spending narrative benefiting defense contractors.\",\"added\":false}],\"summary\":\"The President's remarks are mostly rhetorical about past strikes on Iran and no new policy details, so market-moving impact on energy tickers is minimal, while defense sector sentiment stays mildly supportive.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:02253:noc",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2 bombers",
+   "text_span": "b 2 bombers",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2253.030172413793,
+   "t_wall": 1784921914.0301723,
+   "t_wall_et": "2026-07-24T15:38:34.030172-04:00",
+   "segment_text": "And maybe even more so, the b 2 bombers. If that plane right there, that plane, that beautiful plane, the wing, it carries the largest bombs in the world. If that bomb didn't go over their 17 hour flight",
+   "context": "getting a nuclear weapon if I didn't come if I wasn't elected, Israel would, in my opinion, not be around anymore. They would have been hit by a nuclear weapon. And that includes right at the beginning with Barack Hussein Obama's nuclear deal that was so bad with Iran. That was a road to a nuclear weapon. And maybe even more so, the b 2 bombers. If that plane right there, that plane, that beautiful plane, the wing, it carries the largest bombs in the world. If that bomb didn't go over their 17 hour flight",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "that beautiful plane, the wing, it carries the largest bombs",
+    "summary": "The President praised B-2 bombers' capability and design."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised the B-2 bomber's performance in the Iran strike, mild positive sentiment for its maker Northrop Grumman but no new contract or policy news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetoric about Iran negotiations with praise for the B-2 bomber's past strike performance, offering a small positive sentiment boost for Northrop Grumman without any new concrete order or funding news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised the B-2 bomber's performance in the Iran strike, mild positive sentiment for its maker Northrop Grumman but no new contract or policy news.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetoric about Iran negotiations with praise for the B-2 bomber's past strike performance, offering a small positive sentiment boost for Northrop Grumman without any new concrete order or funding news.\"}"
+   }
+  },
+  {
+   "signal_id": "jAUidIyneEA:02265:tgt",
+   "video_id": "jAUidIyneEA",
+   "entity_id": "tgt",
+   "entity": "Target",
+   "kind": "company",
+   "alias": "target",
+   "text_span": "target",
+   "dict_tickers": [
+    "TGT"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2265.337894736842,
+   "t_wall": 1784921926.3378947,
+   "t_wall_et": "2026-07-24T15:38:46.337895-04:00",
+   "segment_text": "and it hit every 1 of those bombs, hit their target, and the target was an air shaft at 02:00 in the morning. It's hard to believe. Right? Going at very tremendous speeds.",
+   "context": "would, in my opinion, not be around anymore. They would have been hit by a nuclear weapon. And that includes right at the beginning with Barack Hussein Obama's nuclear deal that was so bad with Iran. That was a road to a nuclear weapon. And maybe even more so, the b 2 bombers. If that plane right there, that plane, that beautiful plane, the wing, it carries the largest bombs in the world. If that bomb didn't go over their 17 hour flight and it hit every 1 of those bombs, hit their target, and the target was an air shaft at 02:00 in the morning. It's hard to believe. Right? Going at very tremendous speeds.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

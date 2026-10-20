@@ -1,0 +1,1010 @@
+{
+ "video": {
+  "id": "xqlARu9srSY",
+  "url": "https://www.youtube.com/watch?v=xqlARu9srSY",
+  "title": "The President Delivers Remarks on Making Health Technology Great Again",
+  "channel": "The White House",
+  "duration": 2297.0,
+  "was_live": true,
+  "release_timestamp": 1753907681.0,
+  "upload_timestamp": 1753910269.0,
+  "upload_date": "20250730",
+  "label": "Delivers Remarks on Making Health Technology Great Again",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1753907681.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 20,
+  "confirmed": 12,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 26
+ },
+ "signals": [
+  {
+   "signal_id": "xqlARu9srSY:00069:eu",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "the eu",
+   "text_span": "the EU",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 69.16927631578947,
+   "t_wall": 1753907750.1692762,
+   "t_wall_et": "2025-07-30T16:35:50.169276-04:00",
+   "segment_text": "and that went well. We've done very well with the EU deal. It's a very big deal, I guess. They say the biggest trade deal ever made by far, probably is.",
+   "context": "But we sort of look forward to every day because we have a lot of surprises, most of which are good. Today, you saw GDP was much higher than anticipated. And Scott, good job. Scott Bessen's been working. Just got back from a little excursion and a meeting with China in Europe, and that went well. We've done very well with the EU deal. It's a very big deal, I guess. They say the biggest trade deal ever made by far, probably is.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "We've done very well with the EU deal. It's a very big deal.",
+    "summary": "The President claims largest trade deal ever made with EU."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on a US-EU trade deal already known reduces trade-war uncertainty for European equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar to VGK, positive framing of EU trade deal is mildly supportive for eurozone equities but not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Eurozone-focused ETF benefits modestly from reiterated positive trade deal rhetoric, though already priced in.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates a completed EU trade deal in positive terms, which is mildly supportive but largely repeat rhetoric for European equity ETFs (VGK, EZU, FEZ).",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive rhetoric on a US-EU trade deal already known reduces trade-war uncertainty for European equities.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar to VGK, positive framing of EU trade deal is mildly supportive for eurozone equities but not new information.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Eurozone-focused ETF benefits modestly from reiterated positive trade deal rhetoric, though already priced in.\", \"added\": false}], \"summary\": \"The President reiterates a completed EU trade deal in positive terms, which is mildly supportive but largely repeat rhetoric for European equity ETFs (VGK, EZU, FEZ).\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00077:japan",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 77.70500125000001,
+   "t_wall": 1753907758.7050014,
+   "t_wall_et": "2025-07-30T16:35:58.705001-04:00",
+   "segment_text": "Just completed Japan",
+   "context": "most of which are good. Today, you saw GDP was much higher than anticipated. And Scott, good job. Scott Bessen's been working. Just got back from a little excursion and a meeting with China in Europe, and that went well. We've done very well with the EU deal. It's a very big deal, I guess. They say the biggest trade deal ever made by far, probably is. Just completed Japan",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "Just completed Japan",
+    "summary": "The President completed a trade deal with Japan after EU agreement."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reaffirms completed trade deal with Japan, mildly positive for Japan-exposed equities but already largely known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts completed Japan trade deal alongside EU deal and AI/energy investments; positive but mostly already-known information, giving EWJ a modest, low-conviction upward tilt.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reaffirms completed trade deal with Japan, mildly positive for Japan-exposed equities but already largely known.\", \"added\": false}], \"summary\": \"The President touts completed Japan trade deal alongside EU deal and AI/energy investments; positive but mostly already-known information, giving EWJ a modest, low-conviction upward tilt.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00098:ai_word",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 98.70785828571428,
+   "t_wall": 1753907779.7078583,
+   "t_wall_et": "2025-07-30T16:36:19.707858-04:00",
+   "segment_text": "for AI and for",
+   "context": "and that went well. We've done very well with the EU deal. It's a very big deal, I guess. They say the biggest trade deal ever made by far, probably is. Just completed Japan and many other countries, and hundreds of billions of dollars is flowing into our country. We've never seen anything even close. And that's not me saying it, that's everybody saying it. And it's gonna be something really, really very special. Maybe even more importantly, factories for AI and for",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "factories for AI and for",
+    "summary": "The President announces factories for AI production as part of trade deal benefits."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General positive rhetoric about AI factories and energy build-out supports AI chip demand sentiment but adds no new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor sector benefits from optimistic AI infrastructure commentary, though largely reiterates known trends.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's upbeat remarks on AI factory growth and energy approvals are mildly positive for AI-related chipmakers but mostly restate known optimism rather than new policy specifics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General positive rhetoric about AI factories and energy build-out supports AI chip demand sentiment but adds no new specifics.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad semiconductor sector benefits from optimistic AI infrastructure commentary, though largely reiterates known trends.\",\"added\":false}],\"summary\":\"The President's upbeat remarks on AI factory growth and energy approvals are mildly positive for AI-related chipmakers but mostly restate known optimism rather than new policy specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00331:health_ins",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 331.27860869565217,
+   "t_wall": 1753908012.2786088,
+   "t_wall_et": "2025-07-30T16:40:12.278609-04:00",
+   "segment_text": "Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services,",
+   "context": "This is truly the dawn of the golden age of America. That's what we're in. We wanna keep it that way. This afternoon, we're gathered to announce another historic victory for the American people, very important 1. Today, the dream of easily transportable electronic medical records finally becomes a reality. I wanna thank secretary Scott Besant, Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "administrator of the Centers for Medicine and Medicaid Services",
+    "summary": "The President announces electronic medical records initiative involving Medicaid administrator."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Medicaid administrator is contextual, not a policy change affecting insurers directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific insurer-relevant policy announced beyond a records interoperability initiative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Electronic health record initiative is not directly tied to insurer reimbursement or pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No material new policy for Medicare/Medicaid insurers in this excerpt.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt focuses on an electronic medical records interoperability initiative and general economic bragging, with no direct new policy impacting health insurers' pricing or reimbursement, so no clear market-moving signal for UNH, CI, ELV, or HUM.",
+    "raw": "```json\n{\"tickers\": [\n{\"ticker\":\"UNH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mention of Medicaid administrator is contextual, not a policy change affecting insurers directly.\"},\n{\"ticker\":\"CI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific insurer-relevant policy announced beyond a records interoperability initiative.\"},\n{\"ticker\":\"ELV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Electronic health record initiative is not directly tied to insurer reimbursement or pricing.\"},\n{\"ticker\":\"HUM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No material new policy for Medicare/Medicaid insurers in this excerpt.\"}\n],\n\"summary\":\"The excerpt focuses on an electronic medical records interoperability initiative and general economic bragging, with no direct new policy impacting health insurers' pricing or reimbursement, so no clear market-moving signal for UNH, CI, ELV, or HUM.\"}\n```"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00336:btc",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 336.87782608695653,
+   "t_wall": 1753908017.877826,
+   "t_wall_et": "2025-07-30T16:40:17.877826-04:00",
+   "segment_text": "White House AI and crypto czar, David Sachs, and acting administrator",
+   "context": "We wanna keep it that way. This afternoon, we're gathered to announce another historic victory for the American people, very important 1. Today, the dream of easily transportable electronic medical records finally becomes a reality. I wanna thank secretary Scott Besant, Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Oz, all friends of mine, White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:00356:aapl",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 356.94998,
+   "t_wall": 1753908037.94998,
+   "t_wall_et": "2025-07-30T16:40:37.949980-04:00",
+   "segment_text": "Apple,",
+   "context": "Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Oz, all friends of mine, White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various, great senators here. Senator Round. Senator Cassidy, thank you very much very much for being here and helping out. I also wanna thank representatives from Apple,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "representatives from Apple",
+    "summary": "The President thanks Apple representatives present at White House event."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere acknowledgment of Apple attending the event carries no material new policy or business information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a ceremonial thank-you to attendees, including Apple, with no concrete policy, deal, or financial impact disclosed, so no meaningful price effect is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mere acknowledgment of Apple attending the event carries no material new policy or business information.\", \"added\": false}], \"summary\": \"The remark is a ceremonial thank-you to attendees, including Apple, with no concrete policy, deal, or financial impact disclosed, so no meaningful price effect is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00357:googl",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 357.90997,
+   "t_wall": 1753908038.90997,
+   "t_wall_et": "2025-07-30T16:40:38.909970-04:00",
+   "segment_text": "Google,",
+   "context": "Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Oz, all friends of mine, White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various, great senators here. Senator Round. Senator Cassidy, thank you very much very much for being here and helping out. I also wanna thank representatives from Apple, Google, Samsung, Amazon, OpenAI,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "representatives from Apple, Google, Samsung, Amazon, OpenAI",
+    "summary": "The President acknowledges Google representatives at a White House meeting on AI and crypto."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere acknowledgment of attendance at a health-tech event, no policy or business impact announced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely ceremonial, mentioning Google only as an attendee with no substantive policy or business announcement affecting the stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mere acknowledgment of attendance at a health-tech event, no policy or business impact announced.\", \"added\": false}], \"summary\": \"The excerpt is largely ceremonial, mentioning Google only as an attendee with no substantive policy or business announcement affecting the stock.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00358:samsung",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "samsung",
+   "entity": "Samsung",
+   "kind": "company",
+   "alias": "samsung",
+   "text_span": "Samsung",
+   "dict_tickers": [
+    "SSNLF"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 358.71,
+   "t_wall": 1753908039.71,
+   "t_wall_et": "2025-07-30T16:40:39.710000-04:00",
+   "segment_text": "Samsung,",
+   "context": "Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Oz, all friends of mine, White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various, great senators here. Senator Round. Senator Cassidy, thank you very much very much for being here and helping out. I also wanna thank representatives from Apple, Google, Samsung,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Samsung",
+    "tickers": [
+     "SSNLF"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "representatives from Apple, Google, Samsung",
+    "summary": "The President thanks Samsung representatives present at White House meeting."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SSNLF",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere acknowledgment of Samsung's presence at a health tech event carries no material policy or business implication.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely ceremonial, thanking attendees including Samsung with no specific policy, deal, or business impact disclosed, so no meaningful price effect is expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SSNLF\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mere acknowledgment of Samsung's presence at a health tech event carries no material policy or business implication.\",\"added\":false}],\"summary\":\"The President's remarks are largely ceremonial, thanking attendees including Samsung with no specific policy, deal, or business impact disclosed, so no meaningful price effect is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00359:amzn",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 359.99,
+   "t_wall": 1753908040.99,
+   "t_wall_et": "2025-07-30T16:40:40.990000-04:00",
+   "segment_text": "Amazon,",
+   "context": "Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Oz, all friends of mine, White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various, great senators here. Senator Round. Senator Cassidy, thank you very much very much for being here and helping out. I also wanna thank representatives from Apple, Google, Samsung, Amazon,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "representatives from Apple, Google, Samsung, Amazon",
+    "summary": "The President thanks Amazon representatives for attending a White House meeting."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere mention of Amazon attending a White House health-tech event, no policy or business impact stated.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is ceremonial, thanking attendees including Amazon representatives, with no concrete policy, deal, or business impact disclosed, so no meaningful price effect is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mere mention of Amazon attending a White House health-tech event, no policy or business impact stated.\", \"added\": false}], \"summary\": \"The excerpt is ceremonial, thanking attendees including Amazon representatives, with no concrete policy, deal, or business impact disclosed, so no meaningful price effect is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00360:openai",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "openai",
+   "entity": "OpenAI",
+   "kind": "company",
+   "alias": "openai",
+   "text_span": "OpenAI",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 360.94998,
+   "t_wall": 1753908041.94998,
+   "t_wall_et": "2025-07-30T16:40:41.949980-04:00",
+   "segment_text": "OpenAI,",
+   "context": "Robert f Kennedy junior for joining us, as well as administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Oz, all friends of mine, White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various, great senators here. Senator Round. Senator Cassidy, thank you very much very much for being here and helping out. I also wanna thank representatives from Apple, Google, Samsung, Amazon, OpenAI,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "OpenAI",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "representatives from Apple, Google, Samsung, Amazon, OpenAI",
+    "summary": "The President thanks OpenAI representatives attending a White House meeting."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere attendance mention of OpenAI/tech reps at a health-tech event has no direct price implication for Microsoft.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is ceremonial rhetoric about health record interoperability with no concrete policy, deal, or financial detail affecting Microsoft specifically.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mere attendance mention of OpenAI/tech reps at a health-tech event has no direct price implication for Microsoft.\", \"added\": false}], \"summary\": \"The excerpt is ceremonial rhetoric about health record interoperability with no concrete policy, deal, or financial detail affecting Microsoft specifically.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00364:orcl",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "orcl",
+   "entity": "Oracle",
+   "kind": "company",
+   "alias": "oracle",
+   "text_span": "Oracle",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 364.1745953846154,
+   "t_wall": 1753908045.1745954,
+   "t_wall_et": "2025-07-30T16:40:45.174595-04:00",
+   "segment_text": "Epic, Oracle,",
+   "context": "White House AI and crypto czar, David Sachs, and acting administrator of Doge, Amy Gleason, here. And we have various, great senators here. Senator Round. Senator Cassidy, thank you very much very much for being here and helping out. I also wanna thank representatives from Apple, Google, Samsung, Amazon, OpenAI, Anthropic, Epic, Oracle,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oracle",
+    "tickers": [
+     "ORCL"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "representatives from Apple, Google, Samsung, Amazon, OpenAI, Anthropic, Epic, Oracle",
+    "summary": "The President thanks Oracle representatives for attending a White House meeting."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Oracle is named as a participant in a White House health-tech initiative, suggesting a favorable role in electronic health record modernization but no concrete deal disclosed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks mention Oracle among tech firms invited to a health-tech initiative, mildly positive but lacking specific new business details, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Oracle is named as a participant in a White House health-tech initiative, suggesting a favorable role in electronic health record modernization but no concrete deal disclosed.\", \"added\": false}], \"summary\": \"The President's remarks mention Oracle among tech firms invited to a health-tech initiative, mildly positive but lacking specific new business details, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:00963:health_ins",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 963.2983333333334,
+   "t_wall": 1753908644.2983334,
+   "t_wall_et": "2025-07-30T16:50:44.298333-04:00",
+   "segment_text": "we passed Medicaid and Medicare in this country,",
+   "context": "Because it gives people the choice over their own health decisions and over their own lives and it gives them a sense of responsibility and allows them to measure the interventions if they change their diet, if they change their exercise. It can show you how many steps you took today. It can tell you if your glucose is spiking, and all of that information will now be available to American citizens. 60 years ago today, we passed Medicaid and Medicare in this country, and we have 60 CEOs",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "60 years ago today, we passed Medicaid and Medicare",
+    "summary": "The President references Medicaid's 60-year anniversary passage alongside Medicare."
+   },
+   "llm_attempts": 2,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General health data-sharing initiative and Medicaid/Medicare anniversary mention is not directly price-relevant to UnitedHealth.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about interoperability and health records, not insurer-specific policy or pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct financial impact on Elevance from this data-sharing announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicare/Medicaid mention is historical context, not a new policy affecting Humana's business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt focuses on a voluntary health-data interoperability initiative among tech/health companies and a historical Medicare/Medicaid anniversary reference, with no new pricing, funding, or regulatory action directly impacting major health insurers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"UNH\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General health data-sharing initiative and Medicaid/Medicare anniversary mention is not directly price-relevant to UnitedHealth.\",\"added\":false},{\"ticker\":\"CI\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark is about interoperability and health records, not insurer-specific policy or pricing.\",\"added\":false},{\"ticker\":\"ELV\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct financial impact on Elevance from this data-sharing announcement.\",\"added\":false},{\"ticker\":\"HUM\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Medicare/Medicaid mention is historical context, not a new policy affecting Humana's business.\",\"added\":false}],\"summary\":\"The excerpt focuses on a voluntary health-data interoperability initiative among tech/health companies and a historical Medicare/Medicaid anniversary reference, with no new pricing, funding, or regulatory action directly impacting major health insurers.\",\"tickers_added\":[]}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:01118:btc",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1118.4769047619047,
+   "t_wall": 1753908799.4769049,
+   "t_wall_et": "2025-07-30T16:53:19.476905-04:00",
+   "segment_text": "Now I wanna introduce my friend, my colleague, the crypto czar,",
+   "context": "This is happening because of good leadership. The President, you've asked us to think big. You've inspired us to dream big, and you have, you've enabled us to accomplish things that no other president has been able to do. So I wanna thank you for your leadership, for allowing this to happen, and with your leadership, we're gonna make America healthy again. Now I wanna introduce my friend, my colleague, the crypto czar, the acting administrator of Doge, David Sachs.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:01223:abbv",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "abbv",
+   "entity": "AbbVie",
+   "kind": "company",
+   "alias": "abbvie",
+   "text_span": "AbbVie",
+   "dict_tickers": [
+    "ABBV"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1223.9385102739725,
+   "t_wall": 1753908904.9385102,
+   "t_wall_et": "2025-07-30T16:55:04.938510-04:00",
+   "segment_text": "And I remember doctor Oz, he was 1 of the 1st people to call me, after... During the transition when the president announced AbbVie AI's are because he wanted to ask me about how AI could better be used in in health care. So, kudos to to you, doctor Oz. Your your passion's really incredible.",
+   "context": "for this pledge today. They were able to get 60 major companies across different sectors of the economy to agree to unlock their data so that AI could use it to drive better patient outcomes. And this is, you know, all due to your leadership and the President's leadership to put American... The American people's health care needs 1st. And I remember doctor Oz, he was 1 of the 1st people to call me, after... During the transition when the president announced AbbVie AI's are because he wanted to ask me about how AI could better be used in in health care. So, kudos to to you, doctor Oz. Your your passion's really incredible.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:01292:ai_word",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "fraud"
+   ],
+   "t_audio": 1292.6520161290323,
+   "t_wall": 1753908973.6520162,
+   "t_wall_et": "2025-07-30T16:56:13.652016-04:00",
+   "segment_text": "Technologies like AI, they they do things like they they will expand access to care, cut administrative costs, reduce fraud,",
+   "context": "And I think that, you know, getting people like doctor Oz and and Bobby Kennedy into the administration is a testament to the President and the talent that he's able to attract and pull together and the the the partnerships that he's able to forge because these are people who could be doing other things. So it's really a testament to the great talent that the President always attracts around him. Today's pledge by these companies is gonna tear down barriers that allows both start ups and established firms to compete freely. We're opening up the playing field so that the best tools can scale, compete on value, and discover new methods for making Americans healthy again. Technologies like AI, they they do things like they they will expand access to care, cut administrative costs, reduce fraud,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:01317:ai",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "ai infrastructure",
+   "text_span": "AI infrastructure",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1317.5967718446602,
+   "t_wall": 1753908998.596772,
+   "t_wall_et": "2025-07-30T16:56:38.596772-04:00",
+   "segment_text": "in AI infrastructure and also getting red tape out of the way so that we can be the leading country in AI. And it's these life saving applications that are gonna be built on top of all that, infrastructure.",
+   "context": "and deliver, better results for patients and doctors. And, I wanna thank you, the President, for your promise to not only make Americans healthy again, but also to ensure that America is a predominant AI superpower. Just last week, you announced a major major AI action plan with hundreds of billions of dollars of new investment in AI infrastructure and also getting red tape out of the way so that we can be the leading country in AI. And it's these life saving applications that are gonna be built on top of all that, infrastructure.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:01569:nflx",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "nflx",
+   "entity": "Netflix",
+   "kind": "company",
+   "alias": "netflix",
+   "text_span": "Netflix",
+   "dict_tickers": [
+    "NFLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1569.6778,
+   "t_wall": 1753909250.6778,
+   "t_wall_et": "2025-07-30T17:00:50.677800-04:00",
+   "segment_text": "It's frozen in time so it cannot address the quality lags that exist. While Netflix and Airbnb and and Uber drivers are racing ahead,",
+   "context": "to tax revenue to pay for a lot of the problems that people are concerned about. So it's not just keeping people out of the hospital, getting them to thrive and flourish that makes what we're doing so critical today. I think there are a lot of realities to to how health care has gone. Unfortunately, the system is frozen, and it has been for many reasons despite efforts in the 1st administration. It's frozen in time so it cannot address the quality lags that exist. While Netflix and Airbnb and and Uber drivers are racing ahead, making arrangements, identifying the problems that are challenging us in health care have become incredibly difficult. You can't make appointments. The average Americans are tired. They're tired of waiting for a doctor's appointment. They're tired of waiting for the surprise of what your hospital bill is gonna offer. That's being addressed by 1 of the president's executive orders. They're tired of waiting for access to their medical records. You own your medical records. They're yours.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:01571:uber",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1571.5616894736843,
+   "t_wall": 1753909252.5616894,
+   "t_wall_et": "2025-07-30T17:00:52.561689-04:00",
+   "segment_text": "It's frozen in time so it cannot address the quality lags that exist. While Netflix and Airbnb and and Uber drivers are racing ahead,",
+   "context": "to tax revenue to pay for a lot of the problems that people are concerned about. So it's not just keeping people out of the hospital, getting them to thrive and flourish that makes what we're doing so critical today. I think there are a lot of realities to to how health care has gone. Unfortunately, the system is frozen, and it has been for many reasons despite efforts in the 1st administration. It's frozen in time so it cannot address the quality lags that exist. While Netflix and Airbnb and and Uber drivers are racing ahead, making arrangements, identifying the problems that are challenging us in health care have become incredibly difficult. You can't make appointments. The average Americans are tired. They're tired of waiting for a doctor's appointment. They're tired of waiting for the surprise of what your hospital bill is gonna offer. That's being addressed by 1 of the president's executive orders. They're tired of waiting for access to their medical records. You own your medical records. They're yours.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xqlARu9srSY:01639:health_ins",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 1639.2166666666667,
+   "t_wall": 1753909320.2166667,
+   "t_wall_et": "2025-07-30T17:02:00.216667-04:00",
+   "segment_text": "the... And 91 percent of of Medicaid patients have smartphones.",
+   "context": "What you did today was show us a vision because you share it with us and we're moving ahead on it. And that's what today's commitments essentially are reflecting. And they are pledges. They're not laws. They're nimble and they're fast and they're quick because president understands that you, each of you, in your own way, understand these needs. And secretary Kennedy spoke beautifully about the reality of what happens when you actually have electronic records because what he said is happening in Indonesia, we'll have here. Within a year, on your device, the... And 91 percent of of Medicaid patients have smartphones. On this device, you'll get insights based on your records if you want. You don't have to take this. But if you desire, Amy Gleason, who's 1 of the smartest people I've ever worked with, has built built a mechanism to be able to get you that information in a way with all these partners helping so that you can get nudged to pay attention to what you're eating and avoid processed foods. Secretary Kennedy smartly and wisely highlighted it's so dangerous to our well-being. All of this, by the way, is that will be at the fingertips. In addition, advice about which doctor to see, when to go see them, nudges reminding you why I didn't do certain things. If you're a doctor like me, it's a very different story. It's to help you navigate the system better. It's giving you advice,",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "91 percent of Medicaid patients have smartphones",
+    "summary": "The President discusses digital health records and wellness nudges for Medicaid beneficiaries."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General digital health records initiative for Medicaid patients does not directly change insurer economics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific policy affecting Cigna's business is mentioned beyond general health tech rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks focus on patient tech access, not insurer regulation or reimbursement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicaid smartphone stat is descriptive, not a new policy impacting Humana directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely rhetorical about digital health records and patient experience with no new binding policy or financial impact for major health insurers, so no directional price effect is expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"UNH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General digital health records initiative for Medicaid patients does not directly change insurer economics.\",\"added\":false},{\"ticker\":\"CI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific policy affecting Cigna's business is mentioned beyond general health tech rhetoric.\",\"added\":false},{\"ticker\":\"ELV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remarks focus on patient tech access, not insurer regulation or reimbursement.\",\"added\":false},{\"ticker\":\"HUM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Medicaid smartphone stat is descriptive, not a new policy impacting Humana directly.\",\"added\":false}],\"summary\":\"The excerpt is largely rhetorical about digital health records and patient experience with no new binding policy or financial impact for major health insurers, so no directional price effect is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "xqlARu9srSY:01726:defense_word",
+   "video_id": "xqlARu9srSY",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fraud"
+   ],
+   "t_audio": 1726.4990950226243,
+   "t_wall": 1753909407.499095,
+   "t_wall_et": "2025-07-30T17:03:27.499095-04:00",
+   "segment_text": "like, in a similar fashion. The IT infrastructure that's gonna change promises to improve a lot of things. We're gonna cut fraud, waste, and abuse. Mister president, we announced with the DOJ 2 weeks ago a $15,000,000,000",
+   "context": "the whole covenant of being with the doctors, having them look you in the eyes and realize you're there for each other, that process is gonna go away. We will, within the workflow of doctors, be able, with your help, allow physicians to take care of patients, gather the information while they're doing it, and we'll destroy the up coding that has hurt Medicare Advantage and other programs, like, in a similar fashion. The IT infrastructure that's gonna change promises to improve a lot of things. We're gonna cut fraud, waste, and abuse. Mister president, we announced with the DOJ 2 weeks ago a $15,000,000,000 bust. $15,000,000,000 is a multinational criminal syndicate based primarily, we believe, in The Soviet Union, in Russia. And what they did was hack using beneficiary numbers into the system. We'll be able to stop that because of a system that Amy has put together and the, the wonderful work of Amy Brandt who has a fraud war room using this kind of technology because we'll know who you are and who your doctor is. We can block this. We're gonna have remarkable",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

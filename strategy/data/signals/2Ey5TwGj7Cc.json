@@ -1,0 +1,2503 @@
+{
+ "video": {
+  "id": "2Ey5TwGj7Cc",
+  "url": "https://www.youtube.com/watch?v=2Ey5TwGj7Cc",
+  "title": "The President Makes an Announcement, Dec. 3, 2025",
+  "channel": "The White House",
+  "duration": 3519.0,
+  "was_live": true,
+  "release_timestamp": 1764793171.0,
+  "upload_timestamp": 1764797424.0,
+  "upload_date": "20251203",
+  "label": "Makes an Announcement, Dec. 3, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1764793171.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 50,
+  "confirmed": 27,
+  "retracted": 23,
+  "unconfirmed": 0,
+  "llm_calls": 63
+ },
+ "signals": [
+  {
+   "signal_id": "2Ey5TwGj7Cc:00038:autos",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "automakers",
+   "text_span": "automakers",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "expensive"
+   ],
+   "t_audio": 38.72374965625,
+   "t_wall": 1764793209.7237496,
+   "t_wall_et": "2025-12-03T15:20:09.723750-05:00",
+   "segment_text": "all sorts of problems. Gave all sorts of problems to automakers.",
+   "context": "Well, we're talking about CAFE standards. Very big deal. Very important today. My administration is taking historic action to lower costs for American consumers, protect American auto jobs, and make buying a car much more affordable for countless American families and also safer. We're officially terminating Joe Biden's ridiculously burdensome, horrible, actually, CAFE standards that imposed expensive restrictions and all sorts of problems. Gave all sorts of problems to automakers.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "Terminating Joe Biden's ridiculously burdensome CAFE standards that imposed expensive restrictions",
+    "summary": "The President eliminating CAFE emissions standards to reduce costs and protect auto industry jobs."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Ending CAFE standards removes costly compliance burden for traditional automakers like GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Ford benefits from reduced regulatory costs on gasoline vehicle production.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Stellantis also gains from relaxed fuel economy rules lowering compliance costs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Weaker EV mandates and cheaper gas cars reduce competitive advantage and regulatory credit revenue for Tesla.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad auto sector ETF benefits modestly from reduced regulatory costs across traditional automakers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's termination of CAFE standards is positive for traditional gasoline automakers (GM, F, STLA) by cutting compliance costs, mildly negative for Tesla due to weaker EV push, and modestly positive for the broad auto ETF CARZ.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GM\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Ending CAFE standards removes costly compliance burden for traditional automakers like GM.\",\"added\":false},{\"ticker\":\"F\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Ford benefits from reduced regulatory costs on gasoline vehicle production.\",\"added\":false},{\"ticker\":\"STLA\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Stellantis also gains from relaxed fuel economy rules lowering compliance costs.\",\"added\":false},{\"ticker\":\"TSLA\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Weaker EV mandates and cheaper gas cars reduce competitive advantage and regulatory credit revenue for Tesla.\",\"added\":false},{\"ticker\":\"CARZ\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Broad auto sector ETF benefits modestly from reduced regulatory costs across traditional automakers.\",\"added\":false}],\"summary\":\"The President's termination of CAFE standards is positive for traditional gasoline automakers (GM, F, STLA) by cutting compliance costs, mildly negative for Tesla due to weaker EV push, and modestly positive for the broad auto ETF CARZ.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00055:evs",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "evs",
+   "entity": "Electric vehicles",
+   "kind": "sector",
+   "alias": "electric vehicle",
+   "text_span": "electric vehicle",
+   "dict_tickers": [
+    "TSLA",
+    "RIVN",
+    "GM"
+   ],
+   "triggers_nearby": [
+    "expensive",
+    "prices",
+    "tremendous"
+   ],
+   "t_audio": 55.0125,
+   "t_wall": 1764793226.0125,
+   "t_wall_et": "2025-12-03T15:20:26.012500-05:00",
+   "segment_text": "combined with the insane electric vehicle mandate,",
+   "context": "We're officially terminating Joe Biden's ridiculously burdensome, horrible, actually, CAFE standards that imposed expensive restrictions and all sorts of problems. Gave all sorts of problems to automakers. And we're not only talking about here, we're talking about outside of our country because nobody could do it. Nobody wanted to do it, and it was ridiculous, very expensive. It put tremendous upward pressure on car prices combined with the insane electric vehicle mandate,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Electric vehicles",
+    "tickers": [
+     "TSLA",
+     "RIVN",
+     "GM"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "insane electric vehicle mandate combined with expensive restrictions",
+    "summary": "The President criticizes EV mandate and regulations for raising car prices."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSLA",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Ending CAFE/EV mandates reduces regulatory push toward EV adoption, mildly negative for pure-EV leader Tesla.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RIVN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Weaker EV mandates reduce regulatory tailwinds for EV-focused Rivian.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Termination of strict CAFE standards eases compliance costs and favors gas-powered vehicle production for legacy automakers like GM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's rollback of CAFE and EV mandates is mildly negative for EV pure-plays (Tesla, Rivian) and mildly positive for traditional automakers like GM due to reduced regulatory burden on gas vehicles.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TSLA\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Ending CAFE/EV mandates reduces regulatory push toward EV adoption, mildly negative for pure-EV leader Tesla.\",\"added\":false},{\"ticker\":\"RIVN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Weaker EV mandates reduce regulatory tailwinds for EV-focused Rivian.\",\"added\":false},{\"ticker\":\"GM\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Termination of strict CAFE standards eases compliance costs and favors gas-powered vehicle production for legacy automakers like GM.\",\"added\":false}],\"summary\":\"The President's rollback of CAFE and EV mandates is mildly negative for EV pure-plays (Tesla, Rivian) and mildly positive for traditional automakers like GM due to reduced regulatory burden on gas vehicles.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00079:solar",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "green new scam",
+   "text_span": "Green New scam",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 79.36455878518518,
+   "t_wall": 1764793250.3645587,
+   "t_wall_et": "2025-12-03T15:20:50.364559-05:00",
+   "segment_text": "Today, we're taking 1 more step to kill the green news scam. It's part of the greatest scam, probably, well, other than Russia, Russia, Russia, and a few others I could name. The greatest scam in American history, the Green New scam, and it's a quest to end the gasoline",
+   "context": "It put tremendous upward pressure on car prices combined with the insane electric vehicle mandate, Biden's burdensome regulations have caused the price of cars to soar more than 25%. And in 1 case, they went up 18% in 1 year. Today, we're taking 1 more step to kill the green news scam. It's part of the greatest scam, probably, well, other than Russia, Russia, Russia, and a few others I could name. The greatest scam in American history, the Green New scam, and it's a quest to end the gasoline",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Green New Deal / Green energy sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "greatest scam in American history, the Green New scam",
+    "summary": "The President attacks green energy policies as a scam harming car prices."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Criticism of green mandates and rollback of EV/CAFE push is negative sentiment for solar sector broadly but is largely repeat rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same anti-green-energy rhetoric weighs modestly on clean energy ETF sentiment though not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General anti-green rhetoric is a mild negative signal for solar manufacturers but no new policy specifics given.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anti-clean-energy tone modestly negative for residential solar equipment maker though not directly targeted.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "CAFE standard rollback lowers compliance costs for automakers like Ford, which the President praised directly.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Termination of strict CAFE/EV mandates reduces regulatory burden and cost pressure for GM.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President announced rollback of Biden-era CAFE/EV mandates, a positive for traditional automakers (Ford, GM) and a mild negative sentiment driver for clean energy/solar names due to repeated anti-green rhetoric.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Criticism of green mandates and rollback of EV/CAFE push is negative sentiment for solar sector broadly but is largely repeat rhetoric.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same anti-green-energy rhetoric weighs modestly on clean energy ETF sentiment though not new policy.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General anti-green rhetoric is a mild negative signal for solar manufacturers but no new policy specifics given.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Anti-clean-energy tone modestly negative for residential solar equipment maker though not directly targeted.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"CAFE standard rollback lowers compliance costs for automakers like Ford, which the President praised directly.\", \"added\": true}, {\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Termination of strict CAFE/EV mandates reduces regulatory burden and cost pressure for GM.\", \"added\": true}], \"summary\": \"The President announced rollback of Biden-era CAFE/EV mandates, a positive for traditional automakers (Ford, GM) and a mild negative sentiment driver for clean energy/solar names due to repeated anti-green rhetoric.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00114:f",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 114.5204347826087,
+   "t_wall": 1764793285.5204349,
+   "t_wall_et": "2025-12-03T15:21:25.520435-05:00",
+   "segment_text": "as well as CEO of Ford, Jim Farley. Jim, where is Jim? Let's see. Hi,",
+   "context": "And people want the gasoline car. They want everything. They want electric. They want any they wanna have lots of alternatives, but they do want the gasoline car. Right now, it's leading away by a lot. The the car business is a very interesting business, but we wanna keep it that way. I wanna thank transportation secretary Sean Duffy, deputy transportation secretary Stephen Bradbury, as well as CEO of Ford, Jim Farley. Jim, where is Jim? Let's see. Hi,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "CEO of Ford, Jim Farley. Jim, where is Jim?",
+    "summary": "The President thanked Ford CEO Jim Farley at an automotive event."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rolling back EV mandates and easing regulation benefits Ford's still-large gasoline vehicle lineup and reduces compliance costs, plus the President publicly praised Ford's CEO.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's rollback of EV mandates and friendly nod to Ford's CEO is mildly positive for Ford, which relies heavily on gasoline vehicle sales and benefits from reduced EV-related regulatory burden, though this largely reiterates known policy direction.",
+    "raw": "{\"tickers\": [{\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rolling back EV mandates and easing regulation benefits Ford's still-large gasoline vehicle lineup and reduces compliance costs, plus the President publicly praised Ford's CEO.\", \"added\": false}], \"summary\": \"The President's rollback of EV mandates and friendly nod to Ford's CEO is mildly positive for Ford, which relies heavily on gasoline vehicle sales and benefits from reduced EV-related regulatory burden, though this largely reiterates known policy direction.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00122:stla",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 122.53923076923077,
+   "t_wall": 1764793293.5392308,
+   "t_wall_et": "2025-12-03T15:21:33.539231-05:00",
+   "segment_text": "You're doing a great job. CEO of Stellantis, Antonio",
+   "context": "they wanna have lots of alternatives, but they do want the gasoline car. Right now, it's leading away by a lot. The the car business is a very interesting business, but we wanna keep it that way. I wanna thank transportation secretary Sean Duffy, deputy transportation secretary Stephen Bradbury, as well as CEO of Ford, Jim Farley. Jim, where is Jim? Let's see. Hi, Jim. Congratulations. You're doing a great job. CEO of Stellantis, Antonio",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stellantis",
+    "tickers": [
+     "STLA"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "CEO of Stellantis, Antonio",
+    "summary": "The President names Stellantis CEO while discussing automotive industry and gasoline cars."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Rolling back EV mandates and easing emissions rules reduces compliance costs and pressure on traditional automakers like Stellantis.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's rollback of EV/emissions mandates benefits legacy automakers by reducing regulatory burden, providing a mild positive tailwind for Stellantis.",
+    "raw": "{\"tickers\": [{\"ticker\": \"STLA\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Rolling back EV mandates and easing emissions rules reduces compliance costs and pressure on traditional automakers like Stellantis.\", \"added\": false}], \"summary\": \"The President's rollback of EV/emissions mandates benefits legacy automakers by reducing regulatory burden, providing a mild positive tailwind for Stellantis.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00137:gm",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 137.33939024390244,
+   "t_wall": 1764793308.3393903,
+   "t_wall_et": "2025-12-03T15:21:48.339390-05:00",
+   "segment_text": "Yes, sir. Thank you very much, Tom. Good to have you on manager of General Motors,",
+   "context": "secretary Sean Duffy, deputy transportation secretary Stephen Bradbury, as well as CEO of Ford, Jim Farley. Jim, where is Jim? Let's see. Hi, Jim. Congratulations. You're doing a great job. CEO of Stellantis, Antonio Filosa. Thank you very much. Thank you very much. Of the National Automobile Dealers Association, Tom Castrado. Yes, sir. Thank you very much, Tom. Good to have you on manager of General Motors,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "manager of General Motors",
+    "summary": "The President acknowledges General Motors representative at automotive industry meeting."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rolling back EV mandates reduces costly compliance pressure on traditional automakers like GM, favoring their gas-powered lineup.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's rollback of EV mandates favors legacy automakers reliant on gasoline vehicle sales, a mild positive for GM, though largely already-known policy direction.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rolling back EV mandates reduces costly compliance pressure on traditional automakers like GM, favoring their gas-powered lineup.\", \"added\": false}], \"summary\": \"The President's rollback of EV mandates favors legacy automakers reliant on gasoline vehicle sales, a mild positive for GM, though largely already-known policy direction.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00157:kraken",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 157.74256097560976,
+   "t_wall": 1764793328.7425609,
+   "t_wall_et": "2025-12-03T15:22:08.742561-05:00",
+   "segment_text": "Ted Cruz, Kevin Kraken, Marsha Blackburn,",
+   "context": "Tom Castrado. Yes, sir. Thank you very much, Tom. Good to have you on manager of General Motors, Orient plant, John Urbanic. Yes, sir. Thank you, sir. Great to have you guys here. And you're gonna say a few words in a minute about how ridiculous this was, but we're we've just freed you up. So you're gonna have a good day. You're gonna have a good number of years. Thanks as well to senator Shell Moore Capito, Ted Cruz, Kevin Kraken, Marsha Blackburn, Eric Schmidt, and Bernie Marino, as well as representative Sam Graves,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00347:ai_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 347.8850561797753,
+   "t_wall": 1764793518.8850563,
+   "t_wall_et": "2025-12-03T15:25:18.885056-05:00",
+   "segment_text": "not only the automobile industry. AI, we're leading China in AI. We're leading everybody in AI. We're leading everybody in everything. We have the hottest country right now. I will tell you, a lot of political people behind me, great political people, very successful",
+   "context": "Creating at least 4,000 new jobs. Stellantis announced that it will invest $13,000,000,000 to expand its US based manufacturing by more than 50% and open new manufacturing facilities across the country. And I think a big part of that is also the tariffs. Because of tariffs, they're coming in not only the automobile industry. AI, we're leading China in AI. We're leading everybody in AI. We're leading everybody in everything. We have the hottest country right now. I will tell you, a lot of political people behind me, great political people, very successful",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "we're leading everybody in AI",
+    "summary": "The President claims US leads the world in artificial intelligence."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General AI leadership rhetoric with no new policy specifics affecting Nvidia directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad patriotic AI/tariff rhetoric is not new or specific enough to move semiconductor ETF pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus mainly on auto industry investments and tariffs, with only vague repeated praise for US AI leadership; no new material information for NVDA or SMH, so minimal price impact expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General AI leadership rhetoric with no new policy specifics affecting Nvidia directly.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad patriotic AI/tariff rhetoric is not new or specific enough to move semiconductor ETF pricing.\",\"added\":false}],\"summary\":\"The President's remarks focus mainly on auto industry investments and tariffs, with only vague repeated praise for US AI leadership; no new material information for NVDA or SMH, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00348:china",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 348.84067415730334,
+   "t_wall": 1764793519.8406742,
+   "t_wall_et": "2025-12-03T15:25:19.840674-05:00",
+   "segment_text": "not only the automobile industry. AI, we're leading China in AI. We're leading everybody in AI. We're leading everybody in everything. We have the hottest country right now. I will tell you, a lot of political people behind me, great political people, very successful",
+   "context": "Creating at least 4,000 new jobs. Stellantis announced that it will invest $13,000,000,000 to expand its US based manufacturing by more than 50% and open new manufacturing facilities across the country. And I think a big part of that is also the tariffs. Because of tariffs, they're coming in not only the automobile industry. AI, we're leading China in AI. We're leading everybody in AI. We're leading everybody in everything. We have the hottest country right now. I will tell you, a lot of political people behind me, great political people, very successful",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.88,
+    "quote": "we're leading China in AI because of tariffs",
+    "summary": "The President attributes US AI leadership over China to tariff policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about tariffs and AI leadership over China without new policy specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic China rhetoric, no new tariff action announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new Chinese tech-sector specific measures mentioned, just broad claims of US superiority.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks are largely celebratory rhetoric about auto investment and tariffs with only a repeated, non-specific reference to China/AI competition, offering no new tradable information for Chinese equity ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about tariffs and AI leadership over China without new policy specifics.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same generic China rhetoric, no new tariff action announced.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new Chinese tech-sector specific measures mentioned, just broad claims of US superiority.\",\"added\":false}],\"summary\":\"Remarks are largely celebratory rhetoric about auto investment and tariffs with only a repeated, non-specific reference to China/AI competition, offering no new tradable information for Chinese equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00398:mexico",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 398.0287660869565,
+   "t_wall": 1764793569.0287662,
+   "t_wall_et": "2025-12-03T15:26:09.028766-05:00",
+   "segment_text": "as it brings its manufacturing back to The United States from Mexico.",
+   "context": "and now we have the hottest country anywhere in the world. And it started from November 5, but it also started when we did the tariffs, and we've had tremendous support on the tariffs. It's bringing in trillions of dollars of wealth. It's bringing in national security. And I've stopped 8 wars, and of the 8 wars, 5 of them have been because of tariffs and trade. So they're very important. And General Motors plans to invest $4,000,000,000 as it brings its manufacturing back to The United States from Mexico.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "General Motors plans to invest $4,000,000,000 as it brings its manufacturing back to The United States from Mexico.",
+    "summary": "The President cites GM's $4B investment moving manufacturing from Mexico to US due to tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "GM shifting $4B manufacturing investment from Mexico to the US signals continued reshoring pressure that is mildly negative for Mexican industrial output and equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize tariffs pulling auto manufacturing (GM $4B investment) from Mexico back to the US, a mild negative for Mexico-exposed assets like EWW.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"GM shifting $4B manufacturing investment from Mexico to the US signals continued reshoring pressure that is mildly negative for Mexican industrial output and equities.\", \"added\": false}], \"summary\": \"The President's remarks emphasize tariffs pulling auto manufacturing (GM $4B investment) from Mexico back to the US, a mild negative for Mexico-exposed assets like EWW.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00462:chips",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [
+    "market",
+    "plants"
+   ],
+   "t_audio": 462.29292373443985,
+   "t_wall": 1764793633.2929237,
+   "t_wall_et": "2025-12-03T15:27:13.292924-05:00",
+   "segment_text": "including chips, we're gonna have a big percentage of the chip market very soon, not because of the chips act, which was horrible and ridiculous where we just gave these companies billions and billions of dollars and and just kept the money,",
+   "context": "over the years. 52% of our automobile manufacture you see it. Closed factories all over the place. Now they're all opening up. They're being in most cases, they're being knocked down, and new ones are being built in their place. And a big beneficiary is the state of Michigan, but South Carolina even states that didn't really do too much with the automobiles, they're opening up plants. It's been amazing. So between automobile plants, AI plants, and plants of every other nation really, every other type, including chips, we're gonna have a big percentage of the chip market very soon, not because of the chips act, which was horrible and ridiculous where we just gave these companies billions and billions of dollars and and just kept the money,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "we're gonna have a big percentage of the chip market very soon",
+    "summary": "The President projects US will capture significant chip market share soon, criticizes prior chips act as wasteful."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "General rhetoric about US chip manufacturing growth via tariffs is mildly positive for domestic semiconductor exposure but non-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Same broad sector rhetoric supports semiconductor onshoring narrative without new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "No specific mention of NVDA; remark is generic about US chip market share.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "As a major US-based chip manufacturer, INTC could benefit most from tariff-driven domestic fab investment rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing tariff-driven push for US chip manufacturing dominance, criticizing the CHIPS Act; this is largely repeat rhetoric, mildly bullish for domestic semiconductor exposure (SMH, SOXX, INTC) with no new specific policy detail.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"General rhetoric about US chip manufacturing growth via tariffs is mildly positive for domestic semiconductor exposure but non-specific.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Same broad sector rhetoric supports semiconductor onshoring narrative without new policy detail.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"No specific mention of NVDA; remark is generic about US chip market share.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"As a major US-based chip manufacturer, INTC could benefit most from tariff-driven domestic fab investment rhetoric.\", \"added\": false}], \"summary\": \"The President reiterates existing tariff-driven push for US chip manufacturing dominance, criticizing the CHIPS Act; this is largely repeat rhetoric, mildly bullish for domestic semiconductor exposure (SMH, SOXX, INTC) with no new specific policy detail.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00680:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "factory"
+   ],
+   "t_audio": 680.3548314606742,
+   "t_wall": 1764793851.3548315,
+   "t_wall_et": "2025-12-03T15:30:51.354831-05:00",
+   "segment_text": "for a lot of reasons. We were number 2 last year in EV sales. We were number 3 in hybrid,",
+   "context": "We're very proud of Ford to be the number 1 auto producer in our country. 85 80% of the vehicles we sell here, we make in our country. Right. And we never left, unlike many of our competitors. We're the number 1 exporter, and we have the most factory auto factory workers. And this CAFE standard that is aligned with customer demand is the right move for a lot of reasons. We were number 2 last year in EV sales. We were number 3 in hybrid, and we're the leading brand for combustion. We believe that people should be able to make a choice, as you said, mister president. And we will invest more in affordable vehicles.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00726:vw",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "vw",
+   "entity": "Volkswagen",
+   "kind": "company",
+   "alias": "volkswagen",
+   "text_span": "Volkswagen",
+   "dict_tickers": [
+    "VWAGY"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 726.628958,
+   "t_wall": 1764793897.628958,
+   "t_wall_et": "2025-12-03T15:31:37.628958-05:00",
+   "segment_text": "sort of like the Beetle used to be with the Volkswagen.",
+   "context": "to invest in affordable vehicles made in The US, which we will take the lead on and will allow us to make vehicles more affordable. So thank you for making this step for all of you. Thank you very much. 1 of the other things we're doing is separate from this meeting, but I think everybody here would agree with it. If you go to Japan, where I just left, and if you go to South Korea and Malaysia and other countries, they have a very small car, sort of like the Beetle used to be with the Volkswagen.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Volkswagen",
+    "tickers": [
+     "VWAGY"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "they have a very small car, sort of like the Beetle used to be with the Volkswagen",
+    "summary": "The President references Volkswagen Beetle as historical comparison for affordable small cars in Asia."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VWAGY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Volkswagen mentioned only as a nostalgic reference point, not a policy or business action affecting the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The Volkswagen mention is purely a historical analogy for small cars, with no direct policy or business implication for VWAGY.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VWAGY\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Volkswagen mentioned only as a nostalgic reference point, not a policy or business action affecting the company.\",\"added\":false}],\"summary\":\"The Volkswagen mention is purely a historical analogy for small cars, with no direct policy or business implication for VWAGY.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00747:hmc",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "hmc",
+   "entity": "Honda",
+   "kind": "company",
+   "alias": "honda",
+   "text_span": "Honda",
+   "dict_tickers": [
+    "HMC"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 747.63,
+   "t_wall": 1764793918.63,
+   "t_wall_et": "2025-12-03T15:31:58.630000-05:00",
+   "segment_text": "Honda,",
+   "context": "to invest in affordable vehicles made in The US, which we will take the lead on and will allow us to make vehicles more affordable. So thank you for making this step for all of you. Thank you very much. 1 of the other things we're doing is separate from this meeting, but I think everybody here would agree with it. If you go to Japan, where I just left, and if you go to South Korea and Malaysia and other countries, they have a very small car, sort of like the Beetle used to be with the Volkswagen. They're very small. They're really cute. And I said, how would that do in this country? And everyone seems to think good, but you're not allowed to build them. And I've authorized the secretary to immediately approve the production of those cars so you'll be able to buy they really are they actually some of them are really beautiful, actually. If you take a look, Honda,",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Honda",
+    "tickers": [
+     "HMC"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.72,
+    "quote": "If you take a look, Honda, they really are beautiful.",
+    "summary": "The President authorizes secretary to approve small car production, citing Honda as example."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HMC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "The President praised Honda's small cars and announced regulatory clearance allowing kei-car style vehicles to be built/sold in the US, a new market opportunity for Honda.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of eased regulations for small, affordable cars (citing Honda favorably) is a mild positive catalyst for Honda as it opens a new US market segment, though effect is modest and diffused across automakers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HMC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"The President praised Honda's small cars and announced regulatory clearance allowing kei-car style vehicles to be built/sold in the US, a new market opportunity for Honda.\", \"added\": false}], \"summary\": \"The President's announcement of eased regulations for small, affordable cars (citing Honda favorably) is a mild positive catalyst for Honda as it opens a new US market segment, though effect is modest and diffused across automakers.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00750:japan",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japanese",
+   "text_span": "Japanese",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 750.799,
+   "t_wall": 1764793921.799,
+   "t_wall_et": "2025-12-03T15:32:01.799000-05:00",
+   "segment_text": "some of the Japanese companies",
+   "context": "small car, sort of like the Beetle used to be with the Volkswagen. They're very small. They're really cute. And I said, how would that do in this country? And everyone seems to think good, but you're not allowed to build them. And I've authorized the secretary to immediately approve the production of those cars so you'll be able to buy they really are they actually some of them are really beautiful, actually. If you take a look, Honda, some of the Japanese companies",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "I've authorized the secretary to immediately approve production of those cars",
+    "summary": "The President authorizes approval of small Japanese car production for US market."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Regulatory easing for small-car production in the US could modestly benefit Japanese automakers' US sales but is too narrow to move the broad Japan ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks ease US regulations to allow production/sale of small, affordable cars (benefiting automakers like Stellantis and Japanese brands such as Honda/Toyota), but the effect on the broad Japan equity ETF EWJ is too diffuse and indirect to justify a confident directional call.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWJ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Regulatory easing for small-car production in the US could modestly benefit Japanese automakers' US sales but is too narrow to move the broad Japan ETF.\",\"added\":false}],\"summary\":\"The President's remarks ease US regulations to allow production/sale of small, affordable cars (benefiting automakers like Stellantis and Japanese brands such as Honda/Toyota), but the effect on the broad Japan equity ETF EWJ is too diffuse and indirect to justify a confident directional call.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00775:tm",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 775.3785467980296,
+   "t_wall": 1764793946.3785467,
+   "t_wall_et": "2025-12-03T15:32:26.378547-05:00",
+   "segment_text": "in The States. But you he he gave me the directive to clear the regulations on this to which we have. And so if if Toyota or any other company wants to make smaller, more affordable cars, fuel efficient,",
+   "context": "some of the Japanese companies do a beautiful job. But we're not allowed to make them in this country, and I think you're gonna do very well with those cars. So we're gonna approve those cars. Would you like to say something about that? Well, no. I just just that he never stops working. So even when he's on Asian time, he's calling me at midnight in in The States. But you he he gave me the directive to clear the regulations on this to which we have. And so if if Toyota or any other company wants to make smaller, more affordable cars, fuel efficient,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "if Toyota or any other company wants to make smaller, more affordable cars",
+    "summary": "The President indicates regulatory clearance for Toyota to manufacture fuel-efficient vehicles in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Regulatory clearance to build small, fuel-efficient cars in the US opens a new market opportunity for Toyota.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of cleared regulations for small affordable cars is mildly positive for Toyota, giving it new US production and sales opportunities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Regulatory clearance to build small, fuel-efficient cars in the US opens a new market opportunity for Toyota.\", \"added\": false}], \"summary\": \"The President's announcement of cleared regulations for small affordable cars is mildly positive for Toyota, giving it new US production and sales opportunities.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00796:autos",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 796.5939530434782,
+   "t_wall": 1764793967.5939531,
+   "t_wall_et": "2025-12-03T15:32:47.593953-05:00",
+   "segment_text": "new car companies start thinking about that. I think it's I think it's gonna be a tremendous",
+   "context": "in The States. But you he he gave me the directive to clear the regulations on this to which we have. And so if if Toyota or any other company wants to make smaller, more affordable cars, fuel efficient, we have cleared the deck so they can make them in America and sell them in America. They're really nice and less expensive, and it really gives people the chance to have a car, you know, for have a brand new car as opposed a car that maybe isn't so great. And so new car companies start thinking about that. I think it's I think it's gonna be a tremendous",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "cleared the deck so they can make them in America and sell them in America",
+    "summary": "The President removed regulations to enable automakers to produce affordable vehicles domestically."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Stellantis publicly announced a new $13B US investment and 5,000 jobs tied to relaxed regulations, a concrete positive catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Regulatory easing on small/affordable car production benefits domestic automakers broadly including GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Cleared CAFE-type regulations could allow Ford to expand affordable vehicle lineup domestically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Focus is on small gas/ICE affordable cars, not directly relevant to Tesla's EV lineup.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Sector ETF benefits from broad positive regulatory news for auto manufacturers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HMC",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comments favorably compare Japanese small car designs but note they currently cannot be made/sold in US, implying US-made competitors gain share.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"STLA\", \"direction\": \"up\", \"confidence\": 0.75, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Stellantis publicly announced a new $13B US investment and 5,000 jobs tied to relaxed regulations, a concrete positive catalyst.\", \"added\": false}, {\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Regulatory easing on small/affordable car production benefits domestic automakers broadly including GM.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Cleared CAFE-type regulations could allow Ford to expand affordable vehicle lineup domestically.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Focus is on small gas/ICE affordable cars, not directly relevant to Tesla's EV lineup.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Sector ETF benefits from broad positive regulatory news for auto manufacturers.\", \"added\": false}, {\"ticker\": \"HMC\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Comments favorably compare Japanese small car designs but note they currently cannot be made/sold in US, implying US-made competitors gain share.\", \"added\": true}]}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00806:stla",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "tremendous"
+   ],
+   "t_audio": 806.6788841791044,
+   "t_wall": 1764793977.6788843,
+   "t_wall_et": "2025-12-03T15:32:57.678884-05:00",
+   "segment_text": "market. Please, would you like to say something? Thank thank you, mister president. It's a it's a great day for us at Stellantis today",
+   "context": "in The States. But you he he gave me the directive to clear the regulations on this to which we have. And so if if Toyota or any other company wants to make smaller, more affordable cars, fuel efficient, we have cleared the deck so they can make them in America and sell them in America. They're really nice and less expensive, and it really gives people the chance to have a car, you know, for have a brand new car as opposed a car that maybe isn't so great. And so new car companies start thinking about that. I think it's I think it's gonna be a tremendous market. Please, would you like to say something? Thank thank you, mister president. It's a it's a great day for us at Stellantis today because it's a day where we see CAFE regulation reconciled",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:00817:stla_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "stla_word",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "dodge",
+   "text_span": "Dodge",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [
+    "invest",
+    "regulation"
+   ],
+   "t_audio": 817.9053719512195,
+   "t_wall": 1764793988.905372,
+   "t_wall_et": "2025-12-03T15:33:08.905372-05:00",
+   "segment_text": "Ram, Dodge, and Chrysler, $13,000,000,000",
+   "context": "and it really gives people the chance to have a car, you know, for have a brand new car as opposed a car that maybe isn't so great. And so new car companies start thinking about that. I think it's I think it's gonna be a tremendous market. Please, would you like to say something? Thank thank you, mister president. It's a it's a great day for us at Stellantis today because it's a day where we see CAFE regulation reconciled with real customers' demand. That's why at Stellantis, we decided to invest to Jeep, Ram, Dodge, and Chrysler, $13,000,000,000",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Dodge",
+    "tickers": [
+     "STLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Stellantis decided to invest to Jeep, Ram, Dodge, and Chrysler, $13,000,000,000",
+    "summary": "Stellantis announces $13B investment in Dodge and other brands."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Stellantis announced a new $13B US investment plan with 50% production increase and 5,000 jobs, benefiting from regulatory relief on small/fuel-efficient cars.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted deregulation for smaller cars and Stellantis's new $13B US investment commitment, a positive, specific catalyst for STLA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"STLA\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Stellantis announced a new $13B US investment plan with 50% production increase and 5,000 jobs, benefiting from regulatory relief on small/fuel-efficient cars.\", \"added\": false}], \"summary\": \"The President highlighted deregulation for smaller cars and Stellantis's new $13B US investment commitment, a positive, specific catalyst for STLA.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01068:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 1068.0326057921634,
+   "t_wall": 1764794239.032606,
+   "t_wall_et": "2025-12-03T15:37:19.032606-05:00",
+   "segment_text": "You see, there's no hatred between these 2 guys. Yeah. As long as I beat his price if we're for friends. No. But you hit it there on the head. The American people have always been able to choose what they wanna buy. Right. They don't wanna be taken out of a market by people who, quite frankly, don't even drive their own car and saying this is the way you've gotta go going into the future and say, well, you may say that, but you're not in the market. You have no idea. And I know the business we're in. At the end of the day, if you were there with me, I'd say, say, mister president.",
+   "context": "and they just say, well, we're just not gonna vote for it. They couldn't talk about it, but they didn't wanna vote. I see Mike Kelly, my friend back there, has been with me from day 1. Right? Yep. What do you have to say, Mike? Well, you know what? I I think you you hit the key. Everybody's talking about the same thing. In America Look at way they like each other. Well, You see, there's no hatred between these 2 guys. Yeah. As long as I beat his price if we're for friends. No. But you hit it there on the head. The American people have always been able to choose what they wanna buy. Right. They don't wanna be taken out of a market by people who, quite frankly, don't even drive their own car and saying this is the way you've gotta go going into the future and say, well, you may say that, but you're not in the market. You have no idea. And I know the business we're in. At the end of the day, if you were there with me, I'd say, say, mister president.",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01236:oil",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 1236.644846835443,
+   "t_wall": 1764794407.644847,
+   "t_wall_et": "2025-12-03T15:40:07.644847-05:00",
+   "segment_text": "the car that has the best gas mileage that you could buy that has only gasoline",
+   "context": "he took it very well. He took it very well. You're my pal. Thank you. Thanks. Great job. Appreciate you. Great job. Appreciate it. Kevin, could you say a few words Oh, sure. Of wisdom, 1 of the really smart economic forecasters, will tell you, beyond an economist. He's a real forecaster. Please. Sir, I think that there's a massive macroeconomic benefit to what we're doing today. And the way to think about it is that the the car that has the best gas mileage that you could buy that has only gasoline is a Honda. I think it's about 36 miles per gallon. Joe Biden wanted to make every car on average be above 50. So there's no car made in The US that you would be able to sell 2 years from now, 3 years from now under that rule.",
+   "speaker": 14,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01247:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 1247.8712721238937,
+   "t_wall": 1764794418.871272,
+   "t_wall_et": "2025-12-03T15:40:18.871272-05:00",
+   "segment_text": "is a Honda. I think it's about 36 miles per gallon. Joe Biden wanted to make every car on average be above 50. So there's no car made in The US that you would be able to sell 2 years from now, 3 years from now under that rule.",
+   "context": "will tell you, beyond an economist. He's a real forecaster. Please. Sir, I think that there's a massive macroeconomic benefit to what we're doing today. And the way to think about it is that the the car that has the best gas mileage that you could buy that has only gasoline is a Honda. I think it's about 36 miles per gallon. Joe Biden wanted to make every car on average be above 50. So there's no car made in The US that you would be able to sell 2 years from now, 3 years from now under that rule. Because what he wanted to do is make everybody have an electric car, as you know. But but here's the thing, that if everybody had an electric car, then nobody would be buying gasoline anymore,",
+   "speaker": 14,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01295:stla",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "chrysler",
+   "text_span": "Chrysler",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1295.3347593406593,
+   "t_wall": 1764794466.3347592,
+   "t_wall_et": "2025-12-03T15:41:06.334759-05:00",
+   "segment_text": "Great honor. Thank you. I'm, my family is a former dealer, 48 years, Chrysler Dodge dealer,",
+   "context": "and they'd have to take all the miles that they travel and put it on the grid. And so we would have to increase the the production of electricity in The US by 25% over the next couple of years if they had their way. And so you've really stopped at a massive disruption for the economy with this so thank you, sir. And that wasn't the main reason, and yet it certainly is a main reason. You wouldn't have been able to do it even if you wanted it. It's just so crazy. That was the mandate which we ended. Troy, would you like to say something? Great honor. Thank you. I'm, my family is a former dealer, 48 years, Chrysler Dodge dealer, and then I got into the political world, sir. Uh-huh. I had more fun in the dealership world, but, I",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01440:evs",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "evs",
+   "entity": "Electric vehicles",
+   "kind": "sector",
+   "alias": "electric cars",
+   "text_span": "electric cars",
+   "dict_tickers": [
+    "TSLA",
+    "RIVN",
+    "GM"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 1440.38,
+   "t_wall": 1764794611.38,
+   "t_wall_et": "2025-12-03T15:43:31.380000-05:00",
+   "segment_text": "electric cars, and I'm talking to dealers that come in and come in and talk to me. And, basically, they couldn't sell 1. They couldn't give 1 away.",
+   "context": "mainly trucks, and they're getting a deduction. They don't even have a payment for a year. That's right. So it's 1 of the best things for Florida. Biggest things in the business. 1 of the yeah. Expensing is a powerful tool. They can write the whole asset off 1st year, take that deduction, put 12,000 in their pocket on a 20 20000. But let me mention 1 other thing. They got into the e vehicles, electric cars, and I'm talking to dealers that come in and come in and talk to me. And, basically, they couldn't sell 1. They couldn't give 1 away.",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Electric vehicles",
+    "tickers": [
+     "TSLA",
+     "RIVN",
+     "GM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "they got into the e vehicles, and basically, they couldn't sell 1",
+    "summary": "The President criticizes EV sales, claiming dealers cannot sell electric vehicles."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General EV criticism restates known political stance, not specific to Tesla.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RIVN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments about unsellable EVs and lost subsidies are mildly negative for pure-EV makers like Rivian.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "GM has diversified ICE/truck lineup so EV criticism is largely offset, and full expensing benefits truck buyers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General EV criticism restates known political stance, not specific to Tesla.\", \"added\": false}, {\"ticker\": \"RIVN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments about unsellable EVs and lost subsidies are mildly negative for pure-EV makers like Rivian.\", \"added\": false}, {\"ticker\": \"GM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"GM has diversified ICE/truck lineup so EV criticism is largely offset, and full expensing benefits truck buyers.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01485:f",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1485.075634,
+   "t_wall": 1764794656.075634,
+   "t_wall_et": "2025-12-03T15:44:16.075634-05:00",
+   "segment_text": "vehicle up front day 1. Thank you. Thank you very much. Great job. You know, we're just talking about something that's interesting. Ford would make and I I don't wanna speak for Ford because we have 1",
+   "context": "that they got no market. A guy says, car's been sitting there a year. I can't get rid of it. So they don't understand the market. The the the people produce the vehicles, and that's made a big difference in your leadership. But thanks for what you're doing here today. It's big. It's huge. It'll make a big difference. $12,000 on a $60,000 vehicle up front day 1. Thank you. Thank you very much. Great job. You know, we're just talking about something that's interesting. Ford would make and I I don't wanna speak for Ford because we have 1",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01506:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 1506.925,
+   "t_wall": 1764794677.925,
+   "t_wall_et": "2025-12-03T15:44:37.925000-05:00",
+   "segment_text": "2 or 3 electric cars that",
+   "context": "vehicle up front day 1. Thank you. Thank you very much. Great job. You know, we're just talking about something that's interesting. Ford would make and I I don't wanna speak for Ford because we have 1 of the top people right here. Mister president, it's fine if you wanna talk But to Ford Ford would make numerous electric cars in order to sell Yes. 1 Ford 1 50. Yes. Because they'd make all their money with a 1 50 Yes. They were willing to lose money on building 2 or 3 electric cars that they couldn't sell in order to make some money on the 1 50. Because the 1 50 is a monster. I'll tell you what. That no matter where you go The greens they love that Ford 1 50. Yes. But isn't it a ridiculous model when you have to build 2 or 3 cars",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01628:f",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1628.3449625,
+   "t_wall": 1764794799.3449626,
+   "t_wall_et": "2025-12-03T15:46:39.344963-05:00",
+   "segment_text": "or Ford,",
+   "context": "And so by making them more affordable, making them more choice driven by what families want and need, today is a great day for the American family. Absolutely. Absolutely. And the American worker. Say Well, thank you, mister president and secretary Duffy, and to to my colleagues that are here. In Tennessee, we make great automobiles, and we have a fantastic workforce. And whether you're GM or Ford, with their new investment in Tennessee",
+   "speaker": 19,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01633:vw",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "vw",
+   "entity": "Volkswagen",
+   "kind": "company",
+   "alias": "vw",
+   "text_span": "VW",
+   "dict_tickers": [
+    "VWAGY"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1633.824,
+   "t_wall": 1764794804.824,
+   "t_wall_et": "2025-12-03T15:46:44.824000-05:00",
+   "segment_text": "or Nissan or VW or Toyota",
+   "context": "today is a great day for the American family. Absolutely. Absolutely. And the American worker. Say Well, thank you, mister president and secretary Duffy, and to to my colleagues that are here. In Tennessee, we make great automobiles, and we have a fantastic workforce. And whether you're GM or Ford, with their new investment in Tennessee or Nissan or VW or Toyota with the engine plant, what you see is the components that are necessary to build these cars.",
+   "speaker": 19,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01634:tm",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1634.5919999999999,
+   "t_wall": 1764794805.592,
+   "t_wall_et": "2025-12-03T15:46:45.592000-05:00",
+   "segment_text": "or Nissan or VW or Toyota",
+   "context": "today is a great day for the American family. Absolutely. Absolutely. And the American worker. Say Well, thank you, mister president and secretary Duffy, and to to my colleagues that are here. In Tennessee, we make great automobiles, and we have a fantastic workforce. And whether you're GM or Ford, with their new investment in Tennessee or Nissan or VW or Toyota with the engine plant, what you see is the components that are necessary to build these cars.",
+   "speaker": 19,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01741:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 1741.1040666666668,
+   "t_wall": 1764794912.1040666,
+   "t_wall_et": "2025-12-03T15:48:32.104067-05:00",
+   "segment_text": "tens of billions of dollars in our country as we speak. It's not gonna be in 2 years or 3 years.",
+   "context": "Other people are allowed big interest. If you're a rich person, you're allowed to have big interest deductions for different things you do. But if you're a middle income person that has to buy a car, you were never entitled to anything. And now you're getting a full interest deduction on the loan. And I think that's gonna have 1 of the biggest impacts. But we're here with companies that are investing tens of billions of dollars in our country as we speak. It's not gonna be in 2 years or 3 years. A lot of it's because of the expensing provision in the bill and the big beautiful bill. But",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01754:autos",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "auto industry",
+   "text_span": "auto industry",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1754.2938461538463,
+   "t_wall": 1764794925.2938461,
+   "t_wall_et": "2025-12-03T15:48:45.293846-05:00",
+   "segment_text": "a miracle is happening in our country. It's it's a miracle. This is just the auto industry,",
+   "context": "Other people are allowed big interest. If you're a rich person, you're allowed to have big interest deductions for different things you do. But if you're a middle income person that has to buy a car, you were never entitled to anything. And now you're getting a full interest deduction on the loan. And I think that's gonna have 1 of the biggest impacts. But we're here with companies that are investing tens of billions of dollars in our country as we speak. It's not gonna be in 2 years or 3 years. A lot of it's because of the expensing provision in the bill and the big beautiful bill. But a miracle is happening in our country. It's it's a miracle. This is just the auto industry,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "companies investing tens of billions of dollars in our country",
+    "summary": "The President praises automakers investing billions domestically due to tax expensing provisions."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for domestic auto investment and interest deduction is mildly positive but restates known policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar tailwind from expensing/interest deduction incentives for domestic auto manufacturing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Benefits modestly from broad pro-domestic-auto rhetoric though less US-centric than GM/F.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "EV-focused Tesla is less directly tied to traditional auto loan interest deduction or ICE investment narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Auto sector ETF benefits broadly from positive rhetoric on US auto investment and tax incentives.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise for domestic auto investment and new interest-deduction tax benefit is mildly positive for US automakers, though it mostly repeats known policy so effect should be modest and short-lived.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise for domestic auto investment and interest deduction is mildly positive but restates known policy.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar tailwind from expensing/interest deduction incentives for domestic auto manufacturing.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Benefits modestly from broad pro-domestic-auto rhetoric though less US-centric than GM/F.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"EV-focused Tesla is less directly tied to traditional auto loan interest deduction or ICE investment narrative.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Auto sector ETF benefits broadly from positive rhetoric on US auto investment and tax incentives.\", \"added\": false}], \"summary\": \"The President's praise for domestic auto investment and new interest-deduction tax benefit is mildly positive for US automakers, though it mostly repeats known policy so effect should be modest and short-lived.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01879:ba",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "ba",
+   "entity": "Boeing",
+   "kind": "company",
+   "alias": "f 47",
+   "text_span": "f 47",
+   "dict_tickers": [
+    "BA"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 1879.4427777777778,
+   "t_wall": 1764795050.4427779,
+   "t_wall_et": "2025-12-03T15:50:50.442778-05:00",
+   "segment_text": "to f 40 sevens now. Thanks to you. We'll be building the f 47 and then f 1 fifties. And those are real jobs,",
+   "context": "being invested. And Biden had much less than that. Think of it. He had less than 1000000000000 over 4 years. We have 18,000,000,000,000 in 10 months, and it's actually as of 9 months. So there's never been anything. Eric Yeah. Mister president, thank you. And on behalf of the people of great state of Missouri, who we actually make things from f fifteens to f 40 sevens now. Thanks to you. We'll be building the f 47 and then f 1 fifties. And those are real jobs, and we make things in Missouri. This is gonna go a long way, I think, for making things more affordable for normal people. Nothing could be more American than driving a car on a highway, and this is gonna make that more accessible for more people. So thanks for your leadership. The states are doing a great job. Yeah. Well, they love you too. It's a great place. Thank you. Please.",
+   "speaker": 21,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Boeing",
+    "tickers": [
+     "BA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "We'll be building the f 47 and then f 1 fifties.",
+    "summary": "Missouri manufacturing of F-47 aircraft will create jobs and affordability."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to Missouri F-47 production reinforces existing government contract but adds no new order or funding detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm known F-47 contract and manufacturing plans in Missouri, mildly positive but not new information for BA; broader comments on CAFE standards and investment figures are not stock-specific.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to Missouri F-47 production reinforces existing government contract but adds no new order or funding detail.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm known F-47 contract and manufacturing plans in Missouri, mildly positive but not new information for BA; broader comments on CAFE standards and investment figures are not stock-specific.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:01913:farmers",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "agriculture",
+   "text_span": "agriculture",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1913.5495226415094,
+   "t_wall": 1764795084.5495226,
+   "t_wall_et": "2025-12-03T15:51:24.549523-05:00",
+   "segment_text": "We need vehicles that are practical and affordable and can haul for our small businesses, for agriculture,",
+   "context": "and we make things in Missouri. This is gonna go a long way, I think, for making things more affordable for normal people. Nothing could be more American than driving a car on a highway, and this is gonna make that more accessible for more people. So thanks for your leadership. The states are doing a great job. Yeah. Well, they love you too. It's a great place. Thank you. Please. Thank you, mister president. I'm gonna talk to you in just a minute from a rural perspective because these CAFE standards were absolutely unworkable in rural Missouri. We need vehicles that are practical and affordable and can haul for our small businesses, for agriculture, and it just simply didn't work. Those CAFE standards didn't work. So I applaud you, secretary Duffy, for your hard work and and what you're doing on behalf of,",
+   "speaker": 16,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:02244:steel",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "expensive"
+   ],
+   "t_audio": 2244.6265030837008,
+   "t_wall": 1764795415.626503,
+   "t_wall_et": "2025-12-03T15:56:55.626503-05:00",
+   "segment_text": "and made of plastic instead of steel to because you had to make them lighter to comply with these standards so you'd get in a wreck and people would die. The results of what you're doing, you're literally saving people's lives,",
+   "context": "lives will be safer because what these regulations did is they forced cars to be more expensive and made of plastic instead of steel to because you had to make them lighter to comply with these standards so you'd get in a wreck and people would die. The results of what you're doing, you're literally saving people's lives,",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "regulations forced cars to be plastic instead of steel",
+    "summary": "The President criticizes fuel-economy regulations that reduced steel use in cars, harming safety."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric favoring steel over plastic in autos is mildly supportive of steelmakers though not a new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-steel rhetoric slightly benefits domestic steel producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments favoring steel content in vehicles are mildly positive for steel demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-steel sentiment in autos is a slight tailwind for steel producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF for steel benefits marginally from rhetoric favoring steel over plastic.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks criticizing regulations that pushed automakers toward plastic over steel are mildly positive for steel producers, though this is largely repeat rhetoric with no new policy specifics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rhetoric favoring steel over plastic in autos is mildly supportive of steelmakers though not a new policy.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-steel rhetoric slightly benefits domestic steel producers.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comments favoring steel content in vehicles are mildly positive for steel demand.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Pro-steel sentiment in autos is a slight tailwind for steel producers.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Sector ETF for steel benefits marginally from rhetoric favoring steel over plastic.\",\"added\":false}],\"summary\":\"The President's remarks criticizing regulations that pushed automakers toward plastic over steel are mildly positive for steel producers, though this is largely repeat rhetoric with no new policy specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:02313:tsla",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "tsla",
+   "entity": "Tesla",
+   "kind": "company",
+   "alias": "tesla",
+   "text_span": "Tesla",
+   "dict_tickers": [
+    "TSLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2313.223103846154,
+   "t_wall": 1764795484.2231038,
+   "t_wall_et": "2025-12-03T15:58:04.223104-05:00",
+   "segment_text": "with all of the big 3 there in Tesla, and the entire hearing is gonna focus on how your leadership has reduced the burdens on carmakers. That's lowering cost. That's giving consumers",
+   "context": "instead of steel. Think that. And people died because of that. The plastic was plastic in an auto accident, and it broke up and people were shattered because of that crazy deal. But that's it's a really good point. Go ahead. And, mister president, I'll tell you, the senate committee on January 14, we're gonna have a hearing with all of the big 3 there in Tesla, and the entire hearing is gonna focus on how your leadership has reduced the burdens on carmakers. That's lowering cost. That's giving consumers",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:02396:stock_market",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "record high",
+   "text_span": "record high",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2396.2108854166668,
+   "t_wall": 1764795567.2108855,
+   "t_wall_et": "2025-12-03T15:59:27.210886-05:00",
+   "segment_text": "to that now. My question, got 1 about consumer confidence. We just came off 1 of the record high",
+   "context": "Thank you. Appreciate that. I've always said you've tackled 3 the 3 m's, mortgage, munchkins, and marriage. You've solidified all of those. I'll add motor vehicles to that now. My question, got 1 about consumer confidence. We just came off 1 of the record high Black Friday of 9.1%. Highest ever",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:02543:uk",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "britain",
+   "text_span": "Britain",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "selling"
+   ],
+   "t_audio": 2543.6797190751445,
+   "t_wall": 1764795714.679719,
+   "t_wall_et": "2025-12-03T16:01:54.679719-05:00",
+   "segment_text": "through Great Britain. Yes, sir. That's not so good. What do you think? Look at that. Yeah. Yeah. That's good to be at. Do you burn it? Do you know anything about that? It's",
+   "context": "driven on the vehicle so that when you have a leased vehicle that's turned in, they're losing thousands of dollars. They've gotta go chase down these manufacturers. What can we do to track down these manufacturers of this illegal computer chip that's really hurting automotive? Have you heard about this? Yes, sir. They're getting built in China, and most of them are coming out of Great Britain, sir. They're being distributed through China through distributors selling them online through Great Britain. Yes, sir. That's not so good. What do you think? Look at that. Yeah. Yeah. That's good to be at. Do you burn it? Do you know anything about that? It's",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:02603:ukraine",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 2603.3691845493563,
+   "t_wall": 1764795774.3691845,
+   "t_wall_et": "2025-12-03T16:02:54.369184-05:00",
+   "segment_text": "I'm I'm surprised it's 9 percent, do you wanna ask me? I don't know who's who's doing the 9 percent, but it's down 91. And we're gonna start soon on land, and I'm sure you're thrilled to hear that. So where are you going? On Ukraine,",
+   "context": "Will you release video of that strike so that the American people can see for themselves what happened? Know what they have, but whatever they have, we'd certainly release. No problem. You know, we stopped every boat we knock out, we save 25,000 American lives. That's right. And if you look at our if you look at our numbers Mhmm. The drugs coming in through sea are down 91 percent. I'm I'm surprised it's 9 percent, do you wanna ask me? I don't know who's who's doing the 9 percent, but it's down 91. And we're gonna start soon on land, and I'm sure you're thrilled to hear that. So where are you going? On Ukraine, Steve Whitcoff and Jared Kushner were there last night with Vladimir Putin. Can you give us an update about those talks? It sounds from what the Kremlin is saying, like, they're they're not gonna compromise. Can you tell us what you've I don't know what the Kremlin's doing. I can tell you that they had a reasonably good meeting with president Putin. We're gonna find out.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:02631:russia",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2631.9925,
+   "t_wall": 1764795802.9925,
+   "t_wall_et": "2025-12-03T16:03:22.992500-05:00",
+   "segment_text": "It's a terrible thing. But I thought they had a very good meeting yesterday with, president Putin. We'll see what happens. It's,",
+   "context": "Steve Whitcoff and Jared Kushner were there last night with Vladimir Putin. Can you give us an update about those talks? It sounds from what the Kremlin is saying, like, they're they're not gonna compromise. Can you tell us what you've I don't know what the Kremlin's doing. I can tell you that they had a reasonably good meeting with president Putin. We're gonna find out. It's a war that should have never been started. It's a war. If I were president, we had a rigged election. If I were president, that war would have never happened. It's a terrible thing. But I thought they had a very good meeting yesterday with, president Putin. We'll see what happens. It's,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Putin",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "they had a very good meeting yesterday with president Putin",
+    "summary": "The President reports Whitcoff and Kushner held reasonably good meeting with Putin on Ukraine war."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive tone on a 'reasonably good' Putin meeting suggests slight optimism toward eventual sanctions easing, boosting Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct new information on energy policy or supply, so effect on energy sector is negligible.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on a positive Putin meeting are mildly supportive for Russia-linked assets like RSX due to hopes of eventual de-escalation, while having no clear implication for XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive tone on a 'reasonably good' Putin meeting suggests slight optimism toward eventual sanctions easing, boosting Russia-exposed assets.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct new information on energy policy or supply, so effect on energy sector is negligible.\", \"added\": false}], \"summary\": \"The President's remarks on a positive Putin meeting are mildly supportive for Russia-linked assets like RSX due to hopes of eventual de-escalation, while having no clear implication for XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03047:nvda_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "nvda_word",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen",
+   "text_span": "Jensen",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "export",
+    "export controls"
+   ],
+   "t_audio": 3047.6268702290076,
+   "t_wall": 1764796218.6268702,
+   "t_wall_et": "2025-12-03T16:10:18.626870-05:00",
+   "segment_text": "You've had conversations with with With Jensen. Right. So Smart man. In your conversations with him, have you kind of given a sense of where you are with export controls and the types of ships that Nvidia can give to China? He knows he knows very well. He's done",
+   "context": "but policy, maybe CAFE standards. Okay? As an example, who signed CAFE? If you ask Biden what's a CAFE standard, he would have absolutely no idea. He said, where is the cafe located? The guy didn't know anything. Look. That just shows you what a rigged election can be, but you you understand what I'm saying. Thank you. You've had conversations with with With Jensen. Right. So Smart man. In your conversations with him, have you kind of given a sense of where you are with export controls and the types of ships that Nvidia can give to China? He knows he knows very well. He's done",
+   "speaker": 17,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03058:china",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "export",
+    "export controls"
+   ],
+   "t_audio": 3058.2772709923665,
+   "t_wall": 1764796229.277271,
+   "t_wall_et": "2025-12-03T16:10:29.277271-05:00",
+   "segment_text": "You've had conversations with with With Jensen. Right. So Smart man. In your conversations with him, have you kind of given a sense of where you are with export controls and the types of ships that Nvidia can give to China? He knows he knows very well. He's done",
+   "context": "where is the cafe located? The guy didn't know anything. Look. That just shows you what a rigged election can be, but you you understand what I'm saying. Thank you. You've had conversations with with With Jensen. Right. So Smart man. In your conversations with him, have you kind of given a sense of where you are with export controls and the types of ships that Nvidia can give to China? He knows he knows very well. He's done an amazing job. Nvidia, very good. Yeah. Mister president, when do you expect",
+   "speaker": 17,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "export controls and the types of ships that Nvidia can give to China",
+    "summary": "Questioner asks the President about export controls limiting Nvidia's ability to ship to China."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President gives vague praise of Jensen Huang without new detail on export control policy toward China.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete new policy on China chip exports mentioned, just noncommittal remarks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments are unrelated to Chinese internet sector specifically and offer no new tariff/regulatory detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on Nvidia and China export controls are vague and non-committal, offering no new policy detail, so the effect on China-related ETFs is minimal and ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President gives vague praise of Jensen Huang without new detail on export control policy toward China.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete new policy on China chip exports mentioned, just noncommittal remarks.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments are unrelated to Chinese internet sector specifically and offer no new tariff/regulatory detail.\", \"added\": false}], \"summary\": \"The President's remarks on Nvidia and China export controls are vague and non-committal, offering no new policy detail, so the effect on China-related ETFs is minimal and ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03062:nvda",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "export",
+    "export controls"
+   ],
+   "t_audio": 3062.3856987012987,
+   "t_wall": 1764796233.3856988,
+   "t_wall_et": "2025-12-03T16:10:33.385699-05:00",
+   "segment_text": "an amazing job. Nvidia, very good. Yeah. Mister president, when do you expect",
+   "context": "The guy didn't know anything. Look. That just shows you what a rigged election can be, but you you understand what I'm saying. Thank you. You've had conversations with with With Jensen. Right. So Smart man. In your conversations with him, have you kind of given a sense of where you are with export controls and the types of ships that Nvidia can give to China? He knows he knows very well. He's done an amazing job. Nvidia, very good. Yeah. Mister president, when do you expect",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "He's done an amazing job. Nvidia, very good.",
+    "summary": "The President praises Nvidia CEO Jensen Huang and discusses export controls on chip shipments to China."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President offers mild praise for Nvidia and Jensen Huang without signaling new export restrictions, a modestly reassuring but non-substantive comment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's brief, positive but vague comments about Nvidia and Jensen Huang, with no new export policy detail, are mildly supportive for NVDA sentiment but not a strong catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President offers mild praise for Nvidia and Jensen Huang without signaling new export restrictions, a modestly reassuring but non-substantive comment.\", \"added\": false}], \"summary\": \"The President's brief, positive but vague comments about Nvidia and Jensen Huang, with no new export policy detail, are mildly supportive for NVDA sentiment but not a strong catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03093:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 3093.282629113924,
+   "t_wall": 1764796264.282629,
+   "t_wall_et": "2025-12-03T16:11:04.282629-05:00",
+   "segment_text": "phase 2 is moving along. Yeah. It's gonna happen pretty soon. Mister president,",
+   "context": "for phase 2 of the Gaza piece to be implemented and Well, it's going along well. You know, they had a problem today, I understand, with a bomb that went off and hurt some people pretty badly. Probably killed some people. They're telling me it just happened, but it's going under we have peace in The Middle East. People don't realize it. We have tremendous support. 59 countries, there's tremendous support. But we'll phase 2 is moving along. Yeah. It's gonna happen pretty soon. Mister president, you speak with House Republican leadership about your decision to pardon congressman Henry Cuellar? And are you concerned that you made a vulnerable Democrat perhaps less vulnerable with that decision?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03171:pfe",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3171.3702842105263,
+   "t_wall": 1764796342.3702843,
+   "t_wall_et": "2025-12-03T16:12:22.370284-05:00",
+   "segment_text": "A lot of times, they find a new man, it makes them much happier. In fact, a lot of times, they like that man better than the 1 that's in jail. Go ahead. Pfizer, thank you.",
+   "context": "he got indicted for speaking the truth. And his wife got indicted, Imelda. And that's sort of a 1st. Usually, leave the wives alone. Right? Don't they congressman? Typically, they indict somebody, put him in jail for the rest of his life, but the wife can just sit home and cry, or she'll find a new man. You know? A lot of times, they find a new man, it makes them much happier. In fact, a lot of times, they like that man better than the 1 that's in jail. Go ahead. Pfizer, thank you. The mayor of Minneapolis, Jacob Frey, is saying that he's actually proud to have largest Somali community in the country and his police chief Well, then he's a fool. Well, his police chief is also saying wouldn't be proud to have the largest Somalian.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03326:autos",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "automakers",
+   "text_span": "automakers",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3326.744946875,
+   "t_wall": 1764796497.744947,
+   "t_wall_et": "2025-12-03T16:14:57.744947-05:00",
+   "segment_text": "because they don't represent the interests of our country. Anybody else? Mister president, you honor the automakers. The the automakers spent billions on meeting the Biden EV rules. Should they be able to recoup that somehow",
+   "context": "They wanna kiss our country good night. They talk about our country. We want them to pray for our country. And this is not the people living in Minnesota. And she's a disaster. She should not be and her friends shouldn't be allowed. Frankly, they shouldn't even be allowed to be congresspeople. Okay? They shouldn't even be allowed to be congresspeople because they don't represent the interests of our country. Anybody else? Mister president, you honor the automakers. The the automakers spent billions on meeting the Biden EV rules. Should they be able to recoup that somehow",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03361:mexico",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3361.14714,
+   "t_wall": 1764796532.14714,
+   "t_wall_et": "2025-12-03T16:15:32.147140-05:00",
+   "segment_text": "and we'll either let it expire or we'll maybe work out another deal with Mexico and Canada. But",
+   "context": "because they don't represent the interests of our country. Anybody else? Mister president, you honor the automakers. The the automakers spent billions on meeting the Biden EV rules. Should they be able to recoup that somehow given the the change? There's a question about the money. No. I'm not letting them recoup. They're gonna do just fine. You know how they recoup? From this point forward, they'll do very well. Can you also talk about the USMCA and what you're thinking about renegotiating that with the automakers? We're we're you know, that's just an ongoing thing. It expires in about a year, and we'll either let it expire or we'll maybe work out another deal with Mexico and Canada. But",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "work out another deal with Mexico and Canada",
+    "summary": "The President considering renegotiating USMCA with Mexico; expires in about one year."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President vaguely mentions letting USMCA expire or renegotiating, adding uncertainty but no new concrete decision to move Mexico equities decisively.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on USMCA are noncommittal and repeat known timeline (expires in ~1 year), offering no new tariff or trade decision that would clearly move Mexican equities (EWW) beyond normal policy-uncertainty noise.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President vaguely mentions letting USMCA expire or renegotiating, adding uncertainty but no new concrete decision to move Mexico equities decisively.\", \"added\": false}], \"summary\": \"The President's remarks on USMCA are noncommittal and repeat known timeline (expires in ~1 year), offering no new tariff or trade decision that would clearly move Mexican equities (EWW) beyond normal policy-uncertainty noise.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03361:canada",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3361.7585200000003,
+   "t_wall": 1764796532.75852,
+   "t_wall_et": "2025-12-03T16:15:32.758520-05:00",
+   "segment_text": "and we'll either let it expire or we'll maybe work out another deal with Mexico and Canada. But",
+   "context": "because they don't represent the interests of our country. Anybody else? Mister president, you honor the automakers. The the automakers spent billions on meeting the Biden EV rules. Should they be able to recoup that somehow given the the change? There's a question about the money. No. I'm not letting them recoup. They're gonna do just fine. You know how they recoup? From this point forward, they'll do very well. Can you also talk about the USMCA and what you're thinking about renegotiating that with the automakers? We're we're you know, that's just an ongoing thing. It expires in about a year, and we'll either let it expire or we'll maybe work out another deal with Mexico and Canada. But",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "work out another deal with Mexico and Canada",
+    "summary": "The President considering renegotiating USMCA with Canada; expires in about one year."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "USMCA renegotiation is a known future event with no new terms revealed, leaving uncertainty but no clear directional catalyst for Canadian equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on USMCA renegotiation with Canada are vague and reiterate an already-known timeline, offering no new tariff or trade decision to move Canadian markets meaningfully.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"USMCA renegotiation is a known future event with no new terms revealed, leaving uncertainty but no clear directional catalyst for Canadian equities.\", \"added\": false}], \"summary\": \"The President's comments on USMCA renegotiation with Canada are vague and reiterate an already-known timeline, offering no new tariff or trade decision to move Canadian markets meaningfully.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03401:defense_word",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariff"
+   ],
+   "t_audio": 3401.9337234782606,
+   "t_wall": 1764796572.9337234,
+   "t_wall_et": "2025-12-03T16:16:12.933723-05:00",
+   "segment_text": "They said, sir, that tariff hasn't started yet. It doesn't start till January. I said, no. It started 2 months ago.",
+   "context": "But every country because we had stupid people running our country. We had a lot of stupid people running. That's why we have $38,000,000,000,000 in debt. But the beautiful thing about the tariffs is we'll start paying off that debt. The money coming in they've they're finding money in our country now that they never knew existed. The other day, $30,000,000,000. Where did it come from? I said, why don't you check the tariff shelf? They said, sir, that tariff hasn't started yet. It doesn't start till January. I said, no. It started 2 months ago. They called back, sir, you're right. It was from tariffs.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03481:f",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3481.6226394849787,
+   "t_wall": 1764796652.6226394,
+   "t_wall_et": "2025-12-03T16:17:32.622639-05:00",
+   "segment_text": "go and justify this, the reason a lot of these people I can tell you this. Maybe we would add the political people. We wouldn't have these people without tariffs. The people that are up here from Salantis and Ford and General Motors,",
+   "context": "for any good reason. They're just suing to see if they can stop it because they make money if this country does badly. Know? So but we're taking in trillions of dollars. We're stopping wars. We have great national security because of tariffs. And then to think that we have have to even go and justify this, the reason a lot of these people I can tell you this. Maybe we would add the political people. We wouldn't have these people without tariffs. The people that are up here from Salantis and Ford and General Motors,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "the people that are up here from Salantis and Ford",
+    "summary": "The President references Ford alongside tariff policy benefits."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Ford as a beneficiary of tariff policy bringing manufacturing back to the US, but this restates existing tariff rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate his tariff stance and praise Ford as a domestic manufacturing beneficiary, a mildly positive but largely already-known narrative for the stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises Ford as a beneficiary of tariff policy bringing manufacturing back to the US, but this restates existing tariff rhetoric.\", \"added\": false}], \"summary\": \"The President's remarks reiterate his tariff stance and praise Ford as a domestic manufacturing beneficiary, a mildly positive but largely already-known narrative for the stock.\"}"
+   }
+  },
+  {
+   "signal_id": "2Ey5TwGj7Cc:03482:gm",
+   "video_id": "2Ey5TwGj7Cc",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 3482.1222746781114,
+   "t_wall": 1764796653.1222746,
+   "t_wall_et": "2025-12-03T16:17:33.122275-05:00",
+   "segment_text": "go and justify this, the reason a lot of these people I can tell you this. Maybe we would add the political people. We wouldn't have these people without tariffs. The people that are up here from Salantis and Ford and General Motors,",
+   "context": "for any good reason. They're just suing to see if they can stop it because they make money if this country does badly. Know? So but we're taking in trillions of dollars. We're stopping wars. We have great national security because of tariffs. And then to think that we have have to even go and justify this, the reason a lot of these people I can tell you this. Maybe we would add the political people. We wouldn't have these people without tariffs. The people that are up here from Salantis and Ford and General Motors,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "the people that are up here from Salantis and General Motors",
+    "summary": "The President references General Motors in context of tariff justification."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises GM as a beneficiary of existing tariff policy but reveals nothing new that would change the stock's outlook.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general tariff rhetoric praising GM as a domestic manufacturer benefiting from tariffs already in place, offering no new policy detail that would move the stock relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises GM as a beneficiary of existing tariff policy but reveals nothing new that would change the stock's outlook.\", \"added\": false}], \"summary\": \"The remark is general tariff rhetoric praising GM as a domestic manufacturer benefiting from tariffs already in place, offering no new policy detail that would move the stock relative to the market.\"}"
+   }
+  }
+ ]
+}

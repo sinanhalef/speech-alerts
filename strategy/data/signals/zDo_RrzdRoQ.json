@@ -1,0 +1,1814 @@
+{
+ "video": {
+  "id": "zDo_RrzdRoQ",
+  "url": "https://www.youtube.com/watch?v=zDo_RrzdRoQ",
+  "title": "the President announces AI infrastructure investment — 1/21/2025",
+  "channel": "CNBC Television",
+  "duration": 2825.0,
+  "was_live": true,
+  "release_timestamp": 1737496036.0,
+  "upload_timestamp": 1737501196.0,
+  "upload_date": "20250121",
+  "label": "Stargate AI investment announcement (CNBC), 2025-01-21",
+  "group": "headline",
+  "notes": "",
+  "t0": 1737496036.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 32,
+  "confirmed": 21,
+  "retracted": 11,
+  "unconfirmed": 0,
+  "llm_calls": 37
+ },
+ "signals": [
+  {
+   "signal_id": "zDo_RrzdRoQ:00078:ai",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "ai infrastructure",
+   "text_span": "AI infrastructure",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 78.05766666666668,
+   "t_wall": 1737496114.0576668,
+   "t_wall_et": "2025-01-21T16:48:34.057667-05:00",
+   "segment_text": "But to announce the largest AI infrastructure",
+   "context": "won the race and that they feel confident in their investments. And it's big money and high quality people. So my 1st day back from from having a nice life, it's my honor to welcome 3 of the world's leading technology CEOs. And in the case of Larry, Larry Allison, it's well beyond technology, sort of CEO of everything. He's an amazing man and amazing business person. But to announce the largest AI infrastructure",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI infrastructure",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "announce the largest AI infrastructure",
+    "summary": "The President announcing a major AI infrastructure investment with leading tech CEOs."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Massive new AI infrastructure spend (Stargate) implies more GPU demand for Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Sector-wide semiconductor ETF benefits from announced $500B AI infrastructure buildout.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Not a named partner in Stargate (Oracle/SoftBank/OpenAI), effect ambiguous as potential competitor to Azure AI push.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Data center infrastructure buildout benefits Vertiv as a key power/cooling supplier.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of the $500B Stargate AI infrastructure project with Oracle, SoftBank, and OpenAI is a new, positive catalyst for semiconductor and data-center supply chain names, while Microsoft's role is unclear and largely neutral.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.7, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Massive new AI infrastructure spend (Stargate) implies more GPU demand for Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Sector-wide semiconductor ETF benefits from announced $500B AI infrastructure buildout.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Not a named partner in Stargate (Oracle/SoftBank/OpenAI), effect ambiguous as potential competitor to Azure AI push.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Data center infrastructure buildout benefits Vertiv as a key power/cooling supplier.\", \"added\": false}], \"summary\": \"The President's announcement of the $500B Stargate AI infrastructure project with Oracle, SoftBank, and OpenAI is a new, positive catalyst for semiconductor and data-center supply chain names, while Microsoft's role is unclear and largely neutral.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00095:orcl",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "orcl",
+   "entity": "Oracle",
+   "kind": "company",
+   "alias": "oracle",
+   "text_span": "Oracle",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 95.27333333333334,
+   "t_wall": 1737496131.2733333,
+   "t_wall_et": "2025-01-21T16:48:51.273333-05:00",
+   "segment_text": "they're coming in at the highest level. We're joined by Oracle executive chairman Larry Ellison,",
+   "context": "well beyond technology, sort of CEO of everything. He's an amazing man and amazing business person. But to announce the largest AI infrastructure project by far in history, and it's all taking place right here in America. As you know, there's great competition for AI and other things, and, they're coming in at the highest level. We're joined by Oracle executive chairman Larry Ellison,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oracle",
+    "tickers": [
+     "ORCL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "largest AI infrastructure project by far in history, all taking place right here in America",
+    "summary": "The President announces Oracle leading major AI infrastructure investment in America."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Oracle named as key partner in newly announced $500B Stargate AI infrastructure venture, a major growth catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of the Stargate AI infrastructure project, with Oracle as a lead partner alongside SoftBank and OpenAI, is a new, positive catalyst for ORCL.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.7, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Oracle named as key partner in newly announced $500B Stargate AI infrastructure venture, a major growth catalyst.\", \"added\": false}], \"summary\": \"The President's announcement of the Stargate AI infrastructure project, with Oracle as a lead partner alongside SoftBank and OpenAI, is a new, positive catalyst for ORCL.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00098:sftby",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "sftby",
+   "entity": "SoftBank",
+   "kind": "company",
+   "alias": "softbank",
+   "text_span": "SoftBank",
+   "dict_tickers": [
+    "SFTBY"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 98.715,
+   "t_wall": 1737496134.715,
+   "t_wall_et": "2025-01-21T16:48:54.715000-05:00",
+   "segment_text": "SoftBank CEO,",
+   "context": "CEO of everything. He's an amazing man and amazing business person. But to announce the largest AI infrastructure project by far in history, and it's all taking place right here in America. As you know, there's great competition for AI and other things, and, they're coming in at the highest level. We're joined by Oracle executive chairman Larry Ellison, SoftBank CEO,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "SoftBank",
+    "tickers": [
+     "SFTBY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "SoftBank CEO joined to announce largest AI infrastructure project in America",
+    "summary": "SoftBank CEO participating in major AI infrastructure announcement in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SFTBY",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "SoftBank is named as a founding partner in the newly announced $500B Stargate AI infrastructure venture, a positive investment signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of the Stargate AI infrastructure project positions SoftBank as a major investor/partner in a large new US AI buildout, which should be modestly positive for SFTBY shares.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SFTBY\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"SoftBank is named as a founding partner in the newly announced $500B Stargate AI infrastructure venture, a positive investment signal.\", \"added\": false}], \"summary\": \"The President's announcement of the Stargate AI infrastructure project positions SoftBank as a major investor/partner in a large new US AI buildout, which should be modestly positive for SFTBY shares.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00107:openai",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "openai",
+   "entity": "OpenAI",
+   "kind": "company",
+   "alias": "openai",
+   "text_span": "OpenAI",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 107.36833333333333,
+   "t_wall": 1737496143.3683333,
+   "t_wall_et": "2025-01-21T16:49:03.368333-05:00",
+   "segment_text": "and CEO of OpenAI,",
+   "context": "But to announce the largest AI infrastructure project by far in history, and it's all taking place right here in America. As you know, there's great competition for AI and other things, and, they're coming in at the highest level. We're joined by Oracle executive chairman Larry Ellison, SoftBank CEO, my friend, Masa Masa, Yoshi's son, and CEO of OpenAI,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "OpenAI",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "CEO of OpenAI",
+    "summary": "The President announces largest AI infrastructure project with OpenAI CEO present."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Stargate involves Oracle, SoftBank and OpenAI, not Microsoft, so effect on MSFT is ambiguous despite its OpenAI ties.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "large",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Oracle is explicitly named as a founding partner in the newly announced $500B Stargate AI infrastructure project.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "SFTBY",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "SoftBank is a named co-founder of the new Stargate AI venture with major investment commitments.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's announcement of the $500B Stargate AI infrastructure project directly benefits Oracle and SoftBank as named founding partners, while Microsoft's involvement is unclear and not directly named, making the effect on MSFT ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Stargate involves Oracle, SoftBank and OpenAI, not Microsoft, so effect on MSFT is ambiguous despite its OpenAI ties.\", \"added\": false}, {\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.75, \"magnitude\": \"large\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Oracle is explicitly named as a founding partner in the newly announced $500B Stargate AI infrastructure project.\", \"added\": true}, {\"ticker\": \"SFTBY\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"SoftBank is a named co-founder of the new Stargate AI venture with major investment commitments.\", \"added\": true}], \"summary\": \"The President's announcement of the $500B Stargate AI infrastructure project directly benefits Oracle and SoftBank as named founding partners, while Microsoft's involvement is unclear and not directly named, making the effect on MSFT ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00128:stargate",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "stargate",
+   "entity": "Stargate AI project",
+   "kind": "company",
+   "alias": "stargate",
+   "text_span": "Stargate",
+   "dict_tickers": [
+    "ORCL",
+    "SFTBY",
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 128.4672972972973,
+   "t_wall": 1737496164.4672973,
+   "t_wall_et": "2025-01-21T16:49:24.467297-05:00",
+   "segment_text": "announcing the formation of Stargate.",
+   "context": "SoftBank CEO, my friend, Masa Masa, Yoshi's son, and CEO of OpenAI, and I would say the, by far the leading expert based on everything I read, Sam Altman. So, that's great that you're coming in together. That's a massive group of talent and and money. Together, these world leading technology giants are announcing the formation of Stargate.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stargate",
+    "tickers": [
+     "ORCL",
+     "SFTBY",
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "world leading technology giants are announcing the formation of Stargate",
+    "summary": "The President announces formation of Stargate project with SoftBank, OpenAI, and technology partners."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Oracle is a named founding partner in the newly announced $500B Stargate AI infrastructure venture.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SFTBY",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "SoftBank is a founding partner and financial backer of the newly announced Stargate project.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Massive new AI infrastructure buildout implies increased demand for GPUs/chips even though Nvidia isn't named directly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Oracle is a named founding partner in the newly announced $500B Stargate AI infrastructure venture.\", \"added\": false}, {\"ticker\": \"SFTBY\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"SoftBank is a founding partner and financial backer of the newly announced Stargate project.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Massive new AI infrastructure buildout implies increased demand for GPUs/chips even though Nvidia isn't named directly.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00200:ai_word",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants"
+   ],
+   "t_audio": 200.00619666666668,
+   "t_wall": 1737496236.0061967,
+   "t_wall_et": "2025-01-21T16:50:36.006197-05:00",
+   "segment_text": "where they'll build, at the plant, the AI plant, they'll build,",
+   "context": "of technology. What we wanna do is we wanna keep it in this country. China is a competitor and others are competitors. We want we want it to be in this country and we're making it available. I'm gonna help, a lot through emergency declarations because we have an emergency. We have to get this stuff built. So they have to produce a lot of electricity, and we'll make it possible for them to get that production done very easily at their own plants if they want, where they'll build, at the plant, the AI plant, they'll build,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "we wanna keep it in this country, making it available, help through emergency declarations",
+    "summary": "The President supports domestic AI infrastructure investment and production via emergency declarations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Massive $500B Stargate AI infrastructure investment implies increased demand for AI chips, benefiting NVDA as key supplier.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF benefits indirectly from announced large-scale AI infrastructure spending in the US.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of a $500B domestic AI infrastructure buildout (Stargate) with expedited energy permitting signals strong demand for AI chips and data center hardware, positive for NVDA and the broader semiconductor sector (SMH).",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Massive $500B Stargate AI infrastructure investment implies increased demand for AI chips, benefiting NVDA as key supplier.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF benefits indirectly from announced large-scale AI infrastructure spending in the US.\", \"added\": false}], \"summary\": \"The President's announcement of a $500B domestic AI infrastructure buildout (Stargate) with expedited energy permitting signals strong demand for AI chips and data center hardware, positive for NVDA and the broader semiconductor sector (SMH).\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00482:nvda",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "investing",
+    "partner"
+   ],
+   "t_audio": 482.21557418181817,
+   "t_wall": 1737496518.2155743,
+   "t_wall_et": "2025-01-21T16:55:18.215574-05:00",
+   "segment_text": "On top of that, we have the technology partner, Nvidia.",
+   "context": "with a goal of making $500,000,000,000 within next 4 years within your time. Right? Because of your success. So we are very, very excited to do this. And our partner is, of course, SoftBank, OpenAI, Oracle, and additionally investing partner with MGX. On top of that, we have the technology partner, Nvidia.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "technology partner with MGX. On top of that, we have the technology partner, Nvidia.",
+    "summary": "Nvidia named as technology partner in major $500B investment initiative."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Named as technology partner in the announced $500B Stargate AI infrastructure initiative, reinforcing demand for its chips.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's Stargate AI investment announcement names Nvidia as technology partner, a mildly positive but largely already-anticipated demand signal for NVDA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Named as technology partner in the announced $500B Stargate AI infrastructure initiative, reinforcing demand for its chips.\", \"added\": false}], \"summary\": \"The President's Stargate AI investment announcement names Nvidia as technology partner, a mildly positive but largely already-anticipated demand signal for NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00484:msft",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "msft",
+   "entity": "Microsoft",
+   "kind": "company",
+   "alias": "microsoft",
+   "text_span": "Microsoft",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [
+    "investing",
+    "partner"
+   ],
+   "t_audio": 484.4090128,
+   "t_wall": 1737496520.4090128,
+   "t_wall_et": "2025-01-21T16:55:20.409013-05:00",
+   "segment_text": "And, of course, Microsoft",
+   "context": "Right? Because of your success. So we are very, very excited to do this. And our partner is, of course, SoftBank, OpenAI, Oracle, and additionally investing partner with MGX. On top of that, we have the technology partner, Nvidia. And, of course, Microsoft has been very, very supportive to SAM and continue to support",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00549:sftby_word",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "sftby_word",
+   "entity": "SoftBank",
+   "kind": "company",
+   "alias": "masa",
+   "text_span": "Masa",
+   "dict_tickers": [
+    "SFTBY"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 549.6555550510784,
+   "t_wall": 1737496585.655555,
+   "t_wall_et": "2025-01-21T16:56:25.655555-05:00",
+   "segment_text": "I don't have too much to add, but I do wanna say I'm thrilled we get to do this in The United States Of America. I think this will be the most important project of this era, and as Masa said, for AGI to get built here, to create hundreds of thousands of jobs, to create a new industry centered here. We wouldn't be able to do this without you, mister president, and I'm thrilled that we get to. I think it'll be an exciting project. I think we'll be able to do all of the wonderful things that these guys talked about, but the fact that we get to do this in The United States is is, I think, wonderful. So thank you very much. Could you just say 1 word? I hear so many positive things about what it's going to do for medical research and for solving things, cancer and all the different problems. How will AI help us with the fight against the various problems, diseases, etcetera?",
+   "context": "I don't have too much to add, but I do wanna say I'm thrilled we get to do this in The United States Of America. I think this will be the most important project of this era, and as Masa said, for AGI to get built here, to create hundreds of thousands of jobs, to create a new industry centered here. We wouldn't be able to do this without you, mister president, and I'm thrilled that we get to. I think it'll be an exciting project. I think we'll be able to do all of the wonderful things that these guys talked about, but the fact that we get to do this in The United States is is, I think, wonderful. So thank you very much. Could you just say 1 word? I hear so many positive things about what it's going to do for medical research and for solving things, cancer and all the different problems. How will AI help us with the fight against the various problems, diseases, etcetera?",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "SoftBank",
+    "tickers": [
+     "SFTBY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Masa said, for AGI to get built here, to create hundreds of thousands of jobs",
+    "summary": "SoftBank (via Masa Son) investing in major US AI infrastructure project creating jobs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SFTBY",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "SoftBank's participation in the Stargate AI infrastructure project is reaffirmed positively, though the deal itself was already publicly known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The event centers on the previously announced Stargate AI infrastructure investment with SoftBank as a key backer; the remarks are largely celebratory and reaffirm known plans rather than reveal new terms, so the price impact should be modestly positive but limited given the news is not entirely fresh.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SFTBY\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"SoftBank's participation in the Stargate AI infrastructure project is reaffirmed positively, though the deal itself was already publicly known.\", \"added\": false}], \"summary\": \"The event centers on the previously announced Stargate AI infrastructure investment with SoftBank as a key backer; the remarks are largely celebratory and reaffirm known plans rather than reveal new terms, so the price impact should be modestly positive but limited given the news is not entirely fresh.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00650:vaccines",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccine",
+   "text_span": "vaccine",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 650.9112844444445,
+   "t_wall": 1737496686.9112844,
+   "t_wall_et": "2025-01-21T16:58:06.911284-05:00",
+   "segment_text": "is our is a cancer vaccine.",
+   "context": "So we're currently working on do I step on this? Okay. Alright. No. No. No. I'm not I'm not that tall. I'm not that tall. Tall. I'm not that tall. You look even better now. You, mister president. 1 of the most exciting things we're working on, you again, using the tools that's that that Sam and Moss are providing, is our is a cancer vaccine. It's very interesting. Early die it turns out I'll be quick. All of our cancers,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00711:vaccines",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "vaccines",
+   "entity": "Vaccine makers",
+   "kind": "sector",
+   "alias": "vaccine",
+   "text_span": "vaccine",
+   "dict_tickers": [
+    "PFE",
+    "MRNA",
+    "NVAX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 711.45496,
+   "t_wall": 1737496747.45496,
+   "t_wall_et": "2025-01-21T16:59:07.454960-05:00",
+   "segment_text": "vaccine,",
+   "context": "cancers that are actually seriously threatening the person. So we can again, cancer cancer diagnosis using AI has the promise of just being a simple blood test. Then beyond that, once we gene sequence once we gene sequence that cancer tumor, you can then vaccinate the person, design a vaccine for every individual person to vaccinate them against that cancer. And you can make that vaccine, that mRNA vaccine, you can make that robotically, again, using AI in about 48 hours. So imagine early cancer detection,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00786:stargate",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "stargate",
+   "entity": "Stargate AI project",
+   "kind": "company",
+   "alias": "stargate",
+   "text_span": "Stargate",
+   "dict_tickers": [
+    "ORCL",
+    "SFTBY",
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 786.23505,
+   "t_wall": 1737496822.23505,
+   "t_wall_et": "2025-01-21T17:00:22.235050-05:00",
+   "segment_text": "Stargate project comes in addition to a separate pledge between",
+   "context": "for Larry to be here and do this is very unusual because he doesn't do this stuff. He doesn't need it. He does and you don't need it, do you? You don't need it. But I I just I think it's an honor to the to the country. It's a great honor that this group are the top people that they they're gonna do it, and they're gonna do it here, and we're gonna make it as easy as it can be. A $500,000,000 Stargate project comes in addition to a separate pledge between",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stargate AI project",
+    "tickers": [
+     "ORCL",
+     "SFTBY",
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "$500,000,000 Stargate project comes in addition to a separate pledge",
+    "summary": "The President announces $500M Stargate project investment with separate additional pledge."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Oracle is a named Stargate partner benefiting from reaffirmed large AI infrastructure investment commitments.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SFTBY",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "SoftBank is a core Stargate backer and stands to gain from continued high-profile investment announcements.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Massive AI infrastructure spending implies increased demand for Nvidia chips, though this restates prior Stargate news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts Stargate and broader AI-related investment pledges, reinforcing bullish sentiment for AI infrastructure players like Oracle, SoftBank, and Nvidia.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Oracle is a named Stargate partner benefiting from reaffirmed large AI infrastructure investment commitments.\", \"added\": false}, {\"ticker\": \"SFTBY\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"SoftBank is a core Stargate backer and stands to gain from continued high-profile investment announcements.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Massive AI infrastructure spending implies increased demand for Nvidia chips, though this restates prior Stargate news.\", \"added\": false}], \"summary\": \"The President touts Stargate and broader AI-related investment pledges, reinforcing bullish sentiment for AI infrastructure players like Oracle, SoftBank, and Nvidia.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00844:ai_word",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 844.0450149999999,
+   "t_wall": 1737496880.045015,
+   "t_wall_et": "2025-01-21T17:01:20.045015-05:00",
+   "segment_text": "many things other than even AI. AI seems to be very hot.",
+   "context": "This is money that normally would have gone to China or other countries, but in particular, China. In total, before the end of my 1st full business day in Washington in, the White House, we've already secured nearly, $3,000,000,000,000 of new investments in The United States, and probably that's gonna be 6 or 7 by the end of the week. Tremendous amounts of money are coming in for, for many things other than even AI. AI seems to be very hot.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "AI seems to be very hot. Tremendous amounts of money coming in.",
+    "summary": "The President reports significant AI investment inflows as part of broader $3 trillion domestic investment push."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Stargate AI infrastructure investment reinforces bullish AI capex narrative benefiting top GPU supplier.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF benefits modestly from reiterated AI infrastructure investment optimism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's reiteration of massive AI-related investment commitments (Stargate, NASA, MAC funds) is a positive but largely already-known sentiment driver for AI/semiconductor stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Stargate AI infrastructure investment reinforces bullish AI capex narrative benefiting top GPU supplier.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF benefits modestly from reiterated AI infrastructure investment optimism.\", \"added\": false}], \"summary\": \"The President's reiteration of massive AI-related investment commitments (Stargate, NASA, MAC funds) is a positive but largely already-known sentiment driver for AI/semiconductor stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:00900:oil",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "drill baby drill",
+   "text_span": "drill baby drill",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "drill",
+    "prices"
+   ],
+   "t_audio": 900.9291177622378,
+   "t_wall": 1737496936.9291177,
+   "t_wall_et": "2025-01-21T17:02:16.929118-05:00",
+   "segment_text": "And we declared a national energy emergency to drill baby drill, our term that we use. We're gonna drill baby drill like never before. We ended",
+   "context": "I launched a government wide effort to defeat inflation and bring down the cost of daily life and bring down the cost of energy magnificently bring it down. And when an energy comes down, Larry, I'd say, generally speaking, when energy comes down, everything else comes down. The prices of food and the prices of everything else come down. Energy is the big that's the big baby. And we declared a national energy emergency to drill baby drill, our term that we use. We're gonna drill baby drill like never before. We ended",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil sector",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "We declared a national energy emergency to drill baby drill, our term that we use. We're gonna drill baby drill like never before.",
+    "summary": "The President declared national energy emergency and committed to aggressive oil drilling expansion."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Pro-drilling rhetoric supports energy sector sentiment but is a restated policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Increased drilling ambitions imply more supply, which could offset any bullish sentiment on oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Supportive rhetoric for domestic oil production benefits major producers like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Similar to XOM, Chevron benefits from an emphasis on increased US oil drilling.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Pro-drilling rhetoric supports energy sector sentiment but is a restated policy stance.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Increased drilling ambitions imply more supply, which could offset any bullish sentiment on oil prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Supportive rhetoric for domestic oil production benefits major producers like Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Similar to XOM, Chevron benefits from an emphasis on increased US oil drilling.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01404:farmers",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1404.8842307692307,
+   "t_wall": 1737497440.8842309,
+   "t_wall_et": "2025-01-21T17:10:40.884231-05:00",
+   "segment_text": "and that includes the farmers of California. You know, when you drive up north, you see all of the land.",
+   "context": "and it's turns. Like, think of a sink, but multiply it times many thousands of times the size of it. It's massive. And you turn it back toward Los Angeles. Why aren't they doing it? They either have a death wish, they're stupid, or there's something else going on that we don't understand. But we want the water that they're throwing away to be used for California, and that includes the farmers of California. You know, when you drive up north, you see all of the land.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "water that they're throwing away to be used for California, and that includes the farmers of California",
+    "summary": "The President advocates redirecting California water to farmers as part of water policy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General agriculture water rhetoric, no specific commodity or price impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Water policy discussion unrelated to fertilizer demand specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new equipment purchase or subsidy announced for farm machinery.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "California water fight not primarily about corn acreage.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific soybean market implication from this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General water rhetoric doesn't directly affect ADM's grain processing business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on California water policy and farmer access to water, framed as pro-agriculture rhetoric but lacking specific new policy details, executive actions, or funding commitments that would materially move any of the listed agriculture-related tickers; the mention of an upcoming executive order is vague and non-actionable for markets at this stage.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General agriculture water rhetoric, no specific commodity or price impact.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Water policy discussion unrelated to fertilizer demand specifics.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new equipment purchase or subsidy announced for farm machinery.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"California water fight not primarily about corn acreage.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific soybean market implication from this remark.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General water rhetoric doesn't directly affect ADM's grain processing business.\", \"added\": false}], \"summary\": \"The President's remarks focus on California water policy and farmer access to water, framed as pro-agriculture rhetoric but lacking specific new policy details, executive actions, or funding commitments that would materially move any of the listed agriculture-related tickers; the mention of an upcoming executive order is vague and non-actionable for markets at this stage.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01541:tiktok",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "tiktok",
+   "entity": "TikTok",
+   "kind": "company",
+   "alias": "tiktok",
+   "text_span": "TikTok",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 1541.134927586207,
+   "t_wall": 1737497577.1349275,
+   "t_wall_et": "2025-01-21T17:12:57.134928-05:00",
+   "segment_text": "I ask you about your question? Try TikTok, mister president. Let me do this 1st. Are you open to Elon buying TikTok?",
+   "context": "and they're restricting it. You even have the 0.5 pipes, you know, the 0.5 pipes, the cut pipes, big ones, bigger than this room. And they're going all the way down, and they're bone dry, and they could be loaded up with water. No. But isn't isn't it incredible that they don't do it? And it's to protect the Delta smelt. It's a fish that's that's doing poorly anyway. But I said, how are you protecting the Delta smelt by not giving it water? It's a fish. It needs water. Nobody can answer that question. I ask you about your question? Try TikTok, mister president. Let me do this 1st. Are you open to Elon buying TikTok? Say it? Are you open to Elon about TikTok? I would be if you wanted to buy it. Yeah. You're not you're not reaching I'm your not reaching I'd Larry to buy it too. I have the right to make a deal.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01543:tsla_word",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "tsla_word",
+   "entity": "Tesla",
+   "kind": "company",
+   "alias": "elon",
+   "text_span": "Elon",
+   "dict_tickers": [
+    "TSLA"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 1543.8714793103447,
+   "t_wall": 1737497579.8714793,
+   "t_wall_et": "2025-01-21T17:12:59.871479-05:00",
+   "segment_text": "I ask you about your question? Try TikTok, mister president. Let me do this 1st. Are you open to Elon buying TikTok?",
+   "context": "and they're restricting it. You even have the 0.5 pipes, you know, the 0.5 pipes, the cut pipes, big ones, bigger than this room. And they're going all the way down, and they're bone dry, and they could be loaded up with water. No. But isn't isn't it incredible that they don't do it? And it's to protect the Delta smelt. It's a fish that's that's doing poorly anyway. But I said, how are you protecting the Delta smelt by not giving it water? It's a fish. It needs water. Nobody can answer that question. I ask you about your question? Try TikTok, mister president. Let me do this 1st. Are you open to Elon buying TikTok? Say it? Are you open to Elon about TikTok? I would be if you wanted to buy it. Yeah. You're not you're not reaching I'm your not reaching I'd Larry to buy it too. I have the right to make a deal.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01809:ukraine",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 1809.7069565217391,
+   "t_wall": 1737497845.7069566,
+   "t_wall_et": "2025-01-21T17:17:25.706957-05:00",
+   "segment_text": "called for a ceasefire in Ukraine. If Vladimir Putin doesn't come to the table to negotiate with you, will you put additional sanctions on Russia? Sounds likely.",
+   "context": "We are though, and we're getting them out of the country. We just started that. We're getting them out of the country, and they're gonna be gotten out of the country 1st. They came in illegally from jails and from prisons. They killed many people. Some of them killed many people. About 50% of them killed more than 1 person. They were released into our country. That's what we're focused on, not the kind of nonsense you're talking about. You've called for a ceasefire in Ukraine. If Vladimir Putin doesn't come to the table to negotiate with you, will you put additional sanctions on Russia? Sounds likely.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01810:russia",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 1810.875652173913,
+   "t_wall": 1737497846.875652,
+   "t_wall_et": "2025-01-21T17:17:26.875652-05:00",
+   "segment_text": "called for a ceasefire in Ukraine. If Vladimir Putin doesn't come to the table to negotiate with you, will you put additional sanctions on Russia? Sounds likely.",
+   "context": "We are though, and we're getting them out of the country. We just started that. We're getting them out of the country, and they're gonna be gotten out of the country 1st. They came in illegally from jails and from prisons. They killed many people. Some of them killed many people. About 50% of them killed more than 1 person. They were released into our country. That's what we're focused on, not the kind of nonsense you're talking about. You've called for a ceasefire in Ukraine. If Vladimir Putin doesn't come to the table to negotiate with you, will you put additional sanctions on Russia? Sounds likely.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.78,
+    "quote": "additional sanctions on Russia. Sounds likely.",
+    "summary": "The President suggests he will likely impose additional sanctions on Russia if Putin does not negotiate."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President signals likely additional sanctions on Russia if Putin doesn't negotiate, negative for Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sanctions threat on Russia could marginally support global energy prices but effect is too indirect to be clearly priced into broad US energy ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment about likely additional sanctions on Russia is negative for Russia-linked assets (RSX) but has only ambiguous, indirect implications for broad US energy stocks (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President signals likely additional sanctions on Russia if Putin doesn't negotiate, negative for Russia-exposed assets.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sanctions threat on Russia could marginally support global energy prices but effect is too indirect to be clearly priced into broad US energy ETF.\", \"added\": false}], \"summary\": \"The President's comment about likely additional sanctions on Russia is negative for Russia-linked assets (RSX) but has only ambiguous, indirect implications for broad US energy stocks (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01908:canada",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1908.8116666666665,
+   "t_wall": 1737497944.8116667,
+   "t_wall_et": "2025-01-21T17:19:04.811667-05:00",
+   "segment_text": "tariffs on Canada and Mexico in an effort to force negotiations",
+   "context": "You you gotta get the best people. Now then you go into people like Larry, and he needs engineers, and NASA needs and this gentleman needs engineers like nobody's ever needed engineers. Right? So we have to have the quality people coming in. Now by doing that, we're expanding businesses, and that takes care of everybody. So I'm sort of on both sides of the argument, but what I really do feel is that we have to let really competent people, great people come into our country, and we do that through the h 1 program. Mister president, are you going to impose tariffs on Canada and Mexico in an effort to force negotiations sooner on USMCA? No. It's really",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "are you going to impose tariffs on Canada",
+    "summary": "Questioner asks about potential tariffs on Canada for USMCA negotiations."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President denies tariffs on Canada are tied to USMCA but continues criticizing Canada over fentanyl/immigration, leaving policy uncertainty unresolved for Canadian equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate criticism of Canada over fentanyl/border issues without confirming new tariff action, leaving limited new information to move Canadian equity ETF EWC.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWC\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President denies tariffs on Canada are tied to USMCA but continues criticizing Canada over fentanyl/immigration, leaving policy uncertainty unresolved for Canadian equities.\",\"added\":false}],\"summary\":\"The President's remarks reiterate criticism of Canada over fentanyl/border issues without confirming new tariff action, leaving limited new information to move Canadian equity ETF EWC.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01909:mexico",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1909.3983333333333,
+   "t_wall": 1737497945.3983333,
+   "t_wall_et": "2025-01-21T17:19:05.398333-05:00",
+   "segment_text": "tariffs on Canada and Mexico in an effort to force negotiations",
+   "context": "You you gotta get the best people. Now then you go into people like Larry, and he needs engineers, and NASA needs and this gentleman needs engineers like nobody's ever needed engineers. Right? So we have to have the quality people coming in. Now by doing that, we're expanding businesses, and that takes care of everybody. So I'm sort of on both sides of the argument, but what I really do feel is that we have to let really competent people, great people come into our country, and we do that through the h 1 program. Mister president, are you going to impose tariffs on Canada and Mexico in an effort to force negotiations sooner on USMCA? No. It's really",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "are you going to impose tariffs on Mexico",
+    "summary": "Questioner asks about potential tariffs on Mexico for USMCA negotiations."
+   },
+   "llm_attempts": 2,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President explicitly denies tariffs on Mexico are tied to USMCA, reducing immediate tariff threat, but fentanyl/border rhetoric keeps ambiguity.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks deny near-term Mexico tariffs but continue critical rhetoric on fentanyl/border issues, leaving no clear directional trade for EWW.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President explicitly denies tariffs on Mexico are tied to USMCA, reducing immediate tariff threat, but fentanyl/border rhetoric keeps ambiguity.\", \"added\": false}], \"summary\": \"The President's remarks deny near-term Mexico tariffs but continue critical rhetoric on fentanyl/border issues, leaving no clear directional trade for EWW.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:01971:china",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "president xi",
+   "text_span": "president Xi",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1971.4221653465347,
+   "t_wall": 1737498007.4221654,
+   "t_wall_et": "2025-01-21T17:20:07.422165-05:00",
+   "segment_text": "And I had that talk with, president Xi the other day too of China. I said, we don't want that crap in our country. We gotta stop it. I would have stopped it. I had a deal with him where he was going to,",
+   "context": "and people are getting killed and families are being destroyed. I mean, the son gets killed, the family is a basket case for the rest of their lives. I mean, I've seen mothers that thought they'd heal. They never heal. They say it gets worse with time. It gets worse with time. They lose their boy. They lose their baby. They lose their their young daughter to fentanyl poisoning. And I had that talk with, president Xi the other day too of China. I said, we don't want that crap in our country. We gotta stop it. I would have stopped it. I had a deal with him where he was going to,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "I had that talk with president Xi the other day too of China. I said, we don't want that crap in our country.",
+    "summary": "The President discussed fentanyl control deal with China's Xi; criticized drug imports."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New 10% tariff threat on China tied to fentanyl adds trade tension risk for Chinese equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Same tariff threat on China creates negative sentiment overhang for broad China ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Tariff rhetoric on China is a mild negative for Chinese internet stocks via broader risk sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's fentanyl-linked 10% tariff threat on China is a new, moderately negative catalyst for China-exposed ETFs, though the tariff level is relatively small.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"New 10% tariff threat on China tied to fentanyl adds trade tension risk for Chinese equities broadly.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Same tariff threat on China creates negative sentiment overhang for broad China ETF.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Tariff rhetoric on China is a mild negative for Chinese internet stocks via broader risk sentiment.\",\"added\":false}],\"summary\":\"The President's fentanyl-linked 10% tariff threat on China is a new, moderately negative catalyst for China-exposed ETFs, though the tariff level is relatively small.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02094:defense_word",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2094.2189655172415,
+   "t_wall": 1737498130.2189655,
+   "t_wall_et": "2025-01-21T17:22:10.218966-05:00",
+   "segment_text": "If this were done a year earlier, if the if Biden would have done this deal a year and 0.5, 2 years ago, or frankly,",
+   "context": "You know how that happened. Right? Did you know that how that happened? When you find out, you're not gonna be too happy because it was terrible. But the hostages are starting to come back. Oh, if I if I weren't here, they they wouldn't be back ever. They would have never come back. They would have all died. If this were done a year earlier, if the if Biden would have done this deal a year and 0.5, 2 years ago, or frankly, it should have never happened. October 7 should have never happened. No. Nobody should be dead.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02297:ukraine",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 2297.2582652173915,
+   "t_wall": 1737498333.2582653,
+   "t_wall_et": "2025-01-21T17:25:33.258265-05:00",
+   "segment_text": "about Ukraine, you asked him to get involved in helping settle that. Can you tell us about that? Yeah. I said, you ought to get it settled",
+   "context": "proudly. Usually, the closer to the borderline of Russia they were, the faster they paid. Okay? The ones that were further away tended not to pay so fast. And 1 thing on that, I think they should lift their number not to 2%, but to 5%. NATO should be at 5%, not a 2%. 2% is ridiculous. Yeah. The US president Xi in your conversation, about Ukraine, you asked him to get involved in helping settle that. Can you tell us about that? Yeah. I said, you ought to get it settled",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "you ought to get it settled",
+    "summary": "The President urged Xi to help settle the Ukraine conflict."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General Ukraine/NATO rhetoric without new defense spending commitments doesn't materially move aerospace/defense ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new energy policy content in this excerpt affecting energy sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt covers NATO spending demands, Ukraine diplomacy with China, and crypto commentary, none of which contain new, actionable information for defense or energy sector tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General Ukraine/NATO rhetoric without new defense spending commitments doesn't materially move aerospace/defense ETF.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new energy policy content in this excerpt affecting energy sector.\", \"added\": false}], \"summary\": \"The excerpt covers NATO spending demands, Ukraine diplomacy with China, and crypto commentary, none of which contain new, actionable information for defense or energy sector tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02313:btc",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [
+    "selling",
+    "settled"
+   ],
+   "t_audio": 2313.3235944223106,
+   "t_wall": 1737498349.3235943,
+   "t_wall_et": "2025-01-21T17:25:49.323594-05:00",
+   "segment_text": "he's not done very much on that. He's got a lot of a lot of power. Like, we have a lot of power. I said, you ought to get it settled. We did discuss it. Yeah. Mister president, you signed a crypto coin the other day. Do you intend to continue selling,",
+   "context": "NATO should be at 5%, not a 2%. 2% is ridiculous. Yeah. The US president Xi in your conversation, about Ukraine, you asked him to get involved in helping settle that. Can you tell us about that? Yeah. I said, you ought to get it settled because he's not done very much on that. He's got a lot of a lot of power. Like, we have a lot of power. I said, you ought to get it settled. We did discuss it. Yeah. Mister president, you signed a crypto coin the other day. Do you intend to continue selling, products that benefit yourself personally while you're president?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02489:lng",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "lng",
+   "entity": "Cheniere",
+   "kind": "company",
+   "alias": "cheniere",
+   "text_span": "Cheniere",
+   "dict_tickers": [
+    "LNG"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2489.5588024999997,
+   "t_wall": 1737498525.5588026,
+   "t_wall_et": "2025-01-21T17:28:45.558803-05:00",
+   "segment_text": "He's the 1 that got us involved along with Cheniere and a couple of others convinced Bush, which was a terrible decision",
+   "context": "I think there was enough time. It's we take a job. You take a job. You wanna do a job. We're not gonna have security on people for the rest of their lives. Why should we? I thought he was I thought he was a very dumb person, but I used him well because every time people saw me come into a meeting with John Bolton sit standing behind me, they thought that he'd attack them because he was a warmonger. He's the 1 that got us involved along with Cheniere and a couple of others convinced Bush, which was a terrible decision",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Cheniere",
+    "tickers": [
+     "LNG"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "along with Cheniere and a couple of others convinced Bush, which was a terrible decision",
+    "summary": "The President criticized Cheniere for convincing Bush into a terrible decision."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LNG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's criticism relates to decades-old Iraq War policy influence, not LNG's current business or regulatory outlook, so minimal price relevance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark blaming Cheniere for historical Middle East policy is political rhetoric unrelated to LNG's current commercial operations and unlikely to move the stock meaningfully.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LNG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's criticism relates to decades-old Iraq War policy influence, not LNG's current business or regulatory outlook, so minimal price relevance.\", \"added\": false}], \"summary\": \"The President's remark blaming Cheniere for historical Middle East policy is political rhetoric unrelated to LNG's current commercial operations and unlikely to move the stock meaningfully.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02613:china",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "president xi",
+   "text_span": "president Xi",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2613.7165646258504,
+   "t_wall": 1737498649.7165647,
+   "t_wall_et": "2025-01-21T17:30:49.716565-05:00",
+   "segment_text": "Your conversation with president Xi, what did you tell him in terms of when to expect tariffs, and and what can he do to avoid them? About which 1?",
+   "context": "numbers of young soldiers, and that war should stop. It's very flat. You know? It's beautiful farmland, and it's flat and really beautiful in a different kind of way, but they don't have any protection. The only thing that stops a bullet is a body, and those bodies are stopping a lot of bullets, and they're getting, they're being decimated, both sides. Your conversation with president Xi, what did you tell him in terms of when to expect tariffs, and and what can he do to avoid them? About which 1?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02649:steel",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2649.5537370967745,
+   "t_wall": 1737498685.5537372,
+   "t_wall_et": "2025-01-21T17:31:25.553737-05:00",
+   "segment_text": "if I didn't do that, you wouldn't have a steel mill open in The United States right now. You wouldn't have 1 steel mill open",
+   "context": "About tariffs? We didn't talk too much about tariffs other than he he knows where it's at. Look, I put, large tariffs on China. I've taken in hundreds of billions of dollars. Until I was president, China never paid not 10¢ to The United States. With me, they paid hundreds of $600,000,000,000 or so or more, more than that even, of tariffs. And if I didn't do that, you wouldn't have a steel mill open in The United States right now. You wouldn't have 1 steel mill open",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "If I didn't do that, you wouldn't have a steel mill open in The United States right now.",
+    "summary": "The President credits tariffs on China with preserving US steel mill operations."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that China tariffs saved US steel mills, a mild positive for domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmed pro-tariff stance on steel benefits domestic producers like Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel tariff protection rhetoric supports Cleveland-Cliffs as a domestic steel producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General tariff-protection comments are mildly supportive for domestic steel names like Steel Dynamics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF for steel benefits from reiterated tariff protection rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated claim that China tariffs saved US steel mills is a mild, already-known positive for domestic steel producers, with no new policy details to move markets significantly.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that China tariffs saved US steel mills, a mild positive for domestic steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmed pro-tariff stance on steel benefits domestic producers like Nucor.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel tariff protection rhetoric supports Cleveland-Cliffs as a domestic steel producer.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General tariff-protection comments are mildly supportive for domestic steel names like Steel Dynamics.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF for steel benefits from reiterated tariff protection rhetoric.\", \"added\": false}], \"summary\": \"The President's repeated claim that China tariffs saved US steel mills is a mild, already-known positive for domestic steel producers, with no new policy details to move markets significantly.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02670:eu",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european union",
+   "text_span": "European Union",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2670.968829787234,
+   "t_wall": 1737498706.9688299,
+   "t_wall_et": "2025-01-21T17:31:46.968830-05:00",
+   "segment_text": "China's an abuser, but the European Union is is",
+   "context": "or so or more, more than that even, of tariffs. And if I didn't do that, you wouldn't have a steel mill open in The United States right now. You wouldn't have 1 steel mill open in The United States. So what I did is I saved the steel industry. I saved other industries too with other tariffs. Other other countries are are big abusers also. You know, it's not just China. China's an abuser, but the European Union is is",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "Other countries are big abusers also. China's an abuser, but the European Union is is",
+    "summary": "The President characterizes EU as a tariff abuser alongside China."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates threat of tariffs on EU goods, a mild negative for European equities exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same EU tariff rhetoric weighs on eurozone equity ETF sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated tariff threat against EU is a modest negative for eurozone blue-chip index exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats existing rhetoric labeling the EU a trade 'abuser' and threatens tariffs, a mildly negative but not new development for European equity ETFs; no new AI infrastructure specifics were given in this excerpt.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates threat of tariffs on EU goods, a mild negative for European equities exposure.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same EU tariff rhetoric weighs on eurozone equity ETF sentiment.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated tariff threat against EU is a modest negative for eurozone blue-chip index exposure.\", \"added\": false}], \"summary\": \"The President repeats existing rhetoric labeling the EU a trade 'abuser' and threatens tariffs, a mildly negative but not new development for European equity ETFs; no new AI infrastructure specifics were given in this excerpt.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02723:ai_word",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 2723.480344827586,
+   "t_wall": 1737498759.4803448,
+   "t_wall_et": "2025-01-21T17:32:39.480345-05:00",
+   "segment_text": "Mister president, on AI data centers, will you rescind president Biden's executive order that opens up federal lands On which centers? On data centers. Will you rescind president Biden's executive order,",
+   "context": "You can't get fairness unless you do that, but the European Union's treated us very badly. But, essentially, everybody treats us badly. You know, everybody treats us badly. Yes. Go ahead. Because we allow them to. Because we've had stupid people doing this, and we can't have I want to have I'd like to have these 3 people negotiate for us just for 1 week and would be a rich country again, but we'll be rich. Mister president, on AI data centers, will you rescind president Biden's executive order that opens up federal lands On which centers? On data centers. Will you rescind president Biden's executive order,",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02735:ai",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 2735.5191086350974,
+   "t_wall": 1737498771.5191085,
+   "t_wall_et": "2025-01-21T17:32:51.519109-05:00",
+   "segment_text": "that opens up federal lands for data centers and energy production? No. I wouldn't do that. That sounds to me like it's something that I would like. I'd like to see federal lands opened up for data centers. I think they're gonna be very important. Again, we have a lot of competition for that. So it's an honor to have these 3 great people, great, great CEOs,",
+   "context": "doing this, and we can't have I want to have I'd like to have these 3 people negotiate for us just for 1 week and would be a rich country again, but we'll be rich. Mister president, on AI data centers, will you rescind president Biden's executive order that opens up federal lands On which centers? On data centers. Will you rescind president Biden's executive order, that opens up federal lands for data centers and energy production? No. I wouldn't do that. That sounds to me like it's something that I would like. I'd like to see federal lands opened up for data centers. I think they're gonna be very important. Again, we have a lot of competition for that. So it's an honor to have these 3 great people, great, great CEOs,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "I'd like to see federal lands opened up for data centers. I think they're gonna be very important.",
+    "summary": "The President supports opening federal lands for data center development, rejecting Biden's restrictions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Supportive stance on AI data center buildout is broadly positive for AI chip demand but reiterates known policy direction.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF benefits modestly from favorable data-center/AI infrastructure rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major AI/data center operator, easier federal land access is mildly supportive though not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Data center infrastructure/cooling supplier benefits from expanded federal land availability for data centers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's supportive comments on opening federal lands for AI data centers reinforce existing pro-AI-infrastructure policy expectations, giving a mild positive tilt to AI/data-center-linked stocks but with limited new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Supportive stance on AI data center buildout is broadly positive for AI chip demand but reiterates known policy direction.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF benefits modestly from favorable data-center/AI infrastructure rhetoric.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major AI/data center operator, easier federal land access is mildly supportive though not new policy.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Data center infrastructure/cooling supplier benefits from expanded federal land availability for data centers.\", \"added\": false}], \"summary\": \"The President's supportive comments on opening federal lands for AI data centers reinforce existing pro-AI-infrastructure policy expectations, giving a mild positive tilt to AI/data-center-linked stocks but with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "zDo_RrzdRoQ:02765:tiktok",
+   "video_id": "zDo_RrzdRoQ",
+   "entity_id": "tiktok",
+   "entity": "TikTok",
+   "kind": "company",
+   "alias": "tiktok",
+   "text_span": "TikTok",
+   "dict_tickers": [
+    "ORCL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2765.703857142857,
+   "t_wall": 1737498801.7038572,
+   "t_wall_et": "2025-01-21T17:33:21.703857-05:00",
+   "segment_text": "It's an honor that they wanna come to our country, but we're gonna make it as easy as we can for them because other countries want them to. I'm gonna have to go now. Thank you all very much. Thank you. Question. Do you have TikTok on your phone?",
+   "context": "that opens up federal lands for data centers and energy production? No. I wouldn't do that. That sounds to me like it's something that I would like. I'd like to see federal lands opened up for data centers. I think they're gonna be very important. Again, we have a lot of competition for that. So it's an honor to have these 3 great people, great, great CEOs, and and great geniuses, all 3. It's an honor that they wanna come to our country, but we're gonna make it as easy as we can for them because other countries want them to. I'm gonna have to go now. Thank you all very much. Thank you. Question. Do you have TikTok on your phone? No. But I think I might put it there.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  }
+ ]
+}

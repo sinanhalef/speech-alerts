@@ -1,0 +1,2505 @@
+{
+ "video": {
+  "id": "5N8iGKpU_-A",
+  "url": "https://www.youtube.com/watch?v=5N8iGKpU_-A",
+  "title": "The President Participates in the Inaugural Pennsylvania Energy and Innovation Event",
+  "channel": "The White House",
+  "duration": 3644.0,
+  "was_live": true,
+  "release_timestamp": 1752607851.0,
+  "upload_timestamp": 1752611895.0,
+  "upload_date": "20250715",
+  "label": "Participates in the Inaugural Pennsylvania Energy and Innovation Event",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1752607851.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 45,
+  "confirmed": 24,
+  "retracted": 21,
+  "unconfirmed": 0,
+  "llm_calls": 58
+ },
+ "signals": [
+  {
+   "signal_id": "5N8iGKpU_-A:00127:ai_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 127.25146214634147,
+   "t_wall": 1752607978.2514622,
+   "t_wall_et": "2025-07-15T15:32:58.251462-04:00",
+   "segment_text": "of investment in energy and AI revolution",
+   "context": "that you're here safely with us, and we are honored and thrilled to have you back in town. We're the town we're proud to call home at such an historic time for our great Commonwealth and for our nation. In your 1st term, you famously promised. You were elected to represent the citizens of Pittsburgh, not Paris. And today, you're once again making good in that promise. And what's happening here today is absolutely historic. Your visit and your leadership has catalyzed $90,000,000,000 of investment in energy and AI revolution in Pennsylvania. $90,000,000,000.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:00503:ba",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ba",
+   "entity": "Boeing",
+   "kind": "company",
+   "alias": "boeing",
+   "text_span": "Boeing",
+   "dict_tickers": [
+    "BA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 503.4820041212121,
+   "t_wall": 1752608354.4820042,
+   "t_wall_et": "2025-07-15T15:39:14.482004-04:00",
+   "segment_text": "that they are gonna build through Boeing. They came back with a package of goods that were, you know, nobody's seen. I don't think anybody's seen $5,100,000,000,000.",
+   "context": "We're doing things that nobody ever thought possible. As of about a month and 0.5 ago, when we came back from The Middle East, we came back with $5,100,000,000,000 of investments from the 3 countries that I mentioned, and they're great people, great leaders of those countries. But we came back with many, many planes that they are gonna build through Boeing. They came back with a package of goods that were, you know, nobody's seen. I don't think anybody's seen $5,100,000,000,000.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Boeing",
+    "tickers": [
+     "BA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "many, many planes that they are gonna build through Boeing",
+    "summary": "The President claims Middle East countries will build planes through Boeing as part of $5.1 trillion investment package."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of previously announced Middle East plane orders is mildly positive but not new information for markets.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Boeing plane orders from Middle East deals is a repeat of prior announcements, offering only mild, already-priced-in positive sentiment for BA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of previously announced Middle East plane orders is mildly positive but not new information for markets.\", \"added\": false}], \"summary\": \"The President's mention of Boeing plane orders from Middle East deals is a repeat of prior announcements, offering only mild, already-priced-in positive sentiment for BA.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:00654:defense_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 654.8868749999999,
+   "t_wall": 1752608505.886875,
+   "t_wall_et": "2025-07-15T15:41:45.886875-04:00",
+   "segment_text": "I promised him I'd give him 2 weeks. Okay? Nuclear will give him a little more time. But, you know, the biggest problem we've had is it takes years and years to get permits. And he really is. He's he's he's a phenomenal guy.",
+   "context": "probably I must say this, Doug. I hate to say it. Chris and Doug and all of you guys, the most important man on the day is today is Lee Zeldin. It's called environmental protection because he's gonna be the 1 that gets you a permit. He's gonna get you a permit for the largest electric producing plant in the world in about a week, would you say? Now if you go if you go nuclear, I promised him I'd give him 2 weeks. Okay? Nuclear will give him a little more time. But, you know, the biggest problem we've had is it takes years and years to get permits. And he really is. He's he's he's a phenomenal guy.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:00742:ai_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 742.0446244444444,
+   "t_wall": 1752608593.0446243,
+   "t_wall_et": "2025-07-15T15:43:13.044624-04:00",
+   "segment_text": "when I 1st heard about AI, you know, it's not my thing. Although my uncle was at MIT, 1 of the great professors, 5th 51 years, whatever, longest",
+   "context": "I don't know if I can. Do I have the right to overrule you? Maybe. I don't know. Probably, I do, but I won't have to. But so he has 1 man, and we have 1 man. The 1 man is sitting right there. We appreciate. You're doing an amazing job. They're building plants already, and they have they're building plants, and they have already their their permits. And I have to take it, I have to brag just for a 2nd because when I 1st heard about AI, you know, it's not my thing. Although my uncle was at MIT, 1 of the great professors, 5th 51 years, whatever, longest",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "they're building plants already, amazing job",
+    "summary": "The President praises AI sector investment in plant construction."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of AI/energy buildout is favorable sentiment but contains no new policy or company-specific news for Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad rhetoric about AI power needs is sector-supportive but not new or specific enough to move semiconductor ETF meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical praise about AI/energy buildout without new concrete policy, deals, or numbers, so limited tradable impact on NVDA or SMH beyond mild positive sentiment already priced in.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General praise of AI/energy buildout is favorable sentiment but contains no new policy or company-specific news for Nvidia.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad rhetoric about AI power needs is sector-supportive but not new or specific enough to move semiconductor ETF meaningfully.\",\"added\":false}],\"summary\":\"The President's remarks are largely rhetorical praise about AI/energy buildout without new concrete policy, deals, or numbers, so limited tradable impact on NVDA or SMH beyond mild positive sentiment already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:00927:coal_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 927.1787113402062,
+   "t_wall": 1752608778.1787114,
+   "t_wall_et": "2025-07-15T15:46:18.178711-04:00",
+   "segment_text": "And they'll be powered by maybe nuclear, maybe gas, maybe coal. You know, we brought coal back in. They won't be powered by wind because it doesn't work. I hate to say it just doesn't work. It's",
+   "context": "So this way, you can have a great plant. And what you'll do is if you have excess, you can sell it back into the grid. You'll even make money from the electric business because these guys do know how to make money. They'll end up doing things that will be shocking, and you're gonna make your own plans. So when I looked at the numbers before, I saw a board outside and it showed how much electricity China's making. Well, we just started, but we're gonna actually end up doing more than them, and it's gonna be done privately, and you're gonna own your own electric plants, And they'll be powered by maybe nuclear, maybe gas, maybe coal. You know, we brought coal back in. They won't be powered by wind because it doesn't work. I hate to say it just doesn't work. It's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We brought coal back in. Maybe powered by coal.",
+    "summary": "The President endorses coal as fuel for privately-owned electric plants."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates support for coal as a power source for new private plants, mildly bullish for coal producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric supports sentiment for coal miners like Arch Resources.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive coal comments provide a mild tailwind for metallurgical/thermal coal producer Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated praise of coal as a viable power source for new private electric plants is mildly positive but not novel policy, giving a small, low-conviction boost to coal-sector equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates support for coal as a power source for new private plants, mildly bullish for coal producers.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric supports sentiment for coal miners like Arch Resources.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive coal comments provide a mild tailwind for metallurgical/thermal coal producer Alpha Metallurgical Resources.\", \"added\": false}], \"summary\": \"The President's repeated praise of coal as a viable power source for new private electric plants is mildly positive but not novel policy, giving a small, low-conviction boost to coal-sector equities.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01007:kraken",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "kraken",
+   "entity": "Kraken",
+   "kind": "company",
+   "alias": "kraken",
+   "text_span": "Kraken",
+   "dict_tickers": [
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1007.985,
+   "t_wall": 1752608858.985,
+   "t_wall_et": "2025-07-15T15:47:38.985000-04:00",
+   "segment_text": "Kraken.",
+   "context": "White House AI czar David Sachs. David, thank you very much. Great job. David interviewed me on his podcast about what's that now 2 years ago or something in San Francisco. And I said, this guy is very smart. We if I ever if I pull this sucker off, I'm gonna probably hire him in some form. I gotta get him in, but you've been doing great. Thank you, David, very much. Director of the Office of Science and Technology Policy, Michael Kraken. Michael, thank you. Thank you, Michael. Where's my thank you, Michael. Good job.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01237:ai",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1237.730164090909,
+   "t_wall": 1752609088.730164,
+   "t_wall_et": "2025-07-15T15:51:28.730164-04:00",
+   "segment_text": "and that includes being the world's number 1 superpower in artificial intelligence. And we are way ahead of China. I have to say, we're way ahead of China, and the plants are starting up. The construction is starting up.",
+   "context": "sure as hell, he voted against us. And I said another 1 down, another great move by the President. Anyway, so much for favors. You know, it's welcome to the world of politics. Right? Right, David? We know about that. But we're here today because we believe that America's destiny is to dominate every industry and be the 1st in every technology, and that includes being the world's number 1 superpower in artificial intelligence. And we are way ahead of China. I have to say, we're way ahead of China, and the plants are starting up. The construction is starting up.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "America's destiny is to dominate every industry in artificial intelligence",
+    "summary": "The President affirms US leadership in AI; plants and construction starting up."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI dominance rhetoric is mildly supportive of leading AI chipmaker but not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector-wide semiconductor ETF benefits from broad pro-AI/pro-tech rhetoric though nothing concrete announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major AI/data-center player, generic praise for US AI leadership is mildly positive but non-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vertiv benefits from data center construction momentum implied by AI plant buildout comments.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general pro-AI, pro-US dominance rhetoric with mention of plants and data center construction starting up, mildly bullish but not new information for AI-linked equities; no direct new policy for these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI dominance rhetoric is mildly supportive of leading AI chipmaker but not new policy.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector-wide semiconductor ETF benefits from broad pro-AI/pro-tech rhetoric though nothing concrete announced.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major AI/data-center player, generic praise for US AI leadership is mildly positive but non-specific.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vertiv benefits from data center construction momentum implied by AI plant buildout comments.\", \"added\": false}], \"summary\": \"The President's remarks reiterate general pro-AI, pro-US dominance rhetoric with mention of plants and data center construction starting up, mildly bullish but not new information for AI-linked equities; no direct new policy for these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01240:china",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1240.2425054545454,
+   "t_wall": 1752609091.2425056,
+   "t_wall_et": "2025-07-15T15:51:31.242506-04:00",
+   "segment_text": "and that includes being the world's number 1 superpower in artificial intelligence. And we are way ahead of China. I have to say, we're way ahead of China, and the plants are starting up. The construction is starting up.",
+   "context": "sure as hell, he voted against us. And I said another 1 down, another great move by the President. Anyway, so much for favors. You know, it's welcome to the world of politics. Right? Right, David? We know about that. But we're here today because we believe that America's destiny is to dominate every industry and be the 1st in every technology, and that includes being the world's number 1 superpower in artificial intelligence. And we are way ahead of China. I have to say, we're way ahead of China, and the plants are starting up. The construction is starting up.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.91,
+    "quote": "We are way ahead of China",
+    "summary": "The President claims US is ahead of China in AI and technology."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about US-China AI competition is not new policy and unlikely to move Chinese equities materially.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat boasting about AI dominance carries no new tariff or sanction detail affecting broad China index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific tech-sector policy action mentioned, just rhetorical claim of US AI leadership.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are mostly rhetorical (AI leadership, past tariffs, Indonesia deal) with no new concrete China-specific policy, so China ETFs should see minimal direct impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about US-China AI competition is not new policy and unlikely to move Chinese equities materially.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat boasting about AI dominance carries no new tariff or sanction detail affecting broad China index.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific tech-sector policy action mentioned, just rhetorical claim of US AI leadership.\", \"added\": false}], \"summary\": \"The President's comments are mostly rhetorical (AI leadership, past tariffs, Indonesia deal) with no new concrete China-specific policy, so China ETFs should see minimal direct impact.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01247:defense_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1247.9542363636365,
+   "t_wall": 1752609098.9542363,
+   "t_wall_et": "2025-07-15T15:51:38.954236-04:00",
+   "segment_text": "And did you notice that 2 days ago, they just announced that they had a budget surplus of 25,000,000,000 in this country.",
+   "context": "Anyway, so much for favors. You know, it's welcome to the world of politics. Right? Right, David? We know about that. But we're here today because we believe that America's destiny is to dominate every industry and be the 1st in every technology, and that includes being the world's number 1 superpower in artificial intelligence. And we are way ahead of China. I have to say, we're way ahead of China, and the plants are starting up. The construction is starting up. And did you notice that 2 days ago, they just announced that they had a budget surplus of 25,000,000,000 in this country.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "plants are starting up. The construction is starting up.",
+    "summary": "Defense sector plants and construction activity expanding."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about AI/manufacturing dominance, not specific to defense contractors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific defense procurement or policy news mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct reference to drone or defense-tech contracts in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Excerpt focuses on AI, tariffs, and trade deals, not Kratos-specific defense programs.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark centers on AI leadership, tariffs, and a new Indonesia trade deal rather than any specific defense-sector policy, so no clear price-relevant signal exists for ITA, XAR, AVAV, or KTOS.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about AI/manufacturing dominance, not specific to defense contractors.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific defense procurement or policy news mentioned.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct reference to drone or defense-tech contracts in this excerpt.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Excerpt focuses on AI, tariffs, and trade deals, not Kratos-specific defense programs.\", \"added\": false}], \"summary\": \"The remark centers on AI leadership, tariffs, and a new Indonesia trade deal rather than any specific defense-sector policy, so no clear price-relevant signal exists for ITA, XAR, AVAV, or KTOS.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01271:steel",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1271.5801941176471,
+   "t_wall": 1752609122.5801942,
+   "t_wall_et": "2025-07-15T15:52:02.580194-04:00",
+   "segment_text": "and steel mostly,",
+   "context": "and that includes being the world's number 1 superpower in artificial intelligence. And we are way ahead of China. I have to say, we're way ahead of China, and the plants are starting up. The construction is starting up. And did you notice that 2 days ago, they just announced that they had a budget surplus of 25,000,000,000 in this country. Right, Howard? They never saw anything like that. They would say, what did that that's been like decades. 25,000,000,000 and that's peanuts compared to what it's and it's good business practices. The tariffs are coming in by the hundreds of billions of dollars, and they haven't they're really at the infant stage right now. It's only on cars and steel mostly,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "tariffs are coming in by the hundreds of billions of dollars, mostly on cars and steel",
+    "summary": "The President says tariffs are generating hundreds of billions, with steel subject to tariffs at infant stage."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated steel tariffs support domestic steelmakers by limiting import competition.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff protection on steel benefits domestic producer Nucor modestly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs benefits from continued steel tariff protection.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel Dynamics gains modestly from ongoing tariff rhetoric shielding domestic steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF should track modest positive sentiment from reaffirmed tariff support.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated existing steel and car tariffs as generating revenue, a repeat of known policy that is mildly supportive for domestic steelmakers but not a new catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated steel tariffs support domestic steelmakers by limiting import competition.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff protection on steel benefits domestic producer Nucor modestly.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Cleveland-Cliffs benefits from continued steel tariff protection.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel Dynamics gains modestly from ongoing tariff rhetoric shielding domestic steel.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF should track modest positive sentiment from reaffirmed tariff support.\", \"added\": false}], \"summary\": \"The President reiterated existing steel and car tariffs as generating revenue, a repeat of known policy that is mildly supportive for domestic steelmakers but not a new catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01285:copper",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "copper",
+   "entity": "Copper",
+   "kind": "asset",
+   "alias": "copper",
+   "text_span": "copper",
+   "dict_tickers": [
+    "COPX",
+    "FCX",
+    "SCCO"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1285.090909090909,
+   "t_wall": 1752609136.090909,
+   "t_wall_et": "2025-07-15T15:52:16.090909-04:00",
+   "segment_text": "they've opened up Indonesia fully. You know, Indonesia really has great copper, very, very powerful copper, but they have a lot of things. And we have full access to Indonesia.",
+   "context": "25,000,000,000 and that's peanuts compared to what it's and it's good business practices. The tariffs are coming in by the hundreds of billions of dollars, and they haven't they're really at the infant stage right now. It's only on cars and steel mostly, and the rest is starting to kick in. We just made a deal today, a big 1 with Indonesia, a great deal. And we they've opened up Indonesia fully. You know, Indonesia really has great copper, very, very powerful copper, but they have a lot of things. And we have full access to Indonesia.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Copper",
+    "tickers": [
+     "COPX",
+     "FCX",
+     "SCCO"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "Indonesia really has great copper, very powerful copper, full access",
+    "summary": "The President secured access to Indonesia's copper reserves in a trade deal."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COPX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General mention of Indonesia copper access is not a specific catalyst for the broader copper miners ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FCX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Freeport operates Indonesia's Grasberg mine, so a US trade deal opening Indonesian access could ease operating conditions there.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SCCO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Southern Copper has no direct Indonesia exposure, so the remark is largely irrelevant to it.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touted a new Indonesia trade deal granting full US access to its copper resources, a modest positive for Indonesia-exposed miners like Freeport but largely neutral for broader copper equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COPX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General mention of Indonesia copper access is not a specific catalyst for the broader copper miners ETF.\", \"added\": false}, {\"ticker\": \"FCX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Freeport operates Indonesia's Grasberg mine, so a US trade deal opening Indonesian access could ease operating conditions there.\", \"added\": false}, {\"ticker\": \"SCCO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Southern Copper has no direct Indonesia exposure, so the remark is largely irrelevant to it.\", \"added\": false}], \"summary\": \"The President touted a new Indonesia trade deal granting full US access to its copper resources, a modest positive for Indonesia-exposed miners like Freeport but largely neutral for broader copper equities.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01314:india",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "tariff"
+   ],
+   "t_audio": 1314.8164256281407,
+   "t_wall": 1752609165.8164256,
+   "t_wall_et": "2025-07-15T15:52:45.816426-04:00",
+   "segment_text": "But I think India is gonna open up and a lot of countries are gonna open up. And some that don't, they'll just be paying a very substantial tariff, but peanuts compared to what they should be paying.",
+   "context": "We'll soon be announcing probably I don't you know, if we do, we do. If we don't, that's okay too. I don't mind because I'm very happy with the letters that we send out that you'll be paying x percent. I almost like it better if you wanna know the truth. But Scott and Howard, you know, they like to go the old fashioned way. Let's work hard to make a deal. I don't know. There's something about pay us 35% of everything and we're very happy. But I think India is gonna open up and a lot of countries are gonna open up. And some that don't, they'll just be paying a very substantial tariff, but peanuts compared to what they should be paying.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "India is gonna open up and a lot of countries are gonna open up.",
+    "summary": "The President expects India to open markets; threatens tariffs on non-compliant countries."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President signaled optimism that India will open its markets, which is mildly positive for Indian equities exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same India-market-opening optimism supports this India-focused ETF similarly to INDA.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks express optimism that India will open its markets while threatening tariffs on non-compliant countries, a mildly positive but non-specific signal for India-focused equity ETFs like INDA and EPI.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President signaled optimism that India will open its markets, which is mildly positive for Indian equities exposure.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Same India-market-opening optimism supports this India-focused ETF similarly to INDA.\", \"added\": false}], \"summary\": \"The President's remarks express optimism that India will open its markets while threatening tariffs on non-compliant countries, a mildly positive but non-specific signal for India-focused equity ETFs like INDA and EPI.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01336:chips",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1336.4154272727274,
+   "t_wall": 1752609187.4154272,
+   "t_wall_et": "2025-07-15T15:53:07.415427-04:00",
+   "segment_text": "and we're not gonna let them do it. We have the great chips. We have the great everything, and we're gonna be fighting them in a very friendly fashion. I have a great relationship with president Xi,",
+   "context": "But I think India is gonna open up and a lot of countries are gonna open up. And some that don't, they'll just be paying a very substantial tariff, but peanuts compared to what they should be paying. So, we have some amazing things. China and other countries are racing to catch up to America having to do with AI, and we're not gonna let them do it. We have the great chips. We have the great everything, and we're gonna be fighting them in a very friendly fashion. I have a great relationship with president Xi,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "We have the great chips. We have the great everything.",
+    "summary": "The President praises US semiconductor strength in AI competition against China."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical praise of US chip strength with no new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic pro-chip rhetoric, not new information for markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague boasting about US chip leadership without specific policy or deal news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No company-specific catalyst, just broad rhetoric about US chips vs China.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad, repeated rhetoric praising US semiconductor strength versus China without any new policy, deal, or numeric detail, so the price impact on chip-related tickers is likely negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical praise of US chip strength with no new policy detail.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic pro-chip rhetoric, not new information for markets.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague boasting about US chip leadership without specific policy or deal news.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No company-specific catalyst, just broad rhetoric about US chips vs China.\", \"added\": false}], \"summary\": \"The President's remarks are broad, repeated rhetoric praising US semiconductor strength versus China without any new policy, deal, or numeric detail, so the price impact on chip-related tickers is likely negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01422:ai_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1422.000487804878,
+   "t_wall": 1752609273.0004878,
+   "t_wall_et": "2025-07-15T15:54:33.000488-04:00",
+   "segment_text": "Today, the Commonwealth is reclaiming its industrial heritage and taking its place at the forefront of the AI technological",
+   "context": "I I think they're gonna be very far behind. Mark my words. I think they're gonna be very far because these are we have a lot of places going up right now, and they're all gonna be great. And they actually feed off each other, but remaining the world's leader in AI will require an enormous increase in the energy production, and that's taking place. And you're doing it yourself in a massive build out of physical infrastructure and the tremendous technology skill that Pennsylvania has. I mean, you have tremendous skill in this state. Today, the Commonwealth is reclaiming its industrial heritage and taking its place at the forefront of the AI technological",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial Intelligence [sector]",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "remaining the world's leader in AI will require enormous energy production",
+    "summary": "The President praises AI sector and links Pennsylvania's industrial role to AI leadership and energy infrastructure."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI, pro-energy-buildout rhetoric supports AI compute demand narrative but adds no new NVDA-specific news.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI/semiconductor sector sentiment lift from energy investment announcements, though largely repeat rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate pro-AI, pro-energy and pro-coal rhetoric with new Pennsylvania infrastructure investment figures, mildly bullish for AI-linked chipmakers like NVDA and the SMH ETF but not highly novel or company-specific.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-AI, pro-energy-buildout rhetoric supports AI compute demand narrative but adds no new NVDA-specific news.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI/semiconductor sector sentiment lift from energy investment announcements, though largely repeat rhetoric.\", \"added\": false}], \"summary\": \"The President's remarks reiterate pro-AI, pro-energy and pro-coal rhetoric with new Pennsylvania infrastructure investment figures, mildly bullish for AI-linked chipmakers like NVDA and the SMH ETF but not highly novel or company-specific.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01467:solar",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "green new scam",
+   "text_span": "green new scam",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 1467.1507971014494,
+   "t_wall": 1752609318.1507971,
+   "t_wall_et": "2025-07-15T15:55:18.150797-04:00",
+   "segment_text": "forced to shut down. It's a green new scam, greatest scam in history.",
+   "context": "We had big crowds as you probably heard, biggest ever, biggest in history. The investments being announced this afternoon include more than $56,000,000,000 in new energy infrastructure and more than $36,000,000,000 in new data center projects, and a lot more than that are going to be announced in the coming weeks, not even months. Think we could say weeks. Right, Howard? In the campaign, I promised that I would save the Homer City power plant 50 miles east of here that Joe Biden's green news scam forced to shut down. It's a green new scam, greatest scam in history.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "green new scam",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "green new scam, greatest scam in history",
+    "summary": "The President attacks Biden's green energy policy as fraudulent; promises to save coal plant."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed rhetoric against green energy policy as a scam reinforces negative sentiment toward solar sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean energy ETF hurt by continued anti-green rhetoric and emphasis on gas/coal revival.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar manufacturer faces headline risk from repeated administration hostility to renewables, though policy specifics unchanged.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar name pressured by administration's continued framing of green energy as a scam.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize massive new investment in gas, data centers, and hydropower in Pennsylvania while disparaging green energy as a scam, which is mildly negative for solar/clean energy names and neutral-to-positive for traditional energy infrastructure, though no new solar-specific policy was announced.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Renewed rhetoric against green energy policy as a scam reinforces negative sentiment toward solar sector.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad clean energy ETF hurt by continued anti-green rhetoric and emphasis on gas/coal revival.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar manufacturer faces headline risk from repeated administration hostility to renewables, though policy specifics unchanged.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Residential solar name pressured by administration's continued framing of green energy as a scam.\", \"added\": false}], \"summary\": \"The President's remarks emphasize massive new investment in gas, data centers, and hydropower in Pennsylvania while disparaging green energy as a scam, which is mildly negative for solar/clean energy names and neutral-to-positive for traditional energy infrastructure, though no new solar-specific policy was announced.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01507:natgas",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "fired",
+    "plant"
+   ],
+   "t_audio": 1507.6905575342466,
+   "t_wall": 1752609358.6905575,
+   "t_wall_et": "2025-07-15T15:55:58.690557-04:00",
+   "segment_text": "But the Homer City site is being resurrected as the largest natural gas fired power plant ever to be built in North America. Is that right? That's",
+   "context": "from Nighthead Capital Management who's here from Nighthead? Well, I'm very impressed with that. 15,000,000,000. That's pretty good. It's a great location too. Wow. That's very impressive. Thank you very much. That's a big number. It's a big number and yet it's peanuts relative to Waterwood. That's a good job. But the Homer City site is being resurrected as the largest natural gas fired power plant ever to be built in North America. Is that right? That's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01519:googl",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "fired",
+    "investing",
+    "plant"
+   ],
+   "t_audio": 1519.1001,
+   "t_wall": 1752609370.1001,
+   "t_wall_et": "2025-07-15T15:56:10.100100-04:00",
+   "segment_text": "Google will be investing billions and billions of dollars to revitalize 2 major hydropower",
+   "context": "That's very impressive. Thank you very much. That's a big number. It's a big number and yet it's peanuts relative to Waterwood. That's a good job. But the Homer City site is being resurrected as the largest natural gas fired power plant ever to be built in North America. Is that right? That's fantastic. As another example, Google will be investing billions and billions of dollars to revitalize 2 major hydropower",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Google will be investing billions and billions of dollars to revitalize 2 major hydropower",
+    "summary": "Google to invest billions in hydropower revitalization projects."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Positive mention of new billions in hydropower investment by Google in Pennsylvania is a mild positive news item though small relative to Google market cap.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised Google's new hydropower investment in Pennsylvania, a mildly positive but immaterial data point for GOOGL given its scale.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Positive mention of new billions in hydropower investment by Google in Pennsylvania is a mild positive news item though small relative to Google market cap.\", \"added\": false}], \"summary\": \"The President praised Google's new hydropower investment in Pennsylvania, a mildly positive but immaterial data point for GOOGL given its scale.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01601:coal_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1601.285530726257,
+   "t_wall": 1752609452.2855308,
+   "t_wall_et": "2025-07-15T15:57:32.285531-04:00",
+   "segment_text": "And then you look at China, where's your wind farm? Well, we we have 1. We're thinking about 1. No. It's the whole thing is crazy, but they use coal, they're building right now about 52 power plants, all of coal. I signed historic executive orders to expedite construction of brand new nuclear power plants, which is very hot. We've issued an order, as you probably know, 1 month ago, making it very easy and very safe to build nuclear power. And Westinghouse, I know is represented here and there, become a whole brand new Westinghouse.",
+   "context": "And then you look at China, where's your wind farm? Well, we we have 1. We're thinking about 1. No. It's the whole thing is crazy, but they use coal, they're building right now about 52 power plants, all of coal. I signed historic executive orders to expedite construction of brand new nuclear power plants, which is very hot. We've issued an order, as you probably know, 1 month ago, making it very easy and very safe to build nuclear power. And Westinghouse, I know is represented here and there, become a whole brand new Westinghouse.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "they're building right now about 52 power plants, all of coal",
+    "summary": "The President criticizes China's coal plant construction as part of broader energy comparison."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates pro-coal stance and ending regulatory war on coal, mildly supportive for US coal producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric supports domestic coal miners like Arch Resources.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pro-coal policy tone benefits metallurgical/thermal coal producer Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated pro-coal, anti-Green New Deal rhetoric is mildly bullish for US coal producers, though it mainly restates known policy with no new numbers or deals for these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates pro-coal stance and ending regulatory war on coal, mildly supportive for US coal producers.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric supports domestic coal miners like Arch Resources.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pro-coal policy tone benefits metallurgical/thermal coal producer Alpha Metallurgical Resources.\", \"added\": false}], \"summary\": \"The President's repeated pro-coal, anti-Green New Deal rhetoric is mildly bullish for US coal producers, though it mainly restates known policy with no new numbers or deals for these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01609:nuclear",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "nuclear power",
+   "text_span": "nuclear power",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1609.4855679702048,
+   "t_wall": 1752609460.485568,
+   "t_wall_et": "2025-07-15T15:57:40.485568-04:00",
+   "segment_text": "And then you look at China, where's your wind farm? Well, we we have 1. We're thinking about 1. No. It's the whole thing is crazy, but they use coal, they're building right now about 52 power plants, all of coal. I signed historic executive orders to expedite construction of brand new nuclear power plants, which is very hot. We've issued an order, as you probably know, 1 month ago, making it very easy and very safe to build nuclear power. And Westinghouse, I know is represented here and there, become a whole brand new Westinghouse.",
+   "context": "And then you look at China, where's your wind farm? Well, we we have 1. We're thinking about 1. No. It's the whole thing is crazy, but they use coal, they're building right now about 52 power plants, all of coal. I signed historic executive orders to expedite construction of brand new nuclear power plants, which is very hot. We've issued an order, as you probably know, 1 month ago, making it very easy and very safe to build nuclear power. And Westinghouse, I know is represented here and there, become a whole brand new Westinghouse.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nuclear energy",
+    "tickers": [
+     "URA",
+     "CCJ",
+     "OKLO",
+     "SMR"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "I signed historic executive orders to expedite construction of brand new nuclear power plants",
+    "summary": "The President claims he signed orders expediting nuclear plant construction and issued rules simplifying nuclear builds."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "URA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated pro-nuclear policy stance modestly supports uranium sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CCJ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive nuclear rhetoric and Westinghouse reactor plans support uranium demand outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "OKLO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General pro-nuclear regulatory easing benefits small modular reactor developers like Oklo.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Favorable nuclear policy tone benefits SMR developer NuScale sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CEG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad nuclear-friendly policy supports existing nuclear generators like Constellation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's reiteration of pro-nuclear executive orders and mention of Westinghouse's new reactor plans is mildly positive for the nuclear/uranium sector broadly, though largely repeats known policy, limiting confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"URA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated pro-nuclear policy stance modestly supports uranium sector sentiment.\", \"added\": false}, {\"ticker\": \"CCJ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive nuclear rhetoric and Westinghouse reactor plans support uranium demand outlook.\", \"added\": false}, {\"ticker\": \"OKLO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General pro-nuclear regulatory easing benefits small modular reactor developers like Oklo.\", \"added\": false}, {\"ticker\": \"SMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Favorable nuclear policy tone benefits SMR developer NuScale sentiment.\", \"added\": false}, {\"ticker\": \"CEG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad nuclear-friendly policy supports existing nuclear generators like Constellation.\", \"added\": false}], \"summary\": \"The President's reiteration of pro-nuclear executive orders and mention of Westinghouse's new reactor plans is mildly positive for the nuclear/uranium sector broadly, though largely repeats known policy, limiting confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01700:x",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "nippon steel",
+   "text_span": "Nippon Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [
+    "approval",
+    "deal",
+    "investment"
+   ],
+   "t_audio": 1700.4511869565217,
+   "t_wall": 1752609551.451187,
+   "t_wall_et": "2025-07-15T15:59:11.451187-04:00",
+   "segment_text": "deal with Nippon Steel, Nippon Steel of Japan,",
+   "context": "And that's why the congressman I'll pretend I'm really angry at them, but I would actually be angry at them if they showed up, Lee. Right? I'd be much more if they're here, I would not be happy. The bill allows 100% expensing on all new equipment, something that's never happened before. Factories, research, and as I said before, even structure. To further protect Pennsylvania industry, 2 months ago, I came here to announce my approval of a historic investment deal with Nippon Steel, Nippon Steel of Japan,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nippon Steel",
+    "tickers": [
+     "X"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "historic investment deal with Nippon Steel",
+    "summary": "The President announced approval of historic investment deal with Nippon Steel."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates already-known Nippon Steel investment deal to keep US Steel in Pittsburgh, mildly reinforcing but not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention; increased foreign investment in a competitor is neutral-to-mildly negative but not material.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cliffs is a competitor to US Steel and could see slightly negative sentiment from rival's foreign capital infusion, but effect is minor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned; steel sector remark is specific to US Steel/Nippon deal, limited spillover.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated the previously announced Nippon Steel investment deal for US Steel, a mild positive but not new catalyst, with limited spillover to other domestic steelmakers.",
+    "raw": "{\"tickers\": [\n  {\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates already-known Nippon Steel investment deal to keep US Steel in Pittsburgh, mildly reinforcing but not new information.\", \"added\": false},\n  {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct mention; increased foreign investment in a competitor is neutral-to-mildly negative but not material.\", \"added\": false},\n  {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Cliffs is a competitor to US Steel and could see slightly negative sentiment from rival's foreign capital infusion, but effect is minor.\", \"added\": false},\n  {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not mentioned; steel sector remark is specific to US Steel/Nippon deal, limited spillover.\", \"added\": false}\n],\n\"summary\": \"The President reiterated the previously announced Nippon Steel investment deal for US Steel, a mild positive but not new catalyst, with limited spillover to other domestic steelmakers.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01702:japan",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "approval",
+    "deal",
+    "investment"
+   ],
+   "t_audio": 1702.3294478260868,
+   "t_wall": 1752609553.3294477,
+   "t_wall_et": "2025-07-15T15:59:13.329448-04:00",
+   "segment_text": "deal with Nippon Steel, Nippon Steel of Japan,",
+   "context": "And that's why the congressman I'll pretend I'm really angry at them, but I would actually be angry at them if they showed up, Lee. Right? I'd be much more if they're here, I would not be happy. The bill allows 100% expensing on all new equipment, something that's never happened before. Factories, research, and as I said before, even structure. To further protect Pennsylvania industry, 2 months ago, I came here to announce my approval of a historic investment deal with Nippon Steel, Nippon Steel of Japan,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.9,
+    "quote": "Nippon Steel of Japan",
+    "summary": "Japan mentioned as home country of Nippon Steel in investment deal context."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to previously announced Nippon Steel-U.S. Steel deal is not new information and has negligible effect on broad Japan ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark reiterates the already-known Nippon Steel/U.S. Steel investment deal, offering no new information relevant to a broad Japan equity ETF like EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to previously announced Nippon Steel-U.S. Steel deal is not new information and has negligible effect on broad Japan ETF.\", \"added\": false}], \"summary\": \"The remark reiterates the already-known Nippon Steel/U.S. Steel investment deal, offering no new information relevant to a broad Japan equity ETF like EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01876:steel",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 1876.7856770642202,
+   "t_wall": 1752609727.785677,
+   "t_wall_et": "2025-07-15T16:02:07.785677-04:00",
+   "segment_text": "we're building a future where American workers will forge the steel, produce the energy, build the factories,",
+   "context": "And I think, when you look at the countless jobs at the Mon Valley Works in Western Pennsylvania, we have something that's gonna be really incredible. And we did keep a golden share. You know who has the golden share? I do. I have the golden does everybody know what a golden share? A lot of these people from The Middle East, they don't have to worry about golden shares. But we have a golden share, Nippon's gonna do a fantastic job. With that historic announcement and the new commitments being made today, we're building a future where American workers will forge the steel, produce the energy, build the factories,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "American workers will forge the steel, produce the energy, build the factories",
+    "summary": "The President praised steel production by American workers at Mon Valley Works in Pennsylvania."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirms Nippon-US Steel deal with golden share and Mon Valley investment, positive for US Steel though already largely known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-steel rhetoric but no direct mention of Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments focus on US Steel/Nippon deal, not Cleveland-Cliffs specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct reference to Steel Dynamics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad positive sentiment toward US steel sector could lift steel ETF modestly.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks reaffirm the Nippon-US Steel deal with a US golden share and praise domestic steel production, modestly bullish for X and steel sector sentiment but not directly relevant to other named steelmakers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reaffirms Nippon-US Steel deal with golden share and Mon Valley investment, positive for US Steel though already largely known.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-steel rhetoric but no direct mention of Nucor.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comments focus on US Steel/Nippon deal, not Cleveland-Cliffs specifically.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct reference to Steel Dynamics.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad positive sentiment toward US steel sector could lift steel ETF modestly.\",\"added\":true}],\"summary\":\"The President's remarks reaffirm the Nippon-US Steel deal with a US golden share and praise domestic steel production, modestly bullish for X and steel sector sentiment but not directly relevant to other named steelmakers.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01952:private_equity",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "private_equity",
+   "entity": "Private equity",
+   "kind": "sector",
+   "alias": "blackstone",
+   "text_span": "Blackstone",
+   "dict_tickers": [
+    "BX",
+    "KKR",
+    "APO"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1952.3152654867256,
+   "t_wall": 1752609803.3152654,
+   "t_wall_et": "2025-07-15T16:03:23.315265-04:00",
+   "segment_text": "and we're gonna talk today about, those $90,000,000,000 of investment. You'll hear from Blackstone Good. And QTS,",
+   "context": "much. Again, thank you for being here. And you coming has allowed us to have this incredible summit. I I you it won't surprise you this summit was Dina's idea. But what it's allowed us to do is catalyze the investment. It's allowed us to get a lot of attention on Pennsylvania's story, and it's allowed us to deliver on the promises you and I talked about, which is jobs for working families really create opportunity here in Pennsylvania. So it's the manifestation of your agenda, and we're gonna talk today about, those $90,000,000,000 of investment. You'll hear from Blackstone Good. And QTS,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Blackstone",
+    "tickers": [
+     "BX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "You'll hear from Blackstone",
+    "summary": "Blackstone to speak at Pennsylvania investment summit on $90 billion in investment."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Blackstone highlighted as a participant in a $90B Pennsylvania energy/data-center investment summit, a positive visibility and deal-flow signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KKR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not mentioned in the excerpt; no direct read-through beyond general sector optimism.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "APO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not mentioned in the excerpt; no direct read-through beyond general sector optimism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts a $90B Pennsylvania energy/data-center investment summit with Blackstone explicitly named as a participant, a mild positive for BX; KKR and APO are unaffected as they are not referenced.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Blackstone highlighted as a participant in a $90B Pennsylvania energy/data-center investment summit, a positive visibility and deal-flow signal.\", \"added\": false}, {\"ticker\": \"KKR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not mentioned in the excerpt; no direct read-through beyond general sector optimism.\", \"added\": false}, {\"ticker\": \"APO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not mentioned in the excerpt; no direct read-through beyond general sector optimism.\", \"added\": false}], \"summary\": \"The President touts a $90B Pennsylvania energy/data-center investment summit with Blackstone explicitly named as a participant, a mild positive for BX; KKR and APO are unaffected as they are not referenced.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01957:ai",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1957.7394339622642,
+   "t_wall": 1752609808.739434,
+   "t_wall_et": "2025-07-15T16:03:28.739434-04:00",
+   "segment_text": "to build data centers. You also hear from companies that invested tens of billions in generating the power",
+   "context": "what it's allowed us to do is catalyze the investment. It's allowed us to get a lot of attention on Pennsylvania's story, and it's allowed us to deliver on the promises you and I talked about, which is jobs for working families really create opportunity here in Pennsylvania. So it's the manifestation of your agenda, and we're gonna talk today about, those $90,000,000,000 of investment. You'll hear from Blackstone Good. And QTS, Core Weave, others. They pledged $36,000,000,000 to build data centers. You also hear from companies that invested tens of billions in generating the power",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01966:natgas",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "investments"
+   ],
+   "t_audio": 1966.6956,
+   "t_wall": 1752609817.6956,
+   "t_wall_et": "2025-07-15T16:03:37.695600-04:00",
+   "segment_text": "needed to run those data centers. We have great investments in natural gas production and pipelines,",
+   "context": "and it's allowed us to deliver on the promises you and I talked about, which is jobs for working families really create opportunity here in Pennsylvania. So it's the manifestation of your agenda, and we're gonna talk today about, those $90,000,000,000 of investment. You'll hear from Blackstone Good. And QTS, Core Weave, others. They pledged $36,000,000,000 to build data centers. You also hear from companies that invested tens of billions in generating the power needed to run those data centers. We have great investments in natural gas production and pipelines, but also in nuclear. Brookfield's repowering of 2 hydrofacilities",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:01971:defense_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investments"
+   ],
+   "t_audio": 1971.0539999999999,
+   "t_wall": 1752609822.054,
+   "t_wall_et": "2025-07-15T16:03:42.054000-04:00",
+   "segment_text": "but also in nuclear. Brookfield's repowering of 2 hydrofacilities",
+   "context": "create opportunity here in Pennsylvania. So it's the manifestation of your agenda, and we're gonna talk today about, those $90,000,000,000 of investment. You'll hear from Blackstone Good. And QTS, Core Weave, others. They pledged $36,000,000,000 to build data centers. You also hear from companies that invested tens of billions in generating the power needed to run those data centers. We have great investments in natural gas production and pipelines, but also in nuclear. Brookfield's repowering of 2 hydrofacilities with, Google that you mentioned. The great Pittsburgh company, Westinghouse,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02035:blk",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "blk",
+   "entity": "BlackRock",
+   "kind": "company",
+   "alias": "larry fink",
+   "text_span": "Larry Fink",
+   "dict_tickers": [
+    "BLK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2035.5671361111113,
+   "t_wall": 1752609886.567136,
+   "t_wall_et": "2025-07-15T16:04:46.567136-04:00",
+   "segment_text": "The distinguished leaders you have around the table here from Larry Fink",
+   "context": "and to ensure that ratepayers don't foot the bill. And finally, you got technology companies like Google. They're investing and bringing the benefits of AI to Main Street and their AI Works for Pennsylvania initiative, which will offer AI training for 1,000,000 small businesses. The the the great thing about today is these are not empty promises. These are tangible, real commitments, and they're only the beginning. The distinguished leaders you have around the table here from Larry Fink to Darren Woods, from Toby Rice to Bruce,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02061:natgas",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "investments"
+   ],
+   "t_audio": 2061.1491345454547,
+   "t_wall": 1752609912.1491346,
+   "t_wall_et": "2025-07-15T16:05:12.149135-04:00",
+   "segment_text": "Unbelievable natural gas reserves, abundant freshwater,",
+   "context": "The distinguished leaders you have around the table here from Larry Fink to Darren Woods, from Toby Rice to Bruce, Flat, to great global investors like my good friends, Kit from Singapore, Haldun Albabarik from The United Arab Emirates. They've traveled long distances to witness firsthand this historic moment and to see firsthand what's happening in Pennsylvania. And these investments are a testament to Pennsylvania's unique resources. Unbelievable natural gas reserves, abundant freshwater,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Unbelievable natural gas reserves, abundant freshwater",
+    "summary": "The President praises Pennsylvania's natural gas reserves as investment attraction."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of natural gas reserves does not move the commodity-tracking fund.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about Pennsylvania gas reserves and data-center investment, not LNG exports specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "As a major Pennsylvania natural gas producer, EQT benefits from highlighted investment commitments tied to state's gas resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of natural gas reserves does not move the commodity-tracking fund.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is about Pennsylvania gas reserves and data-center investment, not LNG exports specifically.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"As a major Pennsylvania natural gas producer, EQT benefits from highlighted investment commitments tied to state's gas resources.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02142:ai",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 2142.242047368421,
+   "t_wall": 1752609993.2420473,
+   "t_wall_et": "2025-07-15T16:06:33.242047-04:00",
+   "segment_text": "in data center and energy infrastructure in Northeast PA.",
+   "context": "and a huge step forward, and I wanna thank you for making it possible and for being here in the Steel City. So let me give you 1 more hand. Thank you. Thank you. Thank you. You. Thank you. So with that, if it if it's alright with you, mister president, I'm gonna call on a handful of, the people here and let them tell you a little bit about what they're thinking and why they're investing. I'll start with, to your left, John Gray, president and COO of Blackstone. $25,000,000,000 in data center and energy infrastructure in Northeast PA.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "data center / AI infrastructure sector",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "$25,000,000,000 in data center and energy infrastructure in Northeast PA",
+    "summary": "Blackstone president announces $25B data center and energy investment in Pennsylvania."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New $25B data center investment signals continued AI infrastructure buildout that drives GPU demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF benefits from reaffirmed large-scale AI data center capex plans.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly named as investor or beneficiary of this specific Blackstone-led project.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Vertiv supplies power and cooling infrastructure that directly benefits from new large-scale data center buildouts like the announced $25B PA project.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "Blackstone's newly announced $25B PA data center and energy investment is a positive, concrete catalyst for AI infrastructure suppliers (chips, cooling/power equipment) but not clearly tied to a specific hyperscaler like MSFT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New $25B data center investment signals continued AI infrastructure buildout that drives GPU demand.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF benefits from reaffirmed large-scale AI data center capex plans.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not directly named as investor or beneficiary of this specific Blackstone-led project.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Vertiv supplies power and cooling infrastructure that directly benefits from new large-scale data center buildouts like the announced $25B PA project.\", \"added\": true}], \"summary\": \"Blackstone's newly announced $25B PA data center and energy investment is a positive, concrete catalyst for AI infrastructure suppliers (chips, cooling/power equipment) but not clearly tied to a specific hyperscaler like MSFT.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02164:ai_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 2164.8633333333332,
+   "t_wall": 1752610015.8633332,
+   "t_wall_et": "2025-07-15T16:06:55.863333-04:00",
+   "segment_text": "to make this AI revolution possible.",
+   "context": "Thank you. So with that, if it if it's alright with you, mister president, I'm gonna call on a handful of, the people here and let them tell you a little bit about what they're thinking and why they're investing. I'll start with, to your left, John Gray, president and COO of Blackstone. $25,000,000,000 in data center and energy infrastructure in Northeast PA. Thank you, Dave. I wanna start by thanking the President for recognizing the importance of American leadership in AI innovation and for prioritizing the physical investment required in digital and energy infrastructure to make this AI revolution possible. We believe this new technology can lead to a manufacturing",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02445:nuclear",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "nuclear power",
+   "text_span": "nuclear power",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 2445.4173333333333,
+   "t_wall": 1752610296.4173334,
+   "t_wall_et": "2025-07-15T16:11:36.417333-04:00",
+   "segment_text": "to the executive order and your commitment to nuclear power.",
+   "context": "We're thrilled to be making this investment in the grid and infrastructure in the Commonwealth and look forward to working with those around the table to make it happen in the years to come. Thank you. Thank you, Brian. Thank you, Brian. Alright. Dan Summer, you know, a a Pittsburgh iconic name, Westinghouse, 6,000,000,000. This directs this ties directly to the executive order and your commitment to nuclear power. $6,000,000,000 investment to deliver 10 new large nuclear reactors by 2030,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02553:googl",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2553.9314285714286,
+   "t_wall": 1752610404.9314287,
+   "t_wall_et": "2025-07-15T16:13:24.931429-04:00",
+   "segment_text": "And beyond that, we're happy to announce today a strategic collaboration with Google",
+   "context": "of economic value across The United States with $6,000,000,000 of value here in Pennsylvania. It's also a jobs machine. Implementing your vision will create or sustain over 55,000 jobs across the country and over 15,000 jobs here in the Commonwealth alone. And these are great jobs across manufacturing, engineering, and construction. And beyond that, we're happy to announce today a strategic collaboration with Google to leverage Google's expertise in AI and AI solutions along with Westinghouse's",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02629:ai_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 2629.699827586207,
+   "t_wall": 1752610480.6998277,
+   "t_wall_et": "2025-07-15T16:14:40.699828-04:00",
+   "segment_text": "that our nation invest in AI,",
+   "context": "is is doing a number of things, partnering with Brookfield, which Bruce Flat is here. Great partnership. We're lucky to have them both engaged in Pennsylvania. Bruce is also the majority owner of of Westinghouse. Brookfield's the majority owner of Westinghouse. And also an incredible effort to train 1000000 small business in AI. So, Ruth, please tell us what you're doing in Pennsylvania. And thank you. Thank you, mister president. Thank you so much for your leadership, for your clear and urgent direction that our nation invest in AI, in the infrastructure, technology, and energy needed to unlock the extraordinary capabilities and really enable America to continue to leave.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02649:googl",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 2649.171552901024,
+   "t_wall": 1752610500.171553,
+   "t_wall_et": "2025-07-15T16:15:00.171553-04:00",
+   "segment_text": "And senator McCormack and Dana, thank you for this extraordinary convening. It really has delivered the energy, no pun intended, that we were striving to achieve here. On behalf of Google, I'm very pleased to be here in Pittsburgh to announce that Google is investing more than $25,000,000,000",
+   "context": "for your clear and urgent direction that our nation invest in AI, in the infrastructure, technology, and energy needed to unlock the extraordinary capabilities and really enable America to continue to leave. And senator McCormack and Dana, thank you for this extraordinary convening. It really has delivered the energy, no pun intended, that we were striving to achieve here. On behalf of Google, I'm very pleased to be here in Pittsburgh to announce that Google is investing more than $25,000,000,000",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02661:defense_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 2661.965,
+   "t_wall": 1752610512.965,
+   "t_wall_et": "2025-07-15T16:15:12.965000-04:00",
+   "segment_text": "across the states in this critical PJM region over the next 2 years.",
+   "context": "technology, and energy needed to unlock the extraordinary capabilities and really enable America to continue to leave. And senator McCormack and Dana, thank you for this extraordinary convening. It really has delivered the energy, no pun intended, that we were striving to achieve here. On behalf of Google, I'm very pleased to be here in Pittsburgh to announce that Google is investing more than $25,000,000,000 in data centers and AI infrastructure across the states in this critical PJM region over the next 2 years. And to support the investment, we're investing in 3 additional ways and focused on them. 1st, mister president, to support",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02732:googl",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2732.4217164179104,
+   "t_wall": 1752610583.4217165,
+   "t_wall_et": "2025-07-15T16:16:23.421716-04:00",
+   "segment_text": "Last month, Google made a grant to the Electrical Training Alliance",
+   "context": "from the grid, and we're also working on ways that AI can help to identify and deploy capacity more efficiently. I think what's really exciting also is we're focused on jobs. There are 2 parts of the focus on jobs. 1 is really training to support the jobs to modernize the grid. There is an acute need for electrical workers in this country. It's estimated in the 100,000 plus. Last month, Google made a grant to the Electrical Training Alliance to equip more than a 100,000 electrical workers",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02772:ai_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2772.2795515151515,
+   "t_wall": 1752610623.2795515,
+   "t_wall_et": "2025-07-15T16:17:03.279552-04:00",
+   "segment_text": "we're really proud to announce AI",
+   "context": "Today, we are expanding that grant to increase the projected pipeline of new electricians in Pennsylvania by 64%. 3rd, we think it is critical, as senator McCormick said, to build a fair America, an America where everyone has the opportunity for jobs of the future. And to ensure that we can do that today, starting in Pennsylvania, we're really proud to announce AI works for America. And through partnerships with leading employers,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.7,
+    "quote": "AI works for America. partnerships with leading employers",
+    "summary": "Announcing AI Works for America program with employer partnerships to create jobs."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General AI workforce and energy investment announcements are positive for AI ecosystem sentiment but not specific to Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad AI-training and grid investment rhetoric is mildly supportive of the semiconductor/AI theme but too diffuse to move the ETF meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remarks focus on AI workforce training, Google grants, and CoreWeave's Pennsylvania investment; positive for the AI/data-center ecosystem broadly but not a specific, tradable catalyst for NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General AI workforce and energy investment announcements are positive for AI ecosystem sentiment but not specific to Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Broad AI-training and grid investment rhetoric is mildly supportive of the semiconductor/AI theme but too diffuse to move the ETF meaningfully.\", \"added\": false}], \"summary\": \"The remarks focus on AI workforce training, Google grants, and CoreWeave's Pennsylvania investment; positive for the AI/data-center ecosystem broadly but not a specific, tradable catalyst for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:02857:ai",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "investing",
+    "market"
+   ],
+   "t_audio": 2857.5852,
+   "t_wall": 1752610708.5852,
+   "t_wall_et": "2025-07-15T16:18:28.585200-04:00",
+   "segment_text": "data center.",
+   "context": "I wanna call on just briefly Mike, Mike Intratore. Mike, I wanna take note of this for all you CEOs. Mike is the CEO of Core Weave, made a a big announcement today, $6,000,000,000 investment in Pennsylvania, and his stock went way up. So all you CEOs, just take notice. Investing in Pennsylvania is good for your stock price. Mike, please tell us about this project. It's very exciting. Thank you very much, mister president, senator McCormick. And, yes, you're correct. The market responded well to our announcement of, investing, $6,000,000,000 into a Lancaster, Pennsylvania, data center.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "investing $6,000,000,000 into a Lancaster, Pennsylvania, data center",
+    "summary": "Core Weave announced $6B Pennsylvania data center investment with positive market response."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "More AI data center capacity announcements support GPU demand narrative but this is old news already priced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Semiconductor ETF benefits marginally from continued AI infrastructure buildout sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct connection to Microsoft in this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vertiv supplies data center power/cooling infrastructure that benefits from expanding AI data center investments like CoreWeave's.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted CoreWeave's already-announced $6B Pennsylvania data center investment, which is largely priced in but reinforces a modestly positive sentiment for AI infrastructure-linked names like NVDA, SMH, and VRT, with no direct implication for MSFT.",
+    "raw": "{\"tickers\": [\n {\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"More AI data center capacity announcements support GPU demand narrative but this is old news already priced.\", \"added\": false},\n {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Semiconductor ETF benefits marginally from continued AI infrastructure buildout sentiment.\", \"added\": false},\n {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No direct connection to Microsoft in this remark.\", \"added\": false},\n {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vertiv supplies data center power/cooling infrastructure that benefits from expanding AI data center investments like CoreWeave's.\", \"added\": false}\n],\n\"summary\": \"The President highlighted CoreWeave's already-announced $6B Pennsylvania data center investment, which is largely priced in but reinforces a modestly positive sentiment for AI infrastructure-linked names like NVDA, SMH, and VRT, with no direct implication for MSFT.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03182:defense_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "factories"
+   ],
+   "t_audio": 3182.312808219178,
+   "t_wall": 1752611033.3128083,
+   "t_wall_et": "2025-07-15T16:23:53.312808-04:00",
+   "segment_text": "won World War 2, and build our modern infrastructure are firing up again,",
+   "context": "the the Commonwealth has been the keystone at the top of the American arch, and politically, economically, and technology has play played an indispensable role and will continue to do so under the President and senator McCormick's leadership. That the Rust Belt is no more. It's a thing of the past. The factories that industrialized America, won World War 2, and build our modern infrastructure are firing up again, and new factories are coming on online.",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03214:steel",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel workers",
+   "text_span": "steel workers",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3214.839358974359,
+   "t_wall": 1752611065.839359,
+   "t_wall_et": "2025-07-15T16:24:25.839359-04:00",
+   "segment_text": "the steel workers there to support him.",
+   "context": "Taking place along the blue blue collar boom is the capex boom that we heard about today, and this is just the beginning. This is the 3rd time I've had the privilege of being in the Iron City in less than a year. I was here, the President's final day on the campaign trail at the auditorium at the Duquesne Arena, the and I saw the steel workers there to support him. I was back 3 weeks ago when he announced the Nippon steel deal at The US steel plant, and it's an honor to be here with all of you today and see this capex boom",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03220:x",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "nippon steel",
+   "text_span": "Nippon steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "plant"
+   ],
+   "t_audio": 3220.39015625,
+   "t_wall": 1752611071.3901563,
+   "t_wall_et": "2025-07-15T16:24:31.390156-04:00",
+   "segment_text": "I was back 3 weeks ago when he announced the Nippon steel deal at The US steel plant, and it's an honor to be here with all of you today and see this capex boom",
+   "context": "and this is just the beginning. This is the 3rd time I've had the privilege of being in the Iron City in less than a year. I was here, the President's final day on the campaign trail at the auditorium at the Duquesne Arena, the and I saw the steel workers there to support him. I was back 3 weeks ago when he announced the Nippon steel deal at The US steel plant, and it's an honor to be here with all of you today and see this capex boom",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03274:natgas",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 3274.57,
+   "t_wall": 1752611125.57,
+   "t_wall_et": "2025-07-15T16:25:25.570000-04:00",
+   "segment_text": "natural gas resources.",
+   "context": "Our technology is the best in the world. The President is out to unleash that technology to make sure we win the AI race, but he knows that we need energy to drive it. And that's why he campaigned on drill, baby, drill because we need energy. We need it across the nation, and we need it in Pennsylvania, which has got amazing natural gas resources. Incredible. And then we've gotta turn that into advanced manufacturing.",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03369:defense_word",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "export"
+   ],
+   "t_audio": 3369.185,
+   "t_wall": 1752611220.185,
+   "t_wall_et": "2025-07-15T16:27:00.185000-04:00",
+   "segment_text": "2 great opportunities for Pennsylvania energy.",
+   "context": "the the oil and gas industry, global oil and gas industry started a few dozen miles from here in Titusville, Pennsylvania. The shale gas revolution may have started in Texas, but it really flourished and hit its peak right here in Pennsylvania. Pennsylvania today exports more energy to other states than any other state except for Texas, and it would export more, but it had blocks on building pipelines. 2 great opportunities for Pennsylvania energy. 1, and the President is hard at work at both of these, 1 is to get those pipelines built from Pennsylvania to New England so we can change the quality of life and opportunities.",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03402:natgas",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3402.849516129032,
+   "t_wall": 1752611253.8495162,
+   "t_wall_et": "2025-07-15T16:27:33.849516-04:00",
+   "segment_text": "Pennsylvania natural gas production could ramp up tremendously",
+   "context": "1, and the President is hard at work at both of these, 1 is to get those pipelines built from Pennsylvania to New England so we can change the quality of life and opportunities. People in New England have a lower quality of life than they deserve for bad political decisions that can be changed. And number 2, the opposition to building pipelines out of Pennsylvania doesn't stop the production of gas in Pennsylvania. Pennsylvania natural gas production could ramp up tremendously",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Pennsylvania natural gas production could ramp up tremendously",
+    "summary": "The President advocates increased natural gas production in Pennsylvania via pipeline infrastructure."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-natural-gas rhetoric and pipeline support could modestly lift gas prices sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Support for expanded gas production and export infrastructure is broadly positive for LNG exporters.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "EQT is a major Pennsylvania Marcellus producer that directly benefits from calls to ramp up PA gas production and new pipelines.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated pro-energy, pro-pipeline rhetoric favoring Pennsylvania natural gas producers, a repeat of known policy stance with mild positive read-through for gas-related equities, especially regional producer EQT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-natural-gas rhetoric and pipeline support could modestly lift gas prices sentiment.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Support for expanded gas production and export infrastructure is broadly positive for LNG exporters.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"EQT is a major Pennsylvania Marcellus producer that directly benefits from calls to ramp up PA gas production and new pipelines.\", \"added\": false}], \"summary\": \"The President reiterated pro-energy, pro-pipeline rhetoric favoring Pennsylvania natural gas producers, a repeat of known policy stance with mild positive read-through for gas-related equities, especially regional producer EQT.\"}"
+   }
+  },
+  {
+   "signal_id": "5N8iGKpU_-A:03502:ai",
+   "video_id": "5N8iGKpU_-A",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3502.7966923076924,
+   "t_wall": 1752611353.7966924,
+   "t_wall_et": "2025-07-15T16:29:13.796692-04:00",
+   "segment_text": "lifts every single industry. Not just 1 industry, not the company that owns the data center. It lifts everybody that uses it. This is gonna be the biggest change in in human productivity in history, and The US is gonna lead. Thanks to your vision.",
+   "context": "that your understanding of what needs to be done, your understanding that we need more power because a kilowatt of electricity today is worth more than it ever has been in human history. Because we can take Pennsylvania natural resources like gas, turn it to electricity, turn it to intelligence, and that intelligence lifts every single industry. Not just 1 industry, not the company that owns the data center. It lifts everybody that uses it. This is gonna be the biggest change in in human productivity in history, and The US is gonna lead. Thanks to your vision.",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

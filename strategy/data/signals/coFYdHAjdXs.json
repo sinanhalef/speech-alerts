@@ -1,0 +1,284 @@
+{
+ "video": {
+  "id": "coFYdHAjdXs",
+  "url": "https://www.youtube.com/watch?v=coFYdHAjdXs",
+  "title": "The President Makes an Announcement on Freedom Haulers",
+  "channel": "The White House",
+  "duration": 1186.0,
+  "was_live": true,
+  "release_timestamp": 1785432231.0,
+  "upload_timestamp": 1785434028.0,
+  "upload_date": "20260730",
+  "label": "Makes an Announcement on Freedom Haulers",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1785432231.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 6,
+  "confirmed": 2,
+  "retracted": 4,
+  "unconfirmed": 0,
+  "llm_calls": 10
+ },
+ "signals": [
+  {
+   "signal_id": "coFYdHAjdXs:00105:trucking",
+   "video_id": "coFYdHAjdXs",
+   "entity_id": "trucking",
+   "entity": "Trucking / rail",
+   "kind": "sector",
+   "alias": "trucking",
+   "text_span": "Trucking",
+   "dict_tickers": [
+    "IYT",
+    "UNP",
+    "CSX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 105.65350574712645,
+   "t_wall": 1785432336.6535058,
+   "t_wall_et": "2026-07-30T13:25:36.653506-04:00",
+   "segment_text": "Thank you very much, Nathan. And representatives from the American Trucking Association",
+   "context": "it's about time. I wanna thank secretary of transportation, Sean Duffy, who's doing a fantastic job. Secretary of Veterans Affairs, Doug Collins, likewise, really doing a good job. 92% approval. That's not bad, Doug. You'll get it up a little bit. Acting Secretary of Labor, Keith Sondeling, and along with president of Werner Enterprises, Nathan Myzkar. Thank you very much, Nathan. And representatives from the American Trucking Association",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Trucking / rail sector",
+    "tickers": [
+     "IYT",
+     "UNP",
+     "CSX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "representatives from the American Trucking Association",
+    "summary": "The President acknowledged trucking sector representatives at an event with cabinet officials."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IYT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Policy to remove illegal alien truck drivers and boost domestic drivers is mildly favorable for US trucking labor supply and safety perception, benefiting transport sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UNP",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rail is not directly affected by trucking driver policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rail freight is not directly impacted by trucking labor announcement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "WERN",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Werner Enterprises president was directly praised and positioned as a partner in the initiative, a clear positive spotlight for the company.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "UPS",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "UPS was specifically thanked, suggesting favorable association with the administration's trucking policy.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks praised trucking industry players (especially Werner and UPS) and framed a policy to replace illegal alien truck drivers with veterans, which is mildly positive for domestic trucking companies but largely irrelevant to rail freight names like UNP and CSX.",
+    "raw": "{\"tickers\":[{\"ticker\":\"IYT\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Policy to remove illegal alien truck drivers and boost domestic drivers is mildly favorable for US trucking labor supply and safety perception, benefiting transport sector sentiment.\",\"added\":false},{\"ticker\":\"UNP\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rail is not directly affected by trucking driver policy.\",\"added\":false},{\"ticker\":\"CSX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rail freight is not directly impacted by trucking labor announcement.\",\"added\":false},{\"ticker\":\"WERN\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Werner Enterprises president was directly praised and positioned as a partner in the initiative, a clear positive spotlight for the company.\",\"added\":true},{\"ticker\":\"UPS\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"UPS was specifically thanked, suggesting favorable association with the administration's trucking policy.\",\"added\":true}],\"summary\":\"The President's remarks praised trucking industry players (especially Werner and UPS) and framed a policy to replace illegal alien truck drivers with veterans, which is mildly positive for domestic trucking companies but largely irrelevant to rail freight names like UNP and CSX.\"}"
+   }
+  },
+  {
+   "signal_id": "coFYdHAjdXs:00137:fdx",
+   "video_id": "coFYdHAjdXs",
+   "entity_id": "fdx",
+   "entity": "FedEx",
+   "kind": "company",
+   "alias": "fedex",
+   "text_span": "FedEx",
+   "dict_tickers": [
+    "FDX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 137.28554545454546,
+   "t_wall": 1785432368.2855453,
+   "t_wall_et": "2026-07-30T13:26:08.285545-04:00",
+   "segment_text": "we love them. And we wanna thank UPS, FedEx, and Werner",
+   "context": "and the owner operators independent drivers association. They're all behind this a 100%. I'm behind it a 100%. We gotta stop it. It's dangerous. It's horrible what's happening. Every day you see another story. We're not gonna let that happen. That won't happen with our great vets. But above all, thank you to the amazing veterans with the with with us. I mean, they've just been with us from the day they were born, I suspect. They're great patriots, we love them. And we wanna thank UPS, FedEx, and Werner",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "FedEx",
+    "tickers": [
+     "FDX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "thank UPS, FedEx, and Werner",
+    "summary": "The President thanks FedEx along with other logistics companies and veterans organizations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FDX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Brief thank-you mention is generic praise with no policy or business substance for FedEx.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is a ceremonial thank-you to FedEx among several companies, with no new policy, contract, or business impact disclosed, so limited price relevance.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FDX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Brief thank-you mention is generic praise with no policy or business substance for FedEx.\", \"added\": false}], \"summary\": \"The President's remark is a ceremonial thank-you to FedEx among several companies, with no new policy, contract, or business impact disclosed, so limited price relevance.\"}"
+   }
+  },
+  {
+   "signal_id": "coFYdHAjdXs:00377:defense_word",
+   "video_id": "coFYdHAjdXs",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "licenses"
+   ],
+   "t_audio": 377.55323529411766,
+   "t_wall": 1785432608.5532353,
+   "t_wall_et": "2026-07-30T13:30:08.553235-04:00",
+   "segment_text": "within 2 years following their active duty service.",
+   "context": "any American who has driven a heavy truck for our military will automatically be eligible for a commercial driver's license, and it's good paying jobs to any veteran with a heavy vehicle experience from the military will now be eligible to skip redundant road tests to obtain a commercial driver's licenses. We're gonna make it as easy as possible for the veterans within 2 years following their active duty service. And for the veterans where no truck, where you have a a situation",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "coFYdHAjdXs:00536:wmt",
+   "video_id": "coFYdHAjdXs",
+   "entity_id": "wmt",
+   "entity": "Walmart",
+   "kind": "company",
+   "alias": "walmart",
+   "text_span": "Walmart",
+   "dict_tickers": [
+    "WMT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 536.8152941176471,
+   "t_wall": 1785432767.815294,
+   "t_wall_et": "2026-07-30T13:32:47.815294-04:00",
+   "segment_text": "You're a family that was on the way to Walmart or you're going to church on a Sunday,",
+   "context": "and he thought it would be a good a good idea that when they come in, they get a job, and they get a job driving a commercial motor vehicle. They didn't have the training. They didn't have the skill. We didn't do background checks in the last administration, so they could have had a a mile long rap sheet of crimes or drunk driving or speeding violations, but we didn't know who they were. And we saw that when those illegals were driving these big rigs, they were killing American citizens. You're a family that was on the way to Walmart or you're going to church on a Sunday, you could lose your life on an American road.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "coFYdHAjdXs:00975:trucking",
+   "video_id": "coFYdHAjdXs",
+   "entity_id": "trucking",
+   "entity": "Trucking / rail",
+   "kind": "sector",
+   "alias": "trucking",
+   "text_span": "trucking",
+   "dict_tickers": [
+    "IYT",
+    "UNP",
+    "CSX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 975.1804029447853,
+   "t_wall": 1785433206.180403,
+   "t_wall_et": "2026-07-30T13:40:06.180403-04:00",
+   "segment_text": "Freedom Haulers campaign will have a direct and powerful impact on our ability to bring even more veterans into our workforce and into this great trucking economy,",
+   "context": "In tandem with the administration's Freedom Haulers program, Werner Enterprises is officially committing to hire 1,400 veterans in the coming year. This administration's Freedom Haulers campaign will have a direct and powerful impact on our ability to bring even more veterans into our workforce and into this great trucking economy, cutting through red tape and translating a veteran's military driving experience directly into a civilian commercial driver's license.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "coFYdHAjdXs:01082:trucking",
+   "video_id": "coFYdHAjdXs",
+   "entity_id": "trucking",
+   "entity": "Trucking / rail",
+   "kind": "sector",
+   "alias": "trucking",
+   "text_span": "trucking",
+   "dict_tickers": [
+    "IYT",
+    "UNP",
+    "CSX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1082.9616333333333,
+   "t_wall": 1785433313.9616334,
+   "t_wall_et": "2026-07-30T13:41:53.961633-04:00",
+   "segment_text": "with the trucking industry.",
+   "context": "But when the time came to take a uniform off, I faced the question veterans confront. How do I continue serving? For me, the answer was on the open road. Transition from military life behind the wheel of a commercial truck has brought a renewed sense of mission for me. Veterans make exceptional truck drivers because they have the core values of the military aligned seamlessly with the trucking industry. We're disciplined. We are vigilant. We're adaptable. And with unwavering commitment",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  }
+ ]
+}

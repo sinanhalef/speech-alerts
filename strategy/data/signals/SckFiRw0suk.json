@@ -1,0 +1,937 @@
+{
+ "video": {
+  "id": "SckFiRw0suk",
+  "url": "https://www.youtube.com/watch?v=SckFiRw0suk",
+  "title": "The President Signs Executive Orders, Sep. 30, 2025",
+  "channel": "The White House",
+  "duration": 2131.0,
+  "was_live": true,
+  "release_timestamp": 1759262341.0,
+  "upload_timestamp": 1759264941.0,
+  "upload_date": "20250930",
+  "label": "Signs Executive Orders, Sep. 30, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1759262341.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 15,
+  "confirmed": 10,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 15
+ },
+ "signals": [
+  {
+   "signal_id": "SckFiRw0suk:00017:ai",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 17.05624975,
+   "t_wall": 1759262358.0562499,
+   "t_wall_et": "2025-09-30T15:59:18.056250-04:00",
+   "segment_text": "pediatric cancer research and harness the extraordinary potential of artificial intelligence",
+   "context": "Great to have you again. We've seen you a couple of times today. I'm thrilled to sign a very historic executive order to massively accelerate pediatric cancer research and harness the extraordinary potential of artificial intelligence",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "harness the extraordinary potential of artificial intelligence",
+    "summary": "Executive order to accelerate pediatric cancer research using AI technology."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General AI-for-health rhetoric with no specific procurement or funding detail for chipmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF unaffected by a symbolic pediatric-cancer AI order.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific contract or partnership mentioned for Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No data-center infrastructure spending detail relevant to Vertiv in this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks announce a largely symbolic executive order using AI for pediatric cancer research, with no concrete funding, contracts, or company-specific benefits, so no material price impact expected for the listed AI/tech tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General AI-for-health rhetoric with no specific procurement or funding detail for chipmakers.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF unaffected by a symbolic pediatric-cancer AI order.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific contract or partnership mentioned for Microsoft.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No data-center infrastructure spending detail relevant to Vertiv in this remark.\", \"added\": false}], \"summary\": \"The President's remarks announce a largely symbolic executive order using AI for pediatric cancer research, with no concrete funding, contracts, or company-specific benefits, so no material price impact expected for the listed AI/tech tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:00094:btc",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 94.70016949152543,
+   "t_wall": 1759262435.7001696,
+   "t_wall_et": "2025-09-30T16:00:35.700170-04:00",
+   "segment_text": "AI and crypto czar, David Sachs. You're doing great, David.",
+   "context": "I guess we reached a deal with Harvard today, so we'll see how that all you have to do is paper it. Right, Linda? Just Yes, paper it out. It'll be great, though. It's gonna have to do with something that's very important to everybody. CMS administrator Mehmet Oz, FDA commissioner, Marty Makary, director of the National Institute of Health, Jay Buttericheria. Is that good, Jay? That's pretty good. That's perfect. I'm getting better. Perfect. I'm getting better. Science and technology adviser, Michael Gracias, AI and crypto czar, David Sachs. You're doing great, David.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "crypto",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "AI and crypto czar, David Sachs.",
+    "summary": "The President appoints David Sachs as AI and crypto czar."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of David Sachs as 'AI and crypto czar' is a reiteration of an existing role, not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new crypto policy or regulatory action announced beyond restating Sachs' title.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Passing mention of crypto czar carries no new bitcoin-specific information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely ceremonial, thanking officials and announcing a pediatric cancer funding increase; the crypto reference is a repeat of an already-known appointment with no new policy signal for crypto-related equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"IBIT\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of David Sachs as 'AI and crypto czar' is a reiteration of an existing role, not new policy.\", \"added\": false}, {\"ticker\": \"COIN\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new crypto policy or regulatory action announced beyond restating Sachs' title.\", \"added\": false}, {\"ticker\": \"MSTR\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Passing mention of crypto czar carries no new bitcoin-specific information.\", \"added\": false}], \"summary\": \"The excerpt is largely ceremonial, thanking officials and announcing a pediatric cancer funding increase; the crypto reference is a repeat of an already-known appointment with no new policy signal for crypto-related equities.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:00215:ai_word",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 215.51425,
+   "t_wall": 1759262556.51425,
+   "t_wall_et": "2025-09-30T16:02:36.514250-04:00",
+   "segment_text": "all across the country. So it's gonna be amazing. What's happening is amazing. And we have more AI. We're leading in AI. We're leading China by a lot. We're leading everybody by a lot. They're creating their own energy. We let them build their own energy plant",
+   "context": "medicine. Using cutting edge AI, we will empower scientists and researchers to discover new treatment skewers and prevention strategies. AI can also make groundbreaking trials and therapies and grow which is just gonna be so accessible to everybody, families all across the country. So it's gonna be amazing. What's happening is amazing. And we have more AI. We're leading in AI. We're leading China by a lot. We're leading everybody by a lot. They're creating their own energy. We let them build their own energy plant",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "We're leading in AI. We're leading everybody by a lot.",
+    "summary": "The President claims US leads in AI development globally."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General AI-leadership rhetoric with no specific policy or company action affecting Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI praise is generic cheerleading, not a new policy affecting semiconductor sector economics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments are generic praise for US AI leadership and pediatric cancer AI initiative, containing no new material policy, deal, or restriction affecting NVDA or SMH specifically.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General AI-leadership rhetoric with no specific policy or company action affecting Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI praise is generic cheerleading, not a new policy affecting semiconductor sector economics.\", \"added\": false}], \"summary\": \"The President's comments are generic praise for US AI leadership and pediatric cancer AI initiative, containing no new material policy, deal, or restriction affecting NVDA or SMH specifically.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:00216:china",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 216.45336538461538,
+   "t_wall": 1759262557.4533653,
+   "t_wall_et": "2025-09-30T16:02:37.453365-04:00",
+   "segment_text": "all across the country. So it's gonna be amazing. What's happening is amazing. And we have more AI. We're leading in AI. We're leading China by a lot. We're leading everybody by a lot. They're creating their own energy. We let them build their own energy plant",
+   "context": "medicine. Using cutting edge AI, we will empower scientists and researchers to discover new treatment skewers and prevention strategies. AI can also make groundbreaking trials and therapies and grow which is just gonna be so accessible to everybody, families all across the country. So it's gonna be amazing. What's happening is amazing. And we have more AI. We're leading in AI. We're leading China by a lot. We're leading everybody by a lot. They're creating their own energy. We let them build their own energy plant",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "We're leading China by a lot. They're creating their own energy.",
+    "summary": "The President contrasts US AI leadership with China's separate energy development."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General AI-leadership rhetoric versus China, not a new policy action affecting Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is rhetorical boasting, not a concrete measure like tariffs or sanctions on China.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific China tech policy announced, just comparative AI leadership claim.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is broad self-praise about US AI/energy leadership versus China with no new concrete policy, so it should have minimal, ambiguous impact on China-focused ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General AI-leadership rhetoric versus China, not a new policy action affecting Chinese equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is rhetorical boasting, not a concrete measure like tariffs or sanctions on China.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific China tech policy announced, just comparative AI leadership claim.\", \"added\": false}], \"summary\": \"The President's remark is broad self-praise about US AI/energy leadership versus China with no new concrete policy, so it should have minimal, ambiguous impact on China-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:00765:ai",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "artificial intelligence",
+   "text_span": "Artificial intelligence",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 765.36005,
+   "t_wall": 1759263106.36005,
+   "t_wall_et": "2025-09-30T16:11:46.360050-04:00",
+   "segment_text": "Artificial intelligence help us uncover faster, more precise treatments, improve quality of life, and better survival.",
+   "context": "tools that will improve preventive measures, treatment, quality of life, survival for childhood cancer. By uniting families, clinicians, and researchers by harnessing the power of AI, CCDL will accelerate diagnosis, inform treatment, and develop the next generation of life saving therapies. This is not about collecting data alone. It's about giving families hope. Today, we commit to taking this work to the next level. With this executive order that the President is signing, we're building a future where every child's data contributes to faster diagnosis. Artificial intelligence help us uncover faster, more precise treatments, improve quality of life, and better survival.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SckFiRw0suk:00928:pharma",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 928.7510274439462,
+   "t_wall": 1759263269.7510273,
+   "t_wall_et": "2025-09-30T16:14:29.751027-04:00",
+   "segment_text": "We just had a meeting, and Oz was at the meeting and really was a dominant factor along with Bobby. And maybe you could just, say a couple of words about our past meeting where we're gonna be lowering drug prices by 50, 102",
+   "context": "And because of that, we have an AI boom going on right now. 4.8% growth rate in in the last 0.25 in GDP, a and big part of that is because of the AI boom that you've unleashed. So thank you, sir, for doing that. And I think that we can see today that this AI boom is not just gonna be about dollars and cents, but about saving lives as well. We're gonna get some miraculous cures out of this. So thank you to everyone who's here today. Very much. Good job. We just had a meeting, and Oz was at the meeting and really was a dominant factor along with Bobby. And maybe you could just, say a couple of words about our past meeting where we're gonna be lowering drug prices by 50, 102",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "lowering drug prices by 50, 102",
+    "summary": "The President states plan to lower drug prices by approximately 50%."
+   },
+   "llm_attempts": 1,
+   "count": 9,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pfizer explicitly named as agreeing to steep price concessions and most-favored-nation Medicaid pricing, pressuring margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector-wide most-favored-nation drug pricing policy threatens pricing power across major pharma including Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad MFN pricing mandate for Medicaid drugs is negative for branded drugmakers like Merck.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Healthcare sector ETF likely pressured by new drug pricing concessions announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pharmaceutical sector ETF directly exposed to announced drug price cuts of 50-1000%.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced new pharma pricing concessions including a Pfizer deal and Medicaid most-favored-nation pricing, which is negative for drugmakers and the pharma sector broadly.",
+    "raw": "{\"tickers\":[{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Pfizer explicitly named as agreeing to steep price concessions and most-favored-nation Medicaid pricing, pressuring margins.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"medium\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Sector-wide most-favored-nation drug pricing policy threatens pricing power across major pharma including Lilly.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"medium\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Broad MFN pricing mandate for Medicaid drugs is negative for branded drugmakers like Merck.\",\"added\":false},{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"horizon\":\"days\",\"novelty\":\"new\",\"rationale\":\"Healthcare sector ETF likely pressured by new drug pricing concessions announced.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Pharmaceutical sector ETF directly exposed to announced drug price cuts of 50-1000%.\",\"added\":false}],\"summary\":\"The President announced new pharma pricing concessions including a Pfizer deal and Medicaid most-favored-nation pricing, which is negative for drugmakers and the pharma sector broadly.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:00952:pfe",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 952.7684357541899,
+   "t_wall": 1759263293.7684357,
+   "t_wall_et": "2025-09-30T16:14:53.768436-04:00",
+   "segment_text": "1 of their leading likes, Alfred Bulla, and his company, Pfizer, agreed. Something the president has been pushing on since his 1st term, and he's been calling me quite frequently,",
+   "context": "We just had a meeting, and Oz was at the meeting and really was a dominant factor along with Bobby. And maybe you could just, say a couple of words about our past meeting where we're gonna be lowering drug prices by 50, 102 hundred, even 500%. Even 1000. We have 1000 percent also. We have 1 coming up next week, a big 1, 1000 percent reduction in price. Do you wanna give just a couple of words on that, us? It's a historic day. For the very 1st time, we've had the magnitude of give from the pharmaceutical industry. 1 of their leading likes, Alfred Bulla, and his company, Pfizer, agreed. Something the president has been pushing on since his 1st term, and he's been calling me quite frequently,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "Alfred Bulla, and his company, Pfizer, agreed.",
+    "summary": "Pfizer agreed to reduce drug prices significantly, described as historic."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pfizer agreeing to most-favored-nation pricing and steep price cuts (up to 1000%) implies significant revenue/margin pressure despite framing as a deal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announces Pfizer agreed to most-favored-nation pricing with drastic price reductions, a negative for Pfizer's pricing power and revenue outlook despite being framed as a cooperative deal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Pfizer agreeing to most-favored-nation pricing and steep price cuts (up to 1000%) implies significant revenue/margin pressure despite framing as a deal.\", \"added\": false}], \"summary\": \"The President announces Pfizer agreed to most-favored-nation pricing with drastic price reductions, a negative for Pfizer's pricing power and revenue outlook despite being framed as a cooperative deal.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:00972:health_ins",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "most favored nation"
+   ],
+   "t_audio": 972.8568309859155,
+   "t_wall": 1759263313.856831,
+   "t_wall_et": "2025-09-30T16:15:13.856831-04:00",
+   "segment_text": "in this country for everyone on Medicaid. So our most vulnerable populations will not be forced to pay 3 times or more, 5, 6, 7 times more for the exact same pills and the same bottles as it costs in other countries. That'll make it a lot easier for governors to manage their budgets,",
+   "context": "1 of their leading likes, Alfred Bulla, and his company, Pfizer, agreed. Something the president has been pushing on since his 1st term, and he's been calling me quite frequently, speed dial over this term to make sure that secretary Kennedy and I would seriously engage industry. They have agreed to several important concessions. 1st, we will have most favored nation drug pricing in this country for everyone on Medicaid. So our most vulnerable populations will not be forced to pay 3 times or more, 5, 6, 7 times more for the exact same pills and the same bottles as it costs in other countries. That'll make it a lot easier for governors to manage their budgets,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SckFiRw0suk:01059:stock_market",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1059.083311627907,
+   "t_wall": 1759263400.0833116,
+   "t_wall_et": "2025-09-30T16:16:40.083312-04:00",
+   "segment_text": "And I must say, mister president, since this morning, if you just look at the stock market, there's been support of this decision",
+   "context": "It allowed Pfizer and we believe for other pharmaceutical companies to maintain their innovative edge. We want America to continue to find cures like the ones that saved the lives of some of the children that I'm looking at right now. Those beautiful faces and smiles are here because American innovation was not dulled, not blunted, but we can solve that need and thread the needle by also making health care affordable so Americans no longer, including children like this, be forced to make it a difficult choice between groceries and pharmaceuticals. And I must say, mister president, since this morning, if you just look at the stock market, there's been support of this decision made by the CEO of Pfizer, their stock has benefited. So I think it's the right thing for the company, right thing for the",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SckFiRw0suk:01200:ai_word",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1200.5119641666665,
+   "t_wall": 1759263541.511964,
+   "t_wall_et": "2025-09-30T16:19:01.511964-04:00",
+   "segment_text": "You know, when I see what we're doing with AI and all the plants that are opening up in the country, $17,000,000,000,000",
+   "context": "If Doge is already reducing the federal workforce, why is it necessary to link more federal jobs cut to a shutdown? Well, the Democrats wanna shut it down. So when you shut it down, you have to do layoffs. So we'd be laying off a lot of people that are gonna be very affected, and the Democrats, they're gonna be Democrats. As you know, we this country, no country can afford to pay for illegal immigration health care for everybody that comes into the country, and that's what they're insisting. And, obviously, I have an obligation to not accept that. That would affect everybody. You know, when I see what we're doing with AI and all the plants that are opening up in the country, $17,000,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "plants that are opening up in the country, $17,000,000,000,000",
+    "summary": "The President highlights major AI-related plant investments and capital deployment in the US."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General touting of AI investment boom is bullish sentiment but not new specific information for NVDA.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad AI/semiconductor investment commentary is mildly supportive but reiterates known trends rather than new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate a broad narrative of massive AI-driven investment in the US, which is mildly positive sentiment for AI/semiconductor names like NVDA and SMH but contains no new firm-specific news, limiting confidence and magnitude.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General touting of AI investment boom is bullish sentiment but not new specific information for NVDA.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad AI/semiconductor investment commentary is mildly supportive but reiterates known trends rather than new policy.\", \"added\": false}], \"summary\": \"The President's remarks reiterate a broad narrative of massive AI-driven investment in the US, which is mildly positive sentiment for AI/semiconductor names like NVDA and SMH but contains no new firm-specific news, limiting confidence and magnitude.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:01310:defense_word",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "tariffs"
+   ],
+   "t_audio": 1310.7090921568629,
+   "t_wall": 1759263651.7090921,
+   "t_wall_et": "2025-09-30T16:20:51.709092-04:00",
+   "segment_text": "companies open their plants in The United States. They're all coming back for 2 reasons, tariffs, and I think they like November 5. You know? They liked the person that was chosen. And they're moving in from Canada. They're moving in from Mexico. They're coming in from all over the world. China is coming.",
+   "context": "So trade schools are very important, and we've lost trade schools. We used to have a lot of trade schools in this country. We don't have them anymore. We have tremendous plants opening, and we wanna have people at top level for those plants, whether it's AI or whether it's automotive motor plants. You know, we have many automobile companies open their plants in The United States. They're all coming back for 2 reasons, tariffs, and I think they like November 5. You know? They liked the person that was chosen. And they're moving in from Canada. They're moving in from Mexico. They're coming in from all over the world. China is coming.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "SckFiRw0suk:01317:canada",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1317.4575790849674,
+   "t_wall": 1759263658.4575791,
+   "t_wall_et": "2025-09-30T16:20:58.457579-04:00",
+   "segment_text": "companies open their plants in The United States. They're all coming back for 2 reasons, tariffs, and I think they like November 5. You know? They liked the person that was chosen. And they're moving in from Canada. They're moving in from Mexico. They're coming in from all over the world. China is coming.",
+   "context": "So trade schools are very important, and we've lost trade schools. We used to have a lot of trade schools in this country. We don't have them anymore. We have tremendous plants opening, and we wanna have people at top level for those plants, whether it's AI or whether it's automotive motor plants. You know, we have many automobile companies open their plants in The United States. They're all coming back for 2 reasons, tariffs, and I think they like November 5. You know? They liked the person that was chosen. And they're moving in from Canada. They're moving in from Mexico. They're coming in from all over the world. China is coming.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "They're moving in from Canada. They're moving in from Mexico.",
+    "summary": "Automobile companies relocating to US from Canada due to tariffs."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates that tariffs are pulling auto manufacturing out of Canada into the US, a mild negative for Canadian industrial base and the Canada ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate tariff-driven relocation of auto plants from Canada to the US, a mildly negative but non-novel signal for Canadian equities (EWC); no other tickers were referenced.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates that tariffs are pulling auto manufacturing out of Canada into the US, a mild negative for Canadian industrial base and the Canada ETF.\", \"added\": false}], \"summary\": \"The President's remarks reiterate tariff-driven relocation of auto plants from Canada to the US, a mildly negative but non-novel signal for Canadian equities (EWC); no other tickers were referenced.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:01502:health_ins",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 1502.338028169014,
+   "t_wall": 1759263843.3380282,
+   "t_wall_et": "2025-09-30T16:24:03.338028-04:00",
+   "segment_text": "there won't be anything that can have the impact on Medicare, Medicaid,",
+   "context": "And we have a great team. There's never been a medical team like this. And I said, let's go do it. And then I just I did as as I said, I would bug them every single day, every week. Because I said, we have to have I mean, why should we be paying 10 times what another country is paying? And that was just an excuse, you know, research and development. We do research and development. So now we're gonna be paying whatever the lowest price is. We're gonna be paying that price. It's it's a great thing. But there won't be anything that can have the impact on Medicare, Medicaid,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "we're gonna be paying whatever the lowest price is",
+    "summary": "The President announces price controls on Medicare drug payments to match lowest international prices."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Drug price cuts target pharma manufacturers, not insurers, so impact on UNH is ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower drug pricing policy mainly affects manufacturers rather than insurer margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated MFN pricing rhetoric has little direct read-through for health insurers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicare drug pricing changes mostly hit drugmakers, not Medicare Advantage insurers like Humana.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates most-favored-nation drug pricing policy aimed at pharmaceutical companies; this is largely repeat rhetoric with unclear direct impact on health insurers, so no strong directional signal for UNH, CI, ELV, or HUM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Drug price cuts target pharma manufacturers, not insurers, so impact on UNH is ambiguous.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower drug pricing policy mainly affects manufacturers rather than insurer margins.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated MFN pricing rhetoric has little direct read-through for health insurers.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Medicare drug pricing changes mostly hit drugmakers, not Medicare Advantage insurers like Humana.\", \"added\": false}], \"summary\": \"The President reiterates most-favored-nation drug pricing policy aimed at pharmaceutical companies; this is largely repeat rhetoric with unclear direct impact on health insurers, so no strong directional signal for UNH, CI, ELV, or HUM.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:01579:pharma",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceuticals",
+   "text_span": "pharmaceuticals",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1579.6124137931035,
+   "t_wall": 1759263920.612414,
+   "t_wall_et": "2025-09-30T16:25:20.612414-04:00",
+   "segment_text": "I think it's something that's gonna allow us to make a lot of progress is the money we're saving on pharmaceuticals.",
+   "context": "bring us all together, get us on the same page, and have unity? And I'd like to see if some of the kids or the parents have what it means to you to see the President get involved with this. Well, we've made tremendous strides in cancer research far more than anyone has done. And we have the greatest minds, the greatest people working on it. Childhood you know, they call it childhood cancer. It's it's a very specific thing, and, we've really made a lot of a lot of progress. I think it's something that's gonna allow us to make a lot of progress is the money we're saving on pharmaceuticals.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "money we're saving on pharmaceuticals",
+    "summary": "The President credits savings in pharma spending to fund cancer research progress."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated rhetoric about drastically cutting drug prices is negative overhang for healthcare sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF more directly exposed to threatened price cuts of 500-1000%, though claim is vague and unverified.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restatement of drug price cutting ambitions weighs modestly on large pharma names.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same repeated price-cut rhetoric is a mild negative for branded drugmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated threat of huge drug price reductions is a modest negative for pharma pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats prior claims of massively cutting drug prices to fund cancer research, a familiar rhetorical point rather than new policy, implying mild negative sentiment for pharma names and related ETFs with low-to-moderate confidence.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Repeated rhetoric about drastically cutting drug prices is negative overhang for healthcare sector broadly.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Pharma-specific ETF more directly exposed to threatened price cuts of 500-1000%, though claim is vague and unverified.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General restatement of drug price cutting ambitions weighs modestly on large pharma names.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same repeated price-cut rhetoric is a mild negative for branded drugmakers.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterated threat of huge drug price reductions is a modest negative for pharma pricing power.\",\"added\":false}],\"summary\":\"The President repeats prior claims of massively cutting drug prices to fund cancer research, a familiar rhetorical point rather than new policy, implying mild negative sentiment for pharma names and related ETFs with low-to-moderate confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "SckFiRw0suk:01970:lly",
+   "video_id": "SckFiRw0suk",
+   "entity_id": "lly",
+   "entity": "Eli Lilly",
+   "kind": "company",
+   "alias": "eli lilly",
+   "text_span": "Eli Lilly",
+   "dict_tickers": [
+    "LLY"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1970.9782750000002,
+   "t_wall": 1759264311.978275,
+   "t_wall_et": "2025-09-30T16:31:51.978275-04:00",
+   "segment_text": "Would anybody would you like to say something, honey? Yes. I'm Eli Lilly Myers. I'm a 9 years old, and I was",
+   "context": "Tell you what, your father could not have done that much. Did always. He did a big service, father. Yes, sir. That's great. When did you learn how to speak like that? I've done lots of speeches for childhood cancer over the last few years, and I'm also in a theater program. So that was great. Well, good. That's a great job. Would anybody like to say something? Would anybody would you like to say something, honey? Yes. I'm Eli Lilly Myers. I'm a 9 years old, and I was I had a blood cancer called leukemia when I was only 2 years old.",
+   "speaker": 13,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

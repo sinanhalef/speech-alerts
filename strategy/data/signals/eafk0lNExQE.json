@@ -1,0 +1,2976 @@
+{
+ "video": {
+  "id": "eafk0lNExQE",
+  "url": "https://www.youtube.com/watch?v=eafk0lNExQE",
+  "title": "The President Makes an Announcement on Beautiful, Clean Coal",
+  "channel": "The White House",
+  "duration": 4557.0,
+  "was_live": true,
+  "release_timestamp": 1780600396.0,
+  "upload_timestamp": 1780605794.0,
+  "upload_date": "20260604",
+  "label": "Makes an Announcement on Beautiful, Clean Coal",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1780600396.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 48,
+  "confirmed": 35,
+  "retracted": 13,
+  "unconfirmed": 0,
+  "llm_calls": 55
+ },
+ "signals": [
+  {
+   "signal_id": "eafk0lNExQE:00117:brk",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "brk",
+   "entity": "Berkshire Hathaway",
+   "kind": "company",
+   "alias": "berkshire",
+   "text_span": "Berkshire",
+   "dict_tickers": [
+    "BRK.B"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 117.04,
+   "t_wall": 1780600513.04,
+   "t_wall_et": "2026-06-04T15:15:13.040000-04:00",
+   "segment_text": "Berkshire from Interior, Doug,",
+   "context": "They're degressive. You got that? What do you think? I'm good. Daniel's great. He's a great he's a great reporter. And, again, we have a picture of a gentleman in a cart Proudly, this is the head of construction for the job. So you can see it's just finished. This is just minutes before. And there's a gentleman named Secretary Berkshire from Interior, Doug, who's been doing an incredible job. So, Doug, we had we have 22 waterfalls.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:00188:coal_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 188.08333229166666,
+   "t_wall": 1780600584.0833323,
+   "t_wall_et": "2026-06-04T15:16:24.083332-04:00",
+   "segment_text": "And then we'll talk about clean, beautiful coal.",
+   "context": "Protesters never have the bad protesters never have flags up. They somehow don't like the flag too much, but we do. So that's great. We put in today, as you know, about Save America, the Save America Act. I don't know. Some someday, the Senate and the House will get it done. Although, I must tell you, the House has approved it about 3 times already. Save America Act right here. We have everybody can see that. And then we'll talk about clean, beautiful coal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "clean, beautiful coal",
+    "summary": "The President praised coal as clean and beautiful, signaling sector support."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric reinforces existing supportive policy stance but offers no new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated favorable coal rhetoric mildly supports coal producer sentiment without new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Coal-friendly rhetoric is a mild tailwind for metallurgical coal producer AMR despite lack of new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated 'clean beautiful coal' rhetoric is broadly supportive but non-specific, offering only a small, low-confidence tailwind for coal miners BTU, ARCH, and AMR.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric reinforces existing supportive policy stance but offers no new specifics.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated favorable coal rhetoric mildly supports coal producer sentiment without new policy detail.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Coal-friendly rhetoric is a mild tailwind for metallurgical coal producer AMR despite lack of new policy.\", \"added\": false}], \"summary\": \"The President's repeated 'clean beautiful coal' rhetoric is broadly supportive but non-specific, offering only a small, low-confidence tailwind for coal miners BTU, ARCH, and AMR.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00422:china",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 422.08096774193547,
+   "t_wall": 1780600818.0809677,
+   "t_wall_et": "2026-06-04T15:20:18.080968-04:00",
+   "segment_text": "If you look at China, if you look at so many of the successful countries, they're using coal.",
+   "context": "I mean, Democrats are fine. I have a lot of Democrat friends, but they I don't know. For some reason, when they go into politics, they get radical left crazy, and they're trying to destroy our country, but we're not gonna let that happen. So today, we're taking historic action to bring down the price of energy and the cost of living for all Americans with the power of clean, beautiful coal. If you look at China, if you look at so many of the successful countries, they're using coal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "If you look at China, if you look at so many of the successful countries, they're using coal.",
+    "summary": "The President cites China as example of country successfully using coal for energy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Passing mention of China as coal-user is not a China policy signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new US-China policy action, just rhetorical comparison.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Irrelevant to Chinese internet sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark focuses on promoting US coal energy policy with only a passing rhetorical comparison to China; no actionable new policy for China-related ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Passing mention of China as coal-user is not a China policy signal.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new US-China policy action, just rhetorical comparison.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Irrelevant to Chinese internet sector.\",\"added\":false}],\"summary\":\"The remark focuses on promoting US coal energy policy with only a passing rhetorical comparison to China; no actionable new policy for China-related ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00466:msft",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "msft",
+   "entity": "Microsoft",
+   "kind": "company",
+   "alias": "microsoft",
+   "text_span": "Microsoft",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 466.2486842105263,
+   "t_wall": 1780600862.2486842,
+   "t_wall_et": "2026-06-04T15:21:02.248684-04:00",
+   "segment_text": "company to, I think, Microsoft. Right?",
+   "context": "This keeps blowing, blowing, blowing, and puts you right out of business. Very expensive, most expensive energy there is. So wind is not working very well, but they keep it going because people get subsidies by countries that are stupid. Doug, I would say we haven't been long on wind. Do you agree with that? You get that? He understands numbers very well. You know, Doug was very, very successful. Believe it or not, I used to think it was in energy, but he was successful in technology. And he sold his company to, I think, Microsoft. Right?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Microsoft",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "sold his company to, I think, Microsoft",
+    "summary": "The President mentions Microsoft as acquirer of Doug's technology company."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Passing anecdotal mention of a past acquisition, not price-relevant news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a coal/energy policy speech with an incidental, historical mention of Microsoft acquiring a guest's former company; no new information affects MSFT's fundamentals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Passing anecdotal mention of a past acquisition, not price-relevant news.\", \"added\": false}], \"summary\": \"The remark is a coal/energy policy speech with an incidental, historical mention of Microsoft acquiring a guest's former company; no new information affects MSFT's fundamentals.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00530:coal",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal plants",
+   "text_span": "coal plants",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "investment",
+    "plants",
+    "tremendous"
+   ],
+   "t_audio": 530.8100020338984,
+   "t_wall": 1780600926.810002,
+   "t_wall_et": "2026-06-04T15:22:06.810002-04:00",
+   "segment_text": "14 coal plants and 42 coal mines. It's a tremendous number.",
+   "context": "Chris has done a fantastic job, and he's 1 of the reasons we're here today. We have had we're right now double Saudi Arabia and Russia. If you double them up, that's what we produce more than anybody else times 2. So think of that. As a result of the $700,000,000 investment that I'm announcing today, we will protect 14 coal plants and 42 coal mines. It's a tremendous number.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "$700,000,000 investment, protect 14 coal plants and 42 coal mines",
+    "summary": "The President announces $700M investment to protect 14 coal plants and 42 mines."
+   },
+   "llm_attempts": 1,
+   "count": 11,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.68,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Direct federal investment protecting coal plants and mines benefits Peabody as a major US coal producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Government support for coal plants and mines and new export terminal benefits Arch Resources coal operations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Alpha Metallurgical Resources benefits from broader pro-coal policy and export terminal expansion, though it is more metallurgical-focused.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced a $700M investment protecting 14 coal plants and 42 mines plus new plants and an export terminal, a concrete pro-coal policy positive for domestic coal producers like BTU, ARCH, and AMR.",
+    "raw": "{\"tickers\":[{\"ticker\":\"BTU\",\"direction\":\"up\",\"confidence\":0.68,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Direct federal investment protecting coal plants and mines benefits Peabody as a major US coal producer.\",\"added\":false},{\"ticker\":\"ARCH\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Government support for coal plants and mines and new export terminal benefits Arch Resources coal operations.\",\"added\":false},{\"ticker\":\"AMR\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Alpha Metallurgical Resources benefits from broader pro-coal policy and export terminal expansion, though it is more metallurgical-focused.\",\"added\":false}],\"summary\":\"The President announced a $700M investment protecting 14 coal plants and 42 mines plus new plants and an export terminal, a concrete pro-coal policy positive for domestic coal producers like BTU, ARCH, and AMR.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00536:defense_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "export",
+    "investment",
+    "plants",
+    "tremendous"
+   ],
+   "t_audio": 536.6129992592593,
+   "t_wall": 1780600932.6129992,
+   "t_wall_et": "2026-06-04T15:22:12.612999-04:00",
+   "segment_text": "And build 2 new coal plants and 1 massive new export terminal because we're exporting coal. Coal's a a great",
+   "context": "Saudi Arabia and Russia. If you double them up, that's what we produce more than anybody else times 2. So think of that. As a result of the $700,000,000 investment that I'm announcing today, we will protect 14 coal plants and 42 coal mines. It's a tremendous number. And build 2 new coal plants and 1 massive new export terminal because we're exporting coal. Coal's a a great",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:00565:solar",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 565.6816629032259,
+   "t_wall": 1780600961.6816628,
+   "t_wall_et": "2026-06-04T15:22:41.681663-04:00",
+   "segment_text": "They built about 2 2 windmills.",
+   "context": "And build 2 new coal plants and 1 massive new export terminal because we're exporting coal. Coal's a a great business, really a big business, and it's real power. It's in terms of power, there's really nothing like it. You have so many different alternatives. They talk about some but there's no no real alternative. China, by the way, last year, built 52 coal plants. They built about 2 2 windmills.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "They talk about some but there's no no real alternative.",
+    "summary": "The President dismisses wind/solar as lacking real alternatives to coal for power."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's dismissal of solar as a real alternative and pro-coal policy push is mildly negative sentiment for solar sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Clean energy ETF faces negative sentiment from administration's coal-favoring rhetoric and $700M coal investment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar panel maker faces headwind from repeated anti-renewable rhetoric though policy specifics are unchanged.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar inverter maker mildly hurt by administration's continued pro-coal, anti-wind/solar messaging.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Announced $700M investment protecting 14 coal plants, 42 mines, and building 2 new plants directly benefits coal producers.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's dismissal of solar as a real alternative and pro-coal policy push is mildly negative sentiment for solar sector ETF.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Clean energy ETF faces negative sentiment from administration's coal-favoring rhetoric and $700M coal investment.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar panel maker faces headwind from repeated anti-renewable rhetoric though policy specifics are unchanged.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"down\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar inverter maker mildly hurt by administration's continued pro-coal, anti-wind/solar messaging.\", \"added\": false}, {\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.65, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Announced $700M investment protecting 14 coal plants, 42 mines, and building 2 new plants directly benefits coal producers.\", \"added\": true}]}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00576:eu",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 576.351,
+   "t_wall": 1780600972.351,
+   "t_wall_et": "2026-06-04T15:22:52.351000-04:00",
+   "segment_text": "And and by the way, and all over Europe,",
+   "context": "business, really a big business, and it's real power. It's in terms of power, there's really nothing like it. You have so many different alternatives. They talk about some but there's no no real alternative. China, by the way, last year, built 52 coal plants. They built about 2 2 windmills. You know, the only time they build a windmill is when they're trying to sell them to stupid people from The United States, the suckers. And and by the way, and all over Europe,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "stupid people from The United States, the suckers. And all over Europe",
+    "summary": "The President criticizes Europe alongside US buyers of windmills as suckers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical jab at Europe over windmill purchases, not a concrete policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same broad criticism of Europe with no specific tariff or policy announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about wind energy hypocrisy is not a material catalyst for eurozone equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The coal investment announcement is bullish for US coal producers (not listed) but the Europe remark is mere rhetorical criticism without concrete policy, so European ETFs (VGK, EZU, FEZ) see negligible price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical jab at Europe over windmill purchases, not a concrete policy action.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same broad criticism of Europe with no specific tariff or policy announced.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about wind energy hypocrisy is not a material catalyst for eurozone equities.\", \"added\": false}], \"summary\": \"The coal investment announcement is bullish for US coal producers (not listed) but the Europe remark is mere rhetorical criticism without concrete policy, so European ETFs (VGK, EZU, FEZ) see negligible price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00622:autos",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "auto industry",
+   "text_span": "auto industry",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 622.2926262686567,
+   "t_wall": 1780601018.2926264,
+   "t_wall_et": "2026-06-04T15:23:38.292626-04:00",
+   "segment_text": "And the job he's done is great. We had the auto industry yesterday.",
+   "context": "secretary of the interior, Doug Bergman. He has been great. I don't wanna give him a big swollen ego because then all of a sudden, he'll leave me and I'll be I'll be stuck with interior. I don't wanna be stuck. But he's really done a great job. Secretary of energy Chris Wright is fantastic. And maybe our MVP what do you think, Doug? You it's close. Yes. Right here. What do you think? MVP, Lee Zeldin. And the job he's done is great. We had the auto industry yesterday. They don't want people to fix their car. I said, that's strange. I've never heard of that. They",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "auto industry",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "They don't want people to fix their car. That's strange.",
+    "summary": "The President criticizes automakers for opposing right-to-repair policies."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mild criticism over right-to-repair stance but meeting described as great, limited price impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same right-to-repair criticism applies but tone with Ford exec was positive, offsetting effect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not specifically mentioned, no direct price-relevant remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not mentioned in this excerpt, no direct impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF exposed to mild auto industry criticism but offsetting positive meeting tone.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks mix mild criticism of automakers over right-to-repair policy with praise for GM/Ford leadership, yielding largely neutral price implications; the coal segment (not in ticker list) is the main policy-relevant content.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mild criticism over right-to-repair stance but meeting described as great, limited price impact.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Same right-to-repair criticism applies but tone with Ford exec was positive, offsetting effect.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"none\", \"horizon\": \"days\", \"rationale\": \"Not specifically mentioned, no direct price-relevant remark.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"none\", \"horizon\": \"days\", \"rationale\": \"Not mentioned in this excerpt, no direct impact.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF exposed to mild auto industry criticism but offsetting positive meeting tone.\", \"added\": false}], \"summary\": \"The President's remarks mix mild criticism of automakers over right-to-repair policy with praise for GM/Ford leadership, yielding largely neutral price implications; the coal segment (not in ticker list) is the main policy-relevant content.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00672:gm",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 672.5679105381166,
+   "t_wall": 1780601068.5679104,
+   "t_wall_et": "2026-06-04T15:24:28.567910-04:00",
+   "segment_text": "and other things. But, they were great. And so there's a move on to stop people from fixing their car. I couldn't didn't understand it, but we had a great meeting yesterday with the head of General Motors and, Roger Penske,",
+   "context": "They want a bill that prohibits people from fixing. So if you're mechanically inclined you know, I grew up I went to school with some guys who were, in some cases, horrible students, but they could fix an engine blindfolded. They could take a car apart blindfolded, but they weren't too good at arithmetic and other things. But, they were great. And so there's a move on to stop people from fixing their car. I couldn't didn't understand it, but we had a great meeting yesterday with the head of General Motors and, Roger Penske,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "great meeting yesterday with the head of General Motors",
+    "summary": "The President met with General Motors leadership yesterday regarding right-to-repair issues."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Meeting mentioned about right-to-repair issue is vague and not clearly positive or negative for GM's fundamentals.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark mainly focuses on coal plants and a general meeting with GM leadership about right-to-repair; no clear, material financial impact on GM is indicated.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GM\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Meeting mentioned about right-to-repair issue is vague and not clearly positive or negative for GM's fundamentals.\",\"added\":false}],\"summary\":\"The remark mainly focuses on coal plants and a general meeting with GM leadership about right-to-repair; no clear, material financial impact on GM is indicated.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00675:f",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "f",
+   "entity": "Ford",
+   "kind": "company",
+   "alias": "ford",
+   "text_span": "Ford",
+   "dict_tickers": [
+    "F"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 675.7669394174758,
+   "t_wall": 1780601071.7669394,
+   "t_wall_et": "2026-06-04T15:24:31.766939-04:00",
+   "segment_text": "head of Ford. We had a great meeting, I think. Thanks as well to a friend of mine also for a long time,",
+   "context": "They want a bill that prohibits people from fixing. So if you're mechanically inclined you know, I grew up I went to school with some guys who were, in some cases, horrible students, but they could fix an engine blindfolded. They could take a car apart blindfolded, but they weren't too good at arithmetic and other things. But, they were great. And so there's a move on to stop people from fixing their car. I couldn't didn't understand it, but we had a great meeting yesterday with the head of General Motors and, Roger Penske, head of Ford. We had a great meeting, I think. Thanks as well to a friend of mine also for a long time,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ford",
+    "tickers": [
+     "F"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "great meeting yesterday with Roger Penske, head of Ford",
+    "summary": "The President held a meeting with Ford's leadership regarding right-to-repair policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Friendly meeting mention is minor color with no concrete policy or financial impact disclosed for Ford.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark centers on coal plants and right-to-repair rhetoric; the Ford mention is a passing, non-material reference to a meeting, unlikely to move the stock meaningfully.",
+    "raw": "{\"tickers\": [{\"ticker\": \"F\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Friendly meeting mention is minor color with no concrete policy or financial impact disclosed for Ford.\", \"added\": false}], \"summary\": \"The remark centers on coal plants and right-to-repair rhetoric; the Ford mention is a passing, non-material reference to a meeting, unlikely to move the stock meaningfully.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:00714:csco",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "csco",
+   "entity": "Cisco",
+   "kind": "company",
+   "alias": "cisco",
+   "text_span": "Cisco",
+   "dict_tickers": [
+    "CSCO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 714.235,
+   "t_wall": 1780601110.235,
+   "t_wall_et": "2026-06-04T15:25:10.235000-04:00",
+   "segment_text": "Juan Cisco many,",
+   "context": "It's not enough. I love those people. And Wyoming, I think, maybe even slightly more than West Virginia. They did just a little. We did pretty decent. At least, I like this group of people. But Wyoming governor Mark Gordon, respected guy, great governor. Both of them, really amazing. And representatives Dan Muser, Riley Moore, Derek Vanorton, Juan Cisco many, and Andy Barr. So you have a lot of representatives here that are fantastic.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:00917:chips",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 917.6050629896907,
+   "t_wall": 1780601313.605063,
+   "t_wall_et": "2026-06-04T15:28:33.605063-04:00",
+   "segment_text": "and they wanted him to make computer chips. She said, we'll teach him how to make computer chips.",
+   "context": "And they're gonna they're all going back to work. You know, it's interesting with the minds that famous scene of Hillary when we went to West Virginia. Yeah. And she had just left another another state, and she was trying to convince everybody that they should go into technology, no longer be miners. And these guys in West Virginia, they didn't wanna hear about it. They wanted to be remember that scene around the table? They talked to this this beautiful, big, strong miner, and they wanted him to make computer chips. She said, we'll teach him how to make computer chips. His hands were so large, he couldn't hold a computer chip. He's looking at a computer. His fingers are, like, 3 inches around. They're talking about making a computer chip,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:01047:defense_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "plants"
+   ],
+   "t_audio": 1047.088137313433,
+   "t_wall": 1780601443.0881374,
+   "t_wall_et": "2026-06-04T15:30:43.088137-04:00",
+   "segment_text": "and help build 2 brand new coal plants in Alaska and West Virginia.",
+   "context": "and it's gonna be very productive. It's gonna our electric plants in particular. It's gonna be amazing. Finally, we're taking nearly $200,000,000 in that to set aside for the Green New scam, and it was set aside for the Green New scam. But the Green New scam is history and repurposing that money so that we we start a coal plant in Maryland and help build 2 brand new coal plants in Alaska and West Virginia. And these are all built with new technology. It's very clean. It's amazing what how that's come along. It's all very clean.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:01087:coal_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 1087.8699333333334,
+   "t_wall": 1780601483.8699334,
+   "t_wall_et": "2026-06-04T15:31:23.869933-04:00",
+   "segment_text": "beautiful coal.",
+   "context": "And the 1st new coal plants to open in our country since 2013, couldn't open. You couldn't even think. They were only closing them. They were closing them and you had brownouts all over the place, but you don't have that anymore. Do you notice? Under 4 years of sleepy Joe Biden and the radical left Democrats in Congress, not a single permit was approved for a new coal mining project, but in over 1 year of our administration, we've already approved 76 permits for clean, beautiful coal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "approved 76 permits for clean, beautiful coal",
+    "summary": "The President approved 76 coal mining permits in over one year of administration."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New federal support for coal plants and permits benefits major US coal producer Peabody Energy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Coal-friendly policy and new permits support Arch Resources as a domestic coal miner.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pro-coal policy shift and new plant announcements benefit metallurgical/thermal coal producer Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced new coal plant construction, permit approvals, and repurposed funds favoring coal, a positive catalyst for US coal producers like BTU, ARCH, and AMR.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New federal support for coal plants and permits benefits major US coal producer Peabody Energy.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Coal-friendly policy and new permits support Arch Resources as a domestic coal miner.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Pro-coal policy shift and new plant announcements benefit metallurgical/thermal coal producer Alpha Metallurgical Resources.\", \"added\": false}], \"summary\": \"The President announced new coal plant construction, permit approvals, and repurposed funds favoring coal, a positive catalyst for US coal producers like BTU, ARCH, and AMR.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:01202:coal",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal mining",
+   "text_span": "coal mining",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 1202.110293125,
+   "t_wall": 1780601598.1102931,
+   "t_wall_et": "2026-06-04T15:33:18.110293-04:00",
+   "segment_text": "here. We've slashed red tape. Those took years to get some of these projects for coal mining we've approved in less than 1 month under the emergency procedures.",
+   "context": "that our grid was at risk. You understood that, and you understood that key how key coal is. It's the backbone of having affordable, reliable, and secure American energy to power our country, power our electric grid, power our competitiveness in AI, and power all the manufacturing that's coming back. As you mentioned, with those record coal leases, this is where we take federal public land and lease it to the private sector. They write a check that comes into the treasury. They create jobs, help support local communities. So there was 0 coal leases held in 4 years under the Biden administration. You heard the president talk about 76 here. We've slashed red tape. Those took years to get some of these projects for coal mining we've approved in less than 1 month under the emergency procedures.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal Mining",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "coal mining projects we've approved in less than 1 month",
+    "summary": "Coal mining permitting accelerated under emergency procedures; coal emphasized for grid reliability."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Accelerated coal leasing and permitting support thermal coal producers like Peabody.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Metallurgical coal designation as critical mineral benefits Arch Resources given its met coal exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New critical mineral status for metallurgical coal directly benefits Alpha Metallurgical Resources.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Accelerated coal leasing and permitting support thermal coal producers like Peabody.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Metallurgical coal designation as critical mineral benefits Arch Resources given its met coal exposure.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New critical mineral status for metallurgical coal directly benefits Alpha Metallurgical Resources.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:01250:steel",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel industry",
+   "text_span": "steel industry",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1250.6317438679246,
+   "t_wall": 1780601646.631744,
+   "t_wall_et": "2026-06-04T15:34:06.631744-04:00",
+   "segment_text": "and that opens up a number of opportunities. But without metallurgical coal, we don't have coke. We don't have the steel industry. The Biden administration was indiscriminate trying to shut down our metallurgical",
+   "context": "This is not national parks. It's not wilderness area. It's not our wildlife refuges. This is public land that was set aside for the benefit and use of the American people, including energy development, making sure that we've got affordable, reliable energy. So using those public lands is what we're doing. And then the last thing within Interior, would say we did strategically designate through The US Geologic Survey, which is part of Interior, designate metallurgical coal as a critical mineral. So it's on the list, and that opens up a number of opportunities. But without metallurgical coal, we don't have coke. We don't have the steel industry. The Biden administration was indiscriminate trying to shut down our metallurgical",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel industry",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "without metallurgical coal, we don't have the steel industry",
+    "summary": "Designating metallurgical coal as critical mineral to support steel production."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Metallurgical coal designation as critical mineral supports steel supply chain and domestic steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Nucor is largely EAF-based and less dependent on metallurgical coal/coke, so impact is muted.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Cliffs relies on integrated blast furnace steelmaking using metallurgical coal, benefiting from supportive coal policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel Dynamics is EAF-focused, so metallurgical coal support has limited direct benefit.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel sector ETF benefits modestly from supportive domestic coal/steel policy rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Metallurgical coal being designated a critical mineral and record coal leasing directly benefits coal producers.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President touted record coal leasing, opened new federal land, and designated metallurgical coal a critical mineral to support steel production, which is modestly positive for integrated steelmakers and coal producers but has little effect on EAF-based steel companies.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Metallurgical coal designation as critical mineral supports steel supply chain and domestic steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Nucor is largely EAF-based and less dependent on metallurgical coal/coke, so impact is muted.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Cliffs relies on integrated blast furnace steelmaking using metallurgical coal, benefiting from supportive coal policy.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Steel Dynamics is EAF-focused, so metallurgical coal support has limited direct benefit.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF benefits modestly from supportive domestic coal/steel policy rhetoric.\", \"added\": false}, {\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Metallurgical coal being designated a critical mineral and record coal leasing directly benefits coal producers.\", \"added\": true}], \"summary\": \"The President touted record coal leasing, opened new federal land, and designated metallurgical coal a critical mineral to support steel production, which is modestly positive for integrated steelmakers and coal producers but has little effect on EAF-based steel companies.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:01680:solar",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar",
+   "text_span": "Solar",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1680.7268343195267,
+   "t_wall": 1780602076.7268343,
+   "t_wall_et": "2026-06-04T15:41:16.726834-04:00",
+   "segment_text": "wind power disappeared when the storm hit. Solar is irrelevant in the winter, so things we talk about didn't even matter to our electricity grid except for cost burdens.",
+   "context": "hundreds of Americans would have lost their lives if those 17 coal plants had closed. We pushed the East Coast electricity grid in The United States absolutely to the limit. A a storm Uri hit 5 years ago in Texas, smaller in geographic extent, not the same magnitude, over 300 people died. But because we had those coal plants operating and running and not only did they run, wind power disappeared when the storm hit. Solar is irrelevant in the winter, so things we talk about didn't even matter to our electricity grid except for cost burdens.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Solar is irrelevant in the winter",
+    "summary": "The President criticizes solar power as irrelevant during winter storms."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Criticism of solar reliability reinforces negative policy sentiment toward solar sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean energy ETF exposed to same anti-renewable rhetoric and pro-coal policy stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Direct solar manufacturer targeted by comments dismissing solar's reliability, though rhetoric is repeated not new policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar inverter maker faces similar sentiment headwind from administration's anti-solar rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praises coal reliability and criticizes solar as irrelevant in winter, a repeat of known pro-coal/anti-renewable rhetoric that is mildly negative for solar/clean-energy equities and neutral-to-positive for coal producers, though no new specific policy or numbers were announced.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TAN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Criticism of solar reliability reinforces negative policy sentiment toward solar sector ETF.\",\"added\":false},{\"ticker\":\"ICLN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad clean energy ETF exposed to same anti-renewable rhetoric and pro-coal policy stance.\",\"added\":false},{\"ticker\":\"FSLR\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Direct solar manufacturer targeted by comments dismissing solar's reliability, though rhetoric is repeated not new policy.\",\"added\":false},{\"ticker\":\"ENPH\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Solar inverter maker faces similar sentiment headwind from administration's anti-solar rhetoric.\",\"added\":false}],\"summary\":\"The President praises coal reliability and criticizes solar as irrelevant in winter, a repeat of known pro-coal/anti-renewable rhetoric that is mildly negative for solar/clean-energy equities and neutral-to-positive for coal producers, though no new specific policy or numbers were announced.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:01816:coal",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal industry",
+   "text_span": "coal industry",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1816.363780487805,
+   "t_wall": 1780602212.3637805,
+   "t_wall_et": "2026-06-04T15:43:32.363780-04:00",
+   "segment_text": "win in the next generation of technologies, and we're gonna do it in critical part because of a growing growing and thriving coal industry. Thank you, the President. Thank very much. Thank you. Secretary",
+   "context": "And for that, I'm incredibly thankful to be here in the United States government, to work for the President, who will stand up for what's right, bring common sense back, and and reinvigorate an industry without which we would not have the America we have today. And we're gonna re industrialize America, win in the next generation of technologies, and we're gonna do it in critical part because of a growing growing and thriving coal industry. Thank you, the President. Thank very much. Thank you. Secretary Bergham, thank you, Lee Zeldin. Good. And, Lee Zeldin, how about saying a few words?",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:01854:coal_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "regulation"
+   ],
+   "t_audio": 1854.695,
+   "t_wall": 1780602250.695,
+   "t_wall_et": "2026-06-04T15:44:10.695000-04:00",
+   "segment_text": "coal",
+   "context": "clean beautiful coal is their source of heat, of energy, of warmth, of a job, an economy, a community, a family. And for too long, you saw Democrats who were telling these coal miners that they should just learn a code. And what we saw during the Biden administration at the EPA, for example, was regulation after regulation after regulation trying to strangulate out of existence coal to destroy it.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "regulation after regulation trying to strangulate coal to destroy it",
+    "summary": "The President criticizes Biden EPA regulations targeting coal industry."
+   },
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal deregulation rhetoric reinforces supportive policy stance for coal producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated pro-coal deregulation stance is mildly favorable for coal miners like Arch.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued pro-coal rhetoric supports metallurgical coal producer sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm existing pro-coal, deregulatory stance rather than announcing new policy, so effect is mildly positive but low-confidence for coal producers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal deregulation rhetoric reinforces supportive policy stance for coal producers.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restated pro-coal deregulation stance is mildly favorable for coal miners like Arch.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued pro-coal rhetoric supports metallurgical coal producer sentiment.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm existing pro-coal, deregulatory stance rather than announcing new policy, so effect is mildly positive but low-confidence for coal producers.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:02034:rare_earth",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "rare earth minerals",
+   "text_span": "rare earth minerals",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2034.8716130434782,
+   "t_wall": 1780602430.871613,
+   "t_wall_et": "2026-06-04T15:47:10.871613-04:00",
+   "segment_text": "We have companies like Peabody that are now saying, we believe we can get rare earth minerals and critical minerals from what we're doing.",
+   "context": "I guess, belt that we have on the West Coast with California, Oregon, and Washington, and finally enforce the commerce clause to allow states like New Mexico, Wyoming, Utah to have access to that Asian market. And let me just tell you 1 last thing about that. It's not just about clean, beautiful coal. We have companies like Peabody that are now saying, we believe we can get rare earth minerals and critical minerals from what we're doing.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "companies like Peabody can get rare earth minerals and critical minerals",
+    "summary": "The President praises rare earth mineral extraction potential from coal operations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark focuses on coal company Peabody's rare earth potential, not directly on MP Materials.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Positive sentiment on domestic rare earth extraction from coal mining could lift sector sentiment broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President directly praises Peabody's coal-to-rare-earths ambitions and export access, a positive catalyst for the company.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's coal-focused remarks highlight Peabody's rare earth potential and export access, positive for coal/rare earth-adjacent names like BTU and modestly for REMX, with minimal direct relevance to MP.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MP\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remark focuses on coal company Peabody's rare earth potential, not directly on MP Materials.\", \"added\": false}, {\"ticker\": \"REMX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Positive sentiment on domestic rare earth extraction from coal mining could lift sector sentiment broadly.\", \"added\": false}, {\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President directly praises Peabody's coal-to-rare-earths ambitions and export access, a positive catalyst for the company.\", \"added\": true}], \"summary\": \"The President's coal-focused remarks highlight Peabody's rare earth potential and export access, positive for coal/rare earth-adjacent names like BTU and modestly for REMX, with minimal direct relevance to MP.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:02063:coal",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal miners",
+   "text_span": "coal miners",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2063.149,
+   "t_wall": 1780602459.149,
+   "t_wall_et": "2026-06-04T15:47:39.149000-04:00",
+   "segment_text": "The coal miners know",
+   "context": "We have companies like Peabody that are now saying, we believe we can get rare earth minerals and critical minerals from what we're doing. So we are advancing technology, advancing the opportunities, and the security of the state, all because of your vision, sir. Thank you. Thank you very much. Thank you very much. Would you like to say something on behalf of West Virginia? I would. I I would like say place. Mister president, all West Virginians are so deeply grateful to you for your focus on protecting their energy jobs. The coal miners know the incredible importance of why we're here today and to talk about the potential",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:02233:housing",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "housing",
+   "entity": "Homebuilders",
+   "kind": "sector",
+   "alias": "fannie mae",
+   "text_span": "Fannie Mae",
+   "dict_tickers": [
+    "XHB",
+    "ITB",
+    "LEN",
+    "DHI"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2233.055754716981,
+   "t_wall": 1780602629.0557547,
+   "t_wall_et": "2026-06-04T15:50:29.055755-04:00",
+   "segment_text": "He's done a phenomenal job at Fannie Mae Freddie Mac.",
+   "context": "we'll see how that all works out. But I have heard about it, and there is a group of people. They really like the job we're doing, you know, so that's a great honor. Yep. That's right. President, announced just a few days ago that you're naming Bill Pulte as the acting director of national intelligence. There's been a little bit of a pushback from some senate Republicans. Republicans. Why do you think, mister president, he's the best person for the job? Well, he's very smart. He's a person who's got high integrity. He's done a phenomenal job at Fannie Mae Freddie Mac.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Fannie Mae",
+    "tickers": [
+     "FNMA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "done a phenomenal job at Fannie Mae",
+    "summary": "The President praises Bill Pulte's work at Fannie Mae as phenomenal."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FNMA",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises management of Fannie Mae and touts its rising value, mildly supportive for FNMA shares.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XHB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No direct new policy on homebuilders, remark focused on Fannie Mae leadership not housing finance policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same rationale as XHB, indirect mention only.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LEN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly addressed by remark content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly addressed by remark content.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments center on praising Bill Pulte's leadership at Fannie Mae, a mild positive for FNMA, with no direct new policy affecting homebuilders.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FNMA\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises management of Fannie Mae and touts its rising value, mildly supportive for FNMA shares.\",\"added\":false},{\"ticker\":\"XHB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"No direct new policy on homebuilders, remark focused on Fannie Mae leadership not housing finance policy.\",\"added\":false},{\"ticker\":\"ITB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Same rationale as XHB, indirect mention only.\",\"added\":false},{\"ticker\":\"LEN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not directly addressed by remark content.\",\"added\":false},{\"ticker\":\"DHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not directly addressed by remark content.\",\"added\":false}],\"summary\":\"The President's comments center on praising Bill Pulte's leadership at Fannie Mae, a mild positive for FNMA, with no direct new policy affecting homebuilders.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:02460:coal",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "coal",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal plants",
+   "text_span": "coal plants",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2460.874122222222,
+   "t_wall": 1780602856.8741221,
+   "t_wall_et": "2026-06-04T15:54:16.874122-04:00",
+   "segment_text": "I think they're gonna do that. Yeah. Daniel? Mister president, thank you. You, for your actions, have saved and supported more than 100 coal plants in your 2nd term. When you hear something like that and you try to create an environment where they're not just surviving, they're thriving,",
+   "context": "Soldiers, mostly soldiers. Some people, but mostly soldiers. And it's been averaging probably almost 25,000 people every month of soldiers killed. And I've been very strong on the fact that they've gotta get that over with. So, but they they do. I want them each to make certain compromises. I think they're gonna do that. Yeah. Daniel? Mister president, thank you. You, for your actions, have saved and supported more than 100 coal plants in your 2nd term. When you hear something like that and you try to create an environment where they're not just surviving, they're thriving,",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:02490:solar",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "expensive"
+   ],
+   "t_audio": 2490.5918393234674,
+   "t_wall": 1780602886.5918393,
+   "t_wall_et": "2026-06-04T15:54:46.591839-04:00",
+   "segment_text": "West Virginia, Wyoming, how does it bolster those economies? Well, we were destroying our grid because we were relying on wind and other things that don't have the power. They don't have the strength. They're very expensive. Wind is the most expensive form of energy. It sounds good. Wind beautiful wind, but, you know, it's very intermittent. But those windmills cost a fortune. They break. They kill the birds. They're bad for the environment. Nobody wants to be near the",
+   "context": "I think they're gonna do that. Yeah. Daniel? Mister president, thank you. You, for your actions, have saved and supported more than 100 coal plants in your 2nd term. When you hear something like that and you try to create an environment where they're not just surviving, they're thriving, what does that do to the reliability of our energy grid, but to the economies as well? The states of Pennsylvania, West Virginia, Wyoming, how does it bolster those economies? Well, we were destroying our grid because we were relying on wind and other things that don't have the power. They don't have the strength. They're very expensive. Wind is the most expensive form of energy. It sounds good. Wind beautiful wind, but, you know, it's very intermittent. But those windmills cost a fortune. They break. They kill the birds. They're bad for the environment. Nobody wants to be near the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "windmills cost a fortune. They break. They kill the birds. They're bad for the environment.",
+    "summary": "The President criticizes wind energy as expensive, unreliable, and environmentally harmful."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Renewed anti-renewable rhetoric and subsidy cuts weigh on solar sentiment despite being solar-focused ETF not directly targeted.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Clean energy ETF broadly hurt by anti-wind/subsidy rhetoric and pro-coal stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks focus on wind not solar manufacturing, limited direct impact.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar inverter maker not directly targeted by wind criticism.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts saving 100+ coal plants, reinforcing pro-coal policy stance favorable to coal producers.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President reiterates anti-wind, pro-coal rhetoric and subsidy cuts, mildly negative for clean energy ETFs and positive for coal producers, with limited direct impact on solar names.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TAN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Renewed anti-renewable rhetoric and subsidy cuts weigh on solar sentiment despite being solar-focused ETF not directly targeted.\",\"added\":false},{\"ticker\":\"ICLN\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Clean energy ETF broadly hurt by anti-wind/subsidy rhetoric and pro-coal stance.\",\"added\":false},{\"ticker\":\"FSLR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remarks focus on wind not solar manufacturing, limited direct impact.\",\"added\":false},{\"ticker\":\"ENPH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Residential solar inverter maker not directly targeted by wind criticism.\",\"added\":false},{\"ticker\":\"BTU\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President touts saving 100+ coal plants, reinforcing pro-coal policy stance favorable to coal producers.\",\"added\":true}],\"summary\":\"The President reiterates anti-wind, pro-coal rhetoric and subsidy cuts, mildly negative for clean energy ETFs and positive for coal producers, with limited direct impact on solar names.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:02696:eu",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "european",
+   "text_span": "European",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2696.1902,
+   "t_wall": 1780603092.1902,
+   "t_wall_et": "2026-06-04T15:58:12.190200-04:00",
+   "segment_text": "European countries and other countries, they need it tremendous. Some of the European countries need it really big,",
+   "context": "We went to the NATO countries. We went to others too, in all fairness to NATO. And I wouldn't say I gave them a hard sell. I said, hey, if you'd like to help, it'll be wonderful. And they all turned us down. And, you know, it's gonna be an expensive proposition for them because they shouldn't have done that. They should have helped. You know, we don't need it. We have our own. We have much more than we need in terms of oil and energy generally. But but European countries and other countries, they need it tremendous. Some of the European countries need it really big,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "European countries need it tremendous. They should have helped.",
+    "summary": "The President criticizes European countries for refusing to help with energy, noting their dependence on external supply."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General criticism of European allies over energy help is rhetorical and not a concrete policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new tariff, sanction, or deal announced against the Eurozone, just repeated complaints.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is unrelated to coal policy and mainly restates existing NATO/military grievances without new market-moving info.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt centers on marble cleaning and NATO/military rhetoric, not on new coal or European economic policy; criticism of Europe is vague and repeated, so no strong directional signal for European equity ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General criticism of European allies over energy help is rhetorical and not a concrete policy action.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new tariff, sanction, or deal announced against the Eurozone, just repeated complaints.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is unrelated to coal policy and mainly restates existing NATO/military grievances without new market-moving info.\", \"added\": false}], \"summary\": \"The excerpt centers on marble cleaning and NATO/military rhetoric, not on new coal or European economic policy; criticism of Europe is vague and repeated, so no strong directional signal for European equity ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:02850:ai",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2850.0606957575756,
+   "t_wall": 1780603246.0606956,
+   "t_wall_et": "2026-06-04T16:00:46.060696-04:00",
+   "segment_text": "Mister president, are you worried that China is funding an anti data center movement here in The US? No. I'm not worried about it. We had a great meeting with China.",
+   "context": "mean, we're supposed they spend all that money on the on the machines, the big voting machines. They think it's gonna be 7 or 8 days before we know who won the election. But the numbers are looking strange because without any vote counting, the numbers dropped very precipitously for 2 Republicans that are doing well, that had been doing well. And, I hope you're all watching it because I'm watching it very closely. Mister president, are you worried that China is funding an anti data center movement here in The US? No. I'm not worried about it. We had a great meeting with China.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:02880:ukraine",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 2880.385,
+   "t_wall": 1780603276.385,
+   "t_wall_et": "2026-06-04T16:01:16.385000-04:00",
+   "segment_text": "Ukraine has been given a tremendous amount of our mill. Without our military and",
+   "context": "Mister president, are you worried that China is funding an anti data center movement here in The US? No. I'm not worried about it. We had a great meeting with China. And, you know, they do things to us, we do things to them. I say it all the time. They say, oh, it's are you worried about China tapping your phones? I said, well, you know, they're worried about the same thing. No. We're very highly sophisticate. We've become very highly sophisticated. We had 4 years. I rebuilt the military. We had a military that was not good, and we rebuilt it. And I didn't know I'd use it quite as much, but we used it. Ukraine has been given a tremendous amount of our mill. Without our military and",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "military",
+    "confidence": 0.85,
+    "quote": "Ukraine has been given a tremendous amount of our mil.",
+    "summary": "The President states Ukraine received substantial U.S. military aid."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated rhetoric about past military aid to Ukraine and defense strength does not reveal new contract or spending information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The excerpt does not actually contain substantive new coal or energy policy despite the event title, so no clear price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The transcript excerpt is dominated by general rhetoric on elections, China, and Ukraine military aid with no new, price-relevant coal or energy policy details despite the event title, so no material trading signal for ITA or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated rhetoric about past military aid to Ukraine and defense strength does not reveal new contract or spending information.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The excerpt does not actually contain substantive new coal or energy policy despite the event title, so no clear price impact.\", \"added\": false}], \"summary\": \"The transcript excerpt is dominated by general rhetoric on elections, China, and Ukraine military aid with no new, price-relevant coal or energy policy details despite the event title, so no material trading signal for ITA or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03096:venezuela",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "exports"
+   ],
+   "t_audio": 3096.4573166666664,
+   "t_wall": 1780603492.4573166,
+   "t_wall_et": "2026-06-04T16:04:52.457317-04:00",
+   "segment_text": "we have with Venezuela, Chris? Yeah. Things with Venezuela have gone very well. Venezuelan oil exports",
+   "context": "It was very unpopular when I went to Venezuela. They said, oh, we don't want well, 1st of all, that one's relatively close. It's sort of a semi neighbor. Right? And the relationship with Venezuela is incredible. We've taken out millions and millions of oil out of Venezuela. It's very oil prone. I guess, Chris, 1 of the most. Right? Yes. And we've taken out you're sort of leading it, but do you wanna just tell them real fast about the relationship we have with Venezuela, Chris? Yeah. Things with Venezuela have gone very well. Venezuelan oil exports",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "The relationship with Venezuela is incredible. We've taken out millions and millions of oil.",
+    "summary": "The President praises Venezuela relationship and notes significant oil extraction history."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on oil prices, Venezuela and Iran is largely repeat rhetoric with no new policy action for the energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new specific policy or contract affecting Chevron directly; increased Venezuelan supply could marginally pressure oil prices but is not new information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly political rhetoric about Venezuela, Iran and energy prices with no new concrete policy announcement affecting XLE or CVX, so minimal price impact expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General commentary on oil prices, Venezuela and Iran is largely repeat rhetoric with no new policy action for the energy sector.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new specific policy or contract affecting Chevron directly; increased Venezuelan supply could marginally pressure oil prices but is not new information.\",\"added\":false}],\"summary\":\"The excerpt is mostly political rhetoric about Venezuela, Iran and energy prices with no new concrete policy announcement affecting XLE or CVX, so minimal price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03100:oil",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "exports"
+   ],
+   "t_audio": 3100.8812166666667,
+   "t_wall": 1780603496.8812168,
+   "t_wall_et": "2026-06-04T16:04:56.881217-04:00",
+   "segment_text": "we have with Venezuela, Chris? Yeah. Things with Venezuela have gone very well. Venezuelan oil exports",
+   "context": "It was very unpopular when I went to Venezuela. They said, oh, we don't want well, 1st of all, that one's relatively close. It's sort of a semi neighbor. Right? And the relationship with Venezuela is incredible. We've taken out millions and millions of oil out of Venezuela. It's very oil prone. I guess, Chris, 1 of the most. Right? Yes. And we've taken out you're sort of leading it, but do you wanna just tell them real fast about the relationship we have with Venezuela, Chris? Yeah. Things with Venezuela have gone very well. Venezuelan oil exports",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "We've taken out millions and millions of oil out of Venezuela. It's very oil prone.",
+    "summary": "The President emphasizes Venezuela's oil production and US extraction activity there."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on oil supply and geopolitics without new policy specifics for energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mentions of increased Venezuelan oil supply and hopes for lower prices are mixed and already known.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new US producer benefit announced, just general oil market commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct new policy or contract impact on Chevron mentioned.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely geopolitical rhetoric about Venezuela, Iran, and energy prices with no new concrete policy or company-specific news, so minimal price impact expected for these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General commentary on oil supply and geopolitics without new policy specifics for energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mentions of increased Venezuelan oil supply and hopes for lower prices are mixed and already known.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific new US producer benefit announced, just general oil market commentary.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct new policy or contract impact on Chevron mentioned.\", \"added\": false}], \"summary\": \"The excerpt is largely geopolitical rhetoric about Venezuela, Iran, and energy prices with no new concrete policy or company-specific news, so minimal price impact expected for these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03138:iran",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 3138.39374186551,
+   "t_wall": 1780603534.3937418,
+   "t_wall_et": "2026-06-04T16:05:34.393742-04:00",
+   "segment_text": "than a conflict in Iran, and the conflict in Iran will come to an end. We hope hope that crazy green energy drive up energy prices policy, the Democrats at federal and state levels, we hope that comes to an end too. And and remember this. With if you wanna call it a war or if you wanna call it a military operation, you cannot let Iran have a nuclear weapon. And everybody agrees to that no matter almost everybody. You're you're for me. But but wait a minute.",
+   "context": "The bigger threat to energy prices in The United States is democratic green energy policies. They have driven up energy prices far more than a conflict in Iran, and the conflict in Iran will come to an end. We hope hope that crazy green energy drive up energy prices policy, the Democrats at federal and state levels, we hope that comes to an end too. And and remember this. With if you wanna call it a war or if you wanna call it a military operation, you cannot let Iran have a nuclear weapon. And everybody agrees to that no matter almost everybody. You're you're for me. But but wait a minute.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.85,
+    "quote": "cannot let Iran have a nuclear weapon",
+    "summary": "The President opposes Iranian nuclear weapons; suggests military action possible."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General discussion of oil prices and Venezuela/Iran is largely reiteration of known policy, limited new info for energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on Venezuela supply and Iran conflict restate known dynamics without new quantifiable shock to oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Continued rhetoric on preventing Iran nuclear weapons and possible military action modestly supports defense sector sentiment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks mostly restate existing Venezuela oil and Iran nuclear policy with no new quantifiable data, limiting market impact on energy tickers; slight positive lean for defense stocks from renewed military rhetoric.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General discussion of oil prices and Venezuela/Iran is largely reiteration of known policy, limited new info for energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments on Venezuela supply and Iran conflict restate known dynamics without new quantifiable shock to oil prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Continued rhetoric on preventing Iran nuclear weapons and possible military action modestly supports defense sector sentiment.\", \"added\": false}], \"summary\": \"Remarks mostly restate existing Venezuela oil and Iran nuclear policy with no new quantifiable data, limiting market impact on energy tickers; slight positive lean for defense stocks from renewed military rhetoric.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03210:noc",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2",
+   "text_span": "b 2",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3210.294351219512,
+   "t_wall": 1780603606.294351,
+   "t_wall_et": "2026-06-04T16:06:46.294351-04:00",
+   "segment_text": "Then we attacked with this beautiful plane right here, the b 2 bomber. We attacked",
+   "context": "And the Obama deal, I terminated that or they would have had a nuclear that was a road to a nuclear weapon. Our deal, if we make that deal, and it's going well, but who knows, if we make that deal, it's the exact opposite. They will not have they will never have a nuclear weapon. It sounds like you're in it for as long as it takes. I'm not gonna let them have a nuclear weapon. No. With Obama, it was a road. You know that. It was a road to a nuclear weapon. That was a short term agreement. And at the end of which, they would have a nuclear weapon. So they would've had it 4 years ago. Then we attacked with this beautiful plane right here, the b 2 bomber. We attacked",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "this beautiful plane right here, the b 2 bomber",
+    "summary": "The President praised the B-2 bomber as beautiful during discussion of military capability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for the B-2 bomber's performance is mildly positive publicity for Northrop Grumman but restates known military success.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of the B-2 bomber highlights Northrop Grumman's capability positively but is largely repeat rhetoric with limited new price-relevant information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for the B-2 bomber's performance is mildly positive publicity for Northrop Grumman but restates known military success.\", \"added\": false}], \"summary\": \"The President's praise of the B-2 bomber highlights Northrop Grumman's capability positively but is largely repeat rhetoric with limited new price-relevant information.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03432:nuclear",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "uranium",
+   "text_span": "uranium",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3432.3406027027027,
+   "t_wall": 1780603828.3406026,
+   "t_wall_et": "2026-06-04T16:10:28.340603-04:00",
+   "segment_text": "a lot of this enriched uranium. Yeah.",
+   "context": "If the guy from Maine can do well, I guess Hunter could do well too. Because the guy from Maine is a basket case. And I would say worse than him is the 1 from Texas that looks like Alfred E. Newman. I would say that if he can do well, maybe Hunter could do well. I'm not sure. We're pretty close as far as I'm concerned. And I've got a question about the nuclear dust. So the bombers go in. They entomb a lot of this enriched uranium. Yeah. At this point, do you need a deal with Iran to go get it? Or have you thought about just a a covert daring send in the SEALs, send in the Rangers? Yeah. But I didn't wanna be Jimmy Carter. You know? I didn't feel like being Jimmy Carter. So that's offensive. We did. Well, we thought about it right at the very beginning before you saw it, before we did what we did, before we destroyed their entire military.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:03565:rtx",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawks",
+   "text_span": "tomahawks",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3565.627822105263,
+   "t_wall": 1780603961.6278222,
+   "t_wall_et": "2026-06-04T16:12:41.627822-04:00",
+   "segment_text": "Because it we also hit it with tomahawks after. You know, after that, we hit it with tomahawks.",
+   "context": "We could get it right now. I don't think they could stop us if we wanted, but there's no reason to. It's entombed. You use a good word. It's entombed. We also have cameras on it through Space Force. We have very powerful cameras. Every door there's a door you know, the you know where the doors go? They go to bad places. But every single place on that on those mountains is 3 basically 3. Because it we also hit it with tomahawks after. You know, after that, we hit it with tomahawks.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (RTX)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "we hit it with tomahawks",
+    "summary": "The President references use of Tomahawk missiles in military operation."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of past Tomahawk strikes is a reference to already-known military action, not new procurement or contract news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark recounts a past military operation involving Tomahawk missiles but contains no new order, contract, or policy announcement material to RTX's fundamentals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of past Tomahawk strikes is a reference to already-known military action, not new procurement or contract news.\", \"added\": false}], \"summary\": \"The remark recounts a past military operation involving Tomahawk missiles but contains no new order, contract, or policy announcement material to RTX's fundamentals.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03665:germany",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 3665.7753369272236,
+   "t_wall": 1780604061.775337,
+   "t_wall_et": "2026-06-04T16:14:21.775337-04:00",
+   "segment_text": "black jobs, African American jobs. We're doing I saw some numbers that we're doing really well. But what we're really gonna do well is when all these plants are open. You know, we're building many car plants. We're bringing cars back from Germany. We're bringing you know, we lost the car industry years ago. 54% of of the industry went to Germany, Japan, Canada, Mexico.",
+   "context": "When you ran for president, you courted black voters and talked about what you described as black jobs. How do you describe why why this disparity is happening? What can you do to close that? Well, we're doing very well with the black jobs, African American jobs. We're doing I saw some numbers that we're doing really well. But what we're really gonna do well is when all these plants are open. You know, we're building many car plants. We're bringing cars back from Germany. We're bringing you know, we lost the car industry years ago. 54% of of the industry went to Germany, Japan, Canada, Mexico.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "bringing cars back from Germany. We lost the car industry.",
+    "summary": "The President claims 54% of car industry went to Germany; plans to bring it back."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates intent to bring auto manufacturing back from Germany, implying continued pressure on German industry via tariffs/trade policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated rhetoric about reclaiming auto industry jobs from Germany is mildly negative for German equities exposure (EWG), though it is not new policy information, limiting confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates intent to bring auto manufacturing back from Germany, implying continued pressure on German industry via tariffs/trade policy.\", \"added\": false}], \"summary\": \"The President's repeated rhetoric about reclaiming auto industry jobs from Germany is mildly negative for German equities exposure (EWG), though it is not new policy information, limiting confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03825:venezuela",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 3825.565,
+   "t_wall": 1780604221.565,
+   "t_wall_et": "2026-06-04T16:17:01.565000-04:00",
+   "segment_text": "Venezuela. We didn't lose 1 soldier,",
+   "context": "with Vietnam, we were there for 19 years. With Iraq, it was about 9 years. With another 1, it was about 12 years. And with another 1, we had all these wars that lasted for 9, 10, 12, 19 years for Vietnam. Think of it. And they said, you're in there for 3 months. This is a terrible thing. Hundreds of thousands of soldiers have been killed in these other wars. We lost not 1 soldier in Venezuela. We didn't lose 1 soldier,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "We lost not 1 soldier in Venezuela. We didn't lose 1 soldier.",
+    "summary": "The President claims no U.S. soldiers lost in Venezuela operations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about economy and Venezuela with no new energy policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention of Chevron or Venezuela oil operations/sanctions changes.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general political rhetoric about markets, 401k performance, and Venezuela military claims, with no actionable new policy for energy names.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about economy and Venezuela with no new energy policy content.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention of Chevron or Venezuela oil operations/sanctions changes.\", \"added\": false}], \"summary\": \"The excerpt is general political rhetoric about markets, 401k performance, and Venezuela military claims, with no actionable new policy for energy names.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03851:ice",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "ice",
+   "entity": "Intercontinental Exchange (NYSE)",
+   "kind": "company",
+   "alias": "new york stock exchange",
+   "text_span": "New York Stock Exchange",
+   "dict_tickers": [
+    "ICE"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 3851.7047529411766,
+   "t_wall": 1780604247.704753,
+   "t_wall_et": "2026-06-04T16:17:27.704753-04:00",
+   "segment_text": "Well, today, again, the New York Stock Exchange and every other exchange just hit a new all time high.",
+   "context": "Venezuela. We didn't lose 1 soldier, and we lost a total of 13, which is 13 too many. But when you look at hundreds of thousands of soldiers were killed in these various wars, they lasted many, many years. We're there for a few months, and what we've done is amazing. They won't have a nuclear weapon. And we did it was tough because we just got Doug and everybody came in to see me. We just got the best numbers. Well, today, again, the New York Stock Exchange and every other exchange just hit a new all time high.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Intercontinental Exchange",
+    "tickers": [
+     "ICE"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "New York Stock Exchange just hit a new all time high",
+    "summary": "NYSE reached a new all-time high; The President characterizes market performance positively."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ICE",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General market commentary on stock market highs and 401k performance is not company-specific news for Intercontinental Exchange itself.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks praise overall market highs and 401k gains as general political rhetoric, not a specific policy or business action affecting ICE, so no meaningful price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ICE\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General market commentary on stock market highs and 401k performance is not company-specific news for Intercontinental Exchange itself.\", \"added\": false}], \"summary\": \"The President's remarks praise overall market highs and 401k gains as general political rhetoric, not a specific policy or business action affecting ICE, so no meaningful price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03855:stock_market",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "all time high",
+   "text_span": "all time high",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 3855.504094117647,
+   "t_wall": 1780604251.5040941,
+   "t_wall_et": "2026-06-04T16:17:31.504094-04:00",
+   "segment_text": "Well, today, again, the New York Stock Exchange and every other exchange just hit a new all time high.",
+   "context": "Venezuela. We didn't lose 1 soldier, and we lost a total of 13, which is 13 too many. But when you look at hundreds of thousands of soldiers were killed in these various wars, they lasted many, many years. We're there for a few months, and what we've done is amazing. They won't have a nuclear weapon. And we did it was tough because we just got Doug and everybody came in to see me. We just got the best numbers. Well, today, again, the New York Stock Exchange and every other exchange just hit a new all time high.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.9,
+    "quote": "every other exchange just hit a new all time high",
+    "summary": "Broad U.S. stock exchanges reached new all-time highs; The President claims credit."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bragging about market highs is already known information with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific news, just general market praise already reflected in prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restating that markets hit record highs is not new information for traders.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely self-congratulatory rhetoric about existing market highs and geopolitical events, offering no new tradable information for broad index ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SPY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General bragging about market highs is already known information with no new policy content.\",\"added\":false},{\"ticker\":\"QQQ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No tech-specific news, just general market praise already reflected in prices.\",\"added\":false},{\"ticker\":\"DIA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restating that markets hit record highs is not new information for traders.\",\"added\":false}],\"summary\":\"The President's remarks are largely self-congratulatory rhetoric about existing market highs and geopolitical events, offering no new tradable information for broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:03942:natgas",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "lng",
+   "text_span": "LNG",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3942.2494561797753,
+   "t_wall": 1780604338.2494562,
+   "t_wall_et": "2026-06-04T16:18:58.249456-04:00",
+   "segment_text": "you, mister president. How critical is energy dominance, whether it be coal, whether it be LNG, whether it be oil, to national security? Without it, you can't win. As an example,",
+   "context": "You know, when you're looking for mines, typically, it's not in a good neighborhood. Right? So underwater made a lot of sense when it didn't take long to figure that 1 out. So I think we're doing very well, but we're gonna see if if we're gonna win 1 way or the other. We're gonna win on paper or we're gonna win military. 1 1 way or the other, it's gonna be militarily or on paper. Mister president. Mister president. Thank you, mister president. How critical is energy dominance, whether it be coal, whether it be LNG, whether it be oil, to national security? Without it, you can't win. As an example,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:03948:ai_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3948.155,
+   "t_wall": 1780604344.155,
+   "t_wall_et": "2026-06-04T16:19:04.155000-04:00",
+   "segment_text": "AI is a big deal.",
+   "context": "You know, when you're looking for mines, typically, it's not in a good neighborhood. Right? So underwater made a lot of sense when it didn't take long to figure that 1 out. So I think we're doing very well, but we're gonna see if if we're gonna win 1 way or the other. We're gonna win on paper or we're gonna win military. 1 1 way or the other, it's gonna be militarily or on paper. Mister president. Mister president. Thank you, mister president. How critical is energy dominance, whether it be coal, whether it be LNG, whether it be oil, to national security? Without it, you can't win. As an example, AI is a big deal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial Intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "AI is a big deal.",
+    "summary": "The President states AI is critical to energy dominance and national security."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI rhetoric and energy policy comments are supportive but non-specific to Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad positive tone on AI and energy dominance is favorable for semis but lacks concrete new policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate pro-AI, pro-energy rhetoric without new specific policy or numbers, offering only mild, non-actionable support for AI-related equities.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-AI rhetoric and energy policy comments are supportive but non-specific to Nvidia.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad positive tone on AI and energy dominance is favorable for semis but lacks concrete new policy detail.\",\"added\":false}],\"summary\":\"The President's remarks reiterate pro-AI, pro-energy rhetoric without new specific policy or numbers, offering only mild, non-actionable support for AI-related equities.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04044:india",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 4044.4402499999997,
+   "t_wall": 1780604440.44025,
+   "t_wall_et": "2026-06-04T16:20:40.440250-04:00",
+   "segment_text": "And, sir, you also addressed people of India to your favorite ambassador, Sergio Ball. That's right. Yeah. Both of them have said that trade deal is around the corner. Where do you stand on the trade deal with you? Well, we haven't. And, you know, look, India,",
+   "context": "Because if we didn't do that, you couldn't have anything. You couldn't and we're letting that happen too with car plants and other plants if they wanna build own electric but with the AI, you know, when you hear so much about it, but 1 of the biggest things they build their own and then excess energy that they create will go back into the grid. Yeah. Please. Mister president, on Cuba, are your art mister president Mister president, secretary Rubio was in Delhi last week. He delivered a letter from you to prime minister Modi. And, sir, you also addressed people of India to your favorite ambassador, Sergio Ball. That's right. Yeah. Both of them have said that trade deal is around the corner. Where do you stand on the trade deal with you? Well, we haven't. And, you know, look, India,",
+   "speaker": 16,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "eafk0lNExQE:04082:hog_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "hog_word",
+   "entity": "Harley-Davidson",
+   "kind": "company",
+   "alias": "harley",
+   "text_span": "Harley",
+   "dict_tickers": [
+    "HOG"
+   ],
+   "triggers_nearby": [
+    "tariffs",
+    "tremendous"
+   ],
+   "t_audio": 4082.9057692307692,
+   "t_wall": 1780604478.9057693,
+   "t_wall_et": "2026-06-04T16:21:18.905769-04:00",
+   "segment_text": "They wouldn't let Harley as an example,",
+   "context": "And, sir, you also addressed people of India to your favorite ambassador, Sergio Ball. That's right. Yeah. Both of them have said that trade deal is around the corner. Where do you stand on the trade deal with you? Well, we haven't. And, you know, look, India, for years, has and I don't blame them. I blame us because we had stupid people here. India, for years, really took advantage of The United States. You know that. Are you from India, by any chance? What people I thought you were from Germany. I'm from India. How about we get you're central casting. Okay? And that's a very good thing. India, for years took advantage of this country. They charged us tremendous tariffs, and they paid nothing. They wouldn't let Harley as an example,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Harley-Davidson",
+    "tickers": [
+     "HOG"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They wouldn't let Harley as an example",
+    "summary": "The President cites Harley-Davidson as example of Indian tariff barriers against U.S. companies."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HOG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President cites past Indian tariffs on Harley as historical example while signaling a trade deal is coming, which is not new negative news and could be mildly positive if a deal reduces tariffs.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reference historical Indian tariffs on Harley-Davidson as context for ongoing trade negotiations, implying potential future easing rather than new negative policy, so impact on HOG is ambiguous.",
+    "raw": "{\"tickers\":[{\"ticker\":\"HOG\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President cites past Indian tariffs on Harley as historical example while signaling a trade deal is coming, which is not new negative news and could be mildly positive if a deal reduces tariffs.\",\"added\":false}],\"summary\":\"The President's remarks reference historical Indian tariffs on Harley-Davidson as context for ongoing trade negotiations, implying potential future easing rather than new negative policy, so impact on HOG is ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04086:hog",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "hog",
+   "entity": "Harley-Davidson",
+   "kind": "company",
+   "alias": "harley davidson",
+   "text_span": "Harley Davidson",
+   "dict_tickers": [
+    "HOG"
+   ],
+   "triggers_nearby": [
+    "tariffs",
+    "tremendous"
+   ],
+   "t_audio": 4086.8094545454546,
+   "t_wall": 1780604482.8094544,
+   "t_wall_et": "2026-06-04T16:21:22.809454-04:00",
+   "segment_text": "they wouldn't let Harley Davidson",
+   "context": "for years, has and I don't blame them. I blame us because we had stupid people here. India, for years, really took advantage of The United States. You know that. Are you from India, by any chance? What people I thought you were from Germany. I'm from India. How about we get you're central casting. Okay? And that's a very good thing. India, for years took advantage of this country. They charged us tremendous tariffs, and they paid nothing. They wouldn't let Harley as an example, in the past, they wouldn't let Harley Davidson",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Harley-Davidson",
+    "tickers": [
+     "HOG"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "they wouldn't let Harley as an example, in the past, they wouldn't let",
+    "summary": "The President criticizes India for past tariffs blocking Harley-Davidson market access."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HOG",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President recounts past India tariff history on Harley-Davidson as anecdote, not new policy, and suggests a deal is coming which is mildly positive but already known context.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark is a repeat of well-known history about India tariffs on Harley-Davidson, with a vague hint of a future trade deal; not price-moving new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HOG\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President recounts past India tariff history on Harley-Davidson as anecdote, not new policy, and suggests a deal is coming which is mildly positive but already known context.\", \"added\": false}], \"summary\": \"Remark is a repeat of well-known history about India tariffs on Harley-Davidson, with a vague hint of a future trade deal; not price-moving new information.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04117:india",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 4117.609987804878,
+   "t_wall": 1780604513.6099877,
+   "t_wall_et": "2026-06-04T16:21:53.609988-04:00",
+   "segment_text": "and we'll make a lot of money with India,",
+   "context": "sell us more. They would charge 200% tariff. So Harley-Davidson was precluded. They ended up going to India and building their own plants, which is unfortunate that that happened, but it happens. That was before me. But they charged tremendous amounts of tariffs to our company, and and we didn't charge them anything. You know, they sell sold motorbikes here too. You know we charged them? Nothing. And now it's the exact reverse, and we'll make a lot of money with India,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "we'll make a lot of money with India",
+    "summary": "The President signals tariff reversal against India will be profitable for US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about upcoming US-India trade deal is not new information but slightly reduces tariff uncertainty.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar to INDA, vague optimism about a future deal without concrete details limits price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on India reiterate known trade tensions and hint at a future deal, offering little new tradable information for India-focused ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about upcoming US-India trade deal is not new information but slightly reduces tariff uncertainty.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar to INDA, vague optimism about a future deal without concrete details limits price impact.\", \"added\": false}], \"summary\": \"The President's comments on India reiterate known trade tensions and hint at a future deal, offering little new tradable information for India-focused ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04361:autos",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "automakers",
+   "text_span": "automakers",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 4361.878685800604,
+   "t_wall": 1780604757.8786857,
+   "t_wall_et": "2026-06-04T16:25:57.878686-04:00",
+   "segment_text": "You mentioned your meeting with the automakers yesterday. Could you tell us a little bit about that more about that in particular? Did you discuss trade, tariffs, and the incentives? We had a great meeting with the auto I mean, most of them were here. They were really talking about the fix your own car kind of a thing. Right? But",
+   "context": "And I'm happy for Jim because Jim has really been fighting hard to, you know, produce such a team. So you never know. The answer is yes. He's invited me. I'm going. Team did you decide, sir? Say it? Game 3, game 4. Are you excited? Monday or tomorrow? It could be Monday. Yeah. Monday Mister president, speak in New York? The auto Maybe I'll do both. You mentioned your meeting with the automakers yesterday. Could you tell us a little bit about that more about that in particular? Did you discuss trade, tariffs, and the incentives? We had a great meeting with the auto I mean, most of them were here. They were really talking about the fix your own car kind of a thing. Right? But",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "We had a great meeting with the auto, most of them were here.",
+    "summary": "The President met with automakers yesterday to discuss trade, tariffs, and right-to-repair."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts deregulation and easier vehicle rules that reduce compliance costs for traditional automakers like GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same deregulatory tailwind benefits Ford as a domestic ICE-heavy automaker.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Stellantis also benefits marginally from reduced environmental compliance costs mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rollback of EV mandates and emissions standards reduces regulatory tailwinds that favored EV makers like Tesla.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mixed effects across auto sector ETF holdings offset each other, limiting net directional impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on automaker meeting reiterate prior deregulation and EV mandate rollback, mildly positive for traditional automakers (GM, F, STLA) and mildly negative for EV-focused Tesla, with no clear net effect on the diversified auto ETF.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GM\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President touts deregulation and easier vehicle rules that reduce compliance costs for traditional automakers like GM.\",\"added\":false},{\"ticker\":\"F\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same deregulatory tailwind benefits Ford as a domestic ICE-heavy automaker.\",\"added\":false},{\"ticker\":\"STLA\",\"direction\":\"up\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Stellantis also benefits marginally from reduced environmental compliance costs mentioned.\",\"added\":false},{\"ticker\":\"TSLA\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rollback of EV mandates and emissions standards reduces regulatory tailwinds that favored EV makers like Tesla.\",\"added\":false},{\"ticker\":\"CARZ\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mixed effects across auto sector ETF holdings offset each other, limiting net directional impact.\",\"added\":false}],\"summary\":\"The President's comments on automaker meeting reiterate prior deregulation and EV mandate rollback, mildly positive for traditional automakers (GM, F, STLA) and mildly negative for EV-focused Tesla, with no clear net effect on the diversified auto ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04396:oil",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "expensive"
+   ],
+   "t_audio": 4396.456269536424,
+   "t_wall": 1780604792.4562695,
+   "t_wall_et": "2026-06-04T16:26:32.456270-04:00",
+   "segment_text": "4 ounces of gasoline, you had to spend thousands and thousands of dollars. Lee, do you wanna go into that, Brian? The President, we sent to congress,",
+   "context": "You mentioned your meeting with the automakers yesterday. Could you tell us a little bit about that more about that in particular? Did you discuss trade, tariffs, and the incentives? We had a great meeting with the auto I mean, most of them were here. They were really talking about the fix your own car kind of a thing. Right? But they're doing very well since I'm in office because I got rid of a lot of environmental restrictions. And and in fact, you might just tell them a little bit about that, Lee, where we made it so much easier for them to build a car. They can build a less expensive car that's much better. And, they were so choked up with environmental nonsense that in order to save 4 ounces of gasoline, you had to spend thousands and thousands of dollars. Lee, do you wanna go into that, Brian? The President, we sent to congress,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "got rid of a lot of environmental restrictions",
+    "summary": "The President credits deregulation for enabling cheaper, better car production."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General deregulation rhetoric about autos, not new oil/gas policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Gasoline mentioned only as example of cost savings, no new oil-specific policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct new policy affecting Exxon specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark centers on auto deregulation, not upstream oil producers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt focuses on auto industry deregulation and EV mandate repeal, not on new oil or energy sector policy, so energy tickers see minimal direct impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General deregulation rhetoric about autos, not new oil/gas policy.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Gasoline mentioned only as example of cost savings, no new oil-specific policy.\",\"added\":false},{\"ticker\":\"XOM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct new policy affecting Exxon specifically.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark centers on auto deregulation, not upstream oil producers.\",\"added\":false}],\"summary\":\"The excerpt focuses on auto industry deregulation and EV mandate repeal, not on new oil or energy sector policy, so energy tickers see minimal direct impact.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04409:evs",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "evs",
+   "entity": "Electric vehicles",
+   "kind": "sector",
+   "alias": "electric vehicle",
+   "text_span": "electric vehicle",
+   "dict_tickers": [
+    "TSLA",
+    "RIVN",
+    "GM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4409.282227891156,
+   "t_wall": 1780604805.282228,
+   "t_wall_et": "2026-06-04T16:26:45.282228-04:00",
+   "segment_text": "3 Biden EPA waivers to California that congress passed. The President signed last year, getting rid of the electric vehicle mandate that a whole bunch of other states had signed on to. Just a couple months ago, the President announced here at the White House the largest act of deregulation",
+   "context": "And and in fact, you might just tell them a little bit about that, Lee, where we made it so much easier for them to build a car. They can build a less expensive car that's much better. And, they were so choked up with environmental nonsense that in order to save 4 ounces of gasoline, you had to spend thousands and thousands of dollars. Lee, do you wanna go into that, Brian? The President, we sent to congress, congressional, 3 Biden EPA waivers to California that congress passed. The President signed last year, getting rid of the electric vehicle mandate that a whole bunch of other states had signed on to. Just a couple months ago, the President announced here at the White House the largest act of deregulation",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Electric vehicles",
+    "tickers": [
+     "TSLA",
+     "RIVN",
+     "GM"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "getting rid of the electric vehicle mandate",
+    "summary": "the administration eliminated EV mandate that multiple states adopted."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates already-known EV mandate repeal, ambiguous for Tesla given mixed exposure to regulation vs competition.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "RIVN",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Removal of EV mandate reduces regulatory tailwind for pure-EV makers like Rivian.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rollback of emissions/EV mandates and deregulation lowers compliance costs, benefiting traditional automaker GM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated prior deregulation and EV mandate repeal, a mild negative for pure EV makers like Rivian and mild positive for legacy automakers like GM, with limited new information for markets.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TSLA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterates already-known EV mandate repeal, ambiguous for Tesla given mixed exposure to regulation vs competition.\",\"added\":false},{\"ticker\":\"RIVN\",\"direction\":\"down\",\"confidence\":0.58,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Removal of EV mandate reduces regulatory tailwind for pure-EV makers like Rivian.\",\"added\":false},{\"ticker\":\"GM\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Rollback of emissions/EV mandates and deregulation lowers compliance costs, benefiting traditional automaker GM.\",\"added\":false}],\"summary\":\"The President reiterated prior deregulation and EV mandate repeal, a mild negative for pure EV makers like Rivian and mild positive for legacy automakers like GM, with limited new information for markets.\"}"
+   }
+  },
+  {
+   "signal_id": "eafk0lNExQE:04420:defense_word",
+   "video_id": "eafk0lNExQE",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deregulation"
+   ],
+   "t_audio": 4420.539736842105,
+   "t_wall": 1780604816.5397367,
+   "t_wall_et": "2026-06-04T16:26:56.539737-04:00",
+   "segment_text": "in the history of The United States, the repeal of the 2,009 endangerment finding. All the greenhouse gas emission standards in light, medium, and heavy duty vehicles were following the law,",
+   "context": "4 ounces of gasoline, you had to spend thousands and thousands of dollars. Lee, do you wanna go into that, Brian? The President, we sent to congress, congressional, 3 Biden EPA waivers to California that congress passed. The President signed last year, getting rid of the electric vehicle mandate that a whole bunch of other states had signed on to. Just a couple months ago, the President announced here at the White House the largest act of deregulation in the history of The United States, the repeal of the 2,009 endangerment finding. All the greenhouse gas emission standards in light, medium, and heavy duty vehicles were following the law,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

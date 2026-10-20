@@ -1,0 +1,610 @@
+{
+ "video": {
+  "id": "4EUzlV7-Dew",
+  "url": "https://www.youtube.com/watch?v=4EUzlV7-Dew",
+  "title": "The President Signs Executive Orders, Jun. 3, 2026",
+  "channel": "The White House",
+  "duration": 2601.0,
+  "was_live": true,
+  "release_timestamp": 1780516246.0,
+  "upload_timestamp": 1780519316.0,
+  "upload_date": "20260603",
+  "label": "Signs Executive Orders, Jun. 3, 2026",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1780516246.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 11,
+  "confirmed": 8,
+  "retracted": 3,
+  "unconfirmed": 0,
+  "llm_calls": 14
+ },
+ "signals": [
+  {
+   "signal_id": "4EUzlV7-Dew:00616:defense_word",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 616.0892764285715,
+   "t_wall": 1780516862.0892763,
+   "t_wall_et": "2026-06-03T16:01:02.089276-04:00",
+   "segment_text": "They've been here for a long time. A wheel and a wall, you'll always have. Other things, your computer's gonna be obsolete about 2 days after it's after you buy it. But",
+   "context": "Without that, you could have never done it. No matter how good you do, the wall has been remember the Democrats, the Democrats, I call them. But the Democrats said, the wall doesn't do anything. They said, no. Walls were 2 things. Everything else is obsolete. It gets obsolete quickly. 2 things, wheels and walls. They've been here for a long time. A wheel and a wall, you'll always have. Other things, your computer's gonna be obsolete about 2 days after it's after you buy it. But wheels and walls, they work, and we built",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01404:stock_market",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1404.7240833333335,
+   "t_wall": 1780517650.7240834,
+   "t_wall_et": "2026-06-03T16:14:10.724083-04:00",
+   "segment_text": "we had the strongest stock market in history, and I said we have no choice. We have to do it. I knew it would affect it, but I",
+   "context": "another 2, 3 weeks and just wipe everybody out. We'd I'd rather not do that. Very easy to do. They're ready to do. They wanna do it. They wanna do it. But if we can get something down in writing, which will accomplish the same thing without killing everybody, I'd like to do that. Most of my people, I think, would like to do that. Some people wouldn't, but most of them would. But we had to take a detour as far as wishes for and I'm very proud of that detour, you know, that by the way, just to finish off on that, we had the strongest stock market in history, and I said we have no choice. We have to do it. I knew it would affect it, but I",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "we had the strongest stock market in history",
+    "summary": "The President claims the stock market reached historic strength during his tenure."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric praising market highs and Iran deal progress is already known information with no new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No tech-specific or new policy content, just broad market self-praise.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is generic market boasting without new tariff, deal, or geopolitical detail beyond known Iran situation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely self-congratulatory rhetoric about stock market highs and Iran negotiations, containing no new tradable information for broad market ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric praising market highs and Iran deal progress is already known information with no new policy detail.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No tech-specific or new policy content, just broad market self-praise.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is generic market boasting without new tariff, deal, or geopolitical detail beyond known Iran situation.\", \"added\": false}], \"summary\": \"The President's remarks are largely self-congratulatory rhetoric about stock market highs and Iran negotiations, containing no new tradable information for broad market ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01483:defense_word",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 1483.9494397058822,
+   "t_wall": 1780517729.9494398,
+   "t_wall_et": "2026-06-03T16:15:29.949440-04:00",
+   "segment_text": "I said, what about if they buy? That went into a 2 week negotiation.",
+   "context": "place called the Islamic Republic Of Iran, and we're gonna have to stop them from having a nuclear weapon. That's what we've done. And they've agreed to that. By the way, they I mean, if they signed the agreement, they will have agreed to, we will not have a nuclear weapon or bomb. We will not develop 1. We will not buy 1. You know, originally, was we will not develop. I said, what about if they buy? That went into a 2 week negotiation. But, in the end, we got that. Now,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01653:noc",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2",
+   "text_span": "b 2",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1653.5099666666667,
+   "t_wall": 1780517899.5099666,
+   "t_wall_et": "2026-06-03T16:18:19.509967-04:00",
+   "segment_text": "those beautiful b 2 right here, the b 2 bombers,",
+   "context": "1st, you said last week that The US would go in and dig out the buried nuclear material in the With them. With them. Right. Did Iran actually agree to that? Well, it depends on what day you're talking about. They did agree, and then sometimes they did they agreed. Well, that's what I'm saying. That's 1 of the things we talk about. It's very overrated. I'm the 1 that overrated it. I thought to me it was important. To other people, it's not important because those beautiful b 2 right here, the b 2 bombers,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "those beautiful b 2 right here, the b 2 bombers",
+    "summary": "The President praises B-2 bombers as beautiful and capable."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise of B-2 bombers' capability is mildly positive publicity for Northrop Grumman but restates known views on Iran strike success.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of the B-2 bombers is a minor positive sentiment driver for Northrop Grumman, though it largely repeats prior statements about the Iran strike's effectiveness.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise of B-2 bombers' capability is mildly positive publicity for Northrop Grumman but restates known views on Iran strike success.\", \"added\": false}], \"summary\": \"The President's praise of the B-2 bombers is a minor positive sentiment driver for Northrop Grumman, though it largely repeats prior statements about the Iran strike's effectiveness.\"}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01770:iran",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1770.1116666666667,
+   "t_wall": 1780518016.1116667,
+   "t_wall_et": "2026-06-03T16:20:16.111667-04:00",
+   "segment_text": "Is it possible to get to a deal with Iran,",
+   "context": "I don't wanna do it if we're in conflict. I don't wanna put men in that kind of, danger. I remember Jimmy Carter had some bad problems in Iran with hostages. I don't wanna ever put our people in that kind of danger. But when it's over, it as of this moment, it's agreed that we will go in with them. We will get it, and we will destroy it. It will be destroyed. Mister president, my 2nd question. Is it possible to get to a deal with Iran, whether to go in and do that or to open up the Strait Of Hormuz without,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01813:israel",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "israel",
+   "entity": "Israel",
+   "kind": "country",
+   "alias": "netanyahu",
+   "text_span": "Netanyahu",
+   "dict_tickers": [
+    "EIS",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "partner"
+   ],
+   "t_audio": 1813.659054054054,
+   "t_wall": 1780518059.659054,
+   "t_wall_et": "2026-06-03T16:20:59.659054-04:00",
+   "segment_text": "hey. Look. They've been a great partner. BP Netanyahu has been, for me, a great partner. For other people, so not good. For me, he's been very good.",
+   "context": "We actually spoke with Hezbollah for the 1st time ever. We didn't know they spoke, and they agreed yesterday. They're not gonna shoot. Israel's not gonna shoot. We're just gonna see. But I'd like to separate it. I'd like to have a separate thing because it is it is separate. But Israel hey. Look. They've been a great partner. BP Netanyahu has been, for me, a great partner. For other people, so not good. For me, he's been very good.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Netanyahu",
+    "tickers": [
+     "EIS",
+     "ITA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "He's been a great partner. For me, he's been very good.",
+    "summary": "The President praises Netanyahu as a great partner and ally."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EIS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical rhetoric on Israel/Iran conflict is not a clear driver of Israeli equity ETF pricing beyond existing risk premium.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued Middle East military escalation involving US strikes and Israel support sustains demand expectations for US defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"EIS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Geopolitical rhetoric on Israel/Iran conflict is not a clear driver of Israeli equity ETF pricing beyond existing risk premium.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued Middle East military escalation involving US strikes and Israel support sustains demand expectations for US defense contractors.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01898:ba",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "ba",
+   "entity": "Boeing",
+   "kind": "company",
+   "alias": "boeing",
+   "text_span": "Boeing",
+   "dict_tickers": [
+    "BA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1898.395652173913,
+   "t_wall": 1780518144.395652,
+   "t_wall_et": "2026-06-03T16:22:24.395652-04:00",
+   "segment_text": "put into a Boeing 7 5 7",
+   "context": "nuclear deal penned by Barack Hussein Obama. It's 1 of the dumbest deals I've ever seen. And this has no relation. I like these morons, these Democrats, D U M Democrats, that go on television and say, oh, well, this is just like the Obama did. This is the exact opposite. This is no path to a nuclear weapon. That was a absolute path to a nuclear weapon that you couldn't have done anything about. This is the exact opposite. They gave billions and billions of dollars to Iran, 1,700,000,000 put into a Boeing 7 5 7",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Boeing",
+    "tickers": [
+     "BA"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "1,700,000,000 put into a Boeing 7 5 7",
+    "summary": "The President mentions a Boeing 757 aircraft in context of Iran nuclear deal payments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of a Boeing 757 is incidental historical detail about Obama-era Iran cash payment, not a comment on Boeing business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The Boeing reference is purely incidental to a historical anecdote about Iran cash payments and carries no material implication for Boeing's business.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of a Boeing 757 is incidental historical detail about Obama-era Iran cash payment, not a comment on Boeing business.\", \"added\": false}], \"summary\": \"The Boeing reference is purely incidental to a historical anecdote about Iran cash payments and carries no material implication for Boeing's business.\"}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:01908:banks",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "banks",
+   "text_span": "banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1908.3449444444445,
+   "t_wall": 1780518154.3449445,
+   "t_wall_et": "2026-06-03T16:22:34.344944-04:00",
+   "segment_text": "taken from the banks in DC,",
+   "context": "go on television and say, oh, well, this is just like the Obama did. This is the exact opposite. This is no path to a nuclear weapon. That was a absolute path to a nuclear weapon that you couldn't have done anything about. This is the exact opposite. They gave billions and billions of dollars to Iran, 1,700,000,000 put into a Boeing 7 5 7 with the seats taken out because there wasn't enough room if you left the seats, with 1,700,000,000 in cash taken from the banks in DC,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Banks",
+    "tickers": [
+     "XLF",
+     "KRE",
+     "JPM",
+     "BAC"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "1,700,000,000 in cash taken from the banks in DC",
+    "summary": "The President criticizes banks for releasing $1.7B in cash to Iran under Obama."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Historical anecdote about Obama-era cash transfer, not a current policy action against banks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.51,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new regulatory or financial threat to regional banks implied.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JPM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of banks is incidental historical detail, not a targeted criticism of specific institutions.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BAC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No actionable policy or business impact for Bank of America from this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is a historical criticism of the Obama administration's Iran deal cash transfer, mentioning banks only as a logistical detail; it contains no new policy threat or action against the financial sector, so no meaningful price impact is expected for XLF, KRE, JPM, or BAC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Historical anecdote about Obama-era cash transfer, not a current policy action against banks.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.51, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new regulatory or financial threat to regional banks implied.\", \"added\": false}, {\"ticker\": \"JPM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of banks is incidental historical detail, not a targeted criticism of specific institutions.\", \"added\": false}, {\"ticker\": \"BAC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No actionable policy or business impact for Bank of America from this remark.\", \"added\": false}], \"summary\": \"The President's remark is a historical criticism of the Obama administration's Iran deal cash transfer, mentioning banks only as a logistical detail; it contains no new policy threat or action against the financial sector, so no meaningful price impact is expected for XLF, KRE, JPM, or BAC.\"}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:02087:wbd_outlet",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "wbd_outlet",
+   "entity": "Warner Bros. Discovery (CNN)",
+   "kind": "company",
+   "alias": "cnn",
+   "text_span": "CNN",
+   "dict_tickers": [
+    "WBD"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 2087.719189189189,
+   "t_wall": 1780518333.7191892,
+   "t_wall_et": "2026-06-03T16:25:33.719189-04:00",
+   "segment_text": "It was something I was I I didn't make it, but I was I heard that. I thought that was the greatest thing because people like you have abused our people so badly. The fake news like CNN,",
+   "context": "me, mister president. Just to clarify on what you were asked earlier, is the $1,800,000,000 DOJ fund dead or is it on hold? It's I'd have to ask the lawyers. I don't know. I know 1 thing, the weaponization are you talking about the weaponization fund? That was your decision. The weaponization fund, as far as I'm concerned, was a beautiful thing. It was something I was I I didn't make it, but I was I heard that. I thought that was the greatest thing because people like you have abused our people so badly. The fake news like CNN,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "CNN",
+    "tickers": [
+     "WBD"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "The fake news like CNN",
+    "summary": "The President criticizes CNN as fake news for abusing people."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WBD",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated criticism of CNN as fake news is negative rhetoric but not new policy action against WBD.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical criticism of CNN with no new policy action, implying a small, low-confidence negative sentiment effect on WBD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"WBD\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated criticism of CNN as fake news is negative rhetoric but not new policy action against WBD.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical criticism of CNN with no new policy action, implying a small, low-confidence negative sentiment effect on WBD.\"}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:02088:nyt_outlet",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "nyt_outlet",
+   "entity": "New York Times",
+   "kind": "company",
+   "alias": "new york times",
+   "text_span": "New York Times",
+   "dict_tickers": [
+    "NYT"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 2088.7445454545455,
+   "t_wall": 1780518334.7445455,
+   "t_wall_et": "2026-06-03T16:25:34.744545-04:00",
+   "segment_text": "like the New York Times and like others, have abused our people wait a minute. Be quiet.",
+   "context": "DOJ fund dead or is it on hold? It's I'd have to ask the lawyers. I don't know. I know 1 thing, the weaponization are you talking about the weaponization fund? That was your decision. The weaponization fund, as far as I'm concerned, was a beautiful thing. It was something I was I I didn't make it, but I was I heard that. I thought that was the greatest thing because people like you have abused our people so badly. The fake news like CNN, like the New York Times and like others, have abused our people wait a minute. Be quiet.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "New York Times",
+    "tickers": [
+     "NYT"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "The fake news like CNN, like the New York Times and like others, have abused our people",
+    "summary": "The President criticized New York Times as fake news for abusing the American people."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NYT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated rhetorical criticism of NYT as fake news with no new policy action carries limited market impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar criticism of NYT/CNN without any new regulatory or business action, so minimal expected price effect.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NYT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated rhetorical criticism of NYT as fake news with no new policy action carries limited market impact.\", \"added\": false}], \"summary\": \"The President's remarks reiterate familiar criticism of NYT/CNN without any new regulatory or business action, so minimal expected price effect.\"}"
+   }
+  },
+  {
+   "signal_id": "4EUzlV7-Dew:02345:brk",
+   "video_id": "4EUzlV7-Dew",
+   "entity_id": "brk",
+   "entity": "Berkshire Hathaway",
+   "kind": "company",
+   "alias": "berkshire",
+   "text_span": "Berkshire",
+   "dict_tickers": [
+    "BRK.B"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "partnership"
+   ],
+   "t_audio": 2345.622233502538,
+   "t_wall": 1780518591.6222334,
+   "t_wall_et": "2026-06-03T16:29:51.622233-04:00",
+   "segment_text": "a really dumb guy. I know him well. He's a failure in his family. Berkshire, I know the family. Was partners in a deal with them. I made a lot of money. They made money. We made a good partnership,",
+   "context": "Follow me. You're gonna have the greatest and you know what? For a couple of years, that's such a powerful I would be the best ever at giving it. Nobody would ever be I had to sell free enterprise. Free enterprise is tougher to sell, but that's what's made our country great, and that's why it's great again now. If I didn't get elected, we wouldn't have a country. We really wouldn't have a country. This country would be finished. But I see what's happening in Los Angeles. I see what's happening in New York with I look at Chicago. You have a stupid governor, a dumb a dumb governor, a really dumb guy. I know him well. He's a failure in his family. Berkshire, I know the family. Was partners in a deal with them. I made a lot of money. They made money. We made a good partnership,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Berkshire Hathaway",
+    "tickers": [
+     "BRK.B"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "Was partners in a deal with them. I made a lot of money.",
+    "summary": "The President claims past profitable partnership deal with Berkshire Hathaway."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BRK.B",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President references a past personal business partnership unrelated to Berkshire's current operations, so no material price impact expected.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a nostalgic anecdote about a past deal, not new information about Berkshire Hathaway's business or policy exposure, so it should have negligible effect on BRK.B relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BRK.B\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President references a past personal business partnership unrelated to Berkshire's current operations, so no material price impact expected.\", \"added\": false}], \"summary\": \"The remark is a nostalgic anecdote about a past deal, not new information about Berkshire Hathaway's business or policy exposure, so it should have negligible effect on BRK.B relative to the market.\"}"
+   }
+  }
+ ]
+}

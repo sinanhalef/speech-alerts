@@ -1,0 +1,1613 @@
+{
+ "video": {
+  "id": "V6VgPfBK8gQ",
+  "url": "https://www.youtube.com/watch?v=V6VgPfBK8gQ",
+  "title": "The President Hosts a Roundtable on American Mining",
+  "channel": "The White House",
+  "duration": 2181.0,
+  "was_live": true,
+  "release_timestamp": 1786129302.0,
+  "upload_timestamp": 1786132044.0,
+  "upload_date": "20260807",
+  "label": "Roundtable on American mining",
+  "group": "recent",
+  "notes": "",
+  "t0": 1786129302.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 26,
+  "confirmed": 19,
+  "retracted": 7,
+  "unconfirmed": 0,
+  "llm_calls": 28
+ },
+ "signals": [
+  {
+   "signal_id": "V6VgPfBK8gQ:00222:rare_earth",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "critical minerals",
+   "text_span": "Critical minerals",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 222.5161168888889,
+   "t_wall": 1786129524.5161169,
+   "t_wall_et": "2026-08-07T15:05:24.516117-04:00",
+   "segment_text": "and we have plenty of those resources. Critical minerals are the raw materials of American strength that power everything from advanced",
+   "context": "Now, 250 years ago, America won our political independence in the Revolutionary War. In my 1st term, we secured our energy independence. And now in my 2nd term, we're achieving our economic independence, ensuring that America is never again reliant on hostile foreign nations for the resources our country needs to dominate in the future, and we have plenty of those resources. Critical minerals are the raw materials of American strength that power everything from advanced",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths / Critical minerals sector",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Critical minerals are the raw materials of American strength",
+    "summary": "The President emphasizes critical minerals as essential to American economic independence and future dominance."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric supporting domestic critical minerals/mining reinforces policy tailwind for MP Materials as leading US rare earth producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad pro-mining/critical minerals rhetoric is mildly supportive of rare earth sector ETF exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate existing pro-domestic-mining and critical minerals policy without new specifics, giving a mild, low-conviction positive signal to rare earth-related names like MP and REMX.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MP\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric supporting domestic critical minerals/mining reinforces policy tailwind for MP Materials as leading US rare earth producer.\",\"added\":false},{\"ticker\":\"REMX\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad pro-mining/critical minerals rhetoric is mildly supportive of rare earth sector ETF exposure.\",\"added\":false}],\"summary\":\"The President's remarks reiterate existing pro-domestic-mining and critical minerals policy without new specifics, giving a mild, low-conviction positive signal to rare earth-related names like MP and REMX.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00301:ai_word",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 301.6767993150685,
+   "t_wall": 1786129603.6767993,
+   "t_wall_et": "2026-08-07T15:06:43.676799-04:00",
+   "segment_text": "And today, The United States is opening up new mines at the fastest pace since the 19 fifties. There's never nobody's seen anything like it. And that goes for auto plants too, and AI, and so many other kinds of plants. Have 9 think of this. We have, in a short period of time, a year and 0.5,",
+   "context": "Many of those mines are being reopened and a lot of new mines are being built. Over the past 18 months, our administration has signed or approved more than 160 deals worth nearly $40,000,000,000. And today, The United States is opening up new mines at the fastest pace since the 19 fifties. There's never nobody's seen anything like it. And that goes for auto plants too, and AI, and so many other kinds of plants. Have 9 think of this. We have, in a short period of time, a year and 0.5,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "AI plants, and so many other kinds of plants",
+    "summary": "The President cites AI plant construction among 160+ approved deals worth $40 billion."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General mining/manufacturing rhetoric with only a passing AI mention doesn't materially change NVDA's outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad investment claims are not specific to semiconductor policy and are largely repeat rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark focuses on mining and manufacturing investment with only a brief, non-specific mention of AI plants, offering little new or targeted information for NVDA or SMH.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General mining/manufacturing rhetoric with only a passing AI mention doesn't materially change NVDA's outlook.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad investment claims are not specific to semiconductor policy and are largely repeat rhetoric.\",\"added\":false}],\"summary\":\"The remark focuses on mining and manufacturing investment with only a brief, non-specific mention of AI plants, offering little new or targeted information for NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00367:aluminum",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 367.1753225806452,
+   "t_wall": 1786129669.1753225,
+   "t_wall_et": "2026-08-07T15:07:49.175323-04:00",
+   "segment_text": "of the 1st new aluminum smelter",
+   "context": "certain of our competitors from very successful competitors, but we're much higher. Nobody's seen what's happening today in our country. Nobody has seen anything like it. And hopefully, you'll see it again, but only for us. I think it's gonna be hard to match however. Today, The United States is opening new mines at the fastest pace, and we opened the 1st American rare earth mine in more than 70 years. What's that all about, Marco? We've announced the construction of the 1st new aluminum smelter",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "We've announced the construction of the 1st new aluminum smelter",
+    "summary": "The President announced construction of first new U.S. aluminum smelter, signaling domestic manufacturing investment."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CENX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "New domestic aluminum smelter and protective tariffs benefit US aluminum producer Century Aluminum.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Tariffs on foreign aluminum and new smelter investment support domestic producer Alcoa.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touted tariffs on foreign aluminum/steel/copper and a new domestic aluminum smelter, which is mildly positive for US aluminum producers like Century Aluminum and Alcoa.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CENX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"New domestic aluminum smelter and protective tariffs benefit US aluminum producer Century Aluminum.\", \"added\": false}, {\"ticker\": \"AA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Tariffs on foreign aluminum and new smelter investment support domestic producer Alcoa.\", \"added\": false}], \"summary\": \"The President touted tariffs on foreign aluminum/steel/copper and a new domestic aluminum smelter, which is mildly positive for US aluminum producers like Century Aluminum and Alcoa.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00413:copper",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "copper",
+   "entity": "Copper",
+   "kind": "asset",
+   "alias": "copper",
+   "text_span": "copper",
+   "dict_tickers": [
+    "COPX",
+    "FCX",
+    "SCCO"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 413.9043665957447,
+   "t_wall": 1786129715.9043665,
+   "t_wall_et": "2026-08-07T15:08:35.904366-04:00",
+   "segment_text": "And we're protecting American workers with historic tariffs on foreign copper, aluminum, steel",
+   "context": "3 times. Right? You know, he's looking right? Nobody's you know his 2nd 1? Ronald Reagan, '56. That's pretty good. Right? I like Oklahoma. We authorized deep sea mining to unlock vast untapped resources off our coast, and we're rebuilding the national defense stockpile and investing more than $12,000,000,000 in a brand new strategic mineral reserve. And we're protecting American workers with historic tariffs on foreign copper, aluminum, steel",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Copper",
+    "tickers": [
+     "COPX",
+     "FCX",
+     "SCCO"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "protecting American workers with historic tariffs on foreign copper",
+    "summary": "The President imposing historic tariffs on foreign copper to protect American workers."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COPX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated tariffs on foreign copper support domestic copper producers broadly represented in this ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FCX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariffs on foreign copper protect US-based copper miners like Freeport, though this is a restated policy point.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SCCO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Southern Copper relies heavily on foreign (Peru/Mexico) output, so US tariffs on foreign copper could hurt its competitiveness/export economics into the US market.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated existing tariffs on foreign copper as part of a mining roundtable, a repeat of known policy that modestly favors US-domestic copper producers and pressures foreign-heavy producers like SCCO.",
+    "raw": "{\"tickers\":[{\"ticker\":\"COPX\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterated tariffs on foreign copper support domestic copper producers broadly represented in this ETF.\",\"added\":false},{\"ticker\":\"FCX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Tariffs on foreign copper protect US-based copper miners like Freeport, though this is a restated policy point.\",\"added\":false},{\"ticker\":\"SCCO\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Southern Copper relies heavily on foreign (Peru/Mexico) output, so US tariffs on foreign copper could hurt its competitiveness/export economics into the US market.\",\"added\":false}],\"summary\":\"The President reiterated existing tariffs on foreign copper as part of a mining roundtable, a repeat of known policy that modestly favors US-domestic copper producers and pressures foreign-heavy producers like SCCO.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00414:steel",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 414.96138404255316,
+   "t_wall": 1786129716.961384,
+   "t_wall_et": "2026-08-07T15:08:36.961384-04:00",
+   "segment_text": "And we're protecting American workers with historic tariffs on foreign copper, aluminum, steel",
+   "context": "3 times. Right? You know, he's looking right? Nobody's you know his 2nd 1? Ronald Reagan, '56. That's pretty good. Right? I like Oklahoma. We authorized deep sea mining to unlock vast untapped resources off our coast, and we're rebuilding the national defense stockpile and investing more than $12,000,000,000 in a brand new strategic mineral reserve. And we're protecting American workers with historic tariffs on foreign copper, aluminum, steel",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "protecting American workers with historic tariffs on foreign steel",
+    "summary": "The President imposing historic tariffs on foreign steel to protect American workers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmed steel tariffs support domestic steelmakers like US Steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Domestic steel producer benefits from reaffirmed protective tariffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff protection on steel benefits domestic steel/iron ore producer Cleveland-Cliffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated tariffs favor US domestic steel producer Steel Dynamics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF benefits broadly from restated protectionist tariff policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reaffirmed existing steel/aluminum/copper tariffs and mining policy support, a mild positive but largely already-known tailwind for domestic steelmakers and the steel sector ETF.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmed steel tariffs support domestic steelmakers like US Steel.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Domestic steel producer benefits from reaffirmed protective tariffs.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff protection on steel benefits domestic steel/iron ore producer Cleveland-Cliffs.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated tariffs favor US domestic steel producer Steel Dynamics.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF benefits broadly from restated protectionist tariff policy.\", \"added\": false}], \"summary\": \"The President reaffirmed existing steel/aluminum/copper tariffs and mining policy support, a mild positive but largely already-known tailwind for domestic steelmakers and the steel sector ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00510:defense_word",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 510.57275645161286,
+   "t_wall": 1786129812.5727565,
+   "t_wall_et": "2026-08-07T15:10:12.572757-04:00",
+   "segment_text": "It's gone up greatly in value. I did 1 of those 2, but not quite in the same business. Intel,",
+   "context": "to underwrite critical investments in our mineral supply. And for the 1st time ever, we are even making direct equity investments in critical mineral mineral production. Last July, the Department of War took a $400,000,000 stake in MP Materials, which is already worth nearly $1,200,000,000. It's gone up greatly in value. I did 1 of those 2, but not quite in the same business. Intel, we had a",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00512:intc",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "intc",
+   "entity": "Intel",
+   "kind": "company",
+   "alias": "intel",
+   "text_span": "Intel",
+   "dict_tickers": [
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 512.9190341935483,
+   "t_wall": 1786129814.9190342,
+   "t_wall_et": "2026-08-07T15:10:14.919034-04:00",
+   "segment_text": "It's gone up greatly in value. I did 1 of those 2, but not quite in the same business. Intel,",
+   "context": "to underwrite critical investments in our mineral supply. And for the 1st time ever, we are even making direct equity investments in critical mineral mineral production. Last July, the Department of War took a $400,000,000 stake in MP Materials, which is already worth nearly $1,200,000,000. It's gone up greatly in value. I did 1 of those 2, but not quite in the same business. Intel, we had a",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00640:chips",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 640.0218803418803,
+   "t_wall": 1786129942.0218804,
+   "t_wall_et": "2026-08-07T15:12:22.021880-04:00",
+   "segment_text": "and she wanted the miners of West Virginia to learn how to make chips, little tiny chips with their big strong hands.",
+   "context": "And, you know, I'm not doing that because I'm a nice person. I'm doing that because it's great for the country. It's great for the country, and it also helps a lot of people. And they wanna mine. You know, I've I've seen it, and we had a little campaign against somebody named Hillary Clinton, and she wanted the miners of West Virginia to learn how to make chips, little tiny chips with their big strong hands.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "she wanted the miners of West Virginia to learn how to make chips",
+    "summary": "The President criticizes Hillary Clinton's proposal to retrain coal miners for semiconductor manufacturing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anecdote criticizing Clinton's chip-retraining idea is political rhetoric, not a policy action affecting semiconductor sector fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetorical anecdote, no new semiconductor policy implied.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention or policy affecting Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention or policy affecting Intel; mining funding announcements are unrelated to chipmakers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a political anecdote about Hillary Clinton's chip-retraining proposal for miners, not a new policy affecting semiconductor companies; the substantive news (mining school funding, mining project grants) is unrelated to the listed chip tickers, so no meaningful price impact is expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Anecdote criticizing Clinton's chip-retraining idea is political rhetoric, not a policy action affecting semiconductor sector fundamentals.\",\"added\":false},{\"ticker\":\"SOXX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same rhetorical anecdote, no new semiconductor policy implied.\",\"added\":false},{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific mention or policy affecting Nvidia.\",\"added\":false},{\"ticker\":\"INTC\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific mention or policy affecting Intel; mining funding announcements are unrelated to chipmakers.\",\"added\":false}],\"summary\":\"The remark is a political anecdote about Hillary Clinton's chip-retraining proposal for miners, not a new policy affecting semiconductor companies; the substantive news (mining school funding, mining project grants) is unrelated to the listed chip tickers, so no meaningful price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00672:rtx_word",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "rtx_word",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "rtx",
+   "text_span": "RTX",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "partnership"
+   ],
+   "t_audio": 672.3360526315789,
+   "t_wall": 1786129974.3360527,
+   "t_wall_et": "2026-08-07T15:12:54.336053-04:00",
+   "segment_text": "and the Johns Hopkins RTX partnership.",
+   "context": "And they were not I won by 55 points. They were not thrilled. They didn't wanna be doing they wanted to be in the mines. That's what they wanna do. They want they don't wanna do anything else. I remember that. It was so unbelievable. It was very, very good for me. I tell you what, she didn't get that. We did very well with that kind of thinking. But we're also making major grants to the Colorado School of Mines, the South Dakota School of Mines, and the Johns Hopkins RTX partnership.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "RTX (Raytheon)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "making major grants to the Colorado School of Mines, the South Dakota School of Mines, and the Johns Hopkins RTX partnership",
+    "summary": "The President announces major grants to mining schools and Johns Hopkins RTX partnership."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Grant funding tied to RTX partnership for mining/materials training is a minor positive but likely immaterial to RTX's overall business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of a Johns Hopkins-RTX partnership receiving grant funding is a minor positive news item for RTX, though small relative to its overall revenue base.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RTX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Grant funding tied to RTX partnership for mining/materials training is a minor positive but likely immaterial to RTX's overall business.\", \"added\": false}], \"summary\": \"The President's mention of a Johns Hopkins-RTX partnership receiving grant funding is a minor positive news item for RTX, though small relative to its overall revenue base.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00846:mp",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "mp",
+   "entity": "MP Materials",
+   "kind": "company",
+   "alias": "mp materials",
+   "text_span": "MP Materials",
+   "dict_tickers": [
+    "MP"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 846.6047171232876,
+   "t_wall": 1786130148.604717,
+   "t_wall_et": "2026-08-07T15:15:48.604717-04:00",
+   "segment_text": "president of Colorado School of Mines, Paul Johnson, CEO of MP Materials,",
+   "context": "and the great pioneers of this country, people who built The United States Of America. And very simply, we're making mining great again, and The United States is doing better than it's ever done, maybe ever done. So I just wanna thank you, and I'll now ask secretary Rubio to say a few words, and then we'll hear from some of the wonderful people we have up here, secretary Bergham in this order, secretary Ludnick, executive director of the University of Arizona School of Mining and Engineering and Minerals, Krae Luxbacher, president of Colorado School of Mines, Paul Johnson, CEO of MP Materials,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "MP Materials",
+    "tickers": [
+     "MP"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "CEO of MP Materials",
+    "summary": "MP Materials CEO Paul Johnson introduced to speak at mining event."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's broader rhetoric supporting domestic mining/rare earths reinforces existing government backing for MP Materials, though this excerpt itself is just an introduction.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly general pro-mining rhetoric and introductions; MP Materials is mentioned only as a participant, but the administration's continued emphasis on domestic rare earth/mining support is mildly positive for MP given prior known government stake and contracts.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MP\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's broader rhetoric supporting domestic mining/rare earths reinforces existing government backing for MP Materials, though this excerpt itself is just an introduction.\", \"added\": false}], \"summary\": \"The excerpt is mostly general pro-mining rhetoric and introductions; MP Materials is mentioned only as a participant, but the administration's continued emphasis on domestic rare earth/mining support is mildly positive for MP given prior known government stake and contracts.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:00963:rare_earth",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "critical minerals",
+   "text_span": "critical minerals",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 963.2264435414535,
+   "t_wall": 1786130265.2264435,
+   "t_wall_et": "2026-08-07T15:17:45.226444-04:00",
+   "segment_text": "valuing this when other presidents did not. The group of people that are here today represent the whole nation effort that's involved in this. It's alright. Because at the core of this is our industrial strength, but also our national sovereignty, that we never depend on other countries for things we need to prosper and to defend ourselves as a people. And so you'll see here today, as you've already pointed out, we have leaders not just from government, but from universities, from private industry, from students who are gonna be the future of this industry. I wanted to briefly very briefly touch on what the state department's done. You know, earlier this year, we had a critical minerals ministerial. We brought in countries from all over the world to and announced the creation of something called Forge, which is an international partnership chaired by us in The United States to leverage public finance and coordinate diplomatic support to secure these supply chains",
+   "context": "valuing this when other presidents did not. The group of people that are here today represent the whole nation effort that's involved in this. It's alright. Because at the core of this is our industrial strength, but also our national sovereignty, that we never depend on other countries for things we need to prosper and to defend ourselves as a people. And so you'll see here today, as you've already pointed out, we have leaders not just from government, but from universities, from private industry, from students who are gonna be the future of this industry. I wanted to briefly very briefly touch on what the state department's done. You know, earlier this year, we had a critical minerals ministerial. We brought in countries from all over the world to and announced the creation of something called Forge, which is an international partnership chaired by us in The United States to leverage public finance and coordinate diplomatic support to secure these supply chains",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths / Critical minerals sector",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.85,
+    "quote": "we have leaders from government, universities, private industry to secure these supply chains",
+    "summary": "The President announces international Forge partnership to secure critical minerals supply chains and leverage public finance."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated administration support for domestic/allied critical minerals supply chains benefits MP as leading US rare earths producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector-wide rare earths ETF benefits modestly from continued government emphasis on securing critical mineral supply chains.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks restate existing US critical minerals policy (Forge partnership, prior agreements) with a positive but largely already-known tone, mildly supportive for rare earths names like MP and REMX.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MP\",\"direction\":\"up\",\"confidence\":0.62,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterated administration support for domestic/allied critical minerals supply chains benefits MP as leading US rare earths producer.\",\"added\":false},{\"ticker\":\"REMX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Sector-wide rare earths ETF benefits modestly from continued government emphasis on securing critical mineral supply chains.\",\"added\":false}],\"summary\":\"Remarks restate existing US critical minerals policy (Forge partnership, prior agreements) with a positive but largely already-known tone, mildly supportive for rare earths names like MP and REMX.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01125:anduril",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "anduril",
+   "entity": "Anduril",
+   "kind": "company",
+   "alias": "anduril",
+   "text_span": "Anduril",
+   "dict_tickers": [
+    "PLTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1125.5000833846152,
+   "t_wall": 1786130427.5000834,
+   "t_wall_et": "2026-08-07T15:20:27.500083-04:00",
+   "segment_text": "doing all of this work. It's a whole of government approach. You understood that we had to turn the ship around. It took every agency, every working together and your leadership has driven that. Across interior, it's included the US Geologic Survey, got Anduril Travnik here in the front row who's the assistant secretary for",
+   "context": "bilateral agreements, you know, going to 51 countries, whether it's Howard with the trade deals and the investments that are being made, then the National Security Council, David Copley and everybody working on supply chain, Jared Hagen and the NEDC doing all of this work. It's a whole of government approach. You understood that we had to turn the ship around. It took every agency, every working together and your leadership has driven that. Across interior, it's included the US Geologic Survey, got Anduril Travnik here in the front row who's the assistant secretary for",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Anduril",
+    "tickers": [
+     "PLTR"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "got Anduril Travnik here in the front row who's the assistant secretary",
+    "summary": "The President acknowledges Anduril representative present at event; government supply chain work."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PLTR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The mention is of an official named Anduril Travnik, not the defense company Anduril, and has no bearing on Palantir.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general praise for mining policy and workforce investment; the Anduril reference is a person's surname, not the company, and there is no substantive news for PLTR.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PLTR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The mention is of an official named Anduril Travnik, not the defense company Anduril, and has no bearing on Palantir.\", \"added\": false}], \"summary\": \"The excerpt is general praise for mining policy and workforce investment; the Anduril reference is a person's surname, not the company, and there is no substantive news for PLTR.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01203:oil",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "drill baby drill",
+   "text_span": "drill baby drill",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 1203.5520800000002,
+   "t_wall": 1786130505.55208,
+   "t_wall_et": "2026-08-07T15:21:45.552080-04:00",
+   "segment_text": "You when you were campaigning, you talked about drill baby drill,",
+   "context": "degree students that has to change with a 100,000,000 historic investment and the other investments announced today, the anticipation and the challenge to those 14 schools that are all here today is to double or triple the number of graduates in the next 2 years. And again, the President, even though that those are all amazing things, the most important thing that you've done is you've restored America's belief that we can do big, bold, hard things again. You when you were campaigning, you talked about drill baby drill, and some people scoffed at that. But under that vision of energy abundance America now, number 1 oil producer,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01212:natgas",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 1212.6683797468354,
+   "t_wall": 1786130514.6683798,
+   "t_wall_et": "2026-08-07T15:21:54.668380-04:00",
+   "segment_text": "number 1 natural gas producer, number 1 LNG exporter, all of that in 18 months.",
+   "context": "the anticipation and the challenge to those 14 schools that are all here today is to double or triple the number of graduates in the next 2 years. And again, the President, even though that those are all amazing things, the most important thing that you've done is you've restored America's belief that we can do big, bold, hard things again. You when you were campaigning, you talked about drill baby drill, and some people scoffed at that. But under that vision of energy abundance America now, number 1 oil producer, number 1 natural gas producer, number 1 LNG exporter, all of that in 18 months.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01278:chips",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductors",
+   "text_span": "semiconductors",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1278.336842105263,
+   "t_wall": 1786130580.336842,
+   "t_wall_et": "2026-08-07T15:23:00.336842-04:00",
+   "segment_text": "AI, semiconductors,",
+   "context": "And with the to supporting that, we're gonna map baby map, and we're gonna put American mining back on the map. So thank you. Thank you very much. And it's something that we maybe should say, do more oil right now than Russia and Saudi Arabia combined, and that's not including Venezuela. We're getting a lot of oil and good relationship we have with them too, but a lot of oil. But we do with that, even including Venezuela, we're doing more oil than Russia and Saudi Arabia combined. Isn't that something? That's that's a big difference. Howard, please. So let's be clear. Critical minerals more than an economic issue. They're a national security issue. If we wanna lead in advanced manufacturing, AI, semiconductors,",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Critical minerals national security issue. Advanced manufacturing, AI, semiconductors.",
+    "summary": "The President links semiconductors to national security and advanced manufacturing leadership."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about critical minerals/semiconductors links but no new policy specifics for chip sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic mention of semiconductors within broader mining/tariff remarks, no new actionable policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific NVDA-relevant announcement, just broad reference to AI/semiconductors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Push for domestic chip/critical mineral supply chains could modestly favor US-based fabs like Intel.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely general rhetoric on mining, tariffs, and critical minerals with a passing reference to semiconductors; no new concrete policy for chip stocks, so effects are mostly neutral except a slight domestic-manufacturing tailwind for Intel.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about critical minerals/semiconductors links but no new policy specifics for chip sector.\",\"added\":false},{\"ticker\":\"SOXX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same generic mention of semiconductors within broader mining/tariff remarks, no new actionable policy.\",\"added\":false},{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No specific NVDA-relevant announcement, just broad reference to AI/semiconductors.\",\"added\":false},{\"ticker\":\"INTC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Push for domestic chip/critical mineral supply chains could modestly favor US-based fabs like Intel.\",\"added\":false}],\"summary\":\"The excerpt is largely general rhetoric on mining, tariffs, and critical minerals with a passing reference to semiconductors; no new concrete policy for chip stocks, so effects are mostly neutral except a slight domestic-manufacturing tailwind for Intel.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01309:defense_word",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "tariffs"
+   ],
+   "t_audio": 1309.1519325,
+   "t_wall": 1786130611.1519325,
+   "t_wall_et": "2026-08-07T15:23:31.151932-04:00",
+   "segment_text": "right here. So our section 2 32 tariffs,",
+   "context": "energy, defense, we can't depend on our foreign adversaries for the materials that underpin our industries. We we just can't. And that's why the president tasked us to rebuild the supply chain and make it a top priority of his administration and my department. So our objective is very simple. We're going to mine here. We're gonna process here. We're gonna refine here. We're gonna manufacture here, and we're gonna create those American jobs right here. So our section 2 32 tariffs, right, where we strengthened our steel, our aluminum, and our copper industries.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense [sector]",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "section 2 32 tariffs, strengthened our steel, aluminum, copper industries",
+    "summary": "Section 232 tariffs used to strengthen domestic steel, aluminum, and copper industries supporting defense."
+   },
+   "llm_attempts": 2,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad aerospace/defense ETF not directly tied to mining/critical minerals commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Aerospace/defense sector ETF only tangentially linked to critical minerals push.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Drone maker not directly referenced; critical minerals supply chain benefit is indirect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention; defense supply chain security theme is diffuse for this specific name.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CENX",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Section 232 tariffs and new domestic aluminum smelter investment directly benefit US aluminum producers like Century Aluminum.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New US steel smelter/furnace investment in Alabama and tariff support benefit domestic steelmakers like US Steel.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "Remarks emphasize domestic mining, tariffs, and new smelter investments benefiting US metals producers (aluminum, steel, critical minerals) rather than the listed defense-adjacent ETFs/stocks, which show little direct linkage.",
+    "raw": "{\"tickers\":[{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad aerospace/defense ETF not directly tied to mining/critical minerals commentary.\",\"added\":false},{\"ticker\":\"XAR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Aerospace/defense sector ETF only tangentially linked to critical minerals push.\",\"added\":false},{\"ticker\":\"AVAV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Drone maker not directly referenced; critical minerals supply chain benefit is indirect.\",\"added\":false},{\"ticker\":\"KTOS\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct mention; defense supply chain security theme is diffuse for this specific name.\",\"added\":false},{\"ticker\":\"CENX\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Section 232 tariffs and new domestic aluminum smelter investment directly benefit US aluminum producers like Century Aluminum.\",\"added\":true},{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"New US steel smelter/furnace investment in Alabama and tariff support benefit domestic steelmakers like US Steel.\",\"added\":true}],\"summary\":\"Remarks emphasize domestic mining, tariffs, and new smelter investments benefiting US metals producers (aluminum, steel, critical minerals) rather than the listed defense-adjacent ETFs/stocks, which show little direct linkage.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01312:steel",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "tariffs"
+   ],
+   "t_audio": 1312.042223076923,
+   "t_wall": 1786130614.042223,
+   "t_wall_et": "2026-08-07T15:23:34.042223-04:00",
+   "segment_text": "right, where we strengthened our steel,",
+   "context": "energy, defense, we can't depend on our foreign adversaries for the materials that underpin our industries. We we just can't. And that's why the president tasked us to rebuild the supply chain and make it a top priority of his administration and my department. So our objective is very simple. We're going to mine here. We're gonna process here. We're gonna refine here. We're gonna manufacture here, and we're gonna create those American jobs right here. So our section 2 32 tariffs, right, where we strengthened our steel,",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "section 2 32 tariffs, where we strengthened our steel",
+    "summary": "Administration using Section 232 tariffs to strengthen domestic steel industry."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirmation of Section 232 steel tariffs supports domestic steelmakers like US Steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff support for domestic steel benefits Nucor as a major US producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs benefits from continued steel tariff protection.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel Dynamics gains from tariff-driven domestic production incentives.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF likely benefits modestly from reiterated tariff support.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President/Lutnick reaffirmed Section 232 steel/aluminum tariffs and domestic mining/manufacturing push, a mild positive repeat catalyst for US steel producers with limited new information.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reaffirmation of Section 232 steel tariffs supports domestic steelmakers like US Steel.\", \"added\": false},\n{\"ticker\": \"NUE\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff support for domestic steel benefits Nucor as a major US producer.\", \"added\": false},\n{\"ticker\": \"CLF\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Cleveland-Cliffs benefits from continued steel tariff protection.\", \"added\": false},\n{\"ticker\": \"STLD\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel Dynamics gains from tariff-driven domestic production incentives.\", \"added\": false},\n{\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF likely benefits modestly from reiterated tariff support.\", \"added\": false}\n],\n\"summary\": \"The President/Lutnick reaffirmed Section 232 steel/aluminum tariffs and domestic mining/manufacturing push, a mild positive repeat catalyst for US steel producers with limited new information.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01312:aluminum",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "aluminum",
+   "entity": "Aluminum",
+   "kind": "sector",
+   "alias": "aluminum",
+   "text_span": "aluminum",
+   "dict_tickers": [
+    "AA",
+    "CENX"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "tariffs"
+   ],
+   "t_audio": 1312.742,
+   "t_wall": 1786130614.742,
+   "t_wall_et": "2026-08-07T15:23:34.742000-04:00",
+   "segment_text": "our aluminum, and our copper industries.",
+   "context": "that underpin our industries. We we just can't. And that's why the president tasked us to rebuild the supply chain and make it a top priority of his administration and my department. So our objective is very simple. We're going to mine here. We're gonna process here. We're gonna refine here. We're gonna manufacture here, and we're gonna create those American jobs right here. So our section 2 32 tariffs, right, where we strengthened our steel, our aluminum, and our copper industries.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Aluminum",
+    "tickers": [
+     "AA",
+     "CENX"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "section 232 tariffs, where we strengthened our steel, our aluminum",
+    "summary": "Speaker supports tariffs to strengthen U.S. aluminum industry and domestic supply chain."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"AA\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated Section 232 aluminum tariffs and domestic smelter investment support US aluminum producers like Alcoa.\", \"added\": false}, {\"ticker\": \"CENX\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Century Aluminum benefits directly from tariff protection and mention of new US aluminum smelter capacity expansion.\", \"added\": false}], \"summary\": \"The President reaffirmed Section 232 tariffs on aluminum and touted new domestic smelter investment, a mildly positive, mostly already-known catalyst for US aluminum producers Alcoa and Century Aluminum.\""
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01313:copper",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "copper",
+   "entity": "Copper",
+   "kind": "asset",
+   "alias": "copper",
+   "text_span": "copper",
+   "dict_tickers": [
+    "COPX",
+    "FCX",
+    "SCCO"
+   ],
+   "triggers_nearby": [
+    "jobs",
+    "tariffs"
+   ],
+   "t_audio": 1313.786,
+   "t_wall": 1786130615.786,
+   "t_wall_et": "2026-08-07T15:23:35.786000-04:00",
+   "segment_text": "our aluminum, and our copper industries.",
+   "context": "that underpin our industries. We we just can't. And that's why the president tasked us to rebuild the supply chain and make it a top priority of his administration and my department. So our objective is very simple. We're going to mine here. We're gonna process here. We're gonna refine here. We're gonna manufacture here, and we're gonna create those American jobs right here. So our section 2 32 tariffs, right, where we strengthened our steel, our aluminum, and our copper industries.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Copper",
+    "tickers": [
+     "COPX",
+     "FCX",
+     "SCCO"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.75,
+    "quote": "section 232 tariffs, where we strengthened our steel, our aluminum, and our copper industries",
+    "summary": "Speaker supports tariffs to strengthen U.S. copper industry and domestic supply chain."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FCX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiteration of Section 232 copper tariffs supports domestic copper producers like Freeport.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SCCO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Southern Copper's production is mostly outside the US, so US tariff support is less directly beneficial and could even hurt via import exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COPX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF benefits modestly from reaffirmed tariff support for domestic copper industry.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated existing Section 232 tariffs protecting US steel, aluminum, and copper industries, a mild positive for domestic copper producers and the sector ETF, but not new news and less relevant for foreign-heavy producers like SCCO.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FCX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiteration of Section 232 copper tariffs supports domestic copper producers like Freeport.\", \"added\": false}, {\"ticker\": \"SCCO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Southern Copper's production is mostly outside the US, so US tariff support is less directly beneficial and could even hurt via import exposure.\", \"added\": false}, {\"ticker\": \"COPX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF benefits modestly from reaffirmed tariff support for domestic copper industry.\", \"added\": false}], \"summary\": \"The President reiterated existing Section 232 tariffs protecting US steel, aluminum, and copper industries, a mild positive for domestic copper producers and the sector ETF, but not new news and less relevant for foreign-heavy producers like SCCO.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01351:korea",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "korea",
+   "text_span": "Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1351.9550000000002,
+   "t_wall": 1786130653.955,
+   "t_wall_et": "2026-08-07T15:24:13.955000-04:00",
+   "segment_text": "right, we gave Korea zinc $7,400,000,000",
+   "context": "the 1 in Oklahoma. Oh. Jesse is doing the 1 in Oklahoma where he's gonna double the aluminum production by The United States Of America. That's pretty amazing. Great success. Right? Then, of course, we're doing steel in Alabama. I mean, these are the 1st types of smelters and furnaces that America's had in 40 or 50 years, and it's only because of your leadership and the $2.32 tariffs which you've been driving. So the chips program, right, we gave Korea zinc $7,400,000,000",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "neutral",
+    "action": "subsidy",
+    "confidence": 0.75,
+    "quote": "chips program, we gave Korea zinc $7,400,000,000",
+    "summary": "US allocated $7.4B to Korea Zinc under CHIPS program."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The subsidy benefits Korea Zinc's US smelter specifically, not the broader Korean equity market represented by EWY.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark highlights a $7.4B subsidy to Korea Zinc to build a US smelter, a positive for that specific company but not a clear directional signal for the broad Korea ETF EWY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The subsidy benefits Korea Zinc's US smelter specifically, not the broader Korean equity market represented by EWY.\", \"added\": false}], \"summary\": \"The remark highlights a $7.4B subsidy to Korea Zinc to build a US smelter, a positive for that specific company but not a clear directional signal for the broad Korea ETF EWY.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01519:aapl",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1519.2897,
+   "t_wall": 1786130821.2897,
+   "t_wall_et": "2026-08-07T15:27:01.289700-04:00",
+   "segment_text": "magnetics to Apple.",
+   "context": "And I'm I'm pleased to report to you actually this has been because this has been a call to action from from you for a long time to make magnets. I'm pleased to show you actually, these are magnets that we made at MP for GM. These these magnets were mined and refined in the state of California and made in the state of Texas, 100% American made. And thanks to your leadership, we are scaling up that facility. We're gonna triple the capacity, so we're delivering magnets to GM today. Next year, we'll be delivering magnetics to Apple. And then from there, we're gonna 10 x our capacity as a result of our our public private partnership together.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01613:rare_earth",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "critical minerals",
+   "text_span": "Critical Minerals",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1613.0598351145038,
+   "t_wall": 1786130915.0598352,
+   "t_wall_et": "2026-08-07T15:28:35.059835-04:00",
+   "segment_text": "highlighting of Critical Minerals in the press and the amazing team that you have working through you, through interior and energy,",
+   "context": "I wanted to thank you for 2 things, 1 is thank you for the investment in the mining schools. Our expertise has atrophied over time, particularly in the processing space and this investment is going make a big difference. 2nd thing is while majority of I think programs have sort of shrunk over time, we've actually grown over the last 2 years. And I want to thank you because I attribute that growth to you and your administrations highlighting of Critical Minerals in the press and the amazing team that you have working through you, through interior and energy,",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:01957:farmers",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1957.15,
+   "t_wall": 1786131259.15,
+   "t_wall_et": "2026-08-07T15:34:19.150000-04:00",
+   "segment_text": "And the people that are the farmers",
+   "context": "Good looking guys here. Mister president, this is a truly historic occasion to bring America back to the leadership of mining, which built this building and which built this country. We've been sleepwalking through many administrations, and this is a revolution that will just electrify the millions of people in The United States that understand that everything you touch, we either mined it or we grew it agriculturally. And the people that are the farmers really need everything the miners produce to help them farm. So this is critical to our national security.",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:02020:coal_word",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "coal_word",
+   "entity": "Coal",
+   "kind": "sector",
+   "alias": "coal",
+   "text_span": "coal",
+   "dict_tickers": [
+    "BTU",
+    "ARCH",
+    "AMR"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2020.2774608,
+   "t_wall": 1786131322.2774608,
+   "t_wall_et": "2026-08-07T15:35:22.277461-04:00",
+   "segment_text": "Doug made a terrible mistake before when he said coal. I said, you have to always precede it by saying clean, beautiful coal.",
+   "context": "You know, I'll just say thank you for your attention to this matter as you like to end your post. It's it's awesome. And we're here and we're ready to go. So thank you. Well, I just wanna thank you very much. This is an honor for me to be here. I love what you do. Doug made a terrible mistake before when he said coal. I said, you have to always precede it by saying clean, beautiful coal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Coal",
+    "tickers": [
+     "BTU",
+     "ARCH",
+     "AMR"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "clean, beautiful coal",
+    "summary": "The President corrects reference to coal, emphasizing it should be called clean, beautiful coal."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "BTU",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive rhetoric on domestic coal production supports sentiment for the largest US coal producer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ARCH",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal rhetoric mildly supportive of coal miners though not company-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AMR",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad pro-coal comments provide slight sentiment tailwind for metallurgical/thermal coal producer.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's repeated pro-coal rhetoric at a mining roundtable is mildly positive sentiment for domestic coal producers but contains no new policy or numbers, so effects should be small and low-confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"BTU\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive rhetoric on domestic coal production supports sentiment for the largest US coal producer.\", \"added\": false}, {\"ticker\": \"ARCH\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pro-coal rhetoric mildly supportive of coal miners though not company-specific.\", \"added\": false}, {\"ticker\": \"AMR\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad pro-coal comments provide slight sentiment tailwind for metallurgical/thermal coal producer.\", \"added\": false}], \"summary\": \"The President's repeated pro-coal rhetoric at a mining roundtable is mildly positive sentiment for domestic coal producers but contains no new policy or numbers, so effects should be small and low-confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:02071:china",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2071.771666666667,
+   "t_wall": 1786131373.7716668,
+   "t_wall_et": "2026-08-07T15:36:13.771667-04:00",
+   "segment_text": "And, you know, China is smart, and they're using coal. They're building 58 coal plants right now, generating plants, all coal.",
+   "context": "It's firing up our great plants and certain types of plant. There's, you know, nothing like it, and we're out of that business. If you would have seen the people suffer, and some of you were those people. I believe some of you were the people. But this great big coal deposits, you couldn't touch them. If you touched them, you were like a bad person. They put you in jail. It was the craziest thing I've ever seen. And, you know, China is smart, and they're using coal. They're building 58 coal plants right now, generating plants, all coal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "China is smart, and they're using coal. They're building 58 coal plants right now",
+    "summary": "China is constructing 58 coal-fired power plants while the U.S. has restricted coal development."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on China's coal build-out is not a policy action affecting broad China equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is rhetorical praise of coal, not a China-specific economic or trade policy shift.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No relevance to Chinese internet/tech sector from this coal-focused remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on domestic coal mining pride and a passing, non-policy comment about China's coal plants; no material new information for China-related ETFs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General commentary on China's coal build-out is not a policy action affecting broad China equities.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark is rhetorical praise of coal, not a China-specific economic or trade policy shift.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No relevance to Chinese internet/tech sector from this coal-focused remark.\",\"added\":false}],\"summary\":\"The President's remarks focus on domestic coal mining pride and a passing, non-policy comment about China's coal plants; no material new information for China-related ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "V6VgPfBK8gQ:02081:solar",
+   "video_id": "V6VgPfBK8gQ",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "wind turbines",
+   "text_span": "wind turbines",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "sell"
+   ],
+   "t_audio": 2081.4270193083576,
+   "t_wall": 1786131383.4270194,
+   "t_wall_et": "2026-08-07T15:36:23.427019-04:00",
+   "segment_text": "They don't have too much wind. You know, they sell us wind turbines, but they don't use too many of them. So it's because they're smart. They sell them, but they don't use them. They have 1 that's pretty big. Does it work? It just is for purposes of show. When they go to look at a turbine, they go and show them, here we are, but they never work.",
+   "context": "you couldn't touch them. If you touched them, you were like a bad person. They put you in jail. It was the craziest thing I've ever seen. And, you know, China is smart, and they're using coal. They're building 58 coal plants right now, generating plants, all coal. They don't have too much wind. You know, they sell us wind turbines, but they don't use too many of them. So it's because they're smart. They sell them, but they don't use them. They have 1 that's pretty big. Does it work? It just is for purposes of show. When they go to look at a turbine, they go and show them, here we are, but they never work.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "wind turbines",
+    "tickers": [
+     "TAN",
+     "ICLN"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "They sell us wind turbines, but they don't use them.",
+    "summary": "The President criticizes China for selling wind turbines while not using them domestically."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-coal, anti-wind rhetoric restates known policy stance and doesn't directly hit solar names.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued pro-fossil-fuel, anti-renewable rhetoric is mildly negative sentiment for clean energy ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks focus on wind and coal, not solar manufacturing specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention of residential solar/inverter market.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates pro-coal, anti-wind rhetoric with no new policy specifics, mildly negative for renewable sentiment but not directly market-moving for these tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TAN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-coal, anti-wind rhetoric restates known policy stance and doesn't directly hit solar names.\",\"added\":false},{\"ticker\":\"ICLN\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Continued pro-fossil-fuel, anti-renewable rhetoric is mildly negative sentiment for clean energy ETF.\",\"added\":false},{\"ticker\":\"FSLR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remarks focus on wind and coal, not solar manufacturing specifically.\",\"added\":false},{\"ticker\":\"ENPH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct mention of residential solar/inverter market.\",\"added\":false}],\"summary\":\"The President reiterates pro-coal, anti-wind rhetoric with no new policy specifics, mildly negative for renewable sentiment but not directly market-moving for these tickers.\"}"
+   }
+  }
+ ]
+}

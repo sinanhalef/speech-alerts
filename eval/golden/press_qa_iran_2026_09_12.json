@@ -1,0 +1,41 @@
+{
+  "name": "press_qa_iran_2026_09_12",
+  "transcript": "eval/golden/press_qa_iran_2026_09_12.txt",
+  "source_url": "https://www.youtube.com/watch?v=3bQMpueB750",
+  "title": "US NEWS LIVE: The President Stuns Everyone With Urgent 24-Hour Announcement | The President Speech LIVE 2026-09-12 17:49",
+  "speed": 20,
+  "expected": [
+    {
+      "entity": "Iran",
+      "tickers": [
+        "XLE",
+        "USO"
+      ],
+      "t_audio": 38,
+      "tolerance": 30,
+      "why": "The President: every bridge in Iran will be decimated, every power plant out of business"
+    }
+  ],
+  "not_expected": [
+    {
+      "entity": "Oil",
+      "tickers": [
+        "XLE",
+        "USO"
+      ],
+      "t_audio": 301,
+      "tolerance": 30,
+      "reason": "reporter's question about Kurdistan resuming oil exports; The President only says 'I expected that'"
+    },
+    {
+      "entity": "Fox",
+      "tickers": [
+        "FOXA"
+      ],
+      "t_audio": 689,
+      "tolerance": 20,
+      "reason": "reporter self-introduction 'Mark Meredith, Fox News'"
+    }
+  ],
+  "notes": "Press Q&A after the Iran remarks, 2026-09-12. Speaker ids hand-annotated: 0 the President, 1 reporters. Lines that mix both are labelled by their dominant speaker."
+}

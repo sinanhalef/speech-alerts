@@ -1,0 +1,2023 @@
+{
+ "video": {
+  "id": "uyeCoZ5Yego",
+  "url": "https://www.youtube.com/watch?v=uyeCoZ5Yego",
+  "title": "The President Makes an Announcement on Healthcare Affordability, Aug. 31, 2026",
+  "channel": "The White House",
+  "duration": 3465.0,
+  "was_live": true,
+  "release_timestamp": 1788202961.0,
+  "upload_timestamp": 1788206894.0,
+  "upload_date": "20260831",
+  "label": "Healthcare affordability announcement, Aug 31 2026",
+  "group": "recent",
+  "notes": "",
+  "t0": 1788202961.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 34,
+  "confirmed": 22,
+  "retracted": 12,
+  "unconfirmed": 0,
+  "llm_calls": 41
+ },
+ "signals": [
+  {
+   "signal_id": "uyeCoZ5Yego:00048:pharma",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug pricing",
+   "text_span": "drug pricing",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "most favored nation"
+   ],
+   "t_audio": 48.968555555555554,
+   "t_wall": 1788203009.9685555,
+   "t_wall_et": "2026-08-31T15:03:29.968555-04:00",
+   "segment_text": "And that's most favored nation, drug pricing.",
+   "context": "I think it just can't get certainly, when you talk about medical and dollars in the same sentences, it doesn't get bigger. So I'm thrilled to announce a major expansion of 1 of our signature affordability initiatives, something that people have been trying to get for years, for decades. And, I I'm not even sure that other presidents tried. They didn't try because the chances of them getting it were very slim. They would never have been able to do it. And that's most favored nation, drug pricing.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals (drug pricing)",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "most favored nation, drug pricing",
+    "summary": "The President announces major expansion of Most Favored Nation drug pricing initiative."
+   },
+   "llm_attempts": 1,
+   "count": 21,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Expansion of MFN drug pricing pressures healthcare sector margins broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF directly exposed to new most-favored-nation pricing expansion.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not named among the 9 companies but sector-wide pricing policy expansion is a negative read-through.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not explicitly named but faces same sector pricing pressure risk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector-wide MFN pricing expansion is negative even if not directly named.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of an expanded most-favored-nation drug pricing initiative, with new companies committing to lower US prices, is a negative pricing-policy shock for pharma broadly, most directly hitting pharma-focused ETFs and majors even if not all are named participants.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Expansion of MFN drug pricing pressures healthcare sector margins broadly.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Pharma-specific ETF directly exposed to new most-favored-nation pricing expansion.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not named among the 9 companies but sector-wide pricing policy expansion is a negative read-through.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not explicitly named but faces same sector pricing pressure risk.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Sector-wide MFN pricing expansion is negative even if not directly named.\",\"added\":false}],\"summary\":\"The President's announcement of an expanded most-favored-nation drug pricing initiative, with new companies committing to lower US prices, is a negative pricing-policy shock for pharma broadly, most directly hitting pharma-focused ETFs and majors even if not all are named participants.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:00156:health_ins",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicaid",
+   "text_span": "Medicaid",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 156.7295145631068,
+   "t_wall": 1788203117.7295146,
+   "t_wall_et": "2026-08-31T15:05:17.729515-04:00",
+   "segment_text": "secretary of commerce, Howard Lutnick, administrator of the Centers for Medicine and Medicaid Services,",
+   "context": "That's a group of very interesting names. We'll have to talk about that later. But congratulations, because the job you're doing is amazing, and your companies are doing amazingly, and a big contribution you're making to health. Thanks as well to secretary of health and human services, Robert f Kennedy junior, secretary of commerce, Howard Lutnick, administrator of the Centers for Medicine and Medicaid Services, doctor Mehmed Az, chief counselor and nominee for deputy secretary of health and human services,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicaid",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.7,
+    "quote": "administrator of the Centers for Medicine and Medicaid Services",
+    "summary": "The President acknowledges the federal Medicaid program administrator role in remarks."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark focuses on drug pricing/pharma, not managed care insurers directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct insurer-specific policy mentioned, mostly rhetoric about pharma pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Excerpt centers on drug manufacturers, not health plan companies.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicaid administrator mention is incidental, no new Medicare/Medicaid policy for insurers.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt reiterates the 'most favored nation' drug pricing policy affecting pharma companies, with no new material information for health insurers like UNH, CI, ELV, or HUM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark focuses on drug pricing/pharma, not managed care insurers directly.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct insurer-specific policy mentioned, mostly rhetoric about pharma pricing.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Excerpt centers on drug manufacturers, not health plan companies.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Medicaid administrator mention is incidental, no new Medicare/Medicaid policy for insurers.\", \"added\": false}], \"summary\": \"The excerpt reiterates the 'most favored nation' drug pricing policy affecting pharma companies, with no new material information for health insurers like UNH, CI, ELV, or HUM.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:00391:nvo",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "ozempic",
+   "text_span": "Ozempic",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 391.91607263157897,
+   "t_wall": 1788203352.9160726,
+   "t_wall_et": "2026-08-31T15:09:12.916073-04:00",
+   "segment_text": "For example, we have slashed the cost of the weight loss drugs like Ozempic by more than $1,800",
+   "context": "And they laughed at me when I said it, and then all of a sudden, they said it in a certain way, they didn't laugh any longer. And they all agreed, you know, they had to agree. Now other countries are paying more so that Americans can pay less. We had to get their prices up in order to get our prices down. And, they went up very considerably, and we went down by much more because the world is a bigger place than than us. So they went down proportionately much more. For example, we have slashed the cost of the weight loss drugs like Ozempic by more than $1,800",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Novo Nordisk",
+    "tickers": [
+     "NVO"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "slashed the cost of the weight loss drugs like Ozempic by more than $1,800",
+    "summary": "The President claims his administration reduced Ozempic costs by over $1,800."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVO",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts forced price cuts on Ozempic, reinforcing pricing pressure narrative that squeezes Novo Nordisk's US margins.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize government-driven price cuts on Ozempic, a negative for Novo Nordisk's revenue outlook even though the policy is already known.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVO\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts forced price cuts on Ozempic, reinforcing pricing pressure narrative that squeezes Novo Nordisk's US margins.\", \"added\": false}], \"summary\": \"The President's remarks emphasize government-driven price cuts on Ozempic, a negative for Novo Nordisk's revenue outlook even though the policy is already known.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:00614:stla",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 614.8571875,
+   "t_wall": 1788203575.8571875,
+   "t_wall_et": "2026-08-31T15:12:55.857188-04:00",
+   "segment_text": "Pharma, Teva, and Stellantis for",
+   "context": "in new investments in The United States having to do with this subject. And the pharmaceutical industry has been creating jobs like they've never done before. Over 100,000 new jobs in this industry alone. We have every industry. And right now, there are more people working in The United States than ever before. Before. We have never had as many people working as we have today, which I think is a great stat. I especially wanna thank UCB, Sun Pharma, Teva, and Stellantis for",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stellantis",
+    "tickers": [
+     "STLA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "I especially wanna thank UCB, Sun Pharma, Teva, and Stellantis for",
+    "summary": "The President thanks Stellantis for new US investments and job creation."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Praise for contributing API materials to strategic reserve is likely a mention error (Stellantis is an automaker, not pharma) and immaterial to its core auto business.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark's praise appears misattributed to Stellantis (likely confused with a pharma company) and is unrelated to its main automotive operations, so no meaningful price impact is expected.",
+    "raw": "{\"tickers\":[{\"ticker\":\"STLA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Praise for contributing API materials to strategic reserve is likely a mention error (Stellantis is an automaker, not pharma) and immaterial to its core auto business.\",\"added\":false}],\"summary\":\"The remark's praise appears misattributed to Stellantis (likely confused with a pharma company) and is unrelated to its main automotive operations, so no meaningful price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:00676:pharma",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "Drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "price",
+    "prices"
+   ],
+   "t_audio": 676.9538640909091,
+   "t_wall": 1788203637.953864,
+   "t_wall_et": "2026-08-31T15:13:57.953864-04:00",
+   "segment_text": "For decades, politicians from both parties promised to make health care more affordable, but they all failed, every 1 of them. Drug prices went up every year. Drug price except",
+   "context": "And by stockpiling such materials in vast quantities, we can ensure Americans are never left without them in the event of an emergency. So we have an emergency, including wars and lots of other things. We are fully equipped to handle it, but nobody's gonna attack us. You know why? Because they're smart. For decades, politicians from both parties promised to make health care more affordable, but they all failed, every 1 of them. Drug prices went up every year. Drug price except",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Drug prices went up every year.",
+    "summary": "The President criticizes decades of rising drug prices despite political promises."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated push to force drug prices down weighs modestly on healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Direct pharma sector exposure to renewed rhetoric on falling drug prices is negative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restated pressure on drug pricing is mildly negative for large pharma like Pfizer.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Ongoing rhetoric about drug price cuts is a mild negative overhang for Eli Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated claims of drug prices dropping dramatically are a mild negative for Merck's pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's restated rhetoric about drug prices falling sharply and calls for Congress to codify pricing deals is a mild negative for pharma stocks and the sector broadly, though it's mostly repeat messaging rather than new policy.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterated push to force drug prices down weighs modestly on healthcare sector sentiment.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Direct pharma sector exposure to renewed rhetoric on falling drug prices is negative.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General restated pressure on drug pricing is mildly negative for large pharma like Pfizer.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Ongoing rhetoric about drug price cuts is a mild negative overhang for Eli Lilly.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Repeated claims of drug prices dropping dramatically are a mild negative for Merck's pricing power.\",\"added\":false}],\"summary\":\"The President's restated rhetoric about drug prices falling sharply and calls for Congress to codify pricing deals is a mild negative for pharma stocks and the sector broadly, though it's mostly repeat messaging rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01127:health_ins",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1127.092256976744,
+   "t_wall": 1788204088.092257,
+   "t_wall_et": "2026-08-31T15:21:28.092257-04:00",
+   "segment_text": "Because of that, as an update, Medicare 2 months ago offered at $50 a month anyone listening right now, pay attention to this. $50 a month if you're eligible, be able to get access to these GLP 1 medications that the president highlighted earlier were $1,200",
+   "context": "with pharmacists. And the most common thing that they're saying is it's good for them, their business. And when they see the patients and they come back, for example, on GLP 1 medications, the usual thing they say is you look wonderful because they've lost a lot of weight, and they feel healthy, and they're driving better they couldn't have afforded. Because of that, as an update, Medicare 2 months ago offered at $50 a month anyone listening right now, pay attention to this. $50 a month if you're eligible, be able to get access to these GLP 1 medications that the president highlighted earlier were $1,200",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.85,
+    "quote": "$50 a month if you're eligible, get access to GLP 1 medications",
+    "summary": "Medicare reduced GLP-1 medication copay to $50/month, down from $1,200."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicare GLP-1 pricing deal affects manufacturers and PBMs more directly than insurer margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower drug prices under Medicare negotiation is largely neutral to Cigna's core insurance economics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same GLP-1 pricing news is not clearly positive or negative for Elevance's business model.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "As a Medicare-focused insurer, cheaper GLP-1 access could reduce downstream medical costs and boost enrollment, mildly positive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steep government-negotiated GLP-1 price cuts (from $1,200 to $50) directly hit manufacturer revenue per prescription.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "NVO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Same Medicare GLP-1 price cap pressures Novo Nordisk's US pricing power.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President touted a new Medicare deal cutting GLP-1 drug costs to $50/month, which is negative for GLP-1 manufacturers (Lilly, Novo) via lower prices but largely neutral-to-mildly positive for health insurers who may benefit from reduced downstream costs.",
+    "raw": "{\"tickers\":[{\"ticker\":\"UNH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Medicare GLP-1 pricing deal affects manufacturers and PBMs more directly than insurer margins.\",\"added\":false},{\"ticker\":\"CI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Lower drug prices under Medicare negotiation is largely neutral to Cigna's core insurance economics.\",\"added\":false},{\"ticker\":\"ELV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same GLP-1 pricing news is not clearly positive or negative for Elevance's business model.\",\"added\":false},{\"ticker\":\"HUM\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"As a Medicare-focused insurer, cheaper GLP-1 access could reduce downstream medical costs and boost enrollment, mildly positive.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Steep government-negotiated GLP-1 price cuts (from $1,200 to $50) directly hit manufacturer revenue per prescription.\",\"added\":true},{\"ticker\":\"NVO\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Same Medicare GLP-1 price cap pressures Novo Nordisk's US pricing power.\",\"added\":true}],\"summary\":\"The President touted a new Medicare deal cutting GLP-1 drug costs to $50/month, which is negative for GLP-1 manufacturers (Lilly, Novo) via lower prices but largely neutral-to-mildly positive for health insurers who may benefit from reduced downstream costs.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01149:defense_word",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1149.1018068965518,
+   "t_wall": 1788204110.1018069,
+   "t_wall_et": "2026-08-31T15:21:50.101807-04:00",
+   "segment_text": "seniors already just in 2 months have signed up to get these medications, and we project we'll actually be able to save money for the taxpayer because the savings aren't only in dollars, they're in saved lives, less hospitalization,",
+   "context": "Because of that, as an update, Medicare 2 months ago offered at $50 a month anyone listening right now, pay attention to this. $50 a month if you're eligible, be able to get access to these GLP 1 medications that the president highlighted earlier were $1,200 or more. The so called fat shot, as you have called it, sir, could never have gotten those prices even close to that. Now we have 600,000 seniors already just in 2 months have signed up to get these medications, and we project we'll actually be able to save money for the taxpayer because the savings aren't only in dollars, they're in saved lives, less hospitalization,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01305:pharma",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1305.0526272727275,
+   "t_wall": 1788204266.0526273,
+   "t_wall_et": "2026-08-31T15:24:26.052627-04:00",
+   "segment_text": "of no pharmaceutical investment in the country. Look at the chart.",
+   "context": "thought that this was possible. When you 1st brought this up, Bobby and I were talking with us saying, oh my god. This will never happen. And now you've covered 90% of America with your power of energy and your way of thinking innovatively and understanding where this country needs to go. So thank you, mister president. You've done it. Thank you, Howard. And, you know, just, the enthusiasm. You know, you hear these 3 guys. I hear them all the time. And maybe they're more enthusiastic about this. Everybody nobody can believe what's happening. Just take a look at this. 638,000,000,000 of no pharmaceutical investment in the country. Look at the chart.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "638,000,000,000 of pharmaceutical investment in the country.",
+    "summary": "The President highlights $638 billion pharmaceutical investment across America."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued rhetoric on drug price cuts is mildly negative for healthcare sector margins broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Pharma-specific ETF faces pressure from reiterated drug price reduction claims and Medicaid price-matching pledges.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General reinforcement of lower drug pricing policy is a mild negative for large pharma revenue outlook.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same sector-wide pricing pressure narrative applies, slightly negative for premium drug makers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated drug price cut messaging is a modest negative overhang for Merck's pricing power.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate his administration's drug pricing crackdown and tout investment/pricing deals (including Stellantis Medicaid price-matching), which is broadly negative for pharma pricing power though the $638B investment figure is a mild offsetting positive; overall pharma-related tickers skew slightly down while investment beneficiaries are ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued rhetoric on drug price cuts is mildly negative for healthcare sector margins broadly.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Pharma-specific ETF faces pressure from reiterated drug price reduction claims and Medicaid price-matching pledges.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General reinforcement of lower drug pricing policy is a mild negative for large pharma revenue outlook.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same sector-wide pricing pressure narrative applies, slightly negative for premium drug makers.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated drug price cut messaging is a modest negative overhang for Merck's pricing power.\", \"added\": false}], \"summary\": \"The President's remarks reiterate his administration's drug pricing crackdown and tout investment/pricing deals (including Stellantis Medicaid price-matching), which is broadly negative for pharma pricing power though the $638B investment figure is a mild offsetting positive; overall pharma-related tickers skew slightly down while investment beneficiaries are ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01310:spacers",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "rocket",
+   "text_span": "rocket",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1310.006436923077,
+   "t_wall": 1788204271.0064368,
+   "t_wall_et": "2026-08-31T15:24:31.006437-04:00",
+   "segment_text": "Going up like a rocket, and it's going up a lot higher than that.",
+   "context": "and understanding where this country needs to go. So thank you, mister president. You've done it. Thank you, Howard. And, you know, just, the enthusiasm. You know, you hear these 3 guys. I hear them all the time. And maybe they're more enthusiastic about this. Everybody nobody can believe what's happening. Just take a look at this. 638,000,000,000 of no pharmaceutical investment in the country. Look at the chart. Going up like a rocket, and it's going up a lot higher than that. And then over here, we have another 1.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01353:stla",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1353.4216927272728,
+   "t_wall": 1788204314.4216926,
+   "t_wall_et": "2026-08-31T15:25:14.421693-04:00",
+   "segment_text": "I'm representing a Stellantis, and I wanted to announce",
+   "context": "higher. So you add that up, you're talking about numbers that nobody even imagined possible. Could I ask some of the companies to say a couple of words, I'll get started. 1st of all, thank you, the President. And I'd be remiss not to say what an honor it's been to work with you and your incredible team in making sure we stay focused on putting American patients 1st. So today, I'm representing a Stellantis, and I wanted to announce that our Medicaid prices will be matched with those developing countries.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01872:tether",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "tether",
+   "entity": "Tether",
+   "kind": "company",
+   "alias": "tether",
+   "text_span": "Tether",
+   "dict_tickers": [
+    "CRCL",
+    "COIN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1872.7286154340836,
+   "t_wall": 1788204833.7286155,
+   "t_wall_et": "2026-08-31T15:33:53.728616-04:00",
+   "segment_text": "and all the amazing employees that we have across the globe. 1 of the things we're most proud of is that 8 patients every single 2nd in The US alone gets a Tether prescription. And so we take that as a huge responsibility and it's why this mission that we all share in this room is to enhance and ensure access,",
+   "context": "These agreements further acknowledgment of that commitment and that investment. Thank you, mister president. Thank you very much. Thank you. Good afternoon. Thank you so much for the invitation today, and probably more importantly, thank you so much for the collaboration. We've really established a great back and forth and really appreciate the insights and the thinking. I'm Chris Fox and I represent Teva Pharmaceuticals and all the amazing employees that we have across the globe. 1 of the things we're most proud of is that 8 patients every single 2nd in The US alone gets a Tether prescription. And so we take that as a huge responsibility and it's why this mission that we all share in this room is to enhance and ensure access,",
+   "speaker": 14,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:01944:defense_word",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1944.5156435643564,
+   "t_wall": 1788204905.5156436,
+   "t_wall_et": "2026-08-31T15:35:05.515644-04:00",
+   "segment_text": "we are making the largest manufacturing investment that our companies have done with a $2,000,000,000",
+   "context": "UCB has always been guided by 1 mission, which is helping people suffering from chronic disease to live the best life possible. Mister president, you have been clear about the necessity to invest into innovation, and we share this commitment. And it's very important to think that the breakthrough of tomorrow will need and depend on the investment that we are making today. And today, we are making the largest manufacturing investment that our companies have done with a $2,000,000,000 facility in Georgia. And on top of that, we are also strengthening American supply",
+   "speaker": 12,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02049:lly",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "lly",
+   "entity": "Eli Lilly",
+   "kind": "company",
+   "alias": "eli lilly",
+   "text_span": "Eli Lilly",
+   "dict_tickers": [
+    "LLY"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2049.5566678474115,
+   "t_wall": 1788205010.5566678,
+   "t_wall_et": "2026-08-31T15:36:50.556668-04:00",
+   "segment_text": "clinical trials done here in America to both protect our national security and to make it more affordable. And under your leadership, we can do both. We don't have to do 1 or the other. We can do both. So thank you, mister president. Good. Then we're really dominating the world in terms of everything that we're talking about. And I wanna thank Eli Lilly and Pfizer,",
+   "context": "but also to bring back and to preserve American innovation. That is the goal. So we're so thankful to the companies. We can't do it alone, but we do have real problems with other countries eclipsing us in where early stage clinical research is happening. So there's a lot more happening in your administration to not only bring the manufacturing home, but we wanna bring the clinical trials home. We want every part of clinical research, clinical trials done here in America to both protect our national security and to make it more affordable. And under your leadership, we can do both. We don't have to do 1 or the other. We can do both. So thank you, mister president. Good. Then we're really dominating the world in terms of everything that we're talking about. And I wanna thank Eli Lilly and Pfizer,",
+   "speaker": 16,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Eli Lilly",
+    "tickers": [
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "I wanna thank Eli Lilly",
+    "summary": "The President praised Eli Lilly for supporting clinical research and manufacturing in America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LLY",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised Eli Lilly's US investment/participation in the affordability initiative, a mild positive but largely rhetorical.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Eli Lilly as a cooperative partner in the healthcare affordability push is mildly positive but mostly reiterates known participation, so expect only a small, low-confidence upward drift relative to SPY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LLY\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised Eli Lilly's US investment/participation in the affordability initiative, a mild positive but largely rhetorical.\", \"added\": false}], \"summary\": \"The President's praise of Eli Lilly as a cooperative partner in the healthcare affordability push is mildly positive but mostly reiterates known participation, so expect only a small, low-confidence upward drift relative to SPY.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02050:pfe",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2050.212222615804,
+   "t_wall": 1788205011.2122226,
+   "t_wall_et": "2026-08-31T15:36:51.212223-04:00",
+   "segment_text": "clinical trials done here in America to both protect our national security and to make it more affordable. And under your leadership, we can do both. We don't have to do 1 or the other. We can do both. So thank you, mister president. Good. Then we're really dominating the world in terms of everything that we're talking about. And I wanna thank Eli Lilly and Pfizer,",
+   "context": "but also to bring back and to preserve American innovation. That is the goal. So we're so thankful to the companies. We can't do it alone, but we do have real problems with other countries eclipsing us in where early stage clinical research is happening. So there's a lot more happening in your administration to not only bring the manufacturing home, but we wanna bring the clinical trials home. We want every part of clinical research, clinical trials done here in America to both protect our national security and to make it more affordable. And under your leadership, we can do both. We don't have to do 1 or the other. We can do both. So thank you, mister president. Good. Then we're really dominating the world in terms of everything that we're talking about. And I wanna thank Eli Lilly and Pfizer,",
+   "speaker": 16,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "I wanna thank Eli Lilly and Pfizer",
+    "summary": "The President praised Pfizer for supporting clinical research and manufacturing in America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised Pfizer as a cooperative partner in the affordability/manufacturing initiative, a mild positive but largely reiterating known participation.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Pfizer as part of a broad pharma initiative is mildly positive but not new information likely to move the stock significantly.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised Pfizer as a cooperative partner in the affordability/manufacturing initiative, a mild positive but largely reiterating known participation.\", \"added\": false}], \"summary\": \"The President's praise of Pfizer as part of a broad pharma initiative is mildly positive but not new information likely to move the stock significantly.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02050:mrk",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "mrk",
+   "entity": "Merck",
+   "kind": "company",
+   "alias": "merck",
+   "text_span": "Merck",
+   "dict_tickers": [
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2050.755,
+   "t_wall": 1788205011.755,
+   "t_wall_et": "2026-08-31T15:36:51.755000-04:00",
+   "segment_text": "Merck,",
+   "context": "eclipsing us in where early stage clinical research is happening. So there's a lot more happening in your administration to not only bring the manufacturing home, but we wanna bring the clinical trials home. We want every part of clinical research, clinical trials done here in America to both protect our national security and to make it more affordable. And under your leadership, we can do both. We don't have to do 1 or the other. We can do both. So thank you, mister president. Good. Then we're really dominating the world in terms of everything that we're talking about. And I wanna thank Eli Lilly and Pfizer, Merck,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Merck",
+    "tickers": [
+     "MRK"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "I wanna thank Eli Lilly and Pfizer, Merck",
+    "summary": "The President thanks Merck alongside Eli Lilly and Pfizer for pharmaceutical leadership."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MRK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised Merck as part of a broader affordability/manufacturing initiative, mildly positive but generic and already largely known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Merck alongside other pharma majors in a healthcare affordability event is mildly positive but non-specific, likely a small, short-lived positive effect.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MRK\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised Merck as part of a broader affordability/manufacturing initiative, mildly positive but generic and already largely known.\", \"added\": false}], \"summary\": \"The President's praise of Merck alongside other pharma majors in a healthcare affordability event is mildly positive but non-specific, likely a small, short-lived positive effect.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02111:health_ins",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2111.7126262773722,
+   "t_wall": 1788205072.7126262,
+   "t_wall_et": "2026-08-31T15:37:52.712626-04:00",
+   "segment_text": "The main 1 of the main proposals proposals from from the the Democratic Democratic Socialists Socialist of of America America is Medicare for all paid by the government, by taxing to hire earners. How do you contrast that approach with what you are highlighting today, is bringing more of these private companies on board to lower cost for Americans. Well, this is much bigger, much better, much less expensive,",
+   "context": "that I think we should try and focus on what's just taken place because nobody can even believe it. Yes, please. Yes, mister president. Thank you so much for doing this. So 1st of all, on health care affordability, which is a big issue for voters. The main 1 of the main proposals proposals from from the the Democratic Democratic Socialists Socialist of of America America is Medicare for all paid by the government, by taxing to hire earners. How do you contrast that approach with what you are highlighting today, is bringing more of these private companies on board to lower cost for Americans. Well, this is much bigger, much better, much less expensive,",
+   "speaker": 15,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Medicare for all paid by the government, by taxing higher earners.",
+    "summary": "The President contrasts Democratic Medicare-for-all proposal unfavorably with private company approach to lower healthcare costs."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's rejection of Medicare for All in favor of private-sector deals is supportive of private insurers' business model.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same logic as UNH: defense of private healthcare system benefits private insurers relative to single-payer threat.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "up",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reduced political risk of Medicare-for-all is mildly positive for managed care insurers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's stance against government-run healthcare alternative slightly favors private Medicare Advantage players like Humana.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates opposition to Medicare for All, framing private-sector drug pricing deals as superior; this is mildly supportive rhetoric for private health insurers but is largely repeat rhetoric with limited new tradable information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's rejection of Medicare for All in favor of private-sector deals is supportive of private insurers' business model.\", \"added\": false}, {\"ticker\": \"CI\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same logic as UNH: defense of private healthcare system benefits private insurers relative to single-payer threat.\", \"added\": false}, {\"ticker\": \"ELV\", \"direction\": \"up\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reduced political risk of Medicare-for-all is mildly positive for managed care insurers.\", \"added\": false}, {\"ticker\": \"HUM\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's stance against government-run healthcare alternative slightly favors private Medicare Advantage players like Humana.\", \"added\": false}], \"summary\": \"The President reiterates opposition to Medicare for All, framing private-sector drug pricing deals as superior; this is mildly supportive rhetoric for private health insurers but is largely repeat rhetoric with limited new tradable information.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02174:pharma",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "prescription drugs",
+   "text_span": "prescription drugs",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2174.2234493670885,
+   "t_wall": 1788205135.2234495,
+   "t_wall_et": "2026-08-31T15:38:55.223449-04:00",
+   "segment_text": "And I'm all for anything, but what we've done today is it broke down prices, and you get the level of a level of prescription drugs and care, ultimately care,",
+   "context": "and they lose all of that. They lose everything they've had, and there's there'd be a tremendous backup. But it's actually, in many cases, bigger than the budget. I remember they tried it in Vermont, and they tried it in a few places. They went into it, and they realized it costs more money than the entire amount of money taken in. And this was by a liberal governor, very liberal, who wanted to do it. And I'm all for anything, but what we've done today is it broke down prices, and you get the level of a level of prescription drugs and care, ultimately care,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.75,
+    "quote": "broke down prices, and you get the level of care",
+    "summary": "The President credits his policies with reducing prescription drug prices and improving care access."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric contrasting Medicare for All with existing deals, no new policy specifics for healthcare sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "References prior drug pricing deals without new pricing details, limited incremental impact on pharma sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new company-specific pricing action mentioned, just reiteration of administration's drug pricing narrative.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "GLP-1 pricing singled out as example of misuse/high cost, implying continued scrutiny on GLP-1 makers like Lilly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention affecting Merck beyond general drug pricing rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely political rhetoric contrasting private healthcare with Medicare for All, reiterating past drug pricing claims without new specifics, except a pointed jab at GLP-1 drug pricing/misuse that could weigh modestly on Lilly; overall limited new price-relevant information for the sector.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric contrasting Medicare for All with existing deals, no new policy specifics for healthcare sector.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"References prior drug pricing deals without new pricing details, limited incremental impact on pharma sector.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new company-specific pricing action mentioned, just reiteration of administration's drug pricing narrative.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"GLP-1 pricing singled out as example of misuse/high cost, implying continued scrutiny on GLP-1 makers like Lilly.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention affecting Merck beyond general drug pricing rhetoric.\", \"added\": false}], \"summary\": \"The remark is largely political rhetoric contrasting private healthcare with Medicare for All, reiterating past drug pricing claims without new specifics, except a pointed jab at GLP-1 drug pricing/misuse that could weigh modestly on Lilly; overall limited new price-relevant information for the sector.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02219:defense_word",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "expensive"
+   ],
+   "t_audio": 2219.0063924050633,
+   "t_wall": 1788205180.0063925,
+   "t_wall_et": "2026-08-31T15:39:40.006392-04:00",
+   "segment_text": "We also know, without any question, that those programs ultimately get more and expensive until they devour the system, so they end up with a 2 tiered system.",
+   "context": "I'd like you to address that for a 2nd, the difference. And, you know, you hear it. It sounds so good, but in the end, it's it's horrible health care. It doesn't work. And we know that for 2 reasons. 1, you censor and, ultimately limit access to care. We see that, for example, in other countries that are remarking how effective this drug pricing has been because they actually just don't give their patients who have, for example, a cancer who's older, the medication. They just let them pass. We also know, without any question, that those programs ultimately get more and expensive until they devour the system, so they end up with a 2 tiered system. So you have affluent people who get better quality care in private clinics, and you have the average American who would have to go to wherever they're allowed to go. And if you notice when we talked about the program with GLP 1 medications in Medicare,",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02357:oil",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 2357.343143859649,
+   "t_wall": 1788205318.343144,
+   "t_wall_et": "2026-08-31T15:41:58.343144-04:00",
+   "segment_text": "And a lot of oil is coming out. That's why you haven't seen the price of oil go like they thought it might have to go. And the main thing, when I say it all, I could go on",
+   "context": "That doesn't mean we won't smack them. We'll see what happens. But, we have the Strait Of Hormuz in extremely good shape. You know, we're taking over many, many ships. It got through last night, as you know, with the Navy's assistance. And we've been averaging 30 ships a night. That's a lot. And a lot of oil is coming out. That's why you haven't seen the price of oil go like they thought it might have to go. And the main thing, when I say it all, I could go on",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.92,
+    "quote": "A lot of oil is coming out. That's why you haven't seen the price of oil go like they thought it might have to go.",
+    "summary": "The President credits naval operations in Strait of Hormuz with stabilizing oil prices and increasing exports."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Commentary on oil flow stability is not new information about supply/demand fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reassurance that oil supply is flowing normally suggests no upward price pressure, but this is already reflected in current prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or contract news specific to Exxon from this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General geopolitical commentary without specific implications for Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on Iran and Strait of Hormuz oil flows are largely reiterations of known geopolitical stance, offering no new material information likely to move energy stocks or oil ETFs beyond normal market fluctuations.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Commentary on oil flow stability is not new information about supply/demand fundamentals.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reassurance that oil supply is flowing normally suggests no upward price pressure, but this is already reflected in current prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or contract news specific to Exxon from this remark.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General geopolitical commentary without specific implications for Chevron.\", \"added\": false}], \"summary\": \"The President's remarks on Iran and Strait of Hormuz oil flows are largely reiterations of known geopolitical stance, offering no new material information likely to move energy stocks or oil ETFs beyond normal market fluctuations.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02508:fed",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "fed chairman",
+   "text_span": "Fed chairman",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2508.3052,
+   "t_wall": 1788205469.3052,
+   "t_wall_et": "2026-08-31T15:44:29.305200-04:00",
+   "segment_text": "Fed chairman Kevin,",
+   "context": "We had health care that was through the roof. This is gonna bring down health care numbers that nobody's ever even envisioned before. Nobody if I would've told you a year ago that we were gonna pull off drug prices that would be down 50, 60, 70%, you would've said that's impossible. So, just the way it is. And less careful. And I think I think you're gonna see some very big drops in a lot of different categories. Yep. Please. Mister president, Fed chairman Kevin, Worsch signaled Friday that he might consider raising rates. Are you opposed to this, and have you spoken to him about it? No. I have a lot of respect him, and he'll do what he has to do. I think we our interest rates are too high. I think that,",
+   "speaker": 17,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02606:fed",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2606.5480693877553,
+   "t_wall": 1788205567.5480695,
+   "t_wall_et": "2026-08-31T15:46:07.548069-04:00",
+   "segment_text": "we should have the lowest interest rates anywhere",
+   "context": "some day, I think maybe we'll be able to convince people of that. It's very easy. Again, you take certain country I don't wanna mention any, but countries that you consider great, and they're paying 0.5 a point. Alright? 0.5 a point. But they make $40,000,000,000 a year with The United States. If they don't make the 40,000,000,000 and we don't need their product. It doesn't have to we really don't need their product. So we cut off trade with that country. We just made $40,000,000,000. And you do a few countries like that, and we become a big money machine, we should have the lowest interest rates anywhere",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Federal Reserve",
+    "tickers": [
+     "TLT",
+     "XLF",
+     "KRE"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "we should have the lowest interest rates anywhere",
+    "summary": "The President argues the US should have lower interest rates than other countries."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TLT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated rhetoric pressuring for lower rates has no new policy content to move long bonds decisively.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rate rhetoric without new Fed action is unlikely to move financials meaningfully.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Regional banks unaffected by repeated commentary on desired rate levels absent concrete policy change.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats familiar rhetoric demanding lower interest rates and criticizing the Fed, but offers no new policy or data, so market-moving impact on rate-sensitive tickers is minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TLT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated rhetoric pressuring for lower rates has no new policy content to move long bonds decisively.\", \"added\": false}, {\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rate rhetoric without new Fed action is unlikely to move financials meaningfully.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Regional banks unaffected by repeated commentary on desired rate levels absent concrete policy change.\", \"added\": false}], \"summary\": \"The President repeats familiar rhetoric demanding lower interest rates and criticizing the Fed, but offers no new policy or data, so market-moving impact on rate-sensitive tickers is minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02740:defense_word",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 2740.695,
+   "t_wall": 1788205701.695,
+   "t_wall_et": "2026-08-31T15:48:21.695000-04:00",
+   "segment_text": "2 years ago, we had a laughing stock. We were a laughing stock all over the world. Right now, we have the hottest country anywhere in the world. Nobody close. Yeah. Please. Mister president,",
+   "context": "relatively inactive. He's been relatively inactive by comparison to what he could have been. He's a man that I have a lot of respect for. I think he respects me, and I think he respects our country again. He didn't respect our country 2 years ago. He left in our country. He thought our country was run by fools, and he was right. He was right. Now we have the hottest country in the world. Right now, we have the hottest country in the world. 2 years ago, we had a laughing stock. We were a laughing stock all over the world. Right now, we have the hottest country anywhere in the world. Nobody close. Yeah. Please. Mister president,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02766:oklo",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "oklo",
+   "entity": "Oklo",
+   "kind": "company",
+   "alias": "oklo",
+   "text_span": "Oklo",
+   "dict_tickers": [
+    "OKLO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2766.417018181818,
+   "t_wall": 1788205727.4170182,
+   "t_wall_et": "2026-08-31T15:48:47.417018-04:00",
+   "segment_text": "the governor of New York, Kathy Oklo, just announced that she's letting 7,000",
+   "context": "2 years ago, we had a laughing stock. We were a laughing stock all over the world. Right now, we have the hottest country anywhere in the world. Nobody close. Yeah. Please. Mister president, last month, DHS recorded a record number of deportations. What changed to make that possible? Nothing. Just we just were able to break the court system a little bit. We had judges who were very hostile. I mean, look, in New York, the governor of New York, Kathy Oklo, just announced that she's letting 7,000 people go into criminals.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02853:pharma",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug companies",
+   "text_span": "drug companies",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2853.9020358778625,
+   "t_wall": 1788205814.902036,
+   "t_wall_et": "2026-08-31T15:50:14.902036-04:00",
+   "segment_text": "we were able to talk to drug companies. You needed 2 elements. The drug companies had to agree, some of the people right back here,",
+   "context": "doing a good job. Yeah. Please. Thank most favored nation, sir. Secretary Kennedy talked about why some predecessors failed, and he talked about the inertia in the industry. That hasn't bothered you. You've delivered voluntary deal after voluntary deal. What have you recognized about the industry, about deal making, about the problem that has led you to deliver on this when past administrations have failed? So I think the reason we were successful, we were able to talk to drug companies. You needed 2 elements. The drug companies had to agree, some of the people right back here,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.72,
+    "quote": "drug companies had to agree",
+    "summary": "The President negotiated voluntary deals with pharmaceutical companies on pricing."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restatement of prior most-favored-nation drug pricing deals, no new specifics for the sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates known pricing pressure narrative without new deal terms.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President notes drug stocks 'went up not down' after deals, suggesting market already priced this as manageable.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new company-specific pricing details revealed, just rhetorical recap.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat of prior pricing deal narrative without new terms.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate previously announced voluntary drug pricing deals and note that pharma stocks rose after them, offering no new price-relevant information for any ticker.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General restatement of prior most-favored-nation drug pricing deals, no new specifics for the sector.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterates known pricing pressure narrative without new deal terms.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President notes drug stocks 'went up not down' after deals, suggesting market already priced this as manageable.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new company-specific pricing details revealed, just rhetorical recap.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Repeat of prior pricing deal narrative without new terms.\",\"added\":false}],\"summary\":\"The President's remarks reiterate previously announced voluntary drug pricing deals and note that pharma stocks rose after them, offering no new price-relevant information for any ticker.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:02892:uk",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 2892.7215107142856,
+   "t_wall": 1788205853.7215106,
+   "t_wall_et": "2026-08-31T15:50:53.721511-04:00",
+   "segment_text": "You go to London as a tourist, you'd buy a pill for $10,",
+   "context": "Why were we paying 10 times more for a certain medicine than they were paying in, Great Britain than they were paying in, Dusseldorf? Okay. You go New York City versus Dusseldorf versus Munich versus Paris versus London. Why were we paying 10 times sometimes? Sometimes less. We'd pay for a pill $10 in London. You go to London as a tourist, you'd buy a pill for $10, and in New York, it costs you a $130. Why was that?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03040:oil_strong",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 3040.5405655172412,
+   "t_wall": 1788206001.5405655,
+   "t_wall_et": "2026-08-31T15:53:21.540565-04:00",
+   "segment_text": "And we're taking out millions and millions of barrels of oil going to Houston, going to",
+   "context": "nobody's ever seen before. There's never been anything like it, certainly in this country. But even in the world, there's never been anything like it. Steve, please. Should Venezuela leave OPEC now, given your announcement over the weekend Say it again? Should Venezuela leave OPEC given your Well, don't know. That's up to them. I mean, that's gonna be up to them. We have a great relationship with Venezuela. It's, you know, it's a it's a team in a sense. And we're taking out millions and millions of barrels of oil going to Houston, going to",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "taking out millions and millions of barrels of oil going to Houston",
+    "summary": "The President describes increased oil exports from Venezuela to Houston."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan crude flows to US refiners and Exxon/Chevron involvement is modestly positive for US energy sector activity.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "More Venezuelan oil supply reaching US refineries could be mildly bearish for crude prices, offsetting any sector-positive framing, leaving direction ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on expanded Venezuelan oil exports to US refineries and major oil company involvement are mildly positive for US energy equities (XLE) via increased business activity, but the added supply is ambiguous or slightly bearish for crude price-tracking USO.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan crude flows to US refiners and Exxon/Chevron involvement is modestly positive for US energy sector activity.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"More Venezuelan oil supply reaching US refineries could be mildly bearish for crude prices, offsetting any sector-positive framing, leaving direction ambiguous.\", \"added\": false}], \"summary\": \"The President's remarks on expanded Venezuelan oil exports to US refineries and major oil company involvement are mildly positive for US energy equities (XLE) via increased business activity, but the added supply is ambiguous or slightly bearish for crude price-tracking USO.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03055:xom",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxon",
+   "text_span": "Exxon",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3055.934219,
+   "t_wall": 1788206016.934219,
+   "t_wall_et": "2026-08-31T15:53:36.934219-04:00",
+   "segment_text": "money. And we have Exxon going in. We have Chevron going in. We have our big oil companies going in,",
+   "context": "Say it again? Should Venezuela leave OPEC given your Well, don't know. That's up to them. I mean, that's gonna be up to them. We have a great relationship with Venezuela. It's, you know, it's a it's a team in a sense. And we're taking out millions and millions of barrels of oil going to Houston, going to Louisiana, going to lots of different places in The United States and all over the world. And we're doing we're making a fortune, and they're making a fortune. They're starting to make real money. And we have Exxon going in. We have Chevron going in. We have our big oil companies going in,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ExxonMobil",
+    "tickers": [
+     "XOM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "We have Exxon going in.",
+    "summary": "ExxonMobil entering Venezuela oil operations alongside other major oil companies."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President highlights Exxon gaining new access to Venezuelan heavy oil operations, a potential positive business opportunity.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks confirm Exxon's entry into a new Venezuelan oil deal, a mildly positive, newsworthy development for XOM.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XOM\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President highlights Exxon gaining new access to Venezuelan heavy oil operations, a potential positive business opportunity.\",\"added\":false}],\"summary\":\"The President's remarks confirm Exxon's entry into a new Venezuelan oil deal, a mildly positive, newsworthy development for XOM.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03057:cvx",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3057.316643,
+   "t_wall": 1788206018.316643,
+   "t_wall_et": "2026-08-31T15:53:38.316643-04:00",
+   "segment_text": "money. And we have Exxon going in. We have Chevron going in. We have our big oil companies going in,",
+   "context": "Say it again? Should Venezuela leave OPEC given your Well, don't know. That's up to them. I mean, that's gonna be up to them. We have a great relationship with Venezuela. It's, you know, it's a it's a team in a sense. And we're taking out millions and millions of barrels of oil going to Houston, going to Louisiana, going to lots of different places in The United States and all over the world. And we're doing we're making a fortune, and they're making a fortune. They're starting to make real money. And we have Exxon going in. We have Chevron going in. We have our big oil companies going in,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Chevron",
+    "tickers": [
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "We have Chevron going in.",
+    "summary": "Chevron entering Venezuela oil operations alongside other major oil companies."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President confirms Chevron is expanding operations into Venezuela's oil reserves, a positive access/growth signal though details remain vague.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on a Venezuela oil deal highlight Chevron's involvement in accessing Venezuelan heavy crude, a modestly positive signal for CVX given expanded resource access, though lack of concrete deal terms limits confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President confirms Chevron is expanding operations into Venezuela's oil reserves, a positive access/growth signal though details remain vague.\", \"added\": false}], \"summary\": \"The President's remarks on a Venezuela oil deal highlight Chevron's involvement in accessing Venezuelan heavy crude, a modestly positive signal for CVX given expanded resource access, though lack of concrete deal terms limits confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03074:venezuela",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3074.010714285714,
+   "t_wall": 1788206035.0107143,
+   "t_wall_et": "2026-08-31T15:53:55.010714-04:00",
+   "segment_text": "it was also a very good deal for Venezuela",
+   "context": "Louisiana, going to lots of different places in The United States and all over the world. And we're doing we're making a fortune, and they're making a fortune. They're starting to make real money. And we have Exxon going in. We have Chevron going in. We have our big oil companies going in, and everybody's bidding. And, it's the you know, there are those who say it was the greatest deal ever made. Let's see what happens. But, you know, I have to stress, it was also a very good deal for Venezuela",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "it was also a very good deal for Venezuela",
+    "summary": "The President characterizes a Venezuela deal as very good for the country."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President says Chevron is going into Venezuela to access newly opened heavy-oil reserves, a positive access/opportunity signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broader US oil majors gaining access to large new Venezuelan crude supply is mildly positive for the energy sector ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks describe US oil majors like Chevron gaining access to Venezuelan heavy oil under a new deal, a positive development for US energy companies, though his comments on future price declines are vague and not yet quantified.",
+    "raw": "{\"tickers\":[{\"ticker\":\"CVX\",\"direction\":\"up\",\"confidence\":0.62,\"magnitude\":\"medium\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"The President says Chevron is going into Venezuela to access newly opened heavy-oil reserves, a positive access/opportunity signal.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Broader US oil majors gaining access to large new Venezuelan crude supply is mildly positive for the energy sector ETF.\",\"added\":false}],\"summary\":\"The President's remarks describe US oil majors like Chevron gaining access to Venezuelan heavy oil under a new deal, a positive development for US energy companies, though his comments on future price declines are vague and not yet quantified.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03094:refiners",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refineries",
+   "text_span": "refineries",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "refineries"
+   ],
+   "t_audio": 3094.105,
+   "t_wall": 1788206055.105,
+   "t_wall_et": "2026-08-31T15:54:15.105000-04:00",
+   "segment_text": "refineries. So, you know, our plants, our refineries are specifically",
+   "context": "there are those who say it was the greatest deal ever made. Let's see what happens. But, you know, I have to stress, it was also a very good deal for Venezuela because you have the most powerful, the richest companies in the world going into Venezuela, where before it was just, it was this unbelievable value that was sitting dormant. But we're gonna be taking all of that. We're gonna be taking that oil out. It's all coming to The US for refineries. So, you know, our plants, our refineries are specifically",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Refiners",
+    "tickers": [
+     "VLO",
+     "MPC",
+     "PSX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "our plants, our refineries are specifically",
+    "summary": "The President indicates US refineries will process Venezuelan oil imports."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VLO",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Access to cheap Venezuelan heavy crude benefits Gulf Coast refiners specialized for heavy oil like Valero.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MPC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased heavy crude supply could lower feedstock costs for Marathon's refining operations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PSX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Phillips 66 refineries configured for heavy crude stand to benefit from new Venezuelan oil flows.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's announcement of a deal bringing Venezuelan heavy crude to US refineries is a modest positive for Gulf Coast refiners like VLO, MPC, and PSX due to improved feedstock economics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"VLO\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Access to cheap Venezuelan heavy crude benefits Gulf Coast refiners specialized for heavy oil like Valero.\",\"added\":false},{\"ticker\":\"MPC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Increased heavy crude supply could lower feedstock costs for Marathon's refining operations.\",\"added\":false},{\"ticker\":\"PSX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Phillips 66 refineries configured for heavy crude stand to benefit from new Venezuelan oil flows.\",\"added\":false}],\"summary\":\"The President's announcement of a deal bringing Venezuelan heavy crude to US refineries is a modest positive for Gulf Coast refiners like VLO, MPC, and PSX due to improved feedstock economics.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03100:oil",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "plants",
+    "refineries"
+   ],
+   "t_audio": 3100.8388546875,
+   "t_wall": 1788206061.8388548,
+   "t_wall_et": "2026-08-31T15:54:21.838855-04:00",
+   "segment_text": "heavy oil. Heavy oil is a good thing, not a bad thing. It's good for other things. You know that heavy oil is good for? Asphalt,",
+   "context": "because you have the most powerful, the richest companies in the world going into Venezuela, where before it was just, it was this unbelievable value that was sitting dormant. But we're gonna be taking all of that. We're gonna be taking that oil out. It's all coming to The US for refineries. So, you know, our plants, our refineries are specifically meant for Venezuelan heavy oil. Heavy oil is a good thing, not a bad thing. It's good for other things. You know that heavy oil is good for? Asphalt,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "We're gonna be taking all of that. We're gonna be taking that oil out. It's all coming to The US for refineries.",
+    "summary": "The President plans to extract Venezuelan oil for US refineries, specifically heavy oil for asphalt and other uses."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President specifically named Exxon as entering the new Venezuela oil deal, a positive access/contract signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron was named as gaining access to Venezuelan heavy oil supply, positive for its upstream/refining position.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply to the US plus explicit promise that prices will come down implies downward pressure on crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector impact is mixed: new deal access is positive but lower expected crude prices offset the benefit for the broader energy sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touted a Venezuela oil deal bringing heavy crude to US refineries via Exxon and Chevron, which is a positive access signal for those majors but implies more supply and lower prices, a modest negative for crude-price-linked USO, with mixed/neutral net effect on the broader XLE sector.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XOM\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"The President specifically named Exxon as entering the new Venezuela oil deal, a positive access/contract signal.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Chevron was named as gaining access to Venezuelan heavy oil supply, positive for its upstream/refining position.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Increased Venezuelan oil supply to the US plus explicit promise that prices will come down implies downward pressure on crude prices.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Sector impact is mixed: new deal access is positive but lower expected crude prices offset the benefit for the broader energy sector.\",\"added\":false}],\"summary\":\"The President touted a Venezuela oil deal bringing heavy crude to US refineries via Exxon and Chevron, which is a positive access signal for those majors but implies more supply and lower prices, a modest negative for crude-price-linked USO, with mixed/neutral net effect on the broader XLE sector.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03129:vietnam",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "vietnam",
+   "entity": "Vietnam",
+   "kind": "country",
+   "alias": "vietnam",
+   "text_span": "Vietnam",
+   "dict_tickers": [
+    "VNM"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 3129.92908477842,
+   "t_wall": 1788206090.9290848,
+   "t_wall_et": "2026-08-31T15:54:50.929085-04:00",
+   "segment_text": "You didn't hear that with Vietnam and by people that ran it a lot differently than I run it. Yeah, please. Okay. 1 final bill. On this massive oil deal that you just announced, how do you expect that to impact the lives of everyday Americans both in the short and the long term? And also, what's your message to the oil executives that you're planning to meet with? Well, I think it's gonna be have a tremendous impact. It's gonna ultimately, prices are gonna get come down. Now will it before will it happen before the",
+   "context": "we paid for the war. The cost of the war has been paid for many, many times before. Where have you heard that before? You didn't hear that with Afghanistan? You didn't hear that with Vietnam and by people that ran it a lot differently than I run it. Yeah, please. Okay. 1 final bill. On this massive oil deal that you just announced, how do you expect that to impact the lives of everyday Americans both in the short and the long term? And also, what's your message to the oil executives that you're planning to meet with? Well, I think it's gonna be have a tremendous impact. It's gonna ultimately, prices are gonna get come down. Now will it before will it happen before the",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03301:ukraine",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "ukraine",
+   "text_span": "Ukraine",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 3301.7174865284974,
+   "t_wall": 1788206262.7174866,
+   "t_wall_et": "2026-08-31T15:57:42.717487-04:00",
+   "segment_text": "this is a relatively little war for us. This is not a big war. You know where the money went was Ukraine. The money was really taken out the ammunition if you talk about low. We have tremendous",
+   "context": "to confront threats elsewhere, including the homeland. Have you heard those Well, number 1, we have nothing else in mind. Number 2, we're very respected. Nobody else would be crazy enough to do it. Number 3, we have so much ammunition and munitions, as they like to call it, all over the world that we can always take from if we want. And this is a relatively little war for us. This is not a big war. You know where the money went was Ukraine. The money was really taken out the ammunition if you talk about low. We have tremendous",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "You know where the money went was Ukraine. The money was really taken out the ammunition.",
+    "summary": "The President criticizes money spent on Ukraine as wasteful ammunition expenditure."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric on ammunition/Ukraine spending is not a new policy signal for defense contractors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of filling strategic reserves with oil is vague and not a concrete new demand signal for energy stocks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is mostly geopolitical rhetoric about Iran/Ukraine spending and a passing mention of refilling oil reserves; neither is a specific, tradable new catalyst for ITA or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric on ammunition/Ukraine spending is not a new policy signal for defense contractors.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention of filling strategic reserves with oil is vague and not a concrete new demand signal for energy stocks.\", \"added\": false}], \"summary\": \"The excerpt is mostly geopolitical rhetoric about Iran/Ukraine spending and a passing mention of refilling oil reserves; neither is a specific, tradable new catalyst for ITA or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "uyeCoZ5Yego:03329:smr",
+   "video_id": "uyeCoZ5Yego",
+   "entity_id": "smr",
+   "entity": "NuScale",
+   "kind": "company",
+   "alias": "nuscale",
+   "text_span": "NuScale",
+   "dict_tickers": [
+    "SMR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3329.362947882736,
+   "t_wall": 1788206290.362948,
+   "t_wall_et": "2026-08-31T15:58:10.362948-04:00",
+   "segment_text": "We're only talking about what we call the elite. The elite stuff, and even that, we're in very good shape. But we can always take from other sources, but I don't think we're gonna need it because nobody's gonna mess with us. Nobody. Do you rule how do you rule out NuScale? A lot of the I just wanna finish.",
+   "context": "this is a relatively little war for us. This is not a big war. You know where the money went was Ukraine. The money was really taken out the ammunition if you talk about low. We have tremendous amounts, unlimited amounts of mid grade and older stuff that's also very powerful. Unlimited amounts. We're only talking about what we call the elite. The elite stuff, and even that, we're in very good shape. But we can always take from other sources, but I don't think we're gonna need it because nobody's gonna mess with us. Nobody. Do you rule how do you rule out NuScale? A lot of the I just wanna finish. They say we used it in Iran.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

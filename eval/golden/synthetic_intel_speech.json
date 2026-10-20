@@ -1,0 +1,122 @@
+{
+  "name": "synthetic_intel_speech",
+  "transcript": "eval/golden/synthetic_intel_speech.txt",
+  "source": "eval/audio/synthetic_intel_speech.wav",
+  "speed": 20,
+  "expected": [
+    {
+      "entity": "Stock market",
+      "tickers": [
+        "SPY"
+      ],
+      "t_audio": 10,
+      "tolerance": 15
+    },
+    {
+      "entity": "Intel",
+      "tickers": [
+        "INTC"
+      ],
+      "t_audio": 14,
+      "tolerance": 15
+    },
+    {
+      "entity": "Nvidia",
+      "tickers": [
+        "NVDA"
+      ],
+      "t_audio": 30,
+      "tolerance": 15
+    },
+    {
+      "entity": "China",
+      "tickers": [
+        "FXI",
+        "MCHI",
+        "KWEB"
+      ],
+      "t_audio": 30,
+      "tolerance": 15
+    },
+    {
+      "entity": "Apple",
+      "tickers": [
+        "AAPL"
+      ],
+      "t_audio": 40,
+      "tolerance": 15
+    },
+    {
+      "entity": "India",
+      "tickers": [
+        "INDA",
+        "EPI"
+      ],
+      "t_audio": 40,
+      "tolerance": 15
+    },
+    {
+      "entity": "Pharmaceuticals",
+      "tickers": [
+        "XLV",
+        "XPH",
+        "PFE"
+      ],
+      "t_audio": 55,
+      "tolerance": 15
+    },
+    {
+      "entity": "Pfizer",
+      "tickers": [
+        "PFE"
+      ],
+      "t_audio": 55,
+      "tolerance": 15
+    },
+    {
+      "entity": "Comcast",
+      "tickers": [
+        "CMCSA"
+      ],
+      "t_audio": 71,
+      "tolerance": 15
+    },
+    {
+      "entity": "CNN",
+      "tickers": [
+        "WBD"
+      ],
+      "t_audio": 71,
+      "tolerance": 15
+    },
+    {
+      "entity": "Toyota",
+      "tickers": [
+        "TM"
+      ],
+      "t_audio": 85,
+      "tolerance": 15
+    },
+    {
+      "entity": "Honda",
+      "tickers": [
+        "HMC"
+      ],
+      "t_audio": 85,
+      "tolerance": 15
+    },
+    {
+      "entity": "Semiconductor",
+      "tickers": [
+        "SMH",
+        "SOXX"
+      ],
+      "t_audio": 30,
+      "tolerance": 15
+    }
+  ],
+  "traps": [
+    "apple pie at 49s must not confirm Apple",
+    "'hit our target' at 78s must not alert Target"
+  ]
+}

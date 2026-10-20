@@ -1,0 +1,939 @@
+{
+ "video": {
+  "id": "Kr7Ep94Mq1A",
+  "url": "https://www.youtube.com/watch?v=Kr7Ep94Mq1A",
+  "title": "The President Participates in Signing Time, Aug. 27, 2026",
+  "channel": "The White House",
+  "duration": 736.0,
+  "was_live": true,
+  "release_timestamp": 1787850322.0,
+  "upload_timestamp": 1787852143.0,
+  "upload_date": "20260827",
+  "label": "",
+  "group": "other",
+  "notes": "",
+  "t0": 1787850322.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 13,
+  "confirmed": 13,
+  "retracted": 0,
+  "unconfirmed": 0,
+  "llm_calls": 9
+ },
+ "signals": [
+  {
+   "signal_id": "Kr7Ep94Mq1A:00019:stock_market",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 19.299,
+   "t_wall": 1787850341.299,
+   "t_wall_et": "2026-08-27T13:05:41.299000-04:00",
+   "segment_text": "Thank you very much. I just want to announce the stock market just hit another all time high. That's the 81st time during a brief 1.5 years.",
+   "context": "No, sir. Thank you very much. I just want to announce the stock market just hit another all time high. That's the 81st time during a brief 1.5 years.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "stock market just hit another all time high",
+    "summary": "The President announces stock market reached 81st all-time high in 1.5 years."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "General rhetoric about market highs is already public information with no new policy content for SPY itself.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "No tech-specific or novel policy content that would move QQQ relative to market.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Restates known market highs and reshoring trends without new tradeable details for industrials.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic self-congratulatory rhetoric about stock market highs and reshoring, restating already-known facts with no new policy specifics, so no differential impact on SPY, QQQ, or DIA is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"General rhetoric about market highs is already public information with no new policy content for SPY itself.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"No tech-specific or novel policy content that would move QQQ relative to market.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Restates known market highs and reshoring trends without new tradeable details for industrials.\", \"added\": false}], \"summary\": \"The President's remarks are generic self-congratulatory rhetoric about stock market highs and reshoring, restating already-known facts with no new policy specifics, so no differential impact on SPY, QQQ, or DIA is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00040:autos",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "Car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 40.77,
+   "t_wall": 1787850362.77,
+   "t_wall_et": "2026-08-27T13:06:02.770000-04:00",
+   "segment_text": "Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Car companies",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Car companies are moving back, building record number of plants, factories.",
+    "summary": "The President says automakers are relocating plants to the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about automakers moving to US, not specific to GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeats known narrative on reshoring without new specifics for Ford.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention or new policy affecting Stellantis.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not directly referenced; Tesla unaffected by reshoring of foreign automakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector-wide positive framing of automakers relocating to US could lift auto ETF sentiment slightly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HMC",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President specifically cites Honda's announced move of production from Mexico to the US, a positive domestic investment signal.",
+      "added_by_judge": true
+     },
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President specifically cites Toyota's announced move of production from Mexico to the US, a positive domestic investment signal.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's remarks are largely general economic boasting; the only new, price-relevant detail is Honda and Toyota reportedly shifting production from Mexico to the US, which is mildly positive for those firms and the broader auto sector ETF, while GM, Ford, Stellantis, and Tesla are not directly implicated.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about automakers moving to US, not specific to GM.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeats known narrative on reshoring without new specifics for Ford.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention or new policy affecting Stellantis.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not directly referenced; Tesla unaffected by reshoring of foreign automakers.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector-wide positive framing of automakers relocating to US could lift auto ETF sentiment slightly.\", \"added\": false}, {\"ticker\": \"HMC\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President specifically cites Honda's announced move of production from Mexico to the US, a positive domestic investment signal.\", \"added\": true}, {\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President specifically cites Toyota's announced move of production from Mexico to the US, a positive domestic investment signal.\", \"added\": true}], \"summary\": \"The President's remarks are largely general economic boasting; the only new, price-relevant detail is Honda and Toyota reportedly shifting production from Mexico to the US, which is mildly positive for those firms and the broader auto sector ETF, while GM, Ford, Stellantis, and Tesla are not directly implicated.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00043:hmc",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "hmc",
+   "entity": "Honda",
+   "kind": "company",
+   "alias": "honda",
+   "text_span": "Honda",
+   "dict_tickers": [
+    "HMC"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 43.13223021582734,
+   "t_wall": 1787850365.1322303,
+   "t_wall_et": "2026-08-27T13:06:05.132230-04:00",
+   "segment_text": "Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Honda",
+    "tickers": [
+     "HMC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Honda announced they're moving in from Mexico. They're coming here.",
+    "summary": "The President says Honda announced relocation from Mexico to the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "HMC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates previously reported Honda relocation plan with no new financial detail, and shifting production to the US raises costs, offsetting tariff-avoidance benefits.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark repeats old news about Honda moving production from Mexico to the US; no new information is revealed, and cost implications are ambiguous, so limited stock-specific effect expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"HMC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Restates previously reported Honda relocation plan with no new financial detail, and shifting production to the US raises costs, offsetting tariff-avoidance benefits.\", \"added\": false}], \"summary\": \"The President's remark repeats old news about Honda moving production from Mexico to the US; no new information is revealed, and cost implications are ambiguous, so limited stock-specific effect expected.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00044:tm",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 44.2596582733813,
+   "t_wall": 1787850366.2596583,
+   "t_wall_et": "2026-08-27T13:06:06.259658-04:00",
+   "segment_text": "Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Toyota announced they're moving in from Mexico. They're coming here.",
+    "summary": "The President says Toyota announced relocation from Mexico to the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates previously known Toyota relocation announcement, unlikely to move stock materially further.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats prior general economic remarks and a previously announced Toyota relocation, with no new material information for TM.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restates previously known Toyota relocation announcement, unlikely to move stock materially further.\",\"added\":false}],\"summary\":\"The President repeats prior general economic remarks and a previously announced Toyota relocation, with no new material information for TM.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00046:mexico",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 46.407140287769785,
+   "t_wall": 1787850368.4071403,
+   "t_wall_et": "2026-08-27T13:06:08.407140-04:00",
+   "segment_text": "Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Honda and Toyota moving in from Mexico.",
+    "summary": "The President mentions automakers relocating from Mexico to the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President highlights automakers relocating production from Mexico to the US, a modest negative signal for Mexican manufacturing/exports reflected in the country ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark reiterates auto plants moving from Mexico to the US, a mild repeat-rhetoric negative for Mexico-exposed equities (EWW), while the bulk of the speech is unrelated market/political commentary.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President highlights automakers relocating production from Mexico to the US, a modest negative signal for Mexican manufacturing/exports reflected in the country ETF.\", \"added\": false}], \"summary\": \"The President's remark reiterates auto plants moving from Mexico to the US, a mild repeat-rhetoric negative for Mexico-exposed equities (EWW), while the bulk of the speech is unrelated market/political commentary.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00050:canada",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 50.05785971223022,
+   "t_wall": 1787850372.0578597,
+   "t_wall_et": "2026-08-27T13:06:12.057860-04:00",
+   "segment_text": "Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.88,
+    "quote": "Numerous plants are coming in to The United States from Canada.",
+    "summary": "The President says multiple plants relocating from Canada to the United States."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Plants relocating from Canada to the US signals capital/manufacturing outflow from Canada, mildly negative for Canadian equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark about plants moving from Canada to the US is mildly negative for Canada-exposed equities (EWC), though vague and unverified, limiting confidence.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Plants relocating from Canada to the US signals capital/manufacturing outflow from Canada, mildly negative for Canadian equities broadly.\", \"added\": false}], \"summary\": \"The President's remark about plants moving from Canada to the US is mildly negative for Canada-exposed equities (EWC), though vague and unverified, limiting confidence.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00057:japan",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 57.295,
+   "t_wall": 1787850379.295,
+   "t_wall_et": "2026-08-27T13:06:19.295000-04:00",
+   "segment_text": "Japan,",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada. Also, Japan,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "numerous plants are coming in from Canada. Also, Japan",
+    "summary": "The President indicates Japanese companies are planning plant investments in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General remark about Japanese plants moving to the US is vague rhetoric with no new policy detail affecting Japan-wide equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is broad self-congratulatory rhetoric about the economy and vague mention of Japanese investment inflows, offering no specific new information that would materially move a Japan equity ETF.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General remark about Japanese plants moving to the US is vague rhetoric with no new policy detail affecting Japan-wide equities.\", \"added\": false}], \"summary\": \"The remark is broad self-congratulatory rhetoric about the economy and vague mention of Japanese investment inflows, offering no specific new information that would materially move a Japan equity ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00058:korea",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 58.739998,
+   "t_wall": 1787850380.739998,
+   "t_wall_et": "2026-08-27T13:06:20.739998-04:00",
+   "segment_text": "South Korea,",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada. Also, Japan, South Korea,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "plants are coming in from Canada. Also, Japan, South Korea",
+    "summary": "South Korean companies announcing plant investments in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about South Korean firms building US plants is vague and not new, ambiguous impact on Korean equities index ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are mostly celebratory rhetoric about the stock market and a political endorsement, with only a passing, non-specific mention of South Korean investment inflows to the US, which is too vague and repeat-like to move EWY meaningfully.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about South Korean firms building US plants is vague and not new, ambiguous impact on Korean equities index ETF.\",\"added\":false}],\"summary\":\"The President's remarks are mostly celebratory rhetoric about the stock market and a political endorsement, with only a passing, non-specific mention of South Korean investment inflows to the US, which is too vague and repeat-like to move EWY meaningfully.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00060:germany",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 60.313330666666666,
+   "t_wall": 1787850382.3133307,
+   "t_wall_et": "2026-08-27T13:06:22.313331-04:00",
+   "segment_text": "and Germany.",
+   "context": "And 4 0 1 k's, likewise, they're at an all time high, so millions and millions of people are benefiting from this incredible economy that we're creating. We're setting we're building right now a record number of plants, factories. Car companies are moving back, as you know. Honda announced, and Toyota announced they're moving in from Mexico. They're coming here. And numerous plants are coming in from Canada. They'll be announced shortly, but numerous plants are coming in to The United States from Canada. Also, Japan, South Korea, and Germany.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "numerous plants are coming in from Germany",
+    "summary": "German companies announcing plant investments in the United States."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General claim of unspecified German plants relocating to the US is vague rhetoric with no new specifics, unlikely to move the German equity ETF meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely self-congratulatory (stock market highs, election win) with a vague, non-specific claim about German plants moving to the US; lacking concrete new details, this is unlikely to have a clear directional impact on EWG.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWG\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General claim of unspecified German plants relocating to the US is vague rhetoric with no new specifics, unlikely to move the German equity ETF meaningfully.\", \"added\": false}], \"summary\": \"The President's remarks are largely self-congratulatory (stock market highs, election win) with a vague, non-specific claim about German plants moving to the US; lacking concrete new details, this is unlikely to have a clear directional impact on EWG.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00353:farmers",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 353.1585714285714,
+   "t_wall": 1787850675.1585715,
+   "t_wall_et": "2026-08-27T13:11:15.158571-04:00",
+   "segment_text": "They charge our farmers 400%",
+   "context": "Gulf Of Mexico. We changed it, and now it's very routinely the Gulf Of America. So if you think about it, we have a gulf and we have a lake. Now all we need is an ocean. So maybe we'll have to change the name of the Atlantic and or the Pacific. Maybe we'll change on doing things like this towards America's allies instead of doing things that target adversaries. Canadian officials have treated us very badly. They're nasty people. They charge our farmers 400%",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "CORN"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "Canadian officials charge our farmers 400%",
+    "summary": "The President criticizes Canadian tariffs on U.S. farmers at 400% rate."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General trade rhetoric about Canadian tariffs on farmers is not new information for broad ag commodity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific policy on fertilizer or Mosaic mentioned, just general Canada trade complaints.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Farm equipment maker unaffected directly by repeated rhetoric on Canadian tariffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat complaint about Canadian tariffs doesn't reveal new trade action affecting corn.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new soybean-specific policy announced, just rhetorical criticism of Canada.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General ag trade rhetoric without new tariff numbers or deal specifics affecting ADM.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar grievances about Canadian tariffs on U.S. farmers and threaten new car tariffs, but offer no new, actionable policy details for agriculture-related tickers, so market impact should be minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General trade rhetoric about Canadian tariffs on farmers is not new information for broad ag commodity ETF.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific policy on fertilizer or Mosaic mentioned, just general Canada trade complaints.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Farm equipment maker unaffected directly by repeated rhetoric on Canadian tariffs.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat complaint about Canadian tariffs doesn't reveal new trade action affecting corn.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new soybean-specific policy announced, just rhetorical criticism of Canada.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General ag trade rhetoric without new tariff numbers or deal specifics affecting ADM.\", \"added\": false}], \"summary\": \"The President's remarks reiterate familiar grievances about Canadian tariffs on U.S. farmers and threaten new car tariffs, but offer no new, actionable policy details for agriculture-related tickers, so market impact should be minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00619:china",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "chinese",
+   "text_span": "Chinese",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "sanction"
+   ],
+   "t_audio": 619.6384832432433,
+   "t_wall": 1787850941.6384833,
+   "t_wall_et": "2026-08-27T13:15:41.638483-04:00",
+   "segment_text": "That's the way it goes. Why not sanction Chinese banks, though, who are doing business? Well, who said I'm not?",
+   "context": "control, and we have the blockade. Iran not getting anything. Nothing is going through. Not 1 ship has got to punish them. Putin or Russia if they continue to this? It depends. So far, I think Russia's behaved quite well having to do with the Strait Of Hormuz. And you have to understand, for everything they do, we do also. You know? Somebody was saying about China. What about China? We hear they're spying. We spy on them too. That's the way it goes. Why not sanction Chinese banks, though, who are doing business? Well, who said I'm not?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.85,
+    "quote": "sanction Chinese banks doing business",
+    "summary": "The President addresses potential sanctions on Chinese banks conducting business."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Ambiguous but threatening remarks about possibly sanctioning Chinese banks add geopolitical risk to Chinese equities broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same sanction-risk overhang applies to this broad China ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Chinese internet stocks could see mild risk-off sentiment from renewed sanction talk, though less directly tied to banks.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's non-committal but pointed comment about possibly sanctioning Chinese banks over Iran business introduces fresh geopolitical/regulatory risk for China-exposed equities, modestly negative for FXI, MCHI, and KWEB.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Ambiguous but threatening remarks about possibly sanctioning Chinese banks add geopolitical risk to Chinese equities broadly.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Same sanction-risk overhang applies to this broad China ETF.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"down\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Chinese internet stocks could see mild risk-off sentiment from renewed sanction talk, though less directly tied to banks.\",\"added\":false}],\"summary\":\"The President's non-committal but pointed comment about possibly sanctioning Chinese banks over Iran business introduces fresh geopolitical/regulatory risk for China-exposed equities, modestly negative for FXI, MCHI, and KWEB.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00620:banks",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "banks",
+   "text_span": "banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [
+    "sanction"
+   ],
+   "t_audio": 620.0420897297297,
+   "t_wall": 1787850942.0420897,
+   "t_wall_et": "2026-08-27T13:15:42.042090-04:00",
+   "segment_text": "That's the way it goes. Why not sanction Chinese banks, though, who are doing business? Well, who said I'm not?",
+   "context": "control, and we have the blockade. Iran not getting anything. Nothing is going through. Not 1 ship has got to punish them. Putin or Russia if they continue to this? It depends. So far, I think Russia's behaved quite well having to do with the Strait Of Hormuz. And you have to understand, for everything they do, we do also. You know? Somebody was saying about China. What about China? We hear they're spying. We spy on them too. That's the way it goes. Why not sanction Chinese banks, though, who are doing business? Well, who said I'm not?",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Banks",
+    "tickers": [
+     "XLF"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.75,
+    "quote": "Who said I'm not? sanction banks doing business",
+    "summary": "The President implies he may sanction banks, particularly those doing business with China."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLF",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Vague hint at possible Chinese bank sanctions has little direct read-through to broad US financial sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KRE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Regional banks are largely unaffected by comments about sanctioning Chinese banks over Iran trade.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JPM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No specific US bank named; ambiguous sanction threat is not clearly price-relevant.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "BAC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same rationale as JPM, no direct exposure implied.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's ambiguous remark about possibly sanctioning banks doing business with China/Iran is vague and non-specific, with no clear price impact on major US financial names or ETFs; effect is largely geopolitical noise.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLF\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Vague hint at possible Chinese bank sanctions has little direct read-through to broad US financial sector ETF.\", \"added\": false}, {\"ticker\": \"KRE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Regional banks are largely unaffected by comments about sanctioning Chinese banks over Iran trade.\", \"added\": false}, {\"ticker\": \"JPM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No specific US bank named; ambiguous sanction threat is not clearly price-relevant.\", \"added\": false}, {\"ticker\": \"BAC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Same rationale as JPM, no direct exposure implied.\", \"added\": false}], \"summary\": \"The President's ambiguous remark about possibly sanctioning banks doing business with China/Iran is vague and non-specific, with no clear price impact on major US financial names or ETFs; effect is largely geopolitical noise.\"}"
+   }
+  },
+  {
+   "signal_id": "Kr7Ep94Mq1A:00650:oil_strong",
+   "video_id": "Kr7Ep94Mq1A",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 650.8699826562499,
+   "t_wall": 1787850972.8699827,
+   "t_wall_et": "2026-08-27T13:16:12.869983-04:00",
+   "segment_text": "The strait is open. We're taking a lot of boats. Millions and millions of barrels of oil are coming out of the strait every day.",
+   "context": "Don't know if I'm doing it. Well, I don't have to announce everything, do I? Are you speaking who are you speaking to, sir, about what other leaders have you spoken to about this pressure campaign to get them to cut off ties with Iran? About Iran? Is that a lot to speak to? We don't wanna speak to them. We're not looking to meet or anything. The strait is open. We're taking a lot of boats. Millions and millions of barrels of oil are coming out of the strait every day. Other countries",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Millions and millions of barrels of oil are coming out of the strait every day.",
+    "summary": "The President notes high daily oil volumes transiting the Strait."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comments on Strait of Hormuz control suggest supply is stable, limiting upside for energy producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Reassurance that oil flows freely through the Strait reduces supply-disruption risk priced into oil, a mildly bearish factor offset by uncertainty on Iran sanctions.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize continued open oil flow through the Strait of Hormuz and vague threats on China/Iran, offering no new concrete supply shock or policy action, so effects on energy tickers are largely neutral.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Comments on Strait of Hormuz control suggest supply is stable, limiting upside for energy producers.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Reassurance that oil flows freely through the Strait reduces supply-disruption risk priced into oil, a mildly bearish factor offset by uncertainty on Iran sanctions.\", \"added\": false}], \"summary\": \"The President's remarks emphasize continued open oil flow through the Strait of Hormuz and vague threats on China/Iran, offering no new concrete supply shock or policy action, so effects on energy tickers are largely neutral.\"}"
+   }
+  }
+ ]
+}

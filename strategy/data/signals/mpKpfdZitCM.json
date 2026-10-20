@@ -1,0 +1,873 @@
+{
+ "video": {
+  "id": "mpKpfdZitCM",
+  "url": "https://www.youtube.com/watch?v=mpKpfdZitCM",
+  "title": "The President Delivers Remarks on Tax Week in Las Vegas, Nevada",
+  "channel": "The White House",
+  "duration": 2861.0,
+  "was_live": true,
+  "release_timestamp": 1776382596.0,
+  "upload_timestamp": 1776387203.0,
+  "upload_date": "20260417",
+  "label": "Delivers Remarks on Tax Week in Las Vegas, Nevada",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1776382596.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 13,
+  "confirmed": 10,
+  "retracted": 3,
+  "unconfirmed": 0,
+  "llm_calls": 14
+ },
+ "signals": [
+  {
+   "signal_id": "mpKpfdZitCM:00554:farmers",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "farmers",
+   "text_span": "farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 554.8490673575129,
+   "t_wall": 1776383150.8490674,
+   "t_wall_et": "2026-04-16T19:45:50.849067-04:00",
+   "segment_text": "and they would borrow money, especially the farmers. I mean, they go out and they leave their farm, and the farm is valuable, but not a lot of cash. They live good. They wouldn't trade anytime.",
+   "context": "you have no tax on overtime. You know, this state covers them all. You have the seniors, you have the overtime, but you have no tax on overtime. You have no tax on tips, and you have no tax think of it, Social Security. So those 3 things. And, you know, 1 other thing that we have that nobody talks about, but we we've done a lot in the bill if you have a small business or if you have a farm, you have no inheritance tax. You have no death tax. It's a big thing. You know, people go out and they would borrow money, especially the farmers. I mean, they go out and they leave their farm, and the farm is valuable, but not a lot of cash. They live good. They wouldn't trade anytime.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "farmers have no inheritance tax, no death tax",
+    "summary": "The President praises elimination of inheritance and death taxes for family farms."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General tax policy rhetoric on estate taxes does not directly move agricultural commodity prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct impact on fertilizer demand or pricing from estate tax commentary.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Elimination of death/inheritance tax helps family farms preserve capital, marginally supportive of farm equipment purchases.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Agribusiness processor unaffected by estate tax rhetoric aimed at small family farms.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Commodity ETF price unaffected by tax policy remarks on farm inheritance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Commodity ETF price unaffected by tax policy remarks on farm inheritance.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing tax law provisions (no death/inheritance tax for farms) as part of general tax-week rhetoric; this is repeat policy already known to markets, with only a marginal positive read-through for farm equipment makers like Deere and no meaningful impact on commodity ETFs or agribusiness names.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General tax policy rhetoric on estate taxes does not directly move agricultural commodity prices.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct impact on fertilizer demand or pricing from estate tax commentary.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Elimination of death/inheritance tax helps family farms preserve capital, marginally supportive of farm equipment purchases.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Agribusiness processor unaffected by estate tax rhetoric aimed at small family farms.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Commodity ETF price unaffected by tax policy remarks on farm inheritance.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Commodity ETF price unaffected by tax policy remarks on farm inheritance.\", \"added\": false}], \"summary\": \"The President reiterates existing tax law provisions (no death/inheritance tax for farms) as part of general tax-week rhetoric; this is repeat policy already known to markets, with only a marginal positive read-through for farm equipment makers like Deere and no meaningful impact on commodity ETFs or agribusiness names.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:00624:mcd",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "mcd",
+   "entity": "McDonald's",
+   "kind": "company",
+   "alias": "mcdonald's",
+   "text_span": "McDonald's",
+   "dict_tickers": [
+    "MCD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 624.9801390625,
+   "t_wall": 1776383220.980139,
+   "t_wall_et": "2026-04-16T19:47:00.980139-04:00",
+   "segment_text": "cancer. She's gonna be okay, I think. Sharon delivered McDonald's to the Oval Office. It was a little bit of a you know, mean, to be honest, was a little tacky.",
+   "context": "God bless the IRS. Could you believe that? I don't think I've never heard I've never heard that before. We have to patent that. We have to do some. Earlier this week at the White House, I met a wonderful woman named Sharon Simmons, a grandmother driving DoorDash to help support her husband's cancer treatment. She's got serious cancer. She's gonna be okay, I think. Sharon delivered McDonald's to the Oval Office. It was a little bit of a you know, mean, to be honest, was a little tacky.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "McDonald's",
+    "tickers": [
+     "MCD"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "It was a little tacky.",
+    "summary": "The President criticized McDonald's delivery to Oval Office as tacky."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MCD",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "The President's offhand anecdote about a DoorDash McDonald's delivery is light-hearted political color, not a substantive business or policy comment on McDonald's.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a personal anecdote mentioning McDonald's in passing, with mild self-deprecating criticism about the optics, not a policy or business action affecting the company's fundamentals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MCD\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"The President's offhand anecdote about a DoorDash McDonald's delivery is light-hearted political color, not a substantive business or policy comment on McDonald's.\", \"added\": false}], \"summary\": \"The remark is a personal anecdote mentioning McDonald's in passing, with mild self-deprecating criticism about the optics, not a policy or business action affecting the company's fundamentals.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:00637:googl",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 637.5303731343283,
+   "t_wall": 1776383233.530373,
+   "t_wall_et": "2026-04-16T19:47:13.530373-04:00",
+   "segment_text": "although that was the biggest ever on Google. They say number 1 ever in the the garbage truck. I mean, we do these things in politics.",
+   "context": "have to patent that. We have to do some. Earlier this week at the White House, I met a wonderful woman named Sharon Simmons, a grandmother driving DoorDash to help support her husband's cancer treatment. She's got serious cancer. She's gonna be okay, I think. Sharon delivered McDonald's to the Oval Office. It was a little bit of a you know, mean, to be honest, was a little tacky. You know, they come up with these crazy ideas like McDonald's, although that was the biggest ever on Google. They say number 1 ever in the the garbage truck. I mean, we do these things in politics.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "mpKpfdZitCM:00743:autos",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "car companies",
+   "text_span": "car companies",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [
+    "selling",
+    "tariffs"
+   ],
+   "t_audio": 743.515,
+   "t_wall": 1776383339.515,
+   "t_wall_et": "2026-04-16T19:48:59.515000-04:00",
+   "segment_text": "on our car companies, which are expanding like never before. We're selling more cars now. A lot of it has to do with tariffs. You pay no tariffs if you come here. If you don't come here, you pay a lot of tariffs, and we're raising those tariffs very soon. Not on you, it's on people from the outside that don't build their plants here. We have now hundreds of billions. We have actually $18,000,000,000,000",
+   "context": "but the truth is it never happened before. And and nobody mentions it, but it's a very big factor, and it's having a huge impact on our car companies, which are expanding like never before. We're selling more cars now. A lot of it has to do with tariffs. You pay no tariffs if you come here. If you don't come here, you pay a lot of tariffs, and we're raising those tariffs very soon. Not on you, it's on people from the outside that don't build their plants here. We have now hundreds of billions. We have actually $18,000,000,000,000",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Automakers",
+    "tickers": [
+     "GM",
+     "F",
+     "STLA",
+     "TSLA"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "car companies are expanding like never before. We're selling more cars now.",
+    "summary": "The President credits tariffs for driving automaker expansion and increased US car sales."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts US car-loan interest deduction and tariffs benefiting domestic automakers like GM.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "F",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Ford as a US-based manufacturer benefits rhetorically from tariff protection and deduction incentive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Stellantis has significant non-US production so tariff benefits are mixed/ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSLA",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tesla builds domestically so tariff and deduction incentives are mildly favorable though EVs less tied to loan interest deduction.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CARZ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Auto sector ETF benefits broadly from stated tariff-driven expansion narrative for US car companies.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates existing tariff and auto-loan-interest deduction policies as boosting domestic car makers, a repeat of prior rhetoric with mild positive read-through for US-based automakers and the sector ETF, while foreign-heavy producers like Stellantis see limited benefit.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts US car-loan interest deduction and tariffs benefiting domestic automakers like GM.\", \"added\": false}, {\"ticker\": \"F\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Ford as a US-based manufacturer benefits rhetorically from tariff protection and deduction incentive.\", \"added\": false}, {\"ticker\": \"STLA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Stellantis has significant non-US production so tariff benefits are mixed/ambiguous.\", \"added\": false}, {\"ticker\": \"TSLA\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tesla builds domestically so tariff and deduction incentives are mildly favorable though EVs less tied to loan interest deduction.\", \"added\": false}, {\"ticker\": \"CARZ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Auto sector ETF benefits broadly from stated tariff-driven expansion narrative for US car companies.\", \"added\": false}], \"summary\": \"The President reiterates existing tariff and auto-loan-interest deduction policies as boosting domestic car makers, a repeat of prior rhetoric with mild positive read-through for US-based automakers and the sector ETF, while foreign-heavy producers like Stellantis see limited benefit.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:00784:pharma",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 784.3048387096774,
+   "t_wall": 1776383380.3048387,
+   "t_wall_et": "2026-04-16T19:49:40.304839-04:00",
+   "segment_text": "Because of tariffs. If they sell their product into our country, they have to pay tariffs. If they make that same product here, they don't. So they're coming in I'll tell you, pharmaceutical companies are coming in at levels that nobody's ever seen. We're having our drugs made here. Our prescription drugs are being made here, which is something that's very important. So",
+   "context": "on our car companies, which are expanding like never before. We're selling more cars now. A lot of it has to do with tariffs. You pay no tariffs if you come here. If you don't come here, you pay a lot of tariffs, and we're raising those tariffs very soon. Not on you, it's on people from the outside that don't build their plants here. We have now hundreds of billions. We have actually $18,000,000,000,000 being invested in The United States because of a lot of reasons, but but because of tariffs. Because of tariffs. If they sell their product into our country, they have to pay tariffs. If they make that same product here, they don't. So they're coming in I'll tell you, pharmaceutical companies are coming in at levels that nobody's ever seen. We're having our drugs made here. Our prescription drugs are being made here, which is something that's very important. So",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "pharmaceutical companies are coming in at levels that nobody's ever seen",
+    "summary": "Pharma companies investing heavily in US drug manufacturing due to tariff incentives."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad healthcare ETF unlikely to move much on general remarks about pharma investment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma sector ETF benefits modestly from tariff-driven domestic manufacturing narrative though not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large pharma with US manufacturing exposure could avoid tariffs by building plants domestically, a mild positive.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Domestic drug manufacturing incentive is mildly favorable for a company already expanding US production.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar tariff-driven onshoring narrative provides a mild positive tailwind for large pharma.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated that tariffs are pushing pharmaceutical companies to build manufacturing in the US, a mildly positive but largely repeat narrative for the pharma sector; broad healthcare ETF impact is negligible.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad healthcare ETF unlikely to move much on general remarks about pharma investment.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Pharma sector ETF benefits modestly from tariff-driven domestic manufacturing narrative though not new information.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Large pharma with US manufacturing exposure could avoid tariffs by building plants domestically, a mild positive.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Domestic drug manufacturing incentive is mildly favorable for a company already expanding US production.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Similar tariff-driven onshoring narrative provides a mild positive tailwind for large pharma.\",\"added\":false}],\"summary\":\"The President reiterated that tariffs are pushing pharmaceutical companies to build manufacturing in the US, a mildly positive but largely repeat narrative for the pharma sector; broad healthcare ETF impact is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:00982:stock_market",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "the dow",
+   "text_span": "the Dow",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 982.3804545454545,
+   "t_wall": 1776383578.3804545,
+   "t_wall_et": "2026-04-16T19:52:58.380455-04:00",
+   "segment_text": "50,000 on the Dow. Don't know if you people know what that means. 50,000 on the Dow is unthinkable. They said,",
+   "context": "And when I went to him and I said, how much would it cost for about 50 to 60,000,000 seniors not to pay tax? He said, sir, are you kidding? This was Scott. They said, let's do it. Go ahead. And you know what's happened? The economy is doing so well. By the way, we had to do a little, journey down to Iran, and I didn't wanna do that, but we had to because we can't let them have a nuclear weapon. Can't let them have a nuclear weapon. And, you know, we just hit 50,000 on the Dow. Don't know if you people know what that means. 50,000 on the Dow is unthinkable. They said,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "the Dow",
+    "tickers": [
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "we just hit 50,000 on the Dow. 50,000 on the Dow is unthinkable.",
+    "summary": "The President celebrates Dow Jones reaching 50,000, calling it unprecedented."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "General bragging about a market milestone already reflected in prices, not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Broad market commentary with no new policy content beyond touting existing market levels.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "No tech-specific or policy-relevant content in this remark.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment is celebratory rhetoric about the Dow hitting 50,000 and tax policy, already known information with no new market-moving content for broad index ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"General bragging about a market milestone already reflected in prices, not new information.\", \"added\": false}, {\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Broad market commentary with no new policy content beyond touting existing market levels.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"No tech-specific or policy-relevant content in this remark.\", \"added\": false}], \"summary\": \"The President's comment is celebratory rhetoric about the Dow hitting 50,000 and tax policy, already known information with no new market-moving content for broad index ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:01179:dell_word",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "dell_word",
+   "entity": "Dell",
+   "kind": "company",
+   "alias": "dell",
+   "text_span": "Dell",
+   "dict_tickers": [
+    "DELL"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 1179.3571567567567,
+   "t_wall": 1776383775.3571568,
+   "t_wall_et": "2026-04-16T19:56:15.357157-04:00",
+   "segment_text": "What a what a big difference. So I just wanna thank the Dell family. It's, great. You know, buy their computer.",
+   "context": "great. What a great family, but he put up $6,250,000,000. Namely, he did a good job in life. He's and he's putting up more. He came to me with the idea with some of his friends. His wife is fantastic, by the way. And he said, you know, these accounts where children will grow up and by the time they're 18 or 20 or 21, they'll have they could have a $100,000. I mean, they may be poor. They'll have a $100,000. What a what a big difference. So I just wanna thank the Dell family. It's, great. You know, buy their computer.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Dell",
+    "tickers": [
+     "DELL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "buy their computer",
+    "summary": "The President praises Dell family's charitable contribution and endorses buying Dell computers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DELL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President publicly praised the Dell family and endorsed buying Dell computers, a mild positive publicity boost.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's favorable mention and product endorsement of Dell is a small positive for DELL, though not a major new business catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DELL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President publicly praised the Dell family and endorsed buying Dell computers, a mild positive publicity boost.\", \"added\": false}], \"summary\": \"The President's favorable mention and product endorsement of Dell is a small positive for DELL, though not a major new business catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:01231:nue",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "nue",
+   "entity": "Nucor",
+   "kind": "company",
+   "alias": "nucor",
+   "text_span": "Nucor",
+   "dict_tickers": [
+    "NUE"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1231.0042696629214,
+   "t_wall": 1776383827.0042696,
+   "t_wall_et": "2026-04-16T19:57:07.004270-04:00",
+   "segment_text": "actually. And we made interest on Nucor loans deductible, which I told you is a big deal.",
+   "context": "contribution for every newborn child. Think of that. 5,000,000 have already been opened. It's been incredible. People are going out. They're doing it. Some are buying it for many other children. Some are taking lots of some richer people are taking lots of people under their wing. We have 1 man that took the state of Ohio, and he's obviously pretty rich, and he's made the contribution on behalf of so many children. It's it's really turned out to be amazing, actually. And we made interest on Nucor loans deductible, which I told you is a big deal.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nucor",
+    "tickers": [
+     "NUE"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "made interest on Nucor loans deductible, which I told you is a big deal",
+    "summary": "The President made interest on Nucor loans tax-deductible as a policy benefit."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The remark actually refers to auto loan interest deductibility, not Nucor-specific policy, so this is a mistaken company match with no real new benefit for Nucor.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The transcript's Nucor mention appears to be a misidentification of general 'car loans' interest deduction rhetoric, not an actual policy specific to Nucor, so no clear tradable signal for NUE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The remark actually refers to auto loan interest deductibility, not Nucor-specific policy, so this is a mistaken company match with no real new benefit for Nucor.\", \"added\": false}], \"summary\": \"The transcript's Nucor mention appears to be a misidentification of general 'car loans' interest deduction rhetoric, not an actual policy specific to Nucor, so no clear tradable signal for NUE.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:01610:iran",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 1610.4082038834952,
+   "t_wall": 1776384206.4082038,
+   "t_wall_et": "2026-04-16T20:03:26.408204-04:00",
+   "segment_text": "When you see a young soldier mostly going around without legs, without arms, with their faces so badly injured, it was Soleimani that did that. The roadside bombs, they were just terrible. He was the father of the roadside bomb. We killed him, and that had a big impact on Iran. That had a big impact on Iran.",
+   "context": "But they were some of them were good. They had 1 named the Soleimani. You know what the Soleimani? We took him out. He was the worst 1 of the worst terrorists in the history of this country, this world. They killed many of our people. Many of our people have been killed. When you see a young soldier mostly going around without legs, without arms, with their faces so badly injured, it was Soleimani that did that. The roadside bombs, they were just terrible. He was the father of the roadside bomb. We killed him, and that had a big impact on Iran. That had a big impact on Iran.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "military",
+    "confidence": 0.95,
+    "quote": "We killed him, and that had a big impact on Iran.",
+    "summary": "The President claims killing Soleimani had major impact on Iran."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on oil prices and past geopolitical history, not a new energy policy signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to oil prices being lower than feared is old news and not a fresh catalyst.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Historical anecdote about Soleimani and Iran's navy is rhetorical, not a new defense policy or contract signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "This segment is largely historical/rhetorical storytelling about Iran and inflation with no new policy, contract, or price-relevant announcements, so minimal market impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General commentary on oil prices and past geopolitical history, not a new energy policy signal.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to oil prices being lower than feared is old news and not a fresh catalyst.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Historical anecdote about Soleimani and Iran's navy is rhetorical, not a new defense policy or contract signal.\", \"added\": false}], \"summary\": \"This segment is largely historical/rhetorical storytelling about Iran and inflation with no new policy, contract, or price-relevant announcements, so minimal market impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:01648:defense_word",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "fake",
+    "prices"
+   ],
+   "t_audio": 1648.2222391304347,
+   "t_wall": 1776384244.222239,
+   "t_wall_et": "2026-04-16T20:04:04.222239-04:00",
+   "segment_text": "and very shortly, we're gonna be probably 8 or 9 years. Don't forget we're having some fake inflation because of the fuel, the energy prices, which everybody said was going to $2.50. We're talking about that, Scott. They said 250,",
+   "context": "Because he was if, I think it maybe would be a different story if he were around. I mean, he was a horrible person, a horrible human being. He was a mad genius, but it probably would have been more which still would have won by fast, but it would have been not probably as fast as it has gone. In the report released last week, core inflation was down to the lowest level in 5 years, and very shortly, we're gonna be probably 8 or 9 years. Don't forget we're having some fake inflation because of the fuel, the energy prices, which everybody said was going to $2.50. We're talking about that, Scott. They said 250, $300. I mean, today, what was it? Finished at $89 or $90.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "mpKpfdZitCM:01669:stock_market",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 1669.8601463157895,
+   "t_wall": 1776384265.8601463,
+   "t_wall_et": "2026-04-16T20:04:25.860146-04:00",
+   "segment_text": "But think of that how well we're doing, and we have this. A lot of people thought that inflation would be through the roof and the stock market would crash. Well, we just hit an all time new",
+   "context": "and very shortly, we're gonna be probably 8 or 9 years. Don't forget we're having some fake inflation because of the fuel, the energy prices, which everybody said was going to $2.50. We're talking about that, Scott. They said 250, $300. I mean, today, what was it? Finished at $89 or $90. Right? And that's in the you know, we haven't settled yet. Maybe we won't, but I think I think you're gonna be pleasantly surprised. But think of that how well we're doing, and we have this. A lot of people thought that inflation would be through the roof and the stock market would crash. Well, we just hit an all time new",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "we just hit an all time new",
+    "summary": "The President states stock market hit all-time high despite inflation concerns."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric praising already-known market highs and inflation data, not new information.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No sector-specific or novel policy content affecting tech stocks.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad market commentary with no new industrial-sector implications.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely rhetorical, touting already-known record stock highs and easing inflation without revealing new policy or economic data, so the market-wide effect is neutral.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric praising already-known market highs and inflation data, not new information.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No sector-specific or novel policy content affecting tech stocks.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad market commentary with no new industrial-sector implications.\", \"added\": false}], \"summary\": \"The President's remarks are largely rhetorical, touting already-known record stock highs and easing inflation without revealing new policy or economic data, so the market-wide effect is neutral.\"}"
+   }
+  },
+  {
+   "signal_id": "mpKpfdZitCM:01759:defense_word",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "stock"
+   ],
+   "t_audio": 1759.41,
+   "t_wall": 1776384355.41,
+   "t_wall_et": "2026-04-16T20:05:55.410000-04:00",
+   "segment_text": "2 years ago, you were a dead country. Everyone thought America was finished. We were a laughing stock with a president that couldn't walk up a flight of stairs.",
+   "context": "but the king the king of Saudi Arabia, a very smart guy, invested 2 2000000000000 dollars. We have Qatar. We have UAE, Saudi Arabia. The king of Saudi Arabia, they invested trillions of dollars in our country. And he he said to me, year and 0.5 ago, I was with him, he said, you know, 2 years ago, you were a dead country. Everyone thought America was finished. We were a laughing stock with a president that couldn't walk up a flight of stairs.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "mpKpfdZitCM:02182:oil_strong",
+   "video_id": "mpKpfdZitCM",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil production",
+   "text_span": "oil production",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2182.700513447433,
+   "t_wall": 1776384778.7005134,
+   "t_wall_et": "2026-04-16T20:12:58.700513-04:00",
+   "segment_text": "And, you know, while in Europe and all a lot of other places, they're looking for oil. They're looking for gas. They want gasoline. They're having a hard time. We have a lot. So at this moment, right now, we have more oil production than Russia and Saudi Arabia by far. Russia and Saudi Arabia put together, if you add them up together. And by next year, it will be double that amount. So it's pretty amazing.",
+   "context": "Before I enter, I just wanna say 2 things to be very important. So right now, in this country, we have more people working than at any time in the history of our country. Think of that. And also, it's pretty good. And, you know, while in Europe and all a lot of other places, they're looking for oil. They're looking for gas. They want gasoline. They're having a hard time. We have a lot. So at this moment, right now, we have more oil production than Russia and Saudi Arabia by far. Russia and Saudi Arabia put together, if you add them up together. And by next year, it will be double that amount. So it's pretty amazing.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil production (US)",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "we have more oil production than Russia and Saudi Arabia by far",
+    "summary": "The President claims US oil production exceeds Russia and Saudi Arabia combined, doubling next year."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General boast about US oil output is repeated rhetoric with no new policy or price signal, and higher production is bearish for prices even if bullish for volumes.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Touting record US oil production implies more supply, which is not clearly bullish for crude prices and is old rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar claims about record US employment and oil output without new policy specifics, making them low-impact, repeat rhetoric for energy tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General boast about US oil output is repeated rhetoric with no new policy or price signal, and higher production is bearish for prices even if bullish for volumes.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Touting record US oil production implies more supply, which is not clearly bullish for crude prices and is old rhetoric.\", \"added\": false}], \"summary\": \"The President's remarks reiterate familiar claims about record US employment and oil output without new policy specifics, making them low-impact, repeat rhetoric for energy tickers.\"}"
+   }
+  }
+ ]
+}

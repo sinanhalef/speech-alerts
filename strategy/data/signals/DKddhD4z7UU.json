@@ -1,0 +1,2301 @@
+{
+ "video": {
+  "id": "DKddhD4z7UU",
+  "url": "https://www.youtube.com/watch?v=DKddhD4z7UU",
+  "title": "The President delivers remarks on the U.S. steel deal — 5/30/2025",
+  "channel": "CNBC Television",
+  "duration": 3710.0,
+  "was_live": true,
+  "release_timestamp": 1748641111.0,
+  "upload_timestamp": 1748645073.0,
+  "upload_date": "20250530",
+  "label": "US Steel remarks, Pittsburgh (CNBC), 2025-05-30",
+  "group": "headline",
+  "notes": "",
+  "t0": 1748641111.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 39,
+  "confirmed": 25,
+  "retracted": 14,
+  "unconfirmed": 0,
+  "llm_calls": 48
+ },
+ "signals": [
+  {
+   "signal_id": "DKddhD4z7UU:00185:rtx_word",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "rtx_word",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "patriots",
+   "text_span": "patriots",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 185.815,
+   "t_wall": 1748641296.815,
+   "t_wall_et": "2025-05-30T17:41:36.815000-04:00",
+   "segment_text": "patriots who are the heart and soul of U. S. Steel. Thank you very much. That's great.",
+   "context": "Thank you very much. What a group of people. We love this group. You voted for me. They never had a chance in Pennsylvania. They never even had a chance. But I'm thrilled to be back in this beautiful Commonwealth at the legendary Mon Valley Works, Urban Plant. Urban Plant with the proud Pennsylvania patriots who are the heart and soul of U. S. Steel. Thank you very much. That's great.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00188:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 188.70337209302326,
+   "t_wall": 1748641299.703372,
+   "t_wall_et": "2025-05-30T17:41:39.703372-04:00",
+   "segment_text": "patriots who are the heart and soul of U. S. Steel. Thank you very much. That's great.",
+   "context": "Thank you very much. What a group of people. We love this group. You voted for me. They never had a chance in Pennsylvania. They never even had a chance. But I'm thrilled to be back in this beautiful Commonwealth at the legendary Mon Valley Works, Urban Plant. Urban Plant with the proud Pennsylvania patriots who are the heart and soul of U. S. Steel. Thank you very much. That's great.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "U.S. Steel",
+    "tickers": [
+     "X"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "heart and soul of U.S. Steel",
+    "summary": "The President praises U.S. Steel workers at Mon Valley Works facility."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President confirms a blockbuster partnership deal (Nippon Steel investment) keeping U.S. Steel American, positive for X shareholders.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Domestic competitor could face slightly more competition from a revitalized U.S. Steel but effect is minor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs opposed the foreign deal and stands to lose competitively if U.S. Steel gets a strong partner and investment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly implicated by this remark, minimal spillover.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel sector ETF likely benefits modestly from positive sentiment around U.S. Steel deal.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's praise and confirmation of the U.S. Steel-Nippon partnership deal is bullish for X, mildly negative for rival CLF, and modestly positive for the steel sector ETF SLX, with limited direct impact on NUE and STLD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.75, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President confirms a blockbuster partnership deal (Nippon Steel investment) keeping U.S. Steel American, positive for X shareholders.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Domestic competitor could face slightly more competition from a revitalized U.S. Steel but effect is minor.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Cleveland-Cliffs opposed the foreign deal and stands to lose competitively if U.S. Steel gets a strong partner and investment.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Not directly implicated by this remark, minimal spillover.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Steel sector ETF likely benefits modestly from positive sentiment around U.S. Steel deal.\", \"added\": true}], \"summary\": \"The President's praise and confirmation of the U.S. Steel-Nippon partnership deal is bullish for X, mildly negative for rival CLF, and modestly positive for the steel sector ETF SLX, with limited direct impact on NUE and STLD.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00233:japan",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "partner",
+    "tremendous"
+   ],
+   "t_audio": 233.23708563636364,
+   "t_wall": 1748641344.2370856,
+   "t_wall_et": "2025-05-30T17:42:24.237086-04:00",
+   "segment_text": "We're gonna have a great partner. And I have to tell you, Japan has been a tremendous friend of mine during my",
+   "context": "You're gonna say, please, sir, we don't want this kind of success. It's too much, sir. We can't take please, we beg you. We don't want this much success, but we do, really, don't we? We're gonna be so successful. You have just you have just started. You're watch. We're here today to celebrate a blockbuster agreement that will ensure this storied American company stays in American company you're gonna stay an American company. You know that. Right? But we're gonna have a great partner. We're gonna have a great partner. And I have to tell you, Japan has been a tremendous friend of mine during my",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "Japan has been a tremendous friend of mine",
+    "summary": "The President praises Japan as partner in blockbuster agreement with American company."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise of Japan as partner in the Nippon-U.S. Steel deal is mildly positive sentiment but too narrow to move a broad Japan equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on U.S. Steel and Japan's role as a partner in the deal; this is company-specific news (positive for X, neutral for broad Japan ETF exposure) with little new information for EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise of Japan as partner in the Nippon-U.S. Steel deal is mildly positive sentiment but too narrow to move a broad Japan equity ETF.\", \"added\": false}], \"summary\": \"The President's remarks focus on U.S. Steel and Japan's role as a partner in the deal; this is company-specific news (positive for X, neutral for broad Japan ETF exposure) with little new information for EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00344:defense_word",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 344.51443037974684,
+   "t_wall": 1748641455.5144303,
+   "t_wall_et": "2025-05-30T17:44:15.514430-04:00",
+   "segment_text": "And I thought about it. I studied it up real quick. It took me about 2 minutes.",
+   "context": "We need help. He was put there to save the company. Right? I remember it so well, like yesterday, he was put there. They hired him to save the company. And, he came up and he said, we need help, sir. I said, what can we do? Because all the steel companies were going south. They were all in trouble. He said, if you could get tariffs, sir, it'd save this company. And I thought about it. I studied it up real quick. It took me about 2 minutes. And I said, Dave, I think we're gonna make you very happy. And we did make you happy, didn't we? We saved the company. We put 25%",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00384:x",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "nippon steel",
+   "text_span": "Nippon Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [
+    "great company"
+   ],
+   "t_audio": 384.52099999999996,
+   "t_wall": 1748641495.521,
+   "t_wall_et": "2025-05-30T17:44:55.521000-04:00",
+   "segment_text": "Also, the vice chairman of Nippon Steel,",
+   "context": "on your company. So we had protection. We were protected from outside horrible influence, including dumping, where they were dumping steel all over The United States, and we saved it. It was a great honor. And Dave was really the 1st 1 that brought it to my attention, and I appreciate it, Dave. You did a good job. You did a good job. He more than saved the company. He made the company great. This will be a great company in a very short period of time. Also, the vice chairman of Nippon Steel,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nippon Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "vice chairman of Nippon Steel. This will be a great company.",
+    "summary": "The President praised Nippon Steel's leadership and predicted the company will become great."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.75,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises the Nippon Steel-U.S. Steel deal and predicts the combined company will be great, reinforcing deal completion sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reaffirming tariff protection and the Nippon-U.S. Steel deal slightly favors X over domestic competitors like Nucor by strengthening a larger rival.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "A stronger, tariff-protected U.S. Steel/Nippon combination is a modest competitive negative for Cleveland-Cliffs, which had opposed the deal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Steel Dynamics is largely unaffected by this specific commentary on U.S. Steel and Nippon Steel.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise centers on U.S. Steel's rescue via tariffs and the Nippon Steel deal, positive for X and mildly negative for rival domestic producers CLF and NUE, with no clear effect on STLD.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.75,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises the Nippon Steel-U.S. Steel deal and predicts the combined company will be great, reinforcing deal completion sentiment.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reaffirming tariff protection and the Nippon-U.S. Steel deal slightly favors X over domestic competitors like Nucor by strengthening a larger rival.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"A stronger, tariff-protected U.S. Steel/Nippon combination is a modest competitive negative for Cleveland-Cliffs, which had opposed the deal.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Steel Dynamics is largely unaffected by this specific commentary on U.S. Steel and Nippon Steel.\",\"added\":false}],\"summary\":\"The President's praise centers on U.S. Steel's rescue via tariffs and the Nippon Steel deal, positive for X and mildly negative for rival domestic producers CLF and NUE, with no clear effect on STLD.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00598:defense",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "defense",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "golden dome",
+   "text_span": "golden dome",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "LMT",
+    "RTX",
+    "NOC",
+    "GD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 598.4441574468085,
+   "t_wall": 1748641709.4441574,
+   "t_wall_et": "2025-05-30T17:48:29.444157-04:00",
+   "segment_text": "A woman is an incredible writer, actually. She understands what they call the rust belt. We won't be able to call this section a rust belt anymore. It'll be a a golden belt. It'll be a golden dome. Right? It'll be part of a golden dome that we're building to save everybody's lives.",
+   "context": "He was the real deal. Right? He'll even admit it. He's gonna admit it. Pennsylvania senate president pro tem Kim Ward. Thank you. Good job, Kim. Good job. Thank you. A woman is an incredible writer, actually. She understands what they call the rust belt. We won't be able to call this section a rust belt anymore. It'll be a a golden belt. It'll be a golden dome. Right? It'll be part of a golden dome that we're building to save everybody's lives.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00877:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steelworkers",
+   "text_span": "Steelworkers",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 877.6100200000001,
+   "t_wall": 1748641988.61002,
+   "t_wall_et": "2025-05-30T17:53:08.610020-04:00",
+   "segment_text": "and the United States Steelworkers Local 12,",
+   "context": "And he did have a lot of courage, didn't he? Not that big. He's like, okay. I said, Rocky, I've had you up to here. But boy, does he have a heart. Right? Heart's it's all about the heart. Also, senator Dave McCormick, who had a great election victory, and he sends his regards. He's he's trying to get a certain bill through that's gonna give you the largest tax cuts in history, and we gotta get it done. So thank you to Dave. He's been great. Perhaps most importantly, let me thank the tough hardworking members of the United States Steel Workers Local 22, 27, and the United States Steelworkers Local 12,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steelworkers",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "tough hardworking members of the United States Steel Workers",
+    "summary": "The President praised steelworkers unions for their hard work and toughness."
+   },
+   "llm_attempts": 1,
+   "count": 25,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President confirms Nippon Steel investment deal in U.S. Steel with billions committed, positive for X shareholders.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Deal specific to U.S. Steel, no direct impact on Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Nippon-U.S. Steel deal removes Cleveland-Cliffs' chance to acquire X and strengthens a rival.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct relevance to Steel Dynamics from this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive sentiment toward steel sector broadly supports the steel ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks confirm and praise the Nippon Steel investment deal in U.S. Steel, positive for X and steel sentiment broadly, slightly negative for CLF which sought to acquire X, neutral for other pure-play steelmakers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.7, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President confirms Nippon Steel investment deal in U.S. Steel with billions committed, positive for X shareholders.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Deal specific to U.S. Steel, no direct impact on Nucor.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Nippon-U.S. Steel deal removes Cleveland-Cliffs' chance to acquire X and strengthens a rival.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct relevance to Steel Dynamics from this remark.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive sentiment toward steel sector broadly supports the steel ETF.\", \"added\": false}], \"summary\": \"The President's remarks confirm and praise the Nippon Steel investment deal in U.S. Steel, positive for X and steel sentiment broadly, slightly negative for CLF which sought to acquire X, neutral for other pure-play steelmakers.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:00993:trucking",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "trucking",
+   "entity": "Trucking / rail",
+   "kind": "sector",
+   "alias": "railroads",
+   "text_span": "railroads",
+   "dict_tickers": [
+    "IYT",
+    "UNP",
+    "CSX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 993.8000000000001,
+   "t_wall": 1748642104.8,
+   "t_wall_et": "2025-05-30T17:55:04.800000-04:00",
+   "segment_text": "years, the men and women of U. S. Steel have poured the molten metal and forged the tempered beams that built America's railroads, bridged the mighty rivers, and raised up towering skyscrapers",
+   "context": "And, unfortunately, he's no longer with us. You know what happened with Shinzo? But he was a great friend of mine and a amazing man, and it's an amazing country, and you're gonna have a tremendous relationship. So thank you very much. We very much appreciate it. Very much appreciate it. For more than 124 years, the men and women of U. S. Steel have poured the molten metal and forged the tempered beams that built America's railroads, bridged the mighty rivers, and raised up towering skyscrapers",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01128:china",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "plant",
+    "tariffs"
+   ],
+   "t_audio": 1128.8841605882353,
+   "t_wall": 1748642239.8841605,
+   "t_wall_et": "2025-05-30T17:57:19.884161-04:00",
+   "segment_text": "They were dumping steel, as you know, from China and from all over the world. They were dumping it all over our country, dumping it. And it was bad steel. It was garbage,",
+   "context": "And right from the beginning, it didn't take long. You got it right from the beginning. I think before I even opened my mouth, because even as a private citizen, I used to fight and say, why are you letting all of these countries come in and steal your jobs? Bring them to other countries. Why do you let that happen not only here but all over the country? In 2018, I imposed historic tariffs on foreign steel, and the results were amazing. You wouldn't have this plant right now if I didn't put on 2550% tariffs. They were dumping steel, as you know, from China and from all over the world. They were dumping it all over our country, dumping it. And it was bad steel. It was garbage,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "They were dumping steel from China and from all over the world.",
+    "summary": "The President imposed 25-50% tariffs on Chinese steel imports in 2018 to stop dumping."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark reiterates old 2018 steel tariffs on China, not new policy affecting broad China index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetoric on historic steel tariffs, no new China-wide measure announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Internet sector ETF unrelated to steel tariff remarks, no direct exposure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on praising past steel tariffs on China as domestic policy success, restating known 2018 measures rather than announcing new China-wide action, so broad China ETFs see minimal direct price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark reiterates old 2018 steel tariffs on China, not new policy affecting broad China index.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rhetoric on historic steel tariffs, no new China-wide measure announced.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Internet sector ETF unrelated to steel tariff remarks, no direct exposure.\", \"added\": false}], \"summary\": \"The President's remarks focus on praising past steel tariffs on China as domestic policy success, restating known 2018 measures rather than announcing new China-wide action, so broad China ETFs see minimal direct price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01372:mexico",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "imports"
+   ],
+   "t_audio": 1372.0078169014084,
+   "t_wall": 1748642483.0078168,
+   "t_wall_et": "2025-05-30T18:01:23.007817-04:00",
+   "segment_text": "And imports of steel and rebar from Mexico exploded by more than 1000%.",
+   "context": "But what they did do, think of this, they gave exemptions and they were so broad and so deep, and I guess you saw that, But the exemptions that they gave allowed foreign competitors to come in and steal our industry, steal our jobs, and bring them back home and bring them home by the boatload. Crippling imports of foreign steel skyrocketed over the last 4 years like you have never seen before by over 30%. That's an incredible crazy number. And imports of steel and rebar from Mexico exploded by more than 1000%.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "imports of steel and rebar from Mexico exploded by more than 1000%",
+    "summary": "The President criticizes surging steel and rebar imports from Mexico, citing massive increase over last 4 years."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Criticism of Mexican steel/rebar import surge signals possible tariff pressure on Mexican exporters, mildly negative for Mexico-exposed equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate tariff protection for US Steel and criticize Mexican steel import surge, a mild negative signal for Mexico-exposed assets like EWW, though largely rhetorical and not new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Criticism of Mexican steel/rebar import surge signals possible tariff pressure on Mexican exporters, mildly negative for Mexico-exposed equities.\", \"added\": false}], \"summary\": \"The President's remarks reiterate tariff protection for US Steel and criticize Mexican steel import surge, a mild negative signal for Mexico-exposed assets like EWW, though largely rhetorical and not new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01380:canada",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "imports"
+   ],
+   "t_audio": 1380.1868605263157,
+   "t_wall": 1748642491.1868606,
+   "t_wall_et": "2025-05-30T18:01:31.186861-04:00",
+   "segment_text": "We were getting our steel from Canada.",
+   "context": "foreign competitors to come in and steal our industry, steal our jobs, and bring them back home and bring them home by the boatload. Crippling imports of foreign steel skyrocketed over the last 4 years like you have never seen before by over 30%. That's an incredible crazy number. And imports of steel and rebar from Mexico exploded by more than 1000%. We were getting our steel from Mexico. We were getting our steel from Canada.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "We were getting our steel from Canada.",
+    "summary": "The President criticizes steel imports from Canada amid discussion of tariffs on foreign steel."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates existing steel tariff grievance against Canada without new policy action, limited broad market impact on Canadian equities ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate prior criticism of Canadian steel imports and existing tariffs as part of praising the U.S. Steel deal; no new policy specifics were announced that would materially move a broad Canada equity ETF like EWC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates existing steel tariff grievance against Canada without new policy action, limited broad market impact on Canadian equities ETF.\", \"added\": false}], \"summary\": \"The President's remarks reiterate prior criticism of Canadian steel imports and existing tariffs as part of praising the U.S. Steel deal; no new policy specifics were announced that would materially move a broad Canada equity ETF like EWC.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01503:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 1503.5995181818182,
+   "t_wall": 1748642614.5995183,
+   "t_wall_et": "2025-05-30T18:03:34.599518-04:00",
+   "segment_text": "the tariffs on steel into The United States Of America,",
+   "context": "secretary of commerce, and all of the great geniuses and people we have working, and they are smart, but I don't think you'd be a good steelworker, Scott. I'm sorry. I'm gonna have to put a little more muscle content into that guy, but he's great. He's great at what he does. We are going to be imposing a 25% increase. We're going to bring it from 25% to 50%, the tariffs on steel into The United States Of America,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "tariff",
+    "confidence": 0.95,
+    "quote": "imposing a 25% increase. We're going to bring it from 25% to 50%, the tariffs on steel",
+    "summary": "The President announces raising steel tariffs from 25% to 50% on US imports."
+   },
+   "llm_attempts": 1,
+   "count": 19,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Doubling steel tariffs to 50% protects US Steel from foreign competition amid Nippon deal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Higher import tariffs benefit domestic steelmakers like Nucor by raising import costs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.65,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs benefits from reduced foreign steel competition via higher tariffs.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steel Dynamics gains pricing power as tariff hike shields domestic producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steel sector ETF should rise on broad tariff-driven protection for US steelmakers.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "The President's announcement of doubling steel tariffs to 50% is a new, concrete policy positive for US domestic steel producers and the sector ETF, likely lifting their shares relative to the market.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.7,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Doubling steel tariffs to 50% protects US Steel from foreign competition amid Nippon deal.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Higher import tariffs benefit domestic steelmakers like Nucor by raising import costs.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.65,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Cleveland-Cliffs benefits from reduced foreign steel competition via higher tariffs.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Steel Dynamics gains pricing power as tariff hike shields domestic producers.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Steel sector ETF should rise on broad tariff-driven protection for US steelmakers.\",\"added\":true}],\"summary\":\"The President's announcement of doubling steel tariffs to 50% is a new, concrete policy positive for US domestic steel producers and the sector ETF, likely lifting their shares relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01637:x",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "us steel",
+   "text_span": "US Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1637.2131305084745,
+   "t_wall": 1748642748.2131305,
+   "t_wall_et": "2025-05-30T18:05:48.213130-04:00",
+   "segment_text": "We don't want America's future to be built with shoddy steel from Shanghai. We want it built with the strength and the pride of Pittsburgh. It's Pittsburgh Steel. It's US Steel,",
+   "context": "08:00 in the morning, and it showed no inflation and tremendous income jumps for workers and for the people of our country. And they go, wow. He was right. He was right. But you knew that you knew that before Wall Street. This the workers knew that. We don't want America's future to be built with shoddy steel from Shanghai. We want it built with the strength and the pride of Pittsburgh. It's Pittsburgh Steel. It's US Steel,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "U.S. Steel",
+    "tickers": [
+     "X"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "We want it built with the strength and the pride of Pittsburgh. It's Pittsburgh Steel. It's US Steel.",
+    "summary": "The President praises U.S. Steel as symbol of American strength and manufacturing pride."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President praises U.S. Steel and touts billions in new investment tied to the deal, a positive catalyst for the stock.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General tariff rhetoric is repeated policy, not new information specific to Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff praise is repeat rhetoric and not specific to Cliffs, effect ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Tariff rhetoric is repeated and not directly tied to Steel Dynamics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise centers on U.S. Steel and its investment deal, which is a clear positive for X; the broader tariff rhetoric is repeated policy and not specifically new for competing steelmakers NUE, CLF, or STLD.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"up\", \"confidence\": 0.7, \"magnitude\": \"medium\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President praises U.S. Steel and touts billions in new investment tied to the deal, a positive catalyst for the stock.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General tariff rhetoric is repeated policy, not new information specific to Nucor.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff praise is repeat rhetoric and not specific to Cliffs, effect ambiguous.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Tariff rhetoric is repeated and not directly tied to Steel Dynamics.\", \"added\": false}], \"summary\": \"The President's praise centers on U.S. Steel and its investment deal, which is a clear positive for X; the broader tariff rhetoric is repeated policy and not specifically new for competing steelmakers NUE, CLF, or STLD.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01821:defense_word",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 1821.7542105263158,
+   "t_wall": 1748642932.7542105,
+   "t_wall_et": "2025-05-30T18:08:52.754210-04:00",
+   "segment_text": "As part of this monumental commitment, NIPOD will also invest $2,200,000,000",
+   "context": "in the history of the steel industry in The United States Of America. And Pittsburgh will very soon be respected around the world as the steel city again. So I wanna congratulate you. I wanna congratulate you. As part of this monumental commitment, NIPOD will also invest $2,200,000,000 to increase steel production here in the Mon Valley works,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:01994:chips",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1994.5577894285716,
+   "t_wall": 1748643105.5577893,
+   "t_wall_et": "2025-05-30T18:11:45.557789-04:00",
+   "segment_text": "for what you've gone through. You've gone through a lot. It's closing. It's not closing. It's opening, and you wanna stay here. People say, well, we'll move to another place, so we'll do chips. So we'll do something like chips. Somehow, you don't wanna do chips. I'm looking at these giant guys with the giant arms. You're not gonna like doing chips.",
+   "context": "and every US steel worker will soon receive a well deserved $5,000 bonus. That's very thank you very much. That's great. That's importantly for what you've gone through. You've gone through a lot. It's closing. It's not closing. It's opening, and you wanna stay here. People say, well, we'll move to another place, so we'll do chips. So we'll do something like chips. Somehow, you don't wanna do chips. I'm looking at these giant guys with the giant arms. You're not gonna like doing chips.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02106:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steelworkers",
+   "text_span": "Steelworkers",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2106.362462686567,
+   "t_wall": 1748643217.3624628,
+   "t_wall_et": "2025-05-30T18:13:37.362463-04:00",
+   "segment_text": "prompted me to establish Steelworkers for the President. Our membership now",
+   "context": "and the greatest president ever, Donald j the President. Hello. My name is Brian Pavlak. I'm 0.333 generation steelworker and the president and founder of steelworkers for the President. He had terminated the tapenade assassination of then president candidate the President prompted me to establish Steelworkers for the President. Our membership now exists to 2.5 k. Right.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 4,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02139:china",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "tariffs"
+   ],
+   "t_audio": 2139.628918918919,
+   "t_wall": 1748643250.628919,
+   "t_wall_et": "2025-05-30T18:14:10.628919-04:00",
+   "segment_text": "rather being dumped onto us by China.",
+   "context": "In my opinion, the President has demonstrated remarkable support for the American steel industry, surpassing the collective efforts of all other presidents combined. Through tariffs, he has fought to keep steel being made in America rather being dumped onto us by China.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02170:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2170.4549333333334,
+   "t_wall": 1748643281.4549334,
+   "t_wall_et": "2025-05-30T18:14:41.454933-04:00",
+   "segment_text": "American steel great again.",
+   "context": "Through this deal, he has fought to keep us billions of dollars in investments who will secure jobs for generations to come. Thank you, the President, for your commitment to revitalizing the American steel industry and restoring its greatness and in making American steel great again. Thank",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02275:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 2275.61015625,
+   "t_wall": 1748643386.6101563,
+   "t_wall_et": "2025-05-30T18:16:26.610156-04:00",
+   "segment_text": "0.333 generation steelworker working for U. S. Steel. And by the way, I'm damn proud of that. So",
+   "context": "We did it. I wanna thank everyone for coming. Today is a great day. For those of you who don't know me, my name is Jason Zugog. I'm the former president, current vice president of Local 22 27, and I've worked at this great plant for 28 years. I'm 0.333 generation steelworker working for U. S. Steel. And by the way, I'm damn proud of that. So",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02571:x",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "nippon",
+   "text_span": "Nippon",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [
+    "merger"
+   ],
+   "t_audio": 2571.53176744186,
+   "t_wall": 1748643682.5317674,
+   "t_wall_et": "2025-05-30T18:21:22.531767-04:00",
+   "segment_text": "He introduced himself to me and asked about the Nippon merger and what I thought about it. Well, as you know, I'm pretty passionate about it and let him know that. He told me after I win, you will be my 1st meeting.",
+   "context": "They gave me breaking news, advice, and guidance through this process. You might have been behind the scenes, but you definitely had a hand in getting this partnership to the finish line. Paul, Curtis, Chris, thank you. US senator Dave McCormick. I met the senator at a the President rally in Latrobe before we were both getting ready to speak. He introduced himself to me and asked about the Nippon merger and what I thought about it. Well, as you know, I'm pretty passionate about it and let him know that. He told me after I win, you will be my 1st meeting.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "U.S. Steel (Nippon Steel merger)",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.95,
+    "quote": "I'm pretty passionate about it",
+    "summary": "The President supports the Nippon Steel merger of U.S. Steel and pledged discussion with Senator McCormick."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.7,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued presidential support for the Nippon-U.S. Steel partnership reduces deal-block risk and is positive for U.S. Steel shares.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention; competitor implications from a single foreign investment deal are ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cleveland-Cliffs had opposed the Nippon deal, so its advancement is mildly negative for CLF's competitive position.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not directly referenced and limited spillover from this specific deal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reaffirmed support for the Nippon Steel–U.S. Steel partnership, positive for X, slightly negative for rival CLF which had opposed the deal, and largely neutral for other steelmakers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.7,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Continued presidential support for the Nippon-U.S. Steel partnership reduces deal-block risk and is positive for U.S. Steel shares.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No direct mention; competitor implications from a single foreign investment deal are ambiguous.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Cleveland-Cliffs had opposed the Nippon deal, so its advancement is mildly negative for CLF's competitive position.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Not directly referenced and limited spillover from this specific deal.\",\"added\":false}],\"summary\":\"The President reaffirmed support for the Nippon Steel–U.S. Steel partnership, positive for X, slightly negative for rival CLF which had opposed the deal, and largely neutral for other steelmakers.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02654:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2654.485956551724,
+   "t_wall": 1748643765.4859567,
+   "t_wall_et": "2025-05-30T18:22:45.485957-04:00",
+   "segment_text": "From every steelworker that supports you and every family you saved, I wanna say thank you, mister president, for making U. S. Steel great again.",
+   "context": "Although we aren't public speakers, we tucked our fears aside and did what any proud American would do. We thank you every day for risking your life and laying it all on the line for this country. I knew you wouldn't let us down, and for that, I will be forever grateful. From every steelworker that supports you and every family you saved, I wanna say thank you, mister president, for making U. S. Steel great again.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02674:germany",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "german",
+   "text_span": "German",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 2674.2134246575342,
+   "t_wall": 1748643785.2134247,
+   "t_wall_et": "2025-05-30T18:23:05.213425-04:00",
+   "segment_text": "my name is Don German. I am the plant manager for this, Urban Works here.",
+   "context": "From every steelworker that supports you and every family you saved, I wanna say thank you, mister president, for making U. S. Steel great again. God bless America. God bless U. S. Steel. Thank you. So my name is Don German. I am the plant manager for this, Urban Works here. I had 35 years with U. S. Steel. I'm a 1st generation U. S. Steel worker.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02725:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2725.2322363636363,
+   "t_wall": 1748643836.2322364,
+   "t_wall_et": "2025-05-30T18:23:56.232236-04:00",
+   "segment_text": "the day I started at U. S. Steel,",
+   "context": "But I will I always tell people that, you know, it is for the workers that are out on this floor. It is for our families that are out here who support us. It is for the community members and our community and our state and our country. And I thank you from the bottom of my heart. Good afternoon. As you know me, I'm Kurt Barshik. I like to just tell, mister president, the day I started at U. S. Steel, my supervisor at the blast furnace told me,",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02922:aapl",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2922.31537037037,
+   "t_wall": 1748644033.3153703,
+   "t_wall_et": "2025-05-30T18:27:13.315370-04:00",
+   "segment_text": "is gonna be coming. Apple is spending $500,000,000,000",
+   "context": "jobs, and those numbers are going through the roof. We're going to have close to $11,000,000,000,000 invested in new investments in The United States, and you could look at other years. There's never been anything like that. And by the way, that's essentially in 2 months, not 4 months because it took me a little time to get acclimated. But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Apple",
+    "tickers": [
+     "AAPL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Apple is spending $500,000,000,000",
+    "summary": "Apple committing $500 billion in new US investment."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AAPL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The $500B investment figure has been previously announced and is domestic capex commitment rather than new profit-relevant news, so limited fresh price impact.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats a previously known Apple $500B US investment pledge as part of general economic boasting; not new information, so minimal expected abnormal stock reaction.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AAPL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The $500B investment figure has been previously announced and is domestic capex commitment rather than new profit-relevant news, so limited fresh price impact.\", \"added\": false}], \"summary\": \"The President repeats a previously known Apple $500B US investment pledge as part of general economic boasting; not new information, so minimal expected abnormal stock reaction.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02926:china",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 2926.9072857142855,
+   "t_wall": 1748644037.9072857,
+   "t_wall_et": "2025-05-30T18:27:17.907286-04:00",
+   "segment_text": "to invest in America, not in China.",
+   "context": "and those numbers are going through the roof. We're going to have close to $11,000,000,000,000 invested in new investments in The United States, and you could look at other years. There's never been anything like that. And by the way, that's essentially in 2 months, not 4 months because it took me a little time to get acclimated. But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Apple investing in America, not in China.",
+    "summary": "The President contrasts Apple's $500B U.S. investment against prior China investment."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about companies investing in US instead of China is repeat framing without new China-specific policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetoric, no new tariff/sanction announced against China specifically in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Excerpt focuses on domestic investment claims rather than any new China internet-sector policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is largely self-promotional rhetoric about US investment figures and low inflation, with only a passing contrast to China; it lacks new, actionable China-specific policy, so China-exposed ETFs should see minimal direct price impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about companies investing in US instead of China is repeat framing without new China-specific policy action.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same rhetoric, no new tariff/sanction announced against China specifically in this excerpt.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Excerpt focuses on domestic investment claims rather than any new China internet-sector policy.\",\"added\":false}],\"summary\":\"The remark is largely self-promotional rhetoric about US investment figures and low inflation, with only a passing contrast to China; it lacks new, actionable China-specific policy, so China-exposed ETFs should see minimal direct price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02927:nvda",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "nvidia",
+   "text_span": "Nvidia",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 2927.82,
+   "t_wall": 1748644038.82,
+   "t_wall_et": "2025-05-30T18:27:18.820000-04:00",
+   "segment_text": "Nvidia,",
+   "context": "invested in new investments in The United States, and you could look at other years. There's never been anything like that. And by the way, that's essentially in 2 months, not 4 months because it took me a little time to get acclimated. But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Nvidia, 500,000,000,000",
+    "summary": "The President states Nvidia will invest $500 billion in America."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Nvidia's $500B US investment figure has been previously reported and is domestic capex commitment rather than new demand or earnings news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates previously announced Nvidia US investment figures amid broader steel-deal remarks; little new price-relevant information for NVDA.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Nvidia's $500B US investment figure has been previously reported and is domestic capex commitment rather than new demand or earnings news.\",\"added\":false}],\"summary\":\"The President reiterates previously announced Nvidia US investment figures amid broader steel-deal remarks; little new price-relevant information for NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02931:tsm",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "tsm",
+   "entity": "TSMC",
+   "kind": "company",
+   "alias": "tsmc",
+   "text_span": "TSMC",
+   "dict_tickers": [
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 2931.02,
+   "t_wall": 1748644042.02,
+   "t_wall_et": "2025-05-30T18:27:22.020000-04:00",
+   "segment_text": "TSMC",
+   "context": "invested in new investments in The United States, and you could look at other years. There's never been anything like that. And by the way, that's essentially in 2 months, not 4 months because it took me a little time to get acclimated. But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "TSMC",
+    "tickers": [
+     "TSM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "TSMC",
+    "summary": "The President lists TSMC among major companies investing in America."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSM",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "TSMC's $200B US investment was previously announced and is restated here as part of a broader investment tally.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates already-known investment figures, including TSMC's prior $200B U.S. commitment, with no new details, so limited fresh price impact expected for TSM.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSM\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"TSMC's $200B US investment was previously announced and is restated here as part of a broader investment tally.\", \"added\": false}], \"summary\": \"The President reiterates already-known investment figures, including TSMC's prior $200B U.S. commitment, with no new details, so limited fresh price impact expected for TSM.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02938:chips",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2938.6806896551725,
+   "t_wall": 1748644049.6806896,
+   "t_wall_et": "2025-05-30T18:27:29.680690-04:00",
+   "segment_text": "and this is a company, the biggest in the world for chips,",
+   "context": "years. There's never been anything like that. And by the way, that's essentially in 2 months, not 4 months because it took me a little time to get acclimated. But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC if you look at this 1, TSMC, and this is a company, the biggest in the world for chips,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "TSMC, the biggest in the world for chips",
+    "summary": "The President highlights TSMC as world leader; context shows semiconductor investment boom."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts TSMC's $200B US investment, reinforcing bullish sentiment for semiconductor sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Positive framing of chip investment supports the broader semiconductor ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates Nvidia's previously announced $500B US investment, mildly reinforcing positive sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned directly; investment spotlight favors TSMC and Nvidia rather than Intel.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks emphasize massive US investment commitments from Apple, Nvidia, and TSMC, mildly bullish for semiconductor-related tickers (SMH, SOXX, NVDA) as reinforcement of known plans, with no direct impact on Intel.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts TSMC's $200B US investment, reinforcing bullish sentiment for semiconductor sector broadly.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Positive framing of chip investment supports the broader semiconductor ETF.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates Nvidia's previously announced $500B US investment, mildly reinforcing positive sentiment.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not mentioned directly; investment spotlight favors TSMC and Nvidia rather than Intel.\", \"added\": false}], \"summary\": \"The President's remarks emphasize massive US investment commitments from Apple, Nvidia, and TSMC, mildly bullish for semiconductor-related tickers (SMH, SOXX, NVDA) as reinforcement of known plans, with no direct impact on Intel.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02941:amzn",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2941.641705882353,
+   "t_wall": 1748644052.641706,
+   "t_wall_et": "2025-05-30T18:27:32.641706-04:00",
+   "segment_text": "at least. Amazon,",
+   "context": "But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC if you look at this 1, TSMC, and this is a company, the biggest in the world for chips, $200,000,000,000 at least. Amazon, 4,000,000,000. Johnson and Johnson,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "neutral",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Amazon, 4,000,000,000",
+    "summary": "The President states Amazon is investing $4 billion in America."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "A $4B investment figure is immaterial relative to Amazon's scale and likely already known/priced.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's mention of Amazon's $4B U.S. investment is a minor, likely already-known data point with negligible expected stock impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"A $4B investment figure is immaterial relative to Amazon's scale and likely already known/priced.\", \"added\": false}], \"summary\": \"The President's mention of Amazon's $4B U.S. investment is a minor, likely already-known data point with negligible expected stock impact.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02947:mrk",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "mrk",
+   "entity": "Merck",
+   "kind": "company",
+   "alias": "merck",
+   "text_span": "Merck",
+   "dict_tickers": [
+    "MRK"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2947.285,
+   "t_wall": 1748644058.285,
+   "t_wall_et": "2025-05-30T18:27:38.285000-04:00",
+   "segment_text": "Merck, Stellantis,",
+   "context": "But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC if you look at this 1, TSMC, and this is a company, the biggest in the world for chips, $200,000,000,000 at least. Amazon, 4,000,000,000. Johnson and Johnson, $55,000,000,000. Merck, Stellantis,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Merck",
+    "tickers": [
+     "MRK"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Merck",
+    "summary": "Merck listed among companies making major U.S. investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MRK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Merck's U.S. investment is mentioned only in passing as part of a broader list, likely already known and not a new catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general economic boasting; Merck's mention is a repeat/list-item reference to prior investment announcements with little new information, so limited price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MRK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Merck's U.S. investment is mentioned only in passing as part of a broader list, likely already known and not a new catalyst.\", \"added\": false}], \"summary\": \"The President's remarks are general economic boasting; Merck's mention is a repeat/list-item reference to prior investment announcements with little new information, so limited price impact expected.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02947:stla",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "stla",
+   "entity": "Stellantis",
+   "kind": "company",
+   "alias": "stellantis",
+   "text_span": "Stellantis",
+   "dict_tickers": [
+    "STLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2947.907222222222,
+   "t_wall": 1748644058.9072223,
+   "t_wall_et": "2025-05-30T18:27:38.907222-04:00",
+   "segment_text": "Merck, Stellantis,",
+   "context": "But over the last 2, 2.5 months, we have we're over $11,000,000,000,000 is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC if you look at this 1, TSMC, and this is a company, the biggest in the world for chips, $200,000,000,000 at least. Amazon, 4,000,000,000. Johnson and Johnson, $55,000,000,000. Merck, Stellantis,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stellantis",
+    "tickers": [
+     "STLA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "Stellantis",
+    "summary": "Stellantis listed among companies making major U.S. investments."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "STLA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President cites Stellantis among firms making large U.S. investments, a mildly positive but already-known commitment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely general economic boasting; the Stellantis mention is a repeat of known investment commitments, warranting only a small positive tilt.",
+    "raw": "{\"tickers\": [{\"ticker\": \"STLA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President cites Stellantis among firms making large U.S. investments, a mildly positive but already-known commitment.\", \"added\": false}], \"summary\": \"The President's remarks are largely general economic boasting; the Stellantis mention is a repeat of known investment commitments, warranting only a small positive tilt.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02949:gm",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "gm",
+   "entity": "General Motors",
+   "kind": "company",
+   "alias": "general motors",
+   "text_span": "General Motors",
+   "dict_tickers": [
+    "GM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2949.045,
+   "t_wall": 1748644060.045,
+   "t_wall_et": "2025-05-30T18:27:40.045000-04:00",
+   "segment_text": "General Motors are putting in billions and billions of dollars.",
+   "context": "is gonna be coming. Apple is spending $500,000,000,000 to invest in America, not in China. Nvidia, 500,000,000,000. TSMC if you look at this 1, TSMC, and this is a company, the biggest in the world for chips, $200,000,000,000 at least. Amazon, 4,000,000,000. Johnson and Johnson, $55,000,000,000. Merck, Stellantis, General Motors are putting in billions and billions of dollars.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "General Motors",
+    "tickers": [
+     "GM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "General Motors are putting in billions and billions of dollars",
+    "summary": "General Motors committing billions in investment in America."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises GM's billions in US investment, mildly positive but largely already-known rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's general economic remarks briefly praise GM's domestic investment, a mild positive but not new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises GM's billions in US investment, mildly positive but largely already-known rhetoric.\", \"added\": false}], \"summary\": \"The President's general economic remarks briefly praise GM's domestic investment, a mild positive but not new information.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02972:defense_word",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2972.084742168675,
+   "t_wall": 1748644083.084742,
+   "t_wall_et": "2025-05-30T18:28:03.084742-04:00",
+   "segment_text": "inflation that was probably the greatest inflation in the history of our country over the last 4 years, and now we have it down to around 2%. Grocery prices are down.",
+   "context": "$55,000,000,000. Merck, Stellantis, General Motors are putting in billions and billions of dollars. We have it all done. It's gonna be all with very little inflation. In fact, it was 2.1% in April, way down. You went through inflation that was probably the greatest inflation in the history of our country over the last 4 years, and now we have it down to around 2%. Grocery prices are down. Mortgage rates are down. Energy prices are down. And gasoline prices over Memorial Day weekend were the lowest they have been since 2003.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02974:housing",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "housing",
+   "entity": "Homebuilders",
+   "kind": "sector",
+   "alias": "mortgage rates",
+   "text_span": "Mortgage rates",
+   "dict_tickers": [
+    "XHB",
+    "ITB",
+    "LEN",
+    "DHI"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2974.015,
+   "t_wall": 1748644085.015,
+   "t_wall_et": "2025-05-30T18:28:05.015000-04:00",
+   "segment_text": "Mortgage rates are down.",
+   "context": "$55,000,000,000. Merck, Stellantis, General Motors are putting in billions and billions of dollars. We have it all done. It's gonna be all with very little inflation. In fact, it was 2.1% in April, way down. You went through inflation that was probably the greatest inflation in the history of our country over the last 4 years, and now we have it down to around 2%. Grocery prices are down. Mortgage rates are down.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Homebuilders",
+    "tickers": [
+     "XHB",
+     "ITB",
+     "LEN",
+     "DHI"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Mortgage rates are down.",
+    "summary": "The President notes mortgage rates have declined, positive for homebuilders."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XHB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about lower mortgage rates restates known trend without new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same generic mortgage rate comment, no new data specific to homebuilders.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LEN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of lower mortgage rates is old news and not company-specific.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat rhetoric on mortgage rates, unlikely to move stock meaningfully.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad economic boasting (mortgage rates, inflation, trade deficit) rather than new, actionable policy specific to homebuilders, so price impact is likely negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XHB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about lower mortgage rates restates known trend without new policy detail.\", \"added\": false}, {\"ticker\": \"ITB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same generic mortgage rate comment, no new data specific to homebuilders.\", \"added\": false}, {\"ticker\": \"LEN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of lower mortgage rates is old news and not company-specific.\", \"added\": false}, {\"ticker\": \"DHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat rhetoric on mortgage rates, unlikely to move stock meaningfully.\", \"added\": false}], \"summary\": \"The President's remarks are broad economic boasting (mortgage rates, inflation, trade deficit) rather than new, actionable policy specific to homebuilders, so price impact is likely negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:02978:oil",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 2978.2749999999996,
+   "t_wall": 1748644089.275,
+   "t_wall_et": "2025-05-30T18:28:09.275000-04:00",
+   "segment_text": "Energy prices are down. And gasoline prices over Memorial Day weekend were the lowest they have been since 2003.",
+   "context": "have it all done. It's gonna be all with very little inflation. In fact, it was 2.1% in April, way down. You went through inflation that was probably the greatest inflation in the history of our country over the last 4 years, and now we have it down to around 2%. Grocery prices are down. Mortgage rates are down. Energy prices are down. And gasoline prices over Memorial Day weekend were the lowest they have been since 2003.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Gasoline prices over Memorial Day weekend were the lowest since 2003.",
+    "summary": "The President claims gasoline prices hit lowest levels since 2003 over Memorial Day."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Low gasoline/energy prices touted as a win imply weaker energy price realizations for producers, mildly negative for the sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.53,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for low gasoline prices reflects broader soft crude price environment, slightly negative for oil price exposure.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower gasoline/energy prices reduce upstream/refining margins slightly, though effect is minor and mostly rhetorical.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same low-price narrative applies, marginal negative for integrated oil majors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is general economic praise touting low gasoline prices as a policy win, which is mildly negative (or at best neutral) for energy producers since it signals soft fuel prices rather than any new policy action; not a strong market-moving catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Low gasoline/energy prices touted as a win imply weaker energy price realizations for producers, mildly negative for the sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.53, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for low gasoline prices reflects broader soft crude price environment, slightly negative for oil price exposure.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower gasoline/energy prices reduce upstream/refining margins slightly, though effect is minor and mostly rhetorical.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same low-price narrative applies, marginal negative for integrated oil majors.\", \"added\": false}], \"summary\": \"The President's remark is general economic praise touting low gasoline prices as a policy win, which is mildly negative (or at best neutral) for energy producers since it signals soft fuel prices rather than any new policy action; not a strong market-moving catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:03194:steel",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3194.5691185185187,
+   "t_wall": 1748644305.5691185,
+   "t_wall_et": "2025-05-30T18:31:45.569118-04:00",
+   "segment_text": "But only if the car is made in America, and that means made with American steel and steel from US steel. And",
+   "context": "our 1 big beautiful bill will keep income taxes at the current rates and deliver no tax on tips, no tax on overtime, and no tax on Social Security for our seniors. And we're gonna make the interest payments, as you know, on cars. We're gonna take the car payments, and we're gonna make them those interest payments. You buy a car, you borrow money. We're gonna make interest payments tax deductible. But only if the car is made in America, and that means made with American steel and steel from US steel. And",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "made with American steel",
+    "summary": "Tax deduction for car interest requires American-made steel."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Explicit mention of US Steel benefiting from tax deduction incentive tied to American steel content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Domestic steelmaker benefits from policy favoring American-made steel in autos.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Domestic steel supplier stands to gain from incentive requiring American steel in vehicles.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Domestic steel producer benefits from policy favoring US-made steel content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Steel sector ETF likely to benefit broadly from pro-domestic-steel policy signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's proposal to make car loan interest tax-deductible only for vehicles made with American steel is a new, modest positive catalyst for US domestic steel producers and the steel sector broadly.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Explicit mention of US Steel benefiting from tax deduction incentive tied to American steel content.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Domestic steelmaker benefits from policy favoring American-made steel in autos.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Domestic steel supplier stands to gain from incentive requiring American steel in vehicles.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Domestic steel producer benefits from policy favoring US-made steel content.\",\"added\":false},{\"ticker\":\"SLX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Steel sector ETF likely to benefit broadly from pro-domestic-steel policy signal.\",\"added\":false}],\"summary\":\"The President's proposal to make car loan interest tax-deductible only for vehicles made with American steel is a new, modest positive catalyst for US domestic steel producers and the steel sector broadly.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:03195:x",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "us steel",
+   "text_span": "US steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3195.993462962963,
+   "t_wall": 1748644306.993463,
+   "t_wall_et": "2025-05-30T18:31:46.993463-04:00",
+   "segment_text": "But only if the car is made in America, and that means made with American steel and steel from US steel. And",
+   "context": "and no tax on Social Security for our seniors. And we're gonna make the interest payments, as you know, on cars. We're gonna take the car payments, and we're gonna make them those interest payments. You buy a car, you borrow money. We're gonna make interest payments tax deductible. But only if the car is made in America, and that means made with American steel and steel from US steel. And we're permanently expanding the child tax credit, and we're creating a special the new savings accounts for every newborn child, starting them off with a $1,000",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "U.S. Steel",
+    "tickers": [
+     "X"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.95,
+    "quote": "made with American steel and steel from US steel",
+    "summary": "The President proposes tax deduction for car interest only if made with American steel."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Proposed tax incentive tied to US Steel-made cars is a favorable policy nod for U.S. Steel.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Domestic steel-content preference broadly benefits US steelmakers including Nucor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Cliffs benefits as a domestic steel/iron ore producer from Buy American car incentives.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel Dynamics gains from policy favoring American-made steel in autos.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's proposal to tie tax-deductible car loan interest to American-made steel is a modest positive for domestic steel producers, with US Steel named directly.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Proposed tax incentive tied to US Steel-made cars is a favorable policy nod for U.S. Steel.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Domestic steel-content preference broadly benefits US steelmakers including Nucor.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Cliffs benefits as a domestic steel/iron ore producer from Buy American car incentives.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Steel Dynamics gains from policy favoring American-made steel in autos.\",\"added\":false}],\"summary\":\"The President's proposal to tie tax-deductible car loan interest to American-made steel is a modest positive for domestic steel producers, with US Steel named directly.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:03305:pharma",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 3305.0673333333334,
+   "t_wall": 1748644416.0673332,
+   "t_wall_et": "2025-05-30T18:33:36.067333-04:00",
+   "segment_text": "and you probably saw it last week, you know, we pay the highest drug prices",
+   "context": "Lots of luck. And the Democrats would rather have you have a tax increase, think of that, of 68%. They would rather have that happen than vote for a bill where you get the biggest tax cut. So there's something wrong. You know, all my life, I grow up, I watch politics, and I've always watched politicians say, we will cut your taxes. We will cut. These Democrats wanna raise your taxes, and in theory, a 68% increase. 1 other thing I did, and you probably saw it last week, you know, we pay the highest drug prices",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "we pay the highest drug prices",
+    "summary": "The President criticizes high pharmaceutical drug prices paid in the US."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated most-favored-nation drug pricing threat weighs on healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF directly exposed to renewed favored-nations pricing rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Large pharma named indirectly via industry criticism and pricing crackdown restated.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restated threat of 85-90% drug price cuts pressures major branded drugmaker.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same pricing policy risk applies broadly to large pharma like Merck.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeated his favored-nations drug pricing threat, a known policy negative for pharma/healthcare stocks and ETFs, but not new information.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Reiterated most-favored-nation drug pricing threat weighs on healthcare sector sentiment.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Pharma-focused ETF directly exposed to renewed favored-nations pricing rhetoric.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Large pharma named indirectly via industry criticism and pricing crackdown restated.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restated threat of 85-90% drug price cuts pressures major branded drugmaker.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Same pricing policy risk applies broadly to large pharma like Merck.\",\"added\":false}],\"summary\":\"The President repeated his favored-nations drug pricing threat, a known policy negative for pharma/healthcare stocks and ETFs, but not new information.\"}"
+   }
+  },
+  {
+   "signal_id": "DKddhD4z7UU:03406:health_ins",
+   "video_id": "DKddhD4z7UU",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3406.979489473684,
+   "t_wall": 1748644517.9794896,
+   "t_wall_et": "2025-05-30T18:35:17.979490-04:00",
+   "segment_text": "That's gonna bring down that's gonna bring down Medicare.",
+   "context": "nobody had ever had an administration where prices of drugs went down. 0.25 of 1%, not much. Now we're gonna be lowering your drug cost by 90%, by 85%, by 75%, by numbers that nobody's ever heard of before. We will be paying equal to the lowest price of drugs and pharmaceuticals anywhere in the world. Have fun because that's a lot of money. That's gonna bring down that's gonna bring down Medicare.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "we're gonna be lowering your drug cost by 90%, by 85%, by 75%",
+    "summary": "The President pledges dramatic drug price reductions tied to global lowest prices, impacting Medicare spending."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark targets drug pricing/pharma, not insurers directly, though Medicare cost pressure is ambiguous for UNH.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Drug price policy mainly hits pharma manufacturers, minimal direct impact on Cigna's insurance business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new insurer-specific policy revealed, effect on Elevance is ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Medicare Advantage exposure makes drug cost rhetoric a wash without new specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates his 'favored nations' drug pricing pledge, a repeat of prior rhetoric aimed at pharma manufacturers rather than health insurers, so impact on UNH, CI, ELV, HUM is ambiguous and low-confidence.",
+    "raw": "{\"tickers\":[{\"ticker\":\"UNH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark targets drug pricing/pharma, not insurers directly, though Medicare cost pressure is ambiguous for UNH.\",\"added\":false},{\"ticker\":\"CI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Drug price policy mainly hits pharma manufacturers, minimal direct impact on Cigna's insurance business.\",\"added\":false},{\"ticker\":\"ELV\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new insurer-specific policy revealed, effect on Elevance is ambiguous.\",\"added\":false},{\"ticker\":\"HUM\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Medicare Advantage exposure makes drug cost rhetoric a wash without new specifics.\",\"added\":false}],\"summary\":\"The President reiterates his 'favored nations' drug pricing pledge, a repeat of prior rhetoric aimed at pharma manufacturers rather than health insurers, so impact on UNH, CI, ELV, HUM is ambiguous and low-confidence.\"}"
+   }
+  }
+ ]
+}

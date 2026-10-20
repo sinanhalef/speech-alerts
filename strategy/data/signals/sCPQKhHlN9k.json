@@ -1,0 +1,1184 @@
+{
+ "video": {
+  "id": "sCPQKhHlN9k",
+  "url": "https://www.youtube.com/watch?v=sCPQKhHlN9k",
+  "title": "The President Makes an Announcement with the Secretary of Transportation",
+  "channel": "The White House",
+  "duration": 2229.0,
+  "was_live": true,
+  "release_timestamp": 1785351731.0,
+  "upload_timestamp": 1785354267.0,
+  "upload_date": "20260729",
+  "label": "Makes an Announcement with the Secretary of Transportation",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1785351731.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 19,
+  "confirmed": 14,
+  "retracted": 5,
+  "unconfirmed": 0,
+  "llm_calls": 23
+ },
+ "signals": [
+  {
+   "signal_id": "sCPQKhHlN9k:00050:airlines",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "airlines",
+   "entity": "Airlines",
+   "kind": "sector",
+   "alias": "airlines",
+   "text_span": "airlines",
+   "dict_tickers": [
+    "JETS",
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 50.338334980392155,
+   "t_wall": 1785351781.338335,
+   "t_wall_et": "2026-07-29T15:03:01.338335-04:00",
+   "segment_text": "Sean Duffy. He's fantastic. He's doing a great job doing a great job, including having to do with the safety of airlines and getting in with the control towers and all new equipment that we'll be ordering",
+   "context": "1 of the worst airports anywhere in the world. We're gonna make it maybe the best with some hard work and some good thought process. But thank you for being here as we unveil exciting plans for a major and long overdue renovation and reconstruction of Washington's, really horribly thought of Dulles International Airport. I wanna thank secretary of transportation, Sean Duffy. He's fantastic. He's doing a great job doing a great job, including having to do with the safety of airlines and getting in with the control towers and all new equipment that we'll be ordering",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Airlines",
+    "tickers": [
+     "JETS",
+     "DAL",
+     "UAL",
+     "AAL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "safety of airlines and getting in with the control towers and all new equipment",
+    "summary": "The President supports airline safety upgrades and new control tower equipment."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "JETS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General airport/ATC modernization talk is broadly positive for airline sector but non-specific and already known policy direction.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UAL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "UAL CEO specifically praised and tied to Dulles hub renovation, a mild positive association for the company.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned specifically; general ATC/infrastructure comments are sector-wide with little idiosyncratic effect.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not mentioned specifically; general infrastructure remarks lack company-specific catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on airport renovations (Dallas, Dulles) and air traffic control modernization, mildly positive for the airline sector broadly and specifically for United given its CEO's direct involvement, but not a major new policy or financial catalyst for other carriers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"JETS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General airport/ATC modernization talk is broadly positive for airline sector but non-specific and already known policy direction.\", \"added\": false}, {\"ticker\": \"UAL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"UAL CEO specifically praised and tied to Dulles hub renovation, a mild positive association for the company.\", \"added\": false}, {\"ticker\": \"DAL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not mentioned specifically; general ATC/infrastructure comments are sector-wide with little idiosyncratic effect.\", \"added\": false}, {\"ticker\": \"AAL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not mentioned specifically; general infrastructure remarks lack company-specific catalyst.\", \"added\": false}], \"summary\": \"The President's remarks focus on airport renovations (Dallas, Dulles) and air traffic control modernization, mildly positive for the airline sector broadly and specifically for United given its CEO's direct involvement, but not a major new policy or financial catalyst for other carriers.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:00076:ual",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "ual",
+   "entity": "United Airlines",
+   "kind": "company",
+   "alias": "united airlines",
+   "text_span": "United Airlines",
+   "dict_tickers": [
+    "UAL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 76.84594339622642,
+   "t_wall": 1785351807.8459435,
+   "t_wall_et": "2026-07-29T15:03:27.845943-04:00",
+   "segment_text": "But for his leadership at this important project, and that's the Dulles project. Thanks as well to the CEO of United Airlines, Scott Kirby. Thank you, Scott. CEO of the Metropolitan Washington Airports Authority,",
+   "context": "Sean Duffy. He's fantastic. He's doing a great job doing a great job, including having to do with the safety of airlines and getting in with the control towers and all new equipment that we'll be ordering in the not too distant future. So that we'll have we'll go from, again, 1 of the worst countries in the world for that, and we'll end up being 1 of the best countries in the world. That's automation, having to do with landings, takeoffs, and safety. But for his leadership at this important project, and that's the Dulles project. Thanks as well to the CEO of United Airlines, Scott Kirby. Thank you, Scott. CEO of the Metropolitan Washington Airports Authority,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Airlines",
+    "tickers": [
+     "UAL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "Thanks as well to the CEO of United Airlines, Scott Kirby.",
+    "summary": "The President praises United Airlines CEO Scott Kirby for involvement in airport infrastructure project."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UAL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive mention of United's CEO in context of Dulles airport renovation is a mild goodwill signal but not a material financial catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely ceremonial praise for Dulles airport renovation and United Airlines' CEO involvement, offering only a mild positive sentiment nudge for UAL with no concrete new financial impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UAL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive mention of United's CEO in context of Dulles airport renovation is a mild goodwill signal but not a material financial catalyst.\", \"added\": false}], \"summary\": \"The President's remarks are largely ceremonial praise for Dulles airport renovation and United Airlines' CEO involvement, offering only a mild positive sentiment nudge for UAL with no concrete new financial impact.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:00503:nvda",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "nvda",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen huang",
+   "text_span": "Jensen Huang",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 503.005,
+   "t_wall": 1785352234.005,
+   "t_wall_et": "2026-07-29T15:10:34.005000-04:00",
+   "segment_text": "Jensen Huang, who's here someplace. And he's, if we can do with an airport like he does with ships, it'll be the greatest airport anywhere in the world. He looks at this problem as being a very simple",
+   "context": "having to go back, make turns, anything else. It's gonna be amazing. It'll be 1 of the largest airports anywhere in the world, and, I think it'll be actually 1 of the most efficient and the best. So, I'd like to ask, secretary Duffy to say a few words and then Jack Potter. And I'd like to welcome a very great gentleman to our midst, Jensen Huang, who's here someplace. And he's, if we can do with an airport like he does with ships, it'll be the greatest airport anywhere in the world. He looks at this problem as being a very simple",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Jensen Huang",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "a very great gentleman, if we can do with an airport like he does with ships, it'll be the greatest airport",
+    "summary": "The President praised Jensen Huang and Nvidia's operational efficiency as a model for airport design."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Casual complimentary mention of Jensen Huang unrelated to any Nvidia business decision or policy, unlikely to move the stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Jensen Huang was a passing rhetorical compliment tied to an airport announcement, not a substantive business or policy action affecting Nvidia.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Casual complimentary mention of Jensen Huang unrelated to any Nvidia business decision or policy, unlikely to move the stock.\", \"added\": false}], \"summary\": \"The President's praise of Jensen Huang was a passing rhetorical compliment tied to an airport announcement, not a substantive business or policy action affecting Nvidia.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:00517:chips",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chips",
+   "text_span": "chips",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 517.7421739130435,
+   "t_wall": 1785352248.742174,
+   "t_wall_et": "2026-07-29T15:10:48.742174-04:00",
+   "segment_text": "problem to solve because his chips are a little bit more complicated.",
+   "context": "having to go back, make turns, anything else. It's gonna be amazing. It'll be 1 of the largest airports anywhere in the world, and, I think it'll be actually 1 of the most efficient and the best. So, I'd like to ask, secretary Duffy to say a few words and then Jack Potter. And I'd like to welcome a very great gentleman to our midst, Jensen Huang, who's here someplace. And he's, if we can do with an airport like he does with ships, it'll be the greatest airport anywhere in the world. He looks at this problem as being a very simple he looks at this as being a very simple problem to solve because his chips are a little bit more complicated.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "his chips are a little bit more complicated",
+    "summary": "The President praises Jensen Huang's semiconductor chips as complex, suggesting operational excellence."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Casual praise of Jensen Huang's chip complexity is friendly banter with no new policy or business content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "No new semiconductor policy or tariff detail was announced, just an airport ceremony aside.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Same rationale as SMH; remark is unrelated to sector fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Not mentioned and no policy implication for Intel specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is an airport-project ceremony with a lighthearted compliment to Jensen Huang about chip complexity; it contains no new semiconductor policy, deal, or tariff news, so no material price impact is expected for NVDA, SMH, SOXX, or INTC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Casual praise of Jensen Huang's chip complexity is friendly banter with no new policy or business content.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"No new semiconductor policy or tariff detail was announced, just an airport ceremony aside.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Same rationale as SMH; remark is unrelated to sector fundamentals.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Not mentioned and no policy implication for Intel specifically.\", \"added\": false}], \"summary\": \"The excerpt is an airport-project ceremony with a lighthearted compliment to Jensen Huang about chip complexity; it contains no new semiconductor policy, deal, or tariff news, so no material price impact is expected for NVDA, SMH, SOXX, or INTC.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:00690:airlines",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "airlines",
+   "entity": "Airlines",
+   "kind": "sector",
+   "alias": "airlines",
+   "text_span": "airlines",
+   "dict_tickers": [
+    "JETS",
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 690.5118252,
+   "t_wall": 1785352421.511825,
+   "t_wall_et": "2026-07-29T15:13:41.511825-04:00",
+   "segment_text": "to it. It doesn't doesn't help United very much. He's been very much involved with what we've done and other airlines too. And and I have to say that,",
+   "context": "and I don't know if that's, because it's the right thing to do, which it is, but it's also that whether you're a Republican or Democrat, you don't wanna go and be subjected to this airport because this airport is a it's a terrible place to be, and it's gonna be I believe it's gonna go. It'll be rated within a few years. It'll be rated the best airport in the country. So it's gonna be so efficient. Right now, it's totally inefficient between the trams and the Star War thing that they call it as Star Wars and elevated buses, and nobody knows what's going on. It's a it's a real mess. And as you know, is subjected to it. It doesn't doesn't help United very much. He's been very much involved with what we've done and other airlines too. And and I have to say that,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Airlines",
+    "tickers": [
+     "JETS",
+     "DAL",
+     "UAL",
+     "AAL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.72,
+    "quote": "He's been very much involved with what we've done and other airlines too.",
+    "summary": "The President mentions airlines involvement in airport improvements, notes mixed impact on sector."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "JETS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General airport renovation remarks are not materially new information for the sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific new policy or benefit for Delta mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UAL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President notes United is heavily involved in the JFK/airport upgrade, implying operational benefits from the improved facility.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct mention or specific impact on American Airlines.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on an airport renovation project with praise for United's involvement, implying a modest positive for UAL while other airline tickers see no clear price-relevant new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"JETS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General airport renovation remarks are not materially new information for the sector ETF.\", \"added\": false}, {\"ticker\": \"DAL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific new policy or benefit for Delta mentioned.\", \"added\": false}, {\"ticker\": \"UAL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President notes United is heavily involved in the JFK/airport upgrade, implying operational benefits from the improved facility.\", \"added\": false}, {\"ticker\": \"AAL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct mention or specific impact on American Airlines.\", \"added\": false}], \"summary\": \"The President's remarks focus on an airport renovation project with praise for United's involvement, implying a modest positive for UAL while other airline tickers see no clear price-relevant new information.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:00777:ual",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "ual",
+   "entity": "United Airlines",
+   "kind": "company",
+   "alias": "united airlines",
+   "text_span": "United Airlines",
+   "dict_tickers": [
+    "UAL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 777.4857917894736,
+   "t_wall": 1785352508.4857917,
+   "t_wall_et": "2026-07-29T15:15:08.485792-04:00",
+   "segment_text": "We're very proud of the process that we've gone through. We're very happy that United Airlines,",
+   "context": "And almost that's about it because, essentially, this is a brand new airport. And yet, we're gonna be able to work it well enough that it'll work at least as efficiency efficiently as it works right now. And in the end, you're gonna end up with, I think, maybe the best airport and 1 of the biggest airports anywhere in the world. And it's gonna be a great thing for Washington DC. So could I ask, Jack to say a few words, please? Yes. Jack? Thank you, mister president. Thank you for your inspiration here and challenge. You challenged all of us to step into the issues that you just described. We're very proud of the process that we've gone through. We're very happy that United Airlines, the Air Force Authority, and the other airlines have agreed to step up and fund this thing. So this is not requiring",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Airlines",
+    "tickers": [
+     "UAL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.7,
+    "quote": "United Airlines, the Air Force Authority, and the other airlines have agreed to step up and fund this thing.",
+    "summary": "United Airlines agreed to fund airport infrastructure project alongside other carriers."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UAL",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "weeks",
+      "rationale": "United is investing in a major hub airport terminal upgrade at Reagan/Dulles, a mild long-term positive for its DC operations and brand.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President highlighted United Airlines' funding participation in a new DC-area airport terminal, a modest positive for UAL given improved hub infrastructure but limited near-term financial impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UAL\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"weeks\", \"rationale\": \"United is investing in a major hub airport terminal upgrade at Reagan/Dulles, a mild long-term positive for its DC operations and brand.\", \"added\": false}], \"summary\": \"The President highlighted United Airlines' funding participation in a new DC-area airport terminal, a modest positive for UAL given improved hub infrastructure but limited near-term financial impact.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01012:natgas",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "lng",
+   "text_span": "LNG",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1012.5367663043478,
+   "t_wall": 1785352743.5367663,
+   "t_wall_et": "2026-07-29T15:19:03.536766-04:00",
+   "segment_text": "And, yeah, go we need some approvals from congress probably, but generally speaking, it's been very bipart partisan. On the attack the drone attack on the LNG tanker off of Egypt Yeah.",
+   "context": "which would have been, frankly, a catastrophe, I think. So, thank you very much. Do you have any questions? You, mister president. Very quickly on this issue, did you just say 2 years it would take 2 years to finish this? We can get it started fairly quickly. It's largely financed. And, yeah, go we need some approvals from congress probably, but generally speaking, it's been very bipart partisan. On the attack the drone attack on the LNG tanker off of Egypt Yeah. What can you tell us about that? And is there any indication it's Iran related? Does it represent Well, in your report, we've I've been briefed.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01302:solar",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1302.1539864864865,
+   "t_wall": 1785353033.1539865,
+   "t_wall_et": "2026-07-29T15:23:53.153986-04:00",
+   "segment_text": "We our borders become very strong, and your borders are weak. He's got that problem, And he's got energy problem. Yeah. He's got windmills all over the place. And every anytime you see windmills, you see a failing country.",
+   "context": "I was telling prime minister Stalmer, open up the North Sea. Open it up. You'll be okay. Open it up. They have 2 problems. They have a huge immigration problem. People coming from all over the world and just camping out in your country. And we've taken a very tough stand. In fact, for 14 months, nobody has come into our country. 0, which is almost hard to believe, but that's what the report says. We our borders become very strong, and your borders are weak. He's got that problem, And he's got energy problem. Yeah. He's got windmills all over the place. And every anytime you see windmills, you see a failing country.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "He's got windmills all over the place. Every anytime you see windmills, you see a failing country.",
+    "summary": "The President criticizes windmills as a sign of economic failure in UK."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates anti-wind rhetoric, generally negative sentiment for clean energy ETFs though about UK not US.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TAN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark targets wind not solar specifically, limited direct relevance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comment is about UK wind/oil policy, not US solar manufacturing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar inverter maker unaffected by UK North Sea/wind commentary.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on urging UK to exploit North Sea oil and criticize wind energy as a sign of failure, which is mildly negative sentiment for clean-energy sector ETFs like ICLN but largely irrelevant repeat rhetoric with limited direct US market impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates anti-wind rhetoric, generally negative sentiment for clean energy ETFs though about UK not US.\", \"added\": false}, {\"ticker\": \"TAN\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark targets wind not solar specifically, limited direct relevance.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comment is about UK wind/oil policy, not US solar manufacturing.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Residential solar inverter maker unaffected by UK North Sea/wind commentary.\", \"added\": false}], \"summary\": \"The President's remarks focus on urging UK to exploit North Sea oil and criticize wind energy as a sign of failure, which is mildly negative sentiment for clean-energy sector ETFs like ICLN but largely irrelevant repeat rhetoric with limited direct US market impact.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01322:oil",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 1322.8,
+   "t_wall": 1785353053.8,
+   "t_wall_et": "2026-07-29T15:24:13.800000-04:00",
+   "segment_text": "their oil",
+   "context": "We our borders become very strong, and your borders are weak. He's got that problem, And he's got energy problem. Yeah. He's got windmills all over the place. And every anytime you see windmills, you see a failing country. And they're made in China, not used by China, but they're made in China. And you have a thing called the North Sea. And you buy a lot of your energy, as you know, from the North Sea. You buy from Norway. And Norway gets it from the North Sea. They get their, their oil from the North Sea. And Norway's got trillions of dollars in the bank, trillions.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.7,
+    "quote": "Norway gets it from the North Sea. They get their oil from the North Sea.",
+    "summary": "The President praises Norway's oil wealth from North Sea reserves, contrasting with wind energy reliance."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on UK/North Sea oil policy is not directly price-relevant to US energy sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks about North Sea exploration potential do not materially change near-term global oil supply/demand or prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct US policy action or contract announced affecting Exxon specifically.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments are about UK energy policy, not a specific catalyst for Chevron.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are general rhetoric urging the UK to open North Sea oil exploration, praising Norway's oil wealth as a contrast to wind energy; this is repeat rhetoric with no new US policy, deal, or company-specific catalyst, so effects on major US energy tickers are negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General commentary on UK/North Sea oil policy is not directly price-relevant to US energy sector ETF.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks about North Sea exploration potential do not materially change near-term global oil supply/demand or prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct US policy action or contract announced affecting Exxon specifically.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments are about UK energy policy, not a specific catalyst for Chevron.\", \"added\": false}], \"summary\": \"The President's remarks are general rhetoric urging the UK to open North Sea oil exploration, praising Norway's oil wealth as a contrast to wind energy; this is repeat rhetoric with no new US policy, deal, or company-specific catalyst, so effects on major US energy tickers are negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01420:fed",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "the fed",
+   "text_span": "The Fed",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1420.005,
+   "t_wall": 1785353151.005,
+   "t_wall_et": "2026-07-29T15:25:51.005000-04:00",
+   "segment_text": "The Fed today voted to keep interest rates unchanged. Are you surprised by that? Are you disappointed in any way with Kevin Walsh? I'm not being able to Fantastic. Who's got a board? The members. Yeah. Kevin's got a board. He's fantastic. He's a brilliant guy, smart.",
+   "context": "triple what it costs them to take out. You have your own oil and gas. If you use the North Sea, The UK will be a really rich country. I cannot get the point of course. The new gentleman, when I spoke to him, he said he's gonna open up the North Sea. Let's see if that's The Fed today voted to keep interest rates unchanged. Are you surprised by that? Are you disappointed in any way with Kevin Walsh? I'm not being able to Fantastic. Who's got a board? The members. Yeah. Kevin's got a board. He's fantastic. He's a brilliant guy, smart.",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01450:china",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 1450.14615,
+   "t_wall": 1785353181.14615,
+   "t_wall_et": "2026-07-29T15:26:21.146150-04:00",
+   "segment_text": "It was China about",
+   "context": "The Fed today voted to keep interest rates unchanged. Are you surprised by that? Are you disappointed in any way with Kevin Walsh? I'm not being able to Fantastic. Who's got a board? The members. Yeah. Kevin's got a board. He's fantastic. He's a brilliant guy, smart. I know he'd love to see lower interest rates, but, he's got a board, and it's a political board and they wanna keep rates up. But we fight through rates. We have the greatest we have the strongest investment ever made in a country of any country. It was China about 13, 14 years ago. We have far greater 19",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "We have the strongest investment ever made in a country of any country. It was China about 13, 14 years ago.",
+    "summary": "The President claims US made strongest investment ever in China 13-14 years ago."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Passing historical reference to past US investment in China, not a new policy signal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new China-specific policy or trade action mentioned, just rhetorical comparison.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about US domestic investment scale, not China tech regulation or trade policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is dominated by domestic US energy, Fed, and manufacturing rhetoric; the China mention is a nostalgic comparison with no new policy implication, so no meaningful directional impact on China-related ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Passing historical reference to past US investment in China, not a new policy signal.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new China-specific policy or trade action mentioned, just rhetorical comparison.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is about US domestic investment scale, not China tech regulation or trade policy.\", \"added\": false}], \"summary\": \"The excerpt is dominated by domestic US energy, Fed, and manufacturing rhetoric; the China mention is a nostalgic comparison with no new policy implication, so no meaningful directional impact on China-related ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01456:nvda_word",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "nvda_word",
+   "entity": "Nvidia",
+   "kind": "company",
+   "alias": "jensen",
+   "text_span": "Jensen",
+   "dict_tickers": [
+    "NVDA"
+   ],
+   "triggers_nearby": [
+    "investment",
+    "tremendous"
+   ],
+   "t_audio": 1456.6610964912281,
+   "t_wall": 1785353187.6610966,
+   "t_wall_et": "2026-07-29T15:26:27.661097-04:00",
+   "segment_text": "even Jensen would say that's a lot. '19 and Jensen's spending a tremendous amount of money by hundreds of billions of dollars. He happens to be in the room. He's spending more than United, actually. He does. But he's he's spending 10,000,000,000. But Jensen's spending hundreds of billions. Right? I don't know. That's not bad business again.",
+   "context": "and it's a political board and they wanna keep rates up. But we fight through rates. We have the greatest we have the strongest investment ever made in a country of any country. It was China about 13, 14 years ago. We have far greater 19 even Jensen would say that's a lot. '19 and Jensen's spending a tremendous amount of money by hundreds of billions of dollars. He happens to be in the room. He's spending more than United, actually. He does. But he's he's spending 10,000,000,000. But Jensen's spending hundreds of billions. Right? I don't know. That's not bad business again.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nvidia",
+    "tickers": [
+     "NVDA"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "Jensen's spending hundreds of billions of dollars.",
+    "summary": "The President praises Jensen Huang's massive capital investment spending by Nvidia."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President merely notes Nvidia's already-known massive capex spending without new policy or deal information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark is general praise of Nvidia's known investment scale, not new price-relevant news, so limited expected market impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President merely notes Nvidia's already-known massive capex spending without new policy or deal information.\", \"added\": false}], \"summary\": \"Remark is general praise of Nvidia's known investment scale, not new price-relevant news, so limited expected market impact.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01498:tm",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "tm",
+   "entity": "Toyota",
+   "kind": "company",
+   "alias": "toyota",
+   "text_span": "Toyota",
+   "dict_tickers": [
+    "TM"
+   ],
+   "triggers_nearby": [
+    "factories",
+    "plants"
+   ],
+   "t_audio": 1498.985,
+   "t_wall": 1785353229.985,
+   "t_wall_et": "2026-07-29T15:27:09.985000-04:00",
+   "segment_text": "Toyota just announced they're building 1 of the largest,",
+   "context": "even Jensen would say that's a lot. '19 and Jensen's spending a tremendous amount of money by hundreds of billions of dollars. He happens to be in the room. He's spending more than United, actually. He does. But he's he's spending 10,000,000,000. But Jensen's spending hundreds of billions. Right? I don't know. That's not bad business again. But no. No. We have 19.2 trillions of it's the biggest number ever spent in any country by far, and that's over a period of 1 year. As an example, as you know, the Biden administration, for 4 years, did much less than 1,000,000,000,000. We're doing 19,200,000,000,000 in 1 year. So we have things that are happening in our country, the likes of which nobody's ever seen. Plants and factories are moving in. Toyota just announced they're building 1 of the largest,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Toyota",
+    "tickers": [
+     "TM"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.95,
+    "quote": "Toyota just announced they're building 1 of the largest",
+    "summary": "Toyota announced building one of the largest plants, signaling major US investment."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President highlights Toyota's large new US plant investment, a mildly positive signal though possibly already known.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's positive mention of Toyota's major US plant investment is a mild positive catalyst for TM, though the news may already be priced in.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President highlights Toyota's large new US plant investment, a mildly positive signal though possibly already known.\", \"added\": false}], \"summary\": \"The President's positive mention of Toyota's major US plant investment is a mild positive catalyst for TM, though the news may already be priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01647:airlines",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "airlines",
+   "entity": "Airlines",
+   "kind": "sector",
+   "alias": "airlines",
+   "text_span": "airlines",
+   "dict_tickers": [
+    "JETS",
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 1647.702264957265,
+   "t_wall": 1785353378.702265,
+   "t_wall_et": "2026-07-29T15:29:38.702265-04:00",
+   "segment_text": "but the airlines who participate in the project are going to pay for it. If I can just make 1 point of clarification,",
+   "context": "We don't have people. We don't have the tents anymore. We don't have all the barbed wire up. We don't have the wire up. Washington's become a beautiful city. It's become a hot city. But, you know, even more importantly, The United States right now is the hottest country anywhere in the world. Mister president, president, to the point of clarity on the the airport, no federal funding will be required. What did you mean when you said congressman need to approve that? So it's gonna be bonded for $22,500,000,000. United is gonna partake, in, part of the payment, but the airlines who participate in the project are going to pay for it. If I can just make 1 point of clarification,",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Airlines",
+    "tickers": [
+     "JETS",
+     "DAL",
+     "UAL",
+     "AAL"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "airlines who participate in the project are going to pay for it",
+    "summary": "Airlines will fund part of airport project via bonded financing arrangement."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UAL",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "United will partake in payment for the $22.5B airport bond project, implying capital commitment without direct offsetting benefit disclosed.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "May share funding burden as a participating airline but no specifics given.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AAL",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Possible funding participation but details unclear and impact likely minor.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "JETS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Airline sector ETF exposure to airport funding costs is diluted and non-specific.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark reveals airlines, including United, will help fund a $22.5B bonded airport project, a modest new cost commitment for participating carriers with limited but slightly negative implications for their near-term stock performance.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UAL\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"United will partake in payment for the $22.5B airport bond project, implying capital commitment without direct offsetting benefit disclosed.\", \"added\": false}, {\"ticker\": \"DAL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"May share funding burden as a participating airline but no specifics given.\", \"added\": false}, {\"ticker\": \"AAL\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Possible funding participation but details unclear and impact likely minor.\", \"added\": false}, {\"ticker\": \"JETS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Airline sector ETF exposure to airport funding costs is diluted and non-specific.\", \"added\": false}], \"summary\": \"The President's remark reveals airlines, including United, will help fund a $22.5B bonded airport project, a modest new cost commitment for participating carriers with limited but slightly negative implications for their near-term stock performance.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:01811:stargate",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "stargate",
+   "entity": "Stargate AI project",
+   "kind": "company",
+   "alias": "stargate",
+   "text_span": "Stargate",
+   "dict_tickers": [
+    "ORCL",
+    "SFTBY",
+    "NVDA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1811.9541346153846,
+   "t_wall": 1785353542.9541347,
+   "t_wall_et": "2026-07-29T15:32:22.954135-04:00",
+   "segment_text": "Killing me. He won't talk to GDPs. He's killing your country. He won't talk to And not him. I mean, we'll have to see. I know Stargate did very little about it. And they're coming from all over the world. They're coming from Africa. They're coming from South America. They're coming from different parts of Asia,",
+   "context": "Andy Burnham hasn't mentioned publicly migration at all since he's gone into number 10. Did you did you discuss it with him? I did briefly. He's gonna have to mention it because it's killing your country. Mister mister president? Killing me. He won't talk to GDPs. He's killing your country. He won't talk to And not him. I mean, we'll have to see. I know Stargate did very little about it. And they're coming from all over the world. They're coming from Africa. They're coming from South America. They're coming from different parts of Asia,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stargate AI project",
+    "tickers": [
+     "ORCL",
+     "SFTBY",
+     "NVDA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Stargate did very little about it.",
+    "summary": "The President criticizes Stargate project for insufficient action on migration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ORCL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The Stargate reference appears to be a mistranscription of Starmer (UK PM) discussing migration, not the AI project, so no real read-through to Oracle.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SFTBY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Likely a mis-transcribed reference to Starmer rather than the Stargate AI venture, leaving no clear implication for SoftBank.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Context suggests confusion with UK PM Starmer on migration, not a substantive comment on the Stargate AI infrastructure project tied to Nvidia.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The apparent Stargate mention is almost certainly a transcription error for Starmer (UK PM) amid a migration discussion, not a genuine remark on the Stargate AI project, so no meaningful trading signal for ORCL, SFTBY, or NVDA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ORCL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The Stargate reference appears to be a mistranscription of Starmer (UK PM) discussing migration, not the AI project, so no real read-through to Oracle.\", \"added\": false}, {\"ticker\": \"SFTBY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Likely a mis-transcribed reference to Starmer rather than the Stargate AI venture, leaving no clear implication for SoftBank.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Context suggests confusion with UK PM Starmer on migration, not a substantive comment on the Stargate AI infrastructure project tied to Nvidia.\", \"added\": false}], \"summary\": \"The apparent Stargate mention is almost certainly a transcription error for Starmer (UK PM) amid a migration discussion, not a genuine remark on the Stargate AI project, so no meaningful trading signal for ORCL, SFTBY, or NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:02064:russia",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 2064.3427286135693,
+   "t_wall": 1785353795.3427286,
+   "t_wall_et": "2026-07-29T15:36:35.342729-04:00",
+   "segment_text": "hey, president president, on the war, do you want the house to come back before August 31 to act on the Russia and Iran sanctions bill after it closes out? Necessary. I mean, it shouldn't be necessary, to be honest. But if it's necessary, I'd like to are you talking about the Lindsey Graham? Yeah. So I'd like them to add Iran as tariffs,",
+   "context": "I get along with president Putin. I get along with president Zelensky. And like I told him, I wanted end the war, get the war ended. Thousands of people. 25,000 people died last month. That's standard. And, it's not acceptable. So I said just end the war. Mister president, hey, president president, on the war, do you want the house to come back before August 31 to act on the Russia and Iran sanctions bill after it closes out? Necessary. I mean, it shouldn't be necessary, to be honest. But if it's necessary, I'd like to are you talking about the Lindsey Graham? Yeah. So I'd like them to add Iran as tariffs,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:02064:iran",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 2064.946430678466,
+   "t_wall": 1785353795.9464307,
+   "t_wall_et": "2026-07-29T15:36:35.946431-04:00",
+   "segment_text": "hey, president president, on the war, do you want the house to come back before August 31 to act on the Russia and Iran sanctions bill after it closes out? Necessary. I mean, it shouldn't be necessary, to be honest. But if it's necessary, I'd like to are you talking about the Lindsey Graham? Yeah. So I'd like them to add Iran as tariffs,",
+   "context": "I get along with president Putin. I get along with president Zelensky. And like I told him, I wanted end the war, get the war ended. Thousands of people. 25,000 people died last month. That's standard. And, it's not acceptable. So I said just end the war. Mister president, hey, president president, on the war, do you want the house to come back before August 31 to act on the Russia and Iran sanctions bill after it closes out? Necessary. I mean, it shouldn't be necessary, to be honest. But if it's necessary, I'd like to are you talking about the Lindsey Graham? Yeah. So I'd like them to add Iran as tariffs,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.85,
+    "quote": "I'd like them to add Iran as tariffs",
+    "summary": "The President proposes adding Iran as tariffs, likely in response to sanctions discussion."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New Iran tariff proposal raises geopolitical risk to oil supply, mildly bullish for energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Escalating Iran sanctions/tariff talk and missile exchange raise Middle East tension, supportive of oil prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Highlighted Patriot missile defense success and ongoing conflict reinforce demand for defense systems.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on Iran tariffs and missile defense success point to heightened geopolitical risk, mildly supportive of energy and defense stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New Iran tariff proposal raises geopolitical risk to oil supply, mildly bullish for energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Escalating Iran sanctions/tariff talk and missile exchange raise Middle East tension, supportive of oil prices.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Highlighted Patriot missile defense success and ongoing conflict reinforce demand for defense systems.\", \"added\": false}], \"summary\": \"The President's comments on Iran tariffs and missile defense success point to heightened geopolitical risk, mildly supportive of energy and defense stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:02109:china",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 2109.765,
+   "t_wall": 1785353840.765,
+   "t_wall_et": "2026-07-29T15:37:20.765000-04:00",
+   "segment_text": "China would not give or sell Iran any weapons. There's a new report that Iran's about to get 400",
+   "context": "because I heard that, they have tariffs on Russia, but not on those 5 countries with having to do with Iran. I'd like to see tariffs on Iran. It would make it much stronger. So perhaps you're very good at this. You can maybe tell them. I think they should put in for Russia, but I think they should put in for Iran. And that's really what Lindsey wanted. Yep. Sir. Iran 1 more, sir. Sorry. And good job at the dinner the other day. Thank you. You did a great job. Thank you. Appreciate that. President Xi told you that China would not give or sell Iran any weapons. There's a new report that Iran's about to get 400",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "sCPQKhHlN9k:02116:spacers",
+   "video_id": "sCPQKhHlN9k",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "rocket",
+   "text_span": "rocket",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 2116.085,
+   "t_wall": 1785353847.085,
+   "t_wall_et": "2026-07-29T15:37:27.085000-04:00",
+   "segment_text": "rocket launchers",
+   "context": "I'd like to see tariffs on Iran. It would make it much stronger. So perhaps you're very good at this. You can maybe tell them. I think they should put in for Russia, but I think they should put in for Iran. And that's really what Lindsey wanted. Yep. Sir. Iran 1 more, sir. Sorry. And good job at the dinner the other day. Thank you. You did a great job. Thank you. Appreciate that. President Xi told you that China would not give or sell Iran any weapons. There's a new report that Iran's about to get 400 rocket launchers from China going through Pakistan to Iran. Well, that would be surprising. I mean, things like that happen,",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

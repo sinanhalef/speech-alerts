@@ -1,0 +1,3002 @@
+{
+ "video": {
+  "id": "iaE8lw8_x30",
+  "url": "https://www.youtube.com/watch?v=iaE8lw8_x30",
+  "title": "The President Participates in a Meeting with Oil and Gas Executives",
+  "channel": "The White House",
+  "duration": 5259.0,
+  "was_live": true,
+  "release_timestamp": 1767988322.0,
+  "upload_timestamp": 1767996082.0,
+  "upload_date": "20260109",
+  "label": "Participates in a Meeting with Oil and Gas Executives",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1767988322.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 59,
+  "confirmed": 33,
+  "retracted": 26,
+  "unconfirmed": 0,
+  "llm_calls": 72
+ },
+ "signals": [
+  {
+   "signal_id": "iaE8lw8_x30:00249:oil",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 249.075,
+   "t_wall": 1767988571.075,
+   "t_wall_et": "2026-01-09T14:56:11.075000-05:00",
+   "segment_text": "dilapidated oil industry and bring millions of barrels of oil production",
+   "context": "It's gonna be I don't think there'll be anything like it in the world, actually. I think it's gonna be the the best we want from this is, as you know, our biggest room, which would seat a 100 for dinner, maybe, if you're lucky, if you're nice and tight. And the ballroom will seat many, and, it'll also take care of the inauguration with bulletproof glass, drone proof ceilings, and everything else, unfortunately, that today you need. So we're gonna discuss how these great American companies can help rapidly rebuild Venezuela's dilapidated oil industry and bring millions of barrels of oil production",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "American companies can help rapidly rebuild Venezuela's oil industry",
+    "summary": "The President proposes US oil companies invest in Venezuela oil production revival."
+   },
+   "llm_attempts": 1,
+   "count": 13,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "US oil majors gaining access to rebuild Venezuela oil industry is a modest positive for the sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Potential new investment opportunity in Venezuela oil production benefits large US producers like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and could expand under improved US-Venezuela oil ties.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased future Venezuelan supply could offset any bullish sentiment, net effect on oil price ambiguous.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about US oil companies helping rebuild Venezuela's oil industry are mildly positive for US oil majors like Exxon and Chevron and the broader energy sector, while the effect on crude oil prices (USO) is ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"US oil majors gaining access to rebuild Venezuela oil industry is a modest positive for the sector.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Potential new investment opportunity in Venezuela oil production benefits large US producers like Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and could expand under improved US-Venezuela oil ties.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased future Venezuelan supply could offset any bullish sentiment, net effect on oil price ambiguous.\", \"added\": false}], \"summary\": \"The President's remarks about US oil companies helping rebuild Venezuela's oil industry are mildly positive for US oil majors like Exxon and Chevron and the broader energy sector, while the effect on crude oil prices (USO) is ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:00256:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 256.031052631579,
+   "t_wall": 1767988578.0310526,
+   "t_wall_et": "2026-01-09T14:56:18.031053-05:00",
+   "segment_text": "to benefit The United States, the people of Venezuela, and the entire world.",
+   "context": "which would seat a 100 for dinner, maybe, if you're lucky, if you're nice and tight. And the ballroom will seat many, and, it'll also take care of the inauguration with bulletproof glass, drone proof ceilings, and everything else, unfortunately, that today you need. So we're gonna discuss how these great American companies can help rapidly rebuild Venezuela's dilapidated oil industry and bring millions of barrels of oil production to benefit The United States, the people of Venezuela, and the entire world.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "discuss how these great American companies can help rapidly rebuild Venezuela's dilapidated oil industry",
+    "summary": "The President proposes American companies help rebuild Venezuela's oil industry for mutual benefit."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Opening of Venezuelan oil development to US companies expands opportunity set for energy sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and stands to directly benefit from expanded access and rebuilding deals.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Opening of Venezuelan oil development to US companies expands opportunity set for energy sector broadly.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and stands to directly benefit from expanded access and rebuilding deals.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:00633:oil_strong",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil production",
+   "text_span": "oil production",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 633.66,
+   "t_wall": 1767988955.66,
+   "t_wall_et": "2026-01-09T15:02:35.660000-05:00",
+   "segment_text": "energy infrastructure and eventually increase oil production to levels never",
+   "context": "which is just a system. So we're really if you look at it, we're taking back what was taken from us. They took our oil industry. We built that entire oil industry. Started long time ago, but they took it and they they were very ungracious to this country, but now they're being very nice. American companies will have the opportunity to rebuild Venezuela's rotting energy infrastructure and eventually increase oil production to levels never",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil sector",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "American companies will have the opportunity to rebuild Venezuela's rotting energy infrastructure",
+    "summary": "The President states US oil companies will rebuild Venezuela's energy infrastructure and increase production."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President explicitly ties increased Venezuelan and US drilling to lowering oil prices, which pressures crude-linked ETFs like USO.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Opening Venezuela to $100B of US oil company investment offers new growth opportunities for major energy firms represented in XLE, though lower crude prices are a partial offset.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks signal new US oil investment opportunities in Venezuela alongside a stated goal of lowering oil prices, implying mild upside for energy equities (XLE) but downside pressure on crude price exposure (USO).",
+    "raw": "{\"tickers\":[{\"ticker\":\"USO\",\"direction\":\"down\",\"confidence\":0.6,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President explicitly ties increased Venezuelan and US drilling to lowering oil prices, which pressures crude-linked ETFs like USO.\",\"added\":false},{\"ticker\":\"XLE\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"weeks\",\"rationale\":\"Opening Venezuela to $100B of US oil company investment offers new growth opportunities for major energy firms represented in XLE, though lower crude prices are a partial offset.\",\"added\":false}],\"summary\":\"The President's remarks signal new US oil investment opportunities in Venezuela alongside a stated goal of lowering oil prices, implying mild upside for energy equities (XLE) but downside pressure on crude price exposure (USO).\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:00847:cvx",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 847.005,
+   "t_wall": 1767989169.005,
+   "t_wall_et": "2026-01-09T15:06:09.005000-05:00",
+   "segment_text": "We have Chevron,",
+   "context": "And we have a lot of people that will be back to see us sometime next week. We're gonna have another meeting for another group. But we're gonna do this very quickly. We can have this done almost immediately. So I'd like to thank you all for being here. I'd like to invite vice president Vance to say a few words, followed by secretaries, Rubio, Berghman, Wright. And then we'll have a few words from representatives that are here and to discuss their ideas, a couple of them. We have Chevron, which has been where's Chevron? Where are you? Danny. Far right.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Chevron",
+    "tickers": [
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "We have Chevron, which has been where's Chevron?",
+    "summary": "The President acknowledges Chevron representative present at meeting."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises Chevron's persistence in Venezuela amid a broader pro-oil-industry meeting, a mild positive but not new policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely general praise and introductions of oil executives at a friendly White House meeting, with mild positive sentiment toward Chevron but no new concrete policy announced.",
+    "raw": "{\"tickers\":[{\"ticker\":\"CVX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President praises Chevron's persistence in Venezuela amid a broader pro-oil-industry meeting, a mild positive but not new policy.\",\"added\":false}],\"summary\":\"The President's remarks are largely general praise and introductions of oil executives at a friendly White House meeting, with mild positive sentiment toward Chevron but no new concrete policy announced.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:00869:xom",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxon",
+   "text_span": "Exxon",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 869.7130065625,
+   "t_wall": 1767989191.7130065,
+   "t_wall_et": "2026-01-09T15:06:31.713006-05:00",
+   "segment_text": "He stuck it out. I don't know if you made money or not, but you stuck it out. I gotta give you a lot of credit for that. Mark Nelson, thank you very much. Exxon",
+   "context": "Rubio, Berghman, Wright. And then we'll have a few words from representatives that are here and to discuss their ideas, a couple of them. We have Chevron, which has been where's Chevron? Where are you? Danny. Far right. No. I thought you'd have a better location. You were the only 1 that was there for for all that. I used to call you and say, what the hell is going on with Venezuela? He stuck it out. I don't know if you made money or not, but you stuck it out. I gotta give you a lot of credit for that. Mark Nelson, thank you very much. Exxon",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ExxonMobil",
+    "tickers": [
+     "XOM"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Mark Nelson, thank you very much.",
+    "summary": "The President thanks ExxonMobil representative for Venezuela operations persistence."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praised Exxon and suggested favorable Venezuela-related developments, mildly positive but largely rhetorical.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Praise for Exxon and hints of Venezuela oil opportunities are mildly positive but lack concrete new policy, limiting price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praised Exxon and suggested favorable Venezuela-related developments, mildly positive but largely rhetorical.\", \"added\": false}], \"summary\": \"Praise for Exxon and hints of Venezuela oil opportunities are mildly positive but lack concrete new policy, limiting price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:00881:cop",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cop",
+   "entity": "ConocoPhillips",
+   "kind": "company",
+   "alias": "conocophillips",
+   "text_span": "ConocoPhillips",
+   "dict_tickers": [
+    "COP"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 881.7186114285714,
+   "t_wall": 1767989203.7186115,
+   "t_wall_et": "2026-01-09T15:06:43.718611-05:00",
+   "segment_text": "company. And ConocoPhillips,",
+   "context": "No. I thought you'd have a better location. You were the only 1 that was there for for all that. I used to call you and say, what the hell is going on with Venezuela? He stuck it out. I don't know if you made money or not, but you stuck it out. I gotta give you a lot of credit for that. Mark Nelson, thank you very much. Exxon CEO, Darren Woods. Darren, thank you very much. How's Exxon doing? Okay? Alright. Thank you. They'll do a lot better now, won't they? Exxon's been amazing. It's been an amazing company. And ConocoPhillips,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ConocoPhillips",
+    "tickers": [
+     "COP"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "And ConocoPhillips",
+    "summary": "The President mentions ConocoPhillips positively after praising Exxon's performance."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COP",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President praises ConocoPhillips alongside other oil majors amid discussion of Venezuela oil opportunities and favorable policy, a mild positive signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's friendly remarks toward oil executives, including ConocoPhillips, alongside talk of Venezuela-related opportunities and supportive energy policy, are mildly bullish for COP, though no concrete new deal or numbers were disclosed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COP\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President praises ConocoPhillips alongside other oil majors amid discussion of Venezuela oil opportunities and favorable policy, a mild positive signal.\", \"added\": false}], \"summary\": \"The President's friendly remarks toward oil executives, including ConocoPhillips, alongside talk of Venezuela-related opportunities and supportive energy policy, are mildly bullish for COP, though no concrete new deal or numbers were disclosed.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01028:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 1028.9996276595743,
+   "t_wall": 1767989350.9996276,
+   "t_wall_et": "2026-01-09T15:09:10.999628-05:00",
+   "segment_text": "with the interim authorities there to provide a market for the sale of the wealth of Venezuela",
+   "context": "who flooded our country with illegal immigration, including drug, gang members, flooded our openly cooperated with drug gangs, and by the way, opened up the stole the wealth of that country to fund a repressive regime and also benefit adversaries such as Iran. All of that is now changing. A part of this process, the 1st phase, of course, is the phase we're in now, is the stabilization phase. We did not wanna see destabilization in the country. We're working very cooperatively with the interim authorities there to provide a market for the sale of the wealth of Venezuela",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "stole the wealth of that country to fund a repressive regime and also benefit adversaries such as Iran",
+    "summary": "The President criticizes Venezuela for wealth theft, funding repressive regime, benefiting Iran; shifting policy now."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Potential opening of Venezuelan oil market to US buyers could benefit broad US energy sector access and trade.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Chevron has historical Venezuela operations and could gain from normalized access to Venezuelan oil wealth and market.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks describe a shift toward opening Venezuela's oil wealth to US buyers, a modest positive for US energy companies like Chevron and the broader XLE sector, though details remain preliminary.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"Potential opening of Venezuelan oil market to US buyers could benefit broad US energy sector access and trade.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"weeks\", \"rationale\": \"Chevron has historical Venezuela operations and could gain from normalized access to Venezuelan oil wealth and market.\", \"added\": false}], \"summary\": \"The President's remarks describe a shift toward opening Venezuela's oil wealth to US buyers, a modest positive for US energy companies like Chevron and the broader XLE sector, though details remain preliminary.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01036:defense_word",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "bought",
+    "buy"
+   ],
+   "t_audio": 1036.7750595469256,
+   "t_wall": 1767989358.7750595,
+   "t_wall_et": "2026-01-09T15:09:18.775059-05:00",
+   "segment_text": "in such a way that benefits the people, both of The United States, but also the people of Venezuela. And as a reminder to everyone, the president announced this just 2 days ago, every penny everything they buy with the money that they're making from the oil now, mister president, will be bought from America.",
+   "context": "including drug, gang members, flooded our openly cooperated with drug gangs, and by the way, opened up the stole the wealth of that country to fund a repressive regime and also benefit adversaries such as Iran. All of that is now changing. A part of this process, the 1st phase, of course, is the phase we're in now, is the stabilization phase. We did not wanna see destabilization in the country. We're working very cooperatively with the interim authorities there to provide a market for the sale of the wealth of Venezuela in such a way that benefits the people, both of The United States, but also the people of Venezuela. And as a reminder to everyone, the president announced this just 2 days ago, every penny everything they buy with the money that they're making from the oil now, mister president, will be bought from America.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01040:oil",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "bought",
+    "buy"
+   ],
+   "t_audio": 1040.6211152103558,
+   "t_wall": 1767989362.6211152,
+   "t_wall_et": "2026-01-09T15:09:22.621115-05:00",
+   "segment_text": "in such a way that benefits the people, both of The United States, but also the people of Venezuela. And as a reminder to everyone, the president announced this just 2 days ago, every penny everything they buy with the money that they're making from the oil now, mister president, will be bought from America.",
+   "context": "including drug, gang members, flooded our openly cooperated with drug gangs, and by the way, opened up the stole the wealth of that country to fund a repressive regime and also benefit adversaries such as Iran. All of that is now changing. A part of this process, the 1st phase, of course, is the phase we're in now, is the stabilization phase. We did not wanna see destabilization in the country. We're working very cooperatively with the interim authorities there to provide a market for the sale of the wealth of Venezuela in such a way that benefits the people, both of The United States, but also the people of Venezuela. And as a reminder to everyone, the president announced this just 2 days ago, every penny everything they buy with the money that they're making from the oil now, mister president, will be bought from America.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "every penny everything they buy with the money from oil will be bought from America",
+    "summary": "The President announces Venezuela oil revenue will be used to purchase American goods."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Venezuela stabilization news is more geopolitical than a clear oil-price catalyst for the sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Potential increased Venezuelan oil supply to market could be mildly bearish for crude prices, offsetting any bullish sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "US oil majors like Exxon could gain access to Venezuela's oil sector and equipment sales as market opens under new arrangement.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "weeks",
+      "rationale": "Chevron has existing Venezuela operations and could benefit from expanded market access and equipment sales tied to new oil revenue flows.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks describe a new phase of US-Venezuela oil cooperation directing proceeds toward American goods, a modest positive for US majors with Venezuela exposure but not a clear directional catalyst for broad oil-price proxies like XLE/USO.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Venezuela stabilization news is more geopolitical than a clear oil-price catalyst for the sector ETF.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Potential increased Venezuelan oil supply to market could be mildly bearish for crude prices, offsetting any bullish sentiment.\",\"added\":false},{\"ticker\":\"XOM\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"weeks\",\"rationale\":\"US oil majors like Exxon could gain access to Venezuela's oil sector and equipment sales as market opens under new arrangement.\",\"added\":false},{\"ticker\":\"CVX\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"weeks\",\"rationale\":\"Chevron has existing Venezuela operations and could benefit from expanded market access and equipment sales tied to new oil revenue flows.\",\"added\":false}],\"summary\":\"The President's remarks describe a new phase of US-Venezuela oil cooperation directing proceeds toward American goods, a modest positive for US majors with Venezuela exposure but not a clear directional catalyst for broad oil-price proxies like XLE/USO.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01318:natgas",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "natural gas",
+   "text_span": "natural gas",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1318.1209443925234,
+   "t_wall": 1767989640.1209445,
+   "t_wall_et": "2026-01-09T15:14:00.120944-05:00",
+   "segment_text": "and we are record production of oil in The United States, record production in natural gas in The United States. We've seen a meaningful decline in gasoline prices, diesel prices, travel prices because of jet fuel.",
+   "context": "We have 20 times the production of Venezuela, 20 times the impact of human betterment, massively better quality of living here in The United States. That was at risk under the last administration. We've seen a lot of attacks on the energy that makes the world go round. The President's election has removed those risks, has embraced reality about how the world is energized, and we are record production of oil in The United States, record production in natural gas in The United States. We've seen a meaningful decline in gasoline prices, diesel prices, travel prices because of jet fuel.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Natural gas / LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "record production of natural gas in The United States",
+    "summary": "Speaker praises record US natural gas production under the administration."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise of record natural gas production is bullish for volume but bearish for price via oversupply, netting ambiguous effect on gas price-linked ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise of record US gas production and energy dominance rhetoric is mildly supportive for LNG exporters like Cheniere.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major US natural gas producer, EQT benefits modestly from administration's pro-production rhetoric though it merely restates known policy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate pro-fossil-fuel, energy-dominance rhetoric and praise record US oil/gas output, a repeat of known policy stance that is mildly positive for domestic natural gas producers and exporters but not a new market-moving catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise of record natural gas production is bullish for volume but bearish for price via oversupply, netting ambiguous effect on gas price-linked ETF.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise of record US gas production and energy dominance rhetoric is mildly supportive for LNG exporters like Cheniere.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"As a major US natural gas producer, EQT benefits modestly from administration's pro-production rhetoric though it merely restates known policy.\", \"added\": false}], \"summary\": \"The President's remarks reiterate pro-fossil-fuel, energy-dominance rhetoric and praise record US oil/gas output, a repeat of known policy stance that is mildly positive for domestic natural gas producers and exporters but not a new market-moving catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01456:cvx",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1456.0864904761904,
+   "t_wall": 1767989778.0864904,
+   "t_wall_et": "2026-01-09T15:16:18.086490-05:00",
+   "segment_text": "employees of Chevron.",
+   "context": "in the in the forefront. So thank you thank you for that. Thank you very much. The the 2nd thank you actually is is to the cabinet. So secretary Rubio, secretary Berg, and secretary Wright, your ability and commitment to continue to engage with the parties around the table to keep the world working, is greatly appreciated. So thank you. Thank you for that. And the and the final thank you actually would go to our Venezuelan employees of Chevron. They have been working tirelessly to operate safely, protect the environment in country,",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Chevron",
+    "tickers": [
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "Venezuelan employees have been working tirelessly to operate safely, protect environment.",
+    "summary": "The President praised Chevron's Venezuelan employees for safe operations and environmental protection."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President praises Chevron's steadfastness in Venezuela and implies favorable positioning as US policy shifts open opportunities there.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's warm remarks toward Chevron and hints at expanded Venezuelan access are mildly positive for CVX, though largely reaffirming known dynamics rather than new hard news.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President praises Chevron's steadfastness in Venezuela and implies favorable positioning as US policy shifts open opportunities there.\", \"added\": false}], \"summary\": \"The President's warm remarks toward Chevron and hints at expanded Venezuelan access are mildly positive for CVX, though largely reaffirming known dynamics rather than new hard news.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01566:russia",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "buy"
+   ],
+   "t_audio": 1566.615,
+   "t_wall": 1767989888.615,
+   "t_wall_et": "2026-01-09T15:18:08.615000-05:00",
+   "segment_text": "Russia can get all the oil they need from us, and they do like oil even though they produce a lot of it. But China and Russia and everybody else is able to go, and we'll be open for business almost immediately.",
+   "context": "we get along with you very well. We like you very much. We don't want you there. Not gonna be there. And if we didn't do this, China would have been there and Russia would have been there. Maybe they both would have been there together, but they're not gonna be there now. 1 thing I will tell them and I will tell you that we are open for business. China can buy all the oil they want from us there or in The United States. Russia can get all the oil they need from us, and they do like oil even though they produce a lot of it. But China and Russia and everybody else is able to go, and we'll be open for business almost immediately.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "Russia can get all the oil they need from us",
+    "summary": "The President states Russia can purchase US oil; US open for business with Russia."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comment about Russia buying US oil does not clearly affect Russian equities or sanctions status.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Talk of $100B rapid infrastructure investment and US being open for business signals new demand for US oil/gas sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts a major US-led oil/gas infrastructure deal with rapid $100B investment and openness to sell to China and Russia, a mild positive for US energy producers (XLE) with no clear directional impact on Russian equities (RSX).",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Comment about Russia buying US oil does not clearly affect Russian equities or sanctions status.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Talk of $100B rapid infrastructure investment and US being open for business signals new demand for US oil/gas sector.\", \"added\": false}], \"summary\": \"The President touts a major US-led oil/gas infrastructure deal with rapid $100B investment and openness to sell to China and Russia, a mild positive for US energy producers (XLE) with no clear directional impact on Russian equities (RSX).\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01628:china",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1628.815,
+   "t_wall": 1767989950.815,
+   "t_wall_et": "2026-01-09T15:19:10.815000-05:00",
+   "segment_text": "China and Russia would have been there if we didn't do this. And the other thing people ask about the 2nd wave, I don't think it's gonna be necessary. We have an armada, a giant armada like nobody's ever seen in that part of the world.",
+   "context": "much better in every way, and actually much smaller. It's like everything else, gets smaller and stronger. It's a combination of smaller, better, and stronger. So I hope you're gonna build all brand new stuff, rip out the old crap that's been there for so many years, and do it the right way. You're gonna be there a long time if we make a deal. If we make a deal, you're gonna be there a long time. If we don't make a deal, you won't be there at all. It's, you know, sort of interesting. But, again, China and Russia would have been there if we didn't do this. And the other thing people ask about the 2nd wave, I don't think it's gonna be necessary. We have an armada, a giant armada like nobody's ever seen in that part of the world.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "negative",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "China and Russia would have been there if we didn't do this.",
+    "summary": "The President suggests military action deterred China and Russia from regional presence."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Vague geopolitical remark about deterring China from a foreign deal, not a direct policy action on Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Same rationale as FXI, no concrete new China-specific economic policy announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark is about Venezuela/oil infrastructure geopolitics, not Chinese tech or internet sector specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt centers on Venezuela oil rebuilding and a subtle jab at China/Russia losing out on a deal due to US military presence, but offers no new concrete China-specific policy affecting Chinese equity ETFs, so impact is negligible.",
+    "raw": "{\"tickers\":[{\"ticker\":\"FXI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Vague geopolitical remark about deterring China from a foreign deal, not a direct policy action on Chinese equities.\",\"added\":false},{\"ticker\":\"MCHI\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Same rationale as FXI, no concrete new China-specific economic policy announced.\",\"added\":false},{\"ticker\":\"KWEB\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Remark is about Venezuela/oil infrastructure geopolitics, not Chinese tech or internet sector specifically.\",\"added\":false}],\"summary\":\"The excerpt centers on Venezuela oil rebuilding and a subtle jab at China/Russia losing out on a deal due to US military presence, but offers no new concrete China-specific policy affecting Chinese equity ETFs, so impact is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01689:xom",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxonmobil",
+   "text_span": "ExxonMobil",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1689.08708,
+   "t_wall": 1767990011.08708,
+   "t_wall_et": "2026-01-09T15:20:11.087080-05:00",
+   "segment_text": "you did a great job. I wanna thank you. And ExxonMobil,",
+   "context": "but the 1st wave was so powerful and so good and so strong. And frankly, the people in the country, they really, they did the right thing. They were smart. They did the right thing. They didn't wanna go through a 2nd wave. But we've got a tremendous number of the most powerful ships in the world right there. I don't think we're gonna have to use that. I'm I'm happy to say that. I don't think we're gonna have to use that at all. If I could ask Chevron, you did a great job. I wanna thank you. And ExxonMobil,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ExxonMobil",
+    "tickers": [
+     "XOM"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "And ExxonMobil, I wanna thank you.",
+    "summary": "The President thanks ExxonMobil for unspecified work."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XOM",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President praises Exxon and highlights potential Venezuela opportunity, mildly positive sentiment for the stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of ExxonMobil and discussion of Venezuela resource opportunities is a modest positive signal for XOM, though largely rhetorical without new concrete deals.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XOM\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President praises Exxon and highlights potential Venezuela opportunity, mildly positive sentiment for the stock.\", \"added\": false}], \"summary\": \"The President's praise of ExxonMobil and discussion of Venezuela resource opportunities is a modest positive signal for XOM, though largely rhetorical without new concrete deals.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01692:cop",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cop",
+   "entity": "ConocoPhillips",
+   "kind": "company",
+   "alias": "conoco",
+   "text_span": "Conoco",
+   "dict_tickers": [
+    "COP"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1692.6494948275863,
+   "t_wall": 1767990014.649495,
+   "t_wall_et": "2026-01-09T15:20:14.649495-05:00",
+   "segment_text": "if you would say a few words, and then followed by Conoco,",
+   "context": "And frankly, the people in the country, they really, they did the right thing. They were smart. They did the right thing. They didn't wanna go through a 2nd wave. But we've got a tremendous number of the most powerful ships in the world right there. I don't think we're gonna have to use that. I'm I'm happy to say that. I don't think we're gonna have to use that at all. If I could ask Chevron, you did a great job. I wanna thank you. And ExxonMobil, if you would say a few words, and then followed by Conoco,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "ConocoPhillips",
+    "tickers": [
+     "COP"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "followed by Conoco",
+    "summary": "The President acknowledges ConocoPhillips after praising Chevron and ExxonMobil."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "COP",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President praises ConocoPhillips alongside other majors and highlights potential Venezuela oil opportunity, a mild positive but largely rhetorical.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's praise of Conoco and framing of Venezuela as an oil opportunity is a mild positive but mostly reiterates known geopolitical stance rather than new policy.",
+    "raw": "{\"tickers\": [{\"ticker\": \"COP\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President praises ConocoPhillips alongside other majors and highlights potential Venezuela oil opportunity, a mild positive but largely rhetorical.\", \"added\": false}], \"summary\": \"The President's praise of Conoco and framing of Venezuela as an oil opportunity is a mild positive but mostly reiterates known geopolitical stance rather than new policy.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01810:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "investments"
+   ],
+   "t_audio": 1810.088736,
+   "t_wall": 1767990132.088736,
+   "t_wall_et": "2026-01-09T15:22:12.088736-05:00",
+   "segment_text": "With respect to Venezuela",
+   "context": "Obviously, it has to be a win for the company and our shareholders and to generate a return for the investments that we make. It has to be a win for the government. The resources are important source of revenue that helps support the people of the places that we do business. And, that has to be a win for the people. We have to be wanted there and to be a good neighbor. And those 3 things ensure a stable long term platform for the large investments that we make for the long term. With respect to Venezuela in particular, we have a very long history in Venezuela. In fact, we 1st started into Venezuela back in 19 19 forties.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01899:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "market"
+   ],
+   "t_audio": 1899.7966333333334,
+   "t_wall": 1767990221.7966332,
+   "t_wall_et": "2026-01-09T15:23:41.796633-05:00",
+   "segment_text": "to help the people of Venezuela get production back on the market.",
+   "context": "perspective with respect to ExxonMobil entering the com company country. In the short term, there are things that can be done while these longer term issues are being worked. For us, we haven't been in the country for almost 20 years. We think it's, absolutely critical in the short term that we get a technical team in place to assess the current state of the industry and the assets to understand what would be involved to help the people of Venezuela get production back on the market. With the invitation of the Venezuelan government and with appropriate security guarantees, we are ready ready to put a team on the ground there. We also have a, integrated set of capabilities from production",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01919:oil",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "crude",
+   "text_span": "crude",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "market",
+    "price"
+   ],
+   "t_audio": 1919.8566666666668,
+   "t_wall": 1767990241.8566666,
+   "t_wall_et": "2026-01-09T15:24:01.856667-05:00",
+   "segment_text": "to refining to trading, and I think we can be of assistance to getting the Venezuelan crude to market and realizing market price to help again, with the financial situation in Venezuela.",
+   "context": "to assess the current state of the industry and the assets to understand what would be involved to help the people of Venezuela get production back on the market. With the invitation of the Venezuelan government and with appropriate security guarantees, we are ready ready to put a team on the ground there. We also have a, integrated set of capabilities from production to refining to trading, and I think we can be of assistance to getting the Venezuelan crude to market and realizing market price to help again, with the financial situation in Venezuela.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:01994:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 1994.582295348837,
+   "t_wall": 1767990316.5822954,
+   "t_wall_et": "2026-01-09T15:25:16.582295-05:00",
+   "segment_text": "people in the world and bringing bringing them to justice. Is quite amazing. I think you've given hope to the people of Venezuela again, which I think is, quite remarkable.",
+   "context": "Well, we the 1st step of this technical team, we as I talked with secretary Wright earlier this week, we started from the beginning to put the team together so that if and when it was needed, we could hit the ground almost immediately. So we can we can hit the ground and within the next couple of weeks start the assessment. And then from there, we need to understand That's what we want. We want speed and quality. That's what we want. Thank you, Darren. And Conoco, Ryan. Thank you, mister president. Appreciate the opportunity to be here too, and you've assembled a great team. And our congratulations as well for removing 1 of the terrible people in the world and bringing bringing them to justice. Is quite amazing. I think you've given hope to the people of Venezuela again, which I think is, quite remarkable. And we've been on the other end of that, despot regime a long time.",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:02045:banks",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "banks",
+   "entity": "Banks",
+   "kind": "sector",
+   "alias": "banks",
+   "text_span": "banks",
+   "dict_tickers": [
+    "XLF",
+    "KRE",
+    "JPM",
+    "BAC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2045.6137577639752,
+   "t_wall": 1767990367.6137578,
+   "t_wall_et": "2026-01-09T15:26:07.613758-05:00",
+   "segment_text": "Encourage you to continue to bigger and even bolder. And we've had some discussions with your energy team about that as well. As we think about the other people that need to be in this room and then this discussion are the banks and including probably the Exxon Bank as we think about how the debt needs to be restructured",
+   "context": "So we're in a bit of different situation, but I think your big and bold idea to use energy commerce instead of conflict is something that could make a real big difference in Venezuela. We stand, our company certainly stands ready to help in in that endeavor. Encourage you to continue to bigger and even bolder. And we've had some discussions with your energy team about that as well. As we think about the other people that need to be in this room and then this discussion are the banks and including probably the Exxon Bank as we think about how the debt needs to be restructured",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:02120:cvx",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2120.5252631578946,
+   "t_wall": 1767990442.525263,
+   "t_wall_et": "2026-01-09T15:27:22.525263-05:00",
+   "segment_text": "Go back to Chevron.",
+   "context": "over the course of the last 25 years. So thank you for this opportunity. Well, thank you very much, and you'll get a lot of your money back. We're gonna start with an even plate though. We're we're not gonna look at what people lost in the past cause that was their fault. That was a different president. We're gonna we're gonna you're gonna make a lot of money, but we're not gonna go back. And you left a lot of money behind, guess. What number? 12,000,000,000. How much? 12,000,000,000. Well, it's a good write off. It's already been written off. It's been written off. Alright. Thank you, very you'll you'll make it back 1 way or the other. You're all gonna do very well. I think really very well. Marco just gave me a note. Go back to Chevron. They wanna discuss something. Go ahead. I'm going back to Chevron, Mark. Thank you, Marco.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Chevron",
+    "tickers": [
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "Go back to Chevron. They wanna discuss something.",
+    "summary": "The President indicates Chevron wants to discuss an unspecified matter."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.62,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Discussion of restructuring Venezuela's energy sector and doubling Chevron's joint-venture liftings suggests expanded access to Venezuelan production, a positive for Chevron's operations there.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about restructuring Venezuela's energy system and Chevron potentially doubling its lifting volumes are modestly positive for CVX, though details remain vague.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.62, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Discussion of restructuring Venezuela's energy sector and doubling Chevron's joint-venture liftings suggests expanded access to Venezuelan production, a positive for Chevron's operations there.\", \"added\": false}], \"summary\": \"The President's remarks about restructuring Venezuela's energy system and Chevron potentially doubling its lifting volumes are modestly positive for CVX, though details remain vague.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:02626:russia",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 2626.193166666667,
+   "t_wall": 1767990948.1931667,
+   "t_wall_et": "2026-01-09T15:35:48.193167-05:00",
+   "segment_text": "people, many of them Russian soldiers, and the Russian economy is doing poorly. I think we're gonna end up getting it settled.",
+   "context": "President Zelensky said that he was watching with the rest of the world as you made this order to go and capture Nicolas Maduro. And he said, if that's how it works with dictators, then The United States knows what to do next. Sounds like he wants you to go and capture Vladimir Putin. Would you ever order a mission to go and capture Vladimir Putin? Well, I don't think it's gonna be necessary. I think we're gonna have a we've always I've always had a great relationship with him. I'm very disappointed. I settled 8 wars. I thought this would be in the middle of the pack or maybe 1 of the easier ones. And I don't know if you know, Peter, the last month, they lost 31,000 people, many of them Russian soldiers, and the Russian economy is doing poorly. I think we're gonna end up getting it settled.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "negative",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "Russian soldiers lost 31,000 people, Russian economy doing poorly",
+    "summary": "The President cited heavy Russian military losses and weak economy as leverage for settlement."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Commentary on Russian losses and weak economy is rhetorical and reiterates known war dynamics without new sanctions or policy action.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new oil/gas policy or market-moving detail mentioned despite meeting context, remark focused on Russia/Ukraine war status.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is general rhetoric about the Russia-Ukraine war and NATO funding rather than a new policy or economic action, so it carries little direct, tradable impact on RSX or XLE.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Commentary on Russian losses and weak economy is rhetorical and reiterates known war dynamics without new sanctions or policy action.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new oil/gas policy or market-moving detail mentioned despite meeting context, remark focused on Russia/Ukraine war status.\", \"added\": false}], \"summary\": \"The excerpt is general rhetoric about the Russia-Ukraine war and NATO funding rather than a new policy or economic action, so it carries little direct, tradable impact on RSX or XLE.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:02638:ukraine",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "ukraine",
+   "entity": "Ukraine",
+   "kind": "country",
+   "alias": "kiev",
+   "text_span": "Kiev",
+   "dict_tickers": [
+    "ITA",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 2638.736651256281,
+   "t_wall": 1767990960.7366512,
+   "t_wall_et": "2026-01-09T15:36:00.736651-05:00",
+   "segment_text": "I wish we could have done it quicker because a lot of people are dying and mostly soldiers, you know, they get hit in Kiev and they get hit a little bit here and there and people are dying there too.",
+   "context": "Sounds like he wants you to go and capture Vladimir Putin. Would you ever order a mission to go and capture Vladimir Putin? Well, I don't think it's gonna be necessary. I think we're gonna have a we've always I've always had a great relationship with him. I'm very disappointed. I settled 8 wars. I thought this would be in the middle of the pack or maybe 1 of the easier ones. And I don't know if you know, Peter, the last month, they lost 31,000 people, many of them Russian soldiers, and the Russian economy is doing poorly. I think we're gonna end up getting it settled. I wish we could have done it quicker because a lot of people are dying and mostly soldiers, you know, they get hit in Kiev and they get hit a little bit here and there and people are dying there too.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Ukraine",
+    "tickers": [
+     "ITA",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "I settled 8 wars. I thought this would be in the middle of the pack",
+    "summary": "The President suggests he intends to settle the Ukraine conflict through negotiation."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on NATO/Ukraine arms sales and war status are general rhetoric with no new policy detail affecting defense contractors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "This portion of the transcript is about Ukraine/Russia geopolitics and Cuba, not oil and gas policy despite the meeting context.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt focuses on Ukraine war negotiations, Russian casualties, NATO burden-sharing and Cuba, with no new material information for defense or energy sectors.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments on NATO/Ukraine arms sales and war status are general rhetoric with no new policy detail affecting defense contractors.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"This portion of the transcript is about Ukraine/Russia geopolitics and Cuba, not oil and gas policy despite the meeting context.\", \"added\": false}], \"summary\": \"The excerpt focuses on Ukraine war negotiations, Russian casualties, NATO burden-sharing and Cuba, with no new material information for defense or energy sectors.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:02671:rare_earth",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "rare_earth",
+   "entity": "Rare earths",
+   "kind": "sector",
+   "alias": "rare earth",
+   "text_span": "rare earth",
+   "dict_tickers": [
+    "MP",
+    "REMX"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 2671.1945855072463,
+   "t_wall": 1767990993.1945856,
+   "t_wall_et": "2026-01-09T15:36:33.194586-05:00",
+   "segment_text": "we would never get that back. Although, I did make a rare earth deal to get it back, so we will be getting it back, but shouldn't have done that. It was a it was a bad thing to do. I will say that right now,",
+   "context": "thousand soldiers dying in a period of a month, 27000 the month before, 26000 the month before that, that's bad stuff. So as you know, President Biden gave $350,000,000,000 to Ukraine to fight, and, we would never get that back. Although, I did make a rare earth deal to get it back, so we will be getting it back, but shouldn't have done that. It was a it was a bad thing to do. I will say that right now,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Rare earths",
+    "tickers": [
+     "MP",
+     "REMX"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "I did make a rare earth deal to get it back",
+    "summary": "The President claims to have negotiated a rare earth deal to recover Ukraine aid funds."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MP",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark references a prior Ukraine rare earth deal unrelated to US domestic rare earth producers like MP.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "REMX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General restatement of Ukraine rare earth deal, not new sector-specific policy affecting REMX holdings.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats previously known claim about a Ukraine rare earth deal tied to war funding; no new US rare earth policy or demand signal, so minimal direct market impact on MP or REMX.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MP\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark references a prior Ukraine rare earth deal unrelated to US domestic rare earth producers like MP.\", \"added\": false}, {\"ticker\": \"REMX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General restatement of Ukraine rare earth deal, not new sector-specific policy affecting REMX holdings.\", \"added\": false}], \"summary\": \"The President repeats previously known claim about a Ukraine rare earth deal tied to war funding; no new US rare earth policy or demand signal, so minimal direct market impact on MP or REMX.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:02693:defense_word",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "military equipment",
+   "text_span": "military equipment",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "selling"
+   ],
+   "t_audio": 2693.007727272727,
+   "t_wall": 1767991015.0077274,
+   "t_wall_et": "2026-01-09T15:36:55.007727-05:00",
+   "segment_text": "NATO's got a lot of money and they are paying for everything. We're not losing any money. We're making a lot of money, I guess, if you think of it because we're selling our military equipment. They're probably giving it to Ukraine.",
+   "context": "to fight, and, we would never get that back. Although, I did make a rare earth deal to get it back, so we will be getting it back, but shouldn't have done that. It was a it was a bad thing to do. I will say that right now, because I was able to get NATO to up GDP from 2% to 5%, NATO's got a lot of money and they are paying for everything. We're not losing any money. We're making a lot of money, I guess, if you think of it because we're selling our military equipment. They're probably giving it to Ukraine.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Defense sector",
+    "tickers": [
+     "ITA",
+     "XAR",
+     "AVAV",
+     "KTOS"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "selling our military equipment. They're probably giving it to Ukraine.",
+    "summary": "The President notes NATO allies purchasing U.S. military equipment, with proceeds flowing to defense sector."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterates NATO buying US military equipment at full price, mildly supportive of defense contractors broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XAR",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same NATO arms sales narrative supports aerospace/defense sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "AVAV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention of drones or AVAV, general defense sentiment only weakly relevant.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KTOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific mention of KTOS products, general defense sentiment only weakly relevant.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates that NATO allies are buying US military equipment at full price to send to Ukraine, a repeated but mildly positive datapoint for the broad US defense sector, with no new specifics for individual contractors like AVAV or KTOS.",
+    "raw": "{\"tickers\": [{\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterates NATO buying US military equipment at full price, mildly supportive of defense contractors broadly.\", \"added\": false}, {\"ticker\": \"XAR\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same NATO arms sales narrative supports aerospace/defense sector ETF.\", \"added\": false}, {\"ticker\": \"AVAV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention of drones or AVAV, general defense sentiment only weakly relevant.\", \"added\": false}, {\"ticker\": \"KTOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific mention of KTOS products, general defense sentiment only weakly relevant.\", \"added\": false}], \"summary\": \"The President reiterates that NATO allies are buying US military equipment at full price to send to Ukraine, a repeated but mildly positive datapoint for the broad US defense sector, with no new specifics for individual contractors like AVAV or KTOS.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03173:india",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "settled"
+   ],
+   "t_audio": 3173.3883333333333,
+   "t_wall": 1767991495.3883333,
+   "t_wall_et": "2026-01-09T15:44:55.388333-05:00",
+   "segment_text": "Some just getting ready to start like India and Pakistan,",
+   "context": "Well, I have to speak to her. I mean, I'm gonna have to speak to her. She might be involved in some aspect of it. I will have to speak to her. I think it's very nice that she wants to come in, and that's what I understand the reason is because Norway is very embarrassed by what took place. I mean, they're getting decimated. Look, whether people like the President or don't like the President, I settled 8 wars, big ones. Some going on for 36 years, 32 years, 31 years, 28 years, 25 years. Some just getting ready to start like India and Pakistan, where already 8 jets were shot out of the air.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "India",
+    "tickers": [
+     "INDA",
+     "EPI"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "India and Pakistan, where already 8 jets were shot out of the air",
+    "summary": "The President mentions India-Pakistan conflict with recent military engagement."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "INDA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reference to past India-Pakistan conflict is old news with no new policy implication for Indian equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EPI",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetorical mention of a resolved conflict, not new information affecting Indian equity ETF pricing.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remark is retrospective boasting about settling the India-Pakistan conflict, not a new policy or economic signal, so no material price impact expected for India-related ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"INDA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reference to past India-Pakistan conflict is old news with no new policy implication for Indian equities.\", \"added\": false}, {\"ticker\": \"EPI\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rhetorical mention of a resolved conflict, not new information affecting Indian equity ETF pricing.\", \"added\": false}], \"summary\": \"The President's remark is retrospective boasting about settling the India-Pakistan conflict, not a new policy or economic signal, so no material price impact expected for India-related ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03294:mbg",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "mbg",
+   "entity": "Mercedes-Benz",
+   "kind": "company",
+   "alias": "mercedes",
+   "text_span": "Mercedes",
+   "dict_tickers": [
+    "MBGYY"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "sell"
+   ],
+   "t_audio": 3294.0347275555555,
+   "t_wall": 1767991616.0347276,
+   "t_wall_et": "2026-01-09T15:46:56.034728-05:00",
+   "segment_text": "They buy their vote. They vote in a group. They buy their vote. They sell more Mercedes Benzes in that area than almost can you imagine? You come over with no money and then shortly thereafter, you're driving a Mercedes Benz.",
+   "context": "Go ahead. On Minneapolis, mister president, have follow-up, please. The state officials there have said that the FBI is not sharing evidence with them. Typically, they would conduct a joint investigation, as you know. Do you believe that the FBI should be sharing evidence with state officials in Minnesota? Well, normally, would, but they're crooked officials. I mean, Minneapolis and Minnesota, what a beautiful place, but it's being destroyed. It's got an incompetent governor fool. I mean, he's a stupid person. And it looks like the number could be $19,000,000,000 stolen from a lot of people, but largely people from Somalia. They buy their vote. They vote in a group. They buy their vote. They sell more Mercedes Benzes in that area than almost can you imagine? You come over with no money and then shortly thereafter, you're driving a Mercedes Benz.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mercedes-Benz",
+    "tickers": [
+     "MBGYY"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "They sell more Mercedes Benzes in that area than almost can you imagine",
+    "summary": "The President notes high Mercedes-Benz sales in Minneapolis area as observation about wealth."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MBGYY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Offhand anecdote about Mercedes sales in Minneapolis is not a policy or business signal affecting the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a political anecdote about voting fraud allegations in Minnesota, with Mercedes-Benz mentioned only incidentally as an observation of wealth, carrying no material implications for the stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MBGYY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Offhand anecdote about Mercedes sales in Minneapolis is not a policy or business signal affecting the company.\", \"added\": false}], \"summary\": \"The remark is a political anecdote about voting fraud allegations in Minnesota, with Mercedes-Benz mentioned only incidentally as an observation of wealth, carrying no material implications for the stock.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03372:iran",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "corrupt"
+   ],
+   "t_audio": 3372.8186140350876,
+   "t_wall": 1767991694.818614,
+   "t_wall_et": "2026-01-09T15:48:14.818614-05:00",
+   "segment_text": "Mister president And by the way, he's a very corrupt governor too. Go ahead. I have a question on Iran, but 1st very quickly on Venezuela. How do you provide total security guarantees to these companies without putting US boots on the ground? Well, we're gonna work with the Venezuelan",
+   "context": "24, the 1 that just took place, I won because it was too big to rig. You couldn't rig it. It was too big. But I won the state of Minnesota. It's a corrupt voting system with an incompetent governor, a very incompetent governor. Mister president And by the way, he's a very corrupt governor too. Go ahead. I have a question on Iran, but 1st very quickly on Venezuela. How do you provide total security guarantees to these companies without putting US boots on the ground? Well, we're gonna work with the Venezuelan",
+   "speaker": 19,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03374:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "corrupt"
+   ],
+   "t_audio": 3374.338087719298,
+   "t_wall": 1767991696.3380878,
+   "t_wall_et": "2026-01-09T15:48:16.338088-05:00",
+   "segment_text": "Mister president And by the way, he's a very corrupt governor too. Go ahead. I have a question on Iran, but 1st very quickly on Venezuela. How do you provide total security guarantees to these companies without putting US boots on the ground? Well, we're gonna work with the Venezuelan",
+   "context": "24, the 1 that just took place, I won because it was too big to rig. You couldn't rig it. It was too big. But I won the state of Minnesota. It's a corrupt voting system with an incompetent governor, a very incompetent governor. Mister president And by the way, he's a very corrupt governor too. Go ahead. I have a question on Iran, but 1st very quickly on Venezuela. How do you provide total security guarantees to these companies without putting US boots on the ground? Well, we're gonna work with the Venezuelan",
+   "speaker": 19,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03391:oil",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "drill"
+   ],
+   "t_audio": 3391.288916883117,
+   "t_wall": 1767991713.2889168,
+   "t_wall_et": "2026-01-09T15:48:33.288917-05:00",
+   "segment_text": "group. And they're gonna also bring over some security with them. Know, these are not babies. These are people that drill oil at some pretty rough places.",
+   "context": "Mister president And by the way, he's a very corrupt governor too. Go ahead. I have a question on Iran, but 1st very quickly on Venezuela. How do you provide total security guarantees to these companies without putting US boots on the ground? Well, we're gonna work with the Venezuelan leaders and people, and we're gonna have a very safe group. And they're gonna also bring over some security with them. Know, these are not babies. These are people that drill oil at some pretty rough places. I could say a couple of those places make Venezuela look like a picnic.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03581:solar",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3581.161827586207,
+   "t_wall": 1767991903.1618276,
+   "t_wall_et": "2026-01-09T15:51:43.161828-05:00",
+   "segment_text": "they're putting windmills all over the place and losing a fortune. They're destroying their country. They're destroying the beautiful landscapes,",
+   "context": "and they've gone up to 5% from 2% GDP. That's a big step. But they have to be very careful with their immigration policy, and they have to be very because, you know, I will just say, to be nice, that there are certain places in Europe that are very important that are no longer recognizable. I'm being very nice. I'm being very diplomatic when I say that they are not recognizable. And they have to be careful on energy because they're putting windmills all over the place and losing a fortune. They're destroying their country. They're destroying the beautiful landscapes,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind energy sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "putting windmills all over the place and losing a fortune",
+    "summary": "The President criticizes European overinvestment in windmills as economically destructive."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General anti-renewable rhetoric reinforces negative policy sentiment for solar ETF, though remarks focused on wind.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean energy ETF hurt by reiterated anti-wind stance and no new US windmill approvals policy.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar-specific maker not directly targeted, remarks concentrated on wind turbines.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar inverter maker not directly implicated by wind-focused criticism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated strong anti-wind rhetoric and continued US non-approval policy, modestly negative for wind/renewable ETFs (ICLN, TAN) but with limited new information and no direct solar-specific impact for FSLR/ENPH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TAN\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General anti-renewable rhetoric reinforces negative policy sentiment for solar ETF, though remarks focused on wind.\", \"added\": false}, {\"ticker\": \"ICLN\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad clean energy ETF hurt by reiterated anti-wind stance and no new US windmill approvals policy.\", \"added\": false}, {\"ticker\": \"FSLR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Solar-specific maker not directly targeted, remarks concentrated on wind turbines.\", \"added\": false}, {\"ticker\": \"ENPH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Residential solar inverter maker not directly implicated by wind-focused criticism.\", \"added\": false}], \"summary\": \"The President reiterated strong anti-wind rhetoric and continued US non-approval policy, modestly negative for wind/renewable ETFs (ICLN, TAN) but with limited new information and no direct solar-specific impact for FSLR/ENPH.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03636:eu",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "sell"
+   ],
+   "t_audio": 3636.1913319148935,
+   "t_wall": 1767991958.1913319,
+   "t_wall_et": "2026-01-09T15:52:38.191332-05:00",
+   "segment_text": "They make them and sell them to suckers like Europe and suckers like The United States before.",
+   "context": "They kill your birds. They're all made in China. And all you have to do is, you know, just about all of the windmills are made in China, the structures. All you have to do is say to China, how many windmill areas do you have in China? So far, they're not able to find any. They use coal and they use oil and gas and some nuclear, not much, but they don't have windmills. They make them and sell them to suckers like Europe and suckers like The United States before.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "They make them and sell them to suckers like Europe",
+    "summary": "The President criticizes Europe for buying Chinese-made windmills."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical criticism of Europe's energy policy with no new trade or policy action affecting broad European equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rhetoric about windmills is not a material catalyst for eurozone equity index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy or tariff threat specified against Europe, just rhetorical jab about wind energy.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments reiterate his long-standing anti-wind-energy stance and mock Europe for buying Chinese turbines, but contain no new policy, tariff, or sanction announcement, so broad European equity ETFs should see negligible abnormal impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical criticism of Europe's energy policy with no new trade or policy action affecting broad European equities.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rhetoric about windmills is not a material catalyst for eurozone equity index.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy or tariff threat specified against Europe, just rhetorical jab about wind energy.\", \"added\": false}], \"summary\": \"The President's comments reiterate his long-standing anti-wind-energy stance and mock Europe for buying Chinese turbines, but contain no new policy, tariff, or sanction announcement, so broad European equity ETFs should see negligible abnormal impact.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03651:steel",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 3651.8585484848486,
+   "t_wall": 1767991973.8585484,
+   "t_wall_et": "2026-01-09T15:52:53.858548-05:00",
+   "segment_text": "a junkyard of steel. So we don't approve, and I've told my people,",
+   "context": "So far, they're not able to find any. They use coal and they use oil and gas and some nuclear, not much, but they don't have windmills. They make them and sell them to suckers like Europe and suckers like The United States before. They are the worst form of energy, the most expensive form of energy, and in 8 years, they're rotted out anyway. Go take a look at Palm Springs, California and take a look at what that looks like. It looks like a junkyard, a junkyard of steel. So we don't approve, and I've told my people,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.75,
+    "quote": "junkyard of steel. So we don't approve",
+    "summary": "The President criticizes windmill infrastructure as rotted steel junkyard, signals non-approval policy."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anti-wind rhetoric is repeat policy with minimal direct impact on US Steel operations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new policy affecting Nucor; wind steel demand is a small part of its business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeat anti-wind stance unlikely to materially move Cleveland-Cliffs shares.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new actionable policy for Steel Dynamics from this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected meaningfully by reiterated wind criticism.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reaffirm existing anti-wind energy policy with no new specifics, making the direct impact on steel producers negligible and largely already priced in.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Anti-wind rhetoric is repeat policy with minimal direct impact on US Steel operations.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new policy affecting Nucor; wind steel demand is a small part of its business.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeat anti-wind stance unlikely to materially move Cleveland-Cliffs shares.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new actionable policy for Steel Dynamics from this remark.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected meaningfully by reiterated wind criticism.\", \"added\": false}], \"summary\": \"The President's remarks reaffirm existing anti-wind energy policy with no new specifics, making the direct impact on steel producers negligible and largely already priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03671:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 3671.080251485149,
+   "t_wall": 1767991993.0802515,
+   "t_wall_et": "2026-01-09T15:53:13.080251-05:00",
+   "segment_text": "on Venezuela, is it ultimately more important to you to establish stability there or democracy there?",
+   "context": "Go take a look at Palm Springs, California and take a look at what that looks like. It looks like a junkyard, a junkyard of steel. So we don't approve, and I've told my people, we will not approve windmills. Maybe we get forced to do something because some stupid person in the Biden administration agreed to do something years ago. We will not approve any windmills in this country. President, on Venezuela, is it ultimately more important to you to establish stability there or democracy there?",
+   "speaker": 20,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03823:iran",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "deals"
+   ],
+   "t_audio": 3823.9592690265486,
+   "t_wall": 1767992145.959269,
+   "t_wall_et": "2026-01-09T15:55:45.959269-05:00",
+   "segment_text": "look at what happened with Obama with that horrible deal they made with Iran. It was a short term deal. It was like a 9 year deal. Countries can't make 9 year deals or even hundred year deals. Countries have to have ownership.",
+   "context": "Go ahead, ma'am. On Rimah, mister president, why is it so important to you to own it when you have a military presence there, which you could expand to affect the security? Because when we own it, we defend it. You don't defend leases the same way. You have to own it. And, you know, with a nation, look at what happened with Obama with that horrible deal they made with Iran. It was a short term deal. It was like a 9 year deal. Countries can't make 9 year deals or even hundred year deals. Countries have to have ownership.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO",
+     "ITA"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "Obama with that horrible deal they made with Iran. It was a short term deal.",
+    "summary": "The President criticized Obama's Iran nuclear deal as short-term and inadequate."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remarks focus on Greenland sovereignty and Iran deal criticism, not directly on energy policy despite the oil executives meeting context.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new oil supply/demand or sanctions information revealed in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Renewed rhetoric about needing to militarily defend/own Greenland against Russia and China implies potential defense spending, mildly positive for defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remarks focus on Greenland sovereignty and Iran deal criticism, not directly on energy policy despite the oil executives meeting context.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No new oil supply/demand or sanctions information revealed in this excerpt.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Renewed rhetoric about needing to militarily defend/own Greenland against Russia and China implies potential defense spending, mildly positive for defense contractors.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03884:defense_word",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 3884.8804608695655,
+   "t_wall": 1767992206.880461,
+   "t_wall_et": "2026-01-09T15:56:46.880461-05:00",
+   "segment_text": "came out today, mister president, 1, can you respond to that? And 2 Yeah. It was an amazing report. The amazing and the most amazing thing is government jobs are way down, and yet the employment came unemployment or the employment numbers are very good.",
+   "context": "I'm all for NATO. I saved NATO. It weren't for me, you wouldn't have a NATO right now. But we're not gonna allow Russia or China to occupy Greenland, and that's what's going to happen if we don't. Go ahead. That came out today, mister president, 1, can you respond to that? And 2 Yeah. It was an amazing report. The amazing and the most amazing thing is government jobs are way down, and yet the employment came unemployment or the employment numbers are very good.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:03978:djt",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "djt",
+   "entity": "The President Media",
+   "kind": "company",
+   "alias": "truth social",
+   "text_span": "truth social",
+   "dict_tickers": [
+    "DJT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 3978.3337152941176,
+   "t_wall": 1767992300.3337152,
+   "t_wall_et": "2026-01-09T15:58:20.333715-05:00",
+   "segment_text": "Manufacturing Let's give CNN a chance. You know, they've been fighting so hard to get back into the mainstream. Mister president, you posted some numbers actually on truth social last night. People saying you posted the job data early when you're not supposed to obviously share it till the next morning. Did did you do that on purpose? No.",
+   "context": "5.4%, and we haven't even really transitioned yet. There's no reason it can't be much, much higher than that. Yeah. Manufacturing Let's give CNN a chance. You know, they've been fighting so hard to get back into the mainstream. Mister president, you posted some numbers actually on truth social last night. People saying you posted the job data early when you're not supposed to obviously share it till the next morning. Did did you do that on purpose? No.",
+   "speaker": 18,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04084:oil",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 4084.4746070460706,
+   "t_wall": 1767992406.474607,
+   "t_wall_et": "2026-01-09T16:00:06.474607-05:00",
+   "segment_text": "know the risks. I mean, there are risks. We're gonna help them out. We're gonna make it real easy. They're gonna be there for a long time. We're gonna be there together for a long, long time. And they're gonna be taking the oil, and they're gonna be bringing oil prices down. They're gonna make a lot of money. They're gonna get their money back. They're gonna be safe.",
+   "context": "We ought to use it more often. I hope I don't have to give a backstop. I'm I'm just look, these are very smart people. The smartest people, they're not only in oil and business. These are the biggest companies in the world sitting around this table. They know the risks. I mean, there are risks. We're gonna help them out. We're gonna make it real easy. They're gonna be there for a long time. We're gonna be there together for a long, long time. And they're gonna be taking the oil, and they're gonna be bringing oil prices down. They're gonna make a lot of money. They're gonna get their money back. They're gonna be safe.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "They're gonna be taking the oil, and they're gonna be bringing oil prices down.",
+    "summary": "The President expects oil companies to increase production and lower oil prices."
+   },
+   "llm_attempts": 1,
+   "count": 8,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has historic Venezuela operations and stands to gain most from expanded access framed as a national-security win.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Less direct Venezuela exposure than Chevron so benefit is more diffuse.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector benefits from access but expectation of falling oil prices offsets gains.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President explicitly says increased Venezuelan output will bring oil prices down, bearish for crude price ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President signals expanded US oil company access to Venezuela with government support and lower prices, favoring Chevron specifically while pressuring crude prices lower.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has historic Venezuela operations and stands to gain most from expanded access framed as a national-security win.\", \"added\": false},\n{\"ticker\": \"XOM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Less direct Venezuela exposure than Chevron so benefit is more diffuse.\", \"added\": false},\n{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector benefits from access but expectation of falling oil prices offsets gains.\", \"added\": false},\n{\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President explicitly says increased Venezuelan output will bring oil prices down, bearish for crude price ETF.\", \"added\": false}\n],\n\"summary\": \"The President signals expanded US oil company access to Venezuela with government support and lower prices, favoring Chevron specifically while pressuring crude prices lower.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04092:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 4092.142233566434,
+   "t_wall": 1767992414.1422336,
+   "t_wall_et": "2026-01-09T16:00:14.142234-05:00",
+   "segment_text": "The people of Venezuela are gonna be big beneficiaries, and The United States Of America is gonna be a big beneficiary for what we've done. And",
+   "context": "very smart people. The smartest people, they're not only in oil and business. These are the biggest companies in the world sitting around this table. They know the risks. I mean, there are risks. We're gonna help them out. We're gonna make it real easy. They're gonna be there for a long time. We're gonna be there together for a long, long time. And they're gonna be taking the oil, and they're gonna be bringing oil prices down. They're gonna make a lot of money. They're gonna get their money back. They're gonna be safe. The people of Venezuela are gonna be big beneficiaries, and The United States Of America is gonna be a big beneficiary for what we've done. And",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "people of Venezuela are gonna be big beneficiaries",
+    "summary": "The President discusses Venezuela oil deal benefiting both country and US."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "The President signals US backing and favorable arrangements for oil majors accessing Venezuelan oil, positive for the sector ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron is directly referenced and positioned to benefit from expanded Venezuela access with implicit government support.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks suggest a new US-backed arrangement giving oil majors like Chevron favorable access to Venezuelan crude with implicit government support, a modest positive for CVX and the broader energy sector (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"The President signals US backing and favorable arrangements for oil majors accessing Venezuelan oil, positive for the sector ETF.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron is directly referenced and positioned to benefit from expanded Venezuela access with implicit government support.\", \"added\": false}], \"summary\": \"The President's remarks suggest a new US-backed arrangement giving oil majors like Chevron favorable access to Venezuelan crude with implicit government support, a modest positive for CVX and the broader energy sector (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04120:cvx",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4120.993443243243,
+   "t_wall": 1767992442.9934433,
+   "t_wall_et": "2026-01-09T16:00:42.993443-05:00",
+   "segment_text": "I think I can where's mister Chevron?",
+   "context": "The people of Venezuela are gonna be big beneficiaries, and The United States Of America is gonna be a big beneficiary for what we've done. And and, you know, 1 other thing I might say, it's also very big for national security because, again, just like Greenland, we can't have China or Russia occupy Greenland. We can't have China or Russia occupy Venezuela. And if we didn't do what we did, China or Russia would have been in Venezuela. I think I can where's mister Chevron?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Chevron",
+    "tickers": [
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "where's mister Chevron?",
+    "summary": "The President seeks out Chevron representative, context suggests Venezuela oil/energy operations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "The President signals U.S. backing and favorable access for oil majors like Chevron in Venezuela, a positive for its operations there.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks favor Chevron's Venezuela exposure by promising government backing and secure access to oil resources, a mild positive catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"The President signals U.S. backing and favorable access for oil majors like Chevron in Venezuela, a positive for its operations there.\", \"added\": false}], \"summary\": \"The President's remarks favor Chevron's Venezuela exposure by promising government backing and secure access to oil resources, a mild positive catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04168:china",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 4168.522947019867,
+   "t_wall": 1767992490.522947,
+   "t_wall_et": "2026-01-09T16:01:30.522947-05:00",
+   "segment_text": "But I assume you agree that China would like to be doing a lot of business there by buying oil, and I wanna just tell President Xi and President Putin,",
+   "context": "decided not to defend that ship against us. It's a big movement. The ship was loaded up with oil and we took the oil and it came out of that port. But Russia would be there or China would be there. And we want them to be there for a different reason. We want them do you people agree? In particular, China, they need a lot of oil. Russia doesn't need so much, but Russia was there anyway. But I assume you agree that China would like to be doing a lot of business there by buying oil, and I wanna just tell President Xi and President Putin,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "China would like to be doing a lot of business there by buying oil",
+    "summary": "The President states China wants to conduct oil business in the region."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "General geopolitical rhetoric about China and oil, not a concrete policy action affecting Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Comment is speculative framing about China's oil interests in Venezuela, not a new policy on China trade or markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No relevance to Chinese internet/tech sector from remarks about Venezuela oil geopolitics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are geopolitical rhetoric about Venezuela, oil, and China/Russia competition without a concrete new policy affecting Chinese equities, so no clear directional trade for China-linked ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"General geopolitical rhetoric about China and oil, not a concrete policy action affecting Chinese equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Comment is speculative framing about China's oil interests in Venezuela, not a new policy on China trade or markets.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No relevance to Chinese internet/tech sector from remarks about Venezuela oil geopolitics.\", \"added\": false}], \"summary\": \"The President's remarks are geopolitical rhetoric about Venezuela, oil, and China/Russia competition without a concrete new policy affecting Chinese equities, so no clear directional trade for China-linked ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04174:russia",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "putin",
+   "text_span": "Putin",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "buying"
+   ],
+   "t_audio": 4174.907582781457,
+   "t_wall": 1767992496.9075828,
+   "t_wall_et": "2026-01-09T16:01:36.907583-05:00",
+   "segment_text": "But I assume you agree that China would like to be doing a lot of business there by buying oil, and I wanna just tell President Xi and President Putin,",
+   "context": "decided not to defend that ship against us. It's a big movement. The ship was loaded up with oil and we took the oil and it came out of that port. But Russia would be there or China would be there. And we want them to be there for a different reason. We want them do you people agree? In particular, China, they need a lot of oil. Russia doesn't need so much, but Russia was there anyway. But I assume you agree that China would like to be doing a lot of business there by buying oil, and I wanna just tell President Xi and President Putin,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "I wanna just tell President Xi and President Putin",
+    "summary": "The President mentions Putin in context of regional oil and geopolitical positioning."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General geopolitical rhetoric about Russia/Venezuela with no new sanctions or policy action specified.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Talk of US involvement in Venezuela oil and being 'open for business' suggests potential access/opportunities for US energy companies.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks are largely geopolitical rhetoric about Venezuela, China, and Russia oil interests without concrete new policy, offering mild bullish read for US energy firms and negligible direct impact on Russian equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General geopolitical rhetoric about Russia/Venezuela with no new sanctions or policy action specified.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Talk of US involvement in Venezuela oil and being 'open for business' suggests potential access/opportunities for US energy companies.\", \"added\": false}], \"summary\": \"Remarks are largely geopolitical rhetoric about Venezuela, China, and Russia oil interests without concrete new policy, offering mild bullish read for US energy firms and negligible direct impact on Russian equities.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04254:xom",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxon",
+   "text_span": "Exxon",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 4254.865,
+   "t_wall": 1767992576.865,
+   "t_wall_et": "2026-01-09T16:02:56.865000-05:00",
+   "segment_text": "Exxon.",
+   "context": "the biggest companies anywhere on earth? Do you have any questions for these people? No. No. Do you have a question for them? Yes. Yes. Go ahead. Go ahead. Ask them a question. Companies in the room that they are committed to rebuilding the oil infrastructure in Venezuela. And for the executives in the room, what do you need from the administration in order to invest? That's a good question. Do you wanna go and answer that question? Exxon. Small company. I'll refer you back to the statements I made before. There are a number of legal and commercial frameworks that would have to be established to even understand",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04448:refiners",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refineries",
+   "text_span": "refineries",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [
+    "refineries"
+   ],
+   "t_audio": 4448.388068459658,
+   "t_wall": 1767992770.3880684,
+   "t_wall_et": "2026-01-09T16:06:10.388068-05:00",
+   "segment_text": "Mister president, I'm Lane Riggs, CEO of Alero Energy, and we're 1 of those companies that refineries in The US are uniquely configured to run Venezuela and oil, and we're more than happy as this opportunity expands for us to further invest in our refineries to to produce more of it. And you're very much set up for the heavy oil. Right? Yes, sir. That's great. That's great. We're really we're ready for it.",
+   "context": "And, certainly, we need time, to see that through. So thank you for what you've done. Thank you very much. Thank you. Mister president, I'm Lane Riggs, CEO of Alero Energy, and we're 1 of those companies that refineries in The US are uniquely configured to run Venezuela and oil, and we're more than happy as this opportunity expands for us to further invest in our refineries to to produce more of it. And you're very much set up for the heavy oil. Right? Yes, sir. That's great. That's great. We're really we're ready for it.",
+   "speaker": 27,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04540:defense_word",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "barrels",
+    "investing"
+   ],
+   "t_audio": 4540.020056179775,
+   "t_wall": 1767992862.0200562,
+   "t_wall_et": "2026-01-09T16:07:42.020056-05:00",
+   "segment_text": "to multiply by 3 this figure in coming 2, 3 years investing hard in the country following",
+   "context": "we produce the gas that guarantees the stability of 0.5 of the grid power in Venezuela. So we are committed with this stability. And on top of that, we are on the ground. We have people. We have facilities. We have technical capabilities. And I take your point, mister president. We are ready to invest more in Venezuela. Today, we are producing 45,000 barrels a day gross of oil, and we are ready to multiply by 3 this figure in coming 2, 3 years investing hard in the country following",
+   "speaker": 17,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04584:refiners",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "refiners",
+   "entity": "Refiners",
+   "kind": "sector",
+   "alias": "refiners",
+   "text_span": "refiners",
+   "dict_tickers": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4584.4026536363635,
+   "t_wall": 1767992906.4026537,
+   "t_wall_et": "2026-01-09T16:08:26.402654-05:00",
+   "segment_text": "We are 1 of the largest US refiners. On behalf of the men and women of Marathon Petroleum and of our industry,",
+   "context": "Mister president, thank you for having me. I'm Matt Sheehy. I'm with Tallgrass Energy. We are an infrastructure business. So whether it's oil, gas, c o 2, we move that around. So most of my customers are sitting around the table and, happy to lend our expertise to what's going on in Venezuela, to support the people. And, and, obviously, infrastructure is gonna be critical to Good job. To see it repaired. Thank you. Thank you. Mister president, thank you. An honor to be here. Mary Anne Manon, Marathon Petroleum. We are 1 of the largest US refiners. On behalf of the men and women of Marathon Petroleum and of our industry,",
+   "speaker": 29,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04623:xom",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "xom",
+   "entity": "ExxonMobil",
+   "kind": "company",
+   "alias": "exxonmobil",
+   "text_span": "ExxonMobil",
+   "dict_tickers": [
+    "XOM"
+   ],
+   "triggers_nearby": [
+    "refineries"
+   ],
+   "t_audio": 4623.835632,
+   "t_wall": 1767992945.835632,
+   "t_wall_et": "2026-01-09T16:09:05.835632-05:00",
+   "segment_text": "Darren Woods, ExxonMobil.",
+   "context": "Venezuelan crude, and the people of Marathon Petroleum stand ready to do so. Do we need more refineries in our country? In The US? Probably not. We have sufficient capacity. That's amazing. A lot of it was approved during my 1st term. We were getting you approvals that nobody could have gotten in Louisiana and other places, and they got built. Before that, it was a disaster. We didn't have the refineries. Now we do because of the 1st term. Please. Darren Woods, ExxonMobil. K. We'll go over here. Thank you, mister president. Jeff Hildebrand, founder,",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04791:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 4791.466022222222,
+   "t_wall": 1767993113.4660223,
+   "t_wall_et": "2026-01-09T16:11:53.466022-05:00",
+   "segment_text": "We think that Venezuela has a tremendous amount of opportunity.",
+   "context": "But our probably the most pertinent, example is our is what a wildcatter does is take on risk and try to reduce it, and then other people come in and put more capital in later. So we're kind of kickstarters in the oil industry. We went into Kurdistan very early on back when people told us it wasn't safe and we shouldn't do it. We found a big field there, and it ultimately has got to be developed along with 1 of my colleagues here to be 1 of the big leading fields in Kurdistan. We think that Venezuela has a tremendous amount of opportunity. If you look at the reinvestment required, the investment required, people are talking about hundreds of billions of dollars. But if you put that in perspective,",
+   "speaker": 32,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04829:oil_strong",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil production",
+   "text_span": "oil production",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "billion"
+   ],
+   "t_audio": 4829.58806122449,
+   "t_wall": 1767993151.5880613,
+   "t_wall_et": "2026-01-09T16:12:31.588061-05:00",
+   "segment_text": "In Hungary, we've invested billion dollars in changing the trajectory of Hungarian oil production.",
+   "context": "that's 1000000 barrels a day for 15 years. It's $220,000,000,000 net cash flow. So what we really need to do is to be able to kick start production and then reinvest and have the confidence to reinvest. And what you're doing by putting The United States in control of the cash flow coming out of the country gives country companies like ours the confidence to say, we can kick start this production and then reinvest and reinvest. In Hungary, we've invested billion dollars in changing the trajectory of Hungarian oil production. We're only able to do that not because we could write 1000000000 dollar check. We're a smaller company, but because we reinvest all the cash flow back into new production. Good.",
+   "speaker": 32,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04842:cvx",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4842.840447368421,
+   "t_wall": 1767993164.8404474,
+   "t_wall_et": "2026-01-09T16:12:44.840447-05:00",
+   "segment_text": "with Chevron. Good.",
+   "context": "in control of the cash flow coming out of the country gives country companies like ours the confidence to say, we can kick start this production and then reinvest and reinvest. In Hungary, we've invested billion dollars in changing the trajectory of Hungarian oil production. We're only able to do that not because we could write 1000000000 dollar check. We're a smaller company, but because we reinvest all the cash flow back into new production. Good. Good. Good. Nelson with Chevron. Good.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04858:oil",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "sanction"
+   ],
+   "t_audio": 4858.189418604651,
+   "t_wall": 1767993180.1894186,
+   "t_wall_et": "2026-01-09T16:13:00.189419-05:00",
+   "segment_text": "We have a lot of oil, but now just the gas is flowing because it's not under sanction.",
+   "context": "We're only able to do that not because we could write 1000000000 dollar check. We're a smaller company, but because we reinvest all the cash flow back into new production. Good. Good. Good. Nelson with Chevron. Good. Thank you, mister president. I'm Carlo Discalci, an ICO, Italy. We we started working in Venezuela in 1980. We have a lot of oil, but now just the gas is flowing because it's not under sanction.",
+   "speaker": 33,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04885:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 4885.911746987952,
+   "t_wall": 1767993207.911747,
+   "t_wall_et": "2026-01-09T16:13:27.911747-05:00",
+   "segment_text": "barrels of reserves. So a huge amount in the Orinoco Belt in the Central Venezuela.",
+   "context": "We have a lot of oil, but now just the gas is flowing because it's not under sanction. And as my colleague from said, we cover more than about 50% of the electricity in the country. So that is essential to avoid any kind of problem, social problem. We own about 4,000,000,000 barrels of reserves. So a huge amount in the Orinoco Belt in the Central Venezuela. We have now in in the country 500 people,",
+   "speaker": 33,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:04981:natgas",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "lng",
+   "text_span": "LNG",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 4981.054976446281,
+   "t_wall": 1767993303.0549765,
+   "t_wall_et": "2026-01-09T16:15:03.054976-05:00",
+   "segment_text": "Of course, we have a huge presence here in The US, in The Gulf, as well as in Pennsylvania with the petrochemical facility, which I think we had the opportunity to host you at, as well as being 1 of the largest LNG off takers of American LNG.",
+   "context": "But now with your team, we're looking in Syria. We're now in Libya. And so we are very excited to look at Venezuela with you and your group and look forward to, continuing to build this great industry. Thank you very much. Thank you. Mister president, thank you for having us here today. From Shell. Of course, we have a huge presence here in The US, in The Gulf, as well as in Pennsylvania with the petrochemical facility, which I think we had the opportunity to host you at, as well as being 1 of the largest LNG off takers of American LNG.",
+   "speaker": 35,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "LNG (Liquefied Natural Gas)",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "one of the largest LNG off takers of American LNG",
+    "summary": "Shell executive praises company's role as major buyer of U.S. LNG exports."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Natural gas price ETF is driven by commodity fundamentals not this remark about LNG offtake.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Positive rhetoric around expanding US LNG exports and Venezuela opportunities is mildly supportive of US LNG exporters like Cheniere.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Growing LNG offtake demand and administration support for energy expansion is modestly positive for major US gas producer EQT.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Executives praised US energy expansion, LNG offtake, and Venezuela investment opportunities under the administration support, a mild positive for LNG exporters and gas producers but largely repeat rhetoric with limited new market-moving specifics.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Natural gas price ETF is driven by commodity fundamentals not this remark about LNG offtake.\", \"added\": false}, {\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Positive rhetoric around expanding US LNG exports and Venezuela opportunities is mildly supportive of US LNG exporters like Cheniere.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Growing LNG offtake demand and administration support for energy expansion is modestly positive for major US gas producer EQT.\", \"added\": false}], \"summary\": \"Executives praised US energy expansion, LNG offtake, and Venezuela investment opportunities under the administration support, a mild positive for LNG exporters and gas producers but largely repeat rhetoric with limited new market-moving specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:05003:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "approval",
+    "barrels",
+    "billion",
+    "invest"
+   ],
+   "t_audio": 5003.976951219513,
+   "t_wall": 1767993325.9769511,
+   "t_wall_et": "2026-01-09T16:15:25.976951-05:00",
+   "segment_text": "But we have kept boots on the ground in Venezuela all this time, and we now have a few billion dollars worth of opportunities to invest in subject to OFAC approval.",
+   "context": "Of course, we have a huge presence here in The US, in The Gulf, as well as in Pennsylvania with the petrochemical facility, which I think we had the opportunity to host you at, as well as being 1 of the largest LNG off takers of American LNG. We have been in Venezuela for a very long time. We actually drilled in 1914 the 1st well that discovered oil in Venezuela and on the back of which the entire energy industry was established in Venezuela. When we left in the 19 seventies because of nationalization, we had 1000000 barrels per day of production. But we have kept boots on the ground in Venezuela all this time, and we now have a few billion dollars worth of opportunities to invest in subject to OFAC approval.",
+   "speaker": 35,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:05029:oil_strong",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "crude oil",
+   "text_span": "crude oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "market",
+    "price"
+   ],
+   "t_audio": 5029.344324675325,
+   "t_wall": 1767993351.3443246,
+   "t_wall_et": "2026-01-09T16:15:51.344325-05:00",
+   "segment_text": "Alongside Chafaguro, we're very thankful to have worked with the government and the Venezuelans to be able to bring the crude oil to market at a market price as quickly as we can to help stabilize the country. Thank you. Thank you.",
+   "context": "But we have kept boots on the ground in Venezuela all this time, and we now have a few billion dollars worth of opportunities to invest in subject to OFAC approval. So we are ready to go and looking forward to the investments, in support of, the Venezuelan people. That's great. Thank you very much. Thank you, mister president. Ben Marshall, the America's CEO for Vitol. Alongside Chafaguro, we're very thankful to have worked with the government and the Venezuelans to be able to bring the crude oil to market at a market price as quickly as we can to help stabilize the country. Thank you. Thank you.",
+   "speaker": 20,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:05035:cop",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cop",
+   "entity": "ConocoPhillips",
+   "kind": "company",
+   "alias": "conocophillips",
+   "text_span": "ConocoPhillips",
+   "dict_tickers": [
+    "COP"
+   ],
+   "triggers_nearby": [
+    "market",
+    "price"
+   ],
+   "t_audio": 5035.8841785714285,
+   "t_wall": 1767993357.8841786,
+   "t_wall_et": "2026-01-09T16:15:57.884179-05:00",
+   "segment_text": "Ryan Lance, ConocoPhillips. I'll defer to my colleagues.",
+   "context": "So we are ready to go and looking forward to the investments, in support of, the Venezuelan people. That's great. Thank you very much. Thank you, mister president. Ben Marshall, the America's CEO for Vitol. Alongside Chafaguro, we're very thankful to have worked with the government and the Venezuelans to be able to bring the crude oil to market at a market price as quickly as we can to help stabilize the country. Thank you. Thank you. Ryan Lance, ConocoPhillips. I'll defer to my colleagues. Thank you, mister president. Olivier LePosch,",
+   "speaker": 9,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:05054:cvx",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "cvx",
+   "entity": "Chevron",
+   "kind": "company",
+   "alias": "chevron",
+   "text_span": "Chevron",
+   "dict_tickers": [
+    "CVX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 5054.628556790123,
+   "t_wall": 1767993376.6285567,
+   "t_wall_et": "2026-01-09T16:16:16.628557-05:00",
+   "segment_text": "and we still operate. We operate today on the ground with and support of Chevron.",
+   "context": "Alongside Chafaguro, we're very thankful to have worked with the government and the Venezuelans to be able to bring the crude oil to market at a market price as quickly as we can to help stabilize the country. Thank you. Thank you. Ryan Lance, ConocoPhillips. I'll defer to my colleagues. Thank you, mister president. Olivier LePosch, CEO of SLB or formerly known as Schumerger, the largest global oil field services. We have been in Venezuela since 1930, and we still operate. We operate today on the ground with and support of Chevron. We have ability to scale. We have 1,100",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Chevron",
+    "tickers": [
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.75,
+    "quote": "support of Chevron. We have ability to scale.",
+    "summary": "SLB CEO states Chevron partnership supports Venezuela oil operations and scaling capability."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Venezuela reopening with OFAC-approved investment opportunities and SLB confirming operational support for Chevron signals expanded access for Chevron to resume/scale Venezuelan production.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The meeting highlights renewed US-backed investment opportunities in Venezuela's oil sector, with Chevron positioned to benefit from expanded access and operational support, a modestly positive catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Venezuela reopening with OFAC-approved investment opportunities and SLB confirming operational support for Chevron signals expanded access for Chevron to resume/scale Venezuelan production.\", \"added\": false}], \"summary\": \"The meeting highlights renewed US-backed investment opportunities in Venezuela's oil sector, with Chevron positioned to benefit from expanded access and operational support, a modestly positive catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "iaE8lw8_x30:05130:private_equity",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "private_equity",
+   "entity": "Private equity",
+   "kind": "sector",
+   "alias": "private equity",
+   "text_span": "private equity",
+   "dict_tickers": [
+    "BX",
+    "KKR",
+    "APO"
+   ],
+   "triggers_nearby": [
+    "drilling",
+    "equity"
+   ],
+   "t_audio": 5130.16177631579,
+   "t_wall": 1767993452.1617763,
+   "t_wall_et": "2026-01-09T16:17:32.161776-05:00",
+   "segment_text": "But like you, I was a, my own guy. I don't have shareholders. I don't have private equity partners, but I've been drilling all over the place. In fact, I had the largest discovery in Alaska,",
+   "context": "Well, check this out. They say the very best for last, and I don't have that sexy accent like this guy next to me here. Mister president, my name is Bill Armstrong of Armstrong Oil and Gas. I'm a private independent guy. And in real estate, you were a wildcatter. So wear that wear that motto proudly. But like you, I was a, my own guy. I don't have shareholders. I don't have private equity partners, but I've been drilling all over the place. In fact, I had the largest discovery in Alaska,",
+   "speaker": 22,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "iaE8lw8_x30:05201:venezuela",
+   "video_id": "iaE8lw8_x30",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "invest"
+   ],
+   "t_audio": 5201.319277456647,
+   "t_wall": 1767993523.3192775,
+   "t_wall_et": "2026-01-09T16:18:43.319278-05:00",
+   "segment_text": "We have to get them to invest, and then we have to get their money back as quickly as we can, and then we can divvy it all up between Venezuela, The United States, and them.",
+   "context": "speak without the press to these gentlemen, see what kind of a deal we can make. We're gonna get them involved. I'm gonna ask Doug and Chris and some of the people that we have from the business standpoint representing our country to start talking about the confines of a deal. We have I have an idea what I want, what I think we should have. We have to get them to invest, and then we have to get their money back as quickly as we can, and then we can divvy it all up between Venezuela, The United States, and them.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "divvy it all up between Venezuela, The United States, and them",
+    "summary": "The President discussing a potential deal involving investment and revenue sharing with Venezuela."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Talk of opening Venezuela to US oil investment and deal-making suggests expanded opportunities for US energy majors.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and would be a prime beneficiary of a new US-brokered investment deal there.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks signal a push toward a US-brokered investment deal in Venezuela's oil sector, mildly bullish for US energy companies like Chevron and the broader energy sector, though details remain vague and unconfirmed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Talk of opening Venezuela to US oil investment and deal-making suggests expanded opportunities for US energy majors.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and would be a prime beneficiary of a new US-brokered investment deal there.\", \"added\": false}], \"summary\": \"The President's remarks signal a push toward a US-brokered investment deal in Venezuela's oil sector, mildly bullish for US energy companies like Chevron and the broader energy sector, though details remain vague and unconfirmed.\"}"
+   }
+  }
+ ]
+}

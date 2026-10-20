@@ -1,0 +1,645 @@
+{
+ "video": {
+  "id": "dLhUDEOIdks",
+  "url": "https://www.youtube.com/watch?v=dLhUDEOIdks",
+  "title": "The President Participates in Invest America Roundtable",
+  "channel": "The White House",
+  "duration": 3232.0,
+  "was_live": true,
+  "release_timestamp": 1749494456.0,
+  "upload_timestamp": 1749498715.0,
+  "upload_date": "20250609",
+  "label": "Participates in Invest America Roundtable",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1749494456.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 15,
+  "confirmed": 7,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 19
+ },
+ "signals": [
+  {
+   "signal_id": "dLhUDEOIdks:00199:stock_market",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "stock"
+   ],
+   "t_audio": 199.15450495049504,
+   "t_wall": 1749494655.154505,
+   "t_wall_et": "2025-06-09T14:44:15.154505-04:00",
+   "segment_text": "into a tax deferred account that will track the overall stock market. In other words, it'll be pegged",
+   "context": "successful companies, and they're committed to contributing millions of dollars to the the new savings accounts. And it's really, it's gonna be something incredible for, children and for their employees in many cases. Here's how the accounts work. For every US citizen born, after 12/31/2024, before 01/01/2029, the federal government will make a 1 time contribution of $1,000 into a tax deferred account that will track the overall stock market. In other words, it'll be pegged",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "will track the overall stock market",
+    "summary": "The President proposes $1,000 accounts for newborns tracking stock market performance."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "A modest inflow program tracking a broad index is a marginal, long-horizon positive but not a near-term market mover.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "No specific tech-sector impact from this general savings account proposal.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Broad market reference with no distinct implication for Dow components.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates the Invest America child savings account plan tied to the stock market; this is largely known policy rhetoric with minor, diffuse long-term positive implications for broad equity indices but no clear near-term tradable catalyst.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"A modest inflow program tracking a broad index is a marginal, long-horizon positive but not a near-term market mover.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"No specific tech-sector impact from this general savings account proposal.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Broad market reference with no distinct implication for Dow components.\", \"added\": false}], \"summary\": \"The President reiterates the Invest America child savings account plan tied to the stock market; this is largely known policy rhetoric with minor, diffuse long-term positive implications for broad equity indices but no clear near-term tradable catalyst.\"}"
+   }
+  },
+  {
+   "signal_id": "dLhUDEOIdks:00213:dell",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "dell",
+   "entity": "Dell",
+   "kind": "company",
+   "alias": "michael dell",
+   "text_span": "Michael Dell",
+   "dict_tickers": [
+    "DELL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 213.73100958677685,
+   "t_wall": 1749494669.7310095,
+   "t_wall_et": "2025-06-09T14:44:29.731009-04:00",
+   "segment_text": "These these kids would be very wealthy if that were the case. That would be good. I think we might do that, Michael Dell.",
+   "context": "after 12/31/2024, before 01/01/2029, the federal government will make a 1 time contribution of $1,000 into a tax deferred account that will track the overall stock market. In other words, it'll be pegged to an index that we'll pick. Right, Michael? We'll pick it. We'll pick a good 1. Maybe you should be the index. I'd like to have that. These these kids would be very wealthy if that were the case. That would be good. I think we might do that, Michael Dell.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Dell",
+    "tickers": [
+     "DELL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "Maybe you should be the index. I'd like to have that.",
+    "summary": "The President suggests Dell's performance as investment index model, implying confidence in company."
+   },
+   "llm_attempts": 1,
+   "count": 5,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DELL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Casual joke about Michael Dell/index is not a substantive policy or business action affecting Dell Technologies shares.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark centers on the the new savings accounts child savings program and a lighthearted joke referencing Michael Dell, with no concrete policy or business impact on Dell Technologies stock.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DELL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Casual joke about Michael Dell/index is not a substantive policy or business action affecting Dell Technologies shares.\", \"added\": false}], \"summary\": \"The remark centers on the the new savings accounts child savings program and a lighthearted joke referencing Michael Dell, with no concrete policy or business impact on Dell Technologies stock.\"}"
+   }
+  },
+  {
+   "signal_id": "dLhUDEOIdks:00419:gs",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "gs",
+   "entity": "Goldman Sachs",
+   "kind": "company",
+   "alias": "goldman sachs",
+   "text_span": "Goldman Sachs",
+   "dict_tickers": [
+    "GS"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 419.65147058823527,
+   "t_wall": 1749494875.6514707,
+   "t_wall_et": "2025-06-09T14:47:55.651471-04:00",
+   "segment_text": "powerful man in the world of business, CEO David Solomon of Goldman Sachs. David, thank you very much.",
+   "context": "a it should be almost mandatory reading. So I wanna congratulate you on that, and thank you for the idea because you're the 1st 1 that really brought this to my attention. I know that you and your friends have been talking about it for a long time, but other presidents didn't get it done, Michael. Right? So we got it done. Congratulations. Thank you very much, sir. I I want to, also give some recognition to my friend Brad Gerstner who helped get us all organized and That's right. And actually Thank you very much. Good, Brad. Spearheaded this. Good. And also, have with us a very powerful man in the world of business, CEO David Solomon of Goldman Sachs. David, thank you very much.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Goldman Sachs",
+    "tickers": [
+     "GS"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "very powerful man in the world of business, CEO David Solomon of Goldman Sachs",
+    "summary": "The President praised Goldman Sachs CEO David Solomon as a powerful business figure."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GS",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Personal praise for the CEO is generic rhetoric with no new policy or business impact for Goldman Sachs.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks were ceremonial praise for attendees, including Goldman Sachs CEO David Solomon, with no new policy, deal, or business implication disclosed, so minimal expected price impact.",
+    "raw": "{\"tickers\":[{\"ticker\":\"GS\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Personal praise for the CEO is generic rhetoric with no new policy or business impact for Goldman Sachs.\",\"added\":false}],\"summary\":\"The President's remarks were ceremonial praise for attendees, including Goldman Sachs CEO David Solomon, with no new policy, deal, or business implication disclosed, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "dLhUDEOIdks:00426:uber",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 426.8314705882353,
+   "t_wall": 1749494882.8314705,
+   "t_wall_et": "2025-06-09T14:48:02.831470-04:00",
+   "segment_text": "You for your time, friend. Thank you. Thank you very much. Uber CEO,",
+   "context": "Thank you very much, sir. I I want to, also give some recognition to my friend Brad Gerstner who helped get us all organized and That's right. And actually Thank you very much. Good, Brad. Spearheaded this. Good. And also, have with us a very powerful man in the world of business, CEO David Solomon of Goldman Sachs. David, thank you very much. You for your time, friend. Thank you. Thank you very much. Uber CEO, Deere Kazrasa.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:00602:spacers",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "spacers",
+   "entity": "Space",
+   "kind": "sector",
+   "alias": "rocket",
+   "text_span": "rocket",
+   "dict_tickers": [
+    "RKLB",
+    "ARKX"
+   ],
+   "triggers_nearby": [
+    "stake"
+   ],
+   "t_audio": 602.5383181063123,
+   "t_wall": 1749495058.5383182,
+   "t_wall_et": "2025-06-09T14:50:58.538318-04:00",
+   "segment_text": "and we will not have this rocket fuel to The US economy, and that's why this is so very important. Passing this pro growth legislation will help every single American. From the new savings accounts, this is 1 of the components of it to eliminating taxes on tips and overtime to reducing red tape on Main Street.",
+   "context": "among the American people so that the economy and individual lives can flourish. Of course, none of this happens unless we pass our 1 big beautiful bill through congress. And we have at stake the largest tax increase in American history if we fail to deliver, and we will not have this rocket fuel to The US economy, and that's why this is so very important. Passing this pro growth legislation will help every single American. From the new savings accounts, this is 1 of the components of it to eliminating taxes on tips and overtime to reducing red tape on Main Street.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:00887:dell",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "dell",
+   "entity": "Dell",
+   "kind": "company",
+   "alias": "michael dell",
+   "text_span": "Michael Dell",
+   "dict_tickers": [
+    "DELL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 887.9449448538012,
+   "t_wall": 1749495343.9449449,
+   "t_wall_et": "2025-06-09T14:55:43.944945-04:00",
+   "segment_text": "without the leadership of Brad Gerstner and Michael Dell in really having the vision, the energy, the passion, the commitment to help move this forward. So thank you both.",
+   "context": "I'm thrilled to be here with everyone and excited to participate in this important and timely discussion. I'd also like to acknowledge the efforts of so many in congress on this very significant issue, and in particular, the members here, and particularly the leadership of senator Cruz and representative Moore who've played a big role in helping drive this forward. We also wouldn't be here today without the leadership of Brad Gerstner and Michael Dell in really having the vision, the energy, the passion, the commitment to help move this forward. So thank you both.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Dell",
+    "tickers": [
+     "DELL"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "leadership of Brad Gerstner and Michael Dell in really having the vision, the energy, the passion, the commitment to help move this forward",
+    "summary": "The President praises Michael Dell's leadership and vision on an unspecified issue."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DELL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for Michael Dell as an individual leader on the Invest America initiative is not a material business catalyst for Dell Technologies stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is personal praise for Michael Dell's civic leadership on a savings-account initiative, not a business or policy action affecting Dell Technologies' fundamentals, so minimal expected price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DELL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for Michael Dell as an individual leader on the Invest America initiative is not a material business catalyst for Dell Technologies stock.\", \"added\": false}], \"summary\": \"The remark is personal praise for Michael Dell's civic leadership on a savings-account initiative, not a business or policy action affecting Dell Technologies' fundamentals, so minimal expected price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "dLhUDEOIdks:01102:uber",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1102.2282416666667,
+   "t_wall": 1749495558.2282417,
+   "t_wall_et": "2025-06-09T14:59:18.228242-04:00",
+   "segment_text": "This mission is personal to me, and it's core to us at Uber.",
+   "context": "tangible hope that comes from having a stake in your own future and a stake in the best companies in the world to every single child that's born in this country. That's the promise of the Invest America Act. It's not just an account. It's a launch pad. It puts the unstoppable engine of compounding to work for our kids, building a future for them from day 1. This mission is personal to me, and it's core to us at Uber. Every day, we see people using our platform to create opportunities for themselves, to save for a home, to pay for tuition,",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:01371:autos",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "autos",
+   "entity": "Automakers",
+   "kind": "sector",
+   "alias": "auto industry",
+   "text_span": "auto industry",
+   "dict_tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TSLA",
+    "CARZ"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1371.0364903225807,
+   "t_wall": 1749495827.0364904,
+   "t_wall_et": "2025-06-09T15:03:47.036490-04:00",
+   "segment_text": "trying to start an auto parts company, and the Japanese were tearing apart our auto industry.",
+   "context": "He's good looking. Yeah. He's much better looking than you. What happened? You know, hey. We all want our kids to be better than ourselves. But it was around our small kitchen table that this idea was really born. I I started off like Jason Smith in a small rural town in Indiana. My dad had lost everything in 1978 trying to start an auto parts company, and the Japanese were tearing apart our auto industry. We had double digit interest rates and inflation. Our family",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:01373:fed",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "interest rates",
+   "text_span": "interest rates",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1373.3098979591837,
+   "t_wall": 1749495829.309898,
+   "t_wall_et": "2025-06-09T15:03:49.309898-04:00",
+   "segment_text": "We had double digit interest rates and inflation.",
+   "context": "He's good looking. Yeah. He's much better looking than you. What happened? You know, hey. We all want our kids to be better than ourselves. But it was around our small kitchen table that this idea was really born. I I started off like Jason Smith in a small rural town in Indiana. My dad had lost everything in 1978 trying to start an auto parts company, and the Japanese were tearing apart our auto industry. We had double digit interest rates and inflation. Our family mortgaged the house to keep the company going and ultimately lost everything.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:01503:dell",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "dell",
+   "entity": "Dell",
+   "kind": "company",
+   "alias": "michael dell",
+   "text_span": "Michael Dell",
+   "dict_tickers": [
+    "DELL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1503.7884239864866,
+   "t_wall": 1749495959.788424,
+   "t_wall_et": "2025-06-09T15:05:59.788424-04:00",
+   "segment_text": "part of America with that economic mobility, that dream that led Michael Dell to start Dell Computer in his dorm room, Dara to feel like he had a shot after coming here from Iran, and a couple poor kids from Missouri and Indiana to make it to where we are today. So thank you for your leadership.",
+   "context": "By age 30, they're worth a $175,000. And if you do it every year of your life, at age 50, they're worth 1000000 bucks. You are giving the shot for every American to feel like they're in the game again, part of America with that economic mobility, that dream that led Michael Dell to start Dell Computer in his dorm room, Dara to feel like he had a shot after coming here from Iran, and a couple poor kids from Missouri and Indiana to make it to where we are today. So thank you for your leadership.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:02110:china",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "export",
+    "export controls"
+   ],
+   "t_audio": 2110.6989650887576,
+   "t_wall": 1749496566.698965,
+   "t_wall_et": "2025-06-09T15:16:06.698965-04:00",
+   "segment_text": "And if we don't open up China, maybe we won't do anything, but we wanna open up China. It'll be a great thing for China, great thing for the rest of the world. Are you willing to lift export controls when it comes to China? Did you give your negotiators any sort of limitations? See. Look. China has been ripping off The United States for",
+   "context": "I think we're doing very well. They're over there now. I'm only getting good reports. It's a little early, but they'll be calling in soon. In fact, probably when I get back, I'll have my 1st call from them. We wanna open up China. And if we don't open up China, maybe we won't do anything, but we wanna open up China. It'll be a great thing for China, great thing for the rest of the world. Are you willing to lift export controls when it comes to China? Did you give your negotiators any sort of limitations? See. Look. China has been ripping off The United States for",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We wanna open up China. It'll be a great thing for China, great thing for the rest of the world.",
+    "summary": "The President seeks to open trade with China; mentions export controls and negotiation limits."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Optimistic tone on China trade talks and opening China could modestly lift Chinese equities sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Similar broad China market exposure benefits from positive trade talk rhetoric though no concrete deal announced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Chinese internet stocks could see mild sentiment boost from hopeful trade talk comments despite lack of specifics.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates general optimism about ongoing China trade negotiations without new concrete details, offering mild positive sentiment for China-exposed ETFs.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Optimistic tone on China trade talks and opening China could modestly lift Chinese equities sentiment.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Similar broad China market exposure benefits from positive trade talk rhetoric though no concrete deal announced.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"up\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Chinese internet stocks could see mild sentiment boost from hopeful trade talk comments despite lack of specifics.\", \"added\": false}], \"summary\": \"The President reiterates general optimism about ongoing China trade negotiations without new concrete details, offering mild positive sentiment for China-exposed ETFs.\"}"
+   }
+  },
+  {
+   "signal_id": "dLhUDEOIdks:02228:tsla",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "tsla",
+   "entity": "Tesla",
+   "kind": "company",
+   "alias": "tesla",
+   "text_span": "Tesla",
+   "dict_tickers": [
+    "TSLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2228.045,
+   "t_wall": 1749496684.045,
+   "t_wall_et": "2025-06-09T15:18:04.045000-04:00",
+   "segment_text": "And secondly, are you gonna get what she said? She was kidnapped by Israel? Yes, sir. Are you gonna get rid of the Tesla and the Starlink service that you have here at the White House?",
+   "context": "She's certainly different. You think she Anger management. I think she has to go to an anger anger management class. That's my primary recommendation for her. Kidnapped by Israel, as she says? Was she kid I find it. I find it. I think Israel has enough problems without kidnapping Greta Thunberg. And secondly, are you gonna get what she said? She was kidnapped by Israel? Yes, sir. Are you gonna get rid of the Tesla and the Starlink service that you have here at the White House? No. I haven't heard that. I mean, I may move the Tesla around a little bit, but I don't think we'll be doing that with Starlink. It's a good service. Where are you gonna move it to?",
+   "speaker": 13,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 5,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:02228:spacex",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "spacex",
+   "entity": "SpaceX",
+   "kind": "company",
+   "alias": "starlink",
+   "text_span": "Starlink",
+   "dict_tickers": [],
+   "triggers_nearby": [],
+   "t_audio": 2228.726739130435,
+   "t_wall": 1749496684.7267392,
+   "t_wall_et": "2025-06-09T15:18:04.726739-04:00",
+   "segment_text": "And secondly, are you gonna get what she said? She was kidnapped by Israel? Yes, sir. Are you gonna get rid of the Tesla and the Starlink service that you have here at the White House?",
+   "context": "She's certainly different. You think she Anger management. I think she has to go to an anger anger management class. That's my primary recommendation for her. Kidnapped by Israel, as she says? Was she kid I find it. I find it. I think Israel has enough problems without kidnapping Greta Thunberg. And secondly, are you gonna get what she said? She was kidnapped by Israel? Yes, sir. Are you gonna get rid of the Tesla and the Starlink service that you have here at the White House? No. I haven't heard that. I mean, I may move the Tesla around a little bit, but I don't think we'll be doing that with Starlink. It's a good service. Where are you gonna move it to?",
+   "speaker": 13,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "SpaceX",
+    "tickers": [],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.85,
+    "quote": "It's a good service.",
+    "summary": "The President praises Starlink as a good service, declines to remove it."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TSLA",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President downplays any rift with Musk and keeps Tesla at the White House, mildly reassuring but not new information.",
+      "added_by_judge": true
+     }
+    ],
+    "summary": "Remarks reaffirm continued White House use of Starlink (SpaceX, not publicly traded) and a cordial stance toward Musk/Tesla, but contain no new policy or financial decisions, so market impact is minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"TSLA\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President downplays any rift with Musk and keeps Tesla at the White House, mildly reassuring but not new information.\", \"added\": true}], \"summary\": \"Remarks reaffirm continued White House use of Starlink (SpaceX, not publicly traded) and a cordial stance toward Musk/Tesla, but contain no new policy or financial decisions, so market impact is minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "dLhUDEOIdks:02363:tsla",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "tsla",
+   "entity": "Tesla",
+   "kind": "company",
+   "alias": "elon musk",
+   "text_span": "Elon Musk",
+   "dict_tickers": [
+    "TSLA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2363.7988582089556,
+   "t_wall": 1749496819.7988582,
+   "t_wall_et": "2025-06-09T15:20:19.798858-04:00",
+   "segment_text": "be politically correct. I said, no. No. You don't have to be politically correct. You have to do the job. And on Elon Musk, do you plan to speak to him on the phone anytime soon? I know some Which 1? On Elon Musk, do you plan to speak to him on the phone anytime soon?",
+   "context": "but it could've led to an insurrection. I mean, was a serious that was a lot of that was a lot of harm that was going on last night. I watched it very closely. And it was amazing that the job that the National Guard did. And and by the way, the police were working very hard also. But, you know, the police are giving instructions to be politically correct. I said, no. No. You don't have to be politically correct. You have to do the job. And on Elon Musk, do you plan to speak to him on the phone anytime soon? I know some Which 1? On Elon Musk, do you plan to speak to him on the phone anytime soon?",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "dLhUDEOIdks:02982:gs",
+   "video_id": "dLhUDEOIdks",
+   "entity_id": "gs",
+   "entity": "Goldman Sachs",
+   "kind": "company",
+   "alias": "goldman sachs",
+   "text_span": "Goldman Sachs",
+   "dict_tickers": [
+    "GS"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2982.901083333333,
+   "t_wall": 1749497438.9010832,
+   "t_wall_et": "2025-06-09T15:30:38.901083-04:00",
+   "segment_text": "Sort of an amazing amazing thing, it, though? We've gone backwards. On Wall Street, they haven't done that. If Goldman Sachs was like that, you wouldn't have Goldman Sachs anymore.",
+   "context": "the change in the skin, the change in weight, all of the other things. There's no reason why we shouldn't do great. So we are making it possible for them to do supersonic and get us back on the track. I mean, we've think of it. 30 years ago, we actually had planes that flew much faster than we do now. It took you 0.5 the time to get to a location. So we've regressed, and we're gonna progress. Right. Sort of an amazing amazing thing, it, though? We've gone backwards. On Wall Street, they haven't done that. If Goldman Sachs was like that, you wouldn't have Goldman Sachs anymore.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Goldman Sachs",
+    "tickers": [
+     "GS"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "If Goldman Sachs was like that, you wouldn't have Goldman Sachs anymore.",
+    "summary": "The President criticizes Goldman Sachs for regression, contrasting it with aviation progress."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GS",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Passing rhetorical comparison, not a substantive policy or business criticism of Goldman Sachs.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark about Goldman Sachs is a rhetorical aside used as an analogy about progress, not a substantive policy action, so minimal price impact expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GS\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Passing rhetorical comparison, not a substantive policy or business criticism of Goldman Sachs.\", \"added\": false}], \"summary\": \"The remark about Goldman Sachs is a rhetorical aside used as an analogy about progress, not a substantive policy action, so minimal price impact expected.\"}"
+   }
+  }
+ ]
+}

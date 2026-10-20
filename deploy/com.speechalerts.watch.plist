@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- launchd job: keeps `speechalerts watch` running and restarts it if it exits.
+     Install:  cp deploy/com.speechalerts.watch.plist ~/Library/LaunchAgents/
+               launchctl load ~/Library/LaunchAgents/com.speechalerts.watch.plist
+     Logs:     tail -f logs/watch.log
+     Stop:     launchctl unload ~/Library/LaunchAgents/com.speechalerts.watch.plist
+     (caffeinate removed: the Mac may idle-sleep while the job runs.)
+     Replace /path/to/speechalerts with the project directory and point the first argument at your uv binary (`which uv`).
+     Env: `.env` in the project root is loaded by the app itself (keys, FIREBASE_* with an absolute
+     FIREBASE_CREDENTIALS path). Leave YTDLP_COOKIES_FROM_BROWSER unset here: decrypting Chrome's
+     cookie store from a launchd job can trigger Keychain prompts. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.speechalerts.watch</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/uv</string>
+    <string>run</string>
+    <string>--frozen</string>
+    <string>python</string>
+    <string>-m</string>
+    <string>speechalerts</string>
+    <string>watch</string>
+    <string>--quiet</string>
+  </array>
+  <key>WorkingDirectory</key><string>/path/to/speechalerts</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>GRPC_ENABLE_FORK_SUPPORT</key><string>0</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>ThrottleInterval</key><integer>30</integer>
+  <key>StandardOutPath</key><string>/path/to/speechalerts/logs/watch.log</string>
+  <key>StandardErrorPath</key><string>/path/to/speechalerts/logs/watch.log</string>
+</dict>
+</plist>

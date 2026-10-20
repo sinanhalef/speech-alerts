@@ -1,0 +1,1103 @@
+{
+ "video": {
+  "id": "xagrobF4q1k",
+  "url": "https://www.youtube.com/watch?v=xagrobF4q1k",
+  "title": "The President Makes an Announcement, Oct. 16, 2025",
+  "channel": "The White House",
+  "duration": 3565.0,
+  "was_live": true,
+  "release_timestamp": 1760643262.0,
+  "upload_timestamp": 1760647702.0,
+  "upload_date": "20251016",
+  "label": "Makes an Announcement, Oct. 16, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1760643262.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 22,
+  "confirmed": 11,
+  "retracted": 11,
+  "unconfirmed": 0,
+  "llm_calls": 29
+ },
+ "signals": [
+  {
+   "signal_id": "xagrobF4q1k:00186:pharma",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "Drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 186.745005,
+   "t_wall": 1760643448.745005,
+   "t_wall_et": "2025-10-16T15:37:28.745005-04:00",
+   "segment_text": "Drugs are gonna come down. Drug prices are coming down",
+   "context": "can actually go a lot higher than that, and many couples require multiple rounds for a successful pregnancy. Major reason for these high prices is the excessive cost of the drugs involved. The number 1 fertility drug used in IVF is currently 700% more expensive in The United States than the rest of the world. And, you know, we're ending all of that. It's called favored nations, and we're ending it, and we're ending it pretty fast. Nobody thought we'd be able to do it, and we've done it. Drugs are gonna come down. Drug prices are coming down",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "Drugs are gonna come down. Drug prices are coming down.",
+    "summary": "The President announces drug price reduction policy via favored nations pricing."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad healthcare sector faces pricing pressure from favored-nations drug pricing rhetoric.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF directly exposed to threatened steep US drug price cuts.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Major US drugmaker faces margin risk from favored-nations pricing push, though policy specifics remain vague.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "medium",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "LLY sells high-cost fertility/other drugs in US market that could see price cuts of hundreds of percent.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pharma pricing threat applies broadly though not company-specific.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates his favored-nations drug pricing push with dramatic price-cut claims, a negative but largely already-known policy overhang for US pharma and healthcare stocks.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLV\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad healthcare sector faces pricing pressure from favored-nations drug pricing rhetoric.\", \"added\": false}, {\"ticker\": \"XPH\", \"direction\": \"down\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Pharma-focused ETF directly exposed to threatened steep US drug price cuts.\", \"added\": false}, {\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Major US drugmaker faces margin risk from favored-nations pricing push, though policy specifics remain vague.\", \"added\": false}, {\"ticker\": \"LLY\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"medium\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"LLY sells high-cost fertility/other drugs in US market that could see price cuts of hundreds of percent.\", \"added\": false}, {\"ticker\": \"MRK\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General pharma pricing threat applies broadly though not company-specific.\", \"added\": false}], \"summary\": \"The President reiterates his favored-nations drug pricing push with dramatic price-cut claims, a negative but largely already-known policy overhang for US pharma and healthcare stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:00195:health_ins",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 195.87,
+   "t_wall": 1760643457.87,
+   "t_wall_et": "2025-10-16T15:37:37.870000-04:00",
+   "segment_text": "Great for Medicare, Medicaid, even Social Security. Great for everything, I think, doctor Ross.",
+   "context": "more expensive in The United States than the rest of the world. And, you know, we're ending all of that. It's called favored nations, and we're ending it, and we're ending it pretty fast. Nobody thought we'd be able to do it, and we've done it. Drugs are gonna come down. Drug prices are coming down 400%, 200%, 600%, numbers that nobody's ever seen before. Great for Medicare, Medicaid, even Social Security. Great for everything, I think, doctor Ross.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Medicare",
+    "tickers": [
+     "UNH",
+     "CI",
+     "ELV",
+     "HUM"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "Drug prices are coming down. Great for Medicare, Medicaid.",
+    "summary": "The President claims drug price reductions will benefit Medicare through ending favored nations pricing."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UNH",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fertility drug pricing policy targets pharma manufacturers, not insurer economics directly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CI",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower drug costs could marginally help PBM margins but remark is mainly rhetoric on pharma pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ELV",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct insurer-specific policy change mentioned, effect ambiguous.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "HUM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Fertility drug 'favored nations' pricing is unrelated to Humana's Medicare Advantage business specifically.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks target fertility drug pricing via a favored-nations policy, which pressures drugmakers rather than health insurers, so the direct market impact on UNH, CI, ELV, and HUM is negligible.",
+    "raw": "{\"tickers\": [\n{\"ticker\": \"UNH\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fertility drug pricing policy targets pharma manufacturers, not insurer economics directly.\", \"added\": false},\n{\"ticker\": \"CI\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower drug costs could marginally help PBM margins but remark is mainly rhetoric on pharma pricing.\", \"added\": false},\n{\"ticker\": \"ELV\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct insurer-specific policy change mentioned, effect ambiguous.\", \"added\": false},\n{\"ticker\": \"HUM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Fertility drug 'favored nations' pricing is unrelated to Humana's Medicare Advantage business specifically.\", \"added\": false}\n],\n\"summary\": \"The President's remarks target fertility drug pricing via a favored-nations policy, which pressures drugmakers rather than health insurers, so the direct market impact on UNH, CI, ELV, and HUM is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:00225:uk",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "uk",
+   "entity": "United Kingdom",
+   "kind": "country",
+   "alias": "london",
+   "text_span": "London",
+   "dict_tickers": [
+    "EWU"
+   ],
+   "triggers_nearby": [
+    "buy",
+    "tariffs"
+   ],
+   "t_audio": 225.2368,
+   "t_wall": 1760643487.2368,
+   "t_wall_et": "2025-10-16T15:38:07.236800-04:00",
+   "segment_text": "As an example, in London, you'd buy a certain drug",
+   "context": "Great for Medicare, Medicaid, even Social Security. Great for everything, I think, doctor Ross. So, it's something that's... To me, it's very exciting. I'm bugging him and Bobby all the time. How are we doing with that? And we're doing really good, Bobby. Right? It's really going good. Other countries are agreeing to it because if they don't, we put them... Put tariffs on them, and then they agree. So it's amazing. It's amazing how that worked out. But in... As an example, in London, you'd buy a certain drug for a $130 and even less than that, I guess, $8 as of account a month ago.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "United Kingdom",
+    "tickers": [
+     "EWU"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "In London, you'd buy a certain drug for $130 and even less.",
+    "summary": "The President cites UK drug pricing as example in tariff negotiation context."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWU",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "UK mentioned only as a price comparison example, not a policy action affecting UK equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks target US drug pricing (favored nations policy) with no direct, material implication for the UK equity market ETF EWU.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWU\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"UK mentioned only as a price comparison example, not a policy action affecting UK equities broadly.\",\"added\":false}],\"summary\":\"The President's remarks target US drug pricing (favored nations policy) with no direct, material implication for the UK equity market ETF EWU.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:00363:eu",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "approval",
+    "selling"
+   ],
+   "t_audio": 363.27499708333335,
+   "t_wall": 1760643625.274997,
+   "t_wall_et": "2025-10-16T15:40:25.274997-04:00",
+   "segment_text": "IVF drug, and currently, it's selling in Europe.",
+   "context": "As part of this agreement, EMD Serrano will list their fertility drugs online at the drug-pricing program.gov at very, very heavily reduced prices. Prices that you won't even believe. And, ultimately, that's because of the favorite nations. In addition, the FDA will be working with the company to expedite review and approval of another common fertility IVF drug, and currently, it's selling in Europe. It's pergovirus. Pergovirus.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:00501:pfe",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "pfe",
+   "entity": "Pfizer",
+   "kind": "company",
+   "alias": "pfizer",
+   "text_span": "Pfizer",
+   "dict_tickers": [
+    "PFE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 501.63732407407406,
+   "t_wall": 1760643763.637324,
+   "t_wall_et": "2025-10-16T15:42:43.637324-04:00",
+   "segment_text": "You know, I told the story last time because we were with Pfizer, and Pfizer's doing something very similar.",
+   "context": "And in addition to that, he had open borders allowing millions of people to pour in what an administration that was worst president in history by far. As a result of these actions, the per cycle cost of drugs used in IVF will fall by an estimated 73% for American consumers, and the numbers are gonna actually be very substantially higher as time goes by when it really kicks in. For most of... I mean, think of those numbers. You know, I told the story last time because we were with Pfizer, and Pfizer's doing something very similar.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pfizer",
+    "tickers": [
+     "PFE"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "we were with Pfizer, and Pfizer's doing something very similar",
+    "summary": "The President mentions Pfizer doing similar drug cost reduction actions as his IVF initiative."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "PFE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President reiterates pressure on drug pricing and cites Pfizer as an example of similar price-cutting deals, which is mildly negative for pharma margins.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments reinforce his drug-pricing agenda and cite Pfizer as complying with similar cost reductions, a modestly negative signal for pharma pricing power though largely already known.",
+    "raw": "{\"tickers\": [{\"ticker\": \"PFE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President reiterates pressure on drug pricing and cites Pfizer as an example of similar price-cutting deals, which is mildly negative for pharma margins.\", \"added\": false}], \"summary\": \"The President's comments reinforce his drug-pricing agenda and cite Pfizer as complying with similar cost reductions, a modestly negative signal for pharma pricing power though largely already known.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:01057:eu",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "most favored nation"
+   ],
+   "t_audio": 1057.2544444444445,
+   "t_wall": 1760644319.2544444,
+   "t_wall_et": "2025-10-16T15:51:59.254444-04:00",
+   "segment_text": "Last week, a leading country... A company from Europe,",
+   "context": "and an easier 1 for us to grow the very most important thing. Great. Thank you. God bless. So nice. Thank you. So let's set the stage. To put it in perspective, 2 weeks ago, as the President alluded, a leading US drug manufacturer came into this room and agreed to do something none of us thought was possible, a most favored nation agreement with numbers, again, inconceivable. Last week, a leading country... A company from Europe, a global leader in the pharmaceutical sector, came to this office, made the same kind of commitment for most favored nation",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:01059:pharma",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "pharmaceutical",
+   "text_span": "pharmaceutical",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "most favored nation"
+   ],
+   "t_audio": 1059.043436585366,
+   "t_wall": 1760644321.0434365,
+   "t_wall_et": "2025-10-16T15:52:01.043437-04:00",
+   "segment_text": "a global leader in the pharmaceutical sector, came to this office, made the same kind of commitment for most favored nation",
+   "context": "So let's set the stage. To put it in perspective, 2 weeks ago, as the President alluded, a leading US drug manufacturer came into this room and agreed to do something none of us thought was possible, a most favored nation agreement with numbers, again, inconceivable. Last week, a leading country... A company from Europe, a global leader in the pharmaceutical sector, came to this office, made the same kind of commitment for most favored nation",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:01179:health_ins",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "health_ins",
+   "entity": "Health insurers",
+   "kind": "sector",
+   "alias": "medicare",
+   "text_span": "Medicare",
+   "dict_tickers": [
+    "UNH",
+    "CI",
+    "ELV",
+    "HUM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1179.9057196721312,
+   "t_wall": 1760644441.9057198,
+   "t_wall_et": "2025-10-16T15:54:01.905720-04:00",
+   "segment_text": "Building on the success of the last 2 weeks, our team led by the head of Medicare, Chris Klump, who's standing over there,",
+   "context": "is about making babies. It's about creating. And this country, the 1 that the President is leading so beautifully, has been a country of abundance, not scarcity. To have abundance, you have to address the fact that we had 3,600,000 babies last year, which is beautiful. 3,600,000 miracles, that's 500000 less babies than we would ideally have had, even to replace our current population. Building on the success of the last 2 weeks, our team led by the head of Medicare, Chris Klump, who's standing over there, and Hernandez have negotiated a spectacular MFN deal to reduce the cost of IVF",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:01189:pharma",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "pharma",
+   "entity": "Pharmaceuticals",
+   "kind": "sector",
+   "alias": "drug prices",
+   "text_span": "drug prices",
+   "dict_tickers": [
+    "XLV",
+    "XPH",
+    "PFE",
+    "LLY",
+    "MRK"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "prices"
+   ],
+   "t_audio": 1189.13,
+   "t_wall": 1760644451.13,
+   "t_wall_et": "2025-10-16T15:54:11.130000-04:00",
+   "segment_text": "drug prices by $2,200",
+   "context": "To have abundance, you have to address the fact that we had 3,600,000 babies last year, which is beautiful. 3,600,000 miracles, that's 500000 less babies than we would ideally have had, even to replace our current population. Building on the success of the last 2 weeks, our team led by the head of Medicare, Chris Klump, who's standing over there, and Hernandez have negotiated a spectacular MFN deal to reduce the cost of IVF drug prices by $2,200",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Pharmaceuticals",
+    "tickers": [
+     "XLV",
+     "XPH",
+     "PFE",
+     "LLY"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "negotiated a spectacular MFN deal to reduce the cost of IVF drug prices",
+    "summary": "The President claims his team negotiated a deal to reduce IVF drug prices."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLV",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New MFN pricing deal signals broader government pressure on drug pricing, a mild negative for healthcare sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XPH",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pharma-focused ETF is more exposed to precedent-setting MFN pricing deals cutting drug prices sharply.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "PFE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly named and IVF drug category is a small part of Pfizer's business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "LLY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Not directly named; limited exposure to the specific IVF drug pricing deal mentioned.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MRK",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "MD Serrano likely refers to EMD Serono (Merck KGaA), which may create investor confusion linking MRK to the steep IVF drug price cuts.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President announced a new MFN-style deal slashing IVF drug prices (e.g., from $242 to $10), a negative signal for pharma pricing power broadly (XLV, XPH, MRK via EMD Serono confusion) though direct impact on PFE and LLY is minimal.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLV\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"New MFN pricing deal signals broader government pressure on drug pricing, a mild negative for healthcare sector sentiment.\",\"added\":false},{\"ticker\":\"XPH\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Pharma-focused ETF is more exposed to precedent-setting MFN pricing deals cutting drug prices sharply.\",\"added\":false},{\"ticker\":\"PFE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not directly named and IVF drug category is a small part of Pfizer's business.\",\"added\":false},{\"ticker\":\"LLY\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Not directly named; limited exposure to the specific IVF drug pricing deal mentioned.\",\"added\":false},{\"ticker\":\"MRK\",\"direction\":\"down\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"MD Serrano likely refers to EMD Serono (Merck KGaA), which may create investor confusion linking MRK to the steep IVF drug price cuts.\",\"added\":false}],\"summary\":\"The President announced a new MFN-style deal slashing IVF drug prices (e.g., from $242 to $10), a negative signal for pharma pricing power broadly (XLV, XPH, MRK via EMD Serono confusion) though direct impact on PFE and LLY is minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:01191:defense_word",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "prices"
+   ],
+   "t_audio": 1191.8119047619048,
+   "t_wall": 1760644453.8119047,
+   "t_wall_et": "2025-10-16T15:54:13.811905-04:00",
+   "segment_text": "drug prices by $2,200",
+   "context": "To have abundance, you have to address the fact that we had 3,600,000 babies last year, which is beautiful. 3,600,000 miracles, that's 500000 less babies than we would ideally have had, even to replace our current population. Building on the success of the last 2 weeks, our team led by the head of Medicare, Chris Klump, who's standing over there, and Hernandez have negotiated a spectacular MFN deal to reduce the cost of IVF drug prices by $2,200 a cycle. That's nearly 0.5 of the price that it had been. The most prescribed drug in this category in America,",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:01254:cvs",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "cvs",
+   "entity": "CVS",
+   "kind": "company",
+   "alias": "cvs",
+   "text_span": "CVS",
+   "dict_tickers": [
+    "CVS"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1254.1680508474576,
+   "t_wall": 1760644516.1680508,
+   "t_wall_et": "2025-10-16T15:55:16.168051-04:00",
+   "segment_text": "and then CVS Specialty Pharmacy because they were willing to stand up and do the right thing for the American people by answering the president's call and slashing their prices.",
+   "context": "The remaining folks who are able to make more will have to pay a tiny bit more, but it's still most favored nation pricing, no different from what the Europeans are are are willing to pay. Now to make this deal happen, Chris and Inman had to do something special. They had to actually not just get the drug price down, but get the middlemen to let it go as well. And mister president, we met with the middlemen in the past. They're now joining the MFN movement. I want to thank Express Scripts Freedom Pharmacy and then CVS Specialty Pharmacy because they were willing to stand up and do the right thing for the American people by answering the president's call and slashing their prices.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "CVS",
+    "tickers": [
+     "CVS"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "CVS Specialty Pharmacy willing to stand up and do the right thing",
+    "summary": "CVS praised for joining MFN drug pricing initiative and slashing prices."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "CVS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Praise for joining MFN pricing is a mild reputational positive but signals margin pressure from price cuts, offsetting effects.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President praised CVS Specialty Pharmacy for joining the most-favored-nation drug pricing initiative, which is positive PR but implies pricing/margin concessions, making the net stock impact ambiguous.",
+    "raw": "{\"tickers\": [{\"ticker\": \"CVS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Praise for joining MFN pricing is a mild reputational positive but signals margin pressure from price cuts, offsetting effects.\", \"added\": false}], \"summary\": \"The President praised CVS Specialty Pharmacy for joining the most-favored-nation drug pricing initiative, which is positive PR but implies pricing/margin concessions, making the net stock impact ambiguous.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:01488:defense_word",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approved"
+   ],
+   "t_audio": 1488.0095454545456,
+   "t_wall": 1760644750.0095456,
+   "t_wall_et": "2025-10-16T15:59:10.009546-04:00",
+   "segment_text": "If approved, Perga Veris would combine 2 key reproductive hormones",
+   "context": "That means discovering more medicines and bringing them to patients faster. FDA Commissioner McCarray has made it a priority to ensure that Americans have access to the world's most innovative treatments as quickly as possible. To that end, EMD Serono is filing a new IVF therapy called Perga Veris for review under the FDA Commissioner's National Priority Voucher Program. If approved, Perga Veris would combine 2 key reproductive hormones designed to mimic reproductive physiology.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:01670:amzn",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1670.7625,
+   "t_wall": 1760644932.7625,
+   "t_wall_et": "2025-10-16T16:02:12.762500-04:00",
+   "segment_text": "many small businesses cannot afford to offer fertility benefits at all. This is making it possible for them to offer benefits the same way that large companies like Amazon and others offer benefits.",
+   "context": "to... Sorry. From... Yep. It'll be a coordinated package that does not exist in traditional health insurance today. It'll make it easier for employers, including small and mid sized employers, to compete for talented employees. Currently, many small businesses cannot afford to offer fertility benefits at all. This is making it possible for them to offer benefits the same way that large companies like Amazon and others offer benefits.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Amazon",
+    "tickers": [
+     "AMZN"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "large companies like Amazon and others offer benefits",
+    "summary": "Amazon cited as example of large employer offering fertility benefits."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "AMZN",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Amazon is merely cited as an example of a large employer already offering fertility benefits, not a policy action affecting the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark announces a new fertility benefit policy for employers broadly, mentioning Amazon only as an illustrative example, so it carries negligible direct stock-price impact for AMZN.",
+    "raw": "{\"tickers\": [{\"ticker\": \"AMZN\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Amazon is merely cited as an example of a large employer already offering fertility benefits, not a policy action affecting the company.\", \"added\": false}], \"summary\": \"The remark announces a new fertility benefit policy for employers broadly, mentioning Amazon only as an illustrative example, so it carries negligible direct stock-price impact for AMZN.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:02086:defense_word",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "percent"
+   ],
+   "t_audio": 2086.147,
+   "t_wall": 1760645348.147,
+   "t_wall_et": "2025-10-16T16:09:08.147000-04:00",
+   "segment_text": "is 2.1 percent.",
+   "context": "Yeah. Say a few words, Bobby. Thank you, mister president. Thank you for your vision, your commitment to our country. When my uncle was president, fertility rate in this country was 3.5 percent. Today, it is 1.6 percent. The replacement rate, in other words, the amount of fertility that you need in order to keep your population even is 2.1 percent. We are below replacement right now. That is a national security threat to our country,",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:02422:wbd_outlet",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "wbd_outlet",
+   "entity": "Warner Bros. Discovery (CNN)",
+   "kind": "company",
+   "alias": "cnn",
+   "text_span": "CNN",
+   "dict_tickers": [
+    "WBD"
+   ],
+   "triggers_nearby": [
+    "fake"
+   ],
+   "t_audio": 2422.858076923077,
+   "t_wall": 1760645684.8580768,
+   "t_wall_et": "2025-10-16T16:14:44.858077-04:00",
+   "segment_text": "said they're gonna behave. We're gonna find out if they behave. If they behave good. If they don't behave, we'll take care of it. Yeah. Please. Following up on that, Brennan said...... Say you... Miss Brennan said...... CNN fake news. Go ahead.... In your post",
+   "context": "bodies today. It's a rough deal when you think of it. Right? Very rough. And we have our hostages back completely. We were very lucky with that. But it's a it's a tough it's a tough situation. They brought back bodies today, as you probably know. But they also said they're gonna behave. We're gonna find out if they behave. If they behave good. If they don't behave, we'll take care of it. Yeah. Please. Following up on that, Brennan said...... Say you... Miss Brennan said...... CNN fake news. Go ahead.... In your post",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "CNN",
+    "tickers": [
+     "WBD"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.92,
+    "quote": "CNN fake news",
+    "summary": "The President criticized CNN as fake news."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "WBD",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's repeated 'fake news' criticism of CNN is generic rhetoric unlikely to materially move WBD shares.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a routine, repeated attack on CNN with no new policy, deal, or regulatory action, so it should have negligible price impact on Warner Bros. Discovery relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"WBD\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President's repeated 'fake news' criticism of CNN is generic rhetoric unlikely to materially move WBD shares.\", \"added\": false}], \"summary\": \"The remark is a routine, repeated attack on CNN with no new policy, deal, or regulatory action, so it should have negligible price impact on Warner Bros. Discovery relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:02503:defense_word",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "terrible"
+   ],
+   "t_audio": 2503.799430379747,
+   "t_wall": 1760645765.7994304,
+   "t_wall_et": "2025-10-16T16:16:05.799430-04:00",
+   "segment_text": "this is a terrible relationship the 2 of them have, and it's 1 of those things.",
+   "context": "make a determination. Tomorrow, I'm meeting with president Zelensky, and I'll be telling him about the call. I mean, we have a problem. They don't get along too well, those 2, and it's sometimes tough to have meetings. So we may do something where we're separate, but separate but equal. We'll meet and talk parties, but this is a this is a terrible relationship the 2 of them have, and it's 1 of those things. I've seen things that nobody would believe, but this is 1 of them. So I'll be meeting... We're gonna be meeting in Hungary.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:02620:rtx",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "rtx",
+   "entity": "RTX (Raytheon)",
+   "kind": "company",
+   "alias": "tomahawks",
+   "text_span": "Tomahawks",
+   "dict_tickers": [
+    "RTX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2620.159174117647,
+   "t_wall": 1760645882.1591742,
+   "t_wall_et": "2025-10-16T16:18:02.159174-04:00",
+   "segment_text": "and the vice president, as you is very much involved. The whole team is involved. Steve Witcuff will be involved. Yeah, please. What did you tell them about the Tomahawks? Did you discuss the Tomahawk missiles? Did you discuss... Well, we talked about it a little bit. Didn't say much, but I I do say to you, you know, we need Tomahawks for",
+   "context": "But do you think Biden ended any wars? No. I don't think... I don't know of anybody that ended wars. I ended 8 of them. Oh, it's gonna be 9. I think we're gonna have this 1 done, hopefully soon. But I'll be meeting him probably over the next 2 weeks. 1st, Marco is gonna be meeting, and the vice president, as you is very much involved. The whole team is involved. Steve Witcuff will be involved. Yeah, please. What did you tell them about the Tomahawks? Did you discuss the Tomahawk missiles? Did you discuss... Well, we talked about it a little bit. Didn't say much, but I I do say to you, you know, we need Tomahawks for",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Raytheon Technologies (Tomahawk missiles)",
+    "tickers": [
+     "RTX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "we need Tomahawks for",
+    "summary": "The President states need for Tomahawk missiles in defense discussions."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RTX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President's comment about needing Tomahawks for the US reiterates existing demand rather than announcing new orders or contracts.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remarks reflect general war negotiation rhetoric with a passing comment on Tomahawk missile needs, which is not new information and unlikely to materially move RTX shares.",
+    "raw": "{\"tickers\":[{\"ticker\":\"RTX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President's comment about needing Tomahawks for the US reiterates existing demand rather than announcing new orders or contracts.\",\"added\":false}],\"summary\":\"Remarks reflect general war negotiation rhetoric with a passing comment on Tomahawk missile needs, which is not new information and unlikely to materially move RTX shares.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:02685:aapl",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2685.1648066298344,
+   "t_wall": 1760645947.1648066,
+   "t_wall_et": "2025-10-16T16:19:07.164807-04:00",
+   "segment_text": "Putin about Ukraine. It was the apple of his eye, but there was no... Never gonna be doing anything like this. And this all went because of some really bad decisions that were made.",
+   "context": "that wasn't very long ago, but it set a stage. You have to understand, I came into this situation. I didn't start this war. This is a a Biden deal. And I came into it, and it was a mess. It could have led to World War 3. In my opinion, this could have led to World War 3. That won't happen, but it could have. So I came in. This war was raging. When I left, this wasn't even a thought. For 4 years, there... Nobody talked about... I spoke to president Putin about Ukraine. It was the apple of his eye, but there was no... Never gonna be doing anything like this. And this all went because of some really bad decisions that were made.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:02753:nvo",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "nvo",
+   "entity": "Novo Nordisk",
+   "kind": "company",
+   "alias": "ozempic",
+   "text_span": "Ozempic",
+   "dict_tickers": [
+    "NVO"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2753.62471,
+   "t_wall": 1760646015.62471,
+   "t_wall_et": "2025-10-16T16:20:15.624710-04:00",
+   "segment_text": "out of pocket for a year? They'll be much lower. They'll be much lower. Yeah. Go ahead, please. We we have not negotiated those yet. They're... We're gonna be rolling these out over time. The GOP category of drugs, which includes Ozempic, have not been negotiated yet. What's the timeline for that? But it will. It will come in, like, every 1. Okay. Any timeline on the... On those negotiations? No. But I think those are gonna come down pretty fast, and and we do have, I guess, some of The the president will will be happy with the result. And until he is, we're not gonna close those negotiations.",
+   "context": "I said the fat loss drug. So those are gonna be a $150 out of pocket for a year? They'll be much lower. They'll be much lower. Yeah. Go ahead, please. We we have not negotiated those yet. They're... We're gonna be rolling these out over time. The GOP category of drugs, which includes Ozempic, have not been negotiated yet. What's the timeline for that? But it will. It will come in, like, every 1. Okay. Any timeline on the... On those negotiations? No. But I think those are gonna come down pretty fast, and and we do have, I guess, some of The the president will will be happy with the result. And until he is, we're not gonna close those negotiations.",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "xagrobF4q1k:03086:russia",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russia",
+   "text_span": "Russia",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "sanctions"
+   ],
+   "t_audio": 3086.696456140351,
+   "t_wall": 1760646348.6964562,
+   "t_wall_et": "2025-10-16T16:25:48.696456-04:00",
+   "segment_text": "John Foon, today said he'd like to proceed with the bill which would put sanctions on Russia. What's your thought on that? Well, we're gonna see. He doesn't know about the call yet. I'm gonna speak to him later. And it was subject to what I wanted to do. And so we'll see what happens.",
+   "context": "because the prices are getting equalized in line with the president's most favored nation status goal. Well, that's good. Why didn't I have him speak? He was so... Could've saved a lot of time. Right? Thanks, Bonnie. I'm not surprised. Yeah. Please. Thank you. So senate majority leader, John Foon, today said he'd like to proceed with the bill which would put sanctions on Russia. What's your thought on that? Well, we're gonna see. He doesn't know about the call yet. I'm gonna speak to him later. And it was subject to what I wanted to do. And so we'll see what happens.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Russia",
+    "tickers": [
+     "RSX",
+     "XLE"
+    ],
+    "stance": "neutral",
+    "action": "sanction",
+    "confidence": 0.75,
+    "quote": "sanctions on Russia",
+    "summary": "Senate majority leader proposed bill with Russia sanctions; The President deferred decision pending further discussion."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "RSX",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Discussion of potential new Russia sanctions bill raises modest risk for Russia-exposed assets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Uncertain sanctions/peace talk outcome creates ambiguous impact on energy prices, no clear directional signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's noncommittal remarks on Russia sanctions and peace talks create modest downside risk for Russia-linked assets like RSX, while impact on broader energy sector (XLE) is ambiguous given competing sanction/peace-deal scenarios.",
+    "raw": "{\"tickers\": [{\"ticker\": \"RSX\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Discussion of potential new Russia sanctions bill raises modest risk for Russia-exposed assets.\", \"added\": false}, {\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Uncertain sanctions/peace talk outcome creates ambiguous impact on energy prices, no clear directional signal.\", \"added\": false}], \"summary\": \"The President's noncommittal remarks on Russia sanctions and peace talks create modest downside risk for Russia-linked assets like RSX, while impact on broader energy sector (XLE) is ambiguous given competing sanction/peace-deal scenarios.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:03452:oil",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "Oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 3452.670280952381,
+   "t_wall": 1760646714.670281,
+   "t_wall_et": "2025-10-16T16:31:54.670281-04:00",
+   "segment_text": "So, we'll go back to all of that. Prices are down. Oil is down.",
+   "context": "I think 1 of the great numbers that I've ever heard... Think of it, over $17,000,000,000,000 being invested in our country. And when you think of... Compare that to the last administration. But really, it to any administration, compare it to any country, there's never been a country with anything like that. That's in a period of 8 months. And we're gonna... We've already broken every record possible. There's never anything even close. So, we'll go back to all of that. Prices are down. Oil is down.",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "Prices are down. Oil is down.",
+    "summary": "The President states oil prices have declined, citing economic performance."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President touts falling oil/gas prices as a policy win, which implies lower revenue for energy producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterating that oil prices are down and targeting cheaper gasoline reflects and reinforces bearish oil price sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower crude and gasoline price targets are modestly negative for integrated oil majors' margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same dynamic as XOM, cheaper oil/gas is a mild negative for producer profitability.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterates that oil and gasoline prices are falling and targets $2 gasoline, a repeat talking point that is mildly negative for oil-linked equities/ETFs and largely priced in.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President touts falling oil/gas prices as a policy win, which implies lower revenue for energy producers.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterating that oil prices are down and targeting cheaper gasoline reflects and reinforces bearish oil price sentiment.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower crude and gasoline price targets are modestly negative for integrated oil majors' margins.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same dynamic as XOM, cheaper oil/gas is a mild negative for producer profitability.\", \"added\": false}], \"summary\": \"The President reiterates that oil and gasoline prices are falling and targets $2 gasoline, a repeat talking point that is mildly negative for oil-linked equities/ETFs and largely priced in.\"}"
+   }
+  },
+  {
+   "signal_id": "xagrobF4q1k:03457:defense_word",
+   "video_id": "xagrobF4q1k",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 3457.662977777778,
+   "t_wall": 1760646719.6629777,
+   "t_wall_et": "2025-10-16T16:31:59.662978-04:00",
+   "segment_text": "We're down $58 a barrel. That's gonna... We're gonna be hitting $2 for gasoline. I think we're gonna be at $2. And, the previous administration,",
+   "context": "when you think of... Compare that to the last administration. But really, it to any administration, compare it to any country, there's never been a country with anything like that. That's in a period of 8 months. And we're gonna... We've already broken every record possible. There's never anything even close. So, we'll go back to all of that. Prices are down. Oil is down. We're down $58 a barrel. That's gonna... We're gonna be hitting $2 for gasoline. I think we're gonna be at $2. And, the previous administration,",
+   "speaker": 0,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

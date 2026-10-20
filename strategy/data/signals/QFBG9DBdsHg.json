@@ -1,0 +1,367 @@
+{
+ "video": {
+  "id": "QFBG9DBdsHg",
+  "url": "https://www.youtube.com/watch?v=QFBG9DBdsHg",
+  "title": "The President Signs an Executive Order, Aug. 5, 2025",
+  "channel": "The White House",
+  "duration": 1909.0,
+  "was_live": true,
+  "release_timestamp": 1754423521.0,
+  "upload_timestamp": 1754428433.0,
+  "upload_date": "20250805",
+  "label": "Signs an Executive Order, Aug. 5, 2025",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1754423521.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 9,
+  "confirmed": 1,
+  "retracted": 8,
+  "unconfirmed": 0,
+  "llm_calls": 9
+ },
+ "signals": [
+  {
+   "signal_id": "QFBG9DBdsHg:00208:smr",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "smr",
+   "entity": "NuScale",
+   "kind": "company",
+   "alias": "nuscale",
+   "text_span": "NuScale",
+   "dict_tickers": [
+    "SMR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 208.705,
+   "t_wall": 1754423729.705,
+   "t_wall_et": "2025-08-05T15:55:29.705000-04:00",
+   "segment_text": "NuScale... Lucan.",
+   "context": "Dan Scavino, another MVP. James Blair, Taylor Butovich, and Nick Luna. Thank you all. Great group of people. They're gonna be very much involved. I also am grateful to be joined by 2 of team USA's strongest and fastest competitors, retired gold medalists and, gymnasts and member of the LA 28 Athletes Council, NuScale... Lucan. NuScale? How are you, NuScale? Good.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:00753:russia",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "purchase",
+    "tariffs"
+   ],
+   "t_audio": 753.862084952381,
+   "t_wall": 1754424274.8620849,
+   "t_wall_et": "2025-08-05T16:04:34.862085-04:00",
+   "segment_text": "on all countries that purchase Russian energy, including China? Well, I never said a percentage, but we'll be doing quite a bit of that. We'll see what happens over the next You do. Fairly short period of time.",
+   "context": "Go ahead, please. Go ahead. Go ahead. Mister president, will the Department of Justice Thank you, mister president. Thank you. Excuse me. That are Excuse me. Excuse me. No. He called on me, but thank you. Go ahead, please. Thank you, mister president. Do you still plan to follow through on your threat to impose 100% tariffs on all countries that purchase Russian energy, including China? Well, I never said a percentage, but we'll be doing quite a bit of that. We'll see what happens over the next You do. Fairly short period of time.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:00755:china",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "purchase",
+    "tariffs"
+   ],
+   "t_audio": 755.1428994285715,
+   "t_wall": 1754424276.1428995,
+   "t_wall_et": "2025-08-05T16:04:36.142900-04:00",
+   "segment_text": "on all countries that purchase Russian energy, including China? Well, I never said a percentage, but we'll be doing quite a bit of that. We'll see what happens over the next You do. Fairly short period of time.",
+   "context": "Go ahead, please. Go ahead. Go ahead. Mister president, will the Department of Justice Thank you, mister president. Thank you. Excuse me. That are Excuse me. Excuse me. No. He called on me, but thank you. Go ahead, please. Thank you, mister president. Do you still plan to follow through on your threat to impose 100% tariffs on all countries that purchase Russian energy, including China? Well, I never said a percentage, but we'll be doing quite a bit of that. We'll see what happens over the next You do. Fairly short period of time.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:01023:fed",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "the fed",
+   "text_span": "the Fed",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1023.5751724137932,
+   "t_wall": 1754424544.5751724,
+   "t_wall_et": "2025-08-05T16:09:04.575172-04:00",
+   "segment_text": "the economy, taxes, all of the things. But, that was certainly 1 of the issues. So I really can't, I really don't know. Could've gone either way. Please. Mister president, sir. Have you decided on a replacement for the Fed governor?",
+   "context": "chairman Wasserman. But, I would say that, yeah, it's... There's a possibility. It could go either way if you really wanna know the truth. I feel strongly about it. I have, I ran a campaign at least partially on that. That was 1 of the many issues that I talked about, open borders, the economy, taxes, all of the things. But, that was certainly 1 of the issues. So I really can't, I really don't know. Could've gone either way. Please. Mister president, sir. Have you decided on a replacement for the Fed governor? For Fed governor?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:01274:india",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "india",
+   "entity": "India",
+   "kind": "country",
+   "alias": "india",
+   "text_span": "India",
+   "dict_tickers": [
+    "INDA",
+    "EPI"
+   ],
+   "triggers_nearby": [
+    "disgrace",
+    "imports"
+   ],
+   "t_audio": 1274.4431655913977,
+   "t_wall": 1754424795.4431655,
+   "t_wall_et": "2025-08-05T16:13:15.443166-04:00",
+   "segment_text": "The President. The President. Red dress. Red dress. Yes, ma'am. Thank you, mister president. Thank you. India says that The US imports Russian uranium, chemicals, fertilizers while criticizing",
+   "context": "she cannot... She refuses to or cannot get them permits. They're waiting. And I was there right after the fires, and I saw all these beautiful people standing by their homes ready to get in and get to work. And they're waiting for their permits, and they're still waiting for their state permits and city permits. It's a disgrace. It's a disgrace. The President. The President. Red dress. Red dress. Yes, ma'am. Thank you, mister president. Thank you. India says that The US imports Russian uranium, chemicals, fertilizers while criticizing",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:01276:russia",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "russia",
+   "entity": "Russia",
+   "kind": "country",
+   "alias": "russian",
+   "text_span": "Russian",
+   "dict_tickers": [
+    "RSX",
+    "XLE"
+   ],
+   "triggers_nearby": [
+    "imports"
+   ],
+   "t_audio": 1276.1364822580645,
+   "t_wall": 1754424797.1364822,
+   "t_wall_et": "2025-08-05T16:13:17.136482-04:00",
+   "segment_text": "The President. The President. Red dress. Red dress. Yes, ma'am. Thank you, mister president. Thank you. India says that The US imports Russian uranium, chemicals, fertilizers while criticizing",
+   "context": "she cannot... She refuses to or cannot get them permits. They're waiting. And I was there right after the fires, and I saw all these beautiful people standing by their homes ready to get in and get to work. And they're waiting for their permits, and they're still waiting for their state permits and city permits. It's a disgrace. It's a disgrace. The President. The President. Red dress. Red dress. Yes, ma'am. Thank you, mister president. Thank you. India says that The US imports Russian uranium, chemicals, fertilizers while criticizing their energy imports. Your response to that, sir? I don't know anything about it. I'd have to check, but we'll get back to you on that. Yeah, please. Mister president, mister Yeah. Go ahead. Have you seen the Hamas released video of Israeli hostage Avitar David starving and being forced to dig his own grave in a Hamas tunnel? I have. Yeah. I have. Reaction. I think it's horrible.",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:01276:nuclear",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "uranium",
+   "text_span": "uranium",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [
+    "imports"
+   ],
+   "t_audio": 1276.573467204301,
+   "t_wall": 1754424797.5734673,
+   "t_wall_et": "2025-08-05T16:13:17.573467-04:00",
+   "segment_text": "The President. The President. Red dress. Red dress. Yes, ma'am. Thank you, mister president. Thank you. India says that The US imports Russian uranium, chemicals, fertilizers while criticizing",
+   "context": "she cannot... She refuses to or cannot get them permits. They're waiting. And I was there right after the fires, and I saw all these beautiful people standing by their homes ready to get in and get to work. And they're waiting for their permits, and they're still waiting for their state permits and city permits. It's a disgrace. It's a disgrace. The President. The President. Red dress. Red dress. Yes, ma'am. Thank you, mister president. Thank you. India says that The US imports Russian uranium, chemicals, fertilizers while criticizing their energy imports. Your response to that, sir? I don't know anything about it. I'd have to check, but we'll get back to you on that. Yeah, please. Mister president, mister Yeah. Go ahead. Have you seen the Hamas released video of Israeli hostage Avitar David starving and being forced to dig his own grave in a Hamas tunnel? I have. Yeah. I have. Reaction. I think it's horrible.",
+   "speaker": 11,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:01325:farmers",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "farmers",
+   "entity": "Agriculture",
+   "kind": "sector",
+   "alias": "our farmers",
+   "text_span": "our farmers",
+   "dict_tickers": [
+    "DBA",
+    "MOS",
+    "DE",
+    "CORN",
+    "SOYB",
+    "ADM"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1325.806189258312,
+   "t_wall": 1754424846.8061893,
+   "t_wall_et": "2025-08-05T16:14:06.806189-04:00",
+   "segment_text": "Can you speak to just how, you know, this drop off in foreign born workers is gonna benefit Americans? And will it force American companies to pay fairer wages to American workers? Well, we wanna take care of our American workers and, 1st and and foremost, and that's what we're doing. We also wanna help our farmers because our farmers are producing like never before. We have to help them.",
+   "context": "I think it's horrible. And I hope a lot of people do get to see it as bad as it is because I think it's a horrible thing. Yep. Behind you, please. Mister president. Thank you. Can you speak to just how, you know, this drop off in foreign born workers is gonna benefit Americans? And will it force American companies to pay fairer wages to American workers? Well, we wanna take care of our American workers and, 1st and and foremost, and that's what we're doing. We also wanna help our farmers because our farmers are producing like never before. We have to help them.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Agriculture sector / US farmers",
+    "tickers": [
+     "DBA",
+     "MOS",
+     "DE",
+     "ADM"
+    ],
+    "stance": "positive",
+    "action": "subsidy",
+    "confidence": 0.92,
+    "quote": "we wanna help our farmers because our farmers are producing like never before",
+    "summary": "The President pledges support for US farmers amid foreign worker policy changes."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DBA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical support for farmers without specific new policy detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MOS",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No specific input-cost or subsidy detail affecting fertilizer demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Vague pro-farmer rhetoric unlikely to move equipment maker meaningfully.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ADM",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No concrete policy affecting grain processing margins.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CORN",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Mention of farmer support and complicated worker strategies could hint at aid boosting sentiment for corn producers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOYB",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Similar mild positive sentiment for soybean growers from pledged farmer support.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's brief, non-specific pledge to help farmers amid immigration remarks offers only mild, low-conviction positive sentiment for agriculture-linked tickers, with no concrete new policy to justify strong moves.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DBA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical support for farmers without specific new policy detail.\", \"added\": false}, {\"ticker\": \"MOS\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No specific input-cost or subsidy detail affecting fertilizer demand.\", \"added\": false}, {\"ticker\": \"DE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Vague pro-farmer rhetoric unlikely to move equipment maker meaningfully.\", \"added\": false}, {\"ticker\": \"ADM\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No concrete policy affecting grain processing margins.\", \"added\": false}, {\"ticker\": \"CORN\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Mention of farmer support and complicated worker strategies could hint at aid boosting sentiment for corn producers.\", \"added\": false}, {\"ticker\": \"SOYB\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Similar mild positive sentiment for soybean growers from pledged farmer support.\", \"added\": false}], \"summary\": \"The President's brief, non-specific pledge to help farmers amid immigration remarks offers only mild, low-conviction positive sentiment for agriculture-linked tickers, with no concrete new policy to justify strong moves.\"}"
+   }
+  },
+  {
+   "signal_id": "QFBG9DBdsHg:01721:defense_word",
+   "video_id": "QFBG9DBdsHg",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approve"
+   ],
+   "t_audio": 1721.3,
+   "t_wall": 1754425242.3,
+   "t_wall_et": "2025-08-05T16:20:42.300000-04:00",
+   "segment_text": "2 questions for you. 1, did you... Were you aware of and did you personally approve the prison transfer for Ghislain Maxwell that your justice department I didn't know her about it at all. No. I read about it just like you did. And do you believe that she is credible",
+   "context": "in a certain way, it almost looks like they've abandoned the state. It looks very bad. Yeah. Go ahead, please. Did the FBI get involved? Should the FBI get involved? Well, they may have to. They may have to. No. I know they want them back. Not only the attorney general, the the governor wants them back. If you look, I mean, the the governor of Texas is demanding they come back. So a lot of people are demanding they come back. You can't just sit it out. You have to go back. You have to fight it out. That's what elections are all about. Yeah. Please. Thank you so much, the President. 2 questions for you. 1, did you... Were you aware of and did you personally approve the prison transfer for Ghislain Maxwell that your justice department I didn't know her about it at all. No. I read about it just like you did. And do you believe that she is credible",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}

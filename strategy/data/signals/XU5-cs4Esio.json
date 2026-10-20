@@ -1,0 +1,925 @@
+{
+ "video": {
+  "id": "XU5-cs4Esio",
+  "url": "https://www.youtube.com/watch?v=XU5-cs4Esio",
+  "title": "The President Participates in an Announcement with the Administrator of the EPA",
+  "channel": "The White House",
+  "duration": 2916.0,
+  "was_live": true,
+  "release_timestamp": 1779377356.0,
+  "upload_timestamp": 1779381666.0,
+  "upload_date": "20260521",
+  "label": "Participates in an Announcement with the Administrator of the EPA",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1779377356.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 15,
+  "confirmed": 9,
+  "retracted": 6,
+  "unconfirmed": 0,
+  "llm_calls": 19
+ },
+ "signals": [
+  {
+   "signal_id": "XU5-cs4Esio:00030:defense_word",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 30.32142842857143,
+   "t_wall": 1779377386.3214285,
+   "t_wall_et": "2026-05-21T11:29:46.321429-04:00",
+   "segment_text": "$2,000,000,000",
+   "context": "Yeah. You're you're open to Can you wait? Can you see me? Yeah. Yeah. Okay. Thank you very much. It's a great honor. We have tremendous people behind me. You'll be hearing about that in a minute. Today is my honor to be discussing be taking of a very historic action to substantially lower costs for consumers, protect hundreds of thousands of jobs, and save Americans well over $2,000,000,000 a year by officially terminating the Biden administration's",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XU5-cs4Esio:00069:gs",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "gs",
+   "entity": "Goldman Sachs",
+   "kind": "company",
+   "alias": "goldman",
+   "text_span": "Goldman",
+   "dict_tickers": [
+    "GS"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 69.2611111111111,
+   "t_wall": 1779377425.261111,
+   "t_wall_et": "2026-05-21T11:30:25.261111-04:00",
+   "segment_text": "Stephanie Vice, Zach Nunn, and Craig Goldman.",
+   "context": "It's ridiculous, unnecessary, and costly, and actually makes the machinery worse. I wanna thank EPA administrator Lee Zeldin, senator John Houston. John, thank you. Heard you're doing very well in your race, I hear. Thank what the word is. And, Ashley, I know you're doing very well also. Ashley Moody, Florida. Great. As well as representatives Stephanie Vice, Zach Nunn, and Craig Goldman.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XU5-cs4Esio:00222:chips",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "semiconductors",
+   "text_span": "semiconductors",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 222.44,
+   "t_wall": 1779377578.44,
+   "t_wall_et": "2026-05-21T11:32:58.440000-04:00",
+   "segment_text": "semiconductors.",
+   "context": "medical supplies. It was a very catastrophic thing that they did. At the same time, this rule also drove up the cost of living by forcing consumers to purchase higher cost residential air conditioning units because they went up very substantially in cost. And, also, they were gonna be obsolete very quickly. It created national security risk by adding additional hurdles to the already complicated process of manufacturing semiconductors.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "rule...created national security risk by adding hurdles to manufacturing semiconductors",
+    "summary": "The President criticizes a regulation for adding manufacturing hurdles and creating national security risk in semiconductors."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Rollback of refrigerant rule reduces regulatory burden on semiconductor manufacturing, a mild positive for chip sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Same deregulatory relief applies broadly to chip manufacturers represented in this ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Regulation mainly affects manufacturing/fab equipment costs, not directly NVDA which is fabless.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "As a domestic chip fab operator, Intel benefits modestly from reduced manufacturing regulatory hurdles.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President touts rollback of refrigerant/emissions rules that had raised costs and complicated semiconductor manufacturing, a mild positive for domestic chip manufacturers like Intel and sector ETFs, with limited direct relevance to fabless NVDA.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Rollback of refrigerant rule reduces regulatory burden on semiconductor manufacturing, a mild positive for chip sector.\", \"added\": false}, {\"ticker\": \"SOXX\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Same deregulatory relief applies broadly to chip manufacturers represented in this ETF.\", \"added\": false}, {\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Regulation mainly affects manufacturing/fab equipment costs, not directly NVDA which is fabless.\", \"added\": false}, {\"ticker\": \"INTC\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"As a domestic chip fab operator, Intel benefits modestly from reduced manufacturing regulatory hurdles.\", \"added\": false}], \"summary\": \"The President touts rollback of refrigerant/emissions rules that had raised costs and complicated semiconductor manufacturing, a mild positive for domestic chip manufacturers like Intel and sector ETFs, with limited direct relevance to fabless NVDA.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:00262:defense_word",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 262.57620967741934,
+   "t_wall": 1779377618.5762098,
+   "t_wall_et": "2026-05-21T11:33:38.576210-04:00",
+   "segment_text": "Today's reforms will deliver significant financial relief, saving American families and businesses more than $2,400,000,000,",
+   "context": "hurting consumers and small businesses, making it almost impossible for many small businesses to even buy inferior before it, inferior equipment. And this is all across the country. The higher cost threatened thousands of jobs and was passed on in the form of higher prices and higher taxes. Today's reforms will deliver significant financial relief, saving American families and businesses more than $2,400,000,000, think of that, each year. Thanks to today's reforms, the American people have lower grocery prices, cheaper transportation of goods, lower cost of air conditioning",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XU5-cs4Esio:00576:solar",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar",
+   "text_span": "solar",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 576.44925,
+   "t_wall": 1779377932.44925,
+   "t_wall_et": "2026-05-21T11:38:52.449250-04:00",
+   "segment_text": "You'd had independents out of business, and you would have seen grocery prices solar. That's what would have happened if this would have went through. The President, thank you very much. On behalf of all every independent United States, we cannot thank you enough for what you've done for us. Thank you so much. So much. I mean, just just",
+   "context": "That would have done new equipment would not be as good as the old equipment. No. Absolutely not. It would be it would be inferior equipment because you weren't able to use a refrigerant. It was thrown together too fast. The technology's not there yet. It's just way too fast. That's the problem. Good idea, but it's it's terrible. So you would have had all these independents go out of business. You'd had independents out of business, and you would have seen grocery prices solar. That's what would have happened if this would have went through. The President, thank you very much. On behalf of all every independent United States, we cannot thank you enough for what you've done for us. Thank you so much. So much. I mean, just just",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01367:iran",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iranian",
+   "text_span": "Iranian",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal"
+   ],
+   "t_audio": 1367.7746790540539,
+   "t_wall": 1779378723.774679,
+   "t_wall_et": "2026-05-21T11:52:03.774679-04:00",
+   "segment_text": "1st, I'm curious, what is the stone that you're gonna be using? And I asked that for a reason because I live in Stafford County, and you know a lot about history and stuff like that. So, you know, the stone that was quarried for the capitol in the White House is from Stafford County. They still have quarries, so in in Yeah. Down there. We're gonna need models and Okay. We'll need models and grads. Alright. Excellent. And then my 2nd question is, the vice president mentioned the other day there will be a com accommodations. They were willing to make accommodations with the Iranian deal.",
+   "context": "1st, I'm curious, what is the stone that you're gonna be using? And I asked that for a reason because I live in Stafford County, and you know a lot about history and stuff like that. So, you know, the stone that was quarried for the capitol in the White House is from Stafford County. They still have quarries, so in in Yeah. Down there. We're gonna need models and Okay. We'll need models and grads. Alright. Excellent. And then my 2nd question is, the vice president mentioned the other day there will be a com accommodations. They were willing to make accommodations with the Iranian deal. Could you kind of expand on those possible accommodations as does that include When you say combination of what? Accommodations. You're talking about accommodations as far as making the deal making the going. Is that would that include the policies? Right now, we're negotiating.",
+   "speaker": 1,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01459:steel",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "steel",
+   "entity": "Steel",
+   "kind": "sector",
+   "alias": "steel",
+   "text_span": "steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "SLX"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1459.813391891892,
+   "t_wall": 1779378815.813392,
+   "t_wall_et": "2026-05-21T11:53:35.813392-04:00",
+   "segment_text": "The blockade's been a 100% effective. Nobody's been able to get through. It's like a steel wall. It's our navy.",
+   "context": "We cannot let that happen, and it won't happen. It's not gonna happen. That's more important than anything else. And we can't think I can think of nothing that's more important than the fact that we cannot let Iran have a nuclear weapon, and and we won't. Yeah. Jeff? Following up on that, Iran is negotiating with Oman to set up a formalization of charging tolls on the Strait Of Hormuz. Is that acceptable to you? Well, we're looking at it. We hear about it. They've negotiated. They've had a relationship with them before, and we'll see. We have total control of the Strait Of Hormuz, as you know, with our blockade. The blockade's been a 100% effective. Nobody's been able to get through. It's like a steel wall. It's our navy.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Steel",
+    "tickers": [
+     "X",
+     "NUE",
+     "CLF",
+     "STLD"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.75,
+    "quote": "It's like a steel wall. It's our navy.",
+    "summary": "The President praises steel as metaphor for naval blockade strength."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel mentioned only as a metaphor for naval blockade, not policy-relevant to steelmakers.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No substantive steel policy or trade action mentioned, just rhetorical use of the word.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "No new tariff, subsidy, or demand signal for steel producers in this remark.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Steel reference is purely figurative and carries no policy implication for steel companies.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SLX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Sector ETF unaffected as the steel mention is metaphorical, not a policy signal.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark focuses on Iran, the Strait of Hormuz blockade, and nuclear-weapon risk; the mention of 'steel' is a rhetorical metaphor for military strength, not an actual steel industry policy, so no meaningful price impact is expected for steel-related tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"X\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Steel mentioned only as a metaphor for naval blockade, not policy-relevant to steelmakers.\", \"added\": false}, {\"ticker\": \"NUE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No substantive steel policy or trade action mentioned, just rhetorical use of the word.\", \"added\": false}, {\"ticker\": \"CLF\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"No new tariff, subsidy, or demand signal for steel producers in this remark.\", \"added\": false}, {\"ticker\": \"STLD\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Steel reference is purely figurative and carries no policy implication for steel companies.\", \"added\": false}, {\"ticker\": \"SLX\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Sector ETF unaffected as the steel mention is metaphorical, not a policy signal.\", \"added\": false}], \"summary\": \"The remark focuses on Iran, the Strait of Hormuz blockade, and nuclear-weapon risk; the mention of 'steel' is a rhetorical metaphor for military strength, not an actual steel industry policy, so no meaningful price impact is expected for steel-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01543:iran",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "approval"
+   ],
+   "t_audio": 1543.2992714285715,
+   "t_wall": 1779378899.2992713,
+   "t_wall_et": "2026-05-21T11:54:59.299271-04:00",
+   "segment_text": "no ship is going to Iran, as you know. No ship is going to or out of Iran without our approval. Can they keep their highly enriched uranium?",
+   "context": "It's international. It's an international waterway. They're not charging tolls. Right now, they are losing $500,000,000 a day is what it's projected. I don't know. It sounds like a lot of money, but whether it's 500 or 200 or 300, they're losing a lot of money. There hasn't been a ship that's been able to get through without our approval. And, the Navy has done an amazing job. And, no ship is going to Iran, as you know. No ship is going to or out of Iran without our approval. Can they keep their highly enriched uranium?",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.92,
+    "quote": "No ship is going to or out of Iran without our approval.",
+    "summary": "The President asserts US control over Iran shipping and nuclear materials."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Geopolitical tension around Iran shipping is already known and only marginally affects broad energy sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued restriction of Iranian oil shipments modestly supports oil prices via reduced supply expectations.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Restated military posture toward Iran is not new information for defense contractors.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated existing US naval control over Iranian shipping and nuclear material seizure, which is largely priced-in rhetoric with limited new market-moving content.",
+    "raw": "{\"tickers\":[{\"ticker\":\"XLE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Geopolitical tension around Iran shipping is already known and only marginally affects broad energy sector sentiment.\",\"added\":false},{\"ticker\":\"USO\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Continued restriction of Iranian oil shipments modestly supports oil prices via reduced supply expectations.\",\"added\":false},{\"ticker\":\"ITA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"weeks\",\"rationale\":\"Restated military posture toward Iran is not new information for defense contractors.\",\"added\":false}],\"summary\":\"The President reiterated existing US naval control over Iranian shipping and nuclear material seizure, which is largely priced-in rhetoric with limited new market-moving content.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01549:nuclear",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "nuclear",
+   "entity": "Nuclear energy",
+   "kind": "sector",
+   "alias": "uranium",
+   "text_span": "uranium",
+   "dict_tickers": [
+    "URA",
+    "CCJ",
+    "OKLO",
+    "SMR",
+    "CEG"
+   ],
+   "triggers_nearby": [
+    "approval"
+   ],
+   "t_audio": 1549.6791914285714,
+   "t_wall": 1779378905.6791914,
+   "t_wall_et": "2026-05-21T11:55:05.679191-04:00",
+   "segment_text": "no ship is going to Iran, as you know. No ship is going to or out of Iran without our approval. Can they keep their highly enriched uranium?",
+   "context": "It's international. It's an international waterway. They're not charging tolls. Right now, they are losing $500,000,000 a day is what it's projected. I don't know. It sounds like a lot of money, but whether it's 500 or 200 or 300, they're losing a lot of money. There hasn't been a ship that's been able to get through without our approval. And, the Navy has done an amazing job. And, no ship is going to Iran, as you know. No ship is going to or out of Iran without our approval. Can they keep their highly enriched uranium?",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Nuclear energy",
+    "tickers": [
+     "URA",
+     "CCJ"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.85,
+    "quote": "Can they keep their highly enriched uranium?",
+    "summary": "The President questions Iran's ability to retain enriched uranium stockpiles."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "URA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark concerns Iran's uranium stockpile and geopolitics, not global uranium supply/demand fundamentals for the ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CCJ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments about Iran's enriched uranium have no direct bearing on Cameco's commercial uranium production or sales.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "OKLO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Not related to domestic nuclear reactor policy or deals; Iran geopolitics is unrelated to Oklo's business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No direct link between Iran nuclear talk and NuScale's small modular reactor business.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CEG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Constellation Energy is unaffected by remarks about Iran's uranium enrichment program.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks focus on preventing Iran from retaining enriched uranium and broader Strait security, which is a geopolitical/foreign policy statement with no direct pricing implication for civilian nuclear energy or uranium mining equities.",
+    "raw": "{\"tickers\": [{\"ticker\": \"URA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark concerns Iran's uranium stockpile and geopolitics, not global uranium supply/demand fundamentals for the ETF.\", \"added\": false}, {\"ticker\": \"CCJ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments about Iran's enriched uranium have no direct bearing on Cameco's commercial uranium production or sales.\", \"added\": false}, {\"ticker\": \"OKLO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Not related to domestic nuclear reactor policy or deals; Iran geopolitics is unrelated to Oklo's business.\", \"added\": false}, {\"ticker\": \"SMR\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No direct link between Iran nuclear talk and NuScale's small modular reactor business.\", \"added\": false}, {\"ticker\": \"CEG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Constellation Energy is unaffected by remarks about Iran's uranium enrichment program.\", \"added\": false}], \"summary\": \"The President's remarks focus on preventing Iran from retaining enriched uranium and broader Strait security, which is a geopolitical/foreign policy statement with no direct pricing implication for civilian nuclear energy or uranium mining equities.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01561:defense_word",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "deregulation"
+   ],
+   "t_audio": 1561.670052970297,
+   "t_wall": 1779378917.670053,
+   "t_wall_et": "2026-05-21T11:55:17.670053-04:00",
+   "segment_text": "We don't need it. We don't want it. We'll probably destroy it after we get it, but we're not gonna let them have it. K? Mister president, have 2 questions. 1st on deregulation, 2nd on the Supreme Court.",
+   "context": "And, the Navy has done an amazing job. And, no ship is going to Iran, as you know. No ship is going to or out of Iran without our approval. Can they keep their highly enriched uranium? No. No. We get the highly enriched we will get it. We don't need it. We don't want it. We'll probably destroy it after we get it, but we're not gonna let them have it. K? Mister president, have 2 questions. 1st on deregulation, 2nd on the Supreme Court. You coming from business, you've seen the effects that were unnecessary to meditate in the business. Do you believe",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01640:oil",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "gasoline",
+   "text_span": "gasoline",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "prices"
+   ],
+   "t_audio": 1640.3581587155963,
+   "t_wall": 1779378996.3581588,
+   "t_wall_et": "2026-05-21T11:56:36.358159-04:00",
+   "segment_text": "That'll end soon, very soon. And when it ends, your gasoline prices will go down lower than they were before.",
+   "context": "44. So we're making it a much more pro business, pro people. You know, regulations are very costly for the people. They're bad for everybody. They're bad for jobs, bad for every and we have as of today, we have more people working in The United States than at any time in the history of our country. It's a to me, it's 1 of my favorite stats. But we have more people today working in The United States than at any time in the history, and this is with the Iran conflict. That'll end soon, very soon. And when it ends, your gasoline prices will go down lower than they were before.",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO",
+     "XOM",
+     "CVX"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.95,
+    "quote": "when it ends, your gasoline prices will go down lower than they were before",
+    "summary": "The President predicts gasoline prices will fall after Iran conflict ends."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President predicting lower gasoline/oil prices is mildly negative for energy sector revenues.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Anticipated resolution of Iran conflict and lower gas prices implies expectation of lower crude prices.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "XOM",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Lower expected oil/gasoline prices are a mild negative for integrated oil majors like Exxon.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "down",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rationale as Exxon; lower price outlook is a mild headwind for Chevron earnings.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated expectations that gasoline and oil prices will fall once the Iran conflict ends, a mildly bearish, largely repeat comment for energy-linked tickers, while his broader deregulation and jobs remarks are not directly price-relevant to these names.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"The President predicting lower gasoline/oil prices is mildly negative for energy sector revenues.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Anticipated resolution of Iran conflict and lower gas prices implies expectation of lower crude prices.\", \"added\": false}, {\"ticker\": \"XOM\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Lower expected oil/gasoline prices are a mild negative for integrated oil majors like Exxon.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"down\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rationale as Exxon; lower price outlook is a mild headwind for Chevron earnings.\", \"added\": false}], \"summary\": \"The President reiterated expectations that gasoline and oil prices will fall once the Iran conflict ends, a mildly bearish, largely repeat comment for energy-linked tickers, while his broader deregulation and jobs remarks are not directly price-relevant to these names.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:01929:ai_word",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "executive order"
+   ],
+   "t_audio": 1929.3985714285714,
+   "t_wall": 1779379285.3985715,
+   "t_wall_et": "2026-05-21T12:01:25.398571-04:00",
+   "segment_text": "Study the people that are bringing the suit. These are not people that love our country. I can tell you that. Mister president, can ask why is today's executive order on AI been postponed? Because I didn't like certain aspects of it. I postponed it. I think it gets in the way of,",
+   "context": "numbers that are I don't even think they're doable. And it's all up to a couple of people, and I hope they do what's right. Birthright citizenship is a disgrace. The fact that look at the people that are bringing the suit. Study the people that are bringing the suit. These are not people that love our country. I can tell you that. Mister president, can ask why is today's executive order on AI been postponed? Because I didn't like certain aspects of it. I postponed it. I think it gets in the way of,",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "negative",
+    "action": "regulation",
+    "confidence": 0.85,
+    "quote": "I didn't like certain aspects of it. I postponed it.",
+    "summary": "The President postponed an executive order on AI due to concerns about its provisions."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Postponement of AI executive order removes near-term regulatory clarity but the President signals pro-AI, anti-restriction stance which is mildly reassuring.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Same ambiguous regulatory delay applies broadly to semiconductor sector without a clear directional catalyst.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comments on postponing an AI executive order are ambiguous in market impact-he frames it as avoiding restrictive rules that could hinder US AI leadership, which is neither clearly positive nor negative for chipmakers like NVDA or the SMH ETF.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Postponement of AI executive order removes near-term regulatory clarity but the President signals pro-AI, anti-restriction stance which is mildly reassuring.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Same ambiguous regulatory delay applies broadly to semiconductor sector without a clear directional catalyst.\",\"added\":false}],\"summary\":\"The President's comments on postponing an AI executive order are ambiguous in market impact-he frames it as avoiding restrictive rules that could hinder US AI leadership, which is neither clearly positive nor negative for chipmakers like NVDA or the SMH ETF.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:02473:uber",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "uber",
+   "entity": "Uber",
+   "kind": "company",
+   "alias": "uber",
+   "text_span": "Uber",
+   "dict_tickers": [
+    "UBER"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2473.945909090909,
+   "t_wall": 1779379829.945909,
+   "t_wall_et": "2026-05-21T12:10:29.945909-04:00",
+   "segment_text": "Before that, they would they take Uber or something, and they were they felt unsafe even",
+   "context": "danger from during the Biden administration. Now you have restaurants opening. It's thriving, and it was very nice that you said that. I like this reporter. I have to no. It's nice. It's we have a vibrant city again. People are going out. I have a lot of people in the White House. Every time I see somebody, they thank me, and I know immediately what. They thank me for making the city safe. They walk to work now. Before that, they would they take Uber or something, and they were they felt unsafe even in Uber. You know, we moved over 5,000 people out",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Uber",
+    "tickers": [
+     "UBER"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "they take [[Uber]] or something, and they were they felt unsafe even in Uber",
+    "summary": "The President mentions Uber in context of safety concerns in Washington DC during Biden administration."
+   },
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "UBER",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Uber is incidental anecdote about DC safety, not a policy or business action affecting the company.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The Uber reference is a passing anecdote about past safety concerns in Washington DC, not a substantive policy or business signal, so no meaningful price impact is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"UBER\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Uber is incidental anecdote about DC safety, not a policy or business action affecting the company.\", \"added\": false}], \"summary\": \"The Uber reference is a passing anecdote about past safety concerns in Washington DC, not a substantive policy or business signal, so no meaningful price impact is expected.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:02598:iran",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "markets",
+    "prices",
+    "stock"
+   ],
+   "t_audio": 2598.673495934959,
+   "t_wall": 1779379954.673496,
+   "t_wall_et": "2026-05-21T12:12:34.673496-04:00",
+   "segment_text": "but I had to do a journey to Iran. I had to say, you know, we just hit the best markets. By the way, the stock market today",
+   "context": "egg prices are through the roof. I said, I just got here. Tell me about eggs. And we got the prices down, way down, actually lower than it was 4 years before. But we've gotten everything. The thing that we have now, the only thing that's really of great concern 2 things. Beef is coming down, and the reason is they put restrictions on beef under the Biden administration, and it takes a while to settle that. But prices are down. But the big thing is, of course, energy. We had the energy way down, but I had to do a journey to Iran. I had to say, you know, we just hit the best markets. By the way, the stock market today",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.85,
+    "quote": "I had to do a journey to Iran. I had to say, you know, we just hit the best markets.",
+    "summary": "The President imposed restrictions on Iran energy markets; prices have declined as a result."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about energy prices with no new policy specifics affecting energy sector broadly.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Vague reference to Iran and oil markets lacks concrete new information to move oil prices decisively.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention of defense spending or contracts relevant to aerospace/defense sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely political rhetoric about inflation, affordability, and economic success, with only a vague reference to Iran and energy markets lacking new actionable policy details, so no clear directional trade signal emerges for these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetoric about energy prices with no new policy specifics affecting energy sector broadly.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Vague reference to Iran and oil markets lacks concrete new information to move oil prices decisively.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No mention of defense spending or contracts relevant to aerospace/defense sector.\", \"added\": false}], \"summary\": \"The excerpt is largely political rhetoric about inflation, affordability, and economic success, with only a vague reference to Iran and energy markets lacking new actionable policy details, so no clear directional trade signal emerges for these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "XU5-cs4Esio:02602:stock_market",
+   "video_id": "XU5-cs4Esio",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "stock market",
+   "text_span": "stock market",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [
+    "market",
+    "markets",
+    "stock"
+   ],
+   "t_audio": 2602.430243902439,
+   "t_wall": 1779379958.430244,
+   "t_wall_et": "2026-05-21T12:12:38.430244-04:00",
+   "segment_text": "but I had to do a journey to Iran. I had to say, you know, we just hit the best markets. By the way, the stock market today",
+   "context": "egg prices are through the roof. I said, I just got here. Tell me about eggs. And we got the prices down, way down, actually lower than it was 4 years before. But we've gotten everything. The thing that we have now, the only thing that's really of great concern 2 things. Beef is coming down, and the reason is they put restrictions on beef under the Biden administration, and it takes a while to settle that. But prices are down. But the big thing is, of course, energy. We had the energy way down, but I had to do a journey to Iran. I had to say, you know, we just hit the best markets. By the way, the stock market today",
+   "speaker": 2,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market",
+    "tickers": [
+     "SPY",
+     "QQQ",
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "the stock market today",
+    "summary": "The President references stock market performance but sentence cuts off mid-statement."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical boasting about stock market highs with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No sector-specific or new information affecting tech-heavy index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments are generic economic self-praise, not new market-moving news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are largely repeat rhetoric touting existing stock market and economic highs without new policy or company-specific information, so no differential impact on SPY, QQQ, or DIA is expected.",
+    "raw": "{\"tickers\": [{\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical boasting about stock market highs with no new policy content.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"No sector-specific or new information affecting tech-heavy index.\", \"added\": false}, {\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Comments are generic economic self-praise, not new market-moving news.\", \"added\": false}], \"summary\": \"The President's remarks are largely repeat rhetoric touting existing stock market and economic highs without new policy or company-specific information, so no differential impact on SPY, QQQ, or DIA is expected.\"}"
+   }
+  }
+ ]
+}

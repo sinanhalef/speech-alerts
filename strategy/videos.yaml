@@ -1,0 +1,242 @@
+# Videos for the backtest. `group`: recent (minute bars available), headline (2025 events; hourly
+# + daily only). Recorded livestreams (was_live) map t_audio -> wall clock via release_timestamp;
+# plain uploads need `event_start` (ISO, ET). Set `skip: true` to leave one out.
+videos:
+  # ---- recent White House livestreams (last ~60 days) ----
+  - id: TBoLSAlhCDE
+    group: recent
+    label: Steel Across America event
+  - id: xHSKMevaFIc
+    group: recent
+    label: Signs executive orders, Sep 4 2026
+  - id: 6QYMxVMrjrM
+    group: recent
+    label: Meets with U.S. travel executives
+  - id: uyeCoZ5Yego
+    group: recent
+    label: Healthcare affordability announcement, Aug 31 2026
+  - id: SDbFxr3HbHI
+    group: recent
+    label: Remarks with technology leaders
+  - id: V6VgPfBK8gQ
+    group: recent
+    label: Roundtable on American mining
+  - id: H_RititNE8U
+    group: recent
+    label: Signs an executive order, Aug 10 2026
+  - id: K3_mcCs8Z8I
+    group: recent
+    label: Crypto executives event (Reuters), Aug 19 2026
+  - id: ZoTDaKuZXkQ
+    group: recent
+    label: Remarks, Sep 10 2026
+  - id: BRGrk3Bw_P0
+    group: recent
+    label: Remarks, Aug 14 2026
+  - id: Kr7Ep94Mq1A
+    group: recent
+    label: Signing time, Aug 27 2026 (smoke-test video)
+  # ---- 2025 headline events ----
+  - id: VFRsYs1VYMg
+    group: headline
+    label: Liberation Day tariffs, Rose Garden, 2025-04-02
+  - id: zDo_RrzdRoQ
+    group: headline
+    label: Stargate AI investment announcement (CNBC), 2025-01-21
+  - id: WffynHPu6Ig
+    group: headline
+    label: Tesla at the White House (Fox Business), 2025-03-11
+  - id: Bv66I-pK2NU
+    group: headline
+    label: Drug pricing executive order (USA TODAY), 2025-05-12
+  - id: DKddhD4z7UU
+    group: headline
+    label: US Steel remarks, Pittsburgh (CNBC), 2025-05-30
+  - id: J6SK7lotKZQ
+    group: headline
+    label: Apple $600B investment announcement (White House), 2025-08-06
+  - id: zh6lh9GC0Ec
+    group: headline
+    label: Press conference on DC crime, Nvidia chips Q&A (CNBC), 2025-08-11
+  - id: cbEPqUdelFo
+    group: headline
+    label: Cabinet meeting (CNBC), 2025-08-26
+    notes: 3h17m; long but company-dense
+  # ---- expansion batch (White House livestreams, Jun 2025 - Sep 2026; added 2026-09-15) ----
+  - id: -POgY_NsQ10
+    group: expansion
+    label: "Delivers Remarks to U.S. Embassy Personnel and Business Leaders"
+  - id: khgwrHbUKnA
+    group: expansion
+    label: "Delivers Remarks, Aug. 5, 2026"
+  - id: EtctNOj2gz4
+    group: expansion
+    label: "Signs an Executive Order, Aug. 3, 2026"
+  - id: V6vuYip9SWo
+    group: expansion
+    label: "Hosts a Cabinet Meeting, Jul. 31, 2026"
+  - id: coFYdHAjdXs
+    group: expansion
+    label: "Makes an Announcement on Freedom Haulers"
+  - id: sCPQKhHlN9k
+    group: expansion
+    label: "Makes an Announcement with the Secretary of Transportation"
+  - id: jAUidIyneEA
+    group: expansion
+    label: "Makes an Announcement on American Nuclear Innovation"
+  - id: ebICSW2yVww
+    group: expansion
+    label: "Makes an Announcement on the Ratepayer Protection Pledge"
+  - id: 9JYvcEVlu3s
+    group: expansion
+    label: "Participates in a Press Conference, Jul. 8, 2026"
+  - id: oDzq7mNCK0Q
+    group: expansion
+    label: "Signs Executive Orders, Jun. 29, 2026"
+  - id: HNipoXNANAs
+    group: expansion
+    label: "Signs Executive Orders, Jun. 22, 2026"
+  - id: 90D179dxdCM
+    group: expansion
+    label: "Holds a Press Conference, Jun. 17, 2026"
+  - id: eafk0lNExQE
+    group: expansion
+    label: "Makes an Announcement on Beautiful, Clean Coal"
+  - id: 4EUzlV7-Dew
+    group: expansion
+    label: "Signs Executive Orders, Jun. 3, 2026"
+  - id: ln-FnwDYE4Y
+    group: expansion
+    label: "Participates in a Cabinet Meeting, May 27, 2026"
+  - id: XU5-cs4Esio
+    group: expansion
+    label: "Participates in an Announcement with the Administrator of the EPA"
+  - id: qCf6OPSGvac
+    group: expansion
+    label: "Participates in a Healthcare Affordability Event, May 18, 2026"
+  - id: nEDoEBVlHJE
+    group: expansion
+    label: "Participates in a Small Business Summit"
+  - id: jDw21pUBBMU
+    group: expansion
+    label: "Participates in an Executive Order Signing, April 30th, 2026"
+  - id: 8xrI-_qo64E
+    group: expansion
+    label: "Signs an Executive Order, Apr. 18, 2026"
+  - id: mpKpfdZitCM
+    group: expansion
+    label: "Delivers Remarks on Tax Week in Las Vegas, Nevada"
+  - id: xFO-SY9ykdA
+    group: expansion
+    label: "Holds a Press Conference, Apr. 6, 2026"
+  - id: ELT3855m3qA
+    group: expansion
+    label: "Signs an Executive Order, Mar. 31, 2026"
+  - id: 19b7cuFkXPE
+    group: expansion
+    label: "Delivers Remarks at the Future Investment Initiative"
+  - id: IyKAzbxybog
+    group: expansion
+    label: "Delivers Remarks to Farmers"
+  - id: ViW6wZw8Dn8
+    group: expansion
+    label: "Holds a Press Conference, Mar. 9, 2026"
+  - id: W50sSr87n4Q
+    group: expansion
+    label: "Participates in a Roundtable on Ratepayer Protection Pledge"
+  - id: rr2RA4JAntQ
+    group: expansion
+    label: "Delivers Remarks on Energy, Feb. 27, 2026"
+  - id: eWrZQBgpY7I
+    group: expansion
+    label: "2026 State of the Union Address"
+  - id: dSvsEvBq84o
+    group: expansion
+    label: "Delivers Remarks on the Economy, Feb. 19, 2026"
+  - id: jBfm-1j30eE
+    group: expansion
+    label: "Participates in the Champion of Coal Event"
+  - id: E9y3yfTAUaE
+    group: expansion
+    label: "Signs Executive Orders, Jan. 30, 2026"
+  - id: lT62rXuOAh4
+    group: expansion
+    label: "Participates in a Cabinet Meeting, Jan. 29, 2026"
+  - id: ebH-gklOcl8
+    group: expansion
+    label: "Delivers Remarks on the new child savings accounts"
+  - id: lGTJgtL_QYw
+    group: expansion
+    label: "Delivers Remarks to the Detroit Economic Club"
+  - id: iaE8lw8_x30
+    group: expansion
+    label: "Participates in a Meeting with Oil and Gas Executives"
+  - id: SsdkClL2_bg
+    group: expansion
+    label: "Holds a Press Conference, Jan. 3, 2026"
+  - id: FKU63HY1KJQ
+    group: expansion
+    label: "Delivers Remarks on the Economy, Dec. 19, 2025"
+  - id: DTVbPs1RoKo
+    group: expansion
+    label: "Signs an Executive Order, Dec. 18, 2025"
+  - id: I8WJz5A1Q7Y
+    group: expansion
+    label: "Delivers Remarks on the Economy"
+  - id: 2Ey5TwGj7Cc
+    group: expansion
+    label: "Makes an Announcement, Dec. 3, 2025"
+  - id: D0_1MbanXRM
+    group: expansion
+    label: "Delivers Remarks at the U.S. - Saudi Investment Forum"
+  - id: QPid-oVSSi4
+    group: expansion
+    label: "Delivers Remarks at McDonald's Impact Summit"
+  - id: 6xVpv3kfvv8
+    group: expansion
+    label: "Delivers Remarks at the America Business Forum Miami"
+  - id: eDOKTKbcJC4
+    group: expansion
+    label: "Delivers Keynote Remarks at APEC CEOs Luncheon"
+  - id: xagrobF4q1k
+    group: expansion
+    label: "Makes an Announcement, Oct. 16, 2025"
+  - id: uUdwiR2s8JQ
+    group: expansion
+    label: "Hosts a Cabinet Meeting, Oct. 9, 2025"
+  - id: qnRQP628zfM
+    group: expansion
+    label: "Participates in a Bilateral Meeting with the Prime Minister of Canada"
+  - id: SckFiRw0suk
+    group: expansion
+    label: "Signs Executive Orders, Sep. 30, 2025"
+  - id: gK9L029BcaM
+    group: expansion
+    label: "Signs Executive Orders, Sep. 19, 2025"
+  - id: qn2K3UyIsEo
+    group: expansion
+    label: "Makes an Announcement, Sep. 2, 2025"
+  - id: rlPfxyCnxHg
+    group: expansion
+    label: "Signs Executive Orders, Aug. 25, 2025"
+  - id: rB9gbCxb_K0
+    group: expansion
+    label: "Makes an Announcement, Aug. 22, 2025"
+  - id: QFBG9DBdsHg
+    group: expansion
+    label: "Signs an Executive Order, Aug. 5, 2025"
+  - id: xqlARu9srSY
+    group: expansion
+    label: "Delivers Remarks on Making Health Technology Great Again"
+  - id: tBNX9x5GgPE
+    group: expansion
+    label: "Delivers Remarks and Signs Executive Orders at AI Summit"
+  - id: 5N8iGKpU_-A
+    group: expansion
+    label: "Participates in the Inaugural Pennsylvania Energy and Innovation Event"
+  - id: dLhUDEOIdks
+    group: expansion
+    label: "Participates in Invest America Roundtable"
+  - id: XkgLela6l6o
+    group: expansion
+    label: "Holds a Press Briefing, June 27, 2025"

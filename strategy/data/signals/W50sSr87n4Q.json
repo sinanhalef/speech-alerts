@@ -1,0 +1,2592 @@
+{
+ "video": {
+  "id": "W50sSr87n4Q",
+  "url": "https://www.youtube.com/watch?v=W50sSr87n4Q",
+  "title": "The President Participates in a Roundtable on Ratepayer Protection Pledge",
+  "channel": "The White House",
+  "duration": 3390.0,
+  "was_live": true,
+  "release_timestamp": 1772655048.0,
+  "upload_timestamp": 1772659009.0,
+  "upload_date": "20260304",
+  "label": "Participates in a Roundtable on Ratepayer Protection Pledge",
+  "group": "expansion",
+  "notes": "",
+  "t0": 1772655048.0,
+  "t0_source": "release_timestamp"
+ },
+ "dictionary_entities": 224,
+ "llm_model": "claude-haiku-4-5",
+ "counts": {
+  "headsups": 50,
+  "confirmed": 29,
+  "retracted": 21,
+  "unconfirmed": 0,
+  "llm_calls": 61
+ },
+ "signals": [
+  {
+   "signal_id": "W50sSr87n4Q:00111:iran",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "iran",
+   "entity": "Iran",
+   "kind": "country",
+   "alias": "iran",
+   "text_span": "Iran",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "ITA"
+   ],
+   "triggers_nearby": [
+    "deal",
+    "deals"
+   ],
+   "t_audio": 111.21499531250001,
+   "t_wall": 1772655159.2149954,
+   "t_wall_et": "2026-03-04T15:12:39.214995-05:00",
+   "segment_text": "nuclear deal. I call it the Obama nuclear deal where he gave everything to Iran,",
+   "context": "we're gonna continue to do well. We have the greatest military in the world by far, and that was a tremendous threat to us for many years. 47 years, they've been killing our people and killing people from all over the world, and I think we have great support. And I think if we didn't do it 1st, they would have done it to Israel and give us a shot if that was possible. And if we didn't terminate the worst deal, 1 of the worst deals ever made, the Obama nuclear deal. I call it the Obama nuclear deal where he gave everything to Iran,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Iran",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "negative",
+    "action": "sanction",
+    "confidence": 0.95,
+    "quote": "terminate the worst deal, the Obama nuclear deal where he gave everything to Iran",
+    "summary": "The President criticizes the Iran nuclear deal as one of the worst ever made."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Escalating Iran conflict rhetoric raises geopolitical risk premium on oil, mildly supportive for energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Heightened Iran tensions and military conflict talk could support crude oil prices via supply risk.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ITA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Continued military conflict rhetoric with Iran supports defense sector demand expectations.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's rhetoric on Iran conflict and military dominance is largely repeat rhetoric but reinforces geopolitical risk supportive of energy and defense-related tickers, with no new concrete policy revealed.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Escalating Iran conflict rhetoric raises geopolitical risk premium on oil, mildly supportive for energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Heightened Iran tensions and military conflict talk could support crude oil prices via supply risk.\", \"added\": false}, {\"ticker\": \"ITA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Continued military conflict rhetoric with Iran supports defense sector demand expectations.\", \"added\": false}], \"summary\": \"The President's rhetoric on Iran conflict and military dominance is largely repeat rhetoric but reinforces geopolitical risk supportive of energy and defense-related tickers, with no new concrete policy revealed.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00205:noc",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "noc",
+   "entity": "Northrop Grumman",
+   "kind": "company",
+   "alias": "b 2",
+   "text_span": "b 2",
+   "dict_tickers": [
+    "NOC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 205.02774774774775,
+   "t_wall": 1772655253.0277476,
+   "t_wall_et": "2026-03-04T15:14:13.027748-05:00",
+   "segment_text": "If we didn't hit within 2 weeks, they would have had a nuclear weapon. If we didn't do the b 2 attack a number of months ago, they would have a nuclear weapon. And when crazy people have nuclear weapons, bad things happen.",
+   "context": "And maybe the biggest factor was the rebuilding of the military in my 1st term. And then the b twos hit the and I use the word obliterate because it really was it was a complete obliteration of their nuclear potential, and that set them back very, very seriously. If we didn't hit within 2 weeks, they would have had a nuclear weapon. If we didn't do the b 2 attack a number of months ago, they would have a nuclear weapon. And when crazy people have nuclear weapons, bad things happen.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Northrop Grumman",
+    "tickers": [
+     "NOC"
+    ],
+    "stance": "positive",
+    "action": "military",
+    "confidence": 0.92,
+    "quote": "b twos hit and I use the word obliterate because it really was",
+    "summary": "The President credits B-2 bomber strike for degrading adversary nuclear capability."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NOC",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Praise for B-2 strike success is favorable PR for Northrop but restates already-known military action with no new contract or funding news.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks recount past B-2 strike success, which is mildly favorable for Northrop Grumman's reputation but contains no new procurement or funding announcement, so price impact should be minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NOC\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Praise for B-2 strike success is favorable PR for Northrop but restates already-known military action with no new contract or funding news.\", \"added\": false}], \"summary\": \"The President's remarks recount past B-2 strike success, which is mildly favorable for Northrop Grumman's reputation but contains no new procurement or funding announcement, so price impact should be minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00247:oil_strong",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "oil_strong",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "barrels of oil",
+   "text_span": "barrels of oil",
+   "dict_tickers": [
+    "XLE",
+    "USO"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 247.61962538461538,
+   "t_wall": 1772655295.6196253,
+   "t_wall_et": "2026-03-04T15:14:55.619625-05:00",
+   "segment_text": "hundreds of millions of barrels of oil,",
+   "context": "it's a great display of military strength, and I'm very proud to have with some of the people in the room, both senators and congressmen, we rebuilt and women. We rebuilt our military during the 1st term, and we're using it a little bit more than I thought we would have to. Venezuela worked out really great. We have a wonderful relationship with the president and the various representatives. And we're taking out hundreds of millions of barrels of oil,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Oil",
+    "tickers": [
+     "XLE",
+     "USO"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "taking out hundreds of millions of barrels of oil",
+    "summary": "The President claims US extracting hundreds of millions of oil barrels from Venezuela."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased Venezuelan oil supply could add to global supply, offsetting any benefit to US energy sector.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "USO",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "More oil barrels being extracted and brought to market implies increased supply, a modest bearish factor for crude oil prices.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks about extracting large volumes of Venezuelan oil suggest increased global supply, a mild negative for crude oil prices (USO) and a neutral-to-mixed signal for the broader energy sector (XLE).",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased Venezuelan oil supply could add to global supply, offsetting any benefit to US energy sector.\", \"added\": false}, {\"ticker\": \"USO\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"More oil barrels being extracted and brought to market implies increased supply, a modest bearish factor for crude oil prices.\", \"added\": false}], \"summary\": \"The President's remarks about extracting large volumes of Venezuelan oil suggest increased global supply, a mild negative for crude oil prices (USO) and a neutral-to-mixed signal for the broader energy sector (XLE).\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00251:venezuela",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "venezuela",
+   "entity": "Venezuela",
+   "kind": "country",
+   "alias": "venezuela",
+   "text_span": "Venezuela",
+   "dict_tickers": [
+    "XLE",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "barrels"
+   ],
+   "t_audio": 251.48095978723404,
+   "t_wall": 1772655299.48096,
+   "t_wall_et": "2026-03-04T15:14:59.480960-05:00",
+   "segment_text": "and that goes to our benefit and to Venezuela's",
+   "context": "it's a great display of military strength, and I'm very proud to have with some of the people in the room, both senators and congressmen, we rebuilt and women. We rebuilt our military during the 1st term, and we're using it a little bit more than I thought we would have to. Venezuela worked out really great. We have a wonderful relationship with the president and the various representatives. And we're taking out hundreds of millions of barrels of oil, and that goes to our benefit and to Venezuela's",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Venezuela",
+    "tickers": [
+     "XLE",
+     "CVX"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.92,
+    "quote": "We're taking out hundreds of millions of barrels of oil, and that goes to our benefit and to Venezuela's",
+    "summary": "The President claims US extracting oil from Venezuela benefiting both nations."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "XLE",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Increased US access to Venezuelan oil supply modestly boosts US energy sector activity and opportunity.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CVX",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Chevron has existing Venezuela operations and stands to directly benefit from expanded US oil extraction deals there.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks on expanded US oil extraction from Venezuela are mildly positive for US energy companies with exposure there, especially Chevron.",
+    "raw": "{\"tickers\": [{\"ticker\": \"XLE\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Increased US access to Venezuelan oil supply modestly boosts US energy sector activity and opportunity.\", \"added\": false}, {\"ticker\": \"CVX\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Chevron has existing Venezuela operations and stands to directly benefit from expanded US oil extraction deals there.\", \"added\": false}], \"summary\": \"The President's remarks on expanded US oil extraction from Venezuela are mildly positive for US energy companies with exposure there, especially Chevron.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00405:stock_market",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "stock_market",
+   "entity": "Stock market",
+   "kind": "asset",
+   "alias": "the dow",
+   "text_span": "the Dow",
+   "dict_tickers": [
+    "SPY",
+    "QQQ",
+    "DIA"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 405.33748484848485,
+   "t_wall": 1772655453.3374848,
+   "t_wall_et": "2026-03-04T15:17:33.337485-05:00",
+   "segment_text": "But, the economy has never been like this. We've never broke 50,000 on the Dow. People thought we wouldn't do that within the 1st 4 years. We did it in the 1st year,",
+   "context": "last week as America's largest tech companies officially signed the rate payer protection pledge. It's a big deal. Gonna have a tremendous impact on electricity costs. We're bringing down all of the costs. We have this little interlude to do what we have to do because we, we had it going, but these are these interludes are very important, especially this 1. But, the economy has never been like this. We've never broke 50,000 on the Dow. People thought we wouldn't do that within the 1st 4 years. We did it in the 1st year,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Stock market (Dow Jones)",
+    "tickers": [
+     "DIA"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "We've never broke 50,000 on the Dow. We did it in the 1st year.",
+    "summary": "The President claims the Dow Jones crossed 50,000 in his first year, unprecedented."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "DIA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General bragging about the Dow's level is already known market information with no new policy content.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SPY",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Rate-payer pledge is a modest positive for utility costs but broad market impact is negligible and already priced.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "QQQ",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Big tech firms agreeing to cover AI data center electricity costs removes a regulatory/cost overhang for large tech names, a mild positive.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark mixes generic market bragging (no new info) with a new detail that big tech companies will cover AI data center electricity costs, a mild positive for tech-heavy QQQ, while DIA/SPY see negligible new information.",
+    "raw": "{\"tickers\": [{\"ticker\": \"DIA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General bragging about the Dow's level is already known market information with no new policy content.\", \"added\": false}, {\"ticker\": \"SPY\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Rate-payer pledge is a modest positive for utility costs but broad market impact is negligible and already priced.\", \"added\": false}, {\"ticker\": \"QQQ\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"Big tech firms agreeing to cover AI data center electricity costs removes a regulatory/cost overhang for large tech names, a mild positive.\", \"added\": false}], \"summary\": \"The remark mixes generic market bragging (no new info) with a new detail that big tech companies will cover AI data center electricity costs, a mild positive for tech-heavy QQQ, while DIA/SPY see negligible new information.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00430:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 430.36720338983054,
+   "t_wall": 1772655478.3672035,
+   "t_wall_et": "2026-03-04T15:17:58.367203-05:00",
+   "segment_text": "production required for AI data centers, and that would be,",
+   "context": "But, the economy has never been like this. We've never broke 50,000 on the Dow. People thought we wouldn't do that within the 1st 4 years. We did it in the 1st year, and we brought 7 on the S and P, 7,000 on the S and P. They said that's even less likely to happen, and we did that too all within the 1st year. Under this new agreement, big tech companies are committing to fully cover the cost of increased electricity production required for AI data centers, and that would be,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "deal",
+    "confidence": 0.85,
+    "quote": "big tech companies committing to fully cover cost of increased electricity production for AI",
+    "summary": "The President announces tech companies will fund electricity for AI data center expansion."
+   },
+   "llm_attempts": 1,
+   "count": 6,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Pledge removes political/community resistance to data center buildout, supporting continued AI chip demand.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Sector-wide beneficiary of smoother data center expansion enabling more AI hardware deployment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Commits to covering added electricity costs, a modest expense offset by enabling continued AI data center growth without local opposition.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "Reduced community pushback and grid strengthening supports continued demand for Vertiv's data center power/cooling infrastructure.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's rate payer protection pledge shifts electricity cost burden for AI data centers onto big tech, easing community opposition and supporting continued data center capex, which is mildly positive for AI infrastructure names (NVDA, SMH, VRT) while roughly neutral for MSFT which bears the cost commitment.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Pledge removes political/community resistance to data center buildout, supporting continued AI chip demand.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Sector-wide beneficiary of smoother data center expansion enabling more AI hardware deployment.\",\"added\":false},{\"ticker\":\"MSFT\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Commits to covering added electricity costs, a modest expense offset by enabling continued AI data center growth without local opposition.\",\"added\":false},{\"ticker\":\"VRT\",\"direction\":\"up\",\"confidence\":0.6,\"magnitude\":\"medium\",\"novelty\":\"new\",\"horizon\":\"days\",\"rationale\":\"Reduced community pushback and grid strengthening supports continued demand for Vertiv's data center power/cooling infrastructure.\",\"added\":false}],\"summary\":\"The President's rate payer protection pledge shifts electricity cost burden for AI data centers onto big tech, easing community opposition and supporting continued data center capex, which is mildly positive for AI infrastructure names (NVDA, SMH, VRT) while roughly neutral for MSFT which bears the cost commitment.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00553:btc",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 553.8253225806451,
+   "t_wall": 1772655601.8253226,
+   "t_wall_et": "2026-03-04T15:20:01.825323-05:00",
+   "segment_text": "AI and crypto czar David Sachs,",
+   "context": "was gonna say. Sometimes less, but he's he's amazing. And energy secretary Chris Wright, who's worked so hard, and senators Katie Britt, Bernie Marino, John Eusted. Thank you, everybody. Really great. Thanks, Katie. Representative Daryl Ice and Derek Van Orden. Thank you both. And, Derek, thank you. Nice to see you. OSTP director Michael Kracios, AI and crypto czar David Sachs,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "crypto",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "AI and crypto czar David Sachs",
+    "summary": "The President appoints David Sachs as crypto czar, signaling administration focus on digital assets."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere mention of existing crypto czar role is not new policy information for bitcoin markets.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No new crypto policy announced, just a restated title reference with no actionable detail.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No incremental crypto-market catalyst beyond a familiar title mention.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is an energy roundtable with a passing, non-substantive mention of the crypto czar; no new policy or price-relevant information for bitcoin-related tickers.",
+    "raw": "{\"tickers\":[{\"ticker\":\"IBIT\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mere mention of existing crypto czar role is not new policy information for bitcoin markets.\",\"added\":false},{\"ticker\":\"COIN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No new crypto policy announced, just a restated title reference with no actionable detail.\",\"added\":false},{\"ticker\":\"MSTR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No incremental crypto-market catalyst beyond a familiar title mention.\",\"added\":false}],\"summary\":\"The excerpt is an energy roundtable with a passing, non-substantive mention of the crypto czar; no new policy or price-relevant information for bitcoin-related tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00600:googl",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 600.02,
+   "t_wall": 1772655648.02,
+   "t_wall_et": "2026-03-04T15:20:48.020000-05:00",
+   "segment_text": "Google,",
+   "context": "Judy Chang, all very well known people, especially in this group of geniuses. We have a lot of geniuses here and a lot of geniuses that are also very strong people representing labor. We love labor. We love these guys. I also wanna recognize the industry leaders here to sign the pledge, and this is a pledge that's gonna be a very important pledge to the country and to their companies also. They benefit also very substantially, including president of Google,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "president of Google",
+    "summary": "The President references Google's president signing a pledge beneficial to the company."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mere acknowledgment of Google's president at a ratepayer pledge event is largely ceremonial with no new policy or financial detail affecting the stock.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are ceremonial praise naming attendees, including Google's president, without any new policy, deal, or financial commitment that would materially move GOOGL relative to the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mere acknowledgment of Google's president at a ratepayer pledge event is largely ceremonial with no new policy or financial detail affecting the stock.\", \"added\": false}], \"summary\": \"The President's remarks are ceremonial praise naming attendees, including Google's president, without any new policy, deal, or financial commitment that would materially move GOOGL relative to the market.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00607:x",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "x",
+   "entity": "U.S. Steel",
+   "kind": "company",
+   "alias": "us steel",
+   "text_span": "US Steel",
+   "dict_tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 607.8724316379311,
+   "t_wall": 1772655655.8724318,
+   "t_wall_et": "2026-03-04T15:20:55.872432-05:00",
+   "segment_text": "Where's the that's big stuff. Google. That's you know, it used to be US Steel and things like that. Now it's Google,",
+   "context": "We have a lot of geniuses here and a lot of geniuses that are also very strong people representing labor. We love labor. We love these guys. I also wanna recognize the industry leaders here to sign the pledge, and this is a pledge that's gonna be a very important pledge to the country and to their companies also. They benefit also very substantially, including president of Google, Ruth Porat. That's a good company. Where's the that's big stuff. Google. That's you know, it used to be US Steel and things like that. Now it's Google,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "U.S. Steel",
+    "tickers": [
+     "X"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "used to be US Steel and things like that. Now it's Google",
+    "summary": "The President contrasts U.S. Steel as historically major industry with Google as current leader."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "X",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Passing nostalgic reference to US Steel with no policy content, not price-relevant.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NUE",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention or policy implication for Nucor in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "CLF",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention or policy implication for Cleveland-Cliffs in this excerpt.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "STLD",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "No mention or policy implication for Steel Dynamics in this excerpt.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a rhetorical aside contrasting steel's past dominance with tech's present prominence, containing no new policy or financial commitments relevant to steel stocks.",
+    "raw": "{\"tickers\":[{\"ticker\":\"X\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Passing nostalgic reference to US Steel with no policy content, not price-relevant.\",\"added\":false},{\"ticker\":\"NUE\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No mention or policy implication for Nucor in this excerpt.\",\"added\":false},{\"ticker\":\"CLF\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No mention or policy implication for Cleveland-Cliffs in this excerpt.\",\"added\":false},{\"ticker\":\"STLD\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"No mention or policy implication for Steel Dynamics in this excerpt.\",\"added\":false}],\"summary\":\"The remark is a rhetorical aside contrasting steel's past dominance with tech's present prominence, containing no new policy or financial commitments relevant to steel stocks.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00615:fed",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "fed",
+   "entity": "Federal Reserve",
+   "kind": "asset",
+   "alias": "powell",
+   "text_span": "Powell",
+   "dict_tickers": [
+    "TLT",
+    "XLF",
+    "KRE"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 615.843630140845,
+   "t_wall": 1772655663.84363,
+   "t_wall_et": "2026-03-04T15:21:03.843630-05:00",
+   "segment_text": "Dana Powell, who is with me. Dana Powell was with me for a long time, and I called up Mark, and I said, congratulations. That was a good hire.",
+   "context": "I also wanna recognize the industry leaders here to sign the pledge, and this is a pledge that's gonna be a very important pledge to the country and to their companies also. They benefit also very substantially, including president of Google, Ruth Porat. That's a good company. Where's the that's big stuff. Google. That's you know, it used to be US Steel and things like that. Now it's Google, other places. President of Meta, Dana Powell, who is with me. Dana Powell was with me for a long time, and I called up Mark, and I said, congratulations. That was a good hire.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00650:msft",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "msft",
+   "entity": "Microsoft",
+   "kind": "company",
+   "alias": "microsoft",
+   "text_span": "Microsoft",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 650.1654647826088,
+   "t_wall": 1772655698.1654649,
+   "t_wall_et": "2026-03-04T15:21:38.165465-05:00",
+   "segment_text": "President of Microsoft,",
+   "context": "Right? That was a good hire. She's fantastic, and her husband is fantastic. He was he's a great senator, and he ran in a place called Pennsylvania, and he ran against somebody that was very tough to win. It was very, very tough to win, and and he won pretty easily, actually. People were shocked. I wasn't you and I weren't surprised, were we? But he's a spectacular man. President of Microsoft, Brad Smith. Thank you, Brad. It's good to see you. Microsoft is unbelievable.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Microsoft",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.95,
+    "quote": "Microsoft is unbelievable.",
+    "summary": "The President praises Microsoft as unbelievable during remarks."
+   },
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "intraday",
+      "rationale": "Generic praise ('unbelievable') at a ceremonial pledge event carries no new policy or business information.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment is brief flattery within a ratepayer pledge event, not a substantive policy or business announcement, so minimal price impact is expected for MSFT.",
+    "raw": "{\"tickers\": [{\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"intraday\", \"rationale\": \"Generic praise ('unbelievable') at a ceremonial pledge event carries no new policy or business information.\", \"added\": false}], \"summary\": \"The President's comment is brief flattery within a ratepayer pledge event, not a substantive policy or business announcement, so minimal price impact is expected for MSFT.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00657:openai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "openai",
+   "entity": "OpenAI",
+   "kind": "company",
+   "alias": "openai",
+   "text_span": "OpenAI",
+   "dict_tickers": [
+    "MSFT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 657.35,
+   "t_wall": 1772655705.35,
+   "t_wall_et": "2026-03-04T15:21:45.350000-05:00",
+   "segment_text": "OpenAI,",
+   "context": "Right? That was a good hire. She's fantastic, and her husband is fantastic. He was he's a great senator, and he ran in a place called Pennsylvania, and he ran against somebody that was very tough to win. It was very, very tough to win, and and he won pretty easily, actually. People were shocked. I wasn't you and I weren't surprised, were we? But he's a spectacular man. President of Microsoft, Brad Smith. Thank you, Brad. It's good to see you. Microsoft is unbelievable. COO of OpenAI, Brad Lightcap. Brad? Where are you, Brad?",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "OpenAI",
+    "tickers": [
+     "MSFT"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "COO of OpenAI, Brad Lightcap.",
+    "summary": "The President acknowledges OpenAI's COO Brad Lightcap at event."
+   },
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "The President offers generic praise of Microsoft at a ratepayer pledge event with no new policy or business impact disclosed.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely ceremonial praise for tech executives attending a pledge signing, with no new policy, deal, or financial detail affecting Microsoft specifically.",
+    "raw": "{\"tickers\":[{\"ticker\":\"MSFT\",\"direction\":\"none\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"The President offers generic praise of Microsoft at a ratepayer pledge event with no new policy or business impact disclosed.\",\"added\":false}],\"summary\":\"The excerpt is largely ceremonial praise for tech executives attending a pledge signing, with no new policy, deal, or financial detail affecting Microsoft specifically.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00819:ai_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 819.937380952381,
+   "t_wall": 1772655867.937381,
+   "t_wall_et": "2026-03-04T15:24:27.937381-05:00",
+   "segment_text": "energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there",
+   "context": "We inherited a mess. I say it all the time. We inherited a total mess. And in many cases, we fixed it, but we're fixing it. And we'll always be fixing it. We're gonna make it better and better and better. Many Americans are still concerned that the massive energy demand from AI data centers could drive up their electricity bills in the future, and we understand that. By 2035, energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "massive energy demand from AI data centers could drive up electricity bills",
+    "summary": "The President acknowledges AI data centers' massive future energy demand and consumer concerns."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General commentary on AI energy demand and electricity costs does not directly affect NVDA fundamentals.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Chip industry return rhetoric is repeat messaging with no new policy specifics for semiconductor sector.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "Remark centers on energy policy, ratepayer protections, and reiterates prior chip/tariff rhetoric without new specifics materially affecting NVDA or SMH.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General commentary on AI energy demand and electricity costs does not directly affect NVDA fundamentals.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Chip industry return rhetoric is repeat messaging with no new policy specifics for semiconductor sector.\", \"added\": false}], \"summary\": \"Remark centers on energy policy, ratepayer protections, and reiterates prior chip/tariff rhetoric without new specifics materially affecting NVDA or SMH.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00826:canada",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "canada",
+   "entity": "Canada",
+   "kind": "country",
+   "alias": "canada",
+   "text_span": "Canada",
+   "dict_tickers": [
+    "EWC"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 826.0245454545454,
+   "t_wall": 1772655874.0245454,
+   "t_wall_et": "2026-03-04T15:24:34.024545-05:00",
+   "segment_text": "coming in from Canada and Mexico,",
+   "context": "And in many cases, we fixed it, but we're fixing it. And we'll always be fixing it. We're gonna make it better and better and better. Many Americans are still concerned that the massive energy demand from AI data centers could drive up their electricity bills in the future, and we understand that. By 2035, energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there coming in from Canada and Mexico,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Canada",
+    "tickers": [
+     "EWC"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "big plants that are being built all over the country there coming in from Canada",
+    "summary": "The President mentions plants being built coming from Canada amid energy demand concerns."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWC",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Passing mention of plants relocating from Canada to the US is not a material new policy signal for the Canadian equity ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general rhetoric about energy costs, tariffs and reshoring manufacturing, with only a passing mention of Canada; no material new policy affects EWC.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWC\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Passing mention of plants relocating from Canada to the US is not a material new policy signal for the Canadian equity ETF.\", \"added\": false}], \"summary\": \"The remark is general rhetoric about energy costs, tariffs and reshoring manufacturing, with only a passing mention of Canada; no material new policy affects EWC.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00826:mexico",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "mexico",
+   "entity": "Mexico",
+   "kind": "country",
+   "alias": "mexico",
+   "text_span": "Mexico",
+   "dict_tickers": [
+    "EWW"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 826.7978787878787,
+   "t_wall": 1772655874.7978787,
+   "t_wall_et": "2026-03-04T15:24:34.797879-05:00",
+   "segment_text": "coming in from Canada and Mexico,",
+   "context": "And in many cases, we fixed it, but we're fixing it. And we'll always be fixing it. We're gonna make it better and better and better. Many Americans are still concerned that the massive energy demand from AI data centers could drive up their electricity bills in the future, and we understand that. By 2035, energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there coming in from Canada and Mexico,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Mexico",
+    "tickers": [
+     "EWW"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "big plants that are being built all over the country there coming in from Canada and Mexico",
+    "summary": "The President mentions plants being built coming from Mexico amid energy demand concerns."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWW",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Mexico-based plants relocating to US is generic rhetoric not a new policy action affecting Mexican equities.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is largely general energy policy rhetoric with a passing, non-specific reference to Mexico among countries building plants in the US; no new actionable policy for Mexican markets, so EWW impact is negligible.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWW\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Mexico-based plants relocating to US is generic rhetoric not a new policy action affecting Mexican equities.\", \"added\": false}], \"summary\": \"The excerpt is largely general energy policy rhetoric with a passing, non-specific reference to Mexico among countries building plants in the US; no new actionable policy for Mexican markets, so EWW impact is negligible.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00828:germany",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "germany",
+   "entity": "Germany",
+   "kind": "country",
+   "alias": "germany",
+   "text_span": "Germany",
+   "dict_tickers": [
+    "EWG"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 828.0260000000001,
+   "t_wall": 1772655876.026,
+   "t_wall_et": "2026-03-04T15:24:36.026000-05:00",
+   "segment_text": "from Germany, from Japan,",
+   "context": "And in many cases, we fixed it, but we're fixing it. And we'll always be fixing it. We're gonna make it better and better and better. Many Americans are still concerned that the massive energy demand from AI data centers could drive up their electricity bills in the future, and we understand that. By 2035, energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there coming in from Canada and Mexico, from Germany, from Japan,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Germany",
+    "tickers": [
+     "EWG"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.7,
+    "quote": "big plants that are being built all over the country there coming in from Canada and Mexico, from Germany",
+    "summary": "The President mentions Germany among countries with plants being built in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of German companies building plants in US is general rhetoric with no new policy on Germany itself.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is broad rhetoric about energy policy, tariffs, and reshoring manufacturing, with only a passing neutral mention of Germany as a source of investment, offering no material new information for EWG.",
+    "raw": "{\"tickers\":[{\"ticker\":\"EWG\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Mention of German companies building plants in US is general rhetoric with no new policy on Germany itself.\",\"added\":false}],\"summary\":\"The remark is broad rhetoric about energy policy, tariffs, and reshoring manufacturing, with only a passing neutral mention of Germany as a source of investment, offering no material new information for EWG.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00829:japan",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "japan",
+   "entity": "Japan",
+   "kind": "country",
+   "alias": "japan",
+   "text_span": "Japan",
+   "dict_tickers": [
+    "EWJ"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 829.1908000000001,
+   "t_wall": 1772655877.1908,
+   "t_wall_et": "2026-03-04T15:24:37.190800-05:00",
+   "segment_text": "from Germany, from Japan,",
+   "context": "And in many cases, we fixed it, but we're fixing it. And we'll always be fixing it. We're gonna make it better and better and better. Many Americans are still concerned that the massive energy demand from AI data centers could drive up their electricity bills in the future, and we understand that. By 2035, energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there coming in from Canada and Mexico, from Germany, from Japan,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Japan",
+    "tickers": [
+     "EWJ"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.7,
+    "quote": "big plants that are being built all over the country there coming in from Canada and Mexico, from Germany, from Japan",
+    "summary": "The President mentions Japan among countries with plants being built in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWJ",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of Japanese plants relocating to US is general rhetoric with no new policy specifics affecting Japan broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is general commentary on manufacturing reshoring and energy policy with no new material information specific to Japan or EWJ.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWJ\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of Japanese plants relocating to US is general rhetoric with no new policy specifics affecting Japan broadly.\", \"added\": false}], \"summary\": \"The remark is general commentary on manufacturing reshoring and energy policy with no new material information specific to Japan or EWJ.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00830:korea",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "korea",
+   "entity": "South Korea",
+   "kind": "country",
+   "alias": "south korea",
+   "text_span": "South Korea",
+   "dict_tickers": [
+    "EWY"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 830.7394029411764,
+   "t_wall": 1772655878.739403,
+   "t_wall_et": "2026-03-04T15:24:38.739403-05:00",
+   "segment_text": "from South Korea.",
+   "context": "And in many cases, we fixed it, but we're fixing it. And we'll always be fixing it. We're gonna make it better and better and better. Many Americans are still concerned that the massive energy demand from AI data centers could drive up their electricity bills in the future, and we understand that. By 2035, energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there coming in from Canada and Mexico, from Germany, from Japan, from South Korea.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "South Korea",
+    "tickers": [
+     "EWY"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "big plants being built coming in from South Korea",
+    "summary": "The President mentions South Korean manufacturing plants being built in the US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWY",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Mention of South Korean firms building US plants is neutral to mildly positive but general rhetoric already known, not a new policy shock for Korean equities broadly.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are broad energy/tariff rhetoric with only a passing, non-specific mention of South Korean plants relocating to the US, offering no new material information for EWY.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWY\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Mention of South Korean firms building US plants is neutral to mildly positive but general rhetoric already known, not a new policy shock for Korean equities broadly.\", \"added\": false}], \"summary\": \"The President's remarks are broad energy/tariff rhetoric with only a passing, non-specific mention of South Korean plants relocating to the US, offering no new material information for EWY.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00846:chips",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "chips",
+   "entity": "Semiconductors",
+   "kind": "sector",
+   "alias": "chip industry",
+   "text_span": "chip industry",
+   "dict_tickers": [
+    "SMH",
+    "SOXX",
+    "NVDA",
+    "INTC"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 846.1607359183673,
+   "t_wall": 1772655894.1607358,
+   "t_wall_et": "2026-03-04T15:24:54.160736-05:00",
+   "segment_text": "on trade and business, they didn't know what the hell they were doing. I could say the same thing for the chip industry. We lost the chip industry,",
+   "context": "energy demand is expected to more than triple. Can you believe it? A lot of it is AI, and it's also all these big plants that are being built all over the country there coming in from Canada and Mexico, from Germany, from Japan, from South Korea. They're all coming here to build cars again. You know, we lost 54% of our car industry because we had president presidents that, honestly, on trade and business, they didn't know what the hell they were doing. I could say the same thing for the chip industry. We lost the chip industry,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Semiconductors",
+    "tickers": [
+     "SMH",
+     "SOXX",
+     "NVDA",
+     "INTC"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "We lost the chip industry",
+    "summary": "The President criticizes loss of US semiconductor industry to foreign competition."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetoric about past chip industry losses, not a new policy action for semiconductor ETF holdings.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SOXX",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeats familiar narrative about reshoring chips without new specifics affecting the index.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "INTC",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "weeks",
+      "rationale": "Rhetoric favoring domestic chip production and tariffs on offshore manufacturing could benefit US-based Intel over time.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Comments on chip industry losses and AI power demand are not directly new or specific to Nvidia.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar rhetoric about reshoring chip manufacturing and threatening tariffs on offshore production, with no new concrete policy details; mild positive tilt for domestic producers like Intel, neutral for broad semiconductor ETFs and Nvidia.",
+    "raw": "{\"tickers\":[{\"ticker\":\"SMH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General rhetoric about past chip industry losses, not a new policy action for semiconductor ETF holdings.\",\"added\":false},{\"ticker\":\"SOXX\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Repeats familiar narrative about reshoring chips without new specifics affecting the index.\",\"added\":false},{\"ticker\":\"INTC\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"weeks\",\"rationale\":\"Rhetoric favoring domestic chip production and tariffs on offshore manufacturing could benefit US-based Intel over time.\",\"added\":false},{\"ticker\":\"NVDA\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Comments on chip industry losses and AI power demand are not directly new or specific to Nvidia.\",\"added\":false}],\"summary\":\"The President's remarks reiterate familiar rhetoric about reshoring chip manufacturing and threatening tariffs on offshore production, with no new concrete policy details; mild positive tilt for domestic producers like Intel, neutral for broad semiconductor ETFs and Nvidia.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:00859:taiwan",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "taiwan",
+   "entity": "Taiwan",
+   "kind": "country",
+   "alias": "taiwan",
+   "text_span": "Taiwan",
+   "dict_tickers": [
+    "EWT",
+    "TSM"
+   ],
+   "triggers_nearby": [
+    "sell",
+    "tariff"
+   ],
+   "t_audio": 859.5547236180904,
+   "t_wall": 1772655907.5547235,
+   "t_wall_et": "2026-03-04T15:25:07.554724-05:00",
+   "segment_text": "If you wanted to leave The United States, that's fine. You can go to Taiwan or any way you want. But if you're gonna make your product and sell it back in here, you're gonna pay a 100% or 200 or 300%",
+   "context": "of our car industry because we had president presidents that, honestly, on trade and business, they didn't know what the hell they were doing. I could say the same thing for the chip industry. We lost the chip industry, but it's all coming back. You could have stopped it so easy. All you woulda had to do is put a charge or a tariff on. If you wanted to leave The United States, that's fine. You can go to Taiwan or any way you want. But if you're gonna make your product and sell it back in here, you're gonna pay a 100% or 200 or 300%",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Taiwan",
+    "tickers": [
+     "EWT",
+     "TSM"
+    ],
+    "stance": "negative",
+    "action": "tariff",
+    "confidence": 0.92,
+    "quote": "if you're gonna make your product and sell it back in here, you're gonna pay a 100% or 200 or 300%",
+    "summary": "The President proposes 100-300% tariffs on products made in Taiwan and sold in US."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "EWT",
+      "direction": "down",
+      "confidence": 0.58,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated tariff rhetoric on Taiwan-made products threatens broad exposure of Taiwan equity ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "TSM",
+      "direction": "down",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Reiterated threat of steep tariffs on chips made in Taiwan and sold in US is mildly negative for TSM despite being familiar rhetoric.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President repeats a familiar threat of very high tariffs on Taiwan-made goods (including chips) sold in the US, which is a modest negative for Taiwan-exposed equities like TSM and EWT, while the AI/data-center ratepayer pledge portion is not directly tied to these tickers.",
+    "raw": "{\"tickers\": [{\"ticker\": \"EWT\", \"direction\": \"down\", \"confidence\": 0.58, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated tariff rhetoric on Taiwan-made products threatens broad exposure of Taiwan equity ETF.\", \"added\": false}, {\"ticker\": \"TSM\", \"direction\": \"down\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Reiterated threat of steep tariffs on chips made in Taiwan and sold in US is mildly negative for TSM despite being familiar rhetoric.\", \"added\": false}], \"summary\": \"The President repeats a familiar threat of very high tariffs on Taiwan-made goods (including chips) sold in the US, which is a modest negative for Taiwan-exposed equities like TSM and EWT, while the AI/data-center ratepayer pledge portion is not directly tied to these tickers.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01078:defense_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "approval"
+   ],
+   "t_audio": 1078.7783333333332,
+   "t_wall": 1772656126.7783334,
+   "t_wall_et": "2026-03-04T15:28:46.778333-05:00",
+   "segment_text": "let's say, 0.5 of his working life on getting an approval, and he didn't get now we get it in 2 weeks, 3 weeks, maybe 4 weeks.",
+   "context": "I've known many plants where they've been I knew people, they started off young. They were young trying to get approvals for a stupid plant, 1 plant. Their whole life was devoted to getting this plant. And around 22 years in 1 case, 22 years later, he got rejected. I said, that's not good. He wasted, let's say, 0.5 of his working life on getting an approval, and he didn't get now we get it in 2 weeks, 3 weeks, maybe 4 weeks. When I came in originally in my 1st term, we had 2 big LNG plants in Louisiana.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01085:natgas",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "natgas",
+   "entity": "Natural gas / LNG",
+   "kind": "sector",
+   "alias": "lng",
+   "text_span": "LNG",
+   "dict_tickers": [
+    "UNG",
+    "LNG",
+    "EQT"
+   ],
+   "triggers_nearby": [
+    "approval",
+    "plants"
+   ],
+   "t_audio": 1085.3015189873418,
+   "t_wall": 1772656133.301519,
+   "t_wall_et": "2026-03-04T15:28:53.301519-05:00",
+   "segment_text": "When I came in originally in my 1st term, we had 2 big LNG plants in Louisiana.",
+   "context": "I've known many plants where they've been I knew people, they started off young. They were young trying to get approvals for a stupid plant, 1 plant. Their whole life was devoted to getting this plant. And around 22 years in 1 case, 22 years later, he got rejected. I said, that's not good. He wasted, let's say, 0.5 of his working life on getting an approval, and he didn't get now we get it in 2 weeks, 3 weeks, maybe 4 weeks. When I came in originally in my 1st term, we had 2 big LNG plants in Louisiana.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "LNG",
+    "tickers": [
+     "UNG",
+     "LNG",
+     "EQT"
+    ],
+    "stance": "positive",
+    "action": "regulation",
+    "confidence": 0.92,
+    "quote": "2 big LNG plants in Louisiana. When I came in originally",
+    "summary": "The President claims faster regulatory approval for LNG projects under his administration."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "LNG",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Cheniere-style LNG plant story highlights faster permitting favorable to LNG export developers like Cheniere itself.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "UNG",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Commentary on export approvals is more relevant to producers/exporters than the natural gas price ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EQT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Faster LNG permitting supports upstream gas demand and prices, mildly positive for a major gas producer like EQT.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's anecdote about speeding up LNG plant approvals is mildly positive for LNG infrastructure and gas producers, though it largely repeats known deregulatory rhetoric with no new specific policy details.",
+    "raw": "{\"tickers\": [{\"ticker\": \"LNG\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Cheniere-style LNG plant story highlights faster permitting favorable to LNG export developers like Cheniere itself.\", \"added\": false}, {\"ticker\": \"UNG\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Commentary on export approvals is more relevant to producers/exporters than the natural gas price ETF.\", \"added\": false}, {\"ticker\": \"EQT\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Faster LNG permitting supports upstream gas demand and prices, mildly positive for a major gas producer like EQT.\", \"added\": false}], \"summary\": \"The President's anecdote about speeding up LNG plant approvals is mildly positive for LNG infrastructure and gas producers, though it largely repeats known deregulatory rhetoric with no new specific policy details.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01319:china",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "china",
+   "entity": "China",
+   "kind": "country",
+   "alias": "china",
+   "text_span": "China",
+   "dict_tickers": [
+    "FXI",
+    "MCHI",
+    "KWEB"
+   ],
+   "triggers_nearby": [
+    "tremendous"
+   ],
+   "t_audio": 1319.02,
+   "t_wall": 1772656367.02,
+   "t_wall_et": "2026-03-04T15:32:47.020000-05:00",
+   "segment_text": "China is building tremendous energy. I know. I gotta respect it.",
+   "context": "times of need. So they're gonna have a lot of backup power. We're gonna have a lot of excess. Basically, we're building massive amounts of electricity, and you're not paying for it at all. And the companies wanna do it because this way they can otherwise, they couldn't build. I mean, the option really was not about cost. It was about there's no way of possibly taking the old grid and doubling it in a matter of months or years. So in short, America's largest and richest tech companies will be funding a colossal expansion of US energy. We'll have I read where China is building tremendous energy. I know. I gotta respect it.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "China",
+    "tickers": [
+     "FXI",
+     "MCHI",
+     "KWEB"
+    ],
+    "stance": "neutral",
+    "action": "other",
+    "confidence": 0.75,
+    "quote": "China is building tremendous energy. I gotta respect it.",
+    "summary": "The President acknowledges China's energy infrastructure expansion with respect."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "FXI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Passing acknowledgment of China's energy buildout is not a policy action affecting Chinese equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MCHI",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Neutral, brief comment on China energy capacity carries no direct market implication for broad China ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "KWEB",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark is about energy infrastructure, not Chinese internet/tech companies, so no clear price effect.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's comment is mainly a domestic energy/tech-company investment narrative with a brief respectful nod to China's energy buildout; it lacks any new policy, tariff, or sanction signal, so China-related ETFs (FXI, MCHI, KWEB) should see no meaningful abnormal move.",
+    "raw": "{\"tickers\": [{\"ticker\": \"FXI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Passing acknowledgment of China's energy buildout is not a policy action affecting Chinese equities.\", \"added\": false}, {\"ticker\": \"MCHI\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Neutral, brief comment on China energy capacity carries no direct market implication for broad China ETF.\", \"added\": false}, {\"ticker\": \"KWEB\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Remark is about energy infrastructure, not Chinese internet/tech companies, so no clear price effect.\", \"added\": false}], \"summary\": \"The President's comment is mainly a domestic energy/tech-company investment narrative with a brief respectful nod to China's energy buildout; it lacks any new policy, tariff, or sanction signal, so China-related ETFs (FXI, MCHI, KWEB) should see no meaningful abnormal move.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01466:btc",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "btc",
+   "entity": "Bitcoin",
+   "kind": "asset",
+   "alias": "crypto",
+   "text_span": "crypto",
+   "dict_tickers": [
+    "IBIT",
+    "COIN",
+    "MSTR"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1466.6326074626866,
+   "t_wall": 1772656514.6326075,
+   "t_wall_et": "2026-03-04T15:35:14.632607-05:00",
+   "segment_text": "In crypto, we wanna be dominant. We wanna be dominant in everything",
+   "context": "The United States is leading the world in AI by a lot. We're leading China. We're leading everybody by a lot. Without this, you wouldn't even I don't think you could build Brad, you couldn't build a plant, right, without this. I don't think you could you know, you'd have to rely on the grid, and you wouldn't be able to do that. So The United States is leading by a lot. We're leading everybody. And and it's not only you know, other countries are very much into it. They all want it, but we're gonna be dominant in this in this field, which is very important. In crypto, we wanna be dominant. We wanna be dominant in everything",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "crypto",
+    "tickers": [
+     "IBIT",
+     "COIN",
+     "MSTR"
+    ],
+    "stance": "positive",
+    "action": "other",
+    "confidence": 0.85,
+    "quote": "In crypto, we wanna be dominant.",
+    "summary": "The President expresses intent for U.S. dominance in cryptocurrency sector."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "IBIT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Generic crypto-dominance rhetoric with no new policy specifics for bitcoin ETF pricing.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "COIN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Restates prior pro-crypto stance without new regulatory or business detail affecting Coinbase.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSTR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General crypto dominance comment is not a new catalyst for MicroStrategy's bitcoin holdings.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is broad rhetorical support for U.S. crypto dominance without new policy details, so it is unlikely to move crypto-related equities meaningfully beyond market noise.",
+    "raw": "{\"tickers\":[{\"ticker\":\"IBIT\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Generic crypto-dominance rhetoric with no new policy specifics for bitcoin ETF pricing.\",\"added\":false},{\"ticker\":\"COIN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Restates prior pro-crypto stance without new regulatory or business detail affecting Coinbase.\",\"added\":false},{\"ticker\":\"MSTR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General crypto dominance comment is not a new catalyst for MicroStrategy's bitcoin holdings.\",\"added\":false}],\"summary\":\"The remark is broad rhetorical support for U.S. crypto dominance without new policy details, so it is unlikely to move crypto-related equities meaningfully beyond market noise.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01476:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "ai infrastructure",
+   "text_span": "AI infrastructure",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1476.4796287128713,
+   "t_wall": 1772656524.4796288,
+   "t_wall_et": "2026-03-04T15:35:24.479629-05:00",
+   "segment_text": "And this agreement will ensure that America can maintain the most advanced AI infrastructure on the planet without American families being forced to pick up the tab. And that's why the early ones, they,",
+   "context": "So The United States is leading by a lot. We're leading everybody. And and it's not only you know, other countries are very much into it. They all want it, but we're gonna be dominant in this in this field, which is very important. In crypto, we wanna be dominant. We wanna be dominant in everything we do. And this agreement will ensure that America can maintain the most advanced AI infrastructure on the planet without American families being forced to pick up the tab. And that's why the early ones, they,",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "AI infrastructure",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "America can maintain the most advanced AI infrastructure on the planet",
+    "summary": "The President commits to dominant U.S. AI infrastructure without burdening families."
+   },
+   "llm_attempts": 1,
+   "count": 4,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General pro-AI infrastructure rhetoric supports chip demand narrative but offers no new specifics.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF benefits modestly from continued pro-AI dominance messaging.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "up",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "As a major AI infrastructure builder, positive but generic rhetoric offers slight tailwind.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Data center power/infrastructure focus and ratepayer protection pledge could support demand for Vertiv's power/cooling equipment.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate general support for U.S. AI dominance and a new ratepayer protection pledge tied to data center energy deals, mildly positive for AI infrastructure and semiconductor names but largely reinforcing known policy stance rather than new specifics.",
+    "raw": "{\"tickers\":[{\"ticker\":\"NVDA\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"General pro-AI infrastructure rhetoric supports chip demand narrative but offers no new specifics.\",\"added\":false},{\"ticker\":\"SMH\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad semiconductor ETF benefits modestly from continued pro-AI dominance messaging.\",\"added\":false},{\"ticker\":\"MSFT\",\"direction\":\"up\",\"confidence\":0.52,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"As a major AI infrastructure builder, positive but generic rhetoric offers slight tailwind.\",\"added\":false},{\"ticker\":\"VRT\",\"direction\":\"up\",\"confidence\":0.55,\"magnitude\":\"small\",\"novelty\":\"unclear\",\"horizon\":\"days\",\"rationale\":\"Data center power/infrastructure focus and ratepayer protection pledge could support demand for Vertiv's power/cooling equipment.\",\"added\":false}],\"summary\":\"The President's remarks reiterate general support for U.S. AI dominance and a new ratepayer protection pledge tied to data center energy deals, mildly positive for AI infrastructure and semiconductor names but largely reinforcing known policy stance rather than new specifics.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01555:defense_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 1555.4736315789473,
+   "t_wall": 1772656603.4736316,
+   "t_wall_et": "2026-03-04T15:36:43.473632-05:00",
+   "segment_text": "So some of the plants are starting, and they're coming in. I say, Lee, 2 weeks for natural gas.",
+   "context": "sources because you're gonna build them yourself. And if they're not good, you'll make them a little bit bigger and better. Right? But, again, a lot of people it took me 6 months to convince people that I was serious about this. And we have a a very big key to what we're doing is Lee Zeldin. He's in charge of the environmental department and energy. And the job he's done is incredible, getting you fast approvals. So some of the plants are starting, and they're coming in. I say, Lee, 2 weeks for natural gas. Don't worry about wind. Forget it. It's worthless. Don't you don't get approvals for wind. We don't do wind in this because it's a loser. Except for China, they make all the windmills. You know, China makes all the windmills. The only problem is they don't have wind farms.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01565:solar",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "windmills",
+   "text_span": "windmills",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 1565.9026285714285,
+   "t_wall": 1772656613.9026287,
+   "t_wall_et": "2026-03-04T15:36:53.902629-05:00",
+   "segment_text": "Don't worry about wind. Forget it. It's worthless. Don't you don't get approvals for wind. We don't do wind in this because it's a loser. Except for China, they make all the windmills. You know, China makes all the windmills. The only problem is they don't have wind farms.",
+   "context": "sources because you're gonna build them yourself. And if they're not good, you'll make them a little bit bigger and better. Right? But, again, a lot of people it took me 6 months to convince people that I was serious about this. And we have a a very big key to what we're doing is Lee Zeldin. He's in charge of the environmental department and energy. And the job he's done is incredible, getting you fast approvals. So some of the plants are starting, and they're coming in. I say, Lee, 2 weeks for natural gas. Don't worry about wind. Forget it. It's worthless. Don't you don't get approvals for wind. We don't do wind in this because it's a loser. Except for China, they make all the windmills. You know, China makes all the windmills. The only problem is they don't have wind farms.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Solar / wind sector",
+    "tickers": [
+     "TAN",
+     "ICLN",
+     "FSLR",
+     "ENPH"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.95,
+    "quote": "It's worthless. Don't get approvals for wind. We don't do wind.",
+    "summary": "The President criticizes wind energy as worthless and says administration won't approve wind projects."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "TAN",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Remark focused on wind not solar, limited direct read-through to solar ETF.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ICLN",
+      "direction": "down",
+      "confidence": 0.65,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad clean-energy ETF includes wind exposure hurt by anti-wind rhetoric and no-approval stance.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FSLR",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Solar manufacturer not directly targeted by wind criticism.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "ENPH",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Residential solar inverter maker unaffected by wind-specific comments.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President reiterated hostility toward wind energy, calling it worthless and blocking approvals, which is negative for wind-exposed clean energy ETFs like ICLN but largely repeat rhetoric with limited new information; solar-specific names (TAN, FSLR, ENPH) are not directly implicated.",
+    "raw": "{\"tickers\":[{\"ticker\":\"TAN\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Remark focused on wind not solar, limited direct read-through to solar ETF.\",\"added\":false},{\"ticker\":\"ICLN\",\"direction\":\"down\",\"confidence\":0.65,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Broad clean-energy ETF includes wind exposure hurt by anti-wind rhetoric and no-approval stance.\",\"added\":false},{\"ticker\":\"FSLR\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Solar manufacturer not directly targeted by wind criticism.\",\"added\":false},{\"ticker\":\"ENPH\",\"direction\":\"none\",\"confidence\":0.5,\"magnitude\":\"small\",\"novelty\":\"repeat\",\"horizon\":\"days\",\"rationale\":\"Residential solar inverter maker unaffected by wind-specific comments.\",\"added\":false}],\"summary\":\"The President reiterated hostility toward wind energy, calling it worthless and blocking approvals, which is negative for wind-exposed clean energy ETFs like ICLN but largely repeat rhetoric with limited new information; solar-specific names (TAN, FSLR, ENPH) are not directly implicated.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01579:eu",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "eu",
+   "entity": "European Union",
+   "kind": "country",
+   "alias": "europe",
+   "text_span": "Europe",
+   "dict_tickers": [
+    "VGK",
+    "EZU",
+    "FEZ"
+   ],
+   "triggers_nearby": [
+    "buying",
+    "sell"
+   ],
+   "t_audio": 1579.1697094117646,
+   "t_wall": 1772656627.1697094,
+   "t_wall_et": "2026-03-04T15:37:07.169709-05:00",
+   "segment_text": "They sell them to the suckers over in Europe. Europe is buying them by the thousands.",
+   "context": "So some of the plants are starting, and they're coming in. I say, Lee, 2 weeks for natural gas. Don't worry about wind. Forget it. It's worthless. Don't you don't get approvals for wind. We don't do wind in this because it's a loser. Except for China, they make all the windmills. You know, China makes all the windmills. The only problem is they don't have wind farms. You ever think somebody's gonna have to look at that. How many wind farms have you seen lately in China? They make the windmills. They sell them to the suckers over in Europe. Europe is buying them by the thousands.",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "confirmed",
+   "llm": {
+    "entity": "European Union",
+    "tickers": [
+     "VGK",
+     "EZU",
+     "FEZ"
+    ],
+    "stance": "negative",
+    "action": "criticism",
+    "confidence": 0.85,
+    "quote": "Europe is buying them by the thousands.",
+    "summary": "The President criticizes Europe for buying Chinese windmills, calling them suckers."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "VGK",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General rhetorical criticism of Europe's wind energy policy is not a concrete policy action affecting broad European equities.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "EZU",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Same rhetorical criticism applies broadly to Eurozone equities without specific policy consequence.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "FEZ",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Repeated anti-wind rhetoric targeting Europe is not new or specific enough to move broad Eurozone index ETF.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks reiterate familiar rhetoric mocking Europe's reliance on Chinese-made wind turbines and promoting US natural gas and coal, but contain no new policy, tariff, or sanction announcement, so European market ETFs (VGK, EZU, FEZ) should see negligible abnormal price impact.",
+    "raw": "{\"tickers\": [{\"ticker\": \"VGK\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General rhetorical criticism of Europe's wind energy policy is not a concrete policy action affecting broad European equities.\", \"added\": false}, {\"ticker\": \"EZU\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Same rhetorical criticism applies broadly to Eurozone equities without specific policy consequence.\", \"added\": false}, {\"ticker\": \"FEZ\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Repeated anti-wind rhetoric targeting Europe is not new or specific enough to move broad Eurozone index ETF.\", \"added\": false}], \"summary\": \"The President's remarks reiterate familiar rhetoric mocking Europe's reliance on Chinese-made wind turbines and promoting US natural gas and coal, but contain no new policy, tariff, or sanction announcement, so European market ETFs (VGK, EZU, FEZ) should see negligible abnormal price impact.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01647:defense_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "plant"
+   ],
+   "t_audio": 1647.4802631578948,
+   "t_wall": 1772656695.4802632,
+   "t_wall_et": "2026-03-04T15:38:15.480263-05:00",
+   "segment_text": "power plant, maybe take 2 or 3 weeks. You can take add on an extra week. But",
+   "context": "It sort of sort of stepped in his speech a little bit. It was a it was a little much, but we got the point across. The coal is clean and beautiful. Well, look, it's so many of the the nations that are working are using coal, and you can do things with coal today that are incredible in terms of the environment and in terms of cleanliness. But I said 2 weeks for oil and gas, coal, and for nuclear power plant, maybe take 2 or 3 weeks. You can take add on an extra week. But Lee Zeldin has done an amazing job in getting you all of the permits that you need, normally, that would take many, many years, and they're already building the plants. They're being built all over the country, and they are incredible. So with that, I'll introduce",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01701:oil",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "oil",
+   "entity": "Oil",
+   "kind": "sector",
+   "alias": "oil",
+   "text_span": "oil",
+   "dict_tickers": [
+    "XLE",
+    "USO",
+    "XOM",
+    "CVX"
+   ],
+   "triggers_nearby": [
+    "merger"
+   ],
+   "t_audio": 1701.7637256965945,
+   "t_wall": 1772656749.7637258,
+   "t_wall_et": "2026-03-04T15:39:09.763726-05:00",
+   "segment_text": "and it was sort of love at 1st sight. He has done some job, and so has Doug. We put Doug we gave him interior where they have all the oil, and we gave him energy where they take it. Right? So we sort of did a friendly merger without going through congress because if we went through congress, it would never get done unless",
+   "context": "I see he said, biggest in the industry. He's the smartest. He's the best. I say, really? He's better than you. And Doug has a very big ego. So for him for him to say that was not easy. But I met I met Chris, and it was sort of love at 1st sight. He has done some job, and so has Doug. We put Doug we gave him interior where they have all the oil, and we gave him energy where they take it. Right? So we sort of did a friendly merger without going through congress because if we went through congress, it would never get done unless",
+   "speaker": 1,
+   "speaker_is_main": true,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01857:ai_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 1857.3336570652173,
+   "t_wall": 1772656905.333657,
+   "t_wall_et": "2026-03-04T15:41:45.333657-05:00",
+   "segment_text": "That is a train wreck waiting to happen. And the president recognized from the start, we have to lead an AI. We have to stop electricity price rise, and those are not in contradiction.",
+   "context": "long term vision of the business leaders that I am very proud to call partners and friends around this table that have invested that money, that have developed those technologies, that are willing to invest those dollars, and and and are also willing to fix the biggest problem. We had 30 electricity price rises during the Biden administration, and we shrunk our amount of available dispatchable electricity. That is a train wreck waiting to happen. And the president recognized from the start, we have to lead an AI. We have to stop electricity price rise, and those are not in contradiction. These companies are smart. They're powerful. They're strong. They can build power, partner with them. And that's exactly all of them embraced it. All of them have spent money to these noble causes.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:01946:ai_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "price"
+   ],
+   "t_audio": 1946.4790322580645,
+   "t_wall": 1772656994.4790323,
+   "t_wall_et": "2026-03-04T15:43:14.479032-05:00",
+   "segment_text": "to to to enable a revolution that's gonna happen. America leading in AI and stopping the price rises. Thank you all so much.",
+   "context": "I have had more people say, do you know FERC? I said, do I know FERC? What about FERC? And I learned so much about you, and you are the most powerful people in the country. So we wanna be very nice to you. Please get us approvals. Please get us those approvals. Okay? Thank you all very much. Thank you. The FERC team has worked hard, smartly, and practically to to to enable a revolution that's gonna happen. America leading in AI and stopping the price rises. Thank you all so much.",
+   "speaker": 2,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "praise",
+    "confidence": 0.92,
+    "quote": "America leading in AI and stopping the price rises.",
+    "summary": "The President praises AI revolution and its role in controlling price inflation."
+   },
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "General praise for AI leadership and FERC approvals is positive sentiment but not company-specific new information for Nvidia.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "none",
+      "confidence": 0.52,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Broad pro-AI rhetoric and faster energy permitting is mildly supportive for chip sector sentiment but lacks concrete new policy detail.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The President's remarks are generic pro-AI and pro-energy-permitting rhetoric tied to a ratepayer pledge, not a specific new policy or deal affecting semiconductor names, so expected market impact is minimal.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"General praise for AI leadership and FERC approvals is positive sentiment but not company-specific new information for Nvidia.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"none\", \"confidence\": 0.52, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Broad pro-AI rhetoric and faster energy permitting is mildly supportive for chip sector sentiment but lacks concrete new policy detail.\", \"added\": false}], \"summary\": \"The President's remarks are generic pro-AI and pro-energy-permitting rhetoric tied to a ratepayer pledge, not a specific new policy or deal affecting semiconductor names, so expected market impact is minimal.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02028:amzn",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "amzn",
+   "entity": "Amazon",
+   "kind": "company",
+   "alias": "amazon",
+   "text_span": "Amazon",
+   "dict_tickers": [
+    "AMZN"
+   ],
+   "triggers_nearby": [
+    "investment"
+   ],
+   "t_audio": 2028.2979353233832,
+   "t_wall": 1772657076.2979352,
+   "t_wall_et": "2026-03-04T15:44:36.297935-05:00",
+   "segment_text": "It's also data centers. Meta's doing a big 1. And, of course, Amazon's working in Louisiana and Stack and so many of the other companies. And our our communities are so grateful to have that investment",
+   "context": "the rise energy demand and what that's gonna mean for our communities. So it is so meaningful to have leaders, the titans, to come in and say, everybody be calm. This is gonna be great. It's actually gonna be better going forward. Not only is America gonna stay on top and lead and be the strong superpower that we are, we're gonna continue to lead on AI. We're gonna continue to make the communities better. I'm in the state of Louisiana. A of this is happening in Louisiana, mister president. It's not just a bunch of beautiful pipes. It's also data centers. Meta's doing a big 1. And, of course, Amazon's working in Louisiana and Stack and so many of the other companies. And our our communities are so grateful to have that investment",
+   "speaker": 3,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02100:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2100.5399561797753,
+   "t_wall": 1772657148.539956,
+   "t_wall_et": "2026-03-04T15:45:48.539956-05:00",
+   "segment_text": "we need to have technological dominance. And and AI and data centers are a big piece of that. And I know that the American people wanna win. They wanna win this just like you do.",
+   "context": "They're actually making life better in these communities and in our states. And so we're so grateful for that. I like what you said a moment ago. This is a win win win across the board. You have everybody who's come to the table in good faith under the leadership of this extraordinary president to make this happen for the country. It's at the perfect time. Trust is not given by communities and local stakeholders. It's built over time. And I think this pledge is a huge part of building that important foundation for the future. America's back, mister president. I'm so excited about that. Excited to be a part of this. Thanks so much for letting us be here. Yeah. I think we'll go with John. Is that alright? John Houston? Thank you, mister president. In places like Ohio, this is a very, very big deal. I I I know that you know well that if we wanna have economic dominance and national security dominance, we need to have technological dominance. And and AI and data centers are a big piece of that. And I know that the American people wanna win. They wanna win this just like you do.",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02173:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 2173.6743142857144,
+   "t_wall": 1772657221.6743143,
+   "t_wall_et": "2026-03-04T15:47:01.674314-05:00",
+   "segment_text": "And as the data centers build new power plants, it leads to energy stability,",
+   "context": "the people that build the power plants, the laborers, the boilermakers. Like, these are working people in places like Ohio that do amazing work to build the data centers, to build the power plants, but people just are worried about their their energy prices. And what you're offering today with the the round this roundtable with the ratepayer protection pledge, mister president, is great leadership because this solves the problem that people were worried about. And as the data centers build new power plants, it leads to energy stability,",
+   "speaker": 4,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02238:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2238.6023475409834,
+   "t_wall": 1772657286.6023476,
+   "t_wall_et": "2026-03-04T15:48:06.602348-05:00",
+   "segment_text": "And Frontier AI that all of these great companies work on every day along with the data centers that underlie them are gonna accelerate scientific discovery. They're gonna unlock economic efficiencies. They're gonna enable entire new industries",
+   "context": "Thank you so much, mister president. You have been talking about this issue beginning as early as the campaign in July when we released the AI action plan. This was a a focal point of the speech you gave. Talked about it again at the State of the Union. So it's a a culmination of of this idea that you've been working on for quite some time. And the key to all of this is that American AI leadership should never come at the cost of hardworking Americans' ability to pay their electricity bills. And Frontier AI that all of these great companies work on every day along with the data centers that underlie them are gonna accelerate scientific discovery. They're gonna unlock economic efficiencies. They're gonna enable entire new industries",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02303:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "ai infrastructure",
+   "text_span": "AI infrastructure",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2303.81246031746,
+   "t_wall": 1772657351.8124604,
+   "t_wall_et": "2026-03-04T15:49:11.812460-05:00",
+   "segment_text": "the largest, most powerful, and most advanced AI infrastructure",
+   "context": "and to create more American jobs in the communities that choose to build all of these data centers. By signing this pledge, all these companies here are making themselves accountable to you, mister president, and to the American people as they strengthen their commitment to benefiting the communities in which they build and they operate. We, as an administration, are using every tool at our disposal to ensure that The US can build and maintain the largest, most powerful, and most advanced AI infrastructure anywhere on the planet. And today, we recognize that building the future requires massive amounts of reliable energy.",
+   "speaker": 5,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02374:meta_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "meta_word",
+   "entity": "Meta",
+   "kind": "company",
+   "alias": "meta",
+   "text_span": "Meta",
+   "dict_tickers": [
+    "META"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2374.6691584158416,
+   "t_wall": 1772657422.6691585,
+   "t_wall_et": "2026-03-04T15:50:22.669158-05:00",
+   "segment_text": "And at Meta, we are so proud of the jobs that we are creating, whether it is in Louisiana or in Ohio.",
+   "context": "movements before, whether it was coming together World War 2 or the industrial revolution, But this is different. The next 3 years, in many ways, sir, are the whole game. And those 3 years, while you are president, you have positioned us to win. You have not only made sure that energy dominance, is a key to to how we will succeed and the compute needs we need, but you've also done something very important. You've made us all know that it's not about the products, it's about the people. And at Meta, we are so proud of the jobs that we are creating, whether it is in Louisiana or in Ohio.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02404:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2404.933548453608,
+   "t_wall": 1772657452.9335485,
+   "t_wall_et": "2026-03-04T15:50:52.933548-05:00",
+   "segment_text": "a very important skill set needed to build data centers. This 4 week program is a new curriculum.",
+   "context": "So proud that it's not just extraordinary engineers. It is pipe fitters. It is welders. It is electricians. And I'm particularly proud today to announce that partnering with senator Moreno and senator Husted, we have launched a pilot in Ohio to train fiber technicians, some who are in this audience actually today, a very important skill set needed to build data centers. This 4 week program is a new curriculum. When you graduate, you have a license to be a fiber technician and a guaranteed job with Meta.",
+   "speaker": 6,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02499:googl",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2499.695,
+   "t_wall": 1772657547.695,
+   "t_wall_et": "2026-03-04T15:52:27.695000-05:00",
+   "segment_text": "Google is grateful for all that you and your administration",
+   "context": "that you said there is honor and dignity in plumbers and in workforce skills training, and you asked Ivanka, as you know, to chair that. 10 years later, we could not have imagined how much we needed all of those jobs and those programs, and you marshaled the entire government to do it. That is having an impact in cities across the country. So thank you very much. Thank you very much. Thank you, sir. Ruth, please. Thank you, mister president. Google is grateful for all that you and your administration",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02563:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2563.894693877551,
+   "t_wall": 1772657611.8946939,
+   "t_wall_et": "2026-03-04T15:53:31.894694-05:00",
+   "segment_text": "to the grid as we grow our data center footprint.",
+   "context": "Consistent with your call to build, bring, or buy energy, we will meaningfully invest across America to bring new energy online as you have stressed so frequently to deliver the self sufficiency that is core to this pledge. In Texas alone, we are adding we've contracted to add more than 7,800 megawatts of net new energy generation and capacity to the grid as we grow our data center footprint. And very much to your point, we're committed to continuing to invest to add capacity where we build.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 3,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02606:googl",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "googl",
+   "entity": "Google",
+   "kind": "company",
+   "alias": "google",
+   "text_span": "Google",
+   "dict_tickers": [
+    "GOOGL"
+   ],
+   "triggers_nearby": [
+    "investment",
+    "partner"
+   ],
+   "t_audio": 2606.5689986301372,
+   "t_wall": 1772657654.5689986,
+   "t_wall_et": "2026-03-04T15:54:14.568999-05:00",
+   "segment_text": "and our energy partner there, Entergy, announced that Google's investment",
+   "context": "And to that end, we will very shortly close on an acquisition of Intersect Power, which is gonna enable us to build data centers right next to those new additional power generation capabilities where possible. 2nd, to protect American ratepayers, we're committed not only to pay for a 100% of the energy we use, but very importantly, the infrastructure to support that growth, whether or not we end up using that energy. And I think 1 example that brings that to life, I recently had the privilege of being in Arkansas with governor Sanders, and our energy partner there, Entergy, announced that Google's investment",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Google",
+    "tickers": [
+     "GOOGL"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.85,
+    "quote": "Google's investment",
+    "summary": "Google announced investment in Arkansas energy infrastructure with Entergy."
+   },
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "GOOGL",
+      "direction": "none",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "days",
+      "rationale": "Speaker (a Google executive, not the President) reiterates already-known data center and energy investment commitments that are unlikely to move the stock materially.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The remark is a restatement of previously announced Google data center/energy investments and workforce initiatives, providing no new financial information likely to move GOOGL versus the market.",
+    "raw": "{\"tickers\": [{\"ticker\": \"GOOGL\", \"direction\": \"none\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"days\", \"rationale\": \"Speaker (a Google executive, not the President) reiterates already-known data center and energy investment commitments that are unlikely to move the stock materially.\", \"added\": false}], \"summary\": \"The remark is a restatement of previously announced Google data center/energy investments and workforce initiatives, providing no new financial information likely to move GOOGL versus the market.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02634:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data center",
+   "text_span": "data center",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2634.4816179611653,
+   "t_wall": 1772657682.481618,
+   "t_wall_et": "2026-03-04T15:54:42.481618-05:00",
+   "segment_text": "Every 1 job that we create in a Google data center gives rise to an additional 9 jobs in the communities in which we are building that data center. Those are high skilled construction jobs, electrician jobs",
+   "context": "which contributes more than $1,000,000,000 back to Arkansas customers to reduce their electricity costs. I think this is precisely what you were saying we need to do more of, and we're committed to doing that. 3rd, I get very excited about the topic of workforce development, very much to your point and the important topic of job creation. Every 1 job that we create in a Google data center gives rise to an additional 9 jobs in the communities in which we are building that data center. Those are high skilled construction jobs, electrician jobs",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02656:ai_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "jobs"
+   ],
+   "t_audio": 2656.6176730769234,
+   "t_wall": 1772657704.6176732,
+   "t_wall_et": "2026-03-04T15:55:04.617673-05:00",
+   "segment_text": "And we announced, in fact, last week that we're providing free AI professional",
+   "context": "3rd, I get very excited about the topic of workforce development, very much to your point and the important topic of job creation. Every 1 job that we create in a Google data center gives rise to an additional 9 jobs in the communities in which we are building that data center. Those are high skilled construction jobs, electrician jobs represented in by so many of the amazing people here today. It's also jobs across the community, in schools, in restaurants with small businesses. And we announced, in fact, last week that we're providing free AI professional training for all small businesses across America.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02690:defense_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 2690.368153153153,
+   "t_wall": 1772657738.368153,
+   "t_wall_et": "2026-03-04T15:55:38.368153-05:00",
+   "segment_text": "the American grid needs to be more resilient, and so we're investing here as well. 2 quick things. We pioneered",
+   "context": "we're particularly proud of the work we've led to create an electrician training program, and we're committed to train a 100,000 electrical workers and 30,000 new apprentices across the country. On top of that, we're excited about significantly growing these programs. We've heard the pledge. Finally, mister president, as you said, the American grid needs to be more resilient, and so we're investing here as well. 2 quick things. We pioneered demand response with data centers. So we, with technology, will move workloads out of the way during extreme weather events to make room for the community.",
+   "speaker": 7,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02746:ai",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai",
+   "entity": "Artificial intelligence / data centers",
+   "kind": "sector",
+   "alias": "data centers",
+   "text_span": "data centers",
+   "dict_tickers": [
+    "NVDA",
+    "SMH",
+    "MSFT",
+    "VRT"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2746.7673636363634,
+   "t_wall": 1772657794.7673635,
+   "t_wall_et": "2026-03-04T15:56:34.767364-05:00",
+   "segment_text": "and data centers, and we build them fast. Currently, we're building 1 on the Tennessee Mississippi state line.",
+   "context": "and for its citizens. Thank you again for your leadership on this very important point. Very much. Doing a great job. Thank you. Sir. Glenn? Mister president, I wanna thank you for your Thank you. That's why I'm here. I wanna thank you for your leadership. Because of your work on this issue, I'm confident that we will win the race with, AI with China and succeed in delivering inexpensive, abundant electricity for the American people. As you know, x AI builds huge supercomputers and data centers, and we build them fast. Currently, we're building 1 on the Tennessee Mississippi state line.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence / data centers",
+    "tickers": [
+     "NVDA",
+     "SMH",
+     "MSFT",
+     "VRT"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.75,
+    "quote": "x AI builds huge supercomputers and data centers, and we build them fast.",
+    "summary": "xAI building large data center on Tennessee-Mississippi state line for AI infrastructure."
+   },
+   "llm_attempts": 1,
+   "count": 7,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "More AI data center buildout by xAI supports demand for GPUs generally.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "repeat",
+      "horizon": "weeks",
+      "rationale": "Broader AI infrastructure investment is mildly supportive of semiconductor sector sentiment.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "MSFT",
+      "direction": "none",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Remark is specific to xAI/Tesla-related data centers, not directly relevant to Microsoft.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "VRT",
+      "direction": "up",
+      "confidence": 0.6,
+      "magnitude": "medium",
+      "novelty": "new",
+      "horizon": "days",
+      "rationale": "New details on massive data center power/cooling infrastructure (substations, water recycling, mega pack) benefit power/cooling infrastructure suppliers like Vertiv.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"More AI data center buildout by xAI supports demand for GPUs generally.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"repeat\", \"horizon\": \"weeks\", \"rationale\": \"Broader AI infrastructure investment is mildly supportive of semiconductor sector sentiment.\", \"added\": false}, {\"ticker\": \"MSFT\", \"direction\": \"none\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Remark is specific to xAI/Tesla-related data centers, not directly relevant to Microsoft.\", \"added\": false}, {\"ticker\": \"VRT\", \"direction\": \"up\", \"confidence\": 0.6, \"magnitude\": \"medium\", \"novelty\": \"new\", \"horizon\": \"days\", \"rationale\": \"New details on massive data center power/cooling infrastructure (substations, water recycling, mega pack) benefit power/cooling infrastructure suppliers like Vertiv.\", \"added\": false}]}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02821:ai_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "ai_word",
+   "entity": "Artificial intelligence",
+   "kind": "sector",
+   "alias": "ai",
+   "text_span": "AI",
+   "dict_tickers": [
+    "NVDA",
+    "SMH"
+   ],
+   "triggers_nearby": [
+    "cheaper"
+   ],
+   "t_audio": 2821.743938536585,
+   "t_wall": 1772657869.7439384,
+   "t_wall_et": "2026-03-04T15:57:49.743938-05:00",
+   "segment_text": "to deploying our AI technology to make people's lives better, creating a period of abundance where electricity becomes cheaper and people have access to the best goods and services humankind has ever seen.",
+   "context": "We will build state of the art we haven't talked about that yet, but this is actually quite important. We will build state of the art water recycling plants that will protect approximately 4,700,000,000 gallons of water in the Memphis Aquifer each year, and we will employ thousands of American workers from around the city of Memphis on both sides of Tennessee Mississippi border. We will also commit to deploying our AI technology to make people's lives better, creating a period of abundance where electricity becomes cheaper and people have access to the best goods and services humankind has ever seen.",
+   "speaker": 8,
+   "speaker_is_main": false,
+   "state": "confirmed",
+   "llm": {
+    "entity": "Artificial intelligence",
+    "tickers": [
+     "NVDA",
+     "SMH"
+    ],
+    "stance": "positive",
+    "action": "investment",
+    "confidence": 0.92,
+    "quote": "deploying our AI technology to make people's lives better",
+    "summary": "The President commits to deploying AI technology for abundance and cheaper electricity."
+   },
+   "llm_attempts": 1,
+   "count": 3,
+   "judge": {
+    "model": "claude-sonnet-5",
+    "tickers": [
+     {
+      "ticker": "NVDA",
+      "direction": "up",
+      "confidence": 0.55,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Massive new xAI data center and power buildout signals continued strong AI infrastructure demand supportive of GPU sales.",
+      "added_by_judge": false
+     },
+     {
+      "ticker": "SMH",
+      "direction": "up",
+      "confidence": 0.5,
+      "magnitude": "small",
+      "novelty": "unclear",
+      "horizon": "days",
+      "rationale": "Broad semiconductor ETF benefits modestly from reinforced AI capex narrative even though remark is not chip-specific.",
+      "added_by_judge": false
+     }
+    ],
+    "summary": "The excerpt is xAI executives pledging massive new data center, power, and water infrastructure investment tied to a White House ratepayer event, reinforcing bullish AI infrastructure capex sentiment that mildly supports chip demand proxies like NVDA and SMH, though it is not a direct new policy announcement for either ticker.",
+    "raw": "{\"tickers\": [{\"ticker\": \"NVDA\", \"direction\": \"up\", \"confidence\": 0.55, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Massive new xAI data center and power buildout signals continued strong AI infrastructure demand supportive of GPU sales.\", \"added\": false}, {\"ticker\": \"SMH\", \"direction\": \"up\", \"confidence\": 0.5, \"magnitude\": \"small\", \"novelty\": \"unclear\", \"horizon\": \"days\", \"rationale\": \"Broad semiconductor ETF benefits modestly from reinforced AI capex narrative even though remark is not chip-specific.\", \"added\": false}], \"summary\": \"The excerpt is xAI executives pledging massive new data center, power, and water infrastructure investment tied to a White House ratepayer event, reinforcing bullish AI infrastructure capex sentiment that mildly supports chip demand proxies like NVDA and SMH, though it is not a direct new policy announcement for either ticker.\"}"
+   }
+  },
+  {
+   "signal_id": "W50sSr87n4Q:02929:aapl",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "aapl",
+   "entity": "Apple",
+   "kind": "company",
+   "alias": "apple",
+   "text_span": "Apple",
+   "dict_tickers": [
+    "AAPL"
+   ],
+   "triggers_nearby": [],
+   "t_audio": 2929.719988235294,
+   "t_wall": 1772657977.7199883,
+   "t_wall_et": "2026-03-04T15:59:37.719988-05:00",
+   "segment_text": "the largest site of 1 that's not here today, Apple.",
+   "context": "speakers, but we have the most important people in the room and great people, political and otherwise. Would anyone have anything? Please, Daryl. Perhaps as the the California representative here, I can tell you how excited I am about your proposals. 1st of all, all of you have major presence in California. And not long ago, I visited the largest site of 1 that's not here today, Apple. It's in Reno, Nevada, mister president.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:03019:solar",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "solar",
+   "entity": "Solar / wind",
+   "kind": "sector",
+   "alias": "solar",
+   "text_span": "solar",
+   "dict_tickers": [
+    "TAN",
+    "ICLN",
+    "FSLR",
+    "ENPH"
+   ],
+   "triggers_nearby": [
+    "plants"
+   ],
+   "t_audio": 3019.1700424657533,
+   "t_wall": 1772658067.1700425,
+   "t_wall_et": "2026-03-04T16:01:07.170043-05:00",
+   "segment_text": "Lastly, my state has invested in solar so much so that we have it to burn during the day. Literally, we burn it. We don't know what to do with it.",
+   "context": "of these companies already in the past building backup power, but also the need to have the resilience that these plants will create as a result of your work. And they won't be diesel plants. They'll be clean burning plants. They won't be temporary or backup. They'll be positive. Lastly, my state has invested in solar so much so that we have it to burn during the day. Literally, we burn it. We don't know what to do with it.",
+   "speaker": 0,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 1,
+   "count": 2,
+   "judge": null
+  },
+  {
+   "signal_id": "W50sSr87n4Q:03077:defense_word",
+   "video_id": "W50sSr87n4Q",
+   "entity_id": "defense_word",
+   "entity": "Defense",
+   "kind": "sector",
+   "alias": "2",
+   "text_span": "2",
+   "dict_tickers": [
+    "ITA",
+    "XAR",
+    "AVAV",
+    "KTOS"
+   ],
+   "triggers_nearby": [
+    "investing"
+   ],
+   "t_audio": 3077.938958333333,
+   "t_wall": 1772658125.9389584,
+   "t_wall_et": "2026-03-04T16:02:05.938958-05:00",
+   "segment_text": "this year building out this infrastructure. That's a 2% tailwind to GDP,",
+   "context": "lot more than what they did so far on the edge of California to help California be part of winning the AI race. Thank you very much. We'll go very quickly. David, please. Thank you, sir. As I think all of you know here, we have an AI boom going on. We also have a construction boom going on. Just the leading companies in The US are investing $650,000,000,000 this year building out this infrastructure. That's a 2% tailwind to GDP, and that is leading to job increases for, construction workers and huge wage increases for construction workers like the the fellows we got right up here. So this is a very important boom to sustain.",
+   "speaker": 10,
+   "speaker_is_main": false,
+   "state": "retracted",
+   "llm": null,
+   "llm_attempts": 2,
+   "count": 1,
+   "judge": null
+  }
+ ]
+}
